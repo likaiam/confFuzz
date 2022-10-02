@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'CANADA' ) ,( '23' ) ; CREATE TABLE v2 ( v3 , v4 INTEGER PRIMARY KEY ON CONFLICT IGNORE ) ; INSERT INTO v2 VALUES ( 'testtest' , 1 ) ,( 'v1' , 0 ) ,( 'x' , 10 ) ,( 'v1' , 2 ) ; SELECT count ( v4 ) , v4 AS alias FROM v2 ; 

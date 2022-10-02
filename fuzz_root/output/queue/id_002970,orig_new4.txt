@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'Brand#34' ) ,( 'v1' ) ,( 'x' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'Ar' , 9223372036854775807 ) ,( 'Brand#23' , 10 ) ,( 'v1' , 10 ) ,( '1994-01-01' , 2000 ) ; DELETE FROM v0 WHERE v1 = ( SELECT NTILE ( 10 ) OVER( ORDER BY v4 NULLS LAST ) - 10 AS nt FROM v2 ) IN ( 9.100000 , 10 , NULL ) ; 

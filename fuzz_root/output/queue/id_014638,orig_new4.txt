@@ -1,0 +1,1 @@
+VACUUM ; CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; VACUUM ; VACUUM ; ATTACH 'v1' AS spellfix1 ; 

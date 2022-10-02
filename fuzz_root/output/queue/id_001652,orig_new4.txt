@@ -1,0 +1,1 @@
+SELECT - 'forest%%' ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; INSERT INTO v0 SELECT v0 . v1 FROM v0 , v0 AS t WHERE v0 . v1 IN ( v0 . v1 , 3 , v0 . v1 ) ; SELECT v0 . v1 FROM v0 AS a JOIN v0 AS b ON v0 . v1 = v0 . v1 WHERE v0 . v1 IN ( 0 , 0 , 1 ) ; 

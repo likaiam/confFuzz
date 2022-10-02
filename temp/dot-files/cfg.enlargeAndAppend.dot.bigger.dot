@@ -1,0 +1,10 @@
+digraph "CFG for 'enlargeAndAppend' function" {
+	label="CFG for 'enlargeAndAppend' function";
+
+	Node0x55c0f6ff7f50 [shape=record,label="{sqlite3.c:30630:}"];
+	Node0x55c0f6ff7f50 -> Node0x55c0f6ffb220;
+	Node0x55c0f6ff7f50 -> Node0x55c0f6ffb270;
+	Node0x55c0f6ffb220 [shape=record,label="{sqlite3.c:30633:}"];
+	Node0x55c0f6ffb220 -> Node0x55c0f6ffb270;
+	Node0x55c0f6ffb270 [shape=record,label="{sqlite3.c:30636:}"];
+}

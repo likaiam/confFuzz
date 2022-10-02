@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 , v9 , v2 , v8 , v12 , v4 , v11 , v10 , v13 , v7 , v3 , v5 , v6 INT ) ; INSERT INTO v0 ( v7 , v5 ) VALUES ( 1 , 0 ) ; SELECT NOT ( 'v0' = 'v1' AND v2 = 3 ) , v6 , v8 FROM v0 NATURAL JOIN v0 ; 

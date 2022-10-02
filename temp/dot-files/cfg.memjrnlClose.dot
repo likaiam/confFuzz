@@ -1,0 +1,5 @@
+digraph "CFG for 'memjrnlClose' function" {
+	label="CFG for 'memjrnlClose' function";
+
+	Node0x55c0f5ecbae0 [shape=record,label="{sqlite3.c:101008:}"];
+}

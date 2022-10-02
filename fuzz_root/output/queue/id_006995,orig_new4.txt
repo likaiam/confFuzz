@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16le'; ; CREATE TABLE v0 ( v1 INT ) ; INSERT INTO v0 VALUES ( 10 ) ; CREATE UNIQUE INDEX v2 ON v0 ( v1 , v1 ) WHERE datetime ( ( v1 >= 2 IN ( 2.100000 , 1 , 0 ) ) , v1 ) IS NOT NULL ; VACUUM ; 

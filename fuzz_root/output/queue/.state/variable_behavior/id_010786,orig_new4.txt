@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 DOUBLE UNIQUE ON CONFLICT REPLACE CHECK( v1 NOT LIKE randomblob ( v1 + v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'forest%%' ) ,( 'Brand#34' ) ,( 'v0' ) ,( 'v1' ) ,( 'SM BOX' ) ; UPDATE v0 SET v1 = randomblob ( v1 ) ; SELECT instr ( zeroblob ( DISTINCT 10 ) , v1 ) FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

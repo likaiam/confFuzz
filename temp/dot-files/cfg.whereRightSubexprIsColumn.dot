@@ -1,0 +1,18 @@
+digraph "CFG for 'whereRightSubexprIsColumn' function" {
+	label="CFG for 'whereRightSubexprIsColumn' function";
+
+	Node0x55c0f967c8c0 [shape=record,label="{sqlite3.c:154031:}"];
+	Node0x55c0f967c8c0 -> Node0x55c0f968f040;
+	Node0x55c0f967c8c0 -> Node0x55c0f967b140;
+	Node0x55c0f968f040 [shape=record,label="{sqlite3.c:154033:}"];
+	Node0x55c0f968f040 -> Node0x55c0f968e570;
+	Node0x55c0f968f040 -> Node0x55c0f967b140;
+	Node0x55c0f968e570 [shape=record,label="{sqlite3.c:154033:}"];
+	Node0x55c0f968e570 -> Node0x55c0f967b140;
+	Node0x55c0f968e570 -> Node0x55c0f968e750;
+	Node0x55c0f968e750 [shape=record,label="{sqlite3.c:154034:}"];
+	Node0x55c0f968e750 -> Node0x55c0f967b380;
+	Node0x55c0f967b140 [shape=record,label="{sqlite3.c:154036:}"];
+	Node0x55c0f967b140 -> Node0x55c0f967b380;
+	Node0x55c0f967b380 [shape=record,label="{sqlite3.c:154037:}"];
+}

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'DELIVER IN PERSON' ) ,( 'x' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; SELECT DISTINCT * FROM v2 AS a JOIN v2 ON NULL = v0 . v1 , v0 WHERE v1 = v1 AND v1 = 2000 ; SELECT MIN ( v1 ) AS REVENUE , v1 AS alias FROM v0 ; 

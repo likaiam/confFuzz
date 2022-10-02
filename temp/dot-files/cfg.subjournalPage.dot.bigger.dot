@@ -1,0 +1,25 @@
+digraph "CFG for 'subjournalPage' function" {
+	label="CFG for 'subjournalPage' function";
+
+	Node0x55c0f733bd10 [shape=record,label="{sqlite3.c:58330:}"];
+	Node0x55c0f733bd10 -> Node0x55c0f733ff30;
+	Node0x55c0f733bd10 -> Node0x55c0f733ff80;
+	Node0x55c0f733ff30 [shape=record,label="{sqlite3.c:58343:}"];
+	Node0x55c0f733ff30 -> Node0x55c0f585a480;
+	Node0x55c0f733ff30 -> Node0x55c0f7340c30;
+	Node0x55c0f585a480 [shape=record,label="{sqlite3.c:58348:}"];
+	Node0x55c0f585a480 -> Node0x55c0f584e590;
+	Node0x55c0f585a480 -> Node0x55c0f73427a0;
+	Node0x55c0f584e590 [shape=record,label="{sqlite3.c:58355:}"];
+	Node0x55c0f584e590 -> Node0x55c0f73427a0;
+	Node0x55c0f73427a0 [shape=record,label="{sqlite3.c:58357:}"];
+	Node0x55c0f73427a0 -> Node0x55c0f7340c30;
+	Node0x55c0f7340c30 [shape=record,label="{sqlite3.c:58358:}"];
+	Node0x55c0f7340c30 -> Node0x55c0f733ff80;
+	Node0x55c0f733ff80 [shape=record,label="{sqlite3.c:58359:}"];
+	Node0x55c0f733ff80 -> Node0x55c0f7343810;
+	Node0x55c0f733ff80 -> Node0x55c0f7343860;
+	Node0x55c0f7343810 [shape=record,label="{sqlite3.c:58360:}"];
+	Node0x55c0f7343810 -> Node0x55c0f7343860;
+	Node0x55c0f7343860 [shape=record,label="{sqlite3.c:58364:}"];
+}

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '' ) ,( 'v1' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v1' , 1 ) ,( 'v0' , 10 ) ,( 'v0' , 3 ) ,( 'x' , 9223372036854775807 ) ; SELECT v3 , count ( * ) OVER( ORDER BY v4 ) FROM v2 AS q ; 

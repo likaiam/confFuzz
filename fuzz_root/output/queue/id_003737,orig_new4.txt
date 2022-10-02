@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'MED PACK' ) ,( 'x' ) ,( 'v1' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v0' , 1 ) ,( 'Ar' , 10 ) ,( '1994-01-01' , 1 ) ,( 'v1' , 1 ) ; SELECT quote ( max ( v3 , v3 ) ) FROM v0 JOIN v2 ON v4 = v4 ; 

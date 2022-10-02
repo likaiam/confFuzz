@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v1' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE INDEX v5 ON v0 ( v1 , v1 ) WHERE ( v1 = v1 AND ( v1 = v1 OR v1 = 3 ) ) AND v1 = 10 ; SELECT * FROM v2 AS a JOIN v0 ON abs ( v1 ) WHERE v1 = v1 AND v1 = 10 

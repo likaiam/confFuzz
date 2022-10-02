@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'SM BOX' ) ,( 'v1' ) ,( 'x' ) ; INSERT INTO v0 VALUES ( 1 ) ,( 127 ) ,( NULL ) ,( 1.100000 ) ,( 'x' ) ,( 'v1' ) ; INSERT OR FAIL INTO v0 SELECT * FROM v0 ; SELECT instr ( v1 , v1 + julianday ( 'c' ) ) FROM v0 ; 

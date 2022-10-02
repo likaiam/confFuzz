@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'SM BOX' ) ,( '1995-03-15' ) ,( 'x' ) ,( '199419' ) ,( 'v1' ) ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT 9223372036854775807 , NULL , 10 , rank () OVER( ORDER BY v1 DESC ) FROM v0 ORDER BY typeof ( '%%BRASS' ) DESC ; 

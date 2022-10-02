@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'LG PKG' ) ,( 'MED P' ) ,( 'x' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v0' , 9223372036854775807 ) ,( 'x' , 2 ) ,( 'v0' , 10 ) ,( 'Y' , 3 ) ; SELECT v3 FROM v2 ORDER BY 'test' , unlikely ( v4 <= 'abc' ) DESC , v4 , v4 ; 

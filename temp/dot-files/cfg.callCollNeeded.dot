@@ -1,0 +1,25 @@
+digraph "CFG for 'callCollNeeded' function" {
+	label="CFG for 'callCollNeeded' function";
+
+	Node0x55c0f6191250 [shape=record,label="{sqlite3.c:120767:}"];
+	Node0x55c0f6191250 -> Node0x55c0f881acb0;
+	Node0x55c0f6191250 -> Node0x55c0f881b440;
+	Node0x55c0f881acb0 [shape=record,label="{sqlite3.c:120770:}"];
+	Node0x55c0f881acb0 -> Node0x55c0f881bd90;
+	Node0x55c0f881acb0 -> Node0x55c0f881bd40;
+	Node0x55c0f881bd40 [shape=record,label="{sqlite3.c:120771:}"];
+	Node0x55c0f881bd40 -> Node0x55c0f881cb90;
+	Node0x55c0f881bd90 [shape=record,label="{sqlite3.c:120772:}"];
+	Node0x55c0f881bd90 -> Node0x55c0f881b440;
+	Node0x55c0f881b440 [shape=record,label="{sqlite3.c:120776:}"];
+	Node0x55c0f881b440 -> Node0x55c0f881cb40;
+	Node0x55c0f881b440 -> Node0x55c0f881cb90;
+	Node0x55c0f881cb40 [shape=record,label="{sqlite3.c:120777:}"];
+	Node0x55c0f881cb40 -> Node0x55c0f881d9a0;
+	Node0x55c0f881cb40 -> Node0x55c0f881dd40;
+	Node0x55c0f881d9a0 [shape=record,label="{sqlite3.c:120782:}"];
+	Node0x55c0f881d9a0 -> Node0x55c0f881dd40;
+	Node0x55c0f881dd40 [shape=record,label="{sqlite3.c:120784:}"];
+	Node0x55c0f881dd40 -> Node0x55c0f881cb90;
+	Node0x55c0f881cb90 [shape=record,label="{sqlite3.c:120787:}"];
+}

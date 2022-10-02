@@ -1,0 +1,1 @@
+CREATE TABLE temp . v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'testtest' ) ,( 'v1' ) ,( '%%green%%' ) ,( '1995-09-01' ) ; UPDATE v0 SET v1 = randomblob ( ( 10 = 10 AND v1 = 0 ) + v1 + julianday ( v1 ) ) ; CREATE INDEX v2 ON v0 ( v1 ) WHERE v1 != 10 ; SELECT * FROM v2 NATURAL JOIN v2 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ) DESC ; 

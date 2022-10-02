@@ -1,0 +1,10 @@
+digraph "CFG for 'releasePage' function" {
+	label="CFG for 'releasePage' function";
+
+	Node0x55c0f78e90b0 [shape=record,label="{sqlite3.c:69127:}"];
+	Node0x55c0f78e90b0 -> Node0x55c0f78eea10;
+	Node0x55c0f78e90b0 -> Node0x55c0f78ee590;
+	Node0x55c0f78eea10 [shape=record,label="{sqlite3.c:69128:}"];
+	Node0x55c0f78eea10 -> Node0x55c0f78ee590;
+	Node0x55c0f78ee590 [shape=record,label="{sqlite3.c:69129:}"];
+}

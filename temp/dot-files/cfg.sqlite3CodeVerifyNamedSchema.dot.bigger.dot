@@ -1,0 +1,25 @@
+digraph "CFG for 'sqlite3CodeVerifyNamedSchema' function" {
+	label="CFG for 'sqlite3CodeVerifyNamedSchema' function";
+
+	Node0x55c0f60cb7f0 [shape=record,label="{sqlite3.c:120307:}"];
+	Node0x55c0f60cb7f0 -> Node0x55c0f921bb50;
+	Node0x55c0f921bb50 [shape=record,label="{sqlite3.c:120310:}"];
+	Node0x55c0f921bb50 -> Node0x55c0f921bd70;
+	Node0x55c0f921bb50 -> Node0x55c0f921b450;
+	Node0x55c0f921bd70 [shape=record,label="{sqlite3.c:120311:}"];
+	Node0x55c0f921bd70 -> Node0x55c0f921cae0;
+	Node0x55c0f921bd70 -> Node0x55c0f921ca90;
+	Node0x55c0f921cae0 [shape=record,label="{sqlite3.c:120312:}"];
+	Node0x55c0f921cae0 -> Node0x55c0f921cea0;
+	Node0x55c0f921cae0 -> Node0x55c0f921ca40;
+	Node0x55c0f921cea0 [shape=record,label="{sqlite3.c:120312:}"];
+	Node0x55c0f921cea0 -> Node0x55c0f921ca40;
+	Node0x55c0f921cea0 -> Node0x55c0f921ca90;
+	Node0x55c0f921ca40 [shape=record,label="{sqlite3.c:120313:}"];
+	Node0x55c0f921ca40 -> Node0x55c0f921ca90;
+	Node0x55c0f921ca90 [shape=record,label="{sqlite3.c:120315:}"];
+	Node0x55c0f921ca90 -> Node0x55c0f921bce0;
+	Node0x55c0f921bce0 [shape=record,label="{sqlite3.c:120310:}"];
+	Node0x55c0f921bce0 -> Node0x55c0f921bb50;
+	Node0x55c0f921b450 [shape=record,label="{sqlite3.c:120316:}"];
+}

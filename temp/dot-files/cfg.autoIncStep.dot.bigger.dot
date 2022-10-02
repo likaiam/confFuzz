@@ -1,0 +1,10 @@
+digraph "CFG for 'autoIncStep' function" {
+	label="CFG for 'autoIncStep' function";
+
+	Node0x55c0fa0852b0 [shape=record,label="{sqlite3.c:126642:}"];
+	Node0x55c0fa0852b0 -> Node0x55c0fa09ad00;
+	Node0x55c0fa0852b0 -> Node0x55c0fa09ad50;
+	Node0x55c0fa09ad00 [shape=record,label="{sqlite3.c:126644:}"];
+	Node0x55c0fa09ad00 -> Node0x55c0fa09ad50;
+	Node0x55c0fa09ad50 [shape=record,label="{sqlite3.c:126646:}"];
+}

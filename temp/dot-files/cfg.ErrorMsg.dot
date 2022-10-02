@@ -1,0 +1,5 @@
+digraph "CFG for 'ErrorMsg' function" {
+	label="CFG for 'ErrorMsg' function";
+
+	Node0x56256536fe00 [shape=record,label="{lemon.c:1498:}"];
+}

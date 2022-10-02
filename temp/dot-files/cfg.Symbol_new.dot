@@ -1,0 +1,15 @@
+digraph "CFG for 'Symbol_new' function" {
+	label="CFG for 'Symbol_new' function";
+
+	Node0x56256568a200 [shape=record,label="{lemon.c:5378:}"];
+	Node0x56256568a200 -> Node0x56256568a790;
+	Node0x56256568a200 -> Node0x56256568fcc0;
+	Node0x56256568a790 [shape=record,label="{lemon.c:5384:}"];
+	Node0x56256568a790 -> Node0x562565690230;
+	Node0x56256568a790 -> Node0x562565690280;
+	Node0x562565690230 [shape=record,label="{lemon.c:5385:}"];
+	Node0x562565690230 -> Node0x562565690280;
+	Node0x562565690280 [shape=record,label="{lemon.c:5386:}"];
+	Node0x562565690280 -> Node0x56256568fcc0;
+	Node0x56256568fcc0 [shape=record,label="{lemon.c:5400:}"];
+}

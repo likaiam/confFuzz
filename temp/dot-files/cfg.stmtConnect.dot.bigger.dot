@@ -1,0 +1,17 @@
+digraph "CFG for 'stmtConnect' function" {
+	label="CFG for 'stmtConnect' function";
+
+	Node0x55c0f6f5fc50 [shape=record,label="{sqlite3.c:241008:}"];
+	Node0x55c0f6f5fc50 -> Node0x55c0fb7fad10;
+	Node0x55c0f6f5fc50 -> Node0x55c0fb7fad60;
+	Node0x55c0fb7fad10 [shape=record,label="{sqlite3.c:241035:}"];
+	Node0x55c0fb7fad10 -> Node0x55c0fb7fb5f0;
+	Node0x55c0fb7fad10 -> Node0x55c0fb7fb640;
+	Node0x55c0fb7fb5f0 [shape=record,label="{sqlite3.c:241037:}"];
+	Node0x55c0fb7fb5f0 -> Node0x55c0f6f5ff30;
+	Node0x55c0fb7fb640 [shape=record,label="{sqlite3.c:241038:}"];
+	Node0x55c0fb7fb640 -> Node0x55c0fb7fad60;
+	Node0x55c0fb7fad60 [shape=record,label="{sqlite3.c:241041:}"];
+	Node0x55c0fb7fad60 -> Node0x55c0f6f5ff30;
+	Node0x55c0f6f5ff30 [shape=record,label="{sqlite3.c:241042:}"];
+}

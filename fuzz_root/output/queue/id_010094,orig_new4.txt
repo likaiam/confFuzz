@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 , v2 AS( v3 + v3 ) , v3 AS( NOT CASE WHEN v1 != v3 THEN 2000 ELSE 10 END ) CHECK( v1 ) ) ; SELECT DISTINCT v0 . v3 FROM v0 AS a JOIN v0 ON NULL = v0 . v2 WHERE v0 . v2 IN ( v0 . v2 , v0 . v2 , v0 . v3 ) ; SELECT sum ( v1 ) , sum ( length ( v3 ) ) FROM v0 ; 

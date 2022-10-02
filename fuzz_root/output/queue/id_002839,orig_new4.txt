@@ -1,0 +1,1 @@
+SELECT NTILE ( ( v6 = 2 AND 0 ) ) OVER( ORDER BY v5 ) - 2000 AS nt FROM v4 ; SELECT * FROM v7 , v8 WHERE v11 = v10 AND v9 = 1 ; SELECT * FROM v12 , v13 WHERE v14 = v16 AND v15 = 0 ; 

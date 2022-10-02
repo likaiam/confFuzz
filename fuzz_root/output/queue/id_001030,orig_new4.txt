@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v3 ) VALUES ( 0 ) ,( 10 ) ; UPDATE v0 SET v1 = x () WHERE v3 >= x ( x () , 'v1' ) WITH HINT ( NO_CACHE ) ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'LG CASEaaaaaaaaaaaa' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'GERMANY' , 0 ) ,( 'v0' , 9223372036854775807 ) ,( 'x' , 9223372036854775807 ) ,( 'x' , 0 ) ; SELECT SUM ( DISTINCT v1 * ( 10 - v1 ) ) AS REVENUE , v1 AS alias FROM v2 AS b , v0 AS a ; 

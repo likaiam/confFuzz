@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 VALUES ( '13' ) ,( 'CANADA' ) ,( 'c' ) ; CREATE TRIGGER tmp AFTER INSERT ON v0 BEGIN INSERT INTO v0 ( v1 ) SELECT v1 FROM v0 ORDER BY sum ( v1 ) OVER( ) ON CONFLICT DO NOTHING ; END ; INSERT INTO v0 SELECT randomblob ( 12 ) FROM v0 ; SELECT datetime ( coalesce ( 'v0' = 'LG PACK' , v1 ) , v1 ) AS REVENUE , v1 AS alias FROM v0 ; 

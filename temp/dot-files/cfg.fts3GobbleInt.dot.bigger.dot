@@ -1,0 +1,17 @@
+digraph "CFG for 'fts3GobbleInt' function" {
+	label="CFG for 'fts3GobbleInt' function";
+
+	Node0x55c0fad50200 [shape=record,label="{sqlite3.c:177407:}"];
+	Node0x55c0fad50200 -> Node0x55c0f6b62c30;
+	Node0x55c0fad50200 -> Node0x55c0fad59270;
+	Node0x55c0f6b62c30 [shape=record,label="{sqlite3.c:177413:}"];
+	Node0x55c0f6b62c30 -> Node0x55c0fad59270;
+	Node0x55c0fad59270 [shape=record,label="{sqlite3.c:177415:}"];
+	Node0x55c0fad59270 -> Node0x55c0fad599e0;
+	Node0x55c0fad59270 -> Node0x55c0fad59a30;
+	Node0x55c0fad599e0 [shape=record,label="{sqlite3.c:177416:}"];
+	Node0x55c0fad599e0 -> Node0x55c0fad50380;
+	Node0x55c0fad59a30 [shape=record,label="{sqlite3.c:177418:}"];
+	Node0x55c0fad59a30 -> Node0x55c0fad50380;
+	Node0x55c0fad50380 [shape=record,label="{sqlite3.c:177421:}"];
+}

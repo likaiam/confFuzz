@@ -1,0 +1,12 @@
+digraph "CFG for 'Plink_copy' function" {
+	label="CFG for 'Plink_copy' function";
+
+	Node0x56256543ab70 [shape=record,label="{lemon.c:3146:}"];
+	Node0x56256543ab70 -> Node0x5625653184b0;
+	Node0x5625653184b0 [shape=record,label="{lemon.c:3149:}"];
+	Node0x5625653184b0 -> Node0x562565318640;
+	Node0x5625653184b0 -> Node0x562565318530;
+	Node0x562565318640 [shape=record,label="{lemon.c:3150:}"];
+	Node0x562565318640 -> Node0x5625653184b0;
+	Node0x562565318530 [shape=record,label="{lemon.c:3155:}"];
+}

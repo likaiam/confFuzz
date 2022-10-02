@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT , v2 INT ) ; INSERT INTO v0 VALUES ( 0 , 10 ) ,( 10 , 0 ) ,( 12 , 10 ) ,( 2 , 10 ) ,( NULL , 9223372036854775807 ) ,( NULL , 10 ) ; SELECT * FROM v0 WHERE v2 BETWEEN 'x' AND 'v0' OR v2 = 'x' GROUP BY v1 ORDER BY length ( v2 ) DESC ; DELETE FROM v0 WHERE v2 = '29' OR v2 = 'PROMO%%' ; 

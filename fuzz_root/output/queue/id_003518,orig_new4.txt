@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 , v1 INTEGER AS( 'x' ) CHECK( 2 ) CHECK( v2 NOT LIKE 'v1' ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 1 ) ; SELECT v2 FROM v0 WHERE v2 IN ( SELECT 10 + v2 FROM v0 ) ; VACUUM ; SELECT SUM ( datetime ( v2 , v1 ) * ( 1 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

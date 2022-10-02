@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( v1 != datetime ( ( v1 >= v1 IN ( 10.100000 , 9 , 10 ) ) , v1 ) NOT LIKE max ( v1 , v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 1 ) ,( 10 ) ; CREATE TABLE v2 ( v3 CHAR(25) PRIMARY KEY , v4 INT ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 10 ) ; SELECT * FROM v2 , v2 WHERE v4 = v4 AND 10.100000 = 10 ; 

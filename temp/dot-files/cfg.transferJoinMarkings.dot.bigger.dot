@@ -1,0 +1,10 @@
+digraph "CFG for 'transferJoinMarkings' function" {
+	label="CFG for 'transferJoinMarkings' function";
+
+	Node0x55c0f95d7870 [shape=record,label="{sqlite3.c:152357:}"];
+	Node0x55c0f95d7870 -> Node0x55c0f95d9db0;
+	Node0x55c0f95d7870 -> Node0x55c0f95d9e00;
+	Node0x55c0f95d9db0 [shape=record,label="{sqlite3.c:152359:}"];
+	Node0x55c0f95d9db0 -> Node0x55c0f95d9e00;
+	Node0x55c0f95d9e00 [shape=record,label="{sqlite3.c:152362:}"];
+}

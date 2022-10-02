@@ -1,0 +1,1 @@
+CREATE VIEW v0 ( v1 ) AS SELECT ( SELECT 10 IN ( 'v1' ) ) GROUP BY ( random () % 127 ) == 10 ; SELECT 2 IN ( SELECT v1 FROM v0 GROUP BY random () % 10 , v1 HAVING v1 > 10.100000 ORDER BY v1 DESC ) ; VACUUM ; VACUUM ; 

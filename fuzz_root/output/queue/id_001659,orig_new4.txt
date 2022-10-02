@@ -1,0 +1,1 @@
+SELECT - 'x' ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 10 ) ; SELECT quote ( v1 ) , quote ( v1 ) , quote ( v1 ) FROM v0 LIMIT 3 ; 

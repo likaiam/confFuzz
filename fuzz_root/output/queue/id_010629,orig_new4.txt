@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE datetime ( ( 'Al' >= 2 IN ( 3 , NULL , v1 , v1 , 10 ) ) , v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v0' ) ,( 'v0' ) ,( 'abc' ) ,( 'v0' ) ; UPDATE v0 SET v1 = zeroblob ( 3 ) ; CREATE INDEX v2 ON v0 ( v1 ) WHERE v1 = v1 IS NOT NULL ; SELECT quote ( v1 ) FROM main . v0 NATURAL JOIN v0 WHERE v1 LIKE 'x' ; 

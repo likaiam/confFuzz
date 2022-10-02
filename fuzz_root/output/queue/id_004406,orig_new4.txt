@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v3 , v1 INT UNIQUE GENERATED ALWAYS AS( NULL ) , v2 ) ; INSERT INTO v0 VALUES ( 9223372036854775807 , 'v1' ) ,( 127 , 'x' ) ,( 10 , 'v1' ) ,( 0 , 'Brand#23' ) ; SELECT instr ( v1 , v1 ) FROM v0 GROUP BY v3 ORDER BY v1 ASC ; 

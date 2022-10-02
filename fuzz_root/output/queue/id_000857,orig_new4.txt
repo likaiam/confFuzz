@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '%%BRASS' ) ,( 'v0' ) ,( 'SM BOX' ) ; CREATE TABLE v2 ( v4 , v3 INTEGER PRIMARY KEY ON CONFLICT IGNORE ) ; INSERT INTO v2 VALUES ( '29' , 2 ) ,( 'v0' , 10 ) ,( '' , 3 ) ,( 'MED PACK' , 10 ) ; SELECT SUM ( v1 * ( 1 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

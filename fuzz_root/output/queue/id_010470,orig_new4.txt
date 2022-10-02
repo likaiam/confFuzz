@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'c' ) ,( 'MED P' ) ,( 1 ) ,( 'x' ) ; CREATE TRIGGER x AFTER INSERT ON v0 BEGIN INSERT OR REPLACE INTO v0 SELECT count () FROM v0 ; END ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'x' ) ,( 2 ) ,( 'x' ) ,( 10 ) ON CONFLICT DO NOTHING ; SELECT DISTINCT CAST ( round ( 10 , lower ( v1 ) ) AS DOUBLE ) FROM v0 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v1' ) ,( '%%BRASS' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( '%%BRASS' , 10 ) ,( '18' , 1 ) ,( 'abc' , 10 ) ,( '29' , 2 ) ; SELECT CASE WHEN v4 IN ( SELECT v1 FROM v0 ORDER BY v1 + 3 ) THEN '199419' ELSE 'Al' END FROM v2 ; 

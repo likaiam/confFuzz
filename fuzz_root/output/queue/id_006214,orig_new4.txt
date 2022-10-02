@@ -1,0 +1,1 @@
+CREATE TABLE main . v0 ( v2 INTEGER PRIMARY KEY , v1 INT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( '23' ) ,( 'v1' ) ,( 'v0' ) ,( '29' ) ; UPDATE v0 SET v1 = randomblob ( CASE WHEN v1 != 'SM CASE' THEN 2000 ELSE v0 . v2 END ) ; SELECT v2 / v1 , v2 , rank () OVER( ORDER BY v2 DESC ) FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

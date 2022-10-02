@@ -1,0 +1,12 @@
+digraph "CFG for 'line_is_complete' function" {
+	label="CFG for 'line_is_complete' function";
+
+	Node0x5602774d2970 [shape=record,label="{shell.c:22508:}"];
+	Node0x5602774d2970 -> Node0x5602774d45f0;
+	Node0x5602774d2970 -> Node0x5602774d4640;
+	Node0x5602774d45f0 [shape=record,label="{shell.c:22510:}"];
+	Node0x5602774d45f0 -> Node0x5602774d0d60;
+	Node0x5602774d4640 [shape=record,label="{shell.c:22511:}"];
+	Node0x5602774d4640 -> Node0x5602774d0d60;
+	Node0x5602774d0d60 [shape=record,label="{shell.c:22516:}"];
+}

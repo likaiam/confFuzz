@@ -1,0 +1,16 @@
+digraph "CFG for 'Configlist_add' function" {
+	label="CFG for 'Configlist_add' function";
+
+	Node0x56256532e6a0 [shape=record,label="{lemon.c:1346:}"];
+	Node0x56256532e6a0 -> Node0x5625652e9860;
+	Node0x56256532e6a0 -> Node0x562565346730;
+	Node0x5625652e9860 [shape=record,label="{lemon.c:1351:}"];
+	Node0x5625652e9860 -> Node0x562565256de0;
+	Node0x562565346730 [shape=record,label="{lemon.c:1351:}"];
+	Node0x562565256de0 [shape=record,label="{lemon.c:1352:}"];
+	Node0x562565256de0 -> Node0x56256534f0c0;
+	Node0x562565256de0 -> Node0x56256534fee0;
+	Node0x56256534f0c0 [shape=record,label="{lemon.c:1356:}"];
+	Node0x56256534f0c0 -> Node0x56256534fee0;
+	Node0x56256534fee0 [shape=record,label="{lemon.c:1368:}"];
+}

@@ -1,0 +1,24 @@
+digraph "CFG for 'rowSetNDeepTree' function" {
+	label="CFG for 'rowSetNDeepTree' function";
+
+	Node0x55c0f8484700 [shape=record,label="{sqlite3.c:53529:}"];
+	Node0x55c0f8484700 -> Node0x55c0f8492c80;
+	Node0x55c0f8484700 -> Node0x55c0f8492cd0;
+	Node0x55c0f8492c80 [shape=record,label="{sqlite3.c:53536:}"];
+	Node0x55c0f8492c80 -> Node0x55c0f5810db0;
+	Node0x55c0f8492cd0 [shape=record,label="{sqlite3.c:53538:}"];
+	Node0x55c0f8492cd0 -> Node0x55c0f8493290;
+	Node0x55c0f8492cd0 -> Node0x55c0f8493330;
+	Node0x55c0f8493290 [shape=record,label="{sqlite3.c:53542:}"];
+	Node0x55c0f8493290 -> Node0x55c0f8493d10;
+	Node0x55c0f8493290 -> Node0x55c0f8493d60;
+	Node0x55c0f8493d10 [shape=record,label="{sqlite3.c:53547:}"];
+	Node0x55c0f8493d10 -> Node0x55c0f5810db0;
+	Node0x55c0f8493d60 [shape=record,label="{sqlite3.c:53549:}"];
+	Node0x55c0f8493d60 -> Node0x55c0f84932e0;
+	Node0x55c0f8493330 [shape=record,label="{sqlite3.c:53553:}"];
+	Node0x55c0f8493330 -> Node0x55c0f84932e0;
+	Node0x55c0f84932e0 [shape=record,label="{sqlite3.c:53557:}"];
+	Node0x55c0f84932e0 -> Node0x55c0f5810db0;
+	Node0x55c0f5810db0 [shape=record,label="{sqlite3.c:53558:}"];
+}

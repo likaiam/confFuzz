@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '29' ) ,( 'SM CASE' ) ,( 'x' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX v5 ON v2 ( v3 , v3 , v4 , v3 , v4 , v4 ) ; DELETE FROM v2 WHERE v4 = 9223372036854775807 AND v4 + 127 = v3 AND v3 = v4 ; 

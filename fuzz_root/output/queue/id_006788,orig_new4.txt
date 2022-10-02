@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 10 ) ; INSERT INTO v0 VALUES ( NULL , 'x' , 'v1' ) ; DELETE FROM v0 WHERE v2 = ( SELECT NTILE ( 9 ) OVER( ORDER BY v2 NULLS LAST ) - 9223372036854775807 AS nt FROM v0 ) OR v2 <= 1 + 10 ; UPDATE v0 SET v1 = ( SELECT 'v1' , 'v1' , 'v1' , 'v0' FROM v0 , v0 WHERE v3 = v2 AND v2 = 10 ) ; 

@@ -1,0 +1,1 @@
+PRAGMA secure_delete=false; ; CREATE TABLE v0 ( v1 NOT NULL , v3 AS( v1 + v1 ) , v2 AS( v1 ) CHECK( v1 ) ) ; UPDATE v0 SET v2 = NULL ; 

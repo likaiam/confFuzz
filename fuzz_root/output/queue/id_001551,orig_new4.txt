@@ -1,0 +1,1 @@
+SELECT 2000 AS x WHERE v1 IN ( 127 AS d , 10 , 0 , 1 , 1 ) ORDER BY ( SELECT NULL ORDER BY 0 ) ; CREATE TABLE v2 ( v3 , v4 AS( v5 + v3 ) , v5 AS( v3 ) CHECK( v4 ) ) ; UPDATE v2 SET v4 = NULL ; 

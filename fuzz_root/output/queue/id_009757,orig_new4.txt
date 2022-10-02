@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10 ) ,( 0 ) ; UPDATE v0 SET v2 = ( SELECT zipfile () WHERE v3 = 1 AND NOT ( v1 < 10.100000 ) ) ; 

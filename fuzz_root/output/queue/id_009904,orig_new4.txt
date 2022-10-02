@@ -1,0 +1,1 @@
+CREATE VIEW v0 ( v1 ) AS SELECT DISTINCT sqlite_compileoption_used ( sqlite_compileoption_get ( 10 ) ) ; SELECT v1 , rank () OVER( ORDER BY ( SELECT DISTINCT CAST ( zeroblob ( 10 ) AS TEXT ) ) ) FROM v0 ; SELECT ifnull ( v1 + v1 , 10 ) FROM v0 ; 

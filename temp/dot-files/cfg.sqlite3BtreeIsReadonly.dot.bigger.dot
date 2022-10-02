@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3BtreeIsReadonly' function" {
+	label="CFG for 'sqlite3BtreeIsReadonly' function";
+
+	Node0x55c0fb8a1200 [shape=record,label="{sqlite3.c:77868:}"];
+}

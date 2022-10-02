@@ -1,0 +1,1 @@
+VACUUM ; SELECT 'x' , 'SM PACK' , 'v0' , '18' ; VACUUM ; VACUUM ; SELECT * FROM v0 LEFT JOIN v2 ON v4 GLOB '' WHERE v5 = '%%BRASS' OR v3 = v0 . v1 ; 

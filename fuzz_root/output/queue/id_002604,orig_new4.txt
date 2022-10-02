@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHECK( v1 != 'SM PACK' ) NOT NULL AS( v1 ) , v2 ) ; SELECT * FROM v0 , v0 , v0 , v0 , v0 ; 

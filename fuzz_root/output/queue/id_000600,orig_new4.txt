@@ -1,0 +1,1 @@
+SELECT 10 AS x ORDER BY ( SELECT lead ( v1 ) OVER( ) ORDER BY 1 ) ; CREATE TABLE v2 ( v5 , v4 AS( v3 + v4 ) , v3 AS( v3 ) CHECK( v3 ) ) ; UPDATE v2 SET v4 = NULL ; 

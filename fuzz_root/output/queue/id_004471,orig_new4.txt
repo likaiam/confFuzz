@@ -1,0 +1,1 @@
+SELECT NULL INTERSECT SELECT NULL ; SELECT DISTINCT printf ( 'x' , 3 , 'v0' , 10 ) ; 

@@ -1,0 +1,1 @@
+SELECT DISTINCT changes () , total_changes () ; SELECT v5 FROM v2 WHERE v3 >= 'DELIVER IN PERSON' ORDER BY 10 , v4 ; 

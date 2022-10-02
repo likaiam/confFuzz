@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER UNIQUE ON CONFLICT REPLACE CHECK( datetime ( v1 ) IS NOT NULL < v1 NOT LIKE datetime ( v1 , v1 , v1 , v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'c' ) ,( 'v0' ) ,( 'v0' ) ,( 'SM PACK' ) ; UPDATE v0 SET v1 = datetime ( - v1 ) ; SELECT * FROM v0 LEFT JOIN v0 ON v1 = 10 OR v1 = 1 WHERE v1 IS NULL ; 

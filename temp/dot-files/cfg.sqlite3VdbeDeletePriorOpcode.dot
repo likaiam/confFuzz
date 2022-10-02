@@ -1,0 +1,15 @@
+digraph "CFG for 'sqlite3VdbeDeletePriorOpcode' function" {
+	label="CFG for 'sqlite3VdbeDeletePriorOpcode' function";
+
+	Node0x55c0f91cf830 [shape=record,label="{sqlite3.c:81939:}"];
+	Node0x55c0f91cf830 -> Node0x55c0f91d0800;
+	Node0x55c0f91cf830 -> Node0x55c0f91cfe00;
+	Node0x55c0f91d0800 [shape=record,label="{sqlite3.c:81940:}"];
+	Node0x55c0f91d0800 -> Node0x55c0f91cced0;
+	Node0x55c0f91d0800 -> Node0x55c0f91cfe00;
+	Node0x55c0f91cced0 [shape=record,label="{sqlite3.c:81941:}"];
+	Node0x55c0f91cced0 -> Node0x55c0f91ccb90;
+	Node0x55c0f91cfe00 [shape=record,label="{sqlite3.c:81943:}"];
+	Node0x55c0f91cfe00 -> Node0x55c0f91ccb90;
+	Node0x55c0f91ccb90 [shape=record,label="{sqlite3.c:81945:}"];
+}

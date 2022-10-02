@@ -1,0 +1,5 @@
+digraph "CFG for 'minMaxFinalize' function" {
+	label="CFG for 'minMaxFinalize' function";
+
+	Node0x55c0f877fdd0 [shape=record,label="{sqlite3.c:124009:}"];
+}

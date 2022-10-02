@@ -1,0 +1,12 @@
+digraph "CFG for 'yy_syntax_error' function" {
+	label="CFG for 'yy_syntax_error' function";
+
+	Node0x55c0fa4213d0 [shape=record,label="{sqlite3.c:168271:}"];
+	Node0x55c0fa4213d0 -> Node0x55c0fa422fc0;
+	Node0x55c0fa4213d0 -> Node0x55c0fa423060;
+	Node0x55c0fa422fc0 [shape=record,label="{sqlite3.c:168282:}"];
+	Node0x55c0fa422fc0 -> Node0x55c0fa423010;
+	Node0x55c0fa423060 [shape=record,label="{sqlite3.c:168284:}"];
+	Node0x55c0fa423060 -> Node0x55c0fa423010;
+	Node0x55c0fa423010 [shape=record,label="{sqlite3.c:168288:}"];
+}

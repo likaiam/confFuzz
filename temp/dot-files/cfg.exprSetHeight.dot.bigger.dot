@@ -1,0 +1,32 @@
+digraph "CFG for 'exprSetHeight' function" {
+	label="CFG for 'exprSetHeight' function";
+
+	Node0x55c0f59857d0 [shape=record,label="{sqlite3.c:104340:}"];
+	Node0x55c0f59857d0 -> Node0x55c0fa0c6d90;
+	Node0x55c0f59857d0 -> Node0x55c0fa0c6de0;
+	Node0x55c0fa0c6d90 [shape=record,label="{sqlite3.c:104341:}"];
+	Node0x55c0fa0c6d90 -> Node0x55c0fa0c6e30;
+	Node0x55c0fa0c6de0 [shape=record,label="{sqlite3.c:104341:}"];
+	Node0x55c0fa0c6de0 -> Node0x55c0fa0c6e30;
+	Node0x55c0fa0c6e30 [shape=record,label="{sqlite3.c:104341:}"];
+	Node0x55c0fa0c6e30 -> Node0x55c0fa0cad80;
+	Node0x55c0fa0c6e30 -> Node0x55c0fa0cad30;
+	Node0x55c0fa0cad80 [shape=record,label="{sqlite3.c:104342:}"];
+	Node0x55c0fa0cad80 -> Node0x55c0fa0cace0;
+	Node0x55c0fa0cad80 -> Node0x55c0fa0cad30;
+	Node0x55c0fa0cace0 [shape=record,label="{sqlite3.c:104342:}"];
+	Node0x55c0fa0cace0 -> Node0x55c0fa0cad30;
+	Node0x55c0fa0cad30 [shape=record,label="{sqlite3.c:104343:}"];
+	Node0x55c0fa0cad30 -> Node0x55c0fa0cbc40;
+	Node0x55c0fa0cad30 -> Node0x55c0fa0cbce0;
+	Node0x55c0fa0cbc40 [shape=record,label="{sqlite3.c:104344:}"];
+	Node0x55c0fa0cbc40 -> Node0x55c0fa0cbc90;
+	Node0x55c0fa0cbce0 [shape=record,label="{sqlite3.c:104345:}"];
+	Node0x55c0fa0cbce0 -> Node0x55c0fa0cc6a0;
+	Node0x55c0fa0cbce0 -> Node0x55c0fa0cc6f0;
+	Node0x55c0fa0cc6a0 [shape=record,label="{sqlite3.c:104346:}"];
+	Node0x55c0fa0cc6a0 -> Node0x55c0fa0cc6f0;
+	Node0x55c0fa0cc6f0 [shape=record,label="{%57}"];
+	Node0x55c0fa0cc6f0 -> Node0x55c0fa0cbc90;
+	Node0x55c0fa0cbc90 [shape=record,label="{sqlite3.c:104349:}"];
+}

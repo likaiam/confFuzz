@@ -1,0 +1,22 @@
+digraph "CFG for 'sqlite3Fts3AllSegdirs' function" {
+	label="CFG for 'sqlite3Fts3AllSegdirs' function";
+
+	Node0x55c0fab3dc70 [shape=record,label="{sqlite3.c:187254:}"];
+	Node0x55c0fab3dc70 -> Node0x55c0fab427a0;
+	Node0x55c0fab3dc70 -> Node0x55c0fab42840;
+	Node0x55c0fab427a0 [shape=record,label="{sqlite3.c:187269:}"];
+	Node0x55c0fab427a0 -> Node0x55c0fab43400;
+	Node0x55c0fab427a0 -> Node0x55c0fab43750;
+	Node0x55c0fab43400 [shape=record,label="{sqlite3.c:187271:}"];
+	Node0x55c0fab43400 -> Node0x55c0fab43750;
+	Node0x55c0fab43750 [shape=record,label="{sqlite3.c:187276:}"];
+	Node0x55c0fab43750 -> Node0x55c0fab427f0;
+	Node0x55c0fab42840 [shape=record,label="{sqlite3.c:187278:}"];
+	Node0x55c0fab42840 -> Node0x55c0f6c7df30;
+	Node0x55c0fab42840 -> Node0x55c0fab43da0;
+	Node0x55c0f6c7df30 [shape=record,label="{sqlite3.c:187280:}"];
+	Node0x55c0f6c7df30 -> Node0x55c0fab43da0;
+	Node0x55c0fab43da0 [shape=record,label="{%41}"];
+	Node0x55c0fab43da0 -> Node0x55c0fab427f0;
+	Node0x55c0fab427f0 [shape=record,label="{sqlite3.c:187283:}"];
+}

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 , v3 NOT NULL ON CONFLICT REPLACE , v4 , v5 , v1 ) ; SELECT v4 , * , dense_rank () OVER( ORDER BY v4 ) , dense_rank () OVER( PARTITION BY v4 ORDER BY v2 ) FROM v0 ; 

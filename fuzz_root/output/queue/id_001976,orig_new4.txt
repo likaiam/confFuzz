@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHAR(100) NOT NULL NOT NULL ON CONFLICT ABORT ) ; INSERT INTO v0 VALUES ( 'SM CASE' ) ,( 'Felix Fürstenberg' ) ,( 'y' ) ; CREATE INDEX v2 ON v0 ( v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 ) ; INSERT INTO v2 VALUES ( 'x' , 1 ) ,( 'test' , 1 ) ,( '13' , 10 ) ,( '**%s**' , 10 ) ; SELECT * FROM v2 UNION SELECT * FROM v2 ; 

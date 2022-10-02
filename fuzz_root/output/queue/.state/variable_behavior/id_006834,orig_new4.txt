@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=2; ; CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( '1994-01-01' ) ,( 'test' ) ,( 'BUILDING' ) ,( 'x' ) ,( 'MED BAG' ) ON CONFLICT DO NOTHING ; UPDATE v0 SET v1 = randomblob ( ( SELECT v1 FROM v0 WHERE v1 = v1 ) + v1 ) ; SELECT v1 , min ( v1 ) FROM v0 GROUP BY v1 ORDER BY v1 , v1 , v1 LIMIT 2 ; 

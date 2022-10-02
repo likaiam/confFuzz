@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v1' ) ,( 'test' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'abc' , 1 ) ,( 'GERMANY' , 10 ) ,( '1995-09-01' , 0 ) ,( 'v0' , 10 ) ; SELECT ieee754 ( random () % 10 ) IS NULL FROM v2 , v0 , v2 ; 

@@ -1,0 +1,1 @@
+PRAGMA secure_delete=true; ; CREATE TABLE v0 ( v2 UNIQUE ON CONFLICT ABORT , v3 UNIQUE , v1 ) ; UPDATE v0 SET v3 = NULL ; 

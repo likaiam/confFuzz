@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v4 INTEGER AS( 'v1' ) CHECK( 2 ) CHECK( v3 != lower ( 'v1' ) ) NOT NULL UNIQUE , v1 , v3 , v2 ) ; SELECT DISTINCT * FROM v0 AS a JOIN v0 ON NULL = v0 . v3 NATURAL JOIN v0 ; 

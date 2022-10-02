@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v3 , v2 ) ; DELETE FROM v0 WHERE v2 = 10 OR v2 LIKE 'MED PACK' ; VACUUM ; UPDATE v0 SET v1 = v3 + 10 WHERE abs ( v2 MATCH 'v0' ) IS NULL > 2000 OR v2 IS NOT NULL AND NOT v3 ; INSERT INTO v0 ( v1 , v2 , v2 , v3 , v2 ) VALUES ( 'x' , 'v0' , 10 , '23' , 10 ) ; 

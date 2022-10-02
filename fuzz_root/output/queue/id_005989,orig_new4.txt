@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHAR(15) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'v1' ) ,( '%%green%%' ) ,( '199419' ) ,( 'b' ) ; UPDATE v0 SET v1 = randomblob ( v1 ) ; SELECT v0 . v1 , v1 , rank () OVER( ORDER BY v1 DESC ) FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

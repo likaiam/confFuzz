@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 , v4 , v7 , v5 , v6 , v8 , v1 , v3 VARCHAR(300) ) ; SELECT v4 FROM v0 JOIN v0 USING ( v4 , v5 , v7 , v7 , v7 , v8 , v6 , v4 , v8 , v5 , v1 , v5 , v7 , v1 , v1 ) NATURAL JOIN v0 ; 

@@ -1,0 +1,1 @@
+SELECT * FROM v0 WHERE v1 < 1 OR v2 < 2 ORDER BY v3 NULLS FIRST ; CREATE TABLE v4 ( v7 , v6 AS( v5 + v5 ) , v5 AS( v5 ) CHECK( v5 ) ) ; UPDATE v4 SET v7 = NULL ; 

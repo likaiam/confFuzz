@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '30' ) ,( 'v1' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX generate_series ON v0 ( v1 , v1 , v1 , v1 , v1 , v1 ) ; SELECT SUM ( v3 * ( 2 - v3 ) ) AS REVENUE , v3 AS alias FROM v0 , v0 AS t , v2 ; 

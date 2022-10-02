@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; SELECT coalesce ( instr ( 'Max Mustermann' , 'abc' ) , 10 ) LIMIT 10 ; SELECT random () ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 2 ) ; SELECT * FROM v0 , v0 WHERE v1 = v1 AND v1 = 1 ; 

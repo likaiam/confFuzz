@@ -1,0 +1,1 @@
+SELECT printf ( 's%' , 0.100000 , 'v1' ) ; ALTER TABLE sqlite1234 RENAME TO User ; SELECT v5 , v7 FROM v4 WHERE v6 IS NOT NULL ; 

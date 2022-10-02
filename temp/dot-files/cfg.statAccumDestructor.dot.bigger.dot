@@ -1,0 +1,5 @@
+digraph "CFG for 'statAccumDestructor' function" {
+	label="CFG for 'statAccumDestructor' function";
+
+	Node0x55c0fa353760 [shape=record,label="{sqlite3.c:112617:}"];
+}

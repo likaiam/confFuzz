@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 FLOAT , v1 FLOAT ) ; INSERT INTO v0 ( v2 ) VALUES ( 0 ) ,( 10 ) ,( 10 ) ; CREATE TABLE v3 ( v4 INTEGER PRIMARY KEY , v5 INT ) ; INSERT INTO v0 SELECT * FROM v0 GROUP BY coalesce ( v2 , v2 ) ; SELECT * FROM v0 LEFT JOIN v3 ON v4 GLOB 'x' WHERE v5 = 'forest%%' OR v4 = v3 . v4 ; 

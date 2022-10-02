@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; DELETE FROM v0 WHERE v2 = 10 AND v1 = 0 AND v2 = 10 AND v1 = 3 AND v2 = 10 AND v1 = 3 ; UPDATE v0 SET v2 = ( SELECT 10 FROM v0 LEFT JOIN v0 ON v3 GLOB x ( 1 ) ) ; 

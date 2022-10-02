@@ -1,0 +1,1 @@
+UPDATE v0 SET v1 = '30' , v3 = 'v1' , v5 = 'x' , v4 = 'DELIVER IN PERSON' WHERE v2 = 'x' ; INSERT INTO v6 ( v7 ) VALUES ( 3 ) ,( 0 ) ; UPDATE v8 SET v9 = ( SELECT 10 FROM v10 ORDER BY substr ( v11 , 0 , 9223372036854775807 ) + 10.100000 DESC ) ; 

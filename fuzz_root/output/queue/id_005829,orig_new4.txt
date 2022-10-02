@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHAR(100) NOT NULL NOT NULL ON CONFLICT ROLLBACK ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v0' ) ,( 'v0' ) ; CREATE INDEX v2 ON v0 ( v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 ) ; INSERT INTO v0 VALUES ( '18' , 1 ) ,( 'Brand#12' , 10 ) ,( 'x' , 0 ) ,( '199419' , 2 ) ; SELECT * FROM v2 UNION SELECT * FROM v0 ; 

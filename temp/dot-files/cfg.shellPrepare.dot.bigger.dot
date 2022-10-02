@@ -1,0 +1,15 @@
+digraph "CFG for 'shellPrepare' function" {
+	label="CFG for 'shellPrepare' function";
+
+	Node0x560276d8a4a0 [shape=record,label="{shell.c:17408:}"];
+	Node0x560276d8a4a0 -> Node0x560276d95a60;
+	Node0x560276d8a4a0 -> Node0x560276d95ab0;
+	Node0x560276d95a60 [shape=record,label="{shell.c:17415:}"];
+	Node0x560276d95a60 -> Node0x560276d96370;
+	Node0x560276d95a60 -> Node0x560276d964f0;
+	Node0x560276d96370 [shape=record,label="{shell.c:17417:}"];
+	Node0x560276d96370 -> Node0x560276d964f0;
+	Node0x560276d964f0 [shape=record,label="{shell.c:17422:}"];
+	Node0x560276d964f0 -> Node0x560276d95ab0;
+	Node0x560276d95ab0 [shape=record,label="{shell.c:17423:}"];
+}

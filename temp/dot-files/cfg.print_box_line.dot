@@ -1,0 +1,12 @@
+digraph "CFG for 'print_box_line' function" {
+	label="CFG for 'print_box_line' function";
+
+	Node0x56027742a2e0 [shape=record,label="{shell.c:14245:}"];
+	Node0x56027742a2e0 -> Node0x56027742f800;
+	Node0x56027742f800 [shape=record,label="{shell.c:14251:}"];
+	Node0x56027742f800 -> Node0x56027742fbb0;
+	Node0x56027742f800 -> Node0x56027742f960;
+	Node0x56027742fbb0 [shape=record,label="{shell.c:14252:}"];
+	Node0x56027742fbb0 -> Node0x56027742f800;
+	Node0x56027742f960 [shape=record,label="{shell.c:14255:}"];
+}

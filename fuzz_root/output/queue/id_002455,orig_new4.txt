@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 INTEGER CHECK( v2 NOT LIKE last_insert_rowid () ) , v1 FLOAT ) ; INSERT INTO v0 ( v1 , v2 ) VALUES ( 10 , 9 ) ; SELECT v2 , rank () OVER( ORDER BY v1 DESC ) FROM v0 ; 

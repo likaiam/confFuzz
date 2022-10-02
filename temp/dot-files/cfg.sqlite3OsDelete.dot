@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3OsDelete' function" {
+	label="CFG for 'sqlite3OsDelete' function";
+
+	Node0x55c0f75abb60 [shape=record,label="{sqlite3.c:24812:}"];
+	Node0x55c0f75abb60 -> Node0x55c0f75befb0;
+	Node0x55c0f75abb60 -> Node0x55c0f75bf050;
+	Node0x55c0f75befb0 [shape=record,label="{sqlite3.c:24815:}"];
+	Node0x55c0f75befb0 -> Node0x55c0f75bf0a0;
+	Node0x55c0f75bf050 [shape=record,label="{sqlite3.c:24815:}"];
+	Node0x55c0f75bf050 -> Node0x55c0f75bf0a0;
+	Node0x55c0f75bf0a0 [shape=record,label="{sqlite3.c:24815:}"];
+}

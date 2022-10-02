@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHAR(25) ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'x' ) ,( 'x' ) ; CREATE TRIGGER x AFTER INSERT ON v0 BEGIN UPDATE v0 SET v1 = ( SELECT 10 FROM v0 GROUP BY v1 , v1 , v1 , v1 , v1 ) ; END ; INSERT OR IGNORE INTO v0 SELECT * FROM v0 ; SELECT coalesce ( v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 ) FROM v0 ; 

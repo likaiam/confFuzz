@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v2 , v3 ) ; INSERT INTO v0 VALUES ( 10.100000 , 1 , 0 ) ; UPDATE v0 SET v1 = randomblob ( ( 10 = 2 AND v3 < CASE WHEN LIKELY ( v1 ) != '1995-09-01' THEN 10 ELSE 10 END ) + v1 + julianday ( * ) ) ; SELECT DISTINCT COUNT ( * ) FROM v0 ORDER BY v1 , v1 , v3 DESC ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY typeof ( 'v1' ) DESC ; 

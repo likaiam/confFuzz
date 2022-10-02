@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'x' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'Brand#34' , 10 ) ,( 'v0' , 3 ) ,( 'x' , 10 ) ; SELECT * FROM v2 WHERE v4 IN ( 'c' ) ; 

@@ -1,0 +1,22 @@
+digraph "CFG for 'decimalSumInverse' function" {
+	label="CFG for 'decimalSumInverse' function";
+
+	Node0x5602769ba380 [shape=record,label="{shell.c:5032:}"];
+	Node0x5602769ba380 -> Node0x5602769bc840;
+	Node0x5602769ba380 -> Node0x5602769bc890;
+	Node0x5602769bc840 [shape=record,label="{shell.c:5040:}"];
+	Node0x5602769bc840 -> Node0x5602769ba500;
+	Node0x5602769bc890 [shape=record,label="{shell.c:5041:}"];
+	Node0x5602769bc890 -> Node0x5602769bcc90;
+	Node0x5602769bc890 -> Node0x5602769bcce0;
+	Node0x5602769bcc90 [shape=record,label="{shell.c:5041:}"];
+	Node0x5602769bcc90 -> Node0x5602769ba500;
+	Node0x5602769bcce0 [shape=record,label="{shell.c:5042:}"];
+	Node0x5602769bcce0 -> Node0x5602769bd7f0;
+	Node0x5602769bcce0 -> Node0x5602769bd840;
+	Node0x5602769bd7f0 [shape=record,label="{shell.c:5043:}"];
+	Node0x5602769bd7f0 -> Node0x5602769bd840;
+	Node0x5602769bd840 [shape=record,label="{shell.c:5044:}"];
+	Node0x5602769bd840 -> Node0x5602769ba500;
+	Node0x5602769ba500 [shape=record,label="{shell.c:5046:}"];
+}

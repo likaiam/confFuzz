@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'x' ) ,( 'SM BOX' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v0' , 2 ) ,( '30' , 10 ) ,( 'v0' , 2000 ) ,( 'v0' , 3 ) ; UPDATE v0 SET v1 = ( SELECT sqlite_compileoption_used ( v1 ) ) ; 

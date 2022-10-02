@@ -1,0 +1,41 @@
+digraph "CFG for 'sqlite3Fts3GetVarintU' function" {
+	label="CFG for 'sqlite3Fts3GetVarintU' function";
+
+	Node0x55c0fab642d0 [shape=record,label="{sqlite3.c:176768:}"];
+	Node0x55c0fab642d0 -> Node0x55c0fab75040;
+	Node0x55c0fab642d0 -> Node0x55c0fab75090;
+	Node0x55c0fab75040 [shape=record,label="{sqlite3.c:176775:}"];
+	Node0x55c0fab75040 -> Node0x55c0fab64450;
+	Node0x55c0fab75090 [shape=record,label="{sqlite3.c:176776:}"];
+	Node0x55c0fab75090 -> Node0x55c0fab75c40;
+	Node0x55c0fab75090 -> Node0x55c0fab75c90;
+	Node0x55c0fab75c40 [shape=record,label="{sqlite3.c:176776:}"];
+	Node0x55c0fab75c40 -> Node0x55c0fab64450;
+	Node0x55c0fab75c90 [shape=record,label="{sqlite3.c:176777:}"];
+	Node0x55c0fab75c90 -> Node0x55c0fab76840;
+	Node0x55c0fab75c90 -> Node0x55c0fab76890;
+	Node0x55c0fab76840 [shape=record,label="{sqlite3.c:176777:}"];
+	Node0x55c0fab76840 -> Node0x55c0fab64450;
+	Node0x55c0fab76890 [shape=record,label="{sqlite3.c:176778:}"];
+	Node0x55c0fab76890 -> Node0x55c0fab77440;
+	Node0x55c0fab76890 -> Node0x55c0fab77490;
+	Node0x55c0fab77440 [shape=record,label="{sqlite3.c:176778:}"];
+	Node0x55c0fab77440 -> Node0x55c0fab64450;
+	Node0x55c0fab77490 [shape=record,label="{sqlite3.c:176779:}"];
+	Node0x55c0fab77490 -> Node0x55c0fab77fa0;
+	Node0x55c0fab77fa0 [shape=record,label="{sqlite3.c:176781:}"];
+	Node0x55c0fab77fa0 -> Node0x55c0fab781c0;
+	Node0x55c0fab77fa0 -> Node0x55c0fab77df0;
+	Node0x55c0fab781c0 [shape=record,label="{sqlite3.c:176782:}"];
+	Node0x55c0fab781c0 -> Node0x55c0fab79170;
+	Node0x55c0fab781c0 -> Node0x55c0fab791c0;
+	Node0x55c0fab79170 [shape=record,label="{sqlite3.c:176784:}"];
+	Node0x55c0fab79170 -> Node0x55c0fab77df0;
+	Node0x55c0fab791c0 [shape=record,label="{sqlite3.c:176785:}"];
+	Node0x55c0fab791c0 -> Node0x55c0fab78130;
+	Node0x55c0fab78130 [shape=record,label="{sqlite3.c:176781:}"];
+	Node0x55c0fab78130 -> Node0x55c0fab77fa0;
+	Node0x55c0fab77df0 [shape=record,label="{sqlite3.c:176786:}"];
+	Node0x55c0fab77df0 -> Node0x55c0fab64450;
+	Node0x55c0fab64450 [shape=record,label="{sqlite3.c:176788:}"];
+}

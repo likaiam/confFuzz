@@ -1,0 +1,1 @@
+SELECT changes () , total_changes () WITH HINT ( NO_CACHE , NO_SAMPLING ) ; SELECT v4 FROM v2 WHERE v3 >= 'x' ORDER BY 3 , v5 ; 

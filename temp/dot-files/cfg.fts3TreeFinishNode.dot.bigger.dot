@@ -1,0 +1,5 @@
+digraph "CFG for 'fts3TreeFinishNode' function" {
+	label="CFG for 'fts3TreeFinishNode' function";
+
+	Node0x55c0f6cc72c0 [shape=record,label="{sqlite3.c:188796:}"];
+}

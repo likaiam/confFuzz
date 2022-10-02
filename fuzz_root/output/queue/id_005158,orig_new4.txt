@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'EUROPE' ) ,( 'x' ) ,( '**%s**' ) ,( 'x' ) ,( 'SM BOX' ) ; UPDATE v0 SET v1 = randomblob ( 1 ) ; SELECT * FROM v0 UNION SELECT DISTINCT v1 = zeroblob ( 10 ) FROM v0 ORDER BY v1 ; 

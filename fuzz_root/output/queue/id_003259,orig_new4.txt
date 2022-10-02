@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10 ) ,( 10 ) ; DELETE FROM v0 WHERE v2 IN ( 10 , ( SELECT 1 AS x WHERE ( SELECT v3 AS y WHERE 3 > v3 ) ) ) ; 

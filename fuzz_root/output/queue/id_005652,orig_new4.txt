@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'Brand#12' ) ,( 'SM CASE' ) ,( 'abc' ) ; CREATE VIEW v2 AS SELECT v5 , 2 AS p FROM v2 WHERE v6 < v4 ORDER BY ( SELECT v1 AS REVENUE ORDER BY 10 ) ; INSERT OR FAIL INTO v0 SELECT * FROM v2 ; SELECT v9 , rank () OVER( ORDER BY unlikely ( v8 <= 'x' ) DESC ) FROM v2 ; 

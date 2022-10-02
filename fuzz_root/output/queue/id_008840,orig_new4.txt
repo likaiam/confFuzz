@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '1995-03-15' ) ,( 'x' ) ,( 'MED BOX' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX v5 ON v2 ( v4 , v4 ) WHERE v3 = v4 AND v4 = v3 IS NOT NULL ; SELECT v4 FROM v0 AS a JOIN v2 ON abs ( v3 ) WHERE v3 = v4 AND 'v1' = 'x' ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 , v13 , v11 , v9 , v4 , v8 , v7 , v3 , v1 , v5 , v6 , v12 , v10 INT ) ; INSERT INTO v0 ( v9 ) VALUES ( '' ) ,( '23' ) ,( 'CANADA' ) ,( 'AIR' ) ,( 'CANADA' ) ; UPDATE v0 SET v4 = randomblob ( ( SELECT v7 FROM v0 WHERE v0 . v8 = v0 . v6 GROUP BY v0 . v13 , v6 ) + v8 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v3 ) ) DESC ; 

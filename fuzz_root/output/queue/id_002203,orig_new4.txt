@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; DELETE FROM v0 WHERE v3 = 'abc' ; UPDATE v0 SET v3 = ( SELECT v2 FROM v0 WHERE v3 > v3 OR v2 > 1 AND v2 NOT LIKE 'x' LIMIT 10 ) ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHAR(15) UNIQUE ON CONFLICT REPLACE , v2 INT PRIMARY KEY ON CONFLICT REPLACE ) ; INSERT INTO v0 ( v2 ) VALUES ( 'v1' ) ,( 'Brand#12' ) ,( 2000 ) ,( 'testtest' ) ,( 4294967295 ) ,( '17' ) ,( 'LG PACK' ) ,( 'v0' ) ; UPDATE v0 SET v2 = randomblob ( 127 ) ; SELECT v2 FROM v0 WHERE v2 IN ( 0 , 0 , 10 ) ORDER BY v2 DESC ; UPDATE v0 SET v2 = OMW ( 10 ) ; 

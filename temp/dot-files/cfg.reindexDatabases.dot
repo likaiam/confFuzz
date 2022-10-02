@@ -1,0 +1,23 @@
+digraph "CFG for 'reindexDatabases' function" {
+	label="CFG for 'reindexDatabases' function";
+
+	Node0x55c0fa2fa300 [shape=record,label="{sqlite3.c:120498:}"];
+	Node0x55c0fa2fa300 -> Node0x55c0fa304dc0;
+	Node0x55c0fa304dc0 [shape=record,label="{sqlite3.c:120506:}"];
+	Node0x55c0fa304dc0 -> Node0x55c0fa304fe0;
+	Node0x55c0fa304dc0 -> Node0x55c0fa3048f0;
+	Node0x55c0fa304fe0 [shape=record,label="{sqlite3.c:120508:}"];
+	Node0x55c0fa304fe0 -> Node0x55c0fa305a50;
+	Node0x55c0fa305a50 [shape=record,label="{sqlite3.c:120508:}"];
+	Node0x55c0fa305a50 -> Node0x55c0fa305c70;
+	Node0x55c0fa305a50 -> Node0x55c0fa305580;
+	Node0x55c0fa305c70 [shape=record,label="{sqlite3.c:120509:}"];
+	Node0x55c0fa305c70 -> Node0x55c0fa305be0;
+	Node0x55c0fa305be0 [shape=record,label="{sqlite3.c:120508:}"];
+	Node0x55c0fa305be0 -> Node0x55c0fa305a50;
+	Node0x55c0fa305580 [shape=record,label="{sqlite3.c:120512:}"];
+	Node0x55c0fa305580 -> Node0x55c0fa304f50;
+	Node0x55c0fa304f50 [shape=record,label="{sqlite3.c:120506:}"];
+	Node0x55c0fa304f50 -> Node0x55c0fa304dc0;
+	Node0x55c0fa3048f0 [shape=record,label="{sqlite3.c:120513:}"];
+}

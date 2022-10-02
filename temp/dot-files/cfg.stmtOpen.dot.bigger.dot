@@ -1,0 +1,12 @@
+digraph "CFG for 'stmtOpen' function" {
+	label="CFG for 'stmtOpen' function";
+
+	Node0x55c0fb7fcb50 [shape=record,label="{sqlite3.c:241055:}"];
+	Node0x55c0fb7fcb50 -> Node0x55c0fb7ff260;
+	Node0x55c0fb7fcb50 -> Node0x55c0fb7ff2b0;
+	Node0x55c0fb7ff260 [shape=record,label="{sqlite3.c:241058:}"];
+	Node0x55c0fb7ff260 -> Node0x55c0fb7fd9d0;
+	Node0x55c0fb7ff2b0 [shape=record,label="{sqlite3.c:241059:}"];
+	Node0x55c0fb7ff2b0 -> Node0x55c0fb7fd9d0;
+	Node0x55c0fb7fd9d0 [shape=record,label="{sqlite3.c:241063:}"];
+}

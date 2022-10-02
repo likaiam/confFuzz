@@ -1,0 +1,30 @@
+digraph "CFG for 'progress_handler' function" {
+	label="CFG for 'progress_handler' function";
+
+	Node0x560277336ab0 [shape=record,label="{shell.c:13099:}"];
+	Node0x560277336ab0 -> Node0x560277338410;
+	Node0x560277336ab0 -> Node0x5602773383c0;
+	Node0x560277338410 [shape=record,label="{shell.c:13102:}"];
+	Node0x560277338410 -> Node0x560277338370;
+	Node0x560277338410 -> Node0x5602773383c0;
+	Node0x560277338370 [shape=record,label="{shell.c:13103:}"];
+	Node0x560277338370 -> Node0x5602773394c0;
+	Node0x560277338370 -> Node0x560277339510;
+	Node0x5602773394c0 [shape=record,label="{shell.c:13104:}"];
+	Node0x5602773394c0 -> Node0x560277339510;
+	Node0x560277339510 [shape=record,label="{shell.c:13105:}"];
+	Node0x560277339510 -> Node0x560277339d50;
+	Node0x560277339510 -> Node0x560277339da0;
+	Node0x560277339d50 [shape=record,label="{shell.c:13105:}"];
+	Node0x560277339d50 -> Node0x560277339da0;
+	Node0x560277339da0 [shape=record,label="{shell.c:13106:}"];
+	Node0x560277339da0 -> Node0x560277335110;
+	Node0x5602773383c0 [shape=record,label="{shell.c:13108:}"];
+	Node0x5602773383c0 -> Node0x56027733a7d0;
+	Node0x5602773383c0 -> Node0x56027733a820;
+	Node0x56027733a7d0 [shape=record,label="{shell.c:13109:}"];
+	Node0x56027733a7d0 -> Node0x56027733a820;
+	Node0x56027733a820 [shape=record,label="{shell.c:13111:}"];
+	Node0x56027733a820 -> Node0x560277335110;
+	Node0x560277335110 [shape=record,label="{shell.c:13112:}"];
+}

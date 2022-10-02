@@ -1,0 +1,1 @@
+SELECT sqlite_compileoption_used ( v1 , v3 , x ( * ) , x ( v5 ) ) ; INSERT INTO v6 ( v7 ) VALUES ( 2 ) ,( 1 ) ; UPDATE v8 SET v9 = ( SELECT 0 FROM v10 ) ; 

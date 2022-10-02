@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING generate_series ( v1 AS( * ) CHECK( v2 ) , v3 , v2 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 10 ) ; UPDATE v0 SET v1 = ( SELECT 2 FROM v0 ) ; 

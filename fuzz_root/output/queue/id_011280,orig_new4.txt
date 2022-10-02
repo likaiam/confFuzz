@@ -1,0 +1,1 @@
+PRAGMA max_page_count=1; ; CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v3 UNIQUE PRIMARY KEY NOT NULL , v2 ) ; INSERT INTO v0 ( v1 ) VALUES ( 'X' ) ,( 'v0' ) ,( 'LG BOX' ) ,( 'v0' ) ,( 'X' ) ; UPDATE v0 SET v1 = randomblob ( 10 ) ; SELECT v2 FROM v0 WHERE v2 IN ( 1 , 1 , 1 ) ORDER BY v1 DESC ; 

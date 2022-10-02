@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v3 , v2 ) ; INSERT INTO v0 SELECT * FROM v0 WHERE v3 <= 0 ; INSERT INTO v0 VALUES ( 3 , 'x' , 'x' ) ; SELECT group_concat ( v1 , v1 ) FROM v0 ; 

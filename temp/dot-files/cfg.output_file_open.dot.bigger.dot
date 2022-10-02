@@ -1,0 +1,31 @@
+digraph "CFG for 'output_file_open' function" {
+	label="CFG for 'output_file_open' function";
+
+	Node0x560277328e00 [shape=record,label="{shell.c:16346:}"];
+	Node0x560277328e00 -> Node0x560277329c80;
+	Node0x560277328e00 -> Node0x56027732a7d0;
+	Node0x560277329c80 [shape=record,label="{shell.c:16349:}"];
+	Node0x560277329c80 -> Node0x56027732a780;
+	Node0x56027732a7d0 [shape=record,label="{shell.c:16350:}"];
+	Node0x56027732a7d0 -> Node0x56027732ade0;
+	Node0x56027732a7d0 -> Node0x56027732ae80;
+	Node0x56027732ade0 [shape=record,label="{shell.c:16351:}"];
+	Node0x56027732ade0 -> Node0x56027732ae30;
+	Node0x56027732ae80 [shape=record,label="{shell.c:16352:}"];
+	Node0x56027732ae80 -> Node0x56027732b710;
+	Node0x56027732ae80 -> Node0x56027732b7b0;
+	Node0x56027732b710 [shape=record,label="{shell.c:16353:}"];
+	Node0x56027732b710 -> Node0x56027732b760;
+	Node0x56027732b7b0 [shape=record,label="{shell.c:16355:}"];
+	Node0x56027732b7b0 -> Node0x56027732c400;
+	Node0x56027732b7b0 -> Node0x56027732c450;
+	Node0x56027732c400 [shape=record,label="{shell.c:16357:}"];
+	Node0x56027732c400 -> Node0x56027732c450;
+	Node0x56027732c450 [shape=record,label="{%27}"];
+	Node0x56027732c450 -> Node0x56027732b760;
+	Node0x56027732b760 [shape=record,label="{%28}"];
+	Node0x56027732b760 -> Node0x56027732ae30;
+	Node0x56027732ae30 [shape=record,label="{%29}"];
+	Node0x56027732ae30 -> Node0x56027732a780;
+	Node0x56027732a780 [shape=record,label="{shell.c:16360:}"];
+}

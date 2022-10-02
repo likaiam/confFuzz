@@ -1,0 +1,24 @@
+digraph "CFG for 'growOpArray' function" {
+	label="CFG for 'growOpArray' function";
+
+	Node0x55c0f5445d20 [shape=record,label="{sqlite3.c:80798:}"];
+	Node0x55c0f5445d20 -> Node0x55c0f85eb020;
+	Node0x55c0f5445d20 -> Node0x55c0f85eb070;
+	Node0x55c0f85eb020 [shape=record,label="{sqlite3.c:80813:}"];
+	Node0x55c0f85eb020 -> Node0x55c0f85eb0c0;
+	Node0x55c0f85eb070 [shape=record,label="{sqlite3.c:80813:}"];
+	Node0x55c0f85eb070 -> Node0x55c0f85eb0c0;
+	Node0x55c0f85eb0c0 [shape=record,label="{sqlite3.c:80813:}"];
+	Node0x55c0f85eb0c0 -> Node0x55c0f85ebc00;
+	Node0x55c0f85eb0c0 -> Node0x55c0f85ebc50;
+	Node0x55c0f85ebc00 [shape=record,label="{sqlite3.c:80820:}"];
+	Node0x55c0f85ebc00 -> Node0x55c0f85e95d0;
+	Node0x55c0f85ebc50 [shape=record,label="{sqlite3.c:80826:}"];
+	Node0x55c0f85ebc50 -> Node0x55c0f85ed240;
+	Node0x55c0f85ebc50 -> Node0x55c0f85ed290;
+	Node0x55c0f85ed240 [shape=record,label="{sqlite3.c:80828:}"];
+	Node0x55c0f85ed240 -> Node0x55c0f85ed290;
+	Node0x55c0f85ed290 [shape=record,label="{sqlite3.c:80832:}"];
+	Node0x55c0f85ed290 -> Node0x55c0f85e95d0;
+	Node0x55c0f85e95d0 [shape=record,label="{sqlite3.c:80833:}"];
+}

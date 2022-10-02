@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v2 , v3 ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 10.100000 ) ,( 9 ) ,( 10 ) ,( 0 ) ,( 3 ) ,( 9223372036854775807 ) ; UPDATE v0 SET v1 = ( SELECT nth_value ( v1 , 3 ) OVER( ORDER BY v1 ) ORDER BY julianday ( * ) DESC ) ; UPDATE v0 SET v2 = randomblob ( 10 ) ; UPDATE v0 SET v1 = ( SELECT count () FROM v0 , v0 , v0 , v0 , v0 ) ; 

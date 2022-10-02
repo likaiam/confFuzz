@@ -1,0 +1,5 @@
+digraph "CFG for 'full_fsync' function" {
+	label="CFG for 'full_fsync' function";
+
+	Node0x55c0f70a2780 [shape=record,label="{sqlite3.c:39018:}"];
+}

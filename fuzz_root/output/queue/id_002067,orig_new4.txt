@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE temp . v0 USING rtree ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v3 ) VALUES ( 3 ) ,( 10 ) ; UPDATE v0 SET v1 = ( SELECT 'Brand#23' , '18' , 'c' , 'Max Mustermann' FROM v0 , v0 WHERE v2 = v2 AND v1 = 9223372036854775807 ) ; 

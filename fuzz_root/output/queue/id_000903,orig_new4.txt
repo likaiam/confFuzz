@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'LG CASEaaaaaaaaaaaa' ) ,( 'b' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( '13' , 10 ) ,( 'v0' , 10 ) ,( 'v0' , 0 ) ,( 'x' , 10 ) ; SELECT CASE WHEN v4 NOT IN ( 0 , ( v4 = 10 AND v3 = 10 ) , 1 ) THEN 'Ar' ELSE 'v0' END FROM v2 ; 

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v3 , v2 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10 ) ,( 10 ) ; INSERT INTO v0 ( v2 ) VALUES ( 1.100000 ) ,( 10 ) ,( 10 ) ; SELECT v3 , v3 = count ( * ) , group_concat ( v1 ) OVER( ) FROM v0 ; SELECT DISTINCT 10 , v2 + 1 , 0 FROM v0 UNION SELECT DISTINCT * FROM v0 ORDER BY v2 ; 

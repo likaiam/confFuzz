@@ -1,0 +1,1 @@
+SELECT 10 AS d , 0 , 0 , 1 ORDER BY ( SELECT v1 ORDER BY v3 ASC NULLS FIRST ) ; CREATE TABLE v4 ( v7 , v6 AS( v7 + v7 ) , v5 AS( v7 ) CHECK( v5 ) ) ; UPDATE v4 SET v7 = NULL ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 UNIQUE ON CONFLICT REPLACE CHECK( datetime ( coalesce ( v1 , v1 ) , v1 ) IS NOT NULL < v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( '29' ) ,( 'v1' ) ,( '199419' ) ,( 'GERMANY' ) ; UPDATE v0 SET v1 = randomblob ( 0 ) ; SELECT * UNION SELECT DISTINCT v1 = zeroblob ( 1 ) FROM v0 ORDER BY v1 ; 

@@ -1,0 +1,1 @@
+SELECT DISTINCT count ( * ) OVER( ORDER BY randomblob ( 1 ) ) ORDER BY sum ( 10 ) OVER( ) DESC ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 10 ) ; UPDATE v2 SET v3 = ( SELECT 9223372036854775808 FROM v4 ) ; 

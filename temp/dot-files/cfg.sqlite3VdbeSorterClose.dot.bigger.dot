@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3VdbeSorterClose' function" {
+	label="CFG for 'sqlite3VdbeSorterClose' function";
+
+	Node0x55c0f7a11de0 [shape=record,label="{sqlite3.c:98786:}"];
+	Node0x55c0f7a11de0 -> Node0x55c0f7a15d50;
+	Node0x55c0f7a11de0 -> Node0x55c0f7a15da0;
+	Node0x55c0f7a15d50 [shape=record,label="{sqlite3.c:98791:}"];
+	Node0x55c0f7a15d50 -> Node0x55c0f7a15da0;
+	Node0x55c0f7a15da0 [shape=record,label="{sqlite3.c:98796:}"];
+}

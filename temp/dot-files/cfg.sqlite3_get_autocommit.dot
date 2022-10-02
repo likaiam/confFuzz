@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3_get_autocommit' function" {
+	label="CFG for 'sqlite3_get_autocommit' function";
+
+	Node0x55c0f6aad730 [shape=record,label="{sqlite3.c:173966:}"];
+}

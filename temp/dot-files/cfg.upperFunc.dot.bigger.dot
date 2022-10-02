@@ -1,0 +1,24 @@
+digraph "CFG for 'upperFunc' function" {
+	label="CFG for 'upperFunc' function";
+
+	Node0x55c0f7932a40 [shape=record,label="{sqlite3.c:122744:}"];
+	Node0x55c0f7932a40 -> Node0x55c0f793a920;
+	Node0x55c0f7932a40 -> Node0x55c0f793a970;
+	Node0x55c0f793a920 [shape=record,label="{sqlite3.c:122754:}"];
+	Node0x55c0f793a920 -> Node0x55c0f793b190;
+	Node0x55c0f793a920 -> Node0x55c0f793b1e0;
+	Node0x55c0f793b190 [shape=record,label="{sqlite3.c:122756:}"];
+	Node0x55c0f793b190 -> Node0x55c0f793b660;
+	Node0x55c0f793b660 [shape=record,label="{sqlite3.c:122756:}"];
+	Node0x55c0f793b660 -> Node0x55c0f793b880;
+	Node0x55c0f793b660 -> Node0x55c0f793b4b0;
+	Node0x55c0f793b880 [shape=record,label="{sqlite3.c:122757:}"];
+	Node0x55c0f793b880 -> Node0x55c0f793b7f0;
+	Node0x55c0f793b7f0 [shape=record,label="{sqlite3.c:122756:}"];
+	Node0x55c0f793b7f0 -> Node0x55c0f793b660;
+	Node0x55c0f793b4b0 [shape=record,label="{sqlite3.c:122759:}"];
+	Node0x55c0f793b4b0 -> Node0x55c0f793b1e0;
+	Node0x55c0f793b1e0 [shape=record,label="{sqlite3.c:122761:}"];
+	Node0x55c0f793b1e0 -> Node0x55c0f793a970;
+	Node0x55c0f793a970 [shape=record,label="{sqlite3.c:122762:}"];
+}

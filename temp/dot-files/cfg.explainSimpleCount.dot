@@ -1,0 +1,27 @@
+digraph "CFG for 'explainSimpleCount' function" {
+	label="CFG for 'explainSimpleCount' function";
+
+	Node0x55c0f9c5be40 [shape=record,label="{sqlite3.c:141774:}"];
+	Node0x55c0f9c5be40 -> Node0x55c0f9c627b0;
+	Node0x55c0f9c5be40 -> Node0x55c0f9c62800;
+	Node0x55c0f9c627b0 [shape=record,label="{sqlite3.c:141779:}"];
+	Node0x55c0f9c627b0 -> Node0x55c0f9c62f20;
+	Node0x55c0f9c627b0 -> Node0x55c0f9c62ed0;
+	Node0x55c0f9c62f20 [shape=record,label="{sqlite3.c:141779:}"];
+	Node0x55c0f9c62f20 -> Node0x55c0f9c63330;
+	Node0x55c0f9c62f20 -> Node0x55c0f9c63380;
+	Node0x55c0f9c63380 [shape=record,label="{sqlite3.c:141779:}"];
+	Node0x55c0f9c63380 -> Node0x55c0f9c63330;
+	Node0x55c0f9c63330 [shape=record,label="{%26}"];
+	Node0x55c0f9c63330 -> Node0x55c0f9c62ed0;
+	Node0x55c0f9c62ed0 [shape=record,label="{sqlite3.c:141779:}"];
+	Node0x55c0f9c62ed0 -> Node0x55c0f9c64730;
+	Node0x55c0f9c62ed0 -> Node0x55c0f9c64780;
+	Node0x55c0f9c64730 [shape=record,label="{sqlite3.c:141783:}"];
+	Node0x55c0f9c64730 -> Node0x55c0f9c647d0;
+	Node0x55c0f9c64780 [shape=record,label="{sqlite3.c:141783:}"];
+	Node0x55c0f9c64780 -> Node0x55c0f9c647d0;
+	Node0x55c0f9c647d0 [shape=record,label="{sqlite3.c:141783:}"];
+	Node0x55c0f9c647d0 -> Node0x55c0f9c62800;
+	Node0x55c0f9c62800 [shape=record,label="{sqlite3.c:141786:}"];
+}

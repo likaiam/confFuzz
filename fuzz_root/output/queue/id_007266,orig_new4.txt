@@ -1,0 +1,1 @@
+CREATE VIEW v0 ( v1 , v2 ) AS SELECT 'v0' / 'v0' , '13' / 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' , 'x' / 'v1' ; BEGIN EXCLUSIVE ; CREATE VIEW v3 AS SELECT 1.100000 * ifnull ( v1 , 9223372036854775807 ) FROM v0 ; REPLACE INTO v3 ( v5 ) VALUES ( NULL ) ; 

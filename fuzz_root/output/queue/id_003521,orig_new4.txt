@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10 ) ,( 3 ) ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; SELECT count ( CASE WHEN v3 = 'v0' THEN 1 END ) , count ( CASE WHEN v2 = 'MED P' THEN 10 END ) FROM v0 ; 

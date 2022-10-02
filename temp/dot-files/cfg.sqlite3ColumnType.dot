@@ -1,0 +1,17 @@
+digraph "CFG for 'sqlite3ColumnType' function" {
+	label="CFG for 'sqlite3ColumnType' function";
+
+	Node0x55c0fb864a10 [shape=record,label="{sqlite3.c:33312:}"];
+	Node0x55c0fb864a10 -> Node0x55c0fb864ed0;
+	Node0x55c0fb864a10 -> Node0x55c0fb864f70;
+	Node0x55c0fb864ed0 [shape=record,label="{sqlite3.c:33314:}"];
+	Node0x55c0fb864ed0 -> Node0x55c0fb864b90;
+	Node0x55c0fb864f70 [shape=record,label="{sqlite3.c:33315:}"];
+	Node0x55c0fb864f70 -> Node0x55c0fb867880;
+	Node0x55c0fb864f70 -> Node0x55c0fb867920;
+	Node0x55c0fb867880 [shape=record,label="{sqlite3.c:33317:}"];
+	Node0x55c0fb867880 -> Node0x55c0fb864b90;
+	Node0x55c0fb867920 [shape=record,label="{sqlite3.c:33319:}"];
+	Node0x55c0fb867920 -> Node0x55c0fb864b90;
+	Node0x55c0fb864b90 [shape=record,label="{sqlite3.c:33321:}"];
+}

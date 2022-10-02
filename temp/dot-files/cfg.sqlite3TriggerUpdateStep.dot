@@ -1,0 +1,17 @@
+digraph "CFG for 'sqlite3TriggerUpdateStep' function" {
+	label="CFG for 'sqlite3TriggerUpdateStep' function";
+
+	Node0x55c0fa25bbb0 [shape=record,label="{sqlite3.c:143982:}"];
+	Node0x55c0fa25bbb0 -> Node0x55c0f64eb460;
+	Node0x55c0fa25bbb0 -> Node0x55c0fa27a4f0;
+	Node0x55c0f64eb460 [shape=record,label="{sqlite3.c:143996:}"];
+	Node0x55c0f64eb460 -> Node0x55c0fa27a9c0;
+	Node0x55c0f64eb460 -> Node0x55c0fa27aa60;
+	Node0x55c0fa27a9c0 [shape=record,label="{sqlite3.c:143997:}"];
+	Node0x55c0fa27a9c0 -> Node0x55c0fa27aa10;
+	Node0x55c0fa27aa60 [shape=record,label="{sqlite3.c:144004:}"];
+	Node0x55c0fa27aa60 -> Node0x55c0fa27aa10;
+	Node0x55c0fa27aa10 [shape=record,label="{sqlite3.c:144008:}"];
+	Node0x55c0fa27aa10 -> Node0x55c0fa27a4f0;
+	Node0x55c0fa27a4f0 [shape=record,label="{sqlite3.c:144010:}"];
+}

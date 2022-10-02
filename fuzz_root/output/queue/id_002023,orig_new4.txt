@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'BUILDING' ) ,( 'SM BOX' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v1' , 2 ) ,( 'v1' , 0 ) ,( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' , 1 ) ,( 'x' , 10 ) ; SELECT 2.100000 * SUM ( CASE WHEN v1 LIKE 'v1' THEN v1 * ( 9223372036854775807 - v1 ) ELSE 10 END ) FROM v2 AS b , v0 AS a ; 

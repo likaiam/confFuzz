@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 4294967295 ) ; SELECT sum ( DISTINCT v3 ) , sum ( length ( v2 ) ) FROM v0 ; 

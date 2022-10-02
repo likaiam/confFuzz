@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3_enable_load_extension' function" {
+	label="CFG for 'sqlite3_enable_load_extension' function";
+
+	Node0x55c0f62db6b0 [shape=record,label="{sqlite3.c:130843:}"];
+	Node0x55c0f62db6b0 -> Node0x55c0f62fe6f0;
+	Node0x55c0f62db6b0 -> Node0x55c0f62fe790;
+	Node0x55c0f62fe6f0 [shape=record,label="{sqlite3.c:130846:}"];
+	Node0x55c0f62fe6f0 -> Node0x55c0f62fe740;
+	Node0x55c0f62fe790 [shape=record,label="{sqlite3.c:130848:}"];
+	Node0x55c0f62fe790 -> Node0x55c0f62fe740;
+	Node0x55c0f62fe740 [shape=record,label="{sqlite3.c:130850:}"];
+}

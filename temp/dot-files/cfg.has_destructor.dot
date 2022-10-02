@@ -1,0 +1,17 @@
+digraph "CFG for 'has_destructor' function" {
+	label="CFG for 'has_destructor' function";
+
+	Node0x5625654c28b0 [shape=record,label="{lemon.c:3775:}"];
+	Node0x5625654c28b0 -> Node0x5625654cf070;
+	Node0x5625654c28b0 -> Node0x5625654cf110;
+	Node0x5625654cf070 [shape=record,label="{lemon.c:3779:}"];
+	Node0x5625654cf070 -> Node0x5625654cf0c0;
+	Node0x5625654cf110 [shape=record,label="{lemon.c:3781:}"];
+	Node0x5625654cf110 -> Node0x5625654cfab0;
+	Node0x5625654cf110 -> Node0x5625654cfb00;
+	Node0x5625654cfb00 [shape=record,label="{lemon.c:3781:}"];
+	Node0x5625654cfb00 -> Node0x5625654cfab0;
+	Node0x5625654cfab0 [shape=record,label="{lemon.c:3781:}"];
+	Node0x5625654cfab0 -> Node0x5625654cf0c0;
+	Node0x5625654cf0c0 [shape=record,label="{lemon.c:3783:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'DbTraceHandler' function" {
+	label="CFG for 'DbTraceHandler' function";
+
+	Node0x55a735b0d430 [shape=record,label="{tclsqlite.c:641:}"];
+}

@@ -1,0 +1,1 @@
+PRAGMA cache_spill = 0;CREATE TABLE v0 ( v1 INTEGER CHECK( v1 + 0 < 0 NOT LIKE julianday ( v1 , 10 , random () % 0 ) ) ) ; INSERT INTO v0 VALUES ( 1 ) ,( 2 ) ; VACUUM ; VACUUM ; SELECT v1 = NULL FROM v0 WHERE NULL BETWEEN v1 > v1 AND 10 = v1 * 10 ; 

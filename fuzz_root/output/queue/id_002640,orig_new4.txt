@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 , v1 INTEGER AS( 'test' ) CHECK( 1 ) CHECK( v2 NOT LIKE 'Ar' ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 3 ) ; SELECT DISTINCT v0 . v1 FROM v0 AS a JOIN v0 ON 2000 = v0 . v2 WHERE v0 . v2 IN ( v0 . v2 , 10 , v0 . v2 ) ; 

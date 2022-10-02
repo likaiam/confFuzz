@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3_realloc64' function" {
+	label="CFG for 'sqlite3_realloc64' function";
+
+	Node0x55c0f53658e0 [shape=record,label="{sqlite3.c:29271:}"];
+	Node0x55c0f53658e0 -> Node0x55c0f536bc60;
+	Node0x55c0f53658e0 -> Node0x55c0f536ba30;
+	Node0x55c0f536bc60 [shape=record,label="{sqlite3.c:29273:}"];
+	Node0x55c0f536bc60 -> Node0x55c0f536bf90;
+	Node0x55c0f536ba30 [shape=record,label="{sqlite3.c:29275:}"];
+	Node0x55c0f536ba30 -> Node0x55c0f536bf90;
+	Node0x55c0f536bf90 [shape=record,label="{sqlite3.c:29276:}"];
+}

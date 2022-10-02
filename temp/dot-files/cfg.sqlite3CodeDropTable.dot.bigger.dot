@@ -1,0 +1,35 @@
+digraph "CFG for 'sqlite3CodeDropTable' function" {
+	label="CFG for 'sqlite3CodeDropTable' function";
+
+	Node0x55c0f92261e0 [shape=record,label="{sqlite3.c:118416:}"];
+	Node0x55c0f92261e0 -> Node0x55c0f9230250;
+	Node0x55c0f92261e0 -> Node0x55c0f92302a0;
+	Node0x55c0f9230250 [shape=record,label="{sqlite3.c:118428:}"];
+	Node0x55c0f9230250 -> Node0x55c0f92302a0;
+	Node0x55c0f92302a0 [shape=record,label="{sqlite3.c:118436:}"];
+	Node0x55c0f92302a0 -> Node0x55c0f64eb030;
+	Node0x55c0f64eb030 [shape=record,label="{sqlite3.c:118437:}"];
+	Node0x55c0f64eb030 -> Node0x55c0f9231420;
+	Node0x55c0f64eb030 -> Node0x55c0f9231120;
+	Node0x55c0f9231420 [shape=record,label="{sqlite3.c:118440:}"];
+	Node0x55c0f9231420 -> Node0x55c0f64eb030;
+	Node0x55c0f9231120 [shape=record,label="{sqlite3.c:118450:}"];
+	Node0x55c0f9231120 -> Node0x55c0f64e8d70;
+	Node0x55c0f9231120 -> Node0x55c0f9231990;
+	Node0x55c0f64e8d70 [shape=record,label="{sqlite3.c:118451:}"];
+	Node0x55c0f64e8d70 -> Node0x55c0f9231990;
+	Node0x55c0f9231990 [shape=record,label="{sqlite3.c:118465:}"];
+	Node0x55c0f9231990 -> Node0x55c0f9232fe0;
+	Node0x55c0f9231990 -> Node0x55c0f9233030;
+	Node0x55c0f9233030 [shape=record,label="{sqlite3.c:118469:}"];
+	Node0x55c0f9233030 -> Node0x55c0f9232fe0;
+	Node0x55c0f9233030 -> Node0x55c0f9232f90;
+	Node0x55c0f9232f90 [shape=record,label="{sqlite3.c:118470:}"];
+	Node0x55c0f9232f90 -> Node0x55c0f9232fe0;
+	Node0x55c0f9232fe0 [shape=record,label="{sqlite3.c:118476:}"];
+	Node0x55c0f9232fe0 -> Node0x55c0f60cb610;
+	Node0x55c0f9232fe0 -> Node0x55c0f9234020;
+	Node0x55c0f60cb610 [shape=record,label="{sqlite3.c:118477:}"];
+	Node0x55c0f60cb610 -> Node0x55c0f9234020;
+	Node0x55c0f9234020 [shape=record,label="{sqlite3.c:118480:}"];
+}

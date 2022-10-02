@@ -1,0 +1,1 @@
+SELECT - 'BUILDING' ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; UPDATE v0 SET v1 = v1 , v1 = v1 + 3 ; SELECT v0 . v1 FROM v0 AS a JOIN v0 AS b ON v0 . v1 = v0 . v1 WHERE v0 . v1 IN ( 10 , 10 , 12 ) ; 

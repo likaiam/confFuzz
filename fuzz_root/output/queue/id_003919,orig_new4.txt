@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; INSERT INTO v0 ( v2 ) VALUES ( 0 ) ,( 1 ) ; DELETE FROM v0 WHERE v3 < 10 OR v1 LIKE 'x' ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER UNIQUE , v2 TEXT ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 10 ) ,( 1 ) ,( 10 ) ,( 1 ) ,( 9223372036854775807 ) ,( 10 ) ,( 3 ) ,( 10 ) ,( 127 ) ,( 10 ) ; SELECT count ( * ) FROM v0 , v0 LEFT JOIN v0 , v0 ; 

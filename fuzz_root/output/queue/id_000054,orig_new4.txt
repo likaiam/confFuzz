@@ -1,0 +1,1 @@
+PRAGMA vdbe_addoptrace=true; ; CREATE TABLE v0 ( v1 , v2 AS( v3 + alias ) , v3 AS( v2 ) CHECK( v2 ) ) ; UPDATE v0 SET v3 = NULL ; 

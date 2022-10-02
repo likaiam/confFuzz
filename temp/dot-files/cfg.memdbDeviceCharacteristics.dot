@@ -1,0 +1,5 @@
+digraph "CFG for 'memdbDeviceCharacteristics' function" {
+	label="CFG for 'memdbDeviceCharacteristics' function";
+
+	Node0x55c0f7269580 [shape=record,label="{sqlite3.c:50176:}"];
+}

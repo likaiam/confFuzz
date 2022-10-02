@@ -1,0 +1,1 @@
+WITH tmp AS ( SELECT 3 AS d FROM v0 ) SELECT ieee754 ( 3 , 10 ) IS NULL ; SELECT DISTINCT - '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' ; SELECT * FROM v1 , v2 WHERE v4 = v5 AND v3 = 10 ; 

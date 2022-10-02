@@ -1,0 +1,25 @@
+digraph "CFG for 'safeToUseEvalObjv' function" {
+	label="CFG for 'safeToUseEvalObjv' function";
+
+	Node0x55a735abd810 [shape=record,label="{tclsqlite.c:452:}"];
+	Node0x55a735abd810 -> Node0x55a735ac0cb0;
+	Node0x55a735ac0cb0 [shape=record,label="{tclsqlite.c:460:}"];
+	Node0x55a735ac0cb0 -> Node0x55a735ac11b0;
+	Node0x55a735ac0cb0 -> Node0x55a735ac0e10;
+	Node0x55a735ac11b0 [shape=record,label="{tclsqlite.c:461:}"];
+	Node0x55a735ac11b0 -> Node0x55a735ac19e0;
+	Node0x55a735ac11b0 -> Node0x55a735ac1b00;
+	Node0x55a735ac1b00 [shape=record,label="{tclsqlite.c:462:}"];
+	Node0x55a735ac1b00 -> Node0x55a735ac19e0;
+	Node0x55a735ac1b00 -> Node0x55a735ac1a80;
+	Node0x55a735ac1a80 [shape=record,label="{tclsqlite.c:462:}"];
+	Node0x55a735ac1a80 -> Node0x55a735ac19e0;
+	Node0x55a735ac1a80 -> Node0x55a735ac1a30;
+	Node0x55a735ac19e0 [shape=record,label="{tclsqlite.c:462:}"];
+	Node0x55a735ac19e0 -> Node0x55a735abaa00;
+	Node0x55a735ac1a30 [shape=record,label="{tclsqlite.c:460:}"];
+	Node0x55a735ac1a30 -> Node0x55a735ac0cb0;
+	Node0x55a735ac0e10 [shape=record,label="{tclsqlite.c:464:}"];
+	Node0x55a735ac0e10 -> Node0x55a735abaa00;
+	Node0x55a735abaa00 [shape=record,label="{tclsqlite.c:465:}"];
+}

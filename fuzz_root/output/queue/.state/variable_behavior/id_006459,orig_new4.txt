@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER UNIQUE ON CONFLICT REPLACE ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'v1' ) ,( 'X' ) ,( 'v0' ) ,( 'v1' ) ; UPDATE v0 SET v1 = randomblob ( ( 9223372036854775808 = 10 AND v1 = 1 ) + v1 + julianday ( * ) ) ; UPDATE v0 SET v1 = randomblob ( CASE WHEN v1 != 'v0' THEN 10 ELSE v0 . v1 END ) ; CREATE TABLE v2 ( v3 PRIMARY KEY ON CONFLICT FAIL , v4 ) ; 

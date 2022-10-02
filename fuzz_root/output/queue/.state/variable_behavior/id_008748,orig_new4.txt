@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '1995-09-01' ) ,( 'v1' ) ,( '1995-09-01' ) ; UPDATE v0 SET v1 = randomblob ( v1 ) ; CREATE VIEW v2 AS SELECT v2 . v5 FROM v2 AS a , v2 AS b WHERE v2 . v3 IN ( v2 . v6 , 0 , v2 . v4 ) ; SELECT * FROM v0 UNION SELECT * FROM v0 ; 

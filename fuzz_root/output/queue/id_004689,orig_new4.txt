@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 's%' ) ,( 'v1' ) ,( 0.100000 ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT OR REPLACE INTO v0 SELECT DISTINCT CAST ( v1 != substr ( v1 , 0 , v1 ) AS CHAR(25) ) FROM v0 LIMIT 127 ; SELECT 'x' , substr ( v1 , 10 ) AS m FROM v0 ORDER BY lower ( v1 ) ; 

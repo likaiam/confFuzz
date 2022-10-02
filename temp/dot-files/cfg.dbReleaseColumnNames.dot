@@ -1,0 +1,28 @@
+digraph "CFG for 'dbReleaseColumnNames' function" {
+	label="CFG for 'dbReleaseColumnNames' function";
+
+	Node0x55a7359a3be0 [shape=record,label="{tclsqlite.c:1563:}"];
+	Node0x55a7359a3be0 -> Node0x55a735a77900;
+	Node0x55a7359a3be0 -> Node0x55a735a77950;
+	Node0x55a735a77900 [shape=record,label="{tclsqlite.c:1565:}"];
+	Node0x55a735a77900 -> Node0x55a735a7a820;
+	Node0x55a735a7a820 [shape=record,label="{tclsqlite.c:1566:}"];
+	Node0x55a735a7a820 -> Node0x55a735a7a960;
+	Node0x55a735a7a820 -> Node0x55a735a7a670;
+	Node0x55a735a7a960 [shape=record,label="{tclsqlite.c:1567:}"];
+	Node0x55a735a7a960 -> Node0x55a735a7af70;
+	Node0x55a735a7af70 [shape=record,label="{tclsqlite.c:1567:}"];
+	Node0x55a735a7af70 -> Node0x55a735a7b720;
+	Node0x55a735a7af70 -> Node0x55a735a7b770;
+	Node0x55a735a7b720 [shape=record,label="{tclsqlite.c:1567:}"];
+	Node0x55a735a7b720 -> Node0x55a735a7b770;
+	Node0x55a735a7b770 [shape=record,label="{tclsqlite.c:1567:}"];
+	Node0x55a735a7b770 -> Node0x55a735a7aed0;
+	Node0x55a735a7aed0 [shape=record,label="{tclsqlite.c:1568:}"];
+	Node0x55a735a7aed0 -> Node0x55a735a7a8d0;
+	Node0x55a735a7a8d0 [shape=record,label="{tclsqlite.c:1566:}"];
+	Node0x55a735a7a8d0 -> Node0x55a735a7a820;
+	Node0x55a735a7a670 [shape=record,label="{tclsqlite.c:1569:}"];
+	Node0x55a735a7a670 -> Node0x55a735a77950;
+	Node0x55a735a77950 [shape=record,label="{tclsqlite.c:1572:}"];
+}

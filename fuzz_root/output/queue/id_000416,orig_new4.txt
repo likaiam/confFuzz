@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 INT , v1 INT ) ; INSERT INTO v0 ( v2 , v1 ) VALUES ( 10 , 1 ) ; SELECT v2 / 10 , v2 / 0 FROM v0 ; 

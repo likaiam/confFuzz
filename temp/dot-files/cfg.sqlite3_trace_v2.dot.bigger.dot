@@ -1,0 +1,15 @@
+digraph "CFG for 'sqlite3_trace_v2' function" {
+	label="CFG for 'sqlite3_trace_v2' function";
+
+	Node0x55c0f6a223e0 [shape=record,label="{sqlite3.c:172447:}"];
+	Node0x55c0f6a223e0 -> Node0x55c0f6a25e90;
+	Node0x55c0f6a223e0 -> Node0x55c0f6a25ee0;
+	Node0x55c0f6a25e90 [shape=record,label="{sqlite3.c:172458:}"];
+	Node0x55c0f6a25e90 -> Node0x55c0f6a25ee0;
+	Node0x55c0f6a25ee0 [shape=record,label="{sqlite3.c:172459:}"];
+	Node0x55c0f6a25ee0 -> Node0x55c0f6a263d0;
+	Node0x55c0f6a25ee0 -> Node0x55c0f6a26420;
+	Node0x55c0f6a263d0 [shape=record,label="{sqlite3.c:172459:}"];
+	Node0x55c0f6a263d0 -> Node0x55c0f6a26420;
+	Node0x55c0f6a26420 [shape=record,label="{sqlite3.c:172460:}"];
+}

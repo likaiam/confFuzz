@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '18' ) ,( 'PROMO%%' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 2000 ) ,( 'v1' , 10 ) ,( 'UTF-16le' , 10 ) ,( 'v1' , 10 ) ; SELECT SUM ( lower ( v3 ) * ( 1 - v4 ) ) AS REVENUE , v3 AS alias FROM v2 ; 

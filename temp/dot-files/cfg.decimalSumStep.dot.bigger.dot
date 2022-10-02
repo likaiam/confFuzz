@@ -1,0 +1,29 @@
+digraph "CFG for 'decimalSumStep' function" {
+	label="CFG for 'decimalSumStep' function";
+
+	Node0x5602769a4890 [shape=record,label="{shell.c:5006:}"];
+	Node0x5602769a4890 -> Node0x5602769b5260;
+	Node0x5602769a4890 -> Node0x5602769b54e0;
+	Node0x5602769b5260 [shape=record,label="{shell.c:5014:}"];
+	Node0x5602769b5260 -> Node0x5602769a4a10;
+	Node0x5602769b54e0 [shape=record,label="{shell.c:5015:}"];
+	Node0x5602769b54e0 -> Node0x5602769b5850;
+	Node0x5602769b54e0 -> Node0x5602769b5800;
+	Node0x5602769b5800 [shape=record,label="{shell.c:5016:}"];
+	Node0x5602769b5800 -> Node0x5602769b6100;
+	Node0x5602769b5800 -> Node0x5602769b61a0;
+	Node0x5602769b6100 [shape=record,label="{shell.c:5019:}"];
+	Node0x5602769b6100 -> Node0x5602769b6150;
+	Node0x5602769b61a0 [shape=record,label="{shell.c:5021:}"];
+	Node0x5602769b61a0 -> Node0x5602769b6150;
+	Node0x5602769b6150 [shape=record,label="{shell.c:5023:}"];
+	Node0x5602769b6150 -> Node0x5602769b5850;
+	Node0x5602769b5850 [shape=record,label="{shell.c:5026:}"];
+	Node0x5602769b5850 -> Node0x5602769b72f0;
+	Node0x5602769b5850 -> Node0x5602769b7340;
+	Node0x5602769b72f0 [shape=record,label="{shell.c:5026:}"];
+	Node0x5602769b72f0 -> Node0x5602769a4a10;
+	Node0x5602769b7340 [shape=record,label="{shell.c:5027:}"];
+	Node0x5602769b7340 -> Node0x5602769a4a10;
+	Node0x5602769a4a10 [shape=record,label="{shell.c:5030:}"];
+}

@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16le'; ; VACUUM ; SELECT 1 AS y FROM v0 AS x ; 

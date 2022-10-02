@@ -1,0 +1,12 @@
+digraph "CFG for 'fts3BinCompare' function" {
+	label="CFG for 'fts3BinCompare' function";
+
+	Node0x55c0fab3a770 [shape=record,label="{sqlite3.c:184507:}"];
+	Node0x55c0fab3a770 -> Node0x55c0fab3cb40;
+	Node0x55c0fab3a770 -> Node0x55c0fab3cb90;
+	Node0x55c0fab3cb40 [shape=record,label="{sqlite3.c:184508:}"];
+	Node0x55c0fab3cb40 -> Node0x55c0fab3a8f0;
+	Node0x55c0fab3cb90 [shape=record,label="{sqlite3.c:184509:}"];
+	Node0x55c0fab3cb90 -> Node0x55c0fab3a8f0;
+	Node0x55c0fab3a8f0 [shape=record,label="{sqlite3.c:184510:}"];
+}

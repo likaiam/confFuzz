@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16be' ; ; VACUUM ; SELECT 'Brand#23' , v1 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'x' ) ,( 'x' ) ,( 'x' ) ,( 'v0' ) ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT DISTINCT min ( 10.100000 ) FROM v0 , v0 AS PROMO_REVENUE NATURAL JOIN v0 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ORDER BY v1 DESC , v1 ) DESC ; 

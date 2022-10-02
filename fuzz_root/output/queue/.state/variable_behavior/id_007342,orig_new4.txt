@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( v1 != printf ( random () , v1 NOT LIKE printf ( 'v0' , 10 ) ) NOT LIKE max ( v1 , v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'AIR REG' ) ,( '%%BRASS' ) ,( 'LG PKG' ) ,( 'v1' ) ,( '%%green%%' ) ; UPDATE v0 SET v1 = zeroblob ( 10 ) ; SELECT typeof ( 1 ) , v1 , typeof ( v1 ) , v1 , 'x' FROM v0 ORDER BY v1 ; 

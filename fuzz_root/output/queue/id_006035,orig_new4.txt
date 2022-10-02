@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT UNIQUE ON CONFLICT ABORT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'PROMO%%' ) ,( '1995-09-01' ) ,( 'a' ) ,( 'CANADA' ) ; UPDATE v0 SET v1 = randomblob ( ( SELECT v1 FROM v0 WHERE v0 . v1 = v0 . v1 GROUP BY v0 . v1 , v1 ) + v1 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

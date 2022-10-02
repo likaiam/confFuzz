@@ -1,0 +1,44 @@
+digraph "CFG for 'fts3EvalStartReaders' function" {
+	label="CFG for 'fts3EvalStartReaders' function";
+
+	Node0x55c0faf38510 [shape=record,label="{sqlite3.c:181238:}"];
+	Node0x55c0faf38510 -> Node0x55c0faf4fc50;
+	Node0x55c0faf38510 -> Node0x55c0faf4f0a0;
+	Node0x55c0faf4fc50 [shape=record,label="{sqlite3.c:181242:}"];
+	Node0x55c0faf4fc50 -> Node0x55c0faf4f3e0;
+	Node0x55c0faf4fc50 -> Node0x55c0faf4f0a0;
+	Node0x55c0faf4f3e0 [shape=record,label="{sqlite3.c:181243:}"];
+	Node0x55c0faf4f3e0 -> Node0x55c0faf50190;
+	Node0x55c0faf4f3e0 -> Node0x55c0faf50230;
+	Node0x55c0faf50190 [shape=record,label="{sqlite3.c:181244:}"];
+	Node0x55c0faf50190 -> Node0x55c0faf50da0;
+	Node0x55c0faf50190 -> Node0x55c0faf50df0;
+	Node0x55c0faf50da0 [shape=record,label="{sqlite3.c:181246:}"];
+	Node0x55c0faf50da0 -> Node0x55c0faf51560;
+	Node0x55c0faf51560 [shape=record,label="{sqlite3.c:181247:}"];
+	Node0x55c0faf51560 -> Node0x55c0faf51780;
+	Node0x55c0faf51560 -> Node0x55c0faf513b0;
+	Node0x55c0faf51780 [shape=record,label="{sqlite3.c:181248:}"];
+	Node0x55c0faf51780 -> Node0x55c0faf51c00;
+	Node0x55c0faf51780 -> Node0x55c0faf51c50;
+	Node0x55c0faf51c00 [shape=record,label="{sqlite3.c:181248:}"];
+	Node0x55c0faf51c00 -> Node0x55c0faf513b0;
+	Node0x55c0faf51c50 [shape=record,label="{sqlite3.c:181249:}"];
+	Node0x55c0faf51c50 -> Node0x55c0faf516f0;
+	Node0x55c0faf516f0 [shape=record,label="{sqlite3.c:181247:}"];
+	Node0x55c0faf516f0 -> Node0x55c0faf51560;
+	Node0x55c0faf513b0 [shape=record,label="{sqlite3.c:181250:}"];
+	Node0x55c0faf513b0 -> Node0x55c0faf50df0;
+	Node0x55c0faf50df0 [shape=record,label="{sqlite3.c:181252:}"];
+	Node0x55c0faf50df0 -> Node0x55c0faf501e0;
+	Node0x55c0faf50230 [shape=record,label="{sqlite3.c:181254:}"];
+	Node0x55c0faf50230 -> Node0x55c0faf536f0;
+	Node0x55c0faf50230 -> Node0x55c0f5d0bba0;
+	Node0x55c0faf536f0 [shape=record,label="{sqlite3.c:181256:}"];
+	Node0x55c0faf536f0 -> Node0x55c0f5d0bba0;
+	Node0x55c0f5d0bba0 [shape=record,label="{sqlite3.c:181256:}"];
+	Node0x55c0f5d0bba0 -> Node0x55c0faf501e0;
+	Node0x55c0faf501e0 [shape=record,label="{sqlite3.c:181258:}"];
+	Node0x55c0faf501e0 -> Node0x55c0faf4f0a0;
+	Node0x55c0faf4f0a0 [shape=record,label="{sqlite3.c:181259:}"];
+}

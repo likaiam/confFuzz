@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY CHECK( v1 MATCH NOT ( 'v1' = 'abc' AND NOT random () != random () ) ) ) ; CREATE TABLE v2 ( v3 , v4 ) ; VACUUM ; UPDATE v2 SET v3 = v3 + 10 WHERE v3 IN ( 10 , 1 , 3 , 3 ) AND v4 IN ( 10 , 0 , NULL , 10 ) ; DELETE FROM v0 WHERE v1 MATCH - 10.100000 ; 

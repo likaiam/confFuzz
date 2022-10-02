@@ -1,0 +1,17 @@
+digraph "CFG for 'sqlite3MemdbInit' function" {
+	label="CFG for 'sqlite3MemdbInit' function";
+
+	Node0x55c0fa90bf80 [shape=record,label="{sqlite3.c:50583:}"];
+	Node0x55c0fa90bf80 -> Node0x55c0fa90ceb0;
+	Node0x55c0fa90bf80 -> Node0x55c0fa90c400;
+	Node0x55c0fa90ceb0 [shape=record,label="{sqlite3.c:50585:}"];
+	Node0x55c0fa90ceb0 -> Node0x55c0fa90c100;
+	Node0x55c0fa90c400 [shape=record,label="{sqlite3.c:50586:}"];
+	Node0x55c0fa90c400 -> Node0x55c0f537b2f0;
+	Node0x55c0fa90c400 -> Node0x55c0fa90e1a0;
+	Node0x55c0f537b2f0 [shape=record,label="{sqlite3.c:50592:}"];
+	Node0x55c0f537b2f0 -> Node0x55c0fa90e1a0;
+	Node0x55c0fa90e1a0 [shape=record,label="{sqlite3.c:50593:}"];
+	Node0x55c0fa90e1a0 -> Node0x55c0fa90c100;
+	Node0x55c0fa90c100 [shape=record,label="{sqlite3.c:50595:}"];
+}

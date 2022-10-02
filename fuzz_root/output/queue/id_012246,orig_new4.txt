@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v2 AS( 0 = v3 * 1 ) , v1 , v3 ) ; INSERT INTO v0 ( v1 ) VALUES ( 's%' ) ,( 'UTF-16le' ) ,( 'x' ) ,( '17' ) ,( 'SM PACK' ) ; UPDATE v0 SET v2 = randomblob ( 10 ) ; SELECT printf ( 'MED PACK' ) UNION SELECT DISTINCT v3 = zeroblob ( 10 ) FROM v0 ORDER BY v3 ; 

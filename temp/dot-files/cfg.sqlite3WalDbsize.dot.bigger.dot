@@ -1,0 +1,15 @@
+digraph "CFG for 'sqlite3WalDbsize' function" {
+	label="CFG for 'sqlite3WalDbsize' function";
+
+	Node0x55c0f77447d0 [shape=record,label="{sqlite3.c:64849:}"];
+	Node0x55c0f77447d0 -> Node0x55c0f77488f0;
+	Node0x55c0f77447d0 -> Node0x55c0f77485e0;
+	Node0x55c0f77488f0 [shape=record,label="{sqlite3.c:64850:}"];
+	Node0x55c0f77488f0 -> Node0x55c0f7744380;
+	Node0x55c0f77488f0 -> Node0x55c0f77485e0;
+	Node0x55c0f7744380 [shape=record,label="{sqlite3.c:64851:}"];
+	Node0x55c0f7744380 -> Node0x55c0f7744950;
+	Node0x55c0f77485e0 [shape=record,label="{sqlite3.c:64853:}"];
+	Node0x55c0f77485e0 -> Node0x55c0f7744950;
+	Node0x55c0f7744950 [shape=record,label="{sqlite3.c:64854:}"];
+}

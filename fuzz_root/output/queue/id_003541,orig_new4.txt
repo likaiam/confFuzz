@@ -1,0 +1,1 @@
+SELECT - 'AIR' ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 3 ) ; SELECT max ( DISTINCT count ( * ) , min ( v1 ) , NULL , 0 ) FROM v0 ; 

@@ -1,0 +1,5 @@
+digraph "CFG for 'subtypeFunc' function" {
+	label="CFG for 'subtypeFunc' function";
+
+	Node0x55c0f8783a80 [shape=record,label="{sqlite3.c:122381:}"];
+}

@@ -1,0 +1,1 @@
+SELECT zeroblob ( 1 ) UNION SELECT NULL GROUP BY zeroblob ( 10 ) ; SELECT * FROM v0 AS REVENUE INDEXED BY v1 , v2 WHERE v3 = v5 AND v4 = 1 ; 

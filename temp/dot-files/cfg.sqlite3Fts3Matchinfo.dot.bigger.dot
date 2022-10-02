@@ -1,0 +1,19 @@
+digraph "CFG for 'sqlite3Fts3Matchinfo' function" {
+	label="CFG for 'sqlite3Fts3Matchinfo' function";
+
+	Node0x55c0f528d080 [shape=record,label="{sqlite3.c:194196:}"];
+	Node0x55c0f528d080 -> Node0x55c0fb32eda0;
+	Node0x55c0f528d080 -> Node0x55c0fb32ee40;
+	Node0x55c0fb32eda0 [shape=record,label="{sqlite3.c:194204:}"];
+	Node0x55c0fb32eda0 -> Node0x55c0fb32edf0;
+	Node0x55c0fb32ee40 [shape=record,label="{sqlite3.c:194206:}"];
+	Node0x55c0fb32ee40 -> Node0x55c0fb32edf0;
+	Node0x55c0fb32edf0 [shape=record,label="{sqlite3.c:194209:}"];
+	Node0x55c0fb32edf0 -> Node0x55c0fb32f850;
+	Node0x55c0fb32edf0 -> Node0x55c0fb32f7b0;
+	Node0x55c0fb32f7b0 [shape=record,label="{sqlite3.c:194210:}"];
+	Node0x55c0fb32f7b0 -> Node0x55c0fb32f800;
+	Node0x55c0fb32f850 [shape=record,label="{sqlite3.c:194214:}"];
+	Node0x55c0fb32f850 -> Node0x55c0fb32f800;
+	Node0x55c0fb32f800 [shape=record,label="{sqlite3.c:194217:}"];
+}

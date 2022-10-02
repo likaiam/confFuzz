@@ -1,0 +1,1 @@
+PRAGMA busy_timeout = 21474836;PRAGMA busy_timeout=12; ; CREATE VIRTUAL TABLE v0 USING spellfix1 ; SELECT NULL ; 

@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3StrAccumInit' function" {
+	label="CFG for 'sqlite3StrAccumInit' function";
+
+	Node0x55c0f6ffe570 [shape=record,label="{sqlite3.c:30775:}"];
+}

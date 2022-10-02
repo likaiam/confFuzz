@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( tclvar INTEGER ) ; ALTER TABLE main . v0 ADD p INTEGER CHECK( v1 NOT LIKE datetime ( - v2 ) ) CHECK( v3 ) ; SELECT v8 , v6 FROM v0 WHERE v7 IS NOT NULL ; 

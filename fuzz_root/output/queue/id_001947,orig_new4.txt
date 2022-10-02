@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'Ar' ) ,( 'v1' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE INDEX v5 ON v2 ( v3 , v4 ) WHERE v3 != substr ( v3 , 0 , 9223372036854775807 ) ; SELECT SUM ( v4 * ( 10 - v3 ) ) AS REVENUE , v3 AS alias FROM v5 ; 

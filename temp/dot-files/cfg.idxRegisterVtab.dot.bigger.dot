@@ -1,0 +1,5 @@
+digraph "CFG for 'idxRegisterVtab' function" {
+	label="CFG for 'idxRegisterVtab' function";
+
+	Node0x560276bf2800 [shape=record,label="{shell.c:9855:}"];
+}

@@ -1,0 +1,1 @@
+PRAGMA case_sensitive_like=true; ; CREATE TABLE v0 ( v1 , v2 AS( v1 + v1 ) , v3 AS( NOT CASE v2 WHEN 'x' THEN 3 ELSE 10 END ) CHECK( v2 ) ) ; UPDATE v0 SET v1 = NULL ; SELECT ( SELECT v1 ) , v3 FROM v0 ; 

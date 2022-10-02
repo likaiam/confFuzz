@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'x' ) ,( 'x' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'forest%%' , 1 ) ,( 'v1' , 1 ) ,( 'v0' , 10 ) ; SELECT SUM ( DISTINCT quote ( v3 ) ) AS REVENUE , v3 AS alias FROM v2 ; 

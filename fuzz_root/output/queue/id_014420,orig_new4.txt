@@ -1,0 +1,1 @@
+CREATE VIEW v0 AS SELECT 'v0' AS a , zeroblob ( 10 ) AS b ; WITH v1 AS ( SELECT * FROM v0 ) SELECT * FROM 'v1' v0 JOIN v0 NATURAL JOIN v0 ; 

@@ -1,0 +1,17 @@
+digraph "CFG for 'fts3ColumnlistCopy' function" {
+	label="CFG for 'fts3ColumnlistCopy' function";
+
+	Node0x55c0fac2c6e0 [shape=record,label="{sqlite3.c:178550:}"];
+	Node0x55c0fac2c6e0 -> Node0x55c0fac36e30;
+	Node0x55c0fac36e30 [shape=record,label="{sqlite3.c:178557:}"];
+	Node0x55c0fac36e30 -> Node0x55c0fac37510;
+	Node0x55c0fac36e30 -> Node0x55c0fac36f90;
+	Node0x55c0fac37510 [shape=record,label="{sqlite3.c:178558:}"];
+	Node0x55c0fac37510 -> Node0x55c0fac36e30;
+	Node0x55c0fac36f90 [shape=record,label="{sqlite3.c:178561:}"];
+	Node0x55c0fac36f90 -> Node0x55c0fac37de0;
+	Node0x55c0fac36f90 -> Node0x55c0fac37e30;
+	Node0x55c0fac37de0 [shape=record,label="{sqlite3.c:178562:}"];
+	Node0x55c0fac37de0 -> Node0x55c0fac37e30;
+	Node0x55c0fac37e30 [shape=record,label="{sqlite3.c:178568:}"];
+}

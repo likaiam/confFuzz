@@ -1,0 +1,18 @@
+digraph "CFG for 'openSubJournal' function" {
+	label="CFG for 'openSubJournal' function";
+
+	Node0x55c0f5cb5960 [shape=record,label="{sqlite3.c:58304:}"];
+	Node0x55c0f5cb5960 -> Node0x55c0f7344c90;
+	Node0x55c0f5cb5960 -> Node0x55c0f7344b80;
+	Node0x55c0f7344b80 [shape=record,label="{sqlite3.c:58307:}"];
+	Node0x55c0f7344b80 -> Node0x55c0f73466f0;
+	Node0x55c0f7344b80 -> Node0x55c0f7346790;
+	Node0x55c0f7346790 [shape=record,label="{sqlite3.c:58311:}"];
+	Node0x55c0f7346790 -> Node0x55c0f73466f0;
+	Node0x55c0f7346790 -> Node0x55c0f7346740;
+	Node0x55c0f73466f0 [shape=record,label="{sqlite3.c:58312:}"];
+	Node0x55c0f73466f0 -> Node0x55c0f7346740;
+	Node0x55c0f7346740 [shape=record,label="{sqlite3.c:58314:}"];
+	Node0x55c0f7346740 -> Node0x55c0f7344c90;
+	Node0x55c0f7344c90 [shape=record,label="{sqlite3.c:58316:}"];
+}

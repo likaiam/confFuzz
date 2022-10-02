@@ -1,0 +1,12 @@
+digraph "CFG for 'getTextArg' function" {
+	label="CFG for 'getTextArg' function";
+
+	Node0x55c0f6fc7360 [shape=record,label="{sqlite3.c:29759:}"];
+	Node0x55c0f6fc7360 -> Node0x55c0f6fc9a00;
+	Node0x55c0f6fc7360 -> Node0x55c0f6fc6dd0;
+	Node0x55c0f6fc9a00 [shape=record,label="{sqlite3.c:29760:}"];
+	Node0x55c0f6fc9a00 -> Node0x55c0f6fc74e0;
+	Node0x55c0f6fc6dd0 [shape=record,label="{sqlite3.c:29761:}"];
+	Node0x55c0f6fc6dd0 -> Node0x55c0f6fc74e0;
+	Node0x55c0f6fc74e0 [shape=record,label="{sqlite3.c:29762:}"];
+}

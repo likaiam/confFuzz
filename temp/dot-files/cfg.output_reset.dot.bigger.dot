@@ -1,0 +1,24 @@
+digraph "CFG for 'output_reset' function" {
+	label="CFG for 'output_reset' function";
+
+	Node0x560277502b70 [shape=record,label="{shell.c:16821:}"];
+	Node0x560277502b70 -> Node0x560277509810;
+	Node0x560277502b70 -> Node0x560277502720;
+	Node0x560277509810 [shape=record,label="{shell.c:16824:}"];
+	Node0x560277509810 -> Node0x560277509390;
+	Node0x560277502720 [shape=record,label="{shell.c:16827:}"];
+	Node0x560277502720 -> Node0x56027750a4f0;
+	Node0x560277502720 -> Node0x56027750a540;
+	Node0x56027750a4f0 [shape=record,label="{shell.c:16830:}"];
+	Node0x56027750a4f0 -> Node0x56027750b7e0;
+	Node0x56027750a4f0 -> Node0x56027750b880;
+	Node0x56027750b7e0 [shape=record,label="{shell.c:16841:}"];
+	Node0x56027750b7e0 -> Node0x56027750b830;
+	Node0x56027750b880 [shape=record,label="{shell.c:16846:}"];
+	Node0x56027750b880 -> Node0x56027750b830;
+	Node0x56027750b830 [shape=record,label="{shell.c:16848:}"];
+	Node0x56027750b830 -> Node0x56027750a540;
+	Node0x56027750a540 [shape=record,label="{%37}"];
+	Node0x56027750a540 -> Node0x560277509390;
+	Node0x560277509390 [shape=record,label="{shell.c:16854:}"];
+}

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 UNIQUE ON CONFLICT IGNORE CHECK( ( v2 = 3 AND ( random () != random () OR v2 = 0 ) ) NOT LIKE 'x' ) , v1 INTEGER AS( 'v1' ) CHECK( 2 ) CHECK( v2 NOT LIKE 'test' ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 3 ) ; SELECT v2 FROM v0 WHERE v1 IN ( SELECT 10 + v1 FROM v0 ) ; VACUUM main ; 

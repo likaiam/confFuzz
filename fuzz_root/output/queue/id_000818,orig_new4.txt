@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( v1 MATCH NOT ( 'AIR' = 'v1' AND v1 = 10 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 1 ) ,( 127 ) ,( 3 ) ; CREATE TABLE v2 ( v3 INTEGER PRIMARY KEY , v4 INT ) ; INSERT INTO v2 ( v4 ) VALUES ( 127 ) ,( 1 ) ; SELECT v1 , sum ( v1 ) AS m FROM v0 WHERE v1 = v1 AND v1 = 12 ; 

@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3BtreeClearTableOfCursor' function" {
+	label="CFG for 'sqlite3BtreeClearTableOfCursor' function";
+
+	Node0x55c0f8316ff0 [shape=record,label="{sqlite3.c:76678:}"];
+}

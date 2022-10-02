@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHECK( v2 != 'y' ) NOT NULL AS( v2 ) , v2 FLOAT ) ; SELECT * FROM v0 JOIN v0 USING ( v1 , v2 , v1 , v1 , v1 , v1 , v2 , v1 , v1 , v2 , v1 ) NATURAL JOIN v0 ; 

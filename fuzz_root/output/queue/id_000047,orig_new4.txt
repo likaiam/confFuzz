@@ -1,0 +1,1 @@
+PRAGMA read_uncommitted=true; ; CREATE TABLE v0 ( v1 , q AS( v2 + v2 ) , v2 AS( v1 ) CHECK( v2 ) ) ; UPDATE v0 SET v2 = NULL ; 

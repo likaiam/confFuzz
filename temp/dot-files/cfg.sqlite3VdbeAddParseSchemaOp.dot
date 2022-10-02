@@ -1,0 +1,14 @@
+digraph "CFG for 'sqlite3VdbeAddParseSchemaOp' function" {
+	label="CFG for 'sqlite3VdbeAddParseSchemaOp' function";
+
+	Node0x55c0f90b2140 [shape=record,label="{sqlite3.c:81117:}"];
+	Node0x55c0f90b2140 -> Node0x55c0f90b3e00;
+	Node0x55c0f90b3e00 [shape=record,label="{sqlite3.c:81121:}"];
+	Node0x55c0f90b3e00 -> Node0x55c0f90b4020;
+	Node0x55c0f90b3e00 -> Node0x55c0f90b3890;
+	Node0x55c0f90b4020 [shape=record,label="{sqlite3.c:81121:}"];
+	Node0x55c0f90b4020 -> Node0x55c0f90b3f90;
+	Node0x55c0f90b3f90 [shape=record,label="{sqlite3.c:81121:}"];
+	Node0x55c0f90b3f90 -> Node0x55c0f90b3e00;
+	Node0x55c0f90b3890 [shape=record,label="{sqlite3.c:81122:}"];
+}

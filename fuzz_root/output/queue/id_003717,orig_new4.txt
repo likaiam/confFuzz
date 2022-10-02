@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'Brand#23' ) ,( 'v0' ) ,( 'x' ) ; CREATE TABLE alias ( v4 , v3 ) ; CREATE INDEX v2 ON v0 ( v1 , v1 , v1 , v1 , v1 , v1 ) ; SELECT NTILE ( 3 ) OVER( ORDER BY 10 DESC NULLS FIRST , v1 ) - 10 AS nt FROM v0 ; 

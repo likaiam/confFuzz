@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v0' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 VARCHAR(200) , v4 CHAR(25) NOT NULL NOT NULL ON CONFLICT ABORT ) ; INSERT INTO v2 VALUES ( '' , 3 ) ,( 'X' , 10 ) ,( 'LG PKG' , 1 ) ,( 'PROMO%%' , 10 ) ; SELECT SUM ( DISTINCT v3 * ( 3 - v3 ) ) AS REVENUE , v3 AS alias FROM v2 GROUP BY v3 HAVING v4 > '23' ; 

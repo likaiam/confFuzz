@@ -1,0 +1,1 @@
+ATTACH * AS temp ; CREATE TABLE main . v0 ( v1 , v3 , v2 ) ; CREATE TEMP TRIGGER tmp AFTER INSERT ON t1 BEGIN SELECT '%%green%%' ; END ; DETACH main ; DROP TRIGGER tmp ; 

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v1 , v2 ) ; INSERT INTO v0 ( v2 ) VALUES ( 1 ) ,( 0 ) ; INSERT INTO v0 ( v2 ) VALUES ( 0.100000 ) ,( 1 ) ,( 2 ) ; DELETE FROM v0 WHERE v2 = ( SELECT ( v2 LIKE 'v1' ) AS alias FROM v0 ) OR v1 <= 1 + 0 ; DELETE FROM v0 WHERE v2 MATCH - 3.100000 ; 

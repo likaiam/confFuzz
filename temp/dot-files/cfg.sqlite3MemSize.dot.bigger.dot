@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3MemSize' function" {
+	label="CFG for 'sqlite3MemSize' function";
+
+	Node0x55c0fa9310f0 [shape=record,label="{sqlite3.c:25358:}"];
+}

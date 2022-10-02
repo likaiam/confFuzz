@@ -1,0 +1,1 @@
+SELECT 10 AS x ORDER BY ( SELECT v1 GROUP BY v3 HAVING v5 > 'x' ORDER BY 0 ) ; CREATE TABLE v6 ( v9 , v8 AS( v8 + v9 ) , v7 AS( v9 ) CHECK( v9 ) ) ; UPDATE v6 SET v9 = NULL ; 

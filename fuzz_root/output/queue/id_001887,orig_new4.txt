@@ -1,0 +1,1 @@
+SELECT changes () , total_changes () WHERE v1 IN ( 0 ) AND v3 IN ( 8 ) ; SELECT v7 FROM v6 WHERE v8 >= 'v0' ORDER BY 10 , v9 ; 

@@ -1,0 +1,1 @@
+SELECT v6 , v7 FROM v4 WHERE 'v1' IN ( v5 != 'x' ) ; INSERT INTO v8 ( v9 ) VALUES ( 10 ) ,( 10 ) ; UPDATE v10 SET v11 = ( SELECT 10 FROM v12 ) ; 

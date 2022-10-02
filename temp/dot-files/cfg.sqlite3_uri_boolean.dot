@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3_uri_boolean' function" {
+	label="CFG for 'sqlite3_uri_boolean' function";
+
+	Node0x55c0f6b03d50 [shape=record,label="{sqlite3.c:174856:}"];
+	Node0x55c0f6b03d50 -> Node0x55c0f6b08830;
+	Node0x55c0f6b03d50 -> Node0x55c0f6b08880;
+	Node0x55c0f6b08830 [shape=record,label="{sqlite3.c:174859:}"];
+	Node0x55c0f6b08830 -> Node0x55c0f6b088d0;
+	Node0x55c0f6b08880 [shape=record,label="{sqlite3.c:174859:}"];
+	Node0x55c0f6b08880 -> Node0x55c0f6b088d0;
+	Node0x55c0f6b088d0 [shape=record,label="{sqlite3.c:174859:}"];
+}

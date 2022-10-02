@@ -1,0 +1,1 @@
+PRAGMA cache_size=_neg_int_; ; CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 10 ) ; CREATE UNIQUE INDEX v2 ON v0 ( v1 , v1 ) WHERE datetime ( ( v1 >= 9223372036854775807 IN ( 1.100000 , v1 , 2 ) ) , v1 ) IS NOT NULL ; VACUUM ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'LG PKG' ) ,( 'GERMANY' ) ,( 'GERMANY' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE VIEW v5 AS SELECT v3 AS p , v4 AS q FROM v0 AS x1 , v2 AS x2 WHERE v4 <= 'x' + v4 = v3 ; SELECT * FROM v5 UNION SELECT * FROM v2 ; 

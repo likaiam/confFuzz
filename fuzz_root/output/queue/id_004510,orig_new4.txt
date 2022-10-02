@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'PROMO%%' ) ,( 'x' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT OR REPLACE INTO v0 SELECT DISTINCT CAST ( v1 != substr ( v1 , 1 , v1 != '13' ) AS CHAR(25) ) FROM v0 LIMIT 2 ; SELECT 'Max Mustermann' , substr ( v1 , 10 ) AS m FROM v0 ORDER BY lower ( v1 ) ; 

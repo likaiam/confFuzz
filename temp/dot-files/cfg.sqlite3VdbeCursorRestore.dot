@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3VdbeCursorRestore' function" {
+	label="CFG for 'sqlite3VdbeCursorRestore' function";
+
+	Node0x55c0f82bb690 [shape=record,label="{sqlite3.c:84281:}"];
+	Node0x55c0f82bb690 -> Node0x55c0f82be6c0;
+	Node0x55c0f82bb690 -> Node0x55c0f82be270;
+	Node0x55c0f82be6c0 [shape=record,label="{sqlite3.c:84284:}"];
+	Node0x55c0f82be6c0 -> Node0x55c0f82bb810;
+	Node0x55c0f82be270 [shape=record,label="{sqlite3.c:84286:}"];
+	Node0x55c0f82be270 -> Node0x55c0f82bb810;
+	Node0x55c0f82bb810 [shape=record,label="{sqlite3.c:84287:}"];
+}

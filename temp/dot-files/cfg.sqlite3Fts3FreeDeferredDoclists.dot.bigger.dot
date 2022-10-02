@@ -1,0 +1,14 @@
+digraph "CFG for 'sqlite3Fts3FreeDeferredDoclists' function" {
+	label="CFG for 'sqlite3Fts3FreeDeferredDoclists' function";
+
+	Node0x55c0fb02ceb0 [shape=record,label="{sqlite3.c:192113:}"];
+	Node0x55c0fb02ceb0 -> Node0x55c0fb02cda0;
+	Node0x55c0fb02cda0 [shape=record,label="{sqlite3.c:192115:}"];
+	Node0x55c0fb02cda0 -> Node0x55c0fb0319c0;
+	Node0x55c0fb02cda0 -> Node0x55c0fb02d210;
+	Node0x55c0fb0319c0 [shape=record,label="{sqlite3.c:192116:}"];
+	Node0x55c0fb0319c0 -> Node0x55c0fb031930;
+	Node0x55c0fb031930 [shape=record,label="{sqlite3.c:192115:}"];
+	Node0x55c0fb031930 -> Node0x55c0fb02cda0;
+	Node0x55c0fb02d210 [shape=record,label="{sqlite3.c:192119:}"];
+}

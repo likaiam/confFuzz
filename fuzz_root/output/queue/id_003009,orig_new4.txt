@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'SM PACK' ) ,( 's%' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'LG PKG' , 10 ) ,( '' , 10 ) ,( '%%BRASS' , 10 ) ,( 'v0' , 3 ) ; SELECT v3 , v3 + v3 , v3 - v3 FROM v2 WHERE CASE 2 WHEN 'v0' THEN 2 ELSE 10 END ORDER BY 1 ; 

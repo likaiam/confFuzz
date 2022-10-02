@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; DELETE FROM v0 WHERE v2 = 2 AND v3 = 2000 AND v3 = 0 AND v1 = 127 AND v1 = 1 AND v3 = ( 3 IN ( 0 , 1 ) ) ; UPDATE v0 SET v3 = ( SELECT v2 FROM v0 WHERE v3 > 2 OR v3 > 1 AND v3 NOT LIKE 'v1' LIMIT 10 ) ; 

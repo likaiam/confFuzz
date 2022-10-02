@@ -1,0 +1,1 @@
+SELECT 0 AS x ORDER BY ( SELECT NULL WHERE v1 = 'x' AND v3 = 'v0' AND v5 = '**%s**' ORDER BY 1 ) ; CREATE TABLE v6 ( v8 , v7 AS( v7 + v8 ) , v9 AS( v9 ) CHECK( v9 ) ) ; UPDATE v6 SET v9 = NULL ; 

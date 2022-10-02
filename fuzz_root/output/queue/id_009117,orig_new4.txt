@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( datetime ( printf () , v1 ) IS NOT NULL < v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) CHECK( v1 NOT LIKE last_insert_rowid () ) ) ; INSERT INTO v0 VALUES ( 3 ) ,( 10 ) ; VACUUM ; VACUUM ; SELECT 0 FROM v0 LEFT JOIN v0 ON v1 GLOB 'v0' WHERE v1 = 'v1' OR v1 = v0 . v1 ; 

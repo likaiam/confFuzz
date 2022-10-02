@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; BEGIN EXCLUSIVE ; PRAGMA reverse_unordered_selects=_boolen_; ; INSERT INTO v0 ( v1 ) VALUES ( 9223372036854775807 ) ,( 10 ) ,( 10 ) ; REPLACE INTO v0 ( v1 ) VALUES ( NULL ) ; 

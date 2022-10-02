@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER AS( NOT v3 <= 'x' + v4 ) , v2 , v3 , v4 ) ; REPLACE INTO v0 ( v4 ) VALUES ( NULL ) ; 

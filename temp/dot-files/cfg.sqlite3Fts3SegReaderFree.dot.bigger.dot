@@ -1,0 +1,15 @@
+digraph "CFG for 'sqlite3Fts3SegReaderFree' function" {
+	label="CFG for 'sqlite3Fts3SegReaderFree' function";
+
+	Node0x55c0f6cc6f50 [shape=record,label="{sqlite3.c:188256:}"];
+	Node0x55c0f6cc6f50 -> Node0x55c0faaf63c0;
+	Node0x55c0f6cc6f50 -> Node0x55c0faaf6410;
+	Node0x55c0faaf63c0 [shape=record,label="{sqlite3.c:188258:}"];
+	Node0x55c0faaf63c0 -> Node0x55c0faaf9530;
+	Node0x55c0faaf63c0 -> Node0x55c0faaf94e0;
+	Node0x55c0faaf94e0 [shape=record,label="{sqlite3.c:188260:}"];
+	Node0x55c0faaf94e0 -> Node0x55c0faaf9530;
+	Node0x55c0faaf9530 [shape=record,label="{sqlite3.c:188262:}"];
+	Node0x55c0faaf9530 -> Node0x55c0faaf6410;
+	Node0x55c0faaf6410 [shape=record,label="{sqlite3.c:188264:}"];
+}

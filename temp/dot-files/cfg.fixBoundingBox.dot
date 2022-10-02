@@ -1,0 +1,24 @@
+digraph "CFG for 'fixBoundingBox' function" {
+	label="CFG for 'fixBoundingBox' function";
+
+	Node0x55c0fb5c9c90 [shape=record,label="{sqlite3.c:200522:}"];
+	Node0x55c0fb5c9c90 -> Node0x55c0fb5ce1a0;
+	Node0x55c0fb5c9c90 -> Node0x55c0fb5ce1f0;
+	Node0x55c0fb5ce1a0 [shape=record,label="{sqlite3.c:200526:}"];
+	Node0x55c0fb5ce1a0 -> Node0x55c0fb5cf5e0;
+	Node0x55c0fb5cf5e0 [shape=record,label="{sqlite3.c:200530:}"];
+	Node0x55c0fb5cf5e0 -> Node0x55c0fb5cf800;
+	Node0x55c0fb5cf5e0 -> Node0x55c0fb5cf430;
+	Node0x55c0fb5cf800 [shape=record,label="{sqlite3.c:200531:}"];
+	Node0x55c0fb5cf800 -> Node0x55c0fb5cf770;
+	Node0x55c0fb5cf770 [shape=record,label="{sqlite3.c:200530:}"];
+	Node0x55c0fb5cf770 -> Node0x55c0fb5cf5e0;
+	Node0x55c0fb5cf430 [shape=record,label="{sqlite3.c:200535:}"];
+	Node0x55c0fb5cf430 -> Node0x55c0f6e92a00;
+	Node0x55c0fb5cf430 -> Node0x55c0f6e93880;
+	Node0x55c0f6e92a00 [shape=record,label="{sqlite3.c:200538:}"];
+	Node0x55c0f6e92a00 -> Node0x55c0f6e93880;
+	Node0x55c0f6e93880 [shape=record,label="{sqlite3.c:200541:}"];
+	Node0x55c0f6e93880 -> Node0x55c0fb5ce1f0;
+	Node0x55c0fb5ce1f0 [shape=record,label="{sqlite3.c:200542:}"];
+}

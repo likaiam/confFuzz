@@ -1,0 +1,1 @@
+PRAGMA secure_delete=FAST; ; CREATE TABLE v0 ( v1 INT PRIMARY KEY ON CONFLICT ABORT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( '' ) ,( 'v0' ) ,( 'x' ) ,( 'v1' ) ON CONFLICT DO NOTHING ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT v1 , min ( v1 ) FROM v0 GROUP BY v1 ORDER BY v1 , v1 , v1 LIMIT 10 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'Felix Fürstenberg' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' , 1 ) ,( 'EUROPE' , 10 ) ,( 'v1' , 127 ) ,( 'v0' , 2 ) ; SELECT 3.100000 , 2 FROM v2 ; 

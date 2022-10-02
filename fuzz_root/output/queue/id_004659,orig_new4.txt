@@ -1,0 +1,1 @@
+SELECT zeroblob ( 2000 ) INTERSECT SELECT zeroblob ( 1 * 3 * 2 ) ; SELECT * FROM v0 AS REVENUE INDEXED BY v1 , v2 WHERE v3 = v5 AND v4 = 1 ; 

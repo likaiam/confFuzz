@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3ForceNotReadOnly' function" {
+	label="CFG for 'sqlite3ForceNotReadOnly' function";
+
+	Node0x55c0f8d94670 [shape=record,label="{sqlite3.c:116259:}"];
+	Node0x55c0f8d94670 -> Node0x55c0f8d9a680;
+	Node0x55c0f8d94670 -> Node0x55c0f8d9a6d0;
+	Node0x55c0f8d9a680 [shape=record,label="{sqlite3.c:116263:}"];
+	Node0x55c0f8d9a680 -> Node0x55c0f8d9a6d0;
+	Node0x55c0f8d9a6d0 [shape=record,label="{sqlite3.c:116266:}"];
+}

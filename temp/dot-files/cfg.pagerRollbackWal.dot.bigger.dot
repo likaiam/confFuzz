@@ -1,0 +1,17 @@
+digraph "CFG for 'pagerRollbackWal' function" {
+	label="CFG for 'pagerRollbackWal' function";
+
+	Node0x55c0f7522540 [shape=record,label="{sqlite3.c:56945:}"];
+	Node0x55c0f7522540 -> Node0x55c0f57ea860;
+	Node0x55c0f57ea860 [shape=record,label="{sqlite3.c:56959:}"];
+	Node0x55c0f57ea860 -> Node0x55c0f75339b0;
+	Node0x55c0f57ea860 -> Node0x55c0f7532f40;
+	Node0x55c0f75339b0 [shape=record,label="{sqlite3.c:56959:}"];
+	Node0x55c0f75339b0 -> Node0x55c0f7532f40;
+	Node0x55c0f7532f40 [shape=record,label="{sqlite3.c:56959:}"];
+	Node0x55c0f7532f40 -> Node0x55c0f7533d70;
+	Node0x55c0f7532f40 -> Node0x55c0f591bc60;
+	Node0x55c0f7533d70 [shape=record,label="{sqlite3.c:56960:}"];
+	Node0x55c0f7533d70 -> Node0x55c0f57ea860;
+	Node0x55c0f591bc60 [shape=record,label="{sqlite3.c:56965:}"];
+}

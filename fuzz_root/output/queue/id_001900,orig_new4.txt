@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v0' ) ,( 'y' ) ; CREATE TABLE v2 ( v4 , v3 FLOAT ) ; INSERT INTO v2 VALUES ( 'a' , 9223372036854775807 ) ,( 'x' , 10 ) ,( 'AIR REG' , 0 ) ,( 'v0' , 1 ) ; SELECT COUNT ( * ) FROM v2 ; 

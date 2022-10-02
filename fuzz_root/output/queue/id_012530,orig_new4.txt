@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE randomblob ( v2 NOT LIKE v2 ) ) , v2 ) ; DELETE FROM v0 WHERE v2 IS NOT NULL OR abs ( v1 ) < 10 ; CREATE TABLE v3 ( v4 CHECK( randomblob ( v4 > v4 NOT LIKE last_insert_rowid () ) NOT LIKE printf ( 'CANADA' , lower ( 'v0' ) ) ) PRIMARY KEY ) ; ALTER TABLE v0 RENAME v2 TO v2 ; SELECT v4 , v4 FROM v3 WHERE v4 IS NOT NULL ; 

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; DELETE FROM v0 WHERE v3 MATCH - 'x' OR v1 LIKE 'a' ; VACUUM ; UPDATE v0 SET v2 = v2 + 10 WHERE v1 IS NOT NULL > 10 OR v3 IS NOT NULL AND NOT v2 ; INSERT INTO v0 ( v1 , v1 , v2 , v1 , v2 ) VALUES ( 'x' , 'v0' , 10 , 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' , 1 ) ; 

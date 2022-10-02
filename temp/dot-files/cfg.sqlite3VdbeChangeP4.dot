@@ -1,0 +1,45 @@
+digraph "CFG for 'sqlite3VdbeChangeP4' function" {
+	label="CFG for 'sqlite3VdbeChangeP4' function";
+
+	Node0x55c0f85fcb00 [shape=record,label="{sqlite3.c:82018:}"];
+	Node0x55c0f85fcb00 -> Node0x55c0f85ff540;
+	Node0x55c0f85fcb00 -> Node0x55c0f85ff590;
+	Node0x55c0f85ff540 [shape=record,label="{sqlite3.c:82026:}"];
+	Node0x55c0f85ff540 -> Node0x55c0f85ffa30;
+	Node0x55c0f85ff540 -> Node0x55c0f85ffa80;
+	Node0x55c0f85ffa30 [shape=record,label="{sqlite3.c:82026:}"];
+	Node0x55c0f85ffa30 -> Node0x55c0f85ffa80;
+	Node0x55c0f85ffa80 [shape=record,label="{sqlite3.c:82027:}"];
+	Node0x55c0f85ffa80 -> Node0x55c0f8601fe0;
+	Node0x55c0f85ff590 [shape=record,label="{sqlite3.c:82031:}"];
+	Node0x55c0f85ff590 -> Node0x55c0f8600330;
+	Node0x55c0f85ff590 -> Node0x55c0f8600380;
+	Node0x55c0f8600330 [shape=record,label="{sqlite3.c:82032:}"];
+	Node0x55c0f8600330 -> Node0x55c0f8600380;
+	Node0x55c0f8600380 [shape=record,label="{sqlite3.c:82034:}"];
+	Node0x55c0f8600380 -> Node0x55c0f86010d0;
+	Node0x55c0f8600380 -> Node0x55c0f8601170;
+	Node0x55c0f8601170 [shape=record,label="{sqlite3.c:82035:}"];
+	Node0x55c0f8601170 -> Node0x55c0f86010d0;
+	Node0x55c0f8601170 -> Node0x55c0f8601120;
+	Node0x55c0f86010d0 [shape=record,label="{sqlite3.c:82036:}"];
+	Node0x55c0f86010d0 -> Node0x55c0f8601fe0;
+	Node0x55c0f8601120 [shape=record,label="{sqlite3.c:82039:}"];
+	Node0x55c0f8601120 -> Node0x55c0f5ba5be0;
+	Node0x55c0f8601120 -> Node0x55c0f86023c0;
+	Node0x55c0f5ba5be0 [shape=record,label="{sqlite3.c:82042:}"];
+	Node0x55c0f5ba5be0 -> Node0x55c0f8601fe0;
+	Node0x55c0f86023c0 [shape=record,label="{sqlite3.c:82044:}"];
+	Node0x55c0f86023c0 -> Node0x55c0f8602b10;
+	Node0x55c0f86023c0 -> Node0x55c0f8602b60;
+	Node0x55c0f8602b10 [shape=record,label="{sqlite3.c:82046:}"];
+	Node0x55c0f8602b10 -> Node0x55c0f8603680;
+	Node0x55c0f8602b10 -> Node0x55c0f86036d0;
+	Node0x55c0f8603680 [shape=record,label="{sqlite3.c:82048:}"];
+	Node0x55c0f8603680 -> Node0x55c0f86036d0;
+	Node0x55c0f86036d0 [shape=record,label="{sqlite3.c:82049:}"];
+	Node0x55c0f86036d0 -> Node0x55c0f8602b60;
+	Node0x55c0f8602b60 [shape=record,label="{%69}"];
+	Node0x55c0f8602b60 -> Node0x55c0f8601fe0;
+	Node0x55c0f8601fe0 [shape=record,label="{sqlite3.c:82050:}"];
+}

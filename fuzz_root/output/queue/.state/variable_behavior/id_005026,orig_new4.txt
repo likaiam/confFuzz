@@ -1,0 +1,1 @@
+SELECT zeroblob ( random () != random () ) INTERSECT SELECT zeroblob ( 3 * 2000 * 3 ) ; SELECT * FROM v0 AS REVENUE INDEXED BY myname , v1 WHERE v2 = v4 AND v3 = 2 ; 

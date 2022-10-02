@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; INSERT INTO v0 VALUES ( NULL , 'v0' , 3 ) ,( NULL , 'LG CASEaaaaaaaaaaaa' , 10 ) ,( NULL , '%%BRASS' , 3 ) ,( 'x' , NULL , 10 ) ,( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' , NULL , 16 ) ,( 'x' , NULL , 0 ) ,( NULL , 'Ar' , 10 ) ,( NULL , NULL , 2147483647 ) ,( NULL , NULL , 1 ) ; UPDATE v0 SET v2 = v3 + 1 ; 

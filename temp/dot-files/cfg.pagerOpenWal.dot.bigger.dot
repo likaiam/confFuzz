@@ -1,0 +1,15 @@
+digraph "CFG for 'pagerOpenWal' function" {
+	label="CFG for 'pagerOpenWal' function";
+
+	Node0x55c0f7753740 [shape=record,label="{sqlite3.c:61346:}"];
+	Node0x55c0f7753740 -> Node0x55c0f7753cf0;
+	Node0x55c0f7753740 -> Node0x55c0f7753630;
+	Node0x55c0f7753cf0 [shape=record,label="{sqlite3.c:61358:}"];
+	Node0x55c0f7753cf0 -> Node0x55c0f7753630;
+	Node0x55c0f7753630 [shape=record,label="{sqlite3.c:61364:}"];
+	Node0x55c0f7753630 -> Node0x55c0f58e6ab0;
+	Node0x55c0f7753630 -> Node0x55c0f7756ba0;
+	Node0x55c0f58e6ab0 [shape=record,label="{sqlite3.c:61365:}"];
+	Node0x55c0f58e6ab0 -> Node0x55c0f7756ba0;
+	Node0x55c0f7756ba0 [shape=record,label="{sqlite3.c:61370:}"];
+}

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; SELECT coalesce ( instr ( NULL , NULL ) , 10 ) LIMIT 10 ; SELECT coalesce ( instr ( 3 , NULL ) , ( SELECT v1 FROM v0 WHERE 10 = v1 ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 2 ) ,( 0 ) ; SELECT v1 / - 1 = v0 . v1 , AVG ( 1 ) OVER( ORDER BY v1 ) / 10 FROM v0 ; 

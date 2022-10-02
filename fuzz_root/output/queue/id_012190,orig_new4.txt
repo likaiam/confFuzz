@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 CHECK( '1995-09-01' != julianday ( v3 , 1 , v3 NOT LIKE v2 AS nt ) NOT LIKE randomblob ( v3 NOT LIKE v1 ) ) ) ; CREATE VIEW v4 AS SELECT v2 FROM v0 UNION ALL SELECT v2 FROM v0 ; UPDATE v0 SET v1 = ( SELECT 0 FROM v4 LEFT JOIN v4 , v4 , v4 ) ; 

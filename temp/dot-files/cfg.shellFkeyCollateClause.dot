@@ -1,0 +1,18 @@
+digraph "CFG for 'shellFkeyCollateClause' function" {
+	label="CFG for 'shellFkeyCollateClause' function";
+
+	Node0x56027730b070 [shape=record,label="{shell.c:17173:}"];
+	Node0x56027730b070 -> Node0x560277327020;
+	Node0x56027730b070 -> Node0x5602773266f0;
+	Node0x560277327020 [shape=record,label="{shell.c:17198:}"];
+	Node0x560277327020 -> Node0x5602773266f0;
+	Node0x5602773266f0 [shape=record,label="{shell.c:17202:}"];
+	Node0x5602773266f0 -> Node0x560277327260;
+	Node0x5602773266f0 -> Node0x560277327210;
+	Node0x560277327260 [shape=record,label="{shell.c:17202:}"];
+	Node0x560277327260 -> Node0x560277327880;
+	Node0x560277327260 -> Node0x560277327210;
+	Node0x560277327880 [shape=record,label="{shell.c:17203:}"];
+	Node0x560277327880 -> Node0x560277327210;
+	Node0x560277327210 [shape=record,label="{shell.c:17207:}"];
+}

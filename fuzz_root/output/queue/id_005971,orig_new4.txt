@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( '23' ) ,( 'UTF-16le' ) ,( 'v1' ) ,( 0 ) ,( 'v1' ) ; SELECT * FROM v0 AS a JOIN v0 AS AVG_YEARLY ON v0 . v1 = v0 . v1 JOIN v0 NATURAL JOIN v0 ; SELECT * FROM v0 UNION SELECT DISTINCT quote ( v1 ) FROM v0 ORDER BY v1 ; 

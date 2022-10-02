@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHAR(15) ) ; INSERT INTO v0 VALUES ( 'MED BOX' ) ,( 'v0' ) ,( 'BUILDING' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX v5 ON v2 ( v3 , v3 , v3 , v4 , v4 , v4 ) ; SELECT * FROM v2 WHERE v4 IN ( 1 , 9223372036854775807 ) AND v3 IN ( 1 , 10 ) ORDER BY v4 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'a' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE INDEX v5 ON v0 ( v1 , v1 ) WHERE - ( v1 BETWEEN 10 AND v1 < CASE WHEN v1 + printf ( '199419' , v1 ) = 3 THEN 10 ELSE 10 END ) ; SELECT SUM ( v1 * ( 3 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 LEFT JOIN v5 ON v1 = 1 ; 

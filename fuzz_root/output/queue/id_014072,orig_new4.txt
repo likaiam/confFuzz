@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16be' ; ; VACUUM ; SELECT NULL GROUP BY zeroblob ( randomblob ( 1 ) ) ; 

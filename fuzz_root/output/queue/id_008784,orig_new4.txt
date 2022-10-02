@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 VARCHAR(20) UNIQUE , v1 INTEGER UNIQUE ON CONFLICT REPLACE CHECK( 1 ) CHECK( v1 NOT LIKE 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) PRIMARY KEY ON CONFLICT FAIL UNIQUE ) ; DELETE FROM v0 WHERE v1 = 1 OR v1 = 0 ; 

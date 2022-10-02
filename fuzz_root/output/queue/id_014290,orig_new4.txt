@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v2 , v3 ) ; CREATE TABLE v4 ( v5 , v6 ) ; VACUUM ; PRAGMA cell_size_check=true; ; DELETE FROM v4 WHERE v6 MATCH - 10.100000 ; 

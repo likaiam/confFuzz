@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'SM PACK' ) ,( '18' ) ,( 'MED BAG' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v1' , 3 ) ,( 'LG BOX' , 10 ) ,( 'v1' , 10 ) ,( 'DELIVER IN PERSON' , 10 ) ; SELECT v1 , count ( * ) OVER( ORDER BY v1 ) FROM v2 , v0 'v0' ; 

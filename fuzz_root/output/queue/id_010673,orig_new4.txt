@@ -1,0 +1,1 @@
+CREATE VIEW v0 ( v1 ) AS SELECT zeroblob ( typeof ( 'x' ) NOT LIKE 'Al' ) WHERE 0 AND random () % 10 != 10 GROUP BY datetime () ; SELECT v1 , rank () OVER( ORDER BY ( SELECT DISTINCT CAST ( zeroblob ( 9223372036854775807 ) AS TEXT ) ) ) FROM v0 ; SELECT v1 FROM v0 WHERE v1 IN ( 0 , 1 , 10 ) ORDER BY v1 DESC ; UPDATE v0 SET v1 = OMW ( 3 ) ; 

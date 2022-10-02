@@ -1,0 +1,5 @@
+digraph "CFG for 'write32bits' function" {
+	label="CFG for 'write32bits' function";
+
+	Node0x55c0f73753b0 [shape=record,label="{sqlite3.c:54972:}"];
+}

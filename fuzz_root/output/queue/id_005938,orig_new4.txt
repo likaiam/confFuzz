@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'Max Mustermann' ) ,( '199419' ) ,( 'SM CASE' ) ,( 2 ) ,( 'LG CASEaaaaaaaaaaaa' ) ; UPDATE v0 SET v1 = zeroblob ( v1 ) ; SELECT DISTINCT quote ( v1 ) FROM v0 ORDER BY v1 ; 

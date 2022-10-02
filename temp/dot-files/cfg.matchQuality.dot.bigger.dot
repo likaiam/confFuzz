@@ -1,0 +1,41 @@
+digraph "CFG for 'matchQuality' function" {
+	label="CFG for 'matchQuality' function";
+
+	Node0x55c0fa9fd4e0 [shape=record,label="{sqlite3.c:121043:}"];
+	Node0x55c0fa9fd4e0 -> Node0x55c0fa9fe670;
+	Node0x55c0fa9fd4e0 -> Node0x55c0fa9fe6c0;
+	Node0x55c0fa9fe670 [shape=record,label="{sqlite3.c:121052:}"];
+	Node0x55c0fa9fe670 -> Node0x55c0fa9feca0;
+	Node0x55c0fa9fe670 -> Node0x55c0fa9fecf0;
+	Node0x55c0fa9feca0 [shape=record,label="{sqlite3.c:121052:}"];
+	Node0x55c0fa9feca0 -> Node0x55c0fa9f0d90;
+	Node0x55c0fa9fecf0 [shape=record,label="{sqlite3.c:121053:}"];
+	Node0x55c0fa9fecf0 -> Node0x55c0fa9ff640;
+	Node0x55c0fa9fecf0 -> Node0x55c0fa9ff690;
+	Node0x55c0fa9ff640 [shape=record,label="{sqlite3.c:121053:}"];
+	Node0x55c0fa9ff640 -> Node0x55c0fa9f0d90;
+	Node0x55c0fa9ff690 [shape=record,label="{sqlite3.c:121054:}"];
+	Node0x55c0fa9ff690 -> Node0x55c0fa9fe6c0;
+	Node0x55c0fa9fe6c0 [shape=record,label="{sqlite3.c:121058:}"];
+	Node0x55c0fa9fe6c0 -> Node0x55c0fa9ffe20;
+	Node0x55c0fa9fe6c0 -> Node0x55c0fa9ffec0;
+	Node0x55c0fa9ffe20 [shape=record,label="{sqlite3.c:121059:}"];
+	Node0x55c0fa9ffe20 -> Node0x55c0fa9ffe70;
+	Node0x55c0fa9ffec0 [shape=record,label="{sqlite3.c:121061:}"];
+	Node0x55c0fa9ffec0 -> Node0x55c0fa9ffe70;
+	Node0x55c0fa9ffe70 [shape=record,label="{sqlite3.c:121065:}"];
+	Node0x55c0fa9ffe70 -> Node0x55c0faa00920;
+	Node0x55c0fa9ffe70 -> Node0x55c0faa009c0;
+	Node0x55c0faa00920 [shape=record,label="{sqlite3.c:121066:}"];
+	Node0x55c0faa00920 -> Node0x55c0faa00970;
+	Node0x55c0faa009c0 [shape=record,label="{sqlite3.c:121067:}"];
+	Node0x55c0faa009c0 -> Node0x55c0faa013b0;
+	Node0x55c0faa009c0 -> Node0x55c0faa01400;
+	Node0x55c0faa013b0 [shape=record,label="{sqlite3.c:121068:}"];
+	Node0x55c0faa013b0 -> Node0x55c0faa01400;
+	Node0x55c0faa01400 [shape=record,label="{%52}"];
+	Node0x55c0faa01400 -> Node0x55c0faa00970;
+	Node0x55c0faa00970 [shape=record,label="{sqlite3.c:121071:}"];
+	Node0x55c0faa00970 -> Node0x55c0fa9f0d90;
+	Node0x55c0fa9f0d90 [shape=record,label="{sqlite3.c:121072:}"];
+}

@@ -1,0 +1,25 @@
+digraph "CFG for 'createFunctionApi' function" {
+	label="CFG for 'createFunctionApi' function";
+
+	Node0x55c0fa9d3a80 [shape=record,label="{sqlite3.c:172236:}"];
+	Node0x55c0fa9d3a80 -> Node0x55c0fa9db370;
+	Node0x55c0fa9d3a80 -> Node0x55c0fa9db3c0;
+	Node0x55c0fa9db370 [shape=record,label="{sqlite3.c:172258:}"];
+	Node0x55c0fa9db370 -> Node0x55c0fa9db9e0;
+	Node0x55c0fa9db370 -> Node0x55c0fa9db990;
+	Node0x55c0fa9db990 [shape=record,label="{sqlite3.c:172260:}"];
+	Node0x55c0fa9db990 -> Node0x55c0fa9dc810;
+	Node0x55c0fa9db9e0 [shape=record,label="{sqlite3.c:172264:}"];
+	Node0x55c0fa9db9e0 -> Node0x55c0fa9db3c0;
+	Node0x55c0fa9db3c0 [shape=record,label="{sqlite3.c:172268:}"];
+	Node0x55c0fa9db3c0 -> Node0x55c0fa9dda00;
+	Node0x55c0fa9db3c0 -> Node0x55c0fa9dd9b0;
+	Node0x55c0fa9dda00 [shape=record,label="{sqlite3.c:172271:}"];
+	Node0x55c0fa9dda00 -> Node0x55c0fa9dd960;
+	Node0x55c0fa9dda00 -> Node0x55c0fa9dd9b0;
+	Node0x55c0fa9dd960 [shape=record,label="{sqlite3.c:172273:}"];
+	Node0x55c0fa9dd960 -> Node0x55c0fa9dd9b0;
+	Node0x55c0fa9dd9b0 [shape=record,label="{sqlite3.c:172271:}"];
+	Node0x55c0fa9dd9b0 -> Node0x55c0fa9dc810;
+	Node0x55c0fa9dc810 [shape=record,label="{sqlite3.c:172277:}"];
+}

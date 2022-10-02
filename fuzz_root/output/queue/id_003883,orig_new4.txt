@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; CREATE VIRTUAL TABLE v4 USING rtree ( v5 INT , v6 , v7 ) ; INSERT INTO v4 ( v7 ) VALUES ( 0 ) ,( 3 ) ; UPDATE v0 SET v2 = ( SELECT v7 FROM v4 WHERE v5 = 0 AND v6 = 1 AND v5 = 0 AND v5 MATCH - NULL ) ; 

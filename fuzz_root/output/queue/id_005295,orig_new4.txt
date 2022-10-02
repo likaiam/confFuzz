@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 PRIMARY KEY NOT NULL ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v1' ) ,( 'LG PACK' ) ,( 'forest%%' ) ,( '30' ) ; UPDATE v0 SET v1 = quote ( v1 ) ; SELECT * FROM v0 UNION SELECT DISTINCT v1 = zeroblob ( 10 ) FROM v0 ORDER BY v1 ; 

@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3OsClose' function" {
+	label="CFG for 'sqlite3OsClose' function";
+
+	Node0x55c0f74c0e30 [shape=record,label="{sqlite3.c:24664:}"];
+	Node0x55c0f74c0e30 -> Node0x55c0f74c44d0;
+	Node0x55c0f74c0e30 -> Node0x55c0f74c2880;
+	Node0x55c0f74c44d0 [shape=record,label="{sqlite3.c:24666:}"];
+	Node0x55c0f74c44d0 -> Node0x55c0f74c2880;
+	Node0x55c0f74c2880 [shape=record,label="{sqlite3.c:24669:}"];
+}

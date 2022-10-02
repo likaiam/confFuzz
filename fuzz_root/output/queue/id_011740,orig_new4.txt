@@ -1,0 +1,1 @@
+ATTACH v1 NOT LIKE printf ( quote ( v3 ) , quote ( v5 ) , quote ( DISTINCT v7 ) ) AS main ; CREATE TABLE main . v8 ( v9 , v10 , v11 ) ; CREATE TEMP TRIGGER tmp AFTER INSERT ON t1 BEGIN SELECT 'v1' ; END ; DETACH main ; DROP TRIGGER tmp ; 

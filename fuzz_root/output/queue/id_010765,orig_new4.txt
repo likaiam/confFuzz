@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'Max Mustermann' ) ,( 'v0' ) ,( 'LG BOX' ) ,( 'v0' ) ,( 'AIR' ) ; CREATE VIEW v2 AS SELECT 10 AS PROMO_REVENUE FROM v0 ORDER BY v1 , v1 DESC , v1 DESC ; SELECT * FROM v2 NATURAL JOIN v2 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

@@ -1,0 +1,26 @@
+digraph "CFG for 'sqlite3MallocInit' function" {
+	label="CFG for 'sqlite3MallocInit' function";
+
+	Node0x55c0fa42f000 [shape=record,label="{sqlite3.c:28913:}"];
+	Node0x55c0fa42f000 -> Node0x55c0fa42e810;
+	Node0x55c0fa42f000 -> Node0x55c0fa42f150;
+	Node0x55c0fa42e810 [shape=record,label="{sqlite3.c:28915:}"];
+	Node0x55c0fa42e810 -> Node0x55c0fa42f150;
+	Node0x55c0fa42f150 [shape=record,label="{sqlite3.c:28917:}"];
+	Node0x55c0fa42f150 -> Node0x55c0fa431390;
+	Node0x55c0fa42f150 -> Node0x55c0fa4314b0;
+	Node0x55c0fa4314b0 [shape=record,label="{sqlite3.c:28918:}"];
+	Node0x55c0fa4314b0 -> Node0x55c0fa431390;
+	Node0x55c0fa4314b0 -> Node0x55c0fa431430;
+	Node0x55c0fa431430 [shape=record,label="{sqlite3.c:28919:}"];
+	Node0x55c0fa431430 -> Node0x55c0fa431390;
+	Node0x55c0fa431430 -> Node0x55c0fa4313e0;
+	Node0x55c0fa431390 [shape=record,label="{sqlite3.c:28920:}"];
+	Node0x55c0fa431390 -> Node0x55c0fa4313e0;
+	Node0x55c0fa4313e0 [shape=record,label="{sqlite3.c:28923:}"];
+	Node0x55c0fa4313e0 -> Node0x55c0fa432540;
+	Node0x55c0fa4313e0 -> Node0x55c0fa432590;
+	Node0x55c0fa432540 [shape=record,label="{sqlite3.c:28924:}"];
+	Node0x55c0fa432540 -> Node0x55c0fa432590;
+	Node0x55c0fa432590 [shape=record,label="{sqlite3.c:28925:}"];
+}

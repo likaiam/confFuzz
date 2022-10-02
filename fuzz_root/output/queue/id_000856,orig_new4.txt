@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v1' ) ,( '30' ) ; CREATE TABLE v2 ( v3 , v4 PRIMARY KEY UNIQUE NOT NULL CHECK( v3 != 'x' ) UNIQUE ) ; INSERT INTO v0 VALUES ( 'v1' , 9223372036854775807 ) ,( '199419' , 10 ) ,( 'x' , 0 ) ,( 'v1' , 10 ) ; SELECT SUM ( v1 * ( 1 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

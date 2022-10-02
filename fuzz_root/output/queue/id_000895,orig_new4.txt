@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT PRIMARY KEY , v2 INT UNIQUE , v3 TEXT ) ; SELECT v3 , v3 FROM v0 EXCEPT SELECT v2 , v1 FROM v0 ; CREATE TABLE v4 ( v5 , v6 ) ; INSERT INTO v4 VALUES ( 'v0' , 0 ) ,( 'testtest' , 10 ) ,( 'UTF-16le' , 10 ) ,( 'v0' , 10 ) ; SELECT CASE WHEN v2 NOT IN ( 10 , 2 , 1 ) THEN 'v0' ELSE 'v1' END FROM v0 ; 

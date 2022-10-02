@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v3 , v6 , v4 , v5 , v2 , v1 , v7 , v8 VARCHAR(300) ) ; INSERT INTO v0 ( v8 ) VALUES ( 1 ) ,( 10 ) ,( 3 ) ; CREATE TABLE v9 ( v10 VARCHAR(30) , v11 INT ) ; INSERT INTO v9 ( v10 ) VALUES ( 10 ) ,( 3 ) ; SELECT * FROM v0 RIGHT OUTER JOIN v9 ON v11 = v10 NATURAL JOIN v0 WHERE v1 = v3 AND v5 = 1 ; 

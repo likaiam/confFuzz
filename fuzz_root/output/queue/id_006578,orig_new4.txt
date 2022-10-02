@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'Felix Fürstenberg' ) ,( 'v1' ) ; CREATE TABLE v2 ( v4 VARCHAR(30) , v5 CHAR(20) , v6 INT , v3 VARCHAR(10) ) ; SELECT max ( v1 ) FROM v0 ; SELECT * FROM v2 NATURAL JOIN v2 RIGHT OUTER JOIN v2 ON v3 = v3 NATURAL JOIN v2 ; 

@@ -1,0 +1,15 @@
+digraph "CFG for 'invokeProfileCallback' function" {
+	label="CFG for 'invokeProfileCallback' function";
+
+	Node0x55c0f79db380 [shape=record,label="{sqlite3.c:85992:}"];
+	Node0x55c0f79db380 -> Node0x55c0f5283500;
+	Node0x55c0f79db380 -> Node0x55c0f79e0060;
+	Node0x55c0f5283500 [shape=record,label="{sqlite3.c:86003:}"];
+	Node0x55c0f5283500 -> Node0x55c0f79e0060;
+	Node0x55c0f79e0060 [shape=record,label="{sqlite3.c:86006:}"];
+	Node0x55c0f79e0060 -> Node0x55c0f79e1110;
+	Node0x55c0f79e0060 -> Node0x55c0f79e1160;
+	Node0x55c0f79e1110 [shape=record,label="{sqlite3.c:86007:}"];
+	Node0x55c0f79e1110 -> Node0x55c0f79e1160;
+	Node0x55c0f79e1160 [shape=record,label="{sqlite3.c:86009:}"];
+}

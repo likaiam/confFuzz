@@ -1,0 +1,1 @@
+SELECT CASE NULL WHEN 'v0' THEN '%%green%%' ELSE 'v0' END ; SELECT quote ( zeroblob ( 10 ) ) ; 

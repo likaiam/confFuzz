@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 PRIMARY KEY UNIQUE NOT NULL ) ; INSERT INTO v0 VALUES ( 'Max Mustermann' ) ,( 'AIR' ) ,( 'x' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'LG CASEaaaaaaaaaaaa' , 3 ) ,( 'SM BOX' , 9223372036854775807 ) ,( 'v1' , 1 ) ; SELECT quote ( zeroblob ( 1 ) ) ; 

@@ -1,0 +1,28 @@
+digraph "CFG for 'sqlite3DropTriggerPtr' function" {
+	label="CFG for 'sqlite3DropTriggerPtr' function";
+
+	Node0x55c0f92344f0 [shape=record,label="{sqlite3.c:144116:}"];
+	Node0x55c0f92344f0 -> Node0x55c0f923d270;
+	Node0x55c0f92344f0 -> Node0x55c0f923d2c0;
+	Node0x55c0f923d270 [shape=record,label="{sqlite3.c:144128:}"];
+	Node0x55c0f923d270 -> Node0x55c0f923e810;
+	Node0x55c0f923d270 -> Node0x55c0f923e860;
+	Node0x55c0f923e810 [shape=record,label="{sqlite3.c:144131:}"];
+	Node0x55c0f923e810 -> Node0x55c0f923e860;
+	Node0x55c0f923e860 [shape=record,label="{sqlite3.c:144132:}"];
+	Node0x55c0f923e860 -> Node0x55c0f923ed50;
+	Node0x55c0f923e860 -> Node0x55c0f923edf0;
+	Node0x55c0f923edf0 [shape=record,label="{sqlite3.c:144133:}"];
+	Node0x55c0f923edf0 -> Node0x55c0f923ed50;
+	Node0x55c0f923edf0 -> Node0x55c0f923eda0;
+	Node0x55c0f923ed50 [shape=record,label="{sqlite3.c:144134:}"];
+	Node0x55c0f923ed50 -> Node0x55c0f923fd00;
+	Node0x55c0f923eda0 [shape=record,label="{sqlite3.c:144136:}"];
+	Node0x55c0f923eda0 -> Node0x55c0f923d2c0;
+	Node0x55c0f923d2c0 [shape=record,label="{sqlite3.c:144141:}"];
+	Node0x55c0f923d2c0 -> Node0x55c0f923f480;
+	Node0x55c0f923d2c0 -> Node0x55c0f923fd00;
+	Node0x55c0f923f480 [shape=record,label="{sqlite3.c:144142:}"];
+	Node0x55c0f923f480 -> Node0x55c0f923fd00;
+	Node0x55c0f923fd00 [shape=record,label="{sqlite3.c:144149:}"];
+}

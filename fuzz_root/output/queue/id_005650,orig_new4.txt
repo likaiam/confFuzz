@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v2 UNIQUE ON CONFLICT IGNORE GENERATED ALWAYS AS( 1 ) , v3 , v1 ) ; REPLACE INTO v0 ( v1 , v1 , v3 ) VALUES ( 'x' , 'x' , 0 ) ; CREATE TABLE v4 ( v6 , v5 ) ; INSERT INTO v4 VALUES ( 'v1' , 10 ) ,( 'v0' , 3 ) ,( 'Brand#23' , 10 ) ,( 'abc' , 10 ) ; DELETE FROM v0 WHERE v1 >= 10 OR v1 < 10 AND v3 = 1 AND v1 = 10 AND v3 = 9 AND v1 = 10 ; 

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v1 , v2 ) ; CREATE VIRTUAL TABLE v4 USING fts4 ( v7 , v5 AS( nth_value ( v2 , 2 ) OVER( ORDER BY v1 ) + nth_value ( v1 , 10 ) OVER( ) ) , v6 ) ; VACUUM ; UPDATE v4 SET v5 = v7 + 10 WHERE v5 > 9223372036854775807 OR v7 > 10 AND NOT v5 ; DELETE FROM v0 WHERE v2 MATCH - 0.100000 ; 

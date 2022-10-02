@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 PRIMARY KEY ON CONFLICT IGNORE CHECK( v1 NOT LIKE last_insert_rowid () ) ) ; INSERT INTO v0 VALUES ( 'abc' ) ,( 'x' ) ,( 10 ) ,( 'v0' ) ,( 2147483648 ) ,( 10 ) ,( 0 ) ; CREATE TABLE v2 ( v3 UNIQUE ON CONFLICT IGNORE ) ; INSERT OR IGNORE INTO v2 SELECT * FROM v0 ; SELECT coalesce ( max ( v3 ) , 12 ) FROM v2 ; 

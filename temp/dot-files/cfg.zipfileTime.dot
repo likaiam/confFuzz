@@ -1,0 +1,22 @@
+digraph "CFG for 'zipfileTime' function" {
+	label="CFG for 'zipfileTime' function";
+
+	Node0x5602763b2fb0 [shape=record,label="{shell.c:8198:}"];
+	Node0x5602763b2fb0 -> Node0x560276b6cbb0;
+	Node0x5602763b2fb0 -> Node0x560276b6ccc0;
+	Node0x560276b6cbb0 [shape=record,label="{shell.c:8200:}"];
+	Node0x560276b6cbb0 -> Node0x560276b6c720;
+	Node0x560276b6ccc0 [shape=record,label="{shell.c:8201:}"];
+	Node0x560276b6ccc0 -> Node0x560276b6d8d0;
+	Node0x560276b6ccc0 -> Node0x560276b6d880;
+	Node0x560276b6d8d0 [shape=record,label="{shell.c:8201:}"];
+	Node0x560276b6d8d0 -> Node0x560276b6d7e0;
+	Node0x560276b6d8d0 -> Node0x560276b6d880;
+	Node0x560276b6d7e0 [shape=record,label="{shell.c:8202:}"];
+	Node0x560276b6d7e0 -> Node0x560276b6d830;
+	Node0x560276b6d880 [shape=record,label="{shell.c:8206:}"];
+	Node0x560276b6d880 -> Node0x560276b6d830;
+	Node0x560276b6d830 [shape=record,label="{shell.c:8210:}"];
+	Node0x560276b6d830 -> Node0x560276b6c720;
+	Node0x560276b6c720 [shape=record,label="{shell.c:8211:}"];
+}

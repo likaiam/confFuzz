@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'test' ) ,( 'Al' ) ; CREATE TABLE v2 ( v3 UNIQUE ON CONFLICT IGNORE ) ; INSERT OR ROLLBACK INTO v0 SELECT * FROM v2 ; SELECT coalesce ( max ( v3 ) , 10 ) FROM v2 ; 

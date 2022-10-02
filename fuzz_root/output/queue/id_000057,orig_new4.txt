@@ -1,0 +1,1 @@
+PRAGMA automatic_index=false; ; CREATE TABLE v0 ( v3 , v2 AS( 10 >= v2 ) , v1 AS( v1 ) CHECK( v3 ) ) ; UPDATE v0 SET v2 = NULL ; 

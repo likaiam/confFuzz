@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 , v2 INTEGER AS( 'v1' ) CHECK( 1 ) CHECK( v1 NOT LIKE 'v1' ) NOT NULL ) ; SELECT sqlite_compileoption_used ( NULL ) ; SELECT * FROM v0 , v0 WHERE v1 = v1 AND v1 = 0 ; 

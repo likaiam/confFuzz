@@ -1,0 +1,5 @@
+digraph "CFG for 'fts3ClearCursor' function" {
+	label="CFG for 'fts3ClearCursor' function";
+
+	Node0x55c0fadafd60 [shape=record,label="{sqlite3.c:178193:}"];
+}

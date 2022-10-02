@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3DbMallocRaw' function" {
+	label="CFG for 'sqlite3DbMallocRaw' function";
+
+	Node0x55c0f8700b80 [shape=record,label="{sqlite3.c:29338:}"];
+	Node0x55c0f8700b80 -> Node0x55c0f87013f0;
+	Node0x55c0f8700b80 -> Node0x55c0f87009d0;
+	Node0x55c0f87013f0 [shape=record,label="{sqlite3.c:29340:}"];
+	Node0x55c0f87013f0 -> Node0x55c0f8700c70;
+	Node0x55c0f87009d0 [shape=record,label="{sqlite3.c:29341:}"];
+	Node0x55c0f87009d0 -> Node0x55c0f8700c70;
+	Node0x55c0f8700c70 [shape=record,label="{sqlite3.c:29344:}"];
+}

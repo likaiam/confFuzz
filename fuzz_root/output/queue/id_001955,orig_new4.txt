@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'x' ) ,( 'AIR REG' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'v0' , 10 ) ,( 'v1' , 10 ) ,( 'v0' , 10 ) ; SELECT SUM ( DISTINCT substr ( v1 , 10 , 9223372036854775807 ) = '17' ) AS REVENUE , v1 AS alias FROM v0 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'Brand#23' ) ,( '17' ) ,( 'CANADA' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'abc' , 0 ) ,( 'v1' , 1 ) ,( 'x' , 9223372036854775807 ) ,( 'v0' , 0 ) ; SELECT CASE WHEN zeroblob ( 1 ) NOT IN ( 9223372036854775807 , 0 , 1 ) THEN 'X' ELSE 'v0' END FROM v2 LEFT JOIN v0 ; 

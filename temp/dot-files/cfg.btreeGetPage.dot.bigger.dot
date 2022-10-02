@@ -1,0 +1,12 @@
+digraph "CFG for 'btreeGetPage' function" {
+	label="CFG for 'btreeGetPage' function";
+
+	Node0x55c0f7722820 [shape=record,label="{sqlite3.c:69001:}"];
+	Node0x55c0f7722820 -> Node0x55c0f774bb20;
+	Node0x55c0f7722820 -> Node0x55c0f774bb70;
+	Node0x55c0f774bb20 [shape=record,label="{sqlite3.c:69012:}"];
+	Node0x55c0f774bb20 -> Node0x55c0f7748aa0;
+	Node0x55c0f774bb70 [shape=record,label="{sqlite3.c:69013:}"];
+	Node0x55c0f774bb70 -> Node0x55c0f7748aa0;
+	Node0x55c0f7748aa0 [shape=record,label="{sqlite3.c:69015:}"];
+}

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v2 , prep_inst , v1 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10.100000 ) ,( 0 ) ; UPDATE v0 SET v2 = v2 + 10 ; DELETE FROM v0 WHERE v2 MATCH - 3.100000 ; 

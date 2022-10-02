@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v0' ) ,( 'b' ) ; CREATE TABLE v2 ( v3 , v4 ) ; SELECT coalesce ( v4 , v3 ) , v3 FROM v0 , v2 ( v3 , v4 ) WHERE v3 != random () ; SELECT SUM ( v3 * ( 0 - v3 ) ) AS REVENUE , v3 AS alias FROM v2 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'x' ) ,( 'v0' ) ,( 'v0' ) ,( 'v1' ) ; UPDATE v0 SET v1 = ( SELECT lead ( v1 ) OVER( ) ) ; SELECT count ( CASE WHEN v1 = 'a' THEN 1 END ) , count ( CASE WHEN v1 = 'x' THEN 2 END ) FROM v0 ; SELECT ieee754 ( - 9223372036854775808 , 9223372036854775807 ) IS NULL FROM v0 ORDER BY substr ( v1 , 10 , 10 ) DESC ; 

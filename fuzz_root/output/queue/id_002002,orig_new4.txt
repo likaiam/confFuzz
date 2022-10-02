@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'CANADA' ) ,( 'LG PKG' ) ,( 'abc' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'b' , 3 ) ,( 'x' , 3 ) ,( 'c' , 3 ) ,( 'v0' , 2 ) ; SELECT v1 FROM v0 ORDER BY v1 DESC , v1 , v1 , v1 , v1 ; 

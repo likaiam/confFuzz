@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v2 , v3 ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 2147483647 ) ; INSERT INTO v0 ( v3 ) VALUES ( 2.100000 ) ,( 16 ) ,( 10 ) ; SELECT quote ( v2 ) , quote ( v2 ) FROM v0 ORDER BY v2 DESC LIMIT 2 ; 

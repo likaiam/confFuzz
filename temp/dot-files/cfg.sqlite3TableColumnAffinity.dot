@@ -1,0 +1,15 @@
+digraph "CFG for 'sqlite3TableColumnAffinity' function" {
+	label="CFG for 'sqlite3TableColumnAffinity' function";
+
+	Node0x55c0f5f15210 [shape=record,label="{sqlite3.c:103593:}"];
+	Node0x55c0f5f15210 -> Node0x55c0f8a727e0;
+	Node0x55c0f5f15210 -> Node0x55c0f8ad2b50;
+	Node0x55c0f8ad2b50 [shape=record,label="{sqlite3.c:103594:}"];
+	Node0x55c0f8ad2b50 -> Node0x55c0f8a727e0;
+	Node0x55c0f8ad2b50 -> Node0x55c0f8a6f6d0;
+	Node0x55c0f8a727e0 [shape=record,label="{sqlite3.c:103594:}"];
+	Node0x55c0f8a727e0 -> Node0x55c0f6180d90;
+	Node0x55c0f8a6f6d0 [shape=record,label="{sqlite3.c:103595:}"];
+	Node0x55c0f8a6f6d0 -> Node0x55c0f6180d90;
+	Node0x55c0f6180d90 [shape=record,label="{sqlite3.c:103596:}"];
+}

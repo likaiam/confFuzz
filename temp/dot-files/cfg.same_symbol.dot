@@ -1,0 +1,41 @@
+digraph "CFG for 'same_symbol' function" {
+	label="CFG for 'same_symbol' function";
+
+	Node0x56256526d400 [shape=record,label="{lemon.c:1008:}"];
+	Node0x56256526d400 -> Node0x5625652c7cd0;
+	Node0x56256526d400 -> Node0x5625652c7d20;
+	Node0x5625652c7cd0 [shape=record,label="{lemon.c:1011:}"];
+	Node0x5625652c7cd0 -> Node0x5625652d8870;
+	Node0x5625652c7d20 [shape=record,label="{lemon.c:1012:}"];
+	Node0x5625652c7d20 -> Node0x5625652c8100;
+	Node0x5625652c7d20 -> Node0x5625652c8150;
+	Node0x5625652c8100 [shape=record,label="{lemon.c:1012:}"];
+	Node0x5625652c8100 -> Node0x5625652d8870;
+	Node0x5625652c8150 [shape=record,label="{lemon.c:1013:}"];
+	Node0x5625652c8150 -> Node0x562565300f10;
+	Node0x5625652c8150 -> Node0x562565300f60;
+	Node0x562565300f10 [shape=record,label="{lemon.c:1013:}"];
+	Node0x562565300f10 -> Node0x5625652d8870;
+	Node0x562565300f60 [shape=record,label="{lemon.c:1014:}"];
+	Node0x562565300f60 -> Node0x562565301580;
+	Node0x562565300f60 -> Node0x5625653015d0;
+	Node0x562565301580 [shape=record,label="{lemon.c:1014:}"];
+	Node0x562565301580 -> Node0x5625652d8870;
+	Node0x5625653015d0 [shape=record,label="{lemon.c:1015:}"];
+	Node0x5625653015d0 -> Node0x562565301f00;
+	Node0x562565301f00 [shape=record,label="{lemon.c:1015:}"];
+	Node0x562565301f00 -> Node0x562565302120;
+	Node0x562565301f00 -> Node0x562565301d50;
+	Node0x562565302120 [shape=record,label="{lemon.c:1016:}"];
+	Node0x562565302120 -> Node0x562565302700;
+	Node0x562565302120 -> Node0x562565302750;
+	Node0x562565302700 [shape=record,label="{lemon.c:1016:}"];
+	Node0x562565302700 -> Node0x5625652d8870;
+	Node0x562565302750 [shape=record,label="{lemon.c:1017:}"];
+	Node0x562565302750 -> Node0x562565302090;
+	Node0x562565302090 [shape=record,label="{lemon.c:1015:}"];
+	Node0x562565302090 -> Node0x562565301f00;
+	Node0x562565301d50 [shape=record,label="{lemon.c:1018:}"];
+	Node0x562565301d50 -> Node0x5625652d8870;
+	Node0x5625652d8870 [shape=record,label="{lemon.c:1019:}"];
+}

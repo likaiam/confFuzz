@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=true; ; CREATE TABLE myname ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( '31' ) ,( 'Al' ) ,( 'v1' ) ,( 'AIR REG' ) ON CONFLICT DO NOTHING ; UPDATE v2 SET v5 = randomblob ( v4 + v3 ) ; SELECT v11 , min ( v12 ) FROM v10 GROUP BY v13 ORDER BY v14 , v15 , v16 LIMIT 10 ; 

@@ -1,0 +1,1 @@
+CREATE VIEW v0 ( v1 ) AS SELECT DISTINCT count ( * ) GROUP BY zeroblob ( randomblob ( DISTINCT 1 ) ) ORDER BY julianday ( * ) DESC ; SELECT sum ( v1 ) FROM v0 NATURAL JOIN v0 ; SELECT DISTINCT v1 , rank () OVER( ORDER BY ( SELECT 0 ) ) FROM v0 ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY randomblob ( v1 + v1 ) DESC NULLS FIRST ; 

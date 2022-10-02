@@ -1,0 +1,12 @@
+digraph "CFG for 'indexIteratorFirst' function" {
+	label="CFG for 'indexIteratorFirst' function";
+
+	Node0x55c0f9fb8190 [shape=record,label="{sqlite3.c:127668:}"];
+	Node0x55c0f9fb8190 -> Node0x55c0f9facce0;
+	Node0x55c0f9fb8190 -> Node0x55c0f9facd80;
+	Node0x55c0f9facce0 [shape=record,label="{sqlite3.c:127671:}"];
+	Node0x55c0f9facce0 -> Node0x55c0f9fac9f0;
+	Node0x55c0f9facd80 [shape=record,label="{sqlite3.c:127674:}"];
+	Node0x55c0f9facd80 -> Node0x55c0f9fac9f0;
+	Node0x55c0f9fac9f0 [shape=record,label="{sqlite3.c:127677:}"];
+}

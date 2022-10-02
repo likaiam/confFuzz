@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT , v2 INT ) ; INSERT INTO v0 ( v1 , v2 ) VALUES ( 10 , 10 ) ; SELECT printf ( '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' , lower ( v2 MATCH - ( v1 BETWEEN 9223372036854775807 AND 1 ) ) ) , rank () OVER( ) FROM v0 ; 

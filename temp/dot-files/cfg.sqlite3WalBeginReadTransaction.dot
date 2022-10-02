@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3WalBeginReadTransaction' function" {
+	label="CFG for 'sqlite3WalBeginReadTransaction' function";
+
+	Node0x55c0f67121b0 [shape=record,label="{sqlite3.c:64601:}"];
+	Node0x55c0f67121b0 -> Node0x55c0f7743540;
+	Node0x55c0f7743540 [shape=record,label="{sqlite3.c:64637:}"];
+	Node0x55c0f7743540 -> Node0x55c0f77434f0;
+	Node0x55c0f77434f0 [shape=record,label="{sqlite3.c:64638:}"];
+	Node0x55c0f77434f0 -> Node0x55c0f7743540;
+	Node0x55c0f77434f0 -> Node0x55c0f77434a0;
+	Node0x55c0f77434a0 [shape=record,label="{sqlite3.c:64702:}"];
+}

@@ -1,0 +1,1 @@
+EXECUTE prep_inst ( ) ; REPLACE INTO v0 ( v1 ) VALUES ( NULL ) ; 

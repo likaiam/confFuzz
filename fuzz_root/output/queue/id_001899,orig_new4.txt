@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 VARCHAR(1) PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v0' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( '18' , 0 ) ,( '**%s**' , 9223372036854775807 ) ,( 'UTF-16le' , 9223372036854775807 ) ,( 'x' , 1 ) ; SELECT COUNT ( * ) FROM v0 ; 

@@ -1,0 +1,5 @@
+digraph "CFG for 'porterDestroy' function" {
+	label="CFG for 'porterDestroy' function";
+
+	Node0x55c0fac65370 [shape=record,label="{sqlite3.c:184848:}"];
+}

@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=NONE; ; CREATE VIEW v0 AS SELECT v2 , 10 AS b FROM v0 ; UPDATE v0 SET v3 = NULL ; 

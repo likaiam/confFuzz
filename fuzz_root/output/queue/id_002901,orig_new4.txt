@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '%%green%%' ) ,( 'v1' ) ,( '1995-03-15' ) ; CREATE TABLE v2 ( NO_CACHE , v3 FLOAT ) ; INSERT INTO v2 VALUES ( 'Brand#23' , 9223372036854775807 ) ,( 'x' , 9223372036854775807 ) ,( 'v0' , 12 ) ,( 'MED P' , 10 ) ; SELECT COUNT ( * ) FROM v2 ; 

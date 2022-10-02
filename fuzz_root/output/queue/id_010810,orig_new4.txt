@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v4 INTEGER AS( NOT v1 <= '30' + v1 ) , v3 , v2 , v1 AS( unlikely ( v3 ) ) ) ; SELECT DISTINCT * FROM v0 AS a JOIN v0 ON NULL = v0 . v4 NATURAL JOIN v0 ; 

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; SELECT DISTINCT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v1 IN ( v0 . v2 , v0 . v2 , v0 . v1 ) ; SELECT * , 'x' FROM v0 WHERE v3 IN ( 10 , 10 , 2 ) ORDER BY v3 DESC LIMIT 10 ; 

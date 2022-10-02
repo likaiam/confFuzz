@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3_bind_parameter_count' function" {
+	label="CFG for 'sqlite3_bind_parameter_count' function";
+
+	Node0x55c0f5cfa7b0 [shape=record,label="{sqlite3.c:87614:}"];
+	Node0x55c0f5cfa7b0 -> Node0x55c0f5d03a00;
+	Node0x55c0f5cfa7b0 -> Node0x55c0f5d06900;
+	Node0x55c0f5d03a00 [shape=record,label="{sqlite3.c:87616:}"];
+	Node0x55c0f5d03a00 -> Node0x55c0f5d06460;
+	Node0x55c0f5d06900 [shape=record,label="{sqlite3.c:87616:}"];
+	Node0x55c0f5d06900 -> Node0x55c0f5d06460;
+	Node0x55c0f5d06460 [shape=record,label="{sqlite3.c:87616:}"];
+}

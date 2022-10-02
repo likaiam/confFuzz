@@ -1,0 +1,12 @@
+digraph "CFG for 'getFileMode' function" {
+	label="CFG for 'getFileMode' function";
+
+	Node0x55c0f7172760 [shape=record,label="{sqlite3.c:41372:}"];
+	Node0x55c0f7172760 -> Node0x55c0f7187650;
+	Node0x55c0f7172760 -> Node0x55c0f71876f0;
+	Node0x55c0f7187650 [shape=record,label="{sqlite3.c:41380:}"];
+	Node0x55c0f7187650 -> Node0x55c0f71876a0;
+	Node0x55c0f71876f0 [shape=record,label="{sqlite3.c:41384:}"];
+	Node0x55c0f71876f0 -> Node0x55c0f71876a0;
+	Node0x55c0f71876a0 [shape=record,label="{sqlite3.c:41386:}"];
+}

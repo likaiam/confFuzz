@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3_db_readonly' function" {
+	label="CFG for 'sqlite3_db_readonly' function";
+
+	Node0x55c0f6b107a0 [shape=record,label="{sqlite3.c:174940:}"];
+	Node0x55c0f6b107a0 -> Node0x55c0f6b139d0;
+	Node0x55c0f6b107a0 -> Node0x55c0f6b13a20;
+	Node0x55c0f6b139d0 [shape=record,label="{sqlite3.c:174949:}"];
+	Node0x55c0f6b139d0 -> Node0x55c0f6b13a70;
+	Node0x55c0f6b13a20 [shape=record,label="{sqlite3.c:174949:}"];
+	Node0x55c0f6b13a20 -> Node0x55c0f6b13a70;
+	Node0x55c0f6b13a70 [shape=record,label="{sqlite3.c:174949:}"];
+}

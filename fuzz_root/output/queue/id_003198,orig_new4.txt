@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; CREATE VIRTUAL TABLE v4 USING rtree ( v6 UNIQUE ON CONFLICT IGNORE CHECK( v5 NOT LIKE printf ( random () , 10 ) ) PRIMARY KEY , v5 , v7 ) ; INSERT INTO v4 ( v6 ) VALUES ( 0 ) ,( 0 ) ; UPDATE v4 SET v6 = ( SELECT 10 FROM v0 ORDER BY substr ( v3 , 10 , 3 ) + 10.100000 DESC ) ; 

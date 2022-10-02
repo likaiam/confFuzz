@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; SELECT * FROM v0 WHERE v1 GLOB 'x' ; DELETE FROM v0 WHERE ( v2 = 1 AND ( v3 > 10 OR v3 > 10 AND v2 = 10 AND v1 = 3 AND v3 = 10 ) ) OR v3 = 'v0' WITH HINT ( NO_CACHE , NO_SAMPLING ) ; INSERT INTO v0 VALUES ( 'x' , 0 ) ,( 'x' , 10 ) ,( 'v1' , 2 ) ,( 'x' , 2 ) ; SELECT SUM ( v2 * ( 10 - v3 ) ) AS REVENUE , v3 AS alias FROM v0 ; 

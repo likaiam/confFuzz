@@ -1,0 +1,1 @@
+SELECT ieee754 ( 0 , 10 ) IS NULL WITH HINT ( NO_CACHE ) ; SELECT * FROM v0 , v1 WHERE v2 = v4 AND v3 = 10 ; SELECT * FROM v5 , v6 WHERE v8 = v9 AND v7 = 3 ; 

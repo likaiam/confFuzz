@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10 ) ,( 1 ) ; UPDATE v0 SET v2 = randomblob ( ( ( v1 = 10 AND ( v3 = 2 OR v1 = 4294967295 ) ) AND v2 = 2 ) + v3 + julianday ( * ) ) ; 

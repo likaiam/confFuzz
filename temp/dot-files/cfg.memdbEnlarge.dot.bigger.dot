@@ -1,0 +1,30 @@
+digraph "CFG for 'memdbEnlarge' function" {
+	label="CFG for 'memdbEnlarge' function";
+
+	Node0x55c0f725b460 [shape=record,label="{sqlite3.c:49991:}"];
+	Node0x55c0f725b460 -> Node0x55c0f72619b0;
+	Node0x55c0f725b460 -> Node0x55c0f7261a50;
+	Node0x55c0f7261a50 [shape=record,label="{sqlite3.c:49993:}"];
+	Node0x55c0f7261a50 -> Node0x55c0f72619b0;
+	Node0x55c0f7261a50 -> Node0x55c0f7261a00;
+	Node0x55c0f72619b0 [shape=record,label="{sqlite3.c:49994:}"];
+	Node0x55c0f72619b0 -> Node0x55c0f725b5e0;
+	Node0x55c0f7261a00 [shape=record,label="{sqlite3.c:49996:}"];
+	Node0x55c0f7261a00 -> Node0x55c0f72624c0;
+	Node0x55c0f7261a00 -> Node0x55c0f7262510;
+	Node0x55c0f72624c0 [shape=record,label="{sqlite3.c:49997:}"];
+	Node0x55c0f72624c0 -> Node0x55c0f725b5e0;
+	Node0x55c0f7262510 [shape=record,label="{sqlite3.c:49999:}"];
+	Node0x55c0f7262510 -> Node0x55c0f7262e90;
+	Node0x55c0f7262510 -> Node0x55c0f7262ee0;
+	Node0x55c0f7262e90 [shape=record,label="{sqlite3.c:50000:}"];
+	Node0x55c0f7262e90 -> Node0x55c0f7262ee0;
+	Node0x55c0f7262ee0 [shape=record,label="{sqlite3.c:50001:}"];
+	Node0x55c0f7262ee0 -> Node0x55c0f7263bf0;
+	Node0x55c0f7262ee0 -> Node0x55c0f7263c40;
+	Node0x55c0f7263bf0 [shape=record,label="{sqlite3.c:50002:}"];
+	Node0x55c0f7263bf0 -> Node0x55c0f725b5e0;
+	Node0x55c0f7263c40 [shape=record,label="{sqlite3.c:50003:}"];
+	Node0x55c0f7263c40 -> Node0x55c0f725b5e0;
+	Node0x55c0f725b5e0 [shape=record,label="{sqlite3.c:50006:}"];
+}

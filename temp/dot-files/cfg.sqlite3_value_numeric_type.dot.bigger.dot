@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3_value_numeric_type' function" {
+	label="CFG for 'sqlite3_value_numeric_type' function";
+
+	Node0x55c0f5d2f420 [shape=record,label="{sqlite3.c:88712:}"];
+	Node0x55c0f5d2f420 -> Node0x55c0f5d30180;
+	Node0x55c0f5d2f420 -> Node0x55c0f5d301d0;
+	Node0x55c0f5d30180 [shape=record,label="{sqlite3.c:88715:}"];
+	Node0x55c0f5d30180 -> Node0x55c0f5d301d0;
+	Node0x55c0f5d301d0 [shape=record,label="{sqlite3.c:88719:}"];
+}

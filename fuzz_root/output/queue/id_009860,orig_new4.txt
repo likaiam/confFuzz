@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v1 , v2 ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v0' ) ,( 'MED BOX' ) ,( 'v0' ) ,( '17' ) ,( 'MED BAG' ) ,( '%%BRASS' ) ,( 'v1' ) ,( 'x' ) ,( 'v0' ) ,( 'Max Mustermann' ) ,( 'test' ) ,( 'x' ) ,( 'UTF-16le' ) ,( 'v0' ) ,( 'v0' ) ,( 'v0' ) ; UPDATE v0 SET v3 = printf ( 'v1' , v1 , v3 ) ; DELETE FROM v0 ; 

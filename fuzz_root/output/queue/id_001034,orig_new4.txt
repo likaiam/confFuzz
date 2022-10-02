@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; SELECT * FROM v0 WHERE v1 IN ( 10 , 2000 ) ; UPDATE v0 SET v3 = ( SELECT 3 FROM v0 , v0 , v0 , v0 , v0 ) ; 

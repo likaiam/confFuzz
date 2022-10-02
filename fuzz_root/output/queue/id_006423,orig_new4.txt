@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'x' ) ,( '30' ) ,( 'x' ) ,( 10 ) ; UPDATE v0 SET v1 = randomblob ( ( SELECT 1.100000 FROM v0 AS x GROUP BY v1 ) + julianday ( * ) ) ; SELECT NULL FROM v0 AS x GROUP BY v1 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ) DESC ; 

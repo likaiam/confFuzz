@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'X' ) ,( '13' ) ,( '31' ) ; CREATE INDEX v2 ON v0 ( v1 , v1 , v1 , v1 , v1 , v1 ) ; CREATE INDEX v3 ON v2 ( v1 , v1 ) WHERE CASE v1 WHEN 'X' THEN 0 ELSE 10 END ; SELECT SUM ( v1 * ( 10 - v1 ) ) AS REVENUE , v1 AS alias FROM v2 ; 

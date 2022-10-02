@@ -1,0 +1,1 @@
+PRAGMA writable_schema = 1;PRAGMA auto_vacuum=2; ; CREATE TABLE v0 ( v1 INT PRIMARY KEY UNIQUE ON CONFLICT ROLLBACK ) ; INSERT INTO v0 ( v1 ) VALUES ( 'GERMANY' ) ,( 'v0' ) ,( 'v1' ) ,( '**%s**' ) ,( '1995-09-01' ) ; UPDATE v0 SET v1 = randomblob ( ( SELECT v1 FROM v0 WHERE v0 . v1 = v0 . v1 GROUP BY v0 . v1 , v1 ) + v1 ) ; SELECT instr ( v1 , v1 + julianday ( * ) ) FROM v0 ; 

@@ -1,0 +1,1 @@
+CREATE VIEW temp . v0 ( v5 , v27 , v13 , v11 , v33 , v25 , v22 , v2 , v32 , v9 , v3 , v1 , v17 , v14 , v21 , v6 , v12 , v15 , v30 , v23 , v34 , v8 , v19 , v4 , v26 , v28 , v20 , v16 , v24 , v31 , v7 , v18 , v29 , v10 ) AS SELECT NULL ; SELECT * FROM v0 AS a JOIN v0 ON NULL = NULL NATURAL JOIN v0 NATURAL JOIN v0 ; 

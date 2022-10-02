@@ -1,0 +1,10 @@
+digraph "CFG for 'decimal_free' function" {
+	label="CFG for 'decimal_free' function";
+
+	Node0x560276953a60 [shape=record,label="{shell.c:4582:}"];
+	Node0x560276953a60 -> Node0x560276328580;
+	Node0x560276953a60 -> Node0x560276953c90;
+	Node0x560276328580 [shape=record,label="{shell.c:4584:}"];
+	Node0x560276328580 -> Node0x560276953c90;
+	Node0x560276953c90 [shape=record,label="{shell.c:4587:}"];
+}

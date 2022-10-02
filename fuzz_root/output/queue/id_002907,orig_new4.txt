@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'x' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT OR REPLACE INTO v0 SELECT DISTINCT CAST ( round ( v4 / 10 ) AS INTEGER ) FROM v2 LIMIT 3 ; SELECT v3 , count ( * ) OVER( ORDER BY v3 ) FROM v2 ; 

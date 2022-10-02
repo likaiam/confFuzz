@@ -1,0 +1,1 @@
+SELECT changes () , total_changes () ; SELECT v3 FROM v2 WHERE v4 >= 'v1' ORDER BY 10 , v5 ; 

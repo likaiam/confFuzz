@@ -1,0 +1,35 @@
+digraph "CFG for 'bytecodevtabBestIndex' function" {
+	label="CFG for 'bytecodevtabBestIndex' function";
+
+	Node0x55c0fb80d370 [shape=record,label="{sqlite3.c:100647:}"];
+	Node0x55c0fb80d370 -> Node0x55c0fb814d90;
+	Node0x55c0fb814d90 [shape=record,label="{sqlite3.c:100658:}"];
+	Node0x55c0fb814d90 -> Node0x55c0fb814fb0;
+	Node0x55c0fb814d90 -> Node0x55c0fb8148c0;
+	Node0x55c0fb814fb0 [shape=record,label="{sqlite3.c:100659:}"];
+	Node0x55c0fb814fb0 -> Node0x55c0fb815590;
+	Node0x55c0fb814fb0 -> Node0x55c0fb8155e0;
+	Node0x55c0fb815590 [shape=record,label="{sqlite3.c:100659:}"];
+	Node0x55c0fb815590 -> Node0x55c0fb814f20;
+	Node0x55c0fb8155e0 [shape=record,label="{sqlite3.c:100660:}"];
+	Node0x55c0fb8155e0 -> Node0x55c0fb815be0;
+	Node0x55c0fb8155e0 -> Node0x55c0fb815b90;
+	Node0x55c0fb815be0 [shape=record,label="{sqlite3.c:100660:}"];
+	Node0x55c0fb815be0 -> Node0x55c0fb815b40;
+	Node0x55c0fb815be0 -> Node0x55c0fb815b90;
+	Node0x55c0fb815b40 [shape=record,label="{sqlite3.c:100661:}"];
+	Node0x55c0fb815b40 -> Node0x55c0fb815b90;
+	Node0x55c0fb815b90 [shape=record,label="{sqlite3.c:100665:}"];
+	Node0x55c0fb815b90 -> Node0x55c0fb817460;
+	Node0x55c0fb815b90 -> Node0x55c0fb817410;
+	Node0x55c0fb817460 [shape=record,label="{sqlite3.c:100665:}"];
+	Node0x55c0fb817460 -> Node0x55c0fb8173c0;
+	Node0x55c0fb817460 -> Node0x55c0fb817410;
+	Node0x55c0fb8173c0 [shape=record,label="{sqlite3.c:100666:}"];
+	Node0x55c0fb8173c0 -> Node0x55c0fb817410;
+	Node0x55c0fb817410 [shape=record,label="{sqlite3.c:100669:}"];
+	Node0x55c0fb817410 -> Node0x55c0fb814f20;
+	Node0x55c0fb814f20 [shape=record,label="{sqlite3.c:100658:}"];
+	Node0x55c0fb814f20 -> Node0x55c0fb814d90;
+	Node0x55c0fb8148c0 [shape=record,label="{sqlite3.c:100670:}"];
+}

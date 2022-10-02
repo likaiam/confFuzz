@@ -1,0 +1,1 @@
+PRAGMA cache_spill = 0;CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v3 ) VALUES ( 9223372036854775808.000000 ) ,( 1 ) ; VACUUM ; UPDATE v0 SET v3 = v3 + 1 WHERE v2 > 10 OR v2 > 1 AND NOT v2 ; DELETE FROM v0 WHERE v2 MATCH NOT ( 'x' = 'SM CASE' AND random () % 0 = 9 ) ; 

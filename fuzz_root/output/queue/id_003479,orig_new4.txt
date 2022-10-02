@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHECK( v2 != 'abc' ) NOT NULL AS( v2 ) , v2 ) ; SELECT * FROM v0 JOIN v0 USING ( v2 , OMW , v1 , v1 ) NATURAL JOIN v0 ; 

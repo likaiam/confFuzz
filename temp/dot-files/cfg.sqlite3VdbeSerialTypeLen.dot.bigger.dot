@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3VdbeSerialTypeLen' function" {
+	label="CFG for 'sqlite3VdbeSerialTypeLen' function";
+
+	Node0x55c0f7f3f450 [shape=record,label="{sqlite3.c:84427:}"];
+	Node0x55c0f7f3f450 -> Node0x55c0f7f42270;
+	Node0x55c0f7f3f450 -> Node0x55c0f7f42310;
+	Node0x55c0f7f42270 [shape=record,label="{sqlite3.c:84429:}"];
+	Node0x55c0f7f42270 -> Node0x55c0f7f42140;
+	Node0x55c0f7f42310 [shape=record,label="{sqlite3.c:84433:}"];
+	Node0x55c0f7f42310 -> Node0x55c0f7f42140;
+	Node0x55c0f7f42140 [shape=record,label="{sqlite3.c:84435:}"];
+}

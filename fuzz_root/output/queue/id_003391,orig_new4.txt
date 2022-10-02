@@ -1,0 +1,1 @@
+SELECT v0 . v1 FROM v0 AS a JOIN v2 AS b ON v2 . v5 = v2 . v4 WHERE v2 . v3 IN ( 0 , 0 , v6 AS d ) ; INSERT INTO v7 ( v8 , v9 ) VALUES ( 3 , 1 ) ; SELECT CASE WHEN v17 NOT IN ( 1 , quote ( v20 ) , v18 = 10.100000 ) THEN 'v0' ELSE 'x' END FROM v16 ORDER BY v19 ASC ; 

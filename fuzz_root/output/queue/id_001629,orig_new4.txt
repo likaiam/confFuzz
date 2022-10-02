@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 , v1 AS( 1 >= v2 ) , v3 AS( v1 ) CHECK( v3 ) ) ; SELECT length ( v3 ) FROM v0 ORDER BY length ( v1 ) DESC ; SELECT v2 , v1 FROM v0 WHERE v2 IS NOT NULL ; 

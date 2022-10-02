@@ -1,0 +1,1 @@
+DROP VIEW temp . v0 ; INSERT INTO v1 ( v2 ) VALUES ( 0 ) ,( 10 ) ,( 1 ) ; CREATE TABLE v3 ( v4 INTEGER PRIMARY KEY , v5 INT ) ; INSERT INTO v3 ( v5 ) VALUES ( 3 ) ,( 1 ) ; SELECT * FROM v3 , v3 WHERE v5 = v5 AND v4 = 3 ; 

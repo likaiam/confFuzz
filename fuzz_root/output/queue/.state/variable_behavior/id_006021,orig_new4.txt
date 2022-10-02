@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( 'Brand#23' ) ,( 'v1' ) ,( 'x' ) ,( 'v0' ) ,( '**%s**' ) ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; DELETE FROM v0 WHERE ( v1 = 10 AND ( v1 = 10 OR v1 = 10 ) ) OR v1 = 'v0' ; 

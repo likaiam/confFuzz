@@ -1,0 +1,18 @@
+digraph "CFG for 'exprIdxCover' function" {
+	label="CFG for 'exprIdxCover' function";
+
+	Node0x55c0f979c2a0 [shape=record,label="{sqlite3.c:109480:}"];
+	Node0x55c0f979c2a0 -> Node0x55c0f97aba80;
+	Node0x55c0f979c2a0 -> Node0x55c0f97ab9b0;
+	Node0x55c0f97aba80 [shape=record,label="{sqlite3.c:109482:}"];
+	Node0x55c0f97aba80 -> Node0x55c0f97aba00;
+	Node0x55c0f97aba80 -> Node0x55c0f97ab9b0;
+	Node0x55c0f97aba00 [shape=record,label="{sqlite3.c:109483:}"];
+	Node0x55c0f97aba00 -> Node0x55c0f97ab960;
+	Node0x55c0f97aba00 -> Node0x55c0f97ab9b0;
+	Node0x55c0f97ab960 [shape=record,label="{sqlite3.c:109485:}"];
+	Node0x55c0f97ab960 -> Node0x55c0f5f12450;
+	Node0x55c0f97ab9b0 [shape=record,label="{sqlite3.c:109488:}"];
+	Node0x55c0f97ab9b0 -> Node0x55c0f5f12450;
+	Node0x55c0f5f12450 [shape=record,label="{sqlite3.c:109489:}"];
+}

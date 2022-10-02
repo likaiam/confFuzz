@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE printf ( 'CANADA' , changes () ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) ,( 'x' ) ,( '199419' ) ,( 'v1' ) ; UPDATE v0 SET v1 = randomblob ( 1 ) ; SELECT * FROM v0 UNION SELECT DISTINCT random () % 4294967295 FROM v0 ORDER BY v1 ; 

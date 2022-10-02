@@ -1,0 +1,17 @@
+digraph "CFG for 'sqlite3PutVarint' function" {
+	label="CFG for 'sqlite3PutVarint' function";
+
+	Node0x55c0f7f59580 [shape=record,label="{sqlite3.c:34195:}"];
+	Node0x55c0f7f59580 -> Node0x55c0f7bd58b0;
+	Node0x55c0f7f59580 -> Node0x55c0f7bd5900;
+	Node0x55c0f7bd58b0 [shape=record,label="{sqlite3.c:34197:}"];
+	Node0x55c0f7bd58b0 -> Node0x55c0f7bd53e0;
+	Node0x55c0f7bd5900 [shape=record,label="{sqlite3.c:34200:}"];
+	Node0x55c0f7bd5900 -> Node0x55c0f7f5d520;
+	Node0x55c0f7bd5900 -> Node0x55c0f7f5d570;
+	Node0x55c0f7f5d520 [shape=record,label="{sqlite3.c:34201:}"];
+	Node0x55c0f7f5d520 -> Node0x55c0f7bd53e0;
+	Node0x55c0f7f5d570 [shape=record,label="{sqlite3.c:34205:}"];
+	Node0x55c0f7f5d570 -> Node0x55c0f7bd53e0;
+	Node0x55c0f7bd53e0 [shape=record,label="{sqlite3.c:34206:}"];
+}

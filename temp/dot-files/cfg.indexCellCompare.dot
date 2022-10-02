@@ -1,0 +1,22 @@
+digraph "CFG for 'indexCellCompare' function" {
+	label="CFG for 'indexCellCompare' function";
+
+	Node0x55c0f8085a30 [shape=record,label="{sqlite3.c:72514:}"];
+	Node0x55c0f8085a30 -> Node0x55c0f80948c0;
+	Node0x55c0f8085a30 -> Node0x55c0f8094960;
+	Node0x55c0f80948c0 [shape=record,label="{sqlite3.c:72530:}"];
+	Node0x55c0f80948c0 -> Node0x55c0f8094910;
+	Node0x55c0f8094960 [shape=record,label="{sqlite3.c:72531:}"];
+	Node0x55c0f8094960 -> Node0x55c0f8095630;
+	Node0x55c0f8094960 -> Node0x55c0f8095680;
+	Node0x55c0f8095680 [shape=record,label="{sqlite3.c:72532:}"];
+	Node0x55c0f8095680 -> Node0x55c0f8095590;
+	Node0x55c0f8095680 -> Node0x55c0f8095630;
+	Node0x55c0f8095590 [shape=record,label="{sqlite3.c:72537:}"];
+	Node0x55c0f8095590 -> Node0x55c0f80955e0;
+	Node0x55c0f8095630 [shape=record,label="{sqlite3.c:72541:}"];
+	Node0x55c0f8095630 -> Node0x55c0f80955e0;
+	Node0x55c0f80955e0 [shape=record,label="{%88}"];
+	Node0x55c0f80955e0 -> Node0x55c0f8094910;
+	Node0x55c0f8094910 [shape=record,label="{sqlite3.c:72543:}"];
+}

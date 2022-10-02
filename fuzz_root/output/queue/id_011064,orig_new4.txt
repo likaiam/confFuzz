@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v6 , v8 , v7 , v12 , v11 , v10 , v9 , v3 , v2 , v1 , v5 FLOAT NOT NULL AS( - v2 ) , v4 ) ; UPDATE v0 SET v1 = randomblob ( ( 10 = 10 AND v8 = 1 ) + v7 + julianday ( - ( v3 BETWEEN 0 AND 1 ) ) ) WHERE v6 OR NOT v4 ; VACUUM ; UPDATE v0 SET v1 = v8 + 3 WHERE v6 > 10 OR v3 > 10 AND NOT v4 ; DELETE FROM v0 WHERE v6 MATCH - 10.100000 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 CHECK( v3 NOT LIKE printf ( v1 , v1 , v3 , v1 , v3 , v1 , v1 ) ) , v3 , v1 UNIQUE ) ; INSERT INTO v0 ( v2 , v3 , v3 ) VALUES ( 2000 , 3 , 'v0' ) ; UPDATE v0 SET v1 = ( SELECT 10 FROM v0 ) WHERE v3 = ( SELECT 10 ) OR v3 = 0 ; 

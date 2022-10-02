@@ -1,0 +1,22 @@
+digraph "CFG for 'sqlite3SafetyCheckOk' function" {
+	label="CFG for 'sqlite3SafetyCheckOk' function";
+
+	Node0x55c0f86dfc90 [shape=record,label="{sqlite3.c:34620:}"];
+	Node0x55c0f86dfc90 -> Node0x55c0f86fa860;
+	Node0x55c0f86dfc90 -> Node0x55c0f86fec80;
+	Node0x55c0f86fa860 [shape=record,label="{sqlite3.c:34623:}"];
+	Node0x55c0f86fa860 -> Node0x55c0f86faf30;
+	Node0x55c0f86fec80 [shape=record,label="{sqlite3.c:34626:}"];
+	Node0x55c0f86fec80 -> Node0x55c0f557cf00;
+	Node0x55c0f86fec80 -> Node0x55c0f86ffa30;
+	Node0x55c0f557cf00 [shape=record,label="{sqlite3.c:34628:}"];
+	Node0x55c0f557cf00 -> Node0x55c0f86ffd60;
+	Node0x55c0f557cf00 -> Node0x55c0f86ffdb0;
+	Node0x55c0f86ffd60 [shape=record,label="{sqlite3.c:34630:}"];
+	Node0x55c0f86ffd60 -> Node0x55c0f86ffdb0;
+	Node0x55c0f86ffdb0 [shape=record,label="{sqlite3.c:34632:}"];
+	Node0x55c0f86ffdb0 -> Node0x55c0f86faf30;
+	Node0x55c0f86ffa30 [shape=record,label="{sqlite3.c:34634:}"];
+	Node0x55c0f86ffa30 -> Node0x55c0f86faf30;
+	Node0x55c0f86faf30 [shape=record,label="{sqlite3.c:34636:}"];
+}

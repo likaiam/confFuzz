@@ -1,0 +1,10 @@
+digraph "CFG for 'dbPrepare' function" {
+	label="CFG for 'dbPrepare' function";
+
+	Node0x55a7359a3a60 [shape=record,label="{tclsqlite.c:1282:}"];
+	Node0x55a7359a3a60 -> Node0x55a735a78aa0;
+	Node0x55a7359a3a60 -> Node0x55a735a78af0;
+	Node0x55a735a78aa0 [shape=record,label="{tclsqlite.c:1296:}"];
+	Node0x55a735a78aa0 -> Node0x55a735a78af0;
+	Node0x55a735a78af0 [shape=record,label="{tclsqlite.c:1298:}"];
+}

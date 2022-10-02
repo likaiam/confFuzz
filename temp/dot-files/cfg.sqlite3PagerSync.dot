@@ -1,0 +1,18 @@
+digraph "CFG for 'sqlite3PagerSync' function" {
+	label="CFG for 'sqlite3PagerSync' function";
+
+	Node0x55c0f7879460 [shape=record,label="{sqlite3.c:60178:}"];
+	Node0x55c0f7879460 -> Node0x55c0f787da30;
+	Node0x55c0f7879460 -> Node0x55c0f787da80;
+	Node0x55c0f787da30 [shape=record,label="{sqlite3.c:60182:}"];
+	Node0x55c0f787da30 -> Node0x55c0f787da80;
+	Node0x55c0f787da80 [shape=record,label="{sqlite3.c:60183:}"];
+	Node0x55c0f787da80 -> Node0x55c0f787e010;
+	Node0x55c0f787da80 -> Node0x55c0f787dfc0;
+	Node0x55c0f787e010 [shape=record,label="{sqlite3.c:60183:}"];
+	Node0x55c0f787e010 -> Node0x55c0f787dfc0;
+	Node0x55c0f787e010 -> Node0x55c0f787df70;
+	Node0x55c0f787df70 [shape=record,label="{sqlite3.c:60185:}"];
+	Node0x55c0f787df70 -> Node0x55c0f787dfc0;
+	Node0x55c0f787dfc0 [shape=record,label="{sqlite3.c:60187:}"];
+}

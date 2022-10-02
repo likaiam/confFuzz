@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10 ) ,( 9 ) ; UPDATE v0 SET v3 = ( SELECT count ( ( NOT ( v2 IS NULL ) ) AND ( NOT ( v1 IS NULL ) ) ) FROM v0 ) ; 

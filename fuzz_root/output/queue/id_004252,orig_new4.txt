@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT UNIQUE ON CONFLICT FAIL ) ; DROP TABLE IF EXISTS v0 ; CREATE TABLE v2 ( v3 , v4 INTEGER UNIQUE ) ; INSERT INTO v2 VALUES ( 'v1' , 0 ) ,( 'v1' , 2 ) ,( 'LG CASEaaaaaaaaaaaa' , 10 ) ,( 'Brand#34' , 10 ) ; SELECT v4 , rank () OVER( ORDER BY v4 DESC ) FROM v2 ; 

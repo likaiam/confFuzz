@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'X' ) ,( 'v1' ) ,( 'x' ) ,( 'x' ) ; UPDATE v0 SET v1 = ( v1 + v1 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY ( typeof ( v1 ) ) DESC ; 

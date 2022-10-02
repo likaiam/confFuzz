@@ -1,0 +1,35 @@
+digraph "CFG for 'lsModeFunc' function" {
+	label="CFG for 'lsModeFunc' function";
+
+	Node0x56027683f1b0 [shape=record,label="{shell.c:2641:}"];
+	Node0x56027683f1b0 -> Node0x56027685ba50;
+	Node0x56027683f1b0 -> Node0x56027685baf0;
+	Node0x56027685ba50 [shape=record,label="{shell.c:2650:}"];
+	Node0x56027685ba50 -> Node0x56027685baa0;
+	Node0x56027685baf0 [shape=record,label="{shell.c:2651:}"];
+	Node0x56027685baf0 -> Node0x5602767580e0;
+	Node0x56027685baf0 -> Node0x560276758180;
+	Node0x5602767580e0 [shape=record,label="{shell.c:2652:}"];
+	Node0x5602767580e0 -> Node0x560276758130;
+	Node0x560276758180 [shape=record,label="{shell.c:2653:}"];
+	Node0x560276758180 -> Node0x560276758890;
+	Node0x560276758180 -> Node0x560276758930;
+	Node0x560276758890 [shape=record,label="{shell.c:2654:}"];
+	Node0x560276758890 -> Node0x5602767588e0;
+	Node0x560276758930 [shape=record,label="{shell.c:2656:}"];
+	Node0x560276758930 -> Node0x5602767588e0;
+	Node0x5602767588e0 [shape=record,label="{%29}"];
+	Node0x5602767588e0 -> Node0x560276758130;
+	Node0x560276758130 [shape=record,label="{%30}"];
+	Node0x560276758130 -> Node0x56027685baa0;
+	Node0x56027685baa0 [shape=record,label="{shell.c:2658:}"];
+	Node0x56027685baa0 -> Node0x5602767595b0;
+	Node0x5602767595b0 [shape=record,label="{shell.c:2658:}"];
+	Node0x5602767595b0 -> Node0x56027685f100;
+	Node0x5602767595b0 -> Node0x560276759400;
+	Node0x56027685f100 [shape=record,label="{shell.c:2659:}"];
+	Node0x56027685f100 -> Node0x56027685f070;
+	Node0x56027685f070 [shape=record,label="{shell.c:2658:}"];
+	Node0x56027685f070 -> Node0x5602767595b0;
+	Node0x560276759400 [shape=record,label="{shell.c:2665:}"];
+}

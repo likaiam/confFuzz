@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 UNIQUE ON CONFLICT REPLACE GENERATED ALWAYS AS( v2 ) , v1 , v3 DOUBLE ) ; INSERT INTO v0 ( v3 ) VALUES ( 'Brand#23' ) ,( '' ) ,( 'v0' ) ,( 'v0' ) ,( 'v1' ) ; UPDATE v0 SET v1 = printf ( random () , 2 ) ; SELECT v2 FROM v0 WHERE v3 IN ( 3 , 0 , 10 ) ORDER BY v1 DESC ; 

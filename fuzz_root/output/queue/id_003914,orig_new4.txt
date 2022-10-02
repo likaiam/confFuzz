@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; SELECT * FROM v0 WHERE v3 GLOB '13' ; DELETE FROM v0 WHERE ( v2 = 10 AND ( v1 MATCH NOT ( 'v1' = 'a' AND NOT ( 'abc' = 'v0' AND v2 < 10 = v2 ) IS NOT NULL = v2 ) OR v1 = 10 ) ) OR v2 = 'x' ; 

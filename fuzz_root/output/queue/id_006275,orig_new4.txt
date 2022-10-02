@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'v1' ) ,( 'b' ) ,( 'v0' ) ,( 'EUROPE' ) ; UPDATE v0 SET v1 = min ( v1 , v1 = 1.100000 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

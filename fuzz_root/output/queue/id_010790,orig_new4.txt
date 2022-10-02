@@ -1,0 +1,1 @@
+SELECT 'MED BAG' , total_changes () ; 

@@ -1,0 +1,12 @@
+digraph "CFG for 'recomputeColumnsUsed' function" {
+	label="CFG for 'recomputeColumnsUsed' function";
+
+	Node0x55c0f93d89f0 [shape=record,label="{sqlite3.c:139374:}"];
+	Node0x55c0f93d89f0 -> Node0x55c0f93e9240;
+	Node0x55c0f93d89f0 -> Node0x55c0f93e9290;
+	Node0x55c0f93e9240 [shape=record,label="{sqlite3.c:139378:}"];
+	Node0x55c0f93e9240 -> Node0x55c0f93d8b70;
+	Node0x55c0f93e9290 [shape=record,label="{sqlite3.c:139379:}"];
+	Node0x55c0f93e9290 -> Node0x55c0f93d8b70;
+	Node0x55c0f93d8b70 [shape=record,label="{sqlite3.c:139385:}"];
+}

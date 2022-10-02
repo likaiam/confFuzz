@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v3 ) VALUES ( 9223372036854775807 ) ,( 10 ) ; DELETE FROM v0 WHERE v2 + julianday ( 'LG PKG' ) = ( SELECT * FROM v0 ) OR v2 = 'x' ; 

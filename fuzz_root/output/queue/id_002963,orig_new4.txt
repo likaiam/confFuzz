@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'Al' ) ,( '23' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'v1' , 10 ) ,( 'testtest' , 10 ) ,( '17' , 3 ) ; SELECT SUM ( DISTINCT ( ( v3 >= v3 ) OR LIKELY ( v4 ) <= 'x' ) ) AS REVENUE , v3 AS alias FROM v2 ; 

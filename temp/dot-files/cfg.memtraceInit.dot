@@ -1,0 +1,5 @@
+digraph "CFG for 'memtraceInit' function" {
+	label="CFG for 'memtraceInit' function";
+
+	Node0x56027693f880 [shape=record,label="{shell.c:4388:}"];
+}

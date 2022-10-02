@@ -1,0 +1,1 @@
+VACUUM ; CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; VACUUM ; VACUUM ; ATTACH 'a' AS m ; 

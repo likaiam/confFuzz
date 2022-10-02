@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'LG PACK' ) ,( 'x' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'Brand#34' , 1 ) ,( 'abc' , 10 ) ,( 'PROMO%%' , 10 ) ,( '17' , 10 ) ; SELECT v3 , ( SELECT sum ( v1 ) FROM v0 WHERE v1 < v1 ) FROM v2 ; 

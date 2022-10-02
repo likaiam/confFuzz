@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v2 , v3 INT , v1 ) ; CREATE VIRTUAL TABLE v4 USING fts4 ( v7 , v5 CHECK( v3 NOT LIKE printf ( 'v0' , 10 ) ) , v6 ) ; UPDATE v0 SET v1 = randomblob ( 1 ) ; SELECT * FROM v4 UNION SELECT DISTINCT * FROM v0 ORDER BY v3 ; 

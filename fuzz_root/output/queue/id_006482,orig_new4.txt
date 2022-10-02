@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 's%' ) ,( 'SM CASE' ) ,( 'v1' ) ,( '29' ) ,( '13' ) ; UPDATE v0 SET v1 = ( SELECT sqlite_version ( * ) ) ; SELECT NULL FROM v0 AS x WHERE v1 = 2 AND v1 = 10 GROUP BY v1 ; SELECT * FROM v0 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ) DESC ; 

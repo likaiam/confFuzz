@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; DELETE FROM v0 WHERE v1 = '31' OR v1 = 'v0' ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v0' , 0 ) ,( 'Y' , 10 ) ,( 'UTF-16le' , 1 ) ,( 'v1' , 10 ) ; SELECT * FROM v2 WHERE ( v3 = 1 AND 1 ) OR v4 = 9 GROUP BY v2 . v4 , v4 ; 

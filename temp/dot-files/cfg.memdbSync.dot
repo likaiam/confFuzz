@@ -1,0 +1,5 @@
+digraph "CFG for 'memdbSync' function" {
+	label="CFG for 'memdbSync' function";
+
+	Node0x55c0f72612e0 [shape=record,label="{sqlite3.c:50065:}"];
+}

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 AS( * ) CHECK( v2 ) , v3 , v1 ) ; INSERT INTO v0 ( v2 ) VALUES ( 3 ) ,( 0 ) ; UPDATE v0 SET v1 = ( SELECT 10 ) WHERE ( v1 ) <= 'x' ; 

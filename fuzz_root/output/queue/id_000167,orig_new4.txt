@@ -1,0 +1,1 @@
+PRAGMA vdbe_debug=false; ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; PRAGMA vdbe_addoptrace=false; ; SELECT v0 . v1 FROM v0 AS a JOIN v0 AS b ON v0 . v1 = v0 . v1 WHERE v0 . v1 IN ( 10 , 10 , 10 ) ; 

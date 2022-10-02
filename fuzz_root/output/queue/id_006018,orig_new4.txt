@@ -1,0 +1,1 @@
+PRAGMA writable_schema = 1;CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( '1995-03-15' ) ,( 'MED BAG' ) ,( 'Brand#23' ) ,( 'x' ) ,( '13' ) ; CREATE TRIGGER x INSERT ON v0 BEGIN INSERT INTO v0 ( v1 ) VALUES ( 10 ) ; END ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

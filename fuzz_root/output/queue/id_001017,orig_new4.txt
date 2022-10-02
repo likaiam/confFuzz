@@ -1,0 +1,1 @@
+WITH x1 AS ( SELECT * FROM v0 ) SELECT sqlite_compileoption_used ( 1.100000 ) ; INSERT INTO v1 ( v2 ) VALUES ( 127 ) ,( 9223372036854775807 ) ; UPDATE v3 SET v4 = ( SELECT 10 FROM v5 ) ; 

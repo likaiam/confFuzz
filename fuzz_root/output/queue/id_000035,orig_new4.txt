@@ -1,0 +1,1 @@
+PRAGMA locking_mode=NORMAL; ; CREATE TABLE v0 ( v2 , v1 AS( v1 + v2 ) , v3 AS( v2 ) CHECK( v3 ) ) ; UPDATE v0 SET v2 = NULL ; 

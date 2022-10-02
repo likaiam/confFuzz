@@ -1,0 +1,1 @@
+BEGIN ; CREATE TABLE v0 ( v1 INTEGER CHECK( randomblob ( v1 + v1 ) IS NOT NULL < v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) ) ; CREATE TABLE v2 ( v4 INTEGER , v3 INT ) ; INSERT INTO v2 ( v4 ) VALUES ( 0 ) ,( 0 ) ; SELECT * FROM v0 , v2 WHERE v4 = v4 AND v4 = 0 ; 

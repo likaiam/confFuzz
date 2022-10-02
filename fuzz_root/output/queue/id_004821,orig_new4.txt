@@ -1,0 +1,1 @@
+SELECT zeroblob ( 0 ) INTERSECT SELECT zeroblob ( 10 * 127 * 10 ) ; SELECT toreal ( tointeger ( 2000 ) + 9223372036854775807 ) ; 

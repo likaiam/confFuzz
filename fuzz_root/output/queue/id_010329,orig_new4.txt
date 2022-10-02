@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 , v2 INT AS( 'x' ) CHECK( 10 ) CHECK( v2 NOT LIKE 'Brand#34' ) NOT NULL UNIQUE ) ; PRAGMA integrity_check=10; ; SELECT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v2 WHERE v0 . v1 IN ( v0 . v2 , 0 , v0 . v2 ) ; 

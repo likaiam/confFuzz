@@ -1,0 +1,34 @@
+digraph "CFG for 'DbHookCmd' function" {
+	label="CFG for 'DbHookCmd' function";
+
+	Node0x55a735b265e0 [shape=record,label="{tclsqlite.c:1888:}"];
+	Node0x55a735b265e0 -> Node0x55a735b2caf0;
+	Node0x55a735b265e0 -> Node0x55a735b2cb40;
+	Node0x55a735b2caf0 [shape=record,label="{tclsqlite.c:1896:}"];
+	Node0x55a735b2caf0 -> Node0x55a735b2d390;
+	Node0x55a735b2caf0 -> Node0x55a735b2d3e0;
+	Node0x55a735b2d390 [shape=record,label="{tclsqlite.c:1898:}"];
+	Node0x55a735b2d390 -> Node0x55a735b2d750;
+	Node0x55a735b2d750 [shape=record,label="{tclsqlite.c:1898:}"];
+	Node0x55a735b2d750 -> Node0x55a735b2dcc0;
+	Node0x55a735b2d750 -> Node0x55a735b2dd10;
+	Node0x55a735b2dcc0 [shape=record,label="{tclsqlite.c:1898:}"];
+	Node0x55a735b2dcc0 -> Node0x55a735b2dd10;
+	Node0x55a735b2dd10 [shape=record,label="{tclsqlite.c:1898:}"];
+	Node0x55a735b2dd10 -> Node0x55a735b2d6b0;
+	Node0x55a735b2d6b0 [shape=record,label="{tclsqlite.c:1899:}"];
+	Node0x55a735b2d6b0 -> Node0x55a735b2d3e0;
+	Node0x55a735b2d3e0 [shape=record,label="{tclsqlite.c:1901:}"];
+	Node0x55a735b2d3e0 -> Node0x55a735b2cb40;
+	Node0x55a735b2cb40 [shape=record,label="{tclsqlite.c:1902:}"];
+	Node0x55a735b2cb40 -> Node0x55a735b2d700;
+	Node0x55a735b2cb40 -> Node0x55a735b2ea80;
+	Node0x55a735b2d700 [shape=record,label="{tclsqlite.c:1904:}"];
+	Node0x55a735b2d700 -> Node0x55a735b2edf0;
+	Node0x55a735b2d700 -> Node0x55a735b2ee40;
+	Node0x55a735b2edf0 [shape=record,label="{tclsqlite.c:1905:}"];
+	Node0x55a735b2edf0 -> Node0x55a735b2ee40;
+	Node0x55a735b2ee40 [shape=record,label="{tclsqlite.c:1908:}"];
+	Node0x55a735b2ee40 -> Node0x55a735b2ea80;
+	Node0x55a735b2ea80 [shape=record,label="{tclsqlite.c:1913:}"];
+}

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v1' ) ,( 'EUROPE' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'LG PKG' , 10 ) ,( 'LG PACK' , 10 ) ,( '199419' , 0 ) ,( 'Max Mustermann' , 10 ) ; SELECT COUNT ( * ) FROM v0 AS a JOIN v2 AS b ON v4 <= v4 ; 

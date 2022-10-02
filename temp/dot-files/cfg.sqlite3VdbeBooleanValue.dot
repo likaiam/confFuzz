@@ -1,0 +1,17 @@
+digraph "CFG for 'sqlite3VdbeBooleanValue' function" {
+	label="CFG for 'sqlite3VdbeBooleanValue' function";
+
+	Node0x55c0f7f1b130 [shape=record,label="{sqlite3.c:79341:}"];
+	Node0x55c0f7f1b130 -> Node0x55c0f7f1b510;
+	Node0x55c0f7f1b130 -> Node0x55c0f7f1b560;
+	Node0x55c0f7f1b510 [shape=record,label="{sqlite3.c:79343:}"];
+	Node0x55c0f7f1b510 -> Node0x55c0f7f1b2b0;
+	Node0x55c0f7f1b560 [shape=record,label="{sqlite3.c:79344:}"];
+	Node0x55c0f7f1b560 -> Node0x55c0f7f1e030;
+	Node0x55c0f7f1b560 -> Node0x55c0f7f1e080;
+	Node0x55c0f7f1e030 [shape=record,label="{sqlite3.c:79344:}"];
+	Node0x55c0f7f1e030 -> Node0x55c0f7f1b2b0;
+	Node0x55c0f7f1e080 [shape=record,label="{sqlite3.c:79345:}"];
+	Node0x55c0f7f1e080 -> Node0x55c0f7f1b2b0;
+	Node0x55c0f7f1b2b0 [shape=record,label="{sqlite3.c:79346:}"];
+}

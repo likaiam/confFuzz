@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( '199419' ) ,( '23' ) ,( 2 ) ,( 'LG PACK' ) ; INSERT OR ROLLBACK INTO v0 SELECT * FROM v0 ; UPDATE v0 SET v1 = zeroblob ( v1 ) ; SELECT * FROM v0 UNION SELECT v1 AS alias FROM v0 ORDER BY v1 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE datetime ( 'MED P' , typeof ( v1 ) , v1 ) ) CHECK( v1 ) ) ; CREATE VIEW v2 AS SELECT * FROM v0 WHERE v1 IN ( 127 , 10 ) AND v1 IN ( 0 , 10 ) ORDER BY v1 ; UPDATE v0 SET v1 = ( SELECT 3 FROM v2 LEFT JOIN v2 , v2 , v2 ) ; 

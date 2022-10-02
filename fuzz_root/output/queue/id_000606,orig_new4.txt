@@ -1,0 +1,1 @@
+SELECT 10 AS x ORDER BY ( SELECT * FROM v0 WHERE v2 >= 1 AND v1 <= 3 ORDER BY 0 ) ; CREATE TABLE v3 ( v5 , v6 AS( v4 + v4 ) , v4 AS( v4 ) CHECK( v4 ) ) ; UPDATE v3 SET v6 = NULL ; 

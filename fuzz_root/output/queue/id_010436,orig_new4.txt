@@ -1,0 +1,1 @@
+SELECT NULL INTERSECT SELECT NULL ORDER BY zipfile ( 'x' ) OVER( ) ; SELECT * FROM v0 , v1 WHERE v2 = v3 AND v4 = 1 ; 

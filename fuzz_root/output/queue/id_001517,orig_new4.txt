@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 , v2 INTEGER AS( - v1 ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 3 ) ; SELECT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v2 IN ( v0 . v2 , 10 , v0 . v1 ) ; 

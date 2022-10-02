@@ -1,0 +1,1 @@
+SELECT - '1995-03-15' ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 10 ) ; SELECT v0 . v1 FROM v0 AS prep JOIN v0 AS b ON v0 . v1 = v0 . v1 WHERE v0 . v1 IN ( 0 , 0 , 0 ) ; 

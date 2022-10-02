@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'x' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v1' , 3 ) ,( 'v1' , 3 ) ,( 'x' , 10 ) ,( 'MED PACK' , 10 ) ; SELECT v3 >= 1 FROM v2 ; 

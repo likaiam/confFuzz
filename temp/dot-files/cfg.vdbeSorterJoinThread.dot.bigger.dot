@@ -1,0 +1,10 @@
+digraph "CFG for 'vdbeSorterJoinThread' function" {
+	label="CFG for 'vdbeSorterJoinThread' function";
+
+	Node0x55c0f5223440 [shape=record,label="{sqlite3.c:98635:}"];
+	Node0x55c0f5223440 -> Node0x55c0f7a20a70;
+	Node0x55c0f5223440 -> Node0x55c0f7a20b80;
+	Node0x55c0f7a20a70 [shape=record,label="{sqlite3.c:98641:}"];
+	Node0x55c0f7a20a70 -> Node0x55c0f7a20b80;
+	Node0x55c0f7a20b80 [shape=record,label="{sqlite3.c:98650:}"];
+}

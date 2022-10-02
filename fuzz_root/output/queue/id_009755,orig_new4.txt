@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '17' ) ,( 'x' ) ,( 'MED BOX' ) ; CREATE TABLE v2 ( v3 , v4 ) ; SELECT min ( v3 ) , v3 FROM v0 LEFT JOIN v2 ON v3 = v4 WHERE v4 IS NULL ; SELECT MIN ( v4 ) AS REVENUE , v3 AS alias FROM v0 LEFT JOIN v2 ON v4 = v4 ; 

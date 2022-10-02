@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v0' ) ,( 0 ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 9223372036854775807 ) ,( 'EUROPE' , 10 ) ,( 'x' , 3 ) ,( '29' , 3 ) ; SELECT CASE WHEN v3 NOT IN ( 9223372036854775807 , ( quote ( v4 + 2000 ) OR v3 = 'v1' ) , 1 ) THEN 'abc' ELSE '23' END FROM v2 ; 

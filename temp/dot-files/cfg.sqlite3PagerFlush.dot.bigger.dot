@@ -1,0 +1,27 @@
+digraph "CFG for 'sqlite3PagerFlush' function" {
+	label="CFG for 'sqlite3PagerFlush' function";
+
+	Node0x55c0fa993060 [shape=record,label="{sqlite3.c:58470:}"];
+	Node0x55c0fa993060 -> Node0x55c0fa994190;
+	Node0x55c0fa993060 -> Node0x55c0fa994140;
+	Node0x55c0fa994140 [shape=record,label="{sqlite3.c:58473:}"];
+	Node0x55c0fa994140 -> Node0x55c0fa994b30;
+	Node0x55c0fa994b30 [shape=record,label="{sqlite3.c:58475:}"];
+	Node0x55c0fa994b30 -> Node0x55c0fa994d60;
+	Node0x55c0fa994b30 -> Node0x55c0fa994d10;
+	Node0x55c0fa994d60 [shape=record,label="{sqlite3.c:58475:}"];
+	Node0x55c0fa994d60 -> Node0x55c0fa994d10;
+	Node0x55c0fa994d10 [shape=record,label="{sqlite3.c:58475:}"];
+	Node0x55c0fa994d10 -> Node0x55c0fa995280;
+	Node0x55c0fa994d10 -> Node0x55c0fa994c90;
+	Node0x55c0fa995280 [shape=record,label="{sqlite3.c:58476:}"];
+	Node0x55c0fa995280 -> Node0x55c0fa9959a0;
+	Node0x55c0fa995280 -> Node0x55c0fa9959f0;
+	Node0x55c0fa9959a0 [shape=record,label="{sqlite3.c:58478:}"];
+	Node0x55c0fa9959a0 -> Node0x55c0fa9959f0;
+	Node0x55c0fa9959f0 [shape=record,label="{sqlite3.c:58480:}"];
+	Node0x55c0fa9959f0 -> Node0x55c0fa994b30;
+	Node0x55c0fa994c90 [shape=record,label="{sqlite3.c:58482:}"];
+	Node0x55c0fa994c90 -> Node0x55c0fa994190;
+	Node0x55c0fa994190 [shape=record,label="{sqlite3.c:58484:}"];
+}

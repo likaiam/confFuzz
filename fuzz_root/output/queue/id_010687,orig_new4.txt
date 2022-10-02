@@ -1,0 +1,1 @@
+SELECT ieee754 ( DISTINCT zeroblob ( 8 ) ) IS NULL ; SELECT * FROM v0 LEFT JOIN v1 ON ( v2 == 'x' ) , v3 WHERE v4 = v5 AND v6 = 10 ; SELECT * FROM v7 , v8 WHERE v9 = v11 AND v10 = 0 ; 

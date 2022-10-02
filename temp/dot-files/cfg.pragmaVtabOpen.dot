@@ -1,0 +1,12 @@
+digraph "CFG for 'pragmaVtabOpen' function" {
+	label="CFG for 'pragmaVtabOpen' function";
+
+	Node0x55c0f868c510 [shape=record,label="{sqlite3.c:134230:}"];
+	Node0x55c0f868c510 -> Node0x55c0f86975e0;
+	Node0x55c0f868c510 -> Node0x55c0f8697630;
+	Node0x55c0f86975e0 [shape=record,label="{sqlite3.c:134233:}"];
+	Node0x55c0f86975e0 -> Node0x55c0f8695920;
+	Node0x55c0f8697630 [shape=record,label="{sqlite3.c:134234:}"];
+	Node0x55c0f8697630 -> Node0x55c0f8695920;
+	Node0x55c0f8695920 [shape=record,label="{sqlite3.c:134238:}"];
+}

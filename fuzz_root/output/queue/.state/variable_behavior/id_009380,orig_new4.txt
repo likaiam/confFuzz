@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 VARCHAR(8) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'v0' ) ,( 'v0' ) ,( 'MED BOX' ) ,( 'Brand#23' ) ; UPDATE v0 SET v1 = randomblob ( 1 ) ; SELECT instr ( v1 NOT LIKE printf ( lower ( 'AIR' ) , 10 ) , v1 ) FROM v0 ; 

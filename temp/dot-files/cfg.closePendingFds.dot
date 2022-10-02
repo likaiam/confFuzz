@@ -1,0 +1,14 @@
+digraph "CFG for 'closePendingFds' function" {
+	label="CFG for 'closePendingFds' function";
+
+	Node0x55c0f70712a0 [shape=record,label="{sqlite3.c:36721:}"];
+	Node0x55c0f70712a0 -> Node0x55c0f7076290;
+	Node0x55c0f7076290 [shape=record,label="{sqlite3.c:36726:}"];
+	Node0x55c0f7076290 -> Node0x55c0f70764b0;
+	Node0x55c0f7076290 -> Node0x55c0f7075f10;
+	Node0x55c0f70764b0 [shape=record,label="{sqlite3.c:36727:}"];
+	Node0x55c0f70764b0 -> Node0x55c0f7076420;
+	Node0x55c0f7076420 [shape=record,label="{sqlite3.c:36726:}"];
+	Node0x55c0f7076420 -> Node0x55c0f7076290;
+	Node0x55c0f7075f10 [shape=record,label="{sqlite3.c:36731:}"];
+}

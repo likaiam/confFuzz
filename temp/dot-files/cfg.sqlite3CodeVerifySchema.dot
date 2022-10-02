@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3CodeVerifySchema' function" {
+	label="CFG for 'sqlite3CodeVerifySchema' function";
+
+	Node0x55c0f8c7bef0 [shape=record,label="{sqlite3.c:120298:}"];
+	Node0x55c0f8c7bef0 -> Node0x55c0f60cac10;
+	Node0x55c0f8c7bef0 -> Node0x55c0f8c84830;
+	Node0x55c0f60cac10 [shape=record,label="{sqlite3.c:120299:}"];
+	Node0x55c0f60cac10 -> Node0x55c0f8c84980;
+	Node0x55c0f8c84830 [shape=record,label="{sqlite3.c:120299:}"];
+	Node0x55c0f8c84830 -> Node0x55c0f8c84980;
+	Node0x55c0f8c84980 [shape=record,label="{sqlite3.c:120299:}"];
+}

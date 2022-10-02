@@ -1,0 +1,1 @@
+SELECT sqlite_compileoption_used ( DISTINCT sqlite_compileoption_get ( 0 ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 10 ) ,( 9223372036854775807 ) ; CREATE TABLE v2 ( v3 CHAR(200) PRIMARY KEY ) ; INSERT INTO v2 ( v3 ) VALUES ( 10 ) ,( 1 ) ; SELECT min ( v3 ) FROM v2 , v2 WHERE v3 = v3 AND v3 = 10 ; 

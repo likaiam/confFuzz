@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'Felix Fürstenberg' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 INT NOT NULL ) ; INSERT INTO v2 VALUES ( 'SM PACK' , 9223372036854775807 ) ,( 'v1' , 10 ) ,( 'x' , 1 ) ,( 'v0' , 10 ) ; SELECT MIN ( v4 ) , v4 FROM v0 RIGHT OUTER JOIN v2 ON v3 = v4 WHERE v4 ISNULL ; 

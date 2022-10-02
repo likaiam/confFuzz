@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'MED P' ) ,( 'x' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'AIR REG' , 3 ) ,( 'v1' , 10 ) ,( 'LG BOX' , 1 ) ,( '13' , 1 ) ; SELECT * FROM v0 UNION SELECT NULL FROM v0 ; 

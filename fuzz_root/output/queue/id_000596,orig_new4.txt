@@ -1,0 +1,1 @@
+SELECT SUM ( v1 * ( 1 - v3 ) ) AS REVENUE ORDER BY ( SELECT v5 ORDER BY 0 ) ; CREATE TABLE v6 ( v7 , v8 AS( v7 + v9 ) , v9 AS( v7 ) CHECK( v7 ) ) ; UPDATE v6 SET v9 = NULL ; 

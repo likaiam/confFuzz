@@ -1,0 +1,12 @@
+digraph "CFG for 'windowIfNewPeer' function" {
+	label="CFG for 'windowIfNewPeer' function";
+
+	Node0x55c0f9b22ee0 [shape=record,label="{sqlite3.c:162098:}"];
+	Node0x55c0f9b22ee0 -> Node0x55c0f9b24de0;
+	Node0x55c0f9b22ee0 -> Node0x55c0f9b24e80;
+	Node0x55c0f9b24de0 [shape=record,label="{sqlite3.c:162106:}"];
+	Node0x55c0f9b24de0 -> Node0x55c0f9b24e30;
+	Node0x55c0f9b24e80 [shape=record,label="{sqlite3.c:162116:}"];
+	Node0x55c0f9b24e80 -> Node0x55c0f9b24e30;
+	Node0x55c0f9b24e30 [shape=record,label="{sqlite3.c:162118:}"];
+}

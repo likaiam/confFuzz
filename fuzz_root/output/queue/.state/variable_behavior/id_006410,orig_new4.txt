@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'v1' ) ,( 'x' ) ,( '13' ) ,( 'v1' ) ; UPDATE v0 SET v1 = randomblob ( ( 0 = 10 AND v1 = 10 ) + v1 + randomblob ( 3 ) ) ; SELECT DISTINCT * FROM v0 ORDER BY NULL ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ) DESC ; 

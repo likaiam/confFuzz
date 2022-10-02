@@ -1,0 +1,10 @@
+digraph "CFG for 'fts3ReallocOrFree' function" {
+	label="CFG for 'fts3ReallocOrFree' function";
+
+	Node0x55c0fae458c0 [shape=record,label="{sqlite3.c:183343:}"];
+	Node0x55c0fae458c0 -> Node0x55c0fae5d240;
+	Node0x55c0fae458c0 -> Node0x55c0fae5d1f0;
+	Node0x55c0fae5d1f0 [shape=record,label="{sqlite3.c:183346:}"];
+	Node0x55c0fae5d1f0 -> Node0x55c0fae5d240;
+	Node0x55c0fae5d240 [shape=record,label="{sqlite3.c:183348:}"];
+}

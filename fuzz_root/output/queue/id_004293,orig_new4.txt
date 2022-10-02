@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; CREATE VIEW v4 AS SELECT count ( * ) OVER( ) FROM v4 ; UPDATE v4 SET v5 = ( SELECT 1 FROM v4 AS a JOIN v4 ON NULL = NULL ) ; 

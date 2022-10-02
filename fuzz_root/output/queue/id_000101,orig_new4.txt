@@ -1,0 +1,1 @@
+ATTACH quote ( substr ( v1 , 10 , 10 ) ) AS main ; CREATE TABLE temp . v2 ( v3 , v4 , v5 ) ; CREATE TEMP TRIGGER tmp AFTER INSERT ON t1 BEGIN SELECT '%%BRASS' ; END ; DETACH temp ; DROP TRIGGER tmp ; 

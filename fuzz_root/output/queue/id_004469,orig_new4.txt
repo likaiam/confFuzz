@@ -1,0 +1,1 @@
+SELECT - 'abc' ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; SELECT nth_value ( v1 , 10 ) OVER( ORDER BY v1 ) FROM v0 WHERE v1 LIKE 'v1' OR v1 = 'v0' ; SELECT quote ( v1 ) FROM v0 WHERE v1 LIKE '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' ORDER BY v1 ; 

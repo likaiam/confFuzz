@@ -1,0 +1,1 @@
+PRAGMA soft_heap_limit=10; ; CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( 'MED PACK' ) ,( 'v1' ) ,( 'v1' ) ,( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) ,( 'LG PACK' ) ON CONFLICT DO NOTHING ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT v1 , min ( v1 ) FROM v0 AS d GROUP BY v1 ORDER BY v1 , v1 , v1 LIMIT 2 ; 

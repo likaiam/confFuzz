@@ -1,0 +1,1 @@
+PRAGMA synchronous=OFF; ; CREATE TABLE v0 ( v1 PRIMARY KEY , v2 AS( v2 + v3 ) , v3 AS( v2 ) CHECK( v2 ) ) ; UPDATE v0 SET v3 = NULL ; 

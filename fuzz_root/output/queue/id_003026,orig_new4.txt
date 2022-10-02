@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '' ) ,( 'v0' ) ,( 'LG CASEaaaaaaaaaaaa' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v0' , 1 ) ,( 'SM CASE' , 10 ) ,( 'Ar' , 10 ) ,( 'x' , 12 ) ; SELECT quote ( substr ( v3 , 0 , 1 ) ) FROM v2 ; 

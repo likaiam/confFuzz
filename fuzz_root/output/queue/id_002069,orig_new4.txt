@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; INSERT INTO v0 SELECT * FROM v0 RIGHT OUTER JOIN v0 ON v2 = v2 ORDER BY 10 DESC , v1 ; UPDATE v0 SET v2 = ( SELECT 'v0' , 'x' , 'v0' , 'v1' FROM v0 , v0 WHERE v1 = v3 AND v1 = 10 ) ; 

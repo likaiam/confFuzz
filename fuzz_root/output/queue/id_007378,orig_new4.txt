@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( datetime ( coalesce ( 'LG CASEaaaaaaaaaaaa' = '%%green%%' , v1 ) , v1 ) IS NOT NULL < v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'SM PACK' ) ,( 'c' ) ,( 'v1' ) ,( 'x' ) ; UPDATE v0 SET v1 = quote ( v1 ) ; SELECT DISTINCT v1 , v1 , v1 , v1 , v1 FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

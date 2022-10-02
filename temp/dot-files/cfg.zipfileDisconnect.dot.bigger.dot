@@ -1,0 +1,5 @@
+digraph "CFG for 'zipfileDisconnect' function" {
+	label="CFG for 'zipfileDisconnect' function";
+
+	Node0x560276aa2ea0 [shape=record,label="{shell.c:7131:}"];
+}

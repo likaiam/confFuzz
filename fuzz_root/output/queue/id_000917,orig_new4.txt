@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'x' ) ,( 'LG BOX' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( '1995-09-01' , 2 ) ,( '%%green%%' , 10 ) ,( 'MED BOX' , 10 ) ,( 'v0' , 3 ) ; SELECT abs ( max ( v1 ) OVER( ORDER BY v1 ) ) FROM v0 GROUP BY v1 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v1' ) ,( 'LG PACK' ) ; SELECT v1 FROM v0 WHERE ( v1 = 2 AND v1 = v1 ) OR ( v1 = 10 AND v1 = 10 ) ; CREATE INDEX v2 ON v0 ( v1 , v1 ) WHERE v1 != random () ; SELECT SUM ( v1 * ( 3 - v1 ) ) AS REVENUE , v1 AS alias FROM v2 ; 

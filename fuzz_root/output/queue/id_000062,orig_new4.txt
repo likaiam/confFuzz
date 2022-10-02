@@ -1,0 +1,1 @@
+PRAGMA analysis_limit=10; ; CREATE TABLE v0 ( v3 , v2 NOT NULL ON CONFLICT ROLLBACK , v1 AS( v2 ) CHECK( v3 ) ) ; UPDATE v0 SET v3 = NULL ; 

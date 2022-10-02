@@ -1,0 +1,28 @@
+digraph "CFG for 'zipfileAddEntry' function" {
+	label="CFG for 'zipfileAddEntry' function";
+
+	Node0x560276af50e0 [shape=record,label="{shell.c:7902:}"];
+	Node0x560276af50e0 -> Node0x560276b027d0;
+	Node0x560276af50e0 -> Node0x560276b02870;
+	Node0x560276b027d0 [shape=record,label="{shell.c:7909:}"];
+	Node0x560276b027d0 -> Node0x560276b02ba0;
+	Node0x560276b027d0 -> Node0x560276b02c40;
+	Node0x560276b02ba0 [shape=record,label="{shell.c:7910:}"];
+	Node0x560276b02ba0 -> Node0x560276b02bf0;
+	Node0x560276b02c40 [shape=record,label="{shell.c:7913:}"];
+	Node0x560276b02c40 -> Node0x560276b02bf0;
+	Node0x560276b02bf0 [shape=record,label="{shell.c:7916:}"];
+	Node0x560276b02bf0 -> Node0x560276b02820;
+	Node0x560276b02870 [shape=record,label="{shell.c:7917:}"];
+	Node0x560276b02870 -> Node0x560276b04650;
+	Node0x560276b04650 [shape=record,label="{shell.c:7918:}"];
+	Node0x560276b04650 -> Node0x560276b04870;
+	Node0x560276b04650 -> Node0x560276b04310;
+	Node0x560276b04870 [shape=record,label="{shell.c:7918:}"];
+	Node0x560276b04870 -> Node0x560276b047e0;
+	Node0x560276b047e0 [shape=record,label="{shell.c:7918:}"];
+	Node0x560276b047e0 -> Node0x560276b04650;
+	Node0x560276b04310 [shape=record,label="{shell.c:7919:}"];
+	Node0x560276b04310 -> Node0x560276b02820;
+	Node0x560276b02820 [shape=record,label="{shell.c:7922:}"];
+}

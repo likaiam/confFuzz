@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT NOT NULL ON CONFLICT ABORT , v2 INT ) ; INSERT INTO v0 VALUES ( 10 , 'v0' ) ,( 10 , 'Brand#34' ) ,( 10 , '199419' ) ,( 10 , 'x' ) ; SELECT instr ( v1 , v1 ) FROM v0 GROUP BY v2 ORDER BY v1 ASC ; 

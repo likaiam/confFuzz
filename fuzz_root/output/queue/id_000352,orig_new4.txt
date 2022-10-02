@@ -1,0 +1,1 @@
+PRAGMA hard_heap_limit=0; ; CREATE TABLE v0 ( v1 , v2 AS( v2 + v2 ) , v3 AS( v1 ) CHECK( v1 ) ) ; UPDATE v0 SET v3 = NULL ; REPLACE INTO v0 ( v1 ) VALUES ( NULL ) ; 

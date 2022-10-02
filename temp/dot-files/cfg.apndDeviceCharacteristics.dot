@@ -1,0 +1,5 @@
+digraph "CFG for 'apndDeviceCharacteristics' function" {
+	label="CFG for 'apndDeviceCharacteristics' function";
+
+	Node0x560276909420 [shape=record,label="{shell.c:4023:}"];
+}

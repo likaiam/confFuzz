@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=false; ; CREATE TABLE v0 ( v3 , v2 AS( v3 + v1 ) PRIMARY KEY , v1 AS( v3 ) CHECK( v3 ) ) ; UPDATE v0 SET v2 = NULL ; 

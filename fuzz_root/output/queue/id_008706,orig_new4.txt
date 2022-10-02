@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=true; ; CREATE TABLE v0 ( v1 CHAR(200) PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 1 ) ; SELECT v0 . v1 FROM v0 AS a JOIN v0 AS b ON v0 . v1 = v0 . v1 WHERE v0 . v1 IN ( 2 , 0 , 3 ) ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ORDER BY v1 DESC , v1 ) DESC ; 

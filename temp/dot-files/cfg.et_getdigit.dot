@@ -1,0 +1,12 @@
+digraph "CFG for 'et_getdigit' function" {
+	label="CFG for 'et_getdigit' function";
+
+	Node0x55c0f6fc5560 [shape=record,label="{sqlite3.c:29725:}"];
+	Node0x55c0f6fc5560 -> Node0x55c0f6fc8060;
+	Node0x55c0f6fc5560 -> Node0x55c0f6fc80b0;
+	Node0x55c0f6fc8060 [shape=record,label="{sqlite3.c:29728:}"];
+	Node0x55c0f6fc8060 -> Node0x55c0f6fc5ac0;
+	Node0x55c0f6fc80b0 [shape=record,label="{sqlite3.c:29729:}"];
+	Node0x55c0f6fc80b0 -> Node0x55c0f6fc5ac0;
+	Node0x55c0f6fc5ac0 [shape=record,label="{sqlite3.c:29735:}"];
+}

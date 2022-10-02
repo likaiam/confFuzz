@@ -1,0 +1,1 @@
+SELECT randomblob ( 0 ) UNION SELECT DISTINCT printf ( 'x' , 1 , '1995-03-15' , 9 ) ; SELECT * FROM v0 AS REVENUE INDEXED BY v1 , v2 WHERE v4 = v3 AND v5 = 0 ; 

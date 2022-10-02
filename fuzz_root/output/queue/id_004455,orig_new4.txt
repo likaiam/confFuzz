@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; DELETE FROM v0 WHERE abs ( v1 ) IS NULL OR v1 = 'v0' < abs ( v1 ) IS NULL ; SELECT MIN ( v1 ) , v1 FROM v0 WHERE v1 IN ( SELECT 10 + v1 FROM v0 ) ; VACUUM ; 

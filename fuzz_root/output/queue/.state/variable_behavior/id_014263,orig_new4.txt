@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16'; ; CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v1' ) ,( 'Felix Fürstenberg' ) ,( 'Max Mustermann' ) ,( 'v1' ) ON CONFLICT DO NOTHING ; UPDATE v0 SET v1 = randomblob ( ( SELECT v1 FROM v0 WHERE v0 . v1 = v0 . v1 GROUP BY v0 . v1 , v1 ) + v1 ) ; SELECT instr ( v1 , v1 + julianday ( * ) ) FROM v0 ; 

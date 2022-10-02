@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v3 , v2 ) ; SELECT * FROM v0 WHERE v2 IN ( 2 , 10 ) ; UPDATE v0 SET v1 = ( SELECT 10 FROM v0 , v0 , v0 , zipfile , v0 ) ; 

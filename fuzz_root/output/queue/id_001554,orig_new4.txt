@@ -1,0 +1,1 @@
+SELECT 9 AS x ORDER BY ( SELECT 'v1' , typeof ( v1 ) ORDER BY 1 ) ; CREATE TABLE v2 ( v3 , v4 AS( v5 + v4 ) , v5 AS( v3 ) CHECK( v5 ) ) ; UPDATE v2 SET v5 = NULL ; 

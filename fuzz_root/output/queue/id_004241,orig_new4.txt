@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'MED BAG' ) ,( 'LG PACK' ) ,( 'v1' ) ; CREATE TABLE v2 ( v4 , v3 ) ; SELECT 2000 IN ( CAST ( 'UTF-16le' AS TEXT ) ) ; SELECT v3 , MIN ( v4 ) , dense_rank () OVER( PARTITION BY v3 ORDER BY v4 ) FROM v2 ; 

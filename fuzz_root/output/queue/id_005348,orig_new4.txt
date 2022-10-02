@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; DELETE FROM v0 WHERE v1 = '**%s**' ; CREATE VIRTUAL TABLE v4 USING fts4 ( v7 , v6 NOT NULL PRIMARY KEY ON CONFLICT REPLACE CHECK( v2 NOT LIKE last_insert_rowid () ) , v5 ) ; 

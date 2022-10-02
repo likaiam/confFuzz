@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v0' ) ,( 'Brand#34' ) ; CREATE TABLE v2 ( v3 , v4 ) ; SELECT max ( v1 ) FROM v0 ; SELECT zeroblob ( 2000 * 2000 * 8 ) ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v0' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'LG BOX' , 0 ) ,( 'v0' , 10 ) ,( 'x' , 10 ) ,( 'LG PACK' , 10 ) ; SELECT v3 , TYPEOF ( v3 ) FROM v2 ; 

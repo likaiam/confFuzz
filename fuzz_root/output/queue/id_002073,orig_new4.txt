@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; SELECT DISTINCT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v2 IN ( v0 . v3 , 10 , v0 . v2 ) ; INSERT INTO v0 ( v1 ) VALUES ( 2 ) ,( 2 ) ; UPDATE v0 SET v2 = NULL ; 

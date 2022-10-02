@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'LG CASEaaaaaaaaaaaa' ) ,( 'v0' ) ,( 'GERMANY' ) ON CONFLICT DO NOTHING ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v1' , 10 ) ,( 'v0' , 127 ) ,( 'test' , 1 ) ,( 'v0' , 10 ) ; SELECT SUM ( v4 * ( 9223372036854775808 - v4 ) ) AS REVENUE , v4 AS alias FROM v2 ; 

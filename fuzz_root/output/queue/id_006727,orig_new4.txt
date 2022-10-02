@@ -1,0 +1,1 @@
+PRAGMA soft_heap_limit=2; ; CREATE TABLE v0 ( v1 , v2 AS( 2 >= v1 ) , v3 AS( v3 ) CHECK( v3 ) ) ; UPDATE v0 SET v1 = substr ( v3 , 10 , v1 ) ; DELETE FROM v0 WHERE v2 = ( SELECT NTILE ( 10 ) OVER( ORDER BY v1 NULLS LAST ) - 10 AS nt FROM v0 ) OR v1 <= 0 + 1 ; 

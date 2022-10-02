@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'x' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'Max Mustermann' , 2 ) ,( 'x' , 3 ) ,( 'v1' , 10 ) ,( '31' , 10 ) ; SELECT SUM ( lower ( v3 ) * ( 9223372036854775807 - v4 ) ) AS REVENUE , v4 AS alias FROM v2 ; 

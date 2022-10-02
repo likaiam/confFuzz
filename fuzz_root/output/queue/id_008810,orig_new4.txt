@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( '**%s**' ) ,( 'v1' ) ,( '199419' ) ,( 'Max Mustermann' ) ; UPDATE v0 SET v1 = randomblob ( ( 10 = 1 AND v1 = 10 ) + v1 + julianday ( - ( v1 BETWEEN 3 AND 1 ) ) ) ; SELECT DISTINCT * FROM v0 AS VALUE JOIN v0 AS AVG_YEARLY ON 1.100000 + 0.100000 JOIN v0 JOIN v0 AS y ; SELECT * FROM v0 AS b , v0 AS a ; 

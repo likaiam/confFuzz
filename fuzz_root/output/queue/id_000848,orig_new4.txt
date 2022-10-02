@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHAR(100) NOT NULL NOT NULL ON CONFLICT ABORT ) ; INSERT INTO v0 VALUES ( 'EUROPE' ) ,( 'x' ) ,( '17' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'x' , 10 ) ,( 'v0' , 10 ) ,( 'v1' , 10 ) ; SELECT SUM ( v3 * ( 0 - v3 ) ) AS REVENUE , v3 AS alias FROM v2 ; 

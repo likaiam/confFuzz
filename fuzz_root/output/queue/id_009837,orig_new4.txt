@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v3 AS( - 9.100000 ) , v2 , v1 ) ; INSERT INTO v0 VALUES ( '23' , 3 , 1 ) ,( 'v1' , 10 , 10 ) ,( '**%s**' , 10 , 10 ) ,( 'y' , 10 , 10 ) ; SELECT v1 FROM v0 WHERE v2 = 10 AND v2 > 2 ORDER BY v3 ; DELETE FROM v0 WHERE v3 MATCH ( SELECT v3 , sum ( v1 ) OVER( ORDER BY v3 ) AS echo FROM v0 WHERE v3 OR 12 ) ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHECK( v1 != 'v0' ) NOT NULL AS( ( 'v1' = 'x' AND v2 = 3 ) ) , v2 ) ; SELECT * FROM v0 JOIN v0 USING ( v2 , v1 , v1 , v1 ) NATURAL JOIN v0 ; 

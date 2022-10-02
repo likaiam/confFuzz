@@ -1,0 +1,17 @@
+digraph "CFG for 'sqlite3IndexAffinityOk' function" {
+	label="CFG for 'sqlite3IndexAffinityOk' function";
+
+	Node0x55c0f968ea30 [shape=record,label="{sqlite3.c:103878:}"];
+	Node0x55c0f968ea30 -> Node0x55c0f5985280;
+	Node0x55c0f968ea30 -> Node0x55c0f9691150;
+	Node0x55c0f5985280 [shape=record,label="{sqlite3.c:103881:}"];
+	Node0x55c0f5985280 -> Node0x55c0f968ebb0;
+	Node0x55c0f9691150 [shape=record,label="{sqlite3.c:103883:}"];
+	Node0x55c0f9691150 -> Node0x55c0f96917d0;
+	Node0x55c0f9691150 -> Node0x55c0f9691820;
+	Node0x55c0f96917d0 [shape=record,label="{sqlite3.c:103884:}"];
+	Node0x55c0f96917d0 -> Node0x55c0f968ebb0;
+	Node0x55c0f9691820 [shape=record,label="{sqlite3.c:103886:}"];
+	Node0x55c0f9691820 -> Node0x55c0f968ebb0;
+	Node0x55c0f968ebb0 [shape=record,label="{sqlite3.c:103887:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3VtabRollback' function" {
+	label="CFG for 'sqlite3VtabRollback' function";
+
+	Node0x55c0f7a4ee90 [shape=record,label="{sqlite3.c:147990:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'rc_err_oom_die' function" {
+	label="CFG for 'rc_err_oom_die' function";
+
+	Node0x5602772feb30 [shape=record,label="{shell.c:18950:}"];
+	Node0x5602772feb30 -> Node0x5602772fa400;
+	Node0x5602772feb30 -> Node0x5602772fa450;
+	Node0x5602772fa400 [shape=record,label="{shell.c:18951:}"];
+	Node0x5602772fa400 -> Node0x5602772fa450;
+	Node0x5602772fa450 [shape=record,label="{shell.c:18953:}"];
+}

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'abc' ) ,( '1995-03-15' ) ,( 'v1' ) ,( 'v1' ) ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT DISTINCT 0 , v1 GLOB v1 , 1 FROM v0 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC WITH HINT ( NO_CACHE ) ; 

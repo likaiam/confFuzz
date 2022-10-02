@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; SELECT * FROM v0 WHERE v3 GLOB 'AIR' ; DELETE FROM v0 WHERE v3 = 'v1' OR ( v2 * 10 ) = 'v1' ; 

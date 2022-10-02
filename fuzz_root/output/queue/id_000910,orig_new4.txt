@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '1995-09-01' ) ,( 'v1' ) ,( 'X' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v1' , 1 ) ,( 'x' , 10 ) ,( 'v1' , 3 ) ,( 'v0' , 2 ) ; SELECT 9.100000 * SUM ( CASE WHEN v3 LIKE 'x' THEN v4 * ( 0 - v3 ) ELSE 3 END ) FROM v2 ; 

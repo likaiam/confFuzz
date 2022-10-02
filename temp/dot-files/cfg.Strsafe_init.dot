@@ -1,0 +1,31 @@
+digraph "CFG for 'Strsafe_init' function" {
+	label="CFG for 'Strsafe_init' function";
+
+	Node0x562565665d20 [shape=record,label="{lemon.c:5286:}"];
+	Node0x562565665d20 -> Node0x562565665fb0;
+	Node0x562565665d20 -> Node0x562565666000;
+	Node0x562565665fb0 [shape=record,label="{lemon.c:5286:}"];
+	Node0x562565665fb0 -> Node0x562565666130;
+	Node0x562565666000 [shape=record,label="{lemon.c:5287:}"];
+	Node0x562565666000 -> Node0x5625656660b0;
+	Node0x562565666000 -> Node0x562565666130;
+	Node0x5625656660b0 [shape=record,label="{lemon.c:5289:}"];
+	Node0x5625656660b0 -> Node0x56256566ef70;
+	Node0x5625656660b0 -> Node0x56256566f010;
+	Node0x56256566ef70 [shape=record,label="{lemon.c:5293:}"];
+	Node0x56256566ef70 -> Node0x56256566efc0;
+	Node0x56256566f010 [shape=record,label="{lemon.c:5296:}"];
+	Node0x56256566f010 -> Node0x562565670a20;
+	Node0x562565670a20 [shape=record,label="{lemon.c:5298:}"];
+	Node0x562565670a20 -> Node0x562565670c40;
+	Node0x562565670a20 -> Node0x562565670870;
+	Node0x562565670c40 [shape=record,label="{lemon.c:5298:}"];
+	Node0x562565670c40 -> Node0x562565670bb0;
+	Node0x562565670bb0 [shape=record,label="{lemon.c:5298:}"];
+	Node0x562565670bb0 -> Node0x562565670a20;
+	Node0x562565670870 [shape=record,label="{%38}"];
+	Node0x562565670870 -> Node0x56256566efc0;
+	Node0x56256566efc0 [shape=record,label="{lemon.c:5300:}"];
+	Node0x56256566efc0 -> Node0x562565666130;
+	Node0x562565666130 [shape=record,label="{lemon.c:5301:}"];
+}

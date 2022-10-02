@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'LG CASEaaaaaaaaaaaa' ) ,( 'x' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX v5 ON v0 ( v1 , v1 ) WHERE - ( v1 BETWEEN 10 AND 2000 ) ; SELECT * , 10 , 3 , 3 , 127 FROM v2 RIGHT OUTER JOIN v0 ON v1 = v1 WHERE v1 = v1 ; 

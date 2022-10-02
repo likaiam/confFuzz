@@ -1,0 +1,17 @@
+digraph "CFG for 'contextMalloc' function" {
+	label="CFG for 'contextMalloc' function";
+
+	Node0x55c0f875f690 [shape=record,label="{sqlite3.c:122723:}"];
+	Node0x55c0f875f690 -> Node0x55c0f87726f0;
+	Node0x55c0f875f690 -> Node0x55c0f8772790;
+	Node0x55c0f87726f0 [shape=record,label="{sqlite3.c:122730:}"];
+	Node0x55c0f87726f0 -> Node0x55c0f8772740;
+	Node0x55c0f8772790 [shape=record,label="{sqlite3.c:122733:}"];
+	Node0x55c0f8772790 -> Node0x55c0f8773400;
+	Node0x55c0f8772790 -> Node0x55c0f87733b0;
+	Node0x55c0f87733b0 [shape=record,label="{sqlite3.c:122735:}"];
+	Node0x55c0f87733b0 -> Node0x55c0f8773400;
+	Node0x55c0f8773400 [shape=record,label="{%21}"];
+	Node0x55c0f8773400 -> Node0x55c0f8772740;
+	Node0x55c0f8772740 [shape=record,label="{sqlite3.c:122738:}"];
+}

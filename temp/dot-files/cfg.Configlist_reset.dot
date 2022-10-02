@@ -1,0 +1,5 @@
+digraph "CFG for 'Configlist_reset' function" {
+	label="CFG for 'Configlist_reset' function";
+
+	Node0x56256532e900 [shape=record,label="{lemon.c:1336:}"];
+}

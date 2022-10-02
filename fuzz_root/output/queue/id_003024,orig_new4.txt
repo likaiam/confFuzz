@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v0' ) ,( 'Al' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 8 ) ,( 'v0' , 3 ) ,( 'x' , 0 ) ,( 'v1' , 10 ) ; SELECT v4 , rank () OVER( ORDER BY unlikely ( v3 <= 'v0' ) DESC ) FROM v2 ; 

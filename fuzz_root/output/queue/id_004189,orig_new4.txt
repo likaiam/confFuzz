@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE printf ( 'LG PACK' , 1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 1 ) ,( 10 ) ; CREATE TABLE v2 ( v4 INTEGER PRIMARY KEY , v3 INT ) ; INSERT INTO v2 ( v3 ) VALUES ( 10 ) ,( 10 ) ; SELECT v3 , sum ( v4 ) OVER( ) AS m FROM v0 LEFT JOIN v2 ON v3 = 0 WHERE NULL OR 2 ; 

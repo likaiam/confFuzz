@@ -1,0 +1,1 @@
+PRAGMA cache_size=_neg_int_; ; VACUUM ; SELECT v3 FROM v2 WHERE v5 = 9223372036854775808 AND v4 < 10 ; 

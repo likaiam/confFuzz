@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHECK( v1 NOT LIKE printf () ) CHECK( v1 NOT LIKE 'v0' ) CHECK( datetime ( v1 ) IS NOT NULL < v1 NOT LIKE julianday ( ( v1 * 1 ) > v1 ) ) ) ; INSERT INTO v0 VALUES ( 12 ) ,( 10 ) ; VACUUM ; VACUUM ; 

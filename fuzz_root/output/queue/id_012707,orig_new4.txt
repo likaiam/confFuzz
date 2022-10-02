@@ -1,0 +1,1 @@
+SELECT ( zeroblob ( 2000 * 10 * 2000 ) ) ; REPLACE INTO v0 ( v1 ) VALUES ( NULL ) ; 

@@ -1,0 +1,23 @@
+digraph "CFG for 'sqlite3DeleteTable' function" {
+	label="CFG for 'sqlite3DeleteTable' function";
+
+	Node0x55c0f86bf450 [shape=record,label="{sqlite3.c:115945:}"];
+	Node0x55c0f86bf450 -> Node0x55c0f86bf8e0;
+	Node0x55c0f86bf450 -> Node0x55c0f86bf890;
+	Node0x55c0f86bf890 [shape=record,label="{sqlite3.c:115947:}"];
+	Node0x55c0f86bf890 -> Node0x55c0f86bf5d0;
+	Node0x55c0f86bf8e0 [shape=record,label="{sqlite3.c:115948:}"];
+	Node0x55c0f86bf8e0 -> Node0x55c0f86c5920;
+	Node0x55c0f86bf8e0 -> Node0x55c0f86c58a0;
+	Node0x55c0f86c5920 [shape=record,label="{sqlite3.c:115948:}"];
+	Node0x55c0f86c5920 -> Node0x55c0f86c58a0;
+	Node0x55c0f86c5920 -> Node0x55c0f86c5850;
+	Node0x55c0f86c58a0 [shape=record,label="{sqlite3.c:115948:}"];
+	Node0x55c0f86c58a0 -> Node0x55c0f86c5800;
+	Node0x55c0f86c58a0 -> Node0x55c0f86c5850;
+	Node0x55c0f86c5800 [shape=record,label="{sqlite3.c:115948:}"];
+	Node0x55c0f86c5800 -> Node0x55c0f86bf5d0;
+	Node0x55c0f86c5850 [shape=record,label="{sqlite3.c:115949:}"];
+	Node0x55c0f86c5850 -> Node0x55c0f86bf5d0;
+	Node0x55c0f86bf5d0 [shape=record,label="{sqlite3.c:115950:}"];
+}

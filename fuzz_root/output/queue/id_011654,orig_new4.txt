@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '31' ) ,( 'v1' ) ,( 'Brand#23' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE INDEX v5 ON v0 ( v1 , v1 ) WHERE CASE v1 WHEN 'v0' THEN 10 ELSE 10 END ; SELECT SUM ( v3 * ( 10 - v4 ) ) AS REVENUE , v4 AS alias FROM v0 LEFT JOIN v2 ON v4 GLOB 'v1' ; 

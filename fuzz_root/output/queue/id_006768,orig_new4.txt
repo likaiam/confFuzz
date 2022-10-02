@@ -1,0 +1,1 @@
+SELECT NULL AS alias INTERSECT SELECT NULL ORDER BY v1 , v3 , random () , 10 ; SELECT printf ( 'v1' , 3 , 'v1' , 10 ) ; 

@@ -1,0 +1,10 @@
+digraph "CFG for 'memtraceMalloc' function" {
+	label="CFG for 'memtraceMalloc' function";
+
+	Node0x5602762e9630 [shape=record,label="{shell.c:4356:}"];
+	Node0x5602762e9630 -> Node0x5602762ea670;
+	Node0x5602762e9630 -> Node0x5602762ea300;
+	Node0x5602762ea670 [shape=record,label="{shell.c:4358:}"];
+	Node0x5602762ea670 -> Node0x5602762ea300;
+	Node0x5602762ea300 [shape=record,label="{shell.c:4361:}"];
+}

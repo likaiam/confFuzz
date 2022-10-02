@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'BUILDING' ) ,( 'EUROPE' ) ,( 'v0' ) ,( 'AIR' ) ,( '**%s**' ) ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT DISTINCT changes () , total_changes () FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

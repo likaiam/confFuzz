@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3BtreeIntegerKey' function" {
+	label="CFG for 'sqlite3BtreeIntegerKey' function";
+
+	Node0x55c0f78b7bd0 [shape=record,label="{sqlite3.c:71525:}"];
+}

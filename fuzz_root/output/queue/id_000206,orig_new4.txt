@@ -1,0 +1,1 @@
+SELECT x ( * ) FROM v0 , v1 AS x WHERE v2 = 'v0' ; INSERT INTO v3 ( v4 ) VALUES ( 10 ) ,( 3 ) ,( 10 ) ; CREATE TABLE v5 ( v6 INTEGER PRIMARY KEY , v7 INT ) ; INSERT INTO v5 ( v7 ) VALUES ( 10 ) ,( 10 ) ; SELECT * FROM v5 , v5 WHERE v7 = v6 AND v7 = 3 ; 

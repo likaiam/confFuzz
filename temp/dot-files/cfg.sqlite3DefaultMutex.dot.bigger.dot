@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3DefaultMutex' function" {
+	label="CFG for 'sqlite3DefaultMutex' function";
+
+	Node0x55c0f6f8edc0 [shape=record,label="{sqlite3.c:28253:}"];
+}

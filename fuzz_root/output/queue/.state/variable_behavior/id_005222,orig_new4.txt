@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE last_insert_rowid () ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'Max Mustermann' ) ,( 'v0' ) ,( 'LG BOX' ) ,( '**%s**' ) ,( 'LG PKG' ) ; UPDATE v0 SET v1 = randomblob ( 0 ) ; SELECT * FROM v0 UNION SELECT DISTINCT random () % 9223372036854775807 FROM v0 ORDER BY v1 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'EUROPE' ) ,( 'x' ) ,( 'CANADA' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( '199419' , 10 ) ,( '13' , 3 ) ,( 'v1' , 0 ) ; SELECT CASE WHEN v1 NOT IN ( 10 , MIN ( v1 ) , 12 ) THEN '**%s**' ELSE 'Brand#34' END FROM v0 ; 

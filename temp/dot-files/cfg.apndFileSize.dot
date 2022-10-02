@@ -1,0 +1,12 @@
+digraph "CFG for 'apndFileSize' function" {
+	label="CFG for 'apndFileSize' function";
+
+	Node0x560276900c30 [shape=record,label="{shell.c:3967:}"];
+	Node0x560276900c30 -> Node0x5602769046d0;
+	Node0x560276900c30 -> Node0x560276904720;
+	Node0x5602769046d0 [shape=record,label="{shell.c:3969:}"];
+	Node0x5602769046d0 -> Node0x560276904770;
+	Node0x560276904720 [shape=record,label="{shell.c:3969:}"];
+	Node0x560276904720 -> Node0x560276904770;
+	Node0x560276904770 [shape=record,label="{shell.c:3969:}"];
+}

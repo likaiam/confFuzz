@@ -1,0 +1,5 @@
+digraph "CFG for 'pthreadMutexInit' function" {
+	label="CFG for 'pthreadMutexInit' function";
+
+	Node0x55c0f504c810 [shape=record,label="{sqlite3.c:27964:}"];
+}

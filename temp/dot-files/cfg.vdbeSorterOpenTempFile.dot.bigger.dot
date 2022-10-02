@@ -1,0 +1,22 @@
+digraph "CFG for 'vdbeSorterOpenTempFile' function" {
+	label="CFG for 'vdbeSorterOpenTempFile' function";
+
+	Node0x55c0f77acaf0 [shape=record,label="{sqlite3.c:98828:}"];
+	Node0x55c0f77acaf0 -> Node0x55c0f77b9170;
+	Node0x55c0f77acaf0 -> Node0x55c0f77b91c0;
+	Node0x55c0f77b9170 [shape=record,label="{sqlite3.c:98833:}"];
+	Node0x55c0f77b9170 -> Node0x55c0f516e7c0;
+	Node0x55c0f77b91c0 [shape=record,label="{sqlite3.c:98834:}"];
+	Node0x55c0f77b91c0 -> Node0x55c0f77b9b10;
+	Node0x55c0f77b91c0 -> Node0x55c0f77b9c90;
+	Node0x55c0f77b9b10 [shape=record,label="{sqlite3.c:98840:}"];
+	Node0x55c0f77b9b10 -> Node0x55c0f77ba6f0;
+	Node0x55c0f77b9b10 -> Node0x55c0f77ba740;
+	Node0x55c0f77ba6f0 [shape=record,label="{sqlite3.c:98843:}"];
+	Node0x55c0f77ba6f0 -> Node0x55c0f77ba740;
+	Node0x55c0f77ba740 [shape=record,label="{sqlite3.c:98845:}"];
+	Node0x55c0f77ba740 -> Node0x55c0f77b9c90;
+	Node0x55c0f77b9c90 [shape=record,label="{sqlite3.c:98846:}"];
+	Node0x55c0f77b9c90 -> Node0x55c0f516e7c0;
+	Node0x55c0f516e7c0 [shape=record,label="{sqlite3.c:98847:}"];
+}

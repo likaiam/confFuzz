@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; DELETE FROM v0 WHERE v1 >= 2 OR v1 < 10 AND v3 = 127 AND v1 = 1 AND v2 = 10 AND v1 = 10 ; DELETE FROM v0 WHERE v2 = zeroblob ( 3 ) AND v2 = 0 AND v2 = 3 AND v2 = 10 AND v2 = 1 AND v3 = 10 ; UPDATE v0 SET v3 = ( SELECT 10 FROM v0 ) ; 

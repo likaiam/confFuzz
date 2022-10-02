@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) ,( 'v1' ) ,( '17' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v0 SELECT upper ( v1 ) FROM v0 ; SELECT v1 , SUM ( v1 ) FROM v0 ; 

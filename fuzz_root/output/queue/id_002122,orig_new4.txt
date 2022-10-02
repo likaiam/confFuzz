@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; CREATE TABLE v4 ( v6 , v5 ) ; INSERT INTO v4 ( v6 ) VALUES ( 3 ) ,( 3 ) ; UPDATE v0 SET v2 = ( SELECT v2 FROM v0 AS x WHERE v1 > 0 AND v1 = 127 ) ; 

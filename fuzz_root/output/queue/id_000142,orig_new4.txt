@@ -1,0 +1,1 @@
+PRAGMA cell_size_check=true; ; CREATE TABLE v0 ( v3 , v2 AS( 10 >= v1 ) , v1 AS( v1 ) CHECK( v1 ) ) ; CREATE TABLE v4 ( v5 INTEGER PRIMARY KEY ) ; INSERT INTO v4 VALUES ( 10 ) ; SELECT v4 . v5 FROM v0 AS a JOIN v4 AS b ON v0 . v3 = v4 . v5 WHERE v0 . v3 IN ( 10 , 10 , 10 ) ; 

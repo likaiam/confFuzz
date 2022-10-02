@@ -1,0 +1,24 @@
+digraph "CFG for 're_insert' function" {
+	label="CFG for 're_insert' function";
+
+	Node0x560276a15610 [shape=record,label="{shell.c:6281:}"];
+	Node0x560276a15610 -> Node0x560276a1afe0;
+	Node0x560276a15610 -> Node0x560276a1af90;
+	Node0x560276a1afe0 [shape=record,label="{shell.c:6283:}"];
+	Node0x560276a1afe0 -> Node0x560276a1af40;
+	Node0x560276a1afe0 -> Node0x560276a1af90;
+	Node0x560276a1af40 [shape=record,label="{shell.c:6283:}"];
+	Node0x560276a1af40 -> Node0x560276359d00;
+	Node0x560276a1af90 [shape=record,label="{shell.c:6284:}"];
+	Node0x560276a1af90 -> Node0x560276a1c100;
+	Node0x560276a1c100 [shape=record,label="{shell.c:6284:}"];
+	Node0x560276a1c100 -> Node0x560276a1c320;
+	Node0x560276a1c100 -> Node0x560276a1bd80;
+	Node0x560276a1c320 [shape=record,label="{shell.c:6285:}"];
+	Node0x560276a1c320 -> Node0x560276a1c290;
+	Node0x560276a1c290 [shape=record,label="{shell.c:6284:}"];
+	Node0x560276a1c290 -> Node0x560276a1c100;
+	Node0x560276a1bd80 [shape=record,label="{shell.c:6288:}"];
+	Node0x560276a1bd80 -> Node0x560276359d00;
+	Node0x560276359d00 [shape=record,label="{shell.c:6292:}"];
+}

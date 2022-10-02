@@ -1,0 +1,1 @@
+PRAGMA query_only = 1;PRAGMA query_only=true; ; CREATE TABLE v0 ( v3 , v2 AS( v3 + v1 ) , v1 AS( NOT CASE v2 WHEN 'Brand#12' THEN 10 ELSE 10 END ) CHECK( v1 ) ) ; UPDATE v0 SET v3 = NULL ; 

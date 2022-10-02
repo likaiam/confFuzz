@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v2 INTEGER AS( NOT min ( 10 , 0 , NULL , v2 ) ) , v1 , v3 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10 ) ,( 10 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10.100000 ) ,( 10 ) ,( 10 ) ; DELETE FROM v0 WHERE v2 != lower ( ( SELECT sum ( v2 ) OVER( ) AS xyz FROM v0 ) ) OR v3 = 'v0' ; 

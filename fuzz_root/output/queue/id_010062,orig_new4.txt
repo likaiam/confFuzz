@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 AS( 8 >= v6 ) UNIQUE , v2 , v3 , v4 , v5 , v6 , v7 , v8 , v9 , v10 , v11 ) ; INSERT INTO v0 ( v7 ) VALUES ( 'MED PACK' ) ,( 'MED BAG' ) ,( 'v1' ) ,( 'x' ) ,( 'x' ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 NATURAL JOIN v0 WHERE v8 < 1 OR v1 < 1 ; DELETE FROM v0 WHERE v5 = 'v0' OR v11 = 'MED BAG' ; 

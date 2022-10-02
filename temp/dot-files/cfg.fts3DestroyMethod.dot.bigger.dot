@@ -1,0 +1,12 @@
+digraph "CFG for 'fts3DestroyMethod' function" {
+	label="CFG for 'fts3DestroyMethod' function";
+
+	Node0x55c0fada7d40 [shape=record,label="{sqlite3.c:177008:}"];
+	Node0x55c0fada7d40 -> Node0x55c0fadae0f0;
+	Node0x55c0fada7d40 -> Node0x55c0fadae140;
+	Node0x55c0fadae0f0 [shape=record,label="{sqlite3.c:177032:}"];
+	Node0x55c0fadae0f0 -> Node0x55c0fadae190;
+	Node0x55c0fadae140 [shape=record,label="{sqlite3.c:177032:}"];
+	Node0x55c0fadae140 -> Node0x55c0fadae190;
+	Node0x55c0fadae190 [shape=record,label="{sqlite3.c:177032:}"];
+}

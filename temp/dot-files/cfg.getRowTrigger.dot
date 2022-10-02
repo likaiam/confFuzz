@@ -1,0 +1,36 @@
+digraph "CFG for 'getRowTrigger' function" {
+	label="CFG for 'getRowTrigger' function";
+
+	Node0x55c0f9d67c50 [shape=record,label="{sqlite3.c:144707:}"];
+	Node0x55c0f9d67c50 -> Node0x55c0f9d6fac0;
+	Node0x55c0f9d67c50 -> Node0x55c0f9d6fb10;
+	Node0x55c0f9d6fac0 [shape=record,label="{sqlite3.c:144712:}"];
+	Node0x55c0f9d6fac0 -> Node0x55c0f9d6fb60;
+	Node0x55c0f9d6fb10 [shape=record,label="{sqlite3.c:144712:}"];
+	Node0x55c0f9d6fb10 -> Node0x55c0f9d6fb60;
+	Node0x55c0f9d6fb60 [shape=record,label="{sqlite3.c:144712:}"];
+	Node0x55c0f9d6fb60 -> Node0x55c0f9d70990;
+	Node0x55c0f9d70990 [shape=record,label="{sqlite3.c:144722:}"];
+	Node0x55c0f9d70990 -> Node0x55c0f9d70c80;
+	Node0x55c0f9d70990 -> Node0x55c0f9d70c30;
+	Node0x55c0f9d70c80 [shape=record,label="{sqlite3.c:144722:}"];
+	Node0x55c0f9d70c80 -> Node0x55c0f9d70fc0;
+	Node0x55c0f9d70c80 -> Node0x55c0f9d71010;
+	Node0x55c0f9d71010 [shape=record,label="{sqlite3.c:144722:}"];
+	Node0x55c0f9d71010 -> Node0x55c0f9d70fc0;
+	Node0x55c0f9d70fc0 [shape=record,label="{%34}"];
+	Node0x55c0f9d70fc0 -> Node0x55c0f9d70c30;
+	Node0x55c0f9d70c30 [shape=record,label="{sqlite3.c:144721:}"];
+	Node0x55c0f9d70c30 -> Node0x55c0f9d70bb0;
+	Node0x55c0f9d70c30 -> Node0x55c0f9d70610;
+	Node0x55c0f9d70bb0 [shape=record,label="{sqlite3.c:144721:}"];
+	Node0x55c0f9d70bb0 -> Node0x55c0f9d70b20;
+	Node0x55c0f9d70b20 [shape=record,label="{sqlite3.c:144723:}"];
+	Node0x55c0f9d70b20 -> Node0x55c0f9d70990;
+	Node0x55c0f9d70610 [shape=record,label="{sqlite3.c:144727:}"];
+	Node0x55c0f9d70610 -> Node0x55c0f9d72020;
+	Node0x55c0f9d70610 -> Node0x55c0f9d71fd0;
+	Node0x55c0f9d71fd0 [shape=record,label="{sqlite3.c:144728:}"];
+	Node0x55c0f9d71fd0 -> Node0x55c0f9d72020;
+	Node0x55c0f9d72020 [shape=record,label="{sqlite3.c:144732:}"];
+}

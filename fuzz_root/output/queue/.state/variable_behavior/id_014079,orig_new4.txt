@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v3 , v2 INTEGER CHECK( randomblob ( 0 ) NOT LIKE printf ( 'x' , lower ( 'x' ) ) ) ) ; REPLACE INTO v0 ( v3 , v3 ) VALUES ( 1 , 0 ) ; UPDATE v0 SET v3 = ( SELECT v3 AS f1 FROM v0 WHERE v1 MATCH NOT ( '13' = 'v1' AND random () % 10 = 1 ) ) ; CREATE VIRTUAL TABLE v4 USING rtree ( v5 AS( typeof ( 'x' ) ) , v6 , v7 ) ; DELETE FROM v0 ; 

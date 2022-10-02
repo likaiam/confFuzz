@@ -1,0 +1,31 @@
+digraph "CFG for 'line_is_command_terminator' function" {
+	label="CFG for 'line_is_command_terminator' function";
+
+	Node0x5602774cb6d0 [shape=record,label="{shell.c:22483:}"];
+	Node0x5602774cb6d0 -> Node0x5602774cadb0;
+	Node0x5602774cadb0 [shape=record,label="{shell.c:22484:}"];
+	Node0x5602774cadb0 -> Node0x5602774d13d0;
+	Node0x5602774cadb0 -> Node0x5602774cae30;
+	Node0x5602774d13d0 [shape=record,label="{shell.c:22484:}"];
+	Node0x5602774d13d0 -> Node0x5602774cadb0;
+	Node0x5602774cae30 [shape=record,label="{shell.c:22485:}"];
+	Node0x5602774cae30 -> Node0x5602774d1990;
+	Node0x5602774cae30 -> Node0x5602774d1a30;
+	Node0x5602774d1990 [shape=record,label="{shell.c:22486:}"];
+	Node0x5602774d1990 -> Node0x5602774d19e0;
+	Node0x5602774d1a30 [shape=record,label="{shell.c:22487:}"];
+	Node0x5602774d1a30 -> Node0x5602774d2230;
+	Node0x5602774d1a30 -> Node0x5602774d21e0;
+	Node0x5602774d2230 [shape=record,label="{shell.c:22487:}"];
+	Node0x5602774d2230 -> Node0x5602774d2140;
+	Node0x5602774d2230 -> Node0x5602774d21e0;
+	Node0x5602774d2140 [shape=record,label="{shell.c:22488:}"];
+	Node0x5602774d2140 -> Node0x5602774d2190;
+	Node0x5602774d21e0 [shape=record,label="{shell.c:22490:}"];
+	Node0x5602774d21e0 -> Node0x5602774cabc0;
+	Node0x5602774d2190 [shape=record,label="{%42}"];
+	Node0x5602774d2190 -> Node0x5602774d19e0;
+	Node0x5602774d19e0 [shape=record,label="{shell.c:22491:}"];
+	Node0x5602774d19e0 -> Node0x5602774cabc0;
+	Node0x5602774cabc0 [shape=record,label="{shell.c:22492:}"];
+}

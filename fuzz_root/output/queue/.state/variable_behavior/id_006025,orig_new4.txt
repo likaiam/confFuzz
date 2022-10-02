@@ -1,0 +1,1 @@
+CREATE TABLE main . v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( '1995-03-15' ) ,( 'v1' ) ,( 'v1' ) ,( 'CANADA' ) ; UPDATE v0 SET v1 = randomblob ( v1 ) ; SELECT v0 . v1 , v1 , rank () OVER( ) FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

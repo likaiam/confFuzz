@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v3 ) VALUES ( 2 ) ,( 1 ) ; UPDATE v0 SET v1 = ( SELECT random () % 10 FROM v0 ) ; 

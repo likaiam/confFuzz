@@ -1,0 +1,33 @@
+digraph "CFG for 'sqlarCompressFunc' function" {
+	label="CFG for 'sqlarCompressFunc' function";
+
+	Node0x560276bda4c0 [shape=record,label="{shell.c:8955:}"];
+	Node0x560276bda4c0 -> Node0x560276be1cd0;
+	Node0x560276bda4c0 -> Node0x560276be1d70;
+	Node0x560276be1cd0 [shape=record,label="{shell.c:8961:}"];
+	Node0x560276be1cd0 -> Node0x560276be3ff0;
+	Node0x560276be1cd0 -> Node0x560276be4090;
+	Node0x560276be3ff0 [shape=record,label="{shell.c:8968:}"];
+	Node0x560276be3ff0 -> Node0x560276be1d20;
+	Node0x560276be4090 [shape=record,label="{shell.c:8971:}"];
+	Node0x560276be4090 -> Node0x560276be45c0;
+	Node0x560276be4090 -> Node0x560276be4660;
+	Node0x560276be45c0 [shape=record,label="{shell.c:8972:}"];
+	Node0x560276be45c0 -> Node0x560276be4610;
+	Node0x560276be4660 [shape=record,label="{shell.c:8973:}"];
+	Node0x560276be4660 -> Node0x560276be4c00;
+	Node0x560276be4660 -> Node0x560276be5490;
+	Node0x560276be4c00 [shape=record,label="{shell.c:8974:}"];
+	Node0x560276be4c00 -> Node0x560276be5440;
+	Node0x560276be5490 [shape=record,label="{shell.c:8976:}"];
+	Node0x560276be5490 -> Node0x560276be5440;
+	Node0x560276be5440 [shape=record,label="{%49}"];
+	Node0x560276be5440 -> Node0x560276be4610;
+	Node0x560276be4610 [shape=record,label="{shell.c:8978:}"];
+	Node0x560276be4610 -> Node0x560276be4040;
+	Node0x560276be4040 [shape=record,label="{shell.c:8980:}"];
+	Node0x560276be4040 -> Node0x560276be1d20;
+	Node0x560276be1d70 [shape=record,label="{shell.c:8981:}"];
+	Node0x560276be1d70 -> Node0x560276be1d20;
+	Node0x560276be1d20 [shape=record,label="{shell.c:8983:}"];
+}

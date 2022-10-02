@@ -1,0 +1,17 @@
+digraph "CFG for 'fts3SegReaderCursorAppend' function" {
+	label="CFG for 'fts3SegReaderCursorAppend' function";
+
+	Node0x55c0fab3c150 [shape=record,label="{sqlite3.c:179354:}"];
+	Node0x55c0fab3c150 -> Node0x55c0fab3c5f0;
+	Node0x55c0fab3c150 -> Node0x55c0fab3c640;
+	Node0x55c0fab3c5f0 [shape=record,label="{sqlite3.c:179358:}"];
+	Node0x55c0fab3c5f0 -> Node0x55c0fab3f650;
+	Node0x55c0fab3c5f0 -> Node0x55c0fab3f600;
+	Node0x55c0fab3f600 [shape=record,label="{sqlite3.c:179362:}"];
+	Node0x55c0fab3f600 -> Node0x55c0fab3c2d0;
+	Node0x55c0fab3f650 [shape=record,label="{sqlite3.c:179365:}"];
+	Node0x55c0fab3f650 -> Node0x55c0fab3c640;
+	Node0x55c0fab3c640 [shape=record,label="{sqlite3.c:179367:}"];
+	Node0x55c0fab3c640 -> Node0x55c0fab3c2d0;
+	Node0x55c0fab3c2d0 [shape=record,label="{sqlite3.c:179369:}"];
+}

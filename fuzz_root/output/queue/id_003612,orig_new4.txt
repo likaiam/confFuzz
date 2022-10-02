@@ -1,0 +1,1 @@
+SELECT sqlite_compileoption_used ( sqlite_compileoption_get ( 16 ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 9 ) ,( 1 ) ,( 3 ) ; CREATE TABLE v2 ( v3 CHAR(200) PRIMARY KEY ) ; INSERT INTO v2 ( v3 ) VALUES ( 0 ) ,( 10 ) ; SELECT lead ( v3 ) OVER( ) FROM v2 , v2 WHERE v3 = v3 AND v3 = 10 ; 

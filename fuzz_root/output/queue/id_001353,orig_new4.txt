@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 INT , v1 INT ) ; INSERT INTO v0 ( v2 , v2 ) VALUES ( 10 , 2 ) ; SELECT CAST ( ( SELECT v2 FROM v0 WHERE 8 = v1 ) AS INT ) , v2 / 10 FROM v0 ; 

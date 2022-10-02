@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3PagerSetSpillsize' function" {
+	label="CFG for 'sqlite3PagerSetSpillsize' function";
+
+	Node0x55c0f84b9ec0 [shape=record,label="{sqlite3.c:57324:}"];
+}

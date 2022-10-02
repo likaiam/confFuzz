@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'c' ) ,( 'y' ) ,( 'PROMO%%' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'test' , 10 ) ,( 'x' , 0 ) ,( 'b' , 0 ) ,( 'Brand#34' , 1 ) ; SELECT CASE WHEN v3 NOT IN ( 10 , 9223372036854775807 , v3 = 1.100000 ) THEN 'v0' ELSE 'v1' END FROM v2 GROUP BY v3 , v3 HAVING v4 <= v3 ; 

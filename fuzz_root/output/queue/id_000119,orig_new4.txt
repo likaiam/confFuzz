@@ -1,0 +1,1 @@
+SELECT v5 FROM v2 WHERE v4 = 10 AND v3 <= 'v1' ; SELECT * FROM v6 WHERE unlikely ( v7 ) <= 'MED BAG' ; ALTER TABLE t2 RENAME TO t3 ; 

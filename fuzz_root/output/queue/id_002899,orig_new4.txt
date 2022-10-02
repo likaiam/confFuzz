@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 VARCHAR(1) PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 'Max Mustermann' ) ,( 'x' ) ,( 'LG PACK' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v0' , 3 ) ,( '23' , 1 ) ,( 'v1' , 1 ) ,( 'v1' , 10 ) ; SELECT DISTINCT v3 , v3 + 9223372036854775807 FROM v2 ; 

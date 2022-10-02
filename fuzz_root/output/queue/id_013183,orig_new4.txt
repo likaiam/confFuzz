@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; SELECT '' + 10 ; CREATE TABLE v2 ( v4 INTEGER PRIMARY KEY , v3 INT ) ; SELECT sqlite_compileoption_used ( NULL ) ; SELECT * FROM v0 RIGHT OUTER JOIN v2 ON v4 IS NOT NULL WHERE v3 = v0 . v1 OR v3 = v0 . v1 ; 

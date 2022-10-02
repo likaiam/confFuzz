@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 VARCHAR(1) PRIMARY KEY , v2 INTEGER NOT NULL ) ; SELECT v2 , v1 , v2 , v1 , 'MED BOX' FROM v0 WHERE v2 IN ( 1 , 2 ) ORDER BY 3 DESC , v2 ; SELECT random () % 1 , v1 FROM v0 WHERE min ( v2 , v1 ) ; 

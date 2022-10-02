@@ -1,0 +1,34 @@
+digraph "CFG for 'unixRead' function" {
+	label="CFG for 'unixRead' function";
+
+	Node0x55c0f707bea0 [shape=record,label="{sqlite3.c:38753:}"];
+	Node0x55c0f707bea0 -> Node0x55c0f707f340;
+	Node0x55c0f707bea0 -> Node0x55c0f707f390;
+	Node0x55c0f707f340 [shape=record,label="{sqlite3.c:38777:}"];
+	Node0x55c0f707f340 -> Node0x55c0f707f970;
+	Node0x55c0f707f340 -> Node0x55c0f707fa10;
+	Node0x55c0f707f970 [shape=record,label="{sqlite3.c:38778:}"];
+	Node0x55c0f707f970 -> Node0x55c0f707d8d0;
+	Node0x55c0f707fa10 [shape=record,label="{sqlite3.c:38781:}"];
+	Node0x55c0f707fa10 -> Node0x55c0f707f9c0;
+	Node0x55c0f707f9c0 [shape=record,label="{sqlite3.c:38787:}"];
+	Node0x55c0f707f9c0 -> Node0x55c0f707f390;
+	Node0x55c0f707f390 [shape=record,label="{sqlite3.c:38790:}"];
+	Node0x55c0f707f390 -> Node0x55c0f5726e70;
+	Node0x55c0f707f390 -> Node0x55c0f7082d90;
+	Node0x55c0f5726e70 [shape=record,label="{sqlite3.c:38792:}"];
+	Node0x55c0f5726e70 -> Node0x55c0f707d8d0;
+	Node0x55c0f7082d90 [shape=record,label="{sqlite3.c:38793:}"];
+	Node0x55c0f7082d90 -> Node0x55c0f7083210;
+	Node0x55c0f7082d90 -> Node0x55c0f70832b0;
+	Node0x55c0f7083210 [shape=record,label="{sqlite3.c:38801:}"];
+	Node0x55c0f7083210 -> Node0x55c0f7083570;
+	Node0x55c0f7083210 -> Node0x55c0f7083ac0;
+	Node0x55c0f7083ac0 [shape=record,label="{sqlite3.c:38810:}"];
+	Node0x55c0f7083ac0 -> Node0x55c0f707d8d0;
+	Node0x55c0f7083570 [shape=record,label="{sqlite3.c:38812:}"];
+	Node0x55c0f7083570 -> Node0x55c0f707d8d0;
+	Node0x55c0f70832b0 [shape=record,label="{sqlite3.c:38814:}"];
+	Node0x55c0f70832b0 -> Node0x55c0f707d8d0;
+	Node0x55c0f707d8d0 [shape=record,label="{sqlite3.c:38819:}"];
+}

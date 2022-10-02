@@ -1,0 +1,5 @@
+digraph "CFG for 'get_uint32' function" {
+	label="CFG for 'get_uint32' function";
+
+	Node0x560276a6c290 [shape=record,label="{shell.c:11570:}"];
+}

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'x' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE VIEW v5 AS SELECT v9 AS p , v8 AS q FROM v5 AS a JOIN v5 AS b ON v5 . v10 = v5 . v6 'MED P' WHERE v11 = v7 ; SELECT * FROM v5 UNION SELECT * FROM v5 ; 

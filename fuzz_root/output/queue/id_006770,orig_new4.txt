@@ -1,0 +1,1 @@
+SELECT NULL INTERSECT SELECT NULL ORDER BY v1 , v3 , v5 ASC NULLS LAST , 0 ; SELECT printf ( 'Brand#23' , 3 , 'abc' , 10 ) ; 

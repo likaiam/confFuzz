@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'x' ) ,( 'x' ) ,( 'v1' ) ,( 'c' ) ; UPDATE v0 SET v1 = zeroblob ( v1 ) ; SELECT DISTINCT * FROM v0 AS a JOIN v0 AS AVG_YEARLY ON v0 . v1 = v0 . v1 JOIN v0 NATURAL JOIN v0 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY substr ( v1 , 10 , v1 ) DESC ; 

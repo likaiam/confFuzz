@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'PROMO%%' ) ,( 'v0' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'Brand#12' , 3 ) ,( 'Ar' , 10 ) ,( 'x' , 9223372036854775808 ) ,( '%%green%%' , 9223372036854775807 ) ; SELECT nth_value ( v4 , 10 ) OVER( ORDER BY v3 ) AS REVENUE , v4 AS alias FROM v2 ; 

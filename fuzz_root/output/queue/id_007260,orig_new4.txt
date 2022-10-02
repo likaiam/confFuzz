@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16'; ; CREATE TABLE v0 ( v2 AS( v1 + julianday ( * ) ) , v1 INTEGER PRIMARY KEY ON CONFLICT ROLLBACK ) ; UPDATE v0 SET v2 = NULL ; 

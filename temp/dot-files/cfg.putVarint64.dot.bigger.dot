@@ -1,0 +1,37 @@
+digraph "CFG for 'putVarint64' function" {
+	label="CFG for 'putVarint64' function";
+
+	Node0x55c0f557cc30 [shape=record,label="{sqlite3.c:34171:}"];
+	Node0x55c0f557cc30 -> Node0x55c0f7f5ffa0;
+	Node0x55c0f557cc30 -> Node0x55c0f7f5fff0;
+	Node0x55c0f7f5ffa0 [shape=record,label="{sqlite3.c:34175:}"];
+	Node0x55c0f7f5ffa0 -> Node0x55c0f7f60c40;
+	Node0x55c0f7f60c40 [shape=record,label="{sqlite3.c:34177:}"];
+	Node0x55c0f7f60c40 -> Node0x55c0f7f60e60;
+	Node0x55c0f7f60c40 -> Node0x55c0f7f60a90;
+	Node0x55c0f7f60e60 [shape=record,label="{sqlite3.c:34178:}"];
+	Node0x55c0f7f60e60 -> Node0x55c0f7f60dd0;
+	Node0x55c0f7f60dd0 [shape=record,label="{sqlite3.c:34177:}"];
+	Node0x55c0f7f60dd0 -> Node0x55c0f7f60c40;
+	Node0x55c0f7f60a90 [shape=record,label="{sqlite3.c:34181:}"];
+	Node0x55c0f7f60a90 -> Node0x55c0f7f5ec50;
+	Node0x55c0f7f5fff0 [shape=record,label="{sqlite3.c:34183:}"];
+	Node0x55c0f7f5fff0 -> Node0x55c0f7f62250;
+	Node0x55c0f7f62250 [shape=record,label="{sqlite3.c:34185:}"];
+	Node0x55c0f7f62250 -> Node0x55c0f7f62200;
+	Node0x55c0f7f62200 [shape=record,label="{sqlite3.c:34187:}"];
+	Node0x55c0f7f62200 -> Node0x55c0f7f62250;
+	Node0x55c0f7f62200 -> Node0x55c0f7f621b0;
+	Node0x55c0f7f621b0 [shape=record,label="{sqlite3.c:34188:}"];
+	Node0x55c0f7f621b0 -> Node0x55c0f7f63960;
+	Node0x55c0f7f63960 [shape=record,label="{sqlite3.c:34190:}"];
+	Node0x55c0f7f63960 -> Node0x55c0f7f63b80;
+	Node0x55c0f7f63960 -> Node0x55c0f7f63500;
+	Node0x55c0f7f63b80 [shape=record,label="{sqlite3.c:34191:}"];
+	Node0x55c0f7f63b80 -> Node0x55c0f7f63af0;
+	Node0x55c0f7f63af0 [shape=record,label="{sqlite3.c:34190:}"];
+	Node0x55c0f7f63af0 -> Node0x55c0f7f63960;
+	Node0x55c0f7f63500 [shape=record,label="{sqlite3.c:34193:}"];
+	Node0x55c0f7f63500 -> Node0x55c0f7f5ec50;
+	Node0x55c0f7f5ec50 [shape=record,label="{sqlite3.c:34194:}"];
+}

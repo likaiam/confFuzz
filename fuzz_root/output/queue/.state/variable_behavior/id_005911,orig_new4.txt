@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( '30' ) ,( 'v1' ) ,( 'GERMANY' ) ,( '1994-01-01' ) ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT * FROM v0 UNION SELECT DISTINCT min ( v1 ) FROM v0 ORDER BY v1 ; 

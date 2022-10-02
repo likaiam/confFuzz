@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '17' ) ,( 'UTF-16le' ) ,( '18' ) ; CREATE TRIGGER x AFTER INSERT ON v0 BEGIN INSERT INTO v0 ( v1 ) VALUES ( 10 ) ; END ; INSERT INTO v0 ( v1 ) VALUES ( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ; WITH tmp AS ( SELECT * FROM v0 ) SELECT v1 , length ( v1 ) FROM v0 ; 

@@ -1,0 +1,1 @@
+PRAGMA reverse_unordered_selects=_boolen_; ; CREATE TABLE v0 ( v3 , v1 AS( v2 + v2 ) , v2 AS( v3 ) CHECK( v1 ) ) ; SELECT last_insert_rowid () ; 

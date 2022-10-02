@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 's%' ) ,( 'LG PACK' ) ,( 'v1' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'x' , 9223372036854775807 ) ,( 'x' , 10 ) ,( 'x' , 10 ) ; SELECT SUM ( v1 * ( 9223372036854775807 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

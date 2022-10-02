@@ -1,0 +1,26 @@
+digraph "CFG for 'pcacheMergeDirtyList' function" {
+	label="CFG for 'pcacheMergeDirtyList' function";
+
+	Node0x55c0f57ea810 [shape=record,label="{sqlite3.c:51708:}"];
+	Node0x55c0f57ea810 -> Node0x55c0f754e770;
+	Node0x55c0f754e770 [shape=record,label="{sqlite3.c:51713:}"];
+	Node0x55c0f754e770 -> Node0x55c0f754e9e0;
+	Node0x55c0f754e770 -> Node0x55c0f754ea80;
+	Node0x55c0f754e9e0 [shape=record,label="{sqlite3.c:51714:}"];
+	Node0x55c0f754e9e0 -> Node0x55c0f754f8c0;
+	Node0x55c0f754e9e0 -> Node0x55c0f754f910;
+	Node0x55c0f754f8c0 [shape=record,label="{sqlite3.c:51718:}"];
+	Node0x55c0f754f8c0 -> Node0x55c0f754e6e0;
+	Node0x55c0f754f910 [shape=record,label="{sqlite3.c:51721:}"];
+	Node0x55c0f754f910 -> Node0x55c0f754ea30;
+	Node0x55c0f754ea80 [shape=record,label="{sqlite3.c:51722:}"];
+	Node0x55c0f754ea80 -> Node0x55c0f7550980;
+	Node0x55c0f754ea80 -> Node0x55c0f75509d0;
+	Node0x55c0f7550980 [shape=record,label="{sqlite3.c:51726:}"];
+	Node0x55c0f7550980 -> Node0x55c0f754e6e0;
+	Node0x55c0f75509d0 [shape=record,label="{%37}"];
+	Node0x55c0f75509d0 -> Node0x55c0f754ea30;
+	Node0x55c0f754ea30 [shape=record,label="{sqlite3.c:51712:}"];
+	Node0x55c0f754ea30 -> Node0x55c0f754e770;
+	Node0x55c0f754e6e0 [shape=record,label="{sqlite3.c:51731:}"];
+}

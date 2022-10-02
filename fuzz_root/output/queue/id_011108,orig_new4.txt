@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v3 , v2 ) ; CREATE VIRTUAL TABLE v4 USING rtree ( v7 CHECK( v6 != v2 ) , v5 , v6 ) ; VACUUM ; UPDATE v4 SET v7 = v6 + 1 ; DELETE FROM v0 WHERE v2 MATCH - 3.100000 ; 

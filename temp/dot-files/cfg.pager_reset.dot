@@ -1,0 +1,5 @@
+digraph "CFG for 'pager_reset' function" {
+	label="CFG for 'pager_reset' function";
+
+	Node0x55c0f75a0cf0 [shape=record,label="{sqlite3.c:55603:}"];
+}

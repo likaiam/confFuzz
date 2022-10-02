@@ -1,0 +1,15 @@
+digraph "CFG for 'setDeviceCharacteristics' function" {
+	label="CFG for 'setDeviceCharacteristics' function";
+
+	Node0x55c0f70ff270 [shape=record,label="{sqlite3.c:39512:}"];
+	Node0x55c0f70ff270 -> Node0x55c0f7103ed0;
+	Node0x55c0f70ff270 -> Node0x55c0f7103820;
+	Node0x55c0f7103ed0 [shape=record,label="{sqlite3.c:39527:}"];
+	Node0x55c0f7103ed0 -> Node0x55c0f71033b0;
+	Node0x55c0f7103ed0 -> Node0x55c0f7104010;
+	Node0x55c0f71033b0 [shape=record,label="{sqlite3.c:39528:}"];
+	Node0x55c0f71033b0 -> Node0x55c0f7104010;
+	Node0x55c0f7104010 [shape=record,label="{sqlite3.c:39531:}"];
+	Node0x55c0f7104010 -> Node0x55c0f7103820;
+	Node0x55c0f7103820 [shape=record,label="{sqlite3.c:39533:}"];
+}

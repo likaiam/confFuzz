@@ -1,0 +1,1 @@
+SELECT - 'testtest' ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; SELECT v1 , min ( v1 ) FROM v0 ; SELECT max ( ( SELECT avg ( v0 . v1 ) FROM v0 ) ) FROM v0 ; 

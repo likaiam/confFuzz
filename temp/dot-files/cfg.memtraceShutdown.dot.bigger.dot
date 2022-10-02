@@ -1,0 +1,5 @@
+digraph "CFG for 'memtraceShutdown' function" {
+	label="CFG for 'memtraceShutdown' function";
+
+	Node0x5602769401f0 [shape=record,label="{shell.c:4391:}"];
+}

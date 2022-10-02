@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '23' ) ,( 'v0' ) ,( 0 ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v0' , 1 ) ,( 'v0' , 10 ) ,( 's%' , 1 ) ,( 'Brand#23' , 1 ) ; SELECT CASE WHEN v1 NOT IN ( 0 , 0 , 1 ) THEN 'v1' ELSE 'PROMO%%' END FROM v0 ; 

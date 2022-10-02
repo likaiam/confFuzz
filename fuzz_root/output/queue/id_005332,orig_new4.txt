@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'Brand#34' ) ,( 'SM BOX' ) ,( 'GERMANY' ) ; CREATE TABLE v2 ( v3 , v4 CHAR(25) ) ; INSERT INTO v2 VALUES ( 'MED BAG' , 2 ) ,( 'v0' , 10 ) ,( 'v1' , 9223372036854775807 ) ,( 'Brand#12' , 10 ) ; SELECT * , 'v1' FROM v2 WHERE v4 = 10 AND v3 = 10 AND v4 = 10 ; 

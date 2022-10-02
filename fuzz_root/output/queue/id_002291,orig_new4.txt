@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 1 ) ; DELETE FROM v0 WHERE ( SELECT typeof ( 'UTF-16le' ) FROM v0 WHERE ( v2 ) <= 'v1' GROUP BY v1 ) = 'v1' OR v3 = 'x' ; 

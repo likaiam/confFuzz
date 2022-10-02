@@ -1,0 +1,22 @@
+digraph "CFG for 'star_oh' function" {
+	label="CFG for 'star_oh' function";
+
+	Node0x55c0facbd660 [shape=record,label="{sqlite3.c:185019:}"];
+	Node0x55c0facbd660 -> Node0x55c0facbd8b0;
+	Node0x55c0facbd660 -> Node0x55c0facc1250;
+	Node0x55c0facbd8b0 [shape=record,label="{sqlite3.c:185022:}"];
+	Node0x55c0facbd8b0 -> Node0x55c0facbd830;
+	Node0x55c0facbd8b0 -> Node0x55c0facc1250;
+	Node0x55c0facbd830 [shape=record,label="{sqlite3.c:185022:}"];
+	Node0x55c0facbd830 -> Node0x55c0facc0de0;
+	Node0x55c0facbd830 -> Node0x55c0facc1250;
+	Node0x55c0facc0de0 [shape=record,label="{sqlite3.c:185022:}"];
+	Node0x55c0facc0de0 -> Node0x55c0facbd210;
+	Node0x55c0facc0de0 -> Node0x55c0facc1250;
+	Node0x55c0facbd210 [shape=record,label="{sqlite3.c:185023:}"];
+	Node0x55c0facbd210 -> Node0x55c0facc0d90;
+	Node0x55c0facbd210 -> Node0x55c0facc1250;
+	Node0x55c0facc0d90 [shape=record,label="{sqlite3.c:185024:}"];
+	Node0x55c0facc0d90 -> Node0x55c0facc1250;
+	Node0x55c0facc1250 [shape=record,label="{sqlite3.c:185023:}"];
+}

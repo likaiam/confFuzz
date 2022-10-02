@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 , v3 AS( v2 + v1 ) , v1 AS( datetime ( - - v1 IS NOT NULL , v1 ) IS NOT NULL ) CHECK( v2 ) ) ; SELECT DISTINCT v0 . v3 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v1 IN ( v0 . v1 , v0 . v1 , v0 . v1 ) ; SELECT sum ( v3 ) , sum ( length ( v2 ) ) FROM v0 ; 

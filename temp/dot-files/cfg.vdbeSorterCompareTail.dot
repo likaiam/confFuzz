@@ -1,0 +1,10 @@
+digraph "CFG for 'vdbeSorterCompareTail' function" {
+	label="CFG for 'vdbeSorterCompareTail' function";
+
+	Node0x55c0f7782b60 [shape=record,label="{sqlite3.c:98280:}"];
+	Node0x55c0f7782b60 -> Node0x55c0f77916f0;
+	Node0x55c0f7782b60 -> Node0x55c0f7791740;
+	Node0x55c0f77916f0 [shape=record,label="{sqlite3.c:98287:}"];
+	Node0x55c0f77916f0 -> Node0x55c0f7791740;
+	Node0x55c0f7791740 [shape=record,label="{sqlite3.c:98290:}"];
+}

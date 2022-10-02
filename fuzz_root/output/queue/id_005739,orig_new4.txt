@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v4 INTEGER AS( NOT ( 'v0' = 'x' AND NOT ( 'v1' = 'AIR REG' AND v1 < 10 = v2 ) IS NOT NULL = v2 ) ) , v1 , v3 , v2 ) ; SELECT * FROM v0 AS b , v0 AS a , v0 ON NULL = v0 . v3 NATURAL JOIN v0 ; 

@@ -1,0 +1,16 @@
+digraph "CFG for 'vdbePmaWriterFinish' function" {
+	label="CFG for 'vdbePmaWriterFinish' function";
+
+	Node0x55c0f77c3550 [shape=record,label="{sqlite3.c:99030:}"];
+	Node0x55c0f77c3550 -> Node0x55c0f77ca8e0;
+	Node0x55c0f77c3550 -> Node0x55c0f77ca810;
+	Node0x55c0f77ca8e0 [shape=record,label="{sqlite3.c:99032:}"];
+	Node0x55c0f77ca8e0 -> Node0x55c0f77ca860;
+	Node0x55c0f77ca8e0 -> Node0x55c0f77ca810;
+	Node0x55c0f77ca860 [shape=record,label="{sqlite3.c:99032:}"];
+	Node0x55c0f77ca860 -> Node0x55c0f77ca7c0;
+	Node0x55c0f77ca860 -> Node0x55c0f77ca810;
+	Node0x55c0f77ca7c0 [shape=record,label="{sqlite3.c:99033:}"];
+	Node0x55c0f77ca7c0 -> Node0x55c0f77ca810;
+	Node0x55c0f77ca810 [shape=record,label="{sqlite3.c:99038:}"];
+}

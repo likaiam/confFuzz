@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3BtreePager' function" {
+	label="CFG for 'sqlite3BtreePager' function";
+
+	Node0x55c0f729e8f0 [shape=record,label="{sqlite3.c:76947:}"];
+}

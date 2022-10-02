@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; DELETE FROM v0 WHERE v1 = 'v0' ; CREATE TABLE v4 ( v8 , v11 , v7 , v6 , v5 , v10 , v9 ) ; 

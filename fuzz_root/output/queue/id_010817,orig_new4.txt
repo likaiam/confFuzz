@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v3 , v2 AS( v2 + v2 ) , v1 AS( NOT CASE ( 'v0' = 'v0' AND ( v1 IN ( 0 , 10 ) ) = 10 ) WHEN '199419' THEN 10 ELSE 10 END ) CHECK( v2 ) ) ; SELECT DISTINCT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v2 WHERE v0 . v2 IN ( v0 . v1 , v0 . v1 , v0 . v1 ) ; SELECT sum ( v3 ) , sum ( abs ( v1 ) ) FROM v0 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 CHAR(15) UNIQUE , v1 INT PRIMARY KEY ON CONFLICT REPLACE ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'v0' ) ,( 'AIR REG' ) ,( 'x' ) ,( 'Max Mustermann' ) ; UPDATE v0 SET v1 = randomblob ( 2000 ) ; SELECT v2 FROM v0 WHERE v1 IN ( SELECT DISTINCT v1 LIMIT 10 ) ORDER BY v1 DESC ; 

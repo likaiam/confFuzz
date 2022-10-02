@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 INTEGER CHECK( 'x' != v1 NOT LIKE randomblob ( v1 NOT LIKE v3 ) ) ) ; CREATE VIEW v4 AS SELECT zipfile ( 3 , 0 , NULL , 3 ) UNION ALL SELECT v1 FROM v0 ; SELECT * FROM main . v4 NATURAL JOIN v4 ; UPDATE v0 SET v3 = ( SELECT 1 FROM v4 LEFT JOIN v0 ON typeof ( 'v0' ) NOT LIKE 'SM BOX' ) ; 

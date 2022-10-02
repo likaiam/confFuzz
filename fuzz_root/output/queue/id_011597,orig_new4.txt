@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; DELETE FROM v0 WHERE v3 LIKE 'v0' OR v1 = 'v1' AND v2 = 2 ; UPDATE v0 SET v1 = ( SELECT v0 . v1 AS d FROM v0 ) WHERE v1 LIKE 'MED BAG' OR v2 = 'AIR' AND v1 = 10 ; 

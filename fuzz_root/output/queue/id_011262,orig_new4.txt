@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 INTEGER , v1 AS( v3 + v3 IS NULL < v3 NOT LIKE datetime ( v3 , v3 ) ) , v3 AS( NOT CASE v2 WHEN 'MED BOX' THEN 10 ELSE 2000 END ) CHECK( v2 ) ) ; SELECT DISTINCT v0 . v3 FROM v0 AS a JOIN v0 ON NULL = v0 . v2 WHERE v0 . v1 IN ( v0 . v1 , v0 . v1 , v0 . v2 ) ; SELECT sum ( v1 ) , sum ( length ( v3 ) ) FROM v0 ; 

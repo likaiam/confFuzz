@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3VdbeSwap' function" {
+	label="CFG for 'sqlite3VdbeSwap' function";
+
+	Node0x55c0f8758780 [shape=record,label="{sqlite3.c:80761:}"];
+}

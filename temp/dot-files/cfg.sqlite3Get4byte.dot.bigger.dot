@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3Get4byte' function" {
+	label="CFG for 'sqlite3Get4byte' function";
+
+	Node0x55c0f7653b20 [shape=record,label="{sqlite3.c:34518:}"];
+}

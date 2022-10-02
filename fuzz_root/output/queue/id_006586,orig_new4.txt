@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'DELIVER IN PERSON' ) ,( 'SM CASE' ) ,( 'v1' ) ; SELECT * FROM v0 ORDER BY lead ( v1 ) OVER( ) DESC , lead ( v1 ) OVER( ) DESC NULLS LAST ; INSERT INTO v0 VALUES ( 'x' , 10 ) ,( 'v0' , 1 ) ,( 'testtest' , 10 ) ,( 'x' , 0 ) ; SELECT * FROM v0 LEFT JOIN v0 ON v1 IN ( v1 , v1 ) ; 

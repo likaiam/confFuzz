@@ -1,0 +1,27 @@
+digraph "CFG for 'vdbeCompareMemString' function" {
+	label="CFG for 'vdbeCompareMemString' function";
+
+	Node0x55c0f5c07620 [shape=record,label="{sqlite3.c:84869:}"];
+	Node0x55c0f5c07620 -> Node0x55c0f7f0e1d0;
+	Node0x55c0f5c07620 -> Node0x55c0f7f0e270;
+	Node0x55c0f7f0e1d0 [shape=record,label="{sqlite3.c:84877:}"];
+	Node0x55c0f7f0e1d0 -> Node0x55c0f5c07580;
+	Node0x55c0f7f0e270 [shape=record,label="{sqlite3.c:84879:}"];
+	Node0x55c0f7f0e270 -> Node0x55c0f7f11ad0;
+	Node0x55c0f7f0e270 -> Node0x55c0f7f11bc0;
+	Node0x55c0f7f11bc0 [shape=record,label="{sqlite3.c:84889:}"];
+	Node0x55c0f7f11bc0 -> Node0x55c0f7f11ad0;
+	Node0x55c0f7f11bc0 -> Node0x55c0f7f11b70;
+	Node0x55c0f7f11ad0 [shape=record,label="{sqlite3.c:84890:}"];
+	Node0x55c0f7f11ad0 -> Node0x55c0f7f12240;
+	Node0x55c0f7f11ad0 -> Node0x55c0f7f12290;
+	Node0x55c0f7f12240 [shape=record,label="{sqlite3.c:84890:}"];
+	Node0x55c0f7f12240 -> Node0x55c0f7f12290;
+	Node0x55c0f7f12290 [shape=record,label="{sqlite3.c:84891:}"];
+	Node0x55c0f7f12290 -> Node0x55c0f7f11b20;
+	Node0x55c0f7f11b70 [shape=record,label="{sqlite3.c:84893:}"];
+	Node0x55c0f7f11b70 -> Node0x55c0f7f11b20;
+	Node0x55c0f7f11b20 [shape=record,label="{sqlite3.c:84895:}"];
+	Node0x55c0f7f11b20 -> Node0x55c0f5c07580;
+	Node0x55c0f5c07580 [shape=record,label="{sqlite3.c:84899:}"];
+}

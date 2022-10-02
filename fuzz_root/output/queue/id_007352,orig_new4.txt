@@ -1,0 +1,1 @@
+SELECT - '**%s**' ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; UPDATE v0 SET v1 = ( SELECT 10 FROM v0 ORDER BY SUM ( v1 * ( 10 - v1 ) ) OVER( ORDER BY v1 ) + 1.100000 DESC ) ; UPDATE v0 SET v1 = '' , v1 = 'v0' , v1 = 'v1' WHERE v1 = 's%' ; 

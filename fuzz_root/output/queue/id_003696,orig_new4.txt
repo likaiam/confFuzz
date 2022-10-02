@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; CREATE VIRTUAL TABLE v2 USING rtree ( v4 , v3 , v5 INTEGER AS( 'LG PACK' ) CHECK( 1 ) CHECK( v1 NOT LIKE 'x' ) NOT NULL UNIQUE ) ; SELECT v1 FROM v2 AS a JOIN v0 'testtest' ORDER BY v1 DESC , v1 LIMIT 1 OFFSET 0 ; CREATE INDEX v6 ON v2 ( v3 , v5 ) WHERE v3 != random () ; SELECT SUM ( v1 * ( 10 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

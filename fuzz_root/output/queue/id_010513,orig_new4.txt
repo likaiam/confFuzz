@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( datetime ( DISTINCT v1 ) IS NOT NULL < v1 NOT LIKE julianday ( v1 NOT LIKE datetime ( v1 / 1 , v1 / 3 , v1 ) ) ) ) ; INSERT INTO v0 VALUES ( 10 ) ,( 0 ) ; VACUUM ; VACUUM ; SELECT * FROM v0 LEFT JOIN v0 ON v1 GLOB '23' WHERE v1 = 'v1' OR v1 = v0 . v1 ; 

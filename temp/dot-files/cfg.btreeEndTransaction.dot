@@ -1,0 +1,25 @@
+digraph "CFG for 'btreeEndTransaction' function" {
+	label="CFG for 'btreeEndTransaction' function";
+
+	Node0x55c0f78874d0 [shape=record,label="{sqlite3.c:70963:}"];
+	Node0x55c0f78874d0 -> Node0x55c0f7888e40;
+	Node0x55c0f78874d0 -> Node0x55c0f7888df0;
+	Node0x55c0f7888e40 [shape=record,label="{sqlite3.c:70971:}"];
+	Node0x55c0f7888e40 -> Node0x55c0f7888d50;
+	Node0x55c0f7888e40 -> Node0x55c0f7888df0;
+	Node0x55c0f7888d50 [shape=record,label="{sqlite3.c:70975:}"];
+	Node0x55c0f7888d50 -> Node0x55c0f7888da0;
+	Node0x55c0f7888df0 [shape=record,label="{sqlite3.c:70982:}"];
+	Node0x55c0f7888df0 -> Node0x55c0f5978410;
+	Node0x55c0f7888df0 -> Node0x55c0f7889db0;
+	Node0x55c0f5978410 [shape=record,label="{sqlite3.c:70983:}"];
+	Node0x55c0f5978410 -> Node0x55c0f59783c0;
+	Node0x55c0f5978410 -> Node0x55c0f788a920;
+	Node0x55c0f59783c0 [shape=record,label="{sqlite3.c:70986:}"];
+	Node0x55c0f59783c0 -> Node0x55c0f788a920;
+	Node0x55c0f788a920 [shape=record,label="{sqlite3.c:70988:}"];
+	Node0x55c0f788a920 -> Node0x55c0f7889db0;
+	Node0x55c0f7889db0 [shape=record,label="{sqlite3.c:70992:}"];
+	Node0x55c0f7889db0 -> Node0x55c0f7888da0;
+	Node0x55c0f7888da0 [shape=record,label="{sqlite3.c:70997:}"];
+}

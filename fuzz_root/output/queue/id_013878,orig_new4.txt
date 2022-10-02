@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHAR(15) UNIQUE ON CONFLICT REPLACE , v2 INT AS( NOT CASE WHEN v1 + julianday ( 'Brand#12' ) = NULL THEN 4294967296 ELSE 1 END ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'MED BOX' ) ,( 'x' ) ,( 'v0' ) ,( 'v0' ) ,( '13' ) ; UPDATE v0 SET v1 = randomblob ( 0 ) ; UPDATE v0 SET v1 = 10 WHERE v2 = '1994-01-01' ; UPDATE v0 SET v1 = zeroblob ( 0 ) ; 

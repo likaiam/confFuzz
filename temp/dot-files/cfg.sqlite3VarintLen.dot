@@ -1,0 +1,14 @@
+digraph "CFG for 'sqlite3VarintLen' function" {
+	label="CFG for 'sqlite3VarintLen' function";
+
+	Node0x55c0f7f57080 [shape=record,label="{sqlite3.c:34508:}"];
+	Node0x55c0f7f57080 -> Node0x55c0f7bd5b00;
+	Node0x55c0f7bd5b00 [shape=record,label="{sqlite3.c:34510:}"];
+	Node0x55c0f7bd5b00 -> Node0x55c0f7bd5c00;
+	Node0x55c0f7bd5b00 -> Node0x55c0f7bd59c0;
+	Node0x55c0f7bd5c00 [shape=record,label="{sqlite3.c:34510:}"];
+	Node0x55c0f7bd5c00 -> Node0x55c0f7bd5bb0;
+	Node0x55c0f7bd5bb0 [shape=record,label="{sqlite3.c:34510:}"];
+	Node0x55c0f7bd5bb0 -> Node0x55c0f7bd5b00;
+	Node0x55c0f7bd59c0 [shape=record,label="{sqlite3.c:34511:}"];
+}

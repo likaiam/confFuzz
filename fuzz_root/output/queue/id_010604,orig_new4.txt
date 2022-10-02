@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE datetime ( ( '18' >= 0 IN ( 1 , NULL , v1 , v1 , 2000 ) ) , v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'LG PACK' ) ,( 'v1' ) ,( 'v1' ) ,( 'v0' ) ,( 'v1' ) ; UPDATE v0 SET v1 = zeroblob ( 10 ) ; CREATE INDEX v2 ON v0 ( v1 ) WHERE v1 = v1 IS NOT NULL ; SELECT quote ( v1 ) FROM v0 WHERE v1 LIKE '**%s**' ; 

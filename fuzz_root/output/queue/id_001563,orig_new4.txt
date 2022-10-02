@@ -1,0 +1,1 @@
+SELECT 10 AS x ORDER BY ( SELECT SUM ( DISTINCT v9 * ( 1 - v7 ) ) AS REVENUE , v8 AS alias FROM v6 ) ; CREATE TABLE v10 ( v11 , v12 AS( v13 + v11 ) , v13 AS( v13 ) CHECK( v12 ) ) ; UPDATE v10 SET v11 = NULL ; 

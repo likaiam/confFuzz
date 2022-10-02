@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; INSERT OR IGNORE INTO v0 ( v3 ) VALUES ( 'x' ) ,( 'v0' ) ,( 10 ) ,( 'X' ) ,( 9223372036854775807 ) ,( 10 ) ,( 1 ) ,( 1 ) ,( 10 ) ; UPDATE v0 SET v1 = ( SELECT CAST ( ( SELECT v3 FROM v0 WHERE 10 = v2 ) AS INT ) FROM v0 ) ; 

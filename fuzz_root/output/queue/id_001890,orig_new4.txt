@@ -1,0 +1,1 @@
+SELECT changes () , total_changes () ; SELECT v0 . v2 , 0 , random () % 10 FROM v0 WHERE v3 >= '199419' ORDER BY 1 , v1 ; 

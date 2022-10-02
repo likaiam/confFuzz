@@ -1,0 +1,1 @@
+INSERT INTO v0 VALUES ( 10 , 10 ) ,( 'MED BAG' , 10 ) ,( 'LG PKG' , 127 ) ,( 'Ar' , 10 ) ; ALTER TABLE t2 RENAME TO t3 ; 

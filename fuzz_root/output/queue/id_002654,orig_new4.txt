@@ -1,0 +1,1 @@
+EXECUTE prep_inst ( ) ; INSERT INTO v0 VALUES ( 3 ) ; SELECT count ( CASE WHEN v7 = '' THEN 0 END ) , count ( CASE WHEN v6 = 'v0' THEN 10 END ) FROM v5 ; 

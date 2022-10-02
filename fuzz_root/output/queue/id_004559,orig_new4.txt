@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v1 UNIQUE ON CONFLICT IGNORE GENERATED ALWAYS AS( 3 ) , v3 , v2 ) ; CREATE VIRTUAL TABLE v4 USING rtree ( v7 , v6 , v5 ) ; CREATE TABLE v8 ( v9 , v10 ) ; INSERT INTO v4 VALUES ( 'v0' , 10 ) ,( 'v1' , 10 ) ,( 'x' , 10 ) ,( 'x' , 1 ) ; SELECT v10 , rank () OVER( ORDER BY v10 DESC ) FROM v8 ; 

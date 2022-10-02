@@ -1,0 +1,12 @@
+digraph "CFG for 'jsonNodeSize' function" {
+	label="CFG for 'jsonNodeSize' function";
+
+	Node0x55c0fa836190 [shape=record,label="{sqlite3.c:195372:}"];
+	Node0x55c0fa836190 -> Node0x55c0fa8389d0;
+	Node0x55c0fa836190 -> Node0x55c0fa835660;
+	Node0x55c0fa8389d0 [shape=record,label="{sqlite3.c:195373:}"];
+	Node0x55c0fa8389d0 -> Node0x55c0fa838c80;
+	Node0x55c0fa835660 [shape=record,label="{sqlite3.c:195373:}"];
+	Node0x55c0fa835660 -> Node0x55c0fa838c80;
+	Node0x55c0fa838c80 [shape=record,label="{sqlite3.c:195373:}"];
+}

@@ -1,0 +1,1 @@
+VACUUM file_name ; SELECT v5 , rank () OVER( ORDER BY v6 ) FROM v4 ; 

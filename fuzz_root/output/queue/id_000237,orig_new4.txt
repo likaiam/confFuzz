@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'x' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'Ar' , 1 ) ,( 'v0' , 3 ) ,( '%%green%%' , 10 ) ,( 'v1' , 1 ) ; SELECT SUM ( v3 * ( 3 - v3 ) ) AS REVENUE , v4 AS alias FROM v2 ; 

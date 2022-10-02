@@ -1,0 +1,13 @@
+digraph "CFG for 'unlockBtreeIfUnused' function" {
+	label="CFG for 'unlockBtreeIfUnused' function";
+
+	Node0x55c0f71dccc0 [shape=record,label="{sqlite3.c:70181:}"];
+	Node0x55c0f71dccc0 -> Node0x55c0f71dcf30;
+	Node0x55c0f71dccc0 -> Node0x55c0f71dcee0;
+	Node0x55c0f71dcf30 [shape=record,label="{sqlite3.c:70184:}"];
+	Node0x55c0f71dcf30 -> Node0x55c0f71dce90;
+	Node0x55c0f71dcf30 -> Node0x55c0f71dcee0;
+	Node0x55c0f71dce90 [shape=record,label="{sqlite3.c:70185:}"];
+	Node0x55c0f71dce90 -> Node0x55c0f71dcee0;
+	Node0x55c0f71dcee0 [shape=record,label="{sqlite3.c:70191:}"];
+}

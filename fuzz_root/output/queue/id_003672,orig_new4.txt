@@ -1,0 +1,1 @@
+SELECT DISTINCT min ( 9.100000 ) , total_changes () ; SELECT v1 WHERE v3 >= 'Y' ORDER BY 9223372036854775807 , v5 ; 

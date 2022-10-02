@@ -1,0 +1,17 @@
+digraph "CFG for 'vdbePmaReaderIncrInit' function" {
+	label="CFG for 'vdbePmaReaderIncrInit' function";
+
+	Node0x55c0f7849450 [shape=record,label="{sqlite3.c:99800:}"];
+	Node0x55c0f7849450 -> Node0x55c0f78503c0;
+	Node0x55c0f7849450 -> Node0x55c0f7850410;
+	Node0x55c0f78503c0 [shape=record,label="{sqlite3.c:99806:}"];
+	Node0x55c0f78503c0 -> Node0x55c0f7850710;
+	Node0x55c0f78503c0 -> Node0x55c0f78507b0;
+	Node0x55c0f7850710 [shape=record,label="{sqlite3.c:99807:}"];
+	Node0x55c0f7850710 -> Node0x55c0f7850760;
+	Node0x55c0f78507b0 [shape=record,label="{sqlite3.c:99812:}"];
+	Node0x55c0f78507b0 -> Node0x55c0f7850760;
+	Node0x55c0f7850760 [shape=record,label="{sqlite3.c:99814:}"];
+	Node0x55c0f7850760 -> Node0x55c0f7850410;
+	Node0x55c0f7850410 [shape=record,label="{sqlite3.c:99815:}"];
+}

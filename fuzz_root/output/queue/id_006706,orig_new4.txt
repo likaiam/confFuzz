@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v3 , v2 AS( v1 + v1 ) , v1 AS( NOT CASE v2 WHEN 'LG PKG' THEN 127 ELSE 10 END ) CHECK( v1 ) ) ; SELECT DISTINCT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v3 IN ( v0 . v1 , v0 . v3 , v0 . v1 ) ; SELECT sum ( v3 ) , sum ( length ( v3 ) ) FROM v0 ; 

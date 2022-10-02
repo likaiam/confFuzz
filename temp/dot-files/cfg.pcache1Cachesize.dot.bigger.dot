@@ -1,0 +1,15 @@
+digraph "CFG for 'pcache1Cachesize' function" {
+	label="CFG for 'pcache1Cachesize' function";
+
+	Node0x55c0fa942130 [shape=record,label="{sqlite3.c:52719:}"];
+	Node0x55c0fa942130 -> Node0x55c0fa949a10;
+	Node0x55c0fa942130 -> Node0x55c0fa949a60;
+	Node0x55c0fa949a10 [shape=record,label="{sqlite3.c:52724:}"];
+	Node0x55c0fa949a10 -> Node0x55c0fa94a670;
+	Node0x55c0fa949a10 -> Node0x55c0fa94a6c0;
+	Node0x55c0fa94a670 [shape=record,label="{sqlite3.c:52728:}"];
+	Node0x55c0fa94a670 -> Node0x55c0fa94a6c0;
+	Node0x55c0fa94a6c0 [shape=record,label="{sqlite3.c:52730:}"];
+	Node0x55c0fa94a6c0 -> Node0x55c0fa949a60;
+	Node0x55c0fa949a60 [shape=record,label="{sqlite3.c:52737:}"];
+}

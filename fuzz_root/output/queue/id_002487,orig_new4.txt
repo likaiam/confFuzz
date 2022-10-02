@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT , v2 INT ) ; INSERT INTO v0 ( v1 ) VALUES ( 9 ) ,( 0 ) ,( 10 ) ,( 8 ) ,( 1 ) ; SELECT v1 / 10 , v2 < 127 / 10 FROM v0 ; 

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v1 ) VALUES ( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ; UPDATE v0 SET v1 = ( SELECT zipfile ( 3 , 1 , 2 , 3 , 0 ) IS NOT NULL FROM v0 AS x1 , v0 AS x2 ) ; 

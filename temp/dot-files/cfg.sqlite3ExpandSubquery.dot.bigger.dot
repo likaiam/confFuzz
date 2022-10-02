@@ -1,0 +1,26 @@
+digraph "CFG for 'sqlite3ExpandSubquery' function" {
+	label="CFG for 'sqlite3ExpandSubquery' function";
+
+	Node0x55c0f8f70590 [shape=record,label="{sqlite3.c:141032:}"];
+	Node0x55c0f8f70590 -> Node0x55c0f8f75420;
+	Node0x55c0f8f70590 -> Node0x55c0f8f75470;
+	Node0x55c0f8f75420 [shape=record,label="{sqlite3.c:141038:}"];
+	Node0x55c0f8f75420 -> Node0x55c0f8f70710;
+	Node0x55c0f8f75470 [shape=record,label="{sqlite3.c:141039:}"];
+	Node0x55c0f8f75470 -> Node0x55c0f8f75bb0;
+	Node0x55c0f8f75470 -> Node0x55c0f8f75c50;
+	Node0x55c0f8f75bb0 [shape=record,label="{sqlite3.c:141041:}"];
+	Node0x55c0f8f75bb0 -> Node0x55c0f8f75c00;
+	Node0x55c0f8f75c50 [shape=record,label="{sqlite3.c:141043:}"];
+	Node0x55c0f8f75c50 -> Node0x55c0f8f75c00;
+	Node0x55c0f8f75c00 [shape=record,label="{sqlite3.c:141045:}"];
+	Node0x55c0f8f75c00 -> Node0x55c0f8f771d0;
+	Node0x55c0f8f771d0 [shape=record,label="{sqlite3.c:141045:}"];
+	Node0x55c0f8f771d0 -> Node0x55c0f8f77610;
+	Node0x55c0f8f771d0 -> Node0x55c0f8f77330;
+	Node0x55c0f8f77610 [shape=record,label="{sqlite3.c:141045:}"];
+	Node0x55c0f8f77610 -> Node0x55c0f8f771d0;
+	Node0x55c0f8f77330 [shape=record,label="{sqlite3.c:141046:}"];
+	Node0x55c0f8f77330 -> Node0x55c0f8f70710;
+	Node0x55c0f8f70710 [shape=record,label="{sqlite3.c:141056:}"];
+}

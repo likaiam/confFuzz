@@ -1,0 +1,1 @@
+SELECT count ( * ) OVER( ORDER BY 10 , 42 ) ; INSERT INTO v0 ( v1 ) VALUES ( 2147483647 ) ,( 1 ) ; UPDATE v2 SET v3 = ( SELECT 1 FROM v4 ) ; 

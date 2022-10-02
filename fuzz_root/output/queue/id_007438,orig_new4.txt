@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v1' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v0' , 2 ) ,( 'LG PKG' , 10 ) ,( 'v1' , 1 ) ,( 'x' , 10 ) ; SELECT count ( '1995-03-15' ) OVER( ) FROM v0 , v2 LEFT JOIN v2 , v2 ; 

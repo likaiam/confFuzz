@@ -1,0 +1,5 @@
+digraph "CFG for 'acttab_free' function" {
+	label="CFG for 'acttab_free' function";
+
+	Node0x56256527aaa0 [shape=record,label="{lemon.c:615:}"];
+}

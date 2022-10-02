@@ -1,0 +1,1 @@
+SELECT count ( 'v1' ) OVER( ORDER BY 0 , 1 ) ORDER BY sum ( v1 ) OVER( ORDER BY sum () OVER( ) ) DESC ; INSERT INTO v2 ( v3 ) VALUES ( 10 ) ,( 0 ) ; UPDATE v4 SET v5 = ( SELECT 10 FROM v6 ) ; 

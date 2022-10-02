@@ -1,0 +1,1 @@
+SELECT tointeger ( ) ; SELECT - 'v0' ; 

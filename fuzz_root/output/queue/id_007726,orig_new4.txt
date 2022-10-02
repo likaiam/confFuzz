@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 3 ) ,( 'x' ) ,( '1995-03-15' ) ,( 'x' ) ,( '18' ) ; UPDATE v0 SET v1 = - v1 * 9223372036854775807 ; SELECT quote ( add_t ( 2.100000 , 2.100000 ) ) GROUP BY v1 HAVING SUM ( v1 ) > 1 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

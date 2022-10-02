@@ -1,0 +1,17 @@
+digraph "CFG for 'btreeHeapInsert' function" {
+	label="CFG for 'btreeHeapInsert' function";
+
+	Node0x55c0f8432df0 [shape=record,label="{sqlite3.c:77145:}"];
+	Node0x55c0f8432df0 -> Node0x55c0f845d250;
+	Node0x55c0f845d250 [shape=record,label="{sqlite3.c:77148:}"];
+	Node0x55c0f845d250 -> Node0x55c0f845d480;
+	Node0x55c0f845d250 -> Node0x55c0f845d430;
+	Node0x55c0f845d480 [shape=record,label="{sqlite3.c:77148:}"];
+	Node0x55c0f845d480 -> Node0x55c0f845d430;
+	Node0x55c0f845d430 [shape=record,label="{sqlite3.c:77148:}"];
+	Node0x55c0f845d430 -> Node0x55c0f845e120;
+	Node0x55c0f845d430 -> Node0x55c0f845d3b0;
+	Node0x55c0f845e120 [shape=record,label="{sqlite3.c:77149:}"];
+	Node0x55c0f845e120 -> Node0x55c0f845d250;
+	Node0x55c0f845d3b0 [shape=record,label="{sqlite3.c:77154:}"];
+}

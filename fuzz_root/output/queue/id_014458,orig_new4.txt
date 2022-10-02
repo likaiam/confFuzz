@@ -1,0 +1,1 @@
+PRAGMA max_page_count=2; ; CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v2 UNIQUE AS( v2 + v1 ) CHECK( 1 ) CHECK( v2 NOT LIKE '1995-09-01' ) NOT NULL UNIQUE , v3 AS( 'x' ) ) ; INSERT INTO v0 ( v3 ) VALUES ( 10 ) ,( 0 ) ; UPDATE v0 SET v2 = randomblob ( DISTINCT 10 ) ; UPDATE v0 SET v2 = ( SELECT 10 FROM v0 ORDER BY v2 , v1 , v2 , v3 DESC ) ; 

@@ -1,0 +1,1 @@
+PRAGMA journal_size_limit=10; ; CREATE TABLE v0 ( v3 , v2 AS( v3 + v3 >= x ( x () , '**%s**' ) ) , v1 AS( v2 ) CHECK( v1 ) ) ; UPDATE v0 SET v2 = NULL ; 

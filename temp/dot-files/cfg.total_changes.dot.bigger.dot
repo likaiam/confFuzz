@@ -1,0 +1,5 @@
+digraph "CFG for 'total_changes' function" {
+	label="CFG for 'total_changes' function";
+
+	Node0x55c0f87f90e0 [shape=record,label="{sqlite3.c:122881:}"];
+}

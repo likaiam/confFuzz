@@ -1,0 +1,14 @@
+digraph "CFG for 'vdbeSorterRecordFree' function" {
+	label="CFG for 'vdbeSorterRecordFree' function";
+
+	Node0x55c0f7a2d650 [shape=record,label="{sqlite3.c:98556:}"];
+	Node0x55c0f7a2d650 -> Node0x55c0f7a31870;
+	Node0x55c0f7a31870 [shape=record,label="{sqlite3.c:98559:}"];
+	Node0x55c0f7a31870 -> Node0x55c0f7a31a20;
+	Node0x55c0f7a31870 -> Node0x55c0f7a316c0;
+	Node0x55c0f7a31a20 [shape=record,label="{sqlite3.c:98560:}"];
+	Node0x55c0f7a31a20 -> Node0x55c0f7a31990;
+	Node0x55c0f7a31990 [shape=record,label="{sqlite3.c:98559:}"];
+	Node0x55c0f7a31990 -> Node0x55c0f7a31870;
+	Node0x55c0f7a316c0 [shape=record,label="{sqlite3.c:98563:}"];
+}

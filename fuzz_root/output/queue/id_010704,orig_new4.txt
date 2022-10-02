@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT , v2 INT ) ; INSERT INTO v0 ( v1 , v2 ) VALUES ( 0 , 9 ) ; SELECT v1 / - 1 = v0 . v1 , AVG ( 10 ) OVER( ORDER BY v2 ) / 1 FROM v0 ; 

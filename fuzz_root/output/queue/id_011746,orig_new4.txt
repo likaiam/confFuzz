@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'X' ) ,( 'b' ) ,( 2 ) ,( 'v1' ) ,( 1 ) ,( 2 ) ,( 'UTF-16le' ) ,( 10 ) ,( 10 ) ; INSERT INTO v0 SELECT upper ( v1 ) FROM v0 ; ALTER TABLE main . v0 ADD p INTEGER NOT NULL ON CONFLICT REPLACE GENERATED ALWAYS AS( 1 ) ; SELECT v1 , v1 FROM v0 WHERE v1 IS NOT NULL ; 

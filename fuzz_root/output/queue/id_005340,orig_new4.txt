@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 UNIQUE ON CONFLICT IGNORE , v3 INT CHECK( 1 ) GENERATED ALWAYS AS( 10 ) , v2 AS( typeof ( 'x' ) ) ) ; INSERT INTO v0 VALUES ( 'Felix Fürstenberg' ) ,( 'v1' ) ,( '%%BRASS' ) ; CREATE TABLE v4 ( v5 , v6 ) ; INSERT INTO v0 SELECT upper ( v6 ) FROM v4 ; SELECT v5 , SUM ( v5 ) FROM v4 ; 

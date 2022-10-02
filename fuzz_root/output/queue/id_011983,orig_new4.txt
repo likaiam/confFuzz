@@ -1,0 +1,1 @@
+CREATE VIEW v0 ( v8 , v15 , v7 , v21 , v24 , v16 , v4 , v10 , v22 , v6 , v17 , v27 , v11 , v20 , v30 , v32 , v31 , v3 , v26 , v18 , v25 , v29 , v9 , v5 , v19 , v13 , v23 , v1 , v14 , v28 , v2 , v12 ) AS SELECT NULL ; SELECT v16 AS AVG_YEARLY , * , * , v26 FROM v0 RIGHT OUTER JOIN v0 ON v32 = v12 NATURAL JOIN v0 ; 

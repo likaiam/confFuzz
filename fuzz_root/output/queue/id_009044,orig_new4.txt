@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT PRIMARY KEY CHECK( v1 NOT LIKE datetime ( ( 'forest%%' >= 10 IN ( 10 , NULL , v1 , v1 , 10 ) ) , v1 ) ) ) ; INSERT INTO v0 VALUES ( 1 ) ; VACUUM ; CREATE TABLE v2 ( v3 INTEGER CHECK( printf ( random () , 8 ) ) ) ; VACUUM ; 

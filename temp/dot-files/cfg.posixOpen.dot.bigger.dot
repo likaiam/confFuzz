@@ -1,0 +1,5 @@
+digraph "CFG for 'posixOpen' function" {
+	label="CFG for 'posixOpen' function";
+
+	Node0x55c0f5727500 [shape=record,label="{sqlite3.c:35786:}"];
+}

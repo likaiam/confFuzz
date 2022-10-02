@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v0' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v1' , 1 ) ,( 'v0' , 1 ) ,( 'v0' , 10 ) ,( '30' , 10 ) ; SELECT DISTINCT ( SELECT DISTINCT v1 , v1 , v4 , v1 , v3 , v4 , v1 , v1 ) ; 

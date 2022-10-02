@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY CHECK( v1 MATCH NOT ( 'testtest' = 'v0' AND NOT random () != random () ) ) ) ; BEGIN EXCLUSIVE ; CREATE INDEX v2 ON v0 ( v1 , v1 ) WHERE v1 != zeroblob ( 2 ) ; INSERT INTO v0 ( v1 ) VALUES ( 10.100000 ) ,( 1 ) ,( 2 ) ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 VARCHAR(1) PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 'DELIVER IN PERSON' ) ,( 'x' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'LG CASEaaaaaaaaaaaa' , 10 ) ,( 'x' , 16 ) ,( '17' , 1 ) ,( 'v0' , 2 ) ; SELECT v3 , quote ( substr ( v3 , 3 , 0 ) ) FROM v2 ; 

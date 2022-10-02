@@ -1,0 +1,5 @@
+digraph "CFG for 'zipfileRollback' function" {
+	label="CFG for 'zipfileRollback' function";
+
+	Node0x5602763b3250 [shape=record,label="{shell.c:8533:}"];
+}

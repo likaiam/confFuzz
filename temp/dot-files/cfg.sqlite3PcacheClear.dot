@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3PcacheClear' function" {
+	label="CFG for 'sqlite3PcacheClear' function";
+
+	Node0x55c0f57ea320 [shape=record,label="{sqlite3.c:51700:}"];
+}

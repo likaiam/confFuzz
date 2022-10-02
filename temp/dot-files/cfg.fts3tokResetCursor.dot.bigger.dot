@@ -1,0 +1,10 @@
+digraph "CFG for 'fts3tokResetCursor' function" {
+	label="CFG for 'fts3tokResetCursor' function";
+
+	Node0x55c0fb3e5790 [shape=record,label="{sqlite3.c:186476:}"];
+	Node0x55c0fb3e5790 -> Node0x55c0fb3e81a0;
+	Node0x55c0fb3e5790 -> Node0x55c0fb3e81f0;
+	Node0x55c0fb3e81a0 [shape=record,label="{sqlite3.c:186478:}"];
+	Node0x55c0fb3e81a0 -> Node0x55c0fb3e81f0;
+	Node0x55c0fb3e81f0 [shape=record,label="{sqlite3.c:186482:}"];
+}

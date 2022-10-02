@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( q ) ; INSERT INTO v0 VALUES ( 'Max Mustermann' ) ,( 'x' ) ,( 'v0' ) ; CREATE TABLE v1 ( v3 , v2 ) ; INSERT INTO v1 VALUES ( 'v0' , 12 ) ,( 'v1' , 10 ) ,( 'x' , 10 ) ,( 'v1' , 1 ) ; SELECT v3 , count ( * ) OVER( ORDER BY v2 ) FROM v1 ; 

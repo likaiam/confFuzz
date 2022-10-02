@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 CHAR(15) UNIQUE ON CONFLICT ABORT , v1 FLOAT ) ; INSERT INTO v0 ( v2 ) VALUES ( 'LG PACK' ) ,( 'Y' ) ,( 2 ) ,( 'a' ) ,( 10 ) ,( 0 ) ; CREATE TABLE v3 ( v4 INTEGER PRIMARY KEY , v5 INT ) ; CREATE VIEW v6 AS SELECT 10.100000 * unlikely ( v2 ) FROM v0 GROUP BY v1 , v2 , v2 , v1 , v1 ; SELECT * FROM v6 LEFT JOIN v3 ON v4 GLOB 'x' WHERE v5 = v5 AND v5 = 3 ; 

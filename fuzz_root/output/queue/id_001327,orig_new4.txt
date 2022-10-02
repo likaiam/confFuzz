@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT , v2 INT ) ; INSERT INTO v0 ( v2 , v2 ) VALUES ( 16 , 2 ) ; SELECT v2 >= 127 , rank () OVER( ORDER BY v1 DESC ) FROM v0 ; 

@@ -1,0 +1,5 @@
+digraph "CFG for 'statRowid' function" {
+	label="CFG for 'statRowid' function";
+
+	Node0x55c0f8c5b1c0 [shape=record,label="{sqlite3.c:211753:}"];
+}

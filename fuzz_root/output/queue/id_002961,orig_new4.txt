@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'b' ) ,( '1995-03-15' ) ; CREATE TABLE v2 ( v4 VARCHAR(200) , v3 ) ; INSERT INTO v2 VALUES ( 'LG PACK' , 3 ) ,( 'x' , 2 ) ,( '199419' , 1 ) ,( 'v1' , 2 ) ; SELECT SUM ( DISTINCT v1 * ( 10 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 GROUP BY v1 HAVING v1 > 'v1' ; 

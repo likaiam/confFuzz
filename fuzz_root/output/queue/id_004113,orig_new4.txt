@@ -1,0 +1,1 @@
+PRAGMA secure_delete=false; ; CREATE TABLE v0 ( v2 , v1 INTEGER AS( 'x' ) CHECK( 10 ) CHECK( max ( v2 , v2 ) > 10 NOT LIKE 'v0' ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 0 ) ; DELETE FROM v0 WHERE v2 BETWEEN 0 AND 2000 ; VACUUM ; 

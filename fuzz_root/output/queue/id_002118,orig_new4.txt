@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; CREATE TABLE v4 ( v6 , v5 ) ; INSERT INTO v0 ( v3 ) VALUES ( 2000 ) ,( 10 ) ; UPDATE v4 SET v6 = ( SELECT 10 FROM v4 LEFT JOIN v0 ON v2 = 1 OR v1 = 10 ) ; 

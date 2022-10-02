@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'a' ) ,( 'v1' ) ,( 'MED P' ) ; CREATE TABLE v2 ( v3 AS( NOT CASE v1 WHEN 'Y' THEN 10 ELSE 0 END ) CHECK( v1 ) , v5 , v4 UNIQUE ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'v1' , 3 ) ,( 'v1' , 10 ) ,( 'X' , 0 ) ; SELECT CASE WHEN v1 NOT IN ( 10 , 9223372036854775807 , 10 ) THEN 'v0' ELSE 'v0' END FROM v0 ; 

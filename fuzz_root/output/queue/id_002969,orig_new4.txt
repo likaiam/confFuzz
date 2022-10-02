@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'Brand#34' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'MED P' , 3 ) ,( 'v0' , 3 ) ,( 'v0' , 2 ) ; SELECT v1 FROM v0 NATURAL JOIN v0 ; 

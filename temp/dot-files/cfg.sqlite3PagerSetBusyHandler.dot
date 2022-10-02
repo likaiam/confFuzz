@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3PagerSetBusyHandler' function" {
+	label="CFG for 'sqlite3PagerSetBusyHandler' function";
+
+	Node0x55c0f764a550 [shape=record,label="{sqlite3.c:57511:}"];
+}

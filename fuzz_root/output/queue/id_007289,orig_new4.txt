@@ -1,0 +1,1 @@
+SELECT - 'x' ; CREATE TABLE v0 ( v1 CHAR(15) PRIMARY KEY ) ; SELECT nth_value ( v1 , 3 ) OVER( ORDER BY c ) FROM v0 WHERE v1 LIKE 'Felix Fürstenberg' OR v1 = 'x' ; SELECT quote ( v1 ) FROM v0 WHERE v1 LIKE 'v1' ORDER BY v1 ; 

@@ -1,0 +1,1 @@
+ATTACH 'v0' AS main ; CREATE TABLE main . v0 ( v3 , v1 , v2 ) ; CREATE TEMP TRIGGER tmp AFTER INSERT ON t1 BEGIN SELECT execsql ( v1 ) FROM v0 WHERE v1 = 10 ; END ; DETACH temp ; DROP TRIGGER tmp ; 

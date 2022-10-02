@@ -1,0 +1,1 @@
+SELECT - 'v0' ; CREATE TABLE v0 ( v1 CHAR(15) PRIMARY KEY ) ; PRAGMA auto_vacuum=0; ; SELECT quote ( v1 ) FROM v0 WHERE v1 LIKE 'v0' ORDER BY v1 ; 

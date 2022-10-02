@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v1' ) ,( 's%' ) ; SELECT v1 FROM v0 ORDER BY v1 DESC NULLS FIRST , v1 LIMIT 3 OFFSET 10 ; CREATE INDEX v2 ON v0 ( v1 , v1 ) WHERE v1 != random () ; SELECT SUM ( v1 * ( 10 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

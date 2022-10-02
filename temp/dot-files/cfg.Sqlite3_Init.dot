@@ -1,0 +1,10 @@
+digraph "CFG for 'Sqlite3_Init' function" {
+	label="CFG for 'Sqlite3_Init' function";
+
+	Node0x55a73581f610 [shape=record,label="{tclsqlite.c:3917:}"];
+	Node0x55a73581f610 -> Node0x55a73586f810;
+	Node0x55a73581f610 -> Node0x55a735870c60;
+	Node0x55a73586f810 [shape=record,label="{tclsqlite.c:3920:}"];
+	Node0x55a73586f810 -> Node0x55a735870c60;
+	Node0x55a735870c60 [shape=record,label="{tclsqlite.c:3929:}"];
+}

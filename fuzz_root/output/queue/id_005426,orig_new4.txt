@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'x' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 CHAR(25) ) ; INSERT INTO v2 VALUES ( 'MED BAG' , 1 ) ,( 'v1' , 1 ) ,( 'x' , 1 ) ,( 'x' , 1 ) ; SELECT 'v0' AS a , zeroblob ( 0 ) AS b FROM v0 ; 

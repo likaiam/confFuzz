@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 3 ) ; DELETE FROM v0 WHERE ( SELECT * FROM v0 WHERE ( v1 ) <= 'x' GROUP BY v3 ) = 'x' OR v2 = 'v0' ; 

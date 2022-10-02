@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER UNIQUE ON CONFLICT REPLACE CHECK( datetime ( - - v1 IS NOT NULL , randomblob ( ( v1 ) ) ) IS NOT NULL < v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) ) ; INSERT INTO v0 VALUES ( 10 ) ; CREATE INDEX v2 ON v0 ( v1 ) WHERE datetime ( ( 'PROMO%%' >= 0 IN ( 3 , NULL , 9223372036854775807 , v1 , 10 ) ) , v1 ) IS NOT NULL ; VACUUM ; 

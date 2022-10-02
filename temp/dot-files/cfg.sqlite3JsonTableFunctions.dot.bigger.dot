@@ -1,0 +1,19 @@
+digraph "CFG for 'sqlite3JsonTableFunctions' function" {
+	label="CFG for 'sqlite3JsonTableFunctions' function";
+
+	Node0x55c0f8c5c300 [shape=record,label="{sqlite3.c:197692:}"];
+	Node0x55c0f8c5c300 -> Node0x55c0f720f7e0;
+	Node0x55c0f720f7e0 [shape=record,label="{sqlite3.c:197702:}"];
+	Node0x55c0f720f7e0 -> Node0x55c0f7210dc0;
+	Node0x55c0f720f7e0 -> Node0x55c0f7210d70;
+	Node0x55c0f7210dc0 [shape=record,label="{sqlite3.c:197702:}"];
+	Node0x55c0f7210dc0 -> Node0x55c0f7210d70;
+	Node0x55c0f7210d70 [shape=record,label="{sqlite3.c:197702:}"];
+	Node0x55c0f7210d70 -> Node0x55c0f7210cf0;
+	Node0x55c0f7210d70 -> Node0x55c0f6e0aba0;
+	Node0x55c0f7210cf0 [shape=record,label="{sqlite3.c:197703:}"];
+	Node0x55c0f7210cf0 -> Node0x55c0f7210c60;
+	Node0x55c0f7210c60 [shape=record,label="{sqlite3.c:197702:}"];
+	Node0x55c0f7210c60 -> Node0x55c0f720f7e0;
+	Node0x55c0f6e0aba0 [shape=record,label="{sqlite3.c:197705:}"];
+}

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT , v2 INT ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 2 ) ,( 1 ) ; CREATE TABLE v3 ( v4 INTEGER PRIMARY KEY , v5 INT ) ; INSERT INTO v0 SELECT * FROM v0 ; SELECT * FROM v0 RIGHT OUTER JOIN v3 ON v5 = v5 WHERE v5 + changes () = v4 / 2000 OR v4 = v0 . v2 ; 

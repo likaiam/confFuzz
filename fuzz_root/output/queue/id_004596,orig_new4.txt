@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; CREATE VIEW v4 AS SELECT nth_value ( v7 , 10 ) OVER( ORDER BY v8 ) FROM v4 ; UPDATE v4 SET v9 = ( SELECT v3 + zipfile ( 'v0' ) OVER( ) AS y FROM v4 , v0 ) ; 

@@ -1,0 +1,29 @@
+digraph "CFG for 'btreeHeapPull' function" {
+	label="CFG for 'btreeHeapPull' function";
+
+	Node0x55c0f843c5d0 [shape=record,label="{sqlite3.c:77155:}"];
+	Node0x55c0f843c5d0 -> Node0x55c0f8460610;
+	Node0x55c0f843c5d0 -> Node0x55c0f8460660;
+	Node0x55c0f8460610 [shape=record,label="{sqlite3.c:77157:}"];
+	Node0x55c0f8460610 -> Node0x55c0f843c750;
+	Node0x55c0f8460660 [shape=record,label="{sqlite3.c:77158:}"];
+	Node0x55c0f8460660 -> Node0x55c0f8461d00;
+	Node0x55c0f8461d00 [shape=record,label="{sqlite3.c:77163:}"];
+	Node0x55c0f8461d00 -> Node0x55c0f8462470;
+	Node0x55c0f8461d00 -> Node0x55c0f8461e60;
+	Node0x55c0f8462470 [shape=record,label="{sqlite3.c:77164:}"];
+	Node0x55c0f8462470 -> Node0x55c0f8462680;
+	Node0x55c0f8462470 -> Node0x55c0f84626d0;
+	Node0x55c0f8462680 [shape=record,label="{sqlite3.c:77164:}"];
+	Node0x55c0f8462680 -> Node0x55c0f84626d0;
+	Node0x55c0f84626d0 [shape=record,label="{sqlite3.c:77165:}"];
+	Node0x55c0f84626d0 -> Node0x55c0f84631f0;
+	Node0x55c0f84626d0 -> Node0x55c0f8463240;
+	Node0x55c0f84631f0 [shape=record,label="{sqlite3.c:77165:}"];
+	Node0x55c0f84631f0 -> Node0x55c0f8461e60;
+	Node0x55c0f8463240 [shape=record,label="{sqlite3.c:77166:}"];
+	Node0x55c0f8463240 -> Node0x55c0f8461d00;
+	Node0x55c0f8461e60 [shape=record,label="{sqlite3.c:77171:}"];
+	Node0x55c0f8461e60 -> Node0x55c0f843c750;
+	Node0x55c0f843c750 [shape=record,label="{sqlite3.c:77172:}"];
+}

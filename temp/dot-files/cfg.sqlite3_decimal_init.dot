@@ -1,0 +1,29 @@
+digraph "CFG for 'sqlite3_decimal_init' function" {
+	label="CFG for 'sqlite3_decimal_init' function";
+
+	Node0x5602762ff060 [shape=record,label="{shell.c:5127:}"];
+	Node0x5602762ff060 -> Node0x5602763004a0;
+	Node0x5602763004a0 [shape=record,label="{shell.c:5148:}"];
+	Node0x5602763004a0 -> Node0x5602762b2fa0;
+	Node0x5602763004a0 -> Node0x5602762b2f50;
+	Node0x5602762b2fa0 [shape=record,label="{shell.c:5148:}"];
+	Node0x5602762b2fa0 -> Node0x5602762b2f50;
+	Node0x5602762b2f50 [shape=record,label="{shell.c:5148:}"];
+	Node0x5602762b2f50 -> Node0x560276320a80;
+	Node0x5602762b2f50 -> Node0x5602763006d0;
+	Node0x560276320a80 [shape=record,label="{shell.c:5149:}"];
+	Node0x560276320a80 -> Node0x560276300c00;
+	Node0x560276300c00 [shape=record,label="{shell.c:5148:}"];
+	Node0x560276300c00 -> Node0x5602763004a0;
+	Node0x5602763006d0 [shape=record,label="{shell.c:5153:}"];
+	Node0x5602763006d0 -> Node0x560276327330;
+	Node0x5602763006d0 -> Node0x5602763288e0;
+	Node0x560276327330 [shape=record,label="{shell.c:5154:}"];
+	Node0x560276327330 -> Node0x5602763288e0;
+	Node0x5602763288e0 [shape=record,label="{shell.c:5159:}"];
+	Node0x5602763288e0 -> Node0x5602762fedc0;
+	Node0x5602763288e0 -> Node0x5602762fee10;
+	Node0x5602762fedc0 [shape=record,label="{shell.c:5160:}"];
+	Node0x5602762fedc0 -> Node0x5602762fee10;
+	Node0x5602762fee10 [shape=record,label="{shell.c:5163:}"];
+}

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v2 , v3 ) ; CREATE VIEW v4 ( v8 , v5 , v6 , v7 ) AS SELECT '**%s**' , 'Ar' , '' , 'v0' FROM v0 ; CREATE VIEW v9 AS SELECT v3 / 1 , v2 / 1 FROM v0 ; ALTER TABLE v0 RENAME TO v2 ; SELECT v15 , v14 FROM v9 WHERE v13 IS NOT NULL ; 

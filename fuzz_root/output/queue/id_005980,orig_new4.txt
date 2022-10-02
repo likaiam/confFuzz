@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( '23' ) ,( 'x' ) ,( 'MED PACK' ) ,( '1995-09-01' ) ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

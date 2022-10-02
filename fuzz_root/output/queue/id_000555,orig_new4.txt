@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 , v2 INTEGER AS( 'v1' ) CHECK( v1 != 127 ) CHECK( v2 NOT LIKE '%%BRASS' ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 1 ) ; SELECT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v1 IN ( v0 . v1 , 0 , v0 . v1 ) ; 

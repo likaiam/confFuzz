@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHAR(100) CHECK( v1 != substr ( ( v1 * 3 ) > v1 , 2 ) NOT LIKE randomblob ( ( v1 ) ) ) ) ; INSERT INTO v0 VALUES ( 'x' ) ,( '1995-09-01' ) ,( 'LG CASEaaaaaaaaaaaa' ) ; CREATE VIEW v2 AS SELECT 2.100000 * sum ( v1 ) FROM v0 UNION ALL SELECT * FROM v0 ; INSERT INTO v0 VALUES ( '23' ) ,( 'c' ) ,( 0 ) ; SELECT * FROM v2 UNION SELECT * FROM v2 ; 

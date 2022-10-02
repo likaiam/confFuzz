@@ -1,0 +1,1 @@
+SELECT 'SM CASE' ; SELECT v3 >= 'v1' FROM v2 ; 

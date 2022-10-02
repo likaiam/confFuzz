@@ -1,0 +1,1 @@
+SELECT count ( 'v0' ) OVER( ORDER BY 0 , 1 ) AS alias ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 10 ) ; UPDATE v2 SET v3 = ( SELECT 9223372036854775808 FROM v4 ) ; 

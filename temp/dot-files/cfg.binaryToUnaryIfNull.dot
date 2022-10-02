@@ -1,0 +1,19 @@
+digraph "CFG for 'binaryToUnaryIfNull' function" {
+	label="CFG for 'binaryToUnaryIfNull' function";
+
+	Node0x55c0fa0d9da0 [shape=record,label="{sqlite3.c:163347:}"];
+	Node0x55c0fa0d9da0 -> Node0x55c0fa0ddd50;
+	Node0x55c0fa0d9da0 -> Node0x55c0fa0ddc00;
+	Node0x55c0fa0ddd50 [shape=record,label="{sqlite3.c:163349:}"];
+	Node0x55c0fa0ddd50 -> Node0x55c0fa0ddcd0;
+	Node0x55c0fa0ddd50 -> Node0x55c0fa0ddc00;
+	Node0x55c0fa0ddcd0 [shape=record,label="{sqlite3.c:163349:}"];
+	Node0x55c0fa0ddcd0 -> Node0x55c0fa0ddc50;
+	Node0x55c0fa0ddcd0 -> Node0x55c0fa0ddc00;
+	Node0x55c0fa0ddc50 [shape=record,label="{sqlite3.c:163349:}"];
+	Node0x55c0fa0ddc50 -> Node0x55c0fa0ddc00;
+	Node0x55c0fa0ddc50 -> Node0x55c0fa0ddbb0;
+	Node0x55c0fa0ddbb0 [shape=record,label="{sqlite3.c:163350:}"];
+	Node0x55c0fa0ddbb0 -> Node0x55c0fa0ddc00;
+	Node0x55c0fa0ddc00 [shape=record,label="{sqlite3.c:163354:}"];
+}

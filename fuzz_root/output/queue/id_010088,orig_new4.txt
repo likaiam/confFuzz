@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 INT , v1 INT ) ; INSERT INTO v0 ( v2 , v2 ) VALUES ( 10 , 10 ) ; SELECT ( SELECT count ( v1 = v1 AND v1 = 10 ) ) , rank () OVER( ) FROM v0 ; 

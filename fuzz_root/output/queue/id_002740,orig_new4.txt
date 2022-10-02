@@ -1,0 +1,1 @@
+SELECT NULL INTERSECT SELECT nth_value ( v1 , 10 ) OVER( ORDER BY v3 ) ORDER BY s () OVER x ; SELECT * FROM v4 , v5 WHERE v6 = v8 AND v7 = 1 ; 

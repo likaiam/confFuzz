@@ -1,0 +1,1 @@
+SELECT zipfile ( 10 , 10 ) IS NULL ; SELECT * AS generate_series FROM v0 , v1 WHERE v4 = v3 AND v2 = 10 ; SELECT * FROM v5 , v6 WHERE v7 = v9 AND v8 = 10 ; 

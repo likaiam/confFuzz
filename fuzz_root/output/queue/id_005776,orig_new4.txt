@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v2 , v1 , v3 ) ; DELETE FROM v0 WHERE v2 = 10 OR v3 LIKE 'a' ; VACUUM ; UPDATE v0 SET v3 = v1 + 10 WHERE lower ( v1 ) IS NOT NULL < v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) OR v2 IS NOT NULL AND NOT v3 ; INSERT INTO v0 ( v1 , v3 , v2 , v1 , v2 ) VALUES ( 'x' , 'v1' , 10 , '18' , 0 ) ; 

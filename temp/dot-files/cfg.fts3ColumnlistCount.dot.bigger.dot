@@ -1,0 +1,17 @@
+digraph "CFG for 'fts3ColumnlistCount' function" {
+	label="CFG for 'fts3ColumnlistCount' function";
+
+	Node0x55c0fb390660 [shape=record,label="{sqlite3.c:193314:}"];
+	Node0x55c0fb390660 -> Node0x55c0fb3969a0;
+	Node0x55c0fb3969a0 [shape=record,label="{sqlite3.c:193320:}"];
+	Node0x55c0fb3969a0 -> Node0x55c0fb397080;
+	Node0x55c0fb3969a0 -> Node0x55c0fb396b00;
+	Node0x55c0fb397080 [shape=record,label="{sqlite3.c:193321:}"];
+	Node0x55c0fb397080 -> Node0x55c0fb397840;
+	Node0x55c0fb397080 -> Node0x55c0fb3977f0;
+	Node0x55c0fb3977f0 [shape=record,label="{sqlite3.c:193322:}"];
+	Node0x55c0fb3977f0 -> Node0x55c0fb397840;
+	Node0x55c0fb397840 [shape=record,label="{sqlite3.c:193320:}"];
+	Node0x55c0fb397840 -> Node0x55c0fb3969a0;
+	Node0x55c0fb396b00 [shape=record,label="{sqlite3.c:193325:}"];
+}

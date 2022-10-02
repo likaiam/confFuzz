@@ -1,0 +1,1 @@
+PRAGMA vdbe_debug=true; ; CREATE TABLE v0 ( v3 , v2 AS( v2 + v3 ) , v1 AS( * ) CHECK( v1 ) ) ; UPDATE v0 SET v2 = NULL ; 

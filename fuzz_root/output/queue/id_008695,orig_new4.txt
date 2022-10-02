@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; CREATE VIEW v4 ( v5 ) AS SELECT nth_value ( v1 , 2000 ) OVER( ORDER BY v3 ) FROM v0 ; UPDATE v0 SET v2 = ( SELECT min ( v5 ) FROM v4 WHERE v5 = 1 AND v5 >= 3.100000 ) ; 

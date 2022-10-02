@@ -1,0 +1,1 @@
+SELECT CASE NULL WHEN 'Max Mustermann' THEN 'v1' WHEN 'v0' THEN 'v0' ELSE 'abc' END ; SELECT DISTINCT count ( * ) OVER( ORDER BY NULL ) ; 

@@ -1,0 +1,15 @@
+digraph "CFG for 'sqlite3VdbeParameterIndex' function" {
+	label="CFG for 'sqlite3VdbeParameterIndex' function";
+
+	Node0x55c0f8571c30 [shape=record,label="{sqlite3.c:87636:}"];
+	Node0x55c0f8571c30 -> Node0x55c0f85721c0;
+	Node0x55c0f8571c30 -> Node0x55c0f8575820;
+	Node0x55c0f8575820 [shape=record,label="{sqlite3.c:87637:}"];
+	Node0x55c0f8575820 -> Node0x55c0f85721c0;
+	Node0x55c0f8575820 -> Node0x55c0f85757d0;
+	Node0x55c0f85721c0 [shape=record,label="{sqlite3.c:87637:}"];
+	Node0x55c0f85721c0 -> Node0x55c0f8571db0;
+	Node0x55c0f85757d0 [shape=record,label="{sqlite3.c:87638:}"];
+	Node0x55c0f85757d0 -> Node0x55c0f8571db0;
+	Node0x55c0f8571db0 [shape=record,label="{sqlite3.c:87639:}"];
+}

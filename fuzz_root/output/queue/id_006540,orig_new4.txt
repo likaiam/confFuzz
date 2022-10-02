@@ -1,0 +1,1 @@
+PRAGMA cache_spill = 0;CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY CHECK( v1 MATCH NOT ( ( random () % 0 ) == 0 AND NOT random () != random () ) ) ) ; CREATE TABLE v2 ( v3 , v4 ) ; VACUUM ; UPDATE v0 SET v1 = v1 + 2 WHERE v1 IN ( 3 , 10 , 10 , 10 ) AND v1 IN ( 1 , 0 , NULL , 10 ) ; DELETE FROM v2 WHERE v4 MATCH - 10.100000 ; 

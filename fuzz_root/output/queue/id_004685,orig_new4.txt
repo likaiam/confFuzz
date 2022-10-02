@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; SELECT v1 FROM v0 WHERE v1 >= 2.100000 ORDER BY v1 , v1 , v1 LIMIT 3 ; CREATE TABLE v2 ( v3 INTEGER PRIMARY KEY , v4 INT ) ; CREATE VIRTUAL TABLE v5 USING rtree ( v7 AS( typeof ( random () % 10 ) ) , v8 , v6 ) ; SELECT * FROM v5 LEFT JOIN v2 ON v3 = v4 WHERE v3 = v3 AND random () % 10 != 0 ; 

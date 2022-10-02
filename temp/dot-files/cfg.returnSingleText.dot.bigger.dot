@@ -1,0 +1,10 @@
+digraph "CFG for 'returnSingleText' function" {
+	label="CFG for 'returnSingleText' function";
+
+	Node0x55c0fa182840 [shape=record,label="{sqlite3.c:131885:}"];
+	Node0x55c0fa182840 -> Node0x55c0fa182cc0;
+	Node0x55c0fa182840 -> Node0x55c0fa182d10;
+	Node0x55c0fa182cc0 [shape=record,label="{sqlite3.c:131889:}"];
+	Node0x55c0fa182cc0 -> Node0x55c0fa182d10;
+	Node0x55c0fa182d10 [shape=record,label="{sqlite3.c:131892:}"];
+}

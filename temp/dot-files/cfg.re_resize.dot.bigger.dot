@@ -1,0 +1,17 @@
+digraph "CFG for 're_resize' function" {
+	label="CFG for 're_resize' function";
+
+	Node0x560276a06e50 [shape=record,label="{shell.c:6265:}"];
+	Node0x560276a06e50 -> Node0x560276a16390;
+	Node0x560276a06e50 -> Node0x560276a163e0;
+	Node0x560276a16390 [shape=record,label="{shell.c:6269:}"];
+	Node0x560276a16390 -> Node0x560276a06fd0;
+	Node0x560276a163e0 [shape=record,label="{shell.c:6270:}"];
+	Node0x560276a163e0 -> Node0x560276a17250;
+	Node0x560276a163e0 -> Node0x560276a172a0;
+	Node0x560276a17250 [shape=record,label="{shell.c:6272:}"];
+	Node0x560276a17250 -> Node0x560276a06fd0;
+	Node0x560276a172a0 [shape=record,label="{shell.c:6273:}"];
+	Node0x560276a172a0 -> Node0x560276a06fd0;
+	Node0x560276a06fd0 [shape=record,label="{shell.c:6276:}"];
+}

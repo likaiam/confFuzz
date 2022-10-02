@@ -1,0 +1,1 @@
+SELECT count ( * ) OVER( ORDER BY 10 , 0 ) WHERE v1 > 10 OR v3 > 10 AND NOT v5 WITH HINT ( NO_CACHE ) ; INSERT INTO v6 ( v7 ) VALUES ( 0 ) ,( 2000 ) ; UPDATE v8 SET v9 = ( SELECT 1 FROM v10 ) ; 

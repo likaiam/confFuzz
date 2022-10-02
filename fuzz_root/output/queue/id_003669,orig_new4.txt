@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 VARCHAR(10) , v1 INTEGER ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 0 ) ,( 0 ) ; CREATE TABLE v3 ( v5 INTEGER PRIMARY KEY , v4 INT ) ; INSERT INTO v0 SELECT nullif ( v2 * 0 + 1 , 2 ) , v2 + 1 FROM v0 ; SELECT v1 , sum ( m ) AS m FROM v0 AS v WHERE v2 = v1 AND v2 = 1 ; 

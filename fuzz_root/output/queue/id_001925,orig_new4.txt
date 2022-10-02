@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'DELIVER IN PERSON' ) ,( '23' ) ,( '1995-09-01' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v0' , 9223372036854775807 ) ,( 'v0' , 1 ) ,( 'x' , 10 ) ,( 'v1' , 10 ) ; SELECT v4 , count ( * ) OVER( ORDER BY v3 ) FROM v2 ORDER BY s () OVER x ; 

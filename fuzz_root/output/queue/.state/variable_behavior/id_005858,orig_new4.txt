@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( 'v0' != substr ( v1 , 1 , 9223372036854775807 ) NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'SM CASE' ) ,( 'SM PACK' ) ,( 'x' ) ,( 'x' ) ; UPDATE v0 SET v1 = randomblob ( 0 ) ; SELECT * FROM v0 UNION SELECT CASE WHEN 0.100000 THEN 'AIR' ELSE 'x' END ORDER BY v1 ; 

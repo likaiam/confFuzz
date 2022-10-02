@@ -1,0 +1,41 @@
+digraph "CFG for 'lockTable' function" {
+	label="CFG for 'lockTable' function";
+
+	Node0x55c0f8a4ead0 [shape=record,label="{sqlite3.c:115117:}"];
+	Node0x55c0f8a4ead0 -> Node0x55c0f8a50940;
+	Node0x55c0f8a4ead0 -> Node0x55c0f8a50990;
+	Node0x55c0f8a50940 [shape=record,label="{sqlite3.c:115129:}"];
+	Node0x55c0f8a50940 -> Node0x55c0f8a509e0;
+	Node0x55c0f8a50990 [shape=record,label="{sqlite3.c:115129:}"];
+	Node0x55c0f8a50990 -> Node0x55c0f8a509e0;
+	Node0x55c0f8a509e0 [shape=record,label="{sqlite3.c:115129:}"];
+	Node0x55c0f8a509e0 -> Node0x55c0f8a51320;
+	Node0x55c0f8a51320 [shape=record,label="{sqlite3.c:115130:}"];
+	Node0x55c0f8a51320 -> Node0x55c0f8a51540;
+	Node0x55c0f8a51320 -> Node0x55c0f8a51170;
+	Node0x55c0f8a51540 [shape=record,label="{sqlite3.c:115131:}"];
+	Node0x55c0f8a51540 -> Node0x55c0f8a52020;
+	Node0x55c0f8a51540 -> Node0x55c0f8a51fd0;
+	Node0x55c0f8a52020 [shape=record,label="{sqlite3.c:115132:}"];
+	Node0x55c0f8a52020 -> Node0x55c0f8a51f80;
+	Node0x55c0f8a52020 -> Node0x55c0f8a51fd0;
+	Node0x55c0f8a51f80 [shape=record,label="{sqlite3.c:115133:}"];
+	Node0x55c0f8a51f80 -> Node0x55c0f8a52a60;
+	Node0x55c0f8a51f80 -> Node0x55c0f8a52ab0;
+	Node0x55c0f8a52ab0 [shape=record,label="{sqlite3.c:115133:}"];
+	Node0x55c0f8a52ab0 -> Node0x55c0f8a52a60;
+	Node0x55c0f8a52a60 [shape=record,label="{sqlite3.c:115133:}"];
+	Node0x55c0f8a52a60 -> Node0x55c0f8a54950;
+	Node0x55c0f8a51fd0 [shape=record,label="{sqlite3.c:115136:}"];
+	Node0x55c0f8a51fd0 -> Node0x55c0f8a514b0;
+	Node0x55c0f8a514b0 [shape=record,label="{sqlite3.c:115130:}"];
+	Node0x55c0f8a514b0 -> Node0x55c0f8a51320;
+	Node0x55c0f8a51170 [shape=record,label="{sqlite3.c:115138:}"];
+	Node0x55c0f8a51170 -> Node0x55c0f8a54900;
+	Node0x55c0f8a51170 -> Node0x55c0f8a549a0;
+	Node0x55c0f8a54900 [shape=record,label="{sqlite3.c:115142:}"];
+	Node0x55c0f8a54900 -> Node0x55c0f8a54950;
+	Node0x55c0f8a549a0 [shape=record,label="{sqlite3.c:115148:}"];
+	Node0x55c0f8a549a0 -> Node0x55c0f8a54950;
+	Node0x55c0f8a54950 [shape=record,label="{sqlite3.c:115151:}"];
+}

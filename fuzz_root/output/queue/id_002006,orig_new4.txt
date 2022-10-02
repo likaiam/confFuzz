@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'test' ) ,( 'a' ) ,( '%%green%%' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 10 , 0 ) ,( 'UTF-16le' , 10 ) ,( 'LG PKG' , 10 ) ; SELECT CASE WHEN v3 NOT IN ( 1 , 1 , v3 = 2.100000 ) THEN 'v0' ELSE 'v0' END FROM v2 ; 

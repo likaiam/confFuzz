@@ -1,0 +1,14 @@
+digraph "CFG for 'eqp_reset' function" {
+	label="CFG for 'eqp_reset' function";
+
+	Node0x5602764b26e0 [shape=record,label="{shell.c:13034:}"];
+	Node0x5602764b26e0 -> Node0x56027739aa50;
+	Node0x56027739aa50 [shape=record,label="{shell.c:13036:}"];
+	Node0x56027739aa50 -> Node0x56027739ac00;
+	Node0x56027739aa50 -> Node0x560277399bc0;
+	Node0x56027739ac00 [shape=record,label="{shell.c:13037:}"];
+	Node0x56027739ac00 -> Node0x56027739ab70;
+	Node0x56027739ab70 [shape=record,label="{shell.c:13036:}"];
+	Node0x56027739ab70 -> Node0x56027739aa50;
+	Node0x560277399bc0 [shape=record,label="{shell.c:13040:}"];
+}

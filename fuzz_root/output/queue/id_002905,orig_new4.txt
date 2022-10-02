@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'abc' ) ,( 's%' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , SAMPLE_RATE ) ; INSERT INTO v2 VALUES ( 'Brand#34' , 0 ) ,( 'x' , 0 ) ,( 'v0' , 2 ) ,( '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' , 9 ) ; SELECT v3 , count ( * ) OVER( ORDER BY v3 ) FROM v2 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v1' ) ,( 'v0' ) ,( '1995-09-01' ) ,( 'v0' ) ; UPDATE v0 SET v1 = randomblob ( DISTINCT v1 + v1 ) ; SELECT DISTINCT * FROM v0 AS a JOIN v0 AS AVG_YEARLY ON v0 . v1 = v0 . v1 JOIN v0 NATURAL JOIN v0 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ORDER BY v1 DESC , v1 ) DESC ; 

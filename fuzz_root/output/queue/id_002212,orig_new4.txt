@@ -1,0 +1,1 @@
+SELECT zipfile ( printf ( 'v1' , lower ( 'v1' ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 4294967295 ) ,( 10 ) ; UPDATE v2 SET v3 = ( SELECT 2 FROM v4 ) ; 

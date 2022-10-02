@@ -1,0 +1,1 @@
+SELECT 10 AS x ORDER BY ( SELECT SUM ( v1 * v3 AS myname ) ORDER BY 10 ) ; CREATE TABLE v4 ( v6 , v5 AS( v5 + v6 ) , v7 AS( v6 ) CHECK( v6 ) ) ; UPDATE v4 SET v6 = NULL ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v2 INT , v1 FLOAT ) ; INSERT INTO v0 VALUES ( 2 , 10 ) ,( 10 , 0 ) ,( 0 , 1 ) ,( 10 , 10 ) ,( 10 , 1 ) ,( 'x' , 9223372036854775808 ) ,( 'v1' , 10 ) ,( 'x' , 1 ) ,( 'x' , 10 ) ,( 'v0' , 9223372036854775807 ) ; SELECT DISTINCT v2 , rank () OVER( ORDER BY v2 DESC ) FROM v0 ; 

@@ -1,0 +1,14 @@
+digraph "CFG for 'idxStatementFree' function" {
+	label="CFG for 'idxStatementFree' function";
+
+	Node0x560276c4fee0 [shape=record,label="{shell.c:10356:}"];
+	Node0x560276c4fee0 -> Node0x560276c524f0;
+	Node0x560276c524f0 [shape=record,label="{shell.c:10359:}"];
+	Node0x560276c524f0 -> Node0x560276c526a0;
+	Node0x560276c524f0 -> Node0x560276c52340;
+	Node0x560276c526a0 [shape=record,label="{shell.c:10360:}"];
+	Node0x560276c526a0 -> Node0x560276c52610;
+	Node0x560276c52610 [shape=record,label="{shell.c:10359:}"];
+	Node0x560276c52610 -> Node0x560276c524f0;
+	Node0x560276c52340 [shape=record,label="{shell.c:10365:}"];
+}

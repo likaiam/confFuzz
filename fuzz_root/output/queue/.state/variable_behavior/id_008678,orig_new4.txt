@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 INTEGER CHECK( datetime ( v1 ) IS NOT NULL < v1 NOT LIKE julianday ( v1 , 4294967295 , random () % 10 ) ) ) ; INSERT INTO v0 VALUES ( 9223372036854775807 ) ,( 10 ) ; VACUUM ; VACUUM ; SELECT v1 , SUM ( v1 ) FROM v0 , v0 AS t ; 

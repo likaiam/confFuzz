@@ -1,0 +1,20 @@
+digraph "CFG for 'sqlite3PagerOkToChangeJournalMode' function" {
+	label="CFG for 'sqlite3PagerOkToChangeJournalMode' function";
+
+	Node0x55c0f84994d0 [shape=record,label="{sqlite3.c:61227:}"];
+	Node0x55c0f84994d0 -> Node0x55c0f849acb0;
+	Node0x55c0f84994d0 -> Node0x55c0f849ad00;
+	Node0x55c0f849acb0 [shape=record,label="{sqlite3.c:61229:}"];
+	Node0x55c0f849acb0 -> Node0x55c0f849a970;
+	Node0x55c0f849ad00 [shape=record,label="{sqlite3.c:61230:}"];
+	Node0x55c0f849ad00 -> Node0x55c0f849d660;
+	Node0x55c0f849ad00 -> Node0x55c0f849aed0;
+	Node0x55c0f849d660 [shape=record,label="{sqlite3.c:61230:}"];
+	Node0x55c0f849d660 -> Node0x55c0f849cde0;
+	Node0x55c0f849d660 -> Node0x55c0f849aed0;
+	Node0x55c0f849cde0 [shape=record,label="{sqlite3.c:61230:}"];
+	Node0x55c0f849cde0 -> Node0x55c0f849a970;
+	Node0x55c0f849aed0 [shape=record,label="{sqlite3.c:61231:}"];
+	Node0x55c0f849aed0 -> Node0x55c0f849a970;
+	Node0x55c0f849a970 [shape=record,label="{sqlite3.c:61232:}"];
+}

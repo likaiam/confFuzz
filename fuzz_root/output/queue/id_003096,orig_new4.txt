@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; SELECT * FROM v0 WHERE v3 = v1 AND v3 = v3 AND v3 = 'forest%%' ; UPDATE v0 SET v2 = ( SELECT 10 FROM v0 ) WHERE v3 > 2 AND v3 < 10 ; 

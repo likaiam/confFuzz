@@ -1,0 +1,1 @@
+SELECT 1 AS x ORDER BY ( SELECT NULL ORDER BY 1 ) ; CREATE TABLE v0 ( v2 , v1 AS( v1 + v3 ) , v3 ) ; UPDATE v0 SET v3 = NULL ; 

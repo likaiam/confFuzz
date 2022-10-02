@@ -1,0 +1,17 @@
+digraph "CFG for 'doubleToInt64' function" {
+	label="CFG for 'doubleToInt64' function";
+
+	Node0x55c0f7b13880 [shape=record,label="{sqlite3.c:79249:}"];
+	Node0x55c0f7b13880 -> Node0x55c0f5444f60;
+	Node0x55c0f7b13880 -> Node0x55c0f7b12d00;
+	Node0x55c0f5444f60 [shape=record,label="{sqlite3.c:79265:}"];
+	Node0x55c0f5444f60 -> Node0x55c0f7b141a0;
+	Node0x55c0f7b12d00 [shape=record,label="{sqlite3.c:79266:}"];
+	Node0x55c0f7b12d00 -> Node0x55c0f7b16bc0;
+	Node0x55c0f7b12d00 -> Node0x55c0f7b16c60;
+	Node0x55c0f7b16bc0 [shape=record,label="{sqlite3.c:79267:}"];
+	Node0x55c0f7b16bc0 -> Node0x55c0f7b141a0;
+	Node0x55c0f7b16c60 [shape=record,label="{sqlite3.c:79269:}"];
+	Node0x55c0f7b16c60 -> Node0x55c0f7b141a0;
+	Node0x55c0f7b141a0 [shape=record,label="{sqlite3.c:79272:}"];
+}

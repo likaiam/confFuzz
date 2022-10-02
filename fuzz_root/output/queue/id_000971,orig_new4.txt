@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v3 , v2 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 10 ) ; UPDATE v0 SET v3 = ( SELECT min ( v1 ) FROM v0 WHERE v2 = 'x' AND v2 > 'test' ) ; 

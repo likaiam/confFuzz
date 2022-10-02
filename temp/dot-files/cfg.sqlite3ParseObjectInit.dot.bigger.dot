@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3ParseObjectInit' function" {
+	label="CFG for 'sqlite3ParseObjectInit' function";
+
+	Node0x55c0f874d390 [shape=record,label="{sqlite3.c:135064:}"];
+	Node0x55c0f874d390 -> Node0x55c0f8753a20;
+	Node0x55c0f874d390 -> Node0x55c0f8753a70;
+	Node0x55c0f8753a20 [shape=record,label="{sqlite3.c:135071:}"];
+	Node0x55c0f8753a20 -> Node0x55c0f8753a70;
+	Node0x55c0f8753a70 [shape=record,label="{sqlite3.c:135072:}"];
+}

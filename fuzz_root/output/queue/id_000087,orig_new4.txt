@@ -1,0 +1,1 @@
+PRAGMA busy_timeout = -1;PRAGMA busy_timeout=10; ; CREATE TABLE v0 ( v1 , v2 AS( v2 + v1 ) , v3 AS( v2 ) CHECK( v3 ) ) WITH HINT ( NO_CACHE , SAMPLE_RATE ( 10.100000 ) , OMW ( 255.100000 , 'Brand#23' ) ) ; UPDATE v0 SET v3 = NULL ; 

@@ -1,0 +1,1 @@
+VACUUM ; SELECT v1 , rank () OVER( ORDER BY v3 ) ; 

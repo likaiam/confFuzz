@@ -1,0 +1,33 @@
+digraph "CFG for 'exprINAffinity' function" {
+	label="CFG for 'exprINAffinity' function";
+
+	Node0x55c0f8c31f10 [shape=record,label="{sqlite3.c:106531:}"];
+	Node0x55c0f8c31f10 -> Node0x55c0f8c34a10;
+	Node0x55c0f8c31f10 -> Node0x55c0f8c34a60;
+	Node0x55c0f8c34a10 [shape=record,label="{sqlite3.c:106534:}"];
+	Node0x55c0f8c34a10 -> Node0x55c0f8c34ab0;
+	Node0x55c0f8c34a60 [shape=record,label="{sqlite3.c:106534:}"];
+	Node0x55c0f8c34a60 -> Node0x55c0f8c34ab0;
+	Node0x55c0f8c34ab0 [shape=record,label="{sqlite3.c:106534:}"];
+	Node0x55c0f8c34ab0 -> Node0x55c0f8c35d00;
+	Node0x55c0f8c34ab0 -> Node0x55c0f8c35d50;
+	Node0x55c0f8c35d00 [shape=record,label="{sqlite3.c:106540:}"];
+	Node0x55c0f8c35d00 -> Node0x55c0f8c364c0;
+	Node0x55c0f8c364c0 [shape=record,label="{sqlite3.c:106541:}"];
+	Node0x55c0f8c364c0 -> Node0x55c0f8c366e0;
+	Node0x55c0f8c364c0 -> Node0x55c0f8c36310;
+	Node0x55c0f8c366e0 [shape=record,label="{sqlite3.c:106542:}"];
+	Node0x55c0f8c366e0 -> Node0x55c0f8c37590;
+	Node0x55c0f8c366e0 -> Node0x55c0f8c37630;
+	Node0x55c0f8c37590 [shape=record,label="{sqlite3.c:106545:}"];
+	Node0x55c0f8c37590 -> Node0x55c0f8c375e0;
+	Node0x55c0f8c37630 [shape=record,label="{sqlite3.c:106547:}"];
+	Node0x55c0f8c37630 -> Node0x55c0f8c375e0;
+	Node0x55c0f8c375e0 [shape=record,label="{sqlite3.c:106549:}"];
+	Node0x55c0f8c375e0 -> Node0x55c0f8c36650;
+	Node0x55c0f8c36650 [shape=record,label="{sqlite3.c:106541:}"];
+	Node0x55c0f8c36650 -> Node0x55c0f8c364c0;
+	Node0x55c0f8c36310 [shape=record,label="{sqlite3.c:106550:}"];
+	Node0x55c0f8c36310 -> Node0x55c0f8c35d50;
+	Node0x55c0f8c35d50 [shape=record,label="{sqlite3.c:106552:}"];
+}

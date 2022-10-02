@@ -1,0 +1,41 @@
+digraph "CFG for 'sqlite3Init' function" {
+	label="CFG for 'sqlite3Init' function";
+
+	Node0x55c0fb846070 [shape=record,label="{sqlite3.c:134845:}"];
+	Node0x55c0fb846070 -> Node0x55c0fb852470;
+	Node0x55c0fb846070 -> Node0x55c0fb852420;
+	Node0x55c0fb852420 [shape=record,label="{sqlite3.c:134856:}"];
+	Node0x55c0fb852420 -> Node0x55c0fb8530a0;
+	Node0x55c0fb852420 -> Node0x55c0fb8530f0;
+	Node0x55c0fb8530a0 [shape=record,label="{sqlite3.c:134857:}"];
+	Node0x55c0fb8530a0 -> Node0x55c0fb850180;
+	Node0x55c0fb8530f0 [shape=record,label="{sqlite3.c:134858:}"];
+	Node0x55c0fb8530f0 -> Node0x55c0fb852470;
+	Node0x55c0fb852470 [shape=record,label="{sqlite3.c:134860:}"];
+	Node0x55c0fb852470 -> Node0x55c0fb853a90;
+	Node0x55c0fb853a90 [shape=record,label="{sqlite3.c:134860:}"];
+	Node0x55c0fb853a90 -> Node0x55c0fb853cb0;
+	Node0x55c0fb853a90 -> Node0x55c0fb853620;
+	Node0x55c0fb853cb0 [shape=record,label="{sqlite3.c:134862:}"];
+	Node0x55c0fb853cb0 -> Node0x55c0fb854140;
+	Node0x55c0fb853cb0 -> Node0x55c0fb8540f0;
+	Node0x55c0fb8540f0 [shape=record,label="{sqlite3.c:134863:}"];
+	Node0x55c0fb8540f0 -> Node0x55c0fb854e50;
+	Node0x55c0fb8540f0 -> Node0x55c0fb854ea0;
+	Node0x55c0fb854e50 [shape=record,label="{sqlite3.c:134864:}"];
+	Node0x55c0fb854e50 -> Node0x55c0fb850180;
+	Node0x55c0fb854ea0 [shape=record,label="{sqlite3.c:134865:}"];
+	Node0x55c0fb854ea0 -> Node0x55c0fb854140;
+	Node0x55c0fb854140 [shape=record,label="{sqlite3.c:134866:}"];
+	Node0x55c0fb854140 -> Node0x55c0fb853c20;
+	Node0x55c0fb853c20 [shape=record,label="{sqlite3.c:134860:}"];
+	Node0x55c0fb853c20 -> Node0x55c0fb853a90;
+	Node0x55c0fb853620 [shape=record,label="{sqlite3.c:134867:}"];
+	Node0x55c0fb853620 -> Node0x55c0fb8558e0;
+	Node0x55c0fb853620 -> Node0x55c0fb855930;
+	Node0x55c0fb8558e0 [shape=record,label="{sqlite3.c:134868:}"];
+	Node0x55c0fb8558e0 -> Node0x55c0fb855930;
+	Node0x55c0fb855930 [shape=record,label="{sqlite3.c:134870:}"];
+	Node0x55c0fb855930 -> Node0x55c0fb850180;
+	Node0x55c0fb850180 [shape=record,label="{sqlite3.c:134871:}"];
+}

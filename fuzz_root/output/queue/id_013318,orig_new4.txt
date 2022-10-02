@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v3 CHECK( v3 NOT LIKE printf ( v3 , v2 , v3 , v2 , v2 , v2 , v3 ) ) , v2 , v1 UNIQUE ) ; CREATE TRIGGER x AFTER UPDATE ON v0 BEGIN UPDATE v0 SET v1 = v1 + 10 WHERE v2 IN ( SELECT v2 WHERE v3 IN ( 'v0' , 'v1' ) ) ; END ; UPDATE v0 SET v1 = ( SELECT 10 FROM v0 AS nt ) WHERE v3 = ( SELECT 0 ) OR v2 = 1 ; 

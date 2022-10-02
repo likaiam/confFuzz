@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'CANADA' ) ,( 'x' ) ; CREATE VIEW v2 AS SELECT * FROM v0 , main . v2 ; INSERT INTO v2 VALUES ( '30' , 10 ) ,( '31' , 1 ) ,( 'Ar' , 0 ) ,( 'v0' , 9223372036854775807 ) ; SELECT SUM ( v1 * ( 1 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

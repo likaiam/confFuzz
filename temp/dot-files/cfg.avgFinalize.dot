@@ -1,0 +1,13 @@
+digraph "CFG for 'avgFinalize' function" {
+	label="CFG for 'avgFinalize' function";
+
+	Node0x55c0fa5df570 [shape=record,label="{sqlite3.c:123885:}"];
+	Node0x55c0fa5df570 -> Node0x55c0fa5e0f30;
+	Node0x55c0fa5df570 -> Node0x55c0fa5e0ee0;
+	Node0x55c0fa5e0f30 [shape=record,label="{sqlite3.c:123888:}"];
+	Node0x55c0fa5e0f30 -> Node0x55c0fa5e0600;
+	Node0x55c0fa5e0f30 -> Node0x55c0fa5e0ee0;
+	Node0x55c0fa5e0600 [shape=record,label="{sqlite3.c:123889:}"];
+	Node0x55c0fa5e0600 -> Node0x55c0fa5e0ee0;
+	Node0x55c0fa5e0ee0 [shape=record,label="{sqlite3.c:123891:}"];
+}

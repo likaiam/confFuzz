@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 CHAR(100) CHECK( v1 != substr ( ( v1 * 2 ) > v1 , 10 ) NOT LIKE randomblob ( ( v1 ) ) ) ) ; INSERT INTO v0 VALUES ( 'GERMANY' ) ,( '1995-03-15' ) ,( 'x' ) ; CREATE VIEW v2 AS SELECT * FROM v0 UNION ALL SELECT v1 AS alias FROM v0 ORDER BY v1 DESC ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'UTF-16le' ) ,( 10 ) ; SELECT * FROM v2 UNION SELECT * FROM v2 ; 

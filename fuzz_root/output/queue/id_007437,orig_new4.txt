@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v1' ) ,( 'Brand#23' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'forest%%' , 2 ) ,( 'v1' , 3 ) ,( 'v1' , 10 ) ,( 'x' , 10 ) ; SELECT quote ( substr ( v4 , 9 , 10 ) ) FROM v0 LEFT JOIN v0 JOIN v2 ; 

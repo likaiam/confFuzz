@@ -1,0 +1,5 @@
+digraph "CFG for 'unixSectorSize' function" {
+	label="CFG for 'unixSectorSize' function";
+
+	Node0x55c0f70f7e50 [shape=record,label="{sqlite3.c:39619:}"];
+}

@@ -1,0 +1,1 @@
+PRAGMA wal_autocheckpoint = 0;PRAGMA wal_autocheckpoint=10; ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; PRAGMA vdbe_trace=false; ; SELECT v0 . v1 FROM v0 AS a JOIN v0 AS b ON v0 . v1 = v0 . v1 WHERE v0 . v1 IN ( 9223372036854775807 , 1 , 10 ) ; SELECT * FROM v0 LEFT JOIN v0 ON v1 = v1 WHERE v1 = v1 AND printf ( 'UTF-16le' , 2000 ) = 1 ; 

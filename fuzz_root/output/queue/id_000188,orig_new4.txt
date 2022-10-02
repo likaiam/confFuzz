@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16'; ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 0 ) ; SELECT max ( v1 ) OVER( ORDER BY max ( v1 ) ) FROM v0 ; 

@@ -1,0 +1,1 @@
+CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 VALUES ( 'forest%%' ) ,( 'v0' ) ,( '%%BRASS' ) ; CREATE TABLE v2 ( v4 , v3 ) ; SELECT 1 IN ( CAST ( 'test' AS TEXT ) ) ; SELECT v1 , v1 , dense_rank () OVER( PARTITION BY v1 ORDER BY v1 ) FROM v0 ; 

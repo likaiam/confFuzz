@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v1 , v2 ) ; CREATE VIRTUAL TABLE v4 USING rtree ( v7 , v5 INTEGER AS( 'v0' ) CHECK( 10 ) CHECK( v5 MATCH NOT ( 'v1' = 'v0' AND v6 < 10 = v7 ) ) NOT NULL UNIQUE , v6 ) ; VACUUM ; UPDATE v0 SET v2 = v2 + 1 WHERE v3 > 1 OR v2 <= v3 IS NOT NULL + julianday ( 'Max Mustermann' ) AND NOT v1 ; DELETE FROM v0 WHERE v2 MATCH - 10.100000 ; 

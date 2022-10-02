@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3_stmt_busy' function" {
+	label="CFG for 'sqlite3_stmt_busy' function";
+
+	Node0x55c0f5d131c0 [shape=record,label="{sqlite3.c:87721:}"];
+	Node0x55c0f5d131c0 -> Node0x55c0f5d13f80;
+	Node0x55c0f5d131c0 -> Node0x55c0f5d14220;
+	Node0x55c0f5d13f80 [shape=record,label="{sqlite3.c:87723:}"];
+	Node0x55c0f5d13f80 -> Node0x55c0f5d14220;
+	Node0x55c0f5d14220 [shape=record,label="{sqlite3.c:87723:}"];
+}
