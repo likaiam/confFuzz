@@ -1,0 +1,5 @@
+digraph "CFG for 'fts3UpdateMethod' function" {
+	label="CFG for 'fts3UpdateMethod' function";
+
+	Node0x55c0fb0343f0 [shape=record,label="{sqlite3.c:179918:}"];
+}

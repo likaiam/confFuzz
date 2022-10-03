@@ -1,0 +1,5 @@
+digraph "CFG for 'fts3TokenizerEnabled' function" {
+	label="CFG for 'fts3TokenizerEnabled' function";
+
+	Node0x55c0face8170 [shape=record,label="{sqlite3.c:185472:}"];
+}

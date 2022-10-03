@@ -1,0 +1,14 @@
+digraph "CFG for 'generateColumnTypes' function" {
+	label="CFG for 'generateColumnTypes' function";
+
+	Node0x55c0f932db70 [shape=record,label="{sqlite3.c:137465:}"];
+	Node0x55c0f932db70 -> Node0x55c0f9331700;
+	Node0x55c0f9331700 [shape=record,label="{sqlite3.c:137476:}"];
+	Node0x55c0f9331700 -> Node0x55c0f9331920;
+	Node0x55c0f9331700 -> Node0x55c0f9331550;
+	Node0x55c0f9331920 [shape=record,label="{sqlite3.c:137477:}"];
+	Node0x55c0f9331920 -> Node0x55c0f9331890;
+	Node0x55c0f9331890 [shape=record,label="{sqlite3.c:137476:}"];
+	Node0x55c0f9331890 -> Node0x55c0f9331700;
+	Node0x55c0f9331550 [shape=record,label="{sqlite3.c:137498:}"];
+}

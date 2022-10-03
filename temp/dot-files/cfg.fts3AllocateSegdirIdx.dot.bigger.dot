@@ -1,0 +1,27 @@
+digraph "CFG for 'fts3AllocateSegdirIdx' function" {
+	label="CFG for 'fts3AllocateSegdirIdx' function";
+
+	Node0x55c0fb06fd40 [shape=record,label="{sqlite3.c:187783:}"];
+	Node0x55c0fb06fd40 -> Node0x55c0fb07f740;
+	Node0x55c0fb06fd40 -> Node0x55c0fb07f790;
+	Node0x55c0fb07f740 [shape=record,label="{sqlite3.c:187800:}"];
+	Node0x55c0fb07f740 -> Node0x55c0fb0800c0;
+	Node0x55c0fb07f740 -> Node0x55c0fb080110;
+	Node0x55c0fb0800c0 [shape=record,label="{sqlite3.c:187803:}"];
+	Node0x55c0fb0800c0 -> Node0x55c0fb080110;
+	Node0x55c0fb080110 [shape=record,label="{sqlite3.c:187805:}"];
+	Node0x55c0fb080110 -> Node0x55c0fb07f790;
+	Node0x55c0fb07f790 [shape=record,label="{sqlite3.c:187808:}"];
+	Node0x55c0fb07f790 -> Node0x55c0fb080cc0;
+	Node0x55c0fb07f790 -> Node0x55c0fb080d10;
+	Node0x55c0fb080cc0 [shape=record,label="{sqlite3.c:187814:}"];
+	Node0x55c0fb080cc0 -> Node0x55c0fb081120;
+	Node0x55c0fb080cc0 -> Node0x55c0fb0811c0;
+	Node0x55c0fb081120 [shape=record,label="{sqlite3.c:187816:}"];
+	Node0x55c0fb081120 -> Node0x55c0fb081170;
+	Node0x55c0fb0811c0 [shape=record,label="{sqlite3.c:187819:}"];
+	Node0x55c0fb0811c0 -> Node0x55c0fb081170;
+	Node0x55c0fb081170 [shape=record,label="{sqlite3.c:187821:}"];
+	Node0x55c0fb081170 -> Node0x55c0fb080d10;
+	Node0x55c0fb080d10 [shape=record,label="{sqlite3.c:187823:}"];
+}

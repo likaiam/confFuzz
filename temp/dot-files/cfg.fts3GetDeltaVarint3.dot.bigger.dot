@@ -1,0 +1,19 @@
+digraph "CFG for 'fts3GetDeltaVarint3' function" {
+	label="CFG for 'fts3GetDeltaVarint3' function";
+
+	Node0x55c0faef3850 [shape=record,label="{sqlite3.c:178919:}"];
+	Node0x55c0faef3850 -> Node0x55c0faf00d10;
+	Node0x55c0faef3850 -> Node0x55c0faf00db0;
+	Node0x55c0faf00d10 [shape=record,label="{sqlite3.c:178925:}"];
+	Node0x55c0faf00d10 -> Node0x55c0faf00d60;
+	Node0x55c0faf00db0 [shape=record,label="{sqlite3.c:178927:}"];
+	Node0x55c0faf00db0 -> Node0x55c0faf01d10;
+	Node0x55c0faf00db0 -> Node0x55c0faf01db0;
+	Node0x55c0faf01d10 [shape=record,label="{sqlite3.c:178930:}"];
+	Node0x55c0faf01d10 -> Node0x55c0faf01d60;
+	Node0x55c0faf01db0 [shape=record,label="{sqlite3.c:178932:}"];
+	Node0x55c0faf01db0 -> Node0x55c0faf01d60;
+	Node0x55c0faf01d60 [shape=record,label="{%33}"];
+	Node0x55c0faf01d60 -> Node0x55c0faf00d60;
+	Node0x55c0faf00d60 [shape=record,label="{sqlite3.c:178935:}"];
+}

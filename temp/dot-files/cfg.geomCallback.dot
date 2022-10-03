@@ -1,0 +1,33 @@
+digraph "CFG for 'geomCallback' function" {
+	label="CFG for 'geomCallback' function";
+
+	Node0x55c0f4fcaeb0 [shape=record,label="{sqlite3.c:204010:}"];
+	Node0x55c0f4fcaeb0 -> Node0x55c0fb8ad820;
+	Node0x55c0f4fcaeb0 -> Node0x55c0fb8ad780;
+	Node0x55c0fb8ad780 [shape=record,label="{sqlite3.c:204020:}"];
+	Node0x55c0fb8ad780 -> Node0x55c0fb8ad7d0;
+	Node0x55c0fb8ad820 [shape=record,label="{sqlite3.c:204022:}"];
+	Node0x55c0fb8ad820 -> Node0x55c0fb8af420;
+	Node0x55c0fb8af420 [shape=record,label="{sqlite3.c:204027:}"];
+	Node0x55c0fb8af420 -> Node0x55c0fb8af640;
+	Node0x55c0fb8af420 -> Node0x55c0fb8af270;
+	Node0x55c0fb8af640 [shape=record,label="{sqlite3.c:204028:}"];
+	Node0x55c0fb8af640 -> Node0x55c0fb8b0250;
+	Node0x55c0fb8af640 -> Node0x55c0fb8b02a0;
+	Node0x55c0fb8b0250 [shape=record,label="{sqlite3.c:204029:}"];
+	Node0x55c0fb8b0250 -> Node0x55c0fb8b02a0;
+	Node0x55c0fb8b02a0 [shape=record,label="{sqlite3.c:204033:}"];
+	Node0x55c0fb8b02a0 -> Node0x55c0fb8af5b0;
+	Node0x55c0fb8af5b0 [shape=record,label="{sqlite3.c:204027:}"];
+	Node0x55c0fb8af5b0 -> Node0x55c0fb8af420;
+	Node0x55c0fb8af270 [shape=record,label="{sqlite3.c:204036:}"];
+	Node0x55c0fb8af270 -> Node0x55c0fb8b1760;
+	Node0x55c0fb8af270 -> Node0x55c0fb8b1800;
+	Node0x55c0fb8b1760 [shape=record,label="{sqlite3.c:204037:}"];
+	Node0x55c0fb8b1760 -> Node0x55c0fb8b17b0;
+	Node0x55c0fb8b1800 [shape=record,label="{sqlite3.c:204040:}"];
+	Node0x55c0fb8b1800 -> Node0x55c0fb8b17b0;
+	Node0x55c0fb8b17b0 [shape=record,label="{%94}"];
+	Node0x55c0fb8b17b0 -> Node0x55c0fb8ad7d0;
+	Node0x55c0fb8ad7d0 [shape=record,label="{sqlite3.c:204043:}"];
+}

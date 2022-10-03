@@ -1,0 +1,5 @@
+digraph "CFG for 'fts3MIBufferSetGlobal' function" {
+	label="CFG for 'fts3MIBufferSetGlobal' function";
+
+	Node0x55c0fb3af630 [shape=record,label="{sqlite3.c:192665:}"];
+}

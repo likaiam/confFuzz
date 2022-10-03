@@ -1,0 +1,17 @@
+digraph "CFG for 'acttab_action_size' function" {
+	label="CFG for 'acttab_action_size' function";
+
+	Node0x56256529e540 [shape=record,label="{lemon.c:789:}"];
+	Node0x56256529e540 -> Node0x5625652c3e00;
+	Node0x5625652c3e00 [shape=record,label="{lemon.c:791:}"];
+	Node0x5625652c3e00 -> Node0x5625652c3fc0;
+	Node0x5625652c3e00 -> Node0x5625652c3f70;
+	Node0x5625652c3fc0 [shape=record,label="{lemon.c:791:}"];
+	Node0x5625652c3fc0 -> Node0x5625652c3f70;
+	Node0x5625652c3f70 [shape=record,label="{lemon.c:791:}"];
+	Node0x5625652c3f70 -> Node0x5625652c4b00;
+	Node0x5625652c3f70 -> Node0x5625652c3ef0;
+	Node0x5625652c4b00 [shape=record,label="{lemon.c:791:}"];
+	Node0x5625652c4b00 -> Node0x5625652c3e00;
+	Node0x5625652c3ef0 [shape=record,label="{lemon.c:792:}"];
+}

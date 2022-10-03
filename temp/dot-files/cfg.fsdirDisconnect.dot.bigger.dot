@@ -1,0 +1,5 @@
+digraph "CFG for 'fsdirDisconnect' function" {
+	label="CFG for 'fsdirDisconnect' function";
+
+	Node0x56027686dcf0 [shape=record,label="{shell.c:2732:}"];
+}

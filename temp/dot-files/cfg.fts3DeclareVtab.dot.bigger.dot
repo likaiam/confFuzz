@@ -1,0 +1,41 @@
+digraph "CFG for 'fts3DeclareVtab' function" {
+	label="CFG for 'fts3DeclareVtab' function";
+
+	Node0x55c0fad87200 [shape=record,label="{sqlite3.c:177045:}"];
+	Node0x55c0fad87200 -> Node0x55c0fad87620;
+	Node0x55c0fad87200 -> Node0x55c0fad87670;
+	Node0x55c0fad87620 [shape=record,label="{sqlite3.c:177047:}"];
+	Node0x55c0fad87620 -> Node0x55c0fad8cb90;
+	Node0x55c0fad87620 -> Node0x55c0fad8cbe0;
+	Node0x55c0fad8cb90 [shape=record,label="{sqlite3.c:177053:}"];
+	Node0x55c0fad8cb90 -> Node0x55c0fad8cc30;
+	Node0x55c0fad8cbe0 [shape=record,label="{sqlite3.c:177053:}"];
+	Node0x55c0fad8cbe0 -> Node0x55c0fad8cc30;
+	Node0x55c0fad8cc30 [shape=record,label="{sqlite3.c:177053:}"];
+	Node0x55c0fad8cc30 -> Node0x55c0fad8e240;
+	Node0x55c0fad8e240 [shape=record,label="{sqlite3.c:177058:}"];
+	Node0x55c0fad8e240 -> Node0x55c0fad8e530;
+	Node0x55c0fad8e240 -> Node0x55c0fad8e4e0;
+	Node0x55c0fad8e530 [shape=record,label="{sqlite3.c:177058:}"];
+	Node0x55c0fad8e530 -> Node0x55c0fad8e4e0;
+	Node0x55c0fad8e4e0 [shape=record,label="{sqlite3.c:177058:}"];
+	Node0x55c0fad8e4e0 -> Node0x55c0fad8e460;
+	Node0x55c0fad8e4e0 -> Node0x55c0fad8e090;
+	Node0x55c0fad8e460 [shape=record,label="{sqlite3.c:177059:}"];
+	Node0x55c0fad8e460 -> Node0x55c0fad8e3d0;
+	Node0x55c0fad8e3d0 [shape=record,label="{sqlite3.c:177058:}"];
+	Node0x55c0fad8e3d0 -> Node0x55c0fad8e240;
+	Node0x55c0fad8e090 [shape=record,label="{sqlite3.c:177065:}"];
+	Node0x55c0fad8e090 -> Node0x55c0fad90220;
+	Node0x55c0fad8e090 -> Node0x55c0fad90130;
+	Node0x55c0fad90220 [shape=record,label="{sqlite3.c:177067:}"];
+	Node0x55c0fad90220 -> Node0x55c0fad901d0;
+	Node0x55c0fad90220 -> Node0x55c0fad90130;
+	Node0x55c0fad90130 [shape=record,label="{sqlite3.c:177068:}"];
+	Node0x55c0fad90130 -> Node0x55c0fad90180;
+	Node0x55c0fad901d0 [shape=record,label="{sqlite3.c:177070:}"];
+	Node0x55c0fad901d0 -> Node0x55c0fad90180;
+	Node0x55c0fad90180 [shape=record,label="{sqlite3.c:177073:}"];
+	Node0x55c0fad90180 -> Node0x55c0fad87670;
+	Node0x55c0fad87670 [shape=record,label="{sqlite3.c:177077:}"];
+}

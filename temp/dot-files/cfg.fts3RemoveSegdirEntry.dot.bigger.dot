@@ -1,0 +1,10 @@
+digraph "CFG for 'fts3RemoveSegdirEntry' function" {
+	label="CFG for 'fts3RemoveSegdirEntry' function";
+
+	Node0x55c0fb1cc9f0 [shape=record,label="{sqlite3.c:191160:}"];
+	Node0x55c0fb1cc9f0 -> Node0x55c0fb1dec90;
+	Node0x55c0fb1cc9f0 -> Node0x55c0fb1dece0;
+	Node0x55c0fb1dec90 [shape=record,label="{sqlite3.c:191169:}"];
+	Node0x55c0fb1dec90 -> Node0x55c0fb1dece0;
+	Node0x55c0fb1dece0 [shape=record,label="{sqlite3.c:191175:}"];
+}

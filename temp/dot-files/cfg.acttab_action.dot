@@ -1,0 +1,31 @@
+digraph "CFG for 'acttab_action' function" {
+	label="CFG for 'acttab_action' function";
+
+	Node0x56256528cae0 [shape=record,label="{lemon.c:639:}"];
+	Node0x56256528cae0 -> Node0x562565298140;
+	Node0x56256528cae0 -> Node0x562565298190;
+	Node0x562565298140 [shape=record,label="{lemon.c:641:}"];
+	Node0x562565298140 -> Node0x562565299230;
+	Node0x562565298140 -> Node0x5625652998a0;
+	Node0x562565299230 [shape=record,label="{lemon.c:645:}"];
+	Node0x5625652998a0 [shape=record,label="{lemon.c:648:}"];
+	Node0x5625652998a0 -> Node0x562565298190;
+	Node0x562565298190 [shape=record,label="{lemon.c:649:}"];
+	Node0x562565298190 -> Node0x56256529a030;
+	Node0x562565298190 -> Node0x56256529a290;
+	Node0x56256529a030 [shape=record,label="{lemon.c:650:}"];
+	Node0x56256529a030 -> Node0x56256529a240;
+	Node0x56256529a290 [shape=record,label="{lemon.c:654:}"];
+	Node0x56256529a290 -> Node0x56256529b190;
+	Node0x56256529a290 -> Node0x56256529b1e0;
+	Node0x56256529b190 [shape=record,label="{lemon.c:654:}"];
+	Node0x56256529b190 -> Node0x56256529b1e0;
+	Node0x56256529b1e0 [shape=record,label="{lemon.c:655:}"];
+	Node0x56256529b1e0 -> Node0x56256529ba70;
+	Node0x56256529b1e0 -> Node0x56256529bac0;
+	Node0x56256529ba70 [shape=record,label="{lemon.c:656:}"];
+	Node0x56256529ba70 -> Node0x56256529bac0;
+	Node0x56256529bac0 [shape=record,label="{%68}"];
+	Node0x56256529bac0 -> Node0x56256529a240;
+	Node0x56256529a240 [shape=record,label="{lemon.c:660:}"];
+}

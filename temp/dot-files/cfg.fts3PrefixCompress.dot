@@ -1,0 +1,22 @@
+digraph "CFG for 'fts3PrefixCompress' function" {
+	label="CFG for 'fts3PrefixCompress' function";
+
+	Node0x55c0fb0827f0 [shape=record,label="{sqlite3.c:188664:}"];
+	Node0x55c0fb0827f0 -> Node0x55c0fb0987f0;
+	Node0x55c0fb0987f0 [shape=record,label="{sqlite3.c:188670:}"];
+	Node0x55c0fb0987f0 -> Node0x55c0fb098b30;
+	Node0x55c0fb0987f0 -> Node0x55c0fb098a90;
+	Node0x55c0fb098b30 [shape=record,label="{sqlite3.c:188670:}"];
+	Node0x55c0fb098b30 -> Node0x55c0fb098ae0;
+	Node0x55c0fb098b30 -> Node0x55c0fb098a90;
+	Node0x55c0fb098ae0 [shape=record,label="{sqlite3.c:188670:}"];
+	Node0x55c0fb098ae0 -> Node0x55c0fb098a90;
+	Node0x55c0fb098a90 [shape=record,label="{sqlite3.c:188670:}"];
+	Node0x55c0fb098a90 -> Node0x55c0fb098a10;
+	Node0x55c0fb098a90 -> Node0x55c0fb098640;
+	Node0x55c0fb098a10 [shape=record,label="{sqlite3.c:188670:}"];
+	Node0x55c0fb098a10 -> Node0x55c0fb098980;
+	Node0x55c0fb098980 [shape=record,label="{sqlite3.c:188670:}"];
+	Node0x55c0fb098980 -> Node0x55c0fb0987f0;
+	Node0x55c0fb098640 [shape=record,label="{sqlite3.c:188672:}"];
+}

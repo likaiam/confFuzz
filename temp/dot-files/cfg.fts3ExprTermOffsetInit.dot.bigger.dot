@@ -1,0 +1,19 @@
+digraph "CFG for 'fts3ExprTermOffsetInit' function" {
+	label="CFG for 'fts3ExprTermOffsetInit' function";
+
+	Node0x55c0fb308830 [shape=record,label="{sqlite3.c:194028:}"];
+	Node0x55c0fb308830 -> Node0x55c0fb3216d0;
+	Node0x55c0fb308830 -> Node0x55c0fb321720;
+	Node0x55c0fb3216d0 [shape=record,label="{sqlite3.c:194040:}"];
+	Node0x55c0fb3216d0 -> Node0x55c0fb321720;
+	Node0x55c0fb321720 [shape=record,label="{sqlite3.c:194044:}"];
+	Node0x55c0fb321720 -> Node0x55c0fb321e50;
+	Node0x55c0fb321e50 [shape=record,label="{sqlite3.c:194044:}"];
+	Node0x55c0fb321e50 -> Node0x55c0fb322070;
+	Node0x55c0fb321e50 -> Node0x55c0fb321ca0;
+	Node0x55c0fb322070 [shape=record,label="{sqlite3.c:194045:}"];
+	Node0x55c0fb322070 -> Node0x55c0fb321fe0;
+	Node0x55c0fb321fe0 [shape=record,label="{sqlite3.c:194044:}"];
+	Node0x55c0fb321fe0 -> Node0x55c0fb321e50;
+	Node0x55c0fb321ca0 [shape=record,label="{sqlite3.c:194051:}"];
+}
