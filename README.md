@@ -38,6 +38,27 @@ popd
 git clone https://github.com/sqlite/sqlite.git
 export SUBJECT=$PWD/bld/sqlite3
 ```
+5) Generate CG and intra-procedural CFGs from subject (i.e., sqlite3).
+```bash
+# Set aflgo-instrumenter
+export CC=$ConfFuzz/afl-clang-fast
+export CXX=$ConFuzz/afl-clang-fast++
+
+# Set aflgo-instrumentation flags
+export COPY_CFLAGS=$CFLAGS
+export COPY_CXXFLAGS=$CXXFLAGS
+export ADDITIONAL="-targets=$TMP_DIR/BBtargets.txt -outdir=$TMP_DIR -flto -fuse-ld=gold -Wl,-plugin-opt=save-temps"
+export CFLAGS="$CFLAGS $ADDITIONAL"
+export CXXFLAGS="$CXXFLAGS $ADDITIONAL"
+
+# Build sqlite3 (in order to generate CG and CFGs).
+# Meanwhile go have a coffee ☕️
+export LDFLAGS=-lpthread
+pushd $SUBJECT/bld
+  ../configure --disable-shared
+  make clean
+  make 
+popd
 # How to fuzz the instrumented binary
 * We set the exponential annealing-based power schedule (-z exp).
 * We set the time-to-exploitation to 45min (-c 45m), assuming the fuzzer is run for about an hour.
