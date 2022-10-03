@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'MED P' ) ,( 'MED P' ) ,( 'v1' ) ,( 'LG PKG' ) ,( 'x' ) ; UPDATE v0 SET v1 = randomblob ( v1 ) ; SELECT * , * , * , 1 , * AS alias FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

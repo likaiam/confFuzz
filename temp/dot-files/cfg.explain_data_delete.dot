@@ -1,5 +1,0 @@
-digraph "CFG for 'explain_data_delete' function" {
-	label="CFG for 'explain_data_delete' function";
-
-	Node0x5602773ec8c0 [shape=record,label="{shell.c:14129:}"];
-}

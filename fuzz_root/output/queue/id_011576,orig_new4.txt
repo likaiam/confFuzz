@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'x' ) ,( 'EUROPE' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE VIEW v5 AS SELECT v1 AS generate_series , v1 AS q FROM v2 AS x1 , v0 AS x2 WHERE v1 = generate_series ; SELECT * FROM v5 UNION SELECT * FROM v2 ORDER BY v1 , v6 DESC , v7 ; 

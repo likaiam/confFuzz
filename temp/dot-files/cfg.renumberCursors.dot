@@ -1,5 +1,0 @@
-digraph "CFG for 'renumberCursors' function" {
-	label="CFG for 'renumberCursors' function";
-
-	Node0x55c0f63abe80 [shape=record,label="{sqlite3.c:139470:}"];
-}

@@ -1,5 +1,0 @@
-digraph "CFG for 'unicodeClose' function" {
-	label="CFG for 'unicodeClose' function";
-
-	Node0x55c0f88a3f70 [shape=record,label="{sqlite3.c:194526:}"];
-}

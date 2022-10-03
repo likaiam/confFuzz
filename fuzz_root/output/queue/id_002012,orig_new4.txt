@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v1' ) ,( '13' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( '17' , 1 ) ,( '1995-03-15' , 1 ) ,( 'v0' , 9223372036854775807 ) ,( 'v1' , 1 ) ; SELECT CASE WHEN v3 NOT IN ( 'x' , nth_value ( v3 , 10 ) OVER( ORDER BY v3 ) ) THEN 'x' ELSE 'CANADA' END FROM v2 ; 

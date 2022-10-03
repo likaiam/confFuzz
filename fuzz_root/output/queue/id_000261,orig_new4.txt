@@ -1,1 +1,0 @@
-SELECT v7 , v6 FROM v4 WHERE 'PROMO%%' IN ( v5 ) ; INSERT INTO v8 ( v9 ) VALUES ( 10 ) ,( 10 ) ; UPDATE v10 SET v11 = ( SELECT 1 FROM v12 ) ; 

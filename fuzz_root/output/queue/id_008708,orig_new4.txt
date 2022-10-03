@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'b' ) ,( 'x' ) ; CREATE TRIGGER x AFTER INSERT ON v0 BEGIN INSERT OR REPLACE INTO v0 SELECT DISTINCT sum ( v1 + zeroblob ( v1 ) ) FROM v0 LIMIT 10 ; END ; INSERT OR FAIL INTO v0 SELECT * FROM v0 ; INSERT INTO v0 ( v1 , v1 , v1 ) VALUES ( 'x' , 2 , 'test' ) ,( 'test' , 10 , 'SM BOX' ) ; 

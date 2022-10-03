@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3UnlinkAndDeleteTable' function" {
-	label="CFG for 'sqlite3UnlinkAndDeleteTable' function";
-
-	Node0x55c0f83e7a20 [shape=record,label="{sqlite3.c:115957:}"];
-}

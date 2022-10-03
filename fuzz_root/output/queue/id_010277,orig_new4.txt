@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; UPDATE v0 SET v1 = ( SELECT 10 FROM v0 , v0 , v0 , v0 , v0 ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( '13' , 1 ) ,( 'SM CASE' , 3 ) ,( 'v1' , 10 ) ,( '%%green%%' , 10 ) ; SELECT CASE WHEN v3 NOT IN ( 3 , 9 , 10 ) THEN 'SM PACK' ELSE '29' END FROM v2 ORDER BY CAST ( v4 AS ) ; 

@@ -1,1 +1,0 @@
-SELECT v1 AS x ORDER BY ( SELECT v3 ORDER BY 1 ) ; CREATE TABLE v4 ( v5 , v7 AS( v5 + v6 ) , v6 AS( v5 ) CHECK( v5 ) ) ; UPDATE v4 SET v5 = NULL ; 

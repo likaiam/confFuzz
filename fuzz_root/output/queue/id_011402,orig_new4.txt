@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; CREATE VIEW v4 AS SELECT v3 AS f1 FROM v0 WHERE v1 MATCH NOT ( 'v1' = 'GERMANY' AND v3 = 2 ) ORDER BY v3 DESC , v1 DESC ; UPDATE v0 SET v1 = ( SELECT 10 FROM v4 GROUP BY zeroblob ( typeof ( 'x' ) ) ) ; 

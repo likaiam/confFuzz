@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_threadsafe' function" {
-	label="CFG for 'sqlite3_threadsafe' function";
-
-	Node0x55c0f696f2f0 [shape=record,label="{sqlite3.c:170418:}"];
-}

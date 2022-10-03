@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_value_text16be' function" {
-	label="CFG for 'sqlite3_value_text16be' function";
-
-	Node0x55c0f54458c0 [shape=record,label="{sqlite3.c:86155:}"];
-}

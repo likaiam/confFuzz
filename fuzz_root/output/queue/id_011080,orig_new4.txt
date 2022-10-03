@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 , v2 INTEGER AS( '1995-03-15' ) CHECK( 1 ) CHECK( v2 NOT LIKE 'v1' ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 10 ) ; SELECT v2 FROM v0 WHERE v2 IN ( SELECT 10 + v2 FROM v0 ) ; UPDATE v0 SET v1 = randomblob ( DISTINCT 'x' + v1 + julianday ( v2 ) ) ; VACUUM ; 

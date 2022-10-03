@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v3 ) VALUES ( 127 ) ,( 10 ) ; INSERT INTO v0 ( v3 ) VALUES ( 2 ) ,( 1 ) ,( 10 ) ,( 10 ) ,( 1 ) ,( 10 ) ,( 9223372036854775807 ) ,( 2147483647 ) ,( 9223372036854775807 ) ; SELECT v2 , v1 = ( v2 OR NOT v1 ) , group_concat ( v3 ) OVER( ) FROM v0 ; 

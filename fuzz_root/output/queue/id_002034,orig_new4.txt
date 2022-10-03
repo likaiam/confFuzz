@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'x' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'v0' , 10 ) ,( 'Brand#23' , 1 ) ,( 'v0' , 127 ) ; SELECT max ( v3 ) FROM v2 GROUP BY v3 ; 

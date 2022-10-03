@@ -1,5 +1,0 @@
-digraph "CFG for 'initText' function" {
-	label="CFG for 'initText' function";
-
-	Node0x560276dd7270 [shape=record,label="{shell.c:803:}"];
-}

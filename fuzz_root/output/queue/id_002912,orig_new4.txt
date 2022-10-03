@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v0' ) ,( 's%' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'EUROPE' , 0 ) ,( 'Brand#12' , 2 ) ,( 'x' , 10 ) ,( 'testtest' , 12 ) ; SELECT v1 , count ( * ) OVER( ORDER BY v1 NULLS LAST ) FROM v2 , v2 , v0 ; 

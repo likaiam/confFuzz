@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 INTEGER , v2 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 3 ) ; INSERT INTO v0 ( v2 ) VALUES ( 2.100000 ) ,( 0 ) ,( 0 ) ; DELETE FROM v0 WHERE v2 = ( SELECT v2 FROM v0 AS x GROUP BY v3 , v2 HAVING v2 > 1.100000 ) OR v3 <= 3 + 10 ; 

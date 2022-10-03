@@ -1,1 +1,0 @@
-SELECT 10 AS x ORDER BY ( SELECT v1 WHERE v3 >= x ( x () , 'AIR REG' ) ORDER BY 1 ) ; CREATE TABLE v4 ( v7 , v6 AS( v7 + v7 ) , v5 AS( v7 ) CHECK( v7 ) ) ; UPDATE v4 SET v5 = NULL ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( CASE WHEN v1 IS NOT NULL + julianday ( '13' ) = 9223372036854775807 THEN 10 ELSE 1 END ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'testtest' ) ,( '23' ) ,( 'Brand#12' ) ,( 'testtest' ) ,( 'x' ) ; UPDATE v0 SET v1 = randomblob ( 16 ) ; SELECT * FROM v0 UNION SELECT DISTINCT v1 = zeroblob ( 10 ) FROM v0 ORDER BY v1 ; 

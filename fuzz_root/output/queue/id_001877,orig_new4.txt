@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(10) , v2 INTEGER CHECK( v1 != lower ( 'Felix Fürstenberg' ) ) ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 4294967295 ) ,( 10 ) ; CREATE TABLE v3 ( v5 INTEGER PRIMARY KEY , v4 INT ) ; INSERT INTO v3 ( v4 ) VALUES ( 9223372036854775807 ) ,( 0 ) ; SELECT v2 , sum ( v2 ) AS m FROM v0 WHERE v1 = v2 AND v1 = 0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHAR(15) UNIQUE ON CONFLICT ABORT , v2 INT PRIMARY KEY ON CONFLICT REPLACE ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v0' ) ,( 'CANADA' ) ,( 'AIR' ) ,( '29' ) ; UPDATE v0 SET v2 = randomblob ( 10 ) ; SELECT v1 FROM v0 WHERE v1 IN ( 0 , 3 , 2000 ) ORDER BY v2 DESC ; UPDATE v0 SET v2 = zeroblob ( 10 ) ; 

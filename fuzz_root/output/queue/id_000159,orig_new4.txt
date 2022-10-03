@@ -1,1 +1,0 @@
-PRAGMA page_size=10; ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; INSERT INTO main . v2 VALUES ( 10 ) ; SELECT v2 . v5 FROM v2 AS a JOIN v2 AS b ON v2 . v4 = v2 . v6 WHERE v2 . v3 IN ( 1 , 10 , 2 ) ; 

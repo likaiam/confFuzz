@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; SELECT * FROM v0 WHERE v2 GLOB 'x' ; DELETE FROM v0 WHERE ( v2 = 3 AND ( v1 = 1 OR v1 = 2 ) ) OR ( SELECT * FROM v0 WHERE ( v1 ) <= 's%' GROUP BY v1 ) = v2 ; DELETE FROM v0 WHERE v2 = ( SELECT v1 FROM v0 WHERE v3 = 0 OR v1 > 10 ) OR v1 <= 0 + 1 ; 

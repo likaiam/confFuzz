@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3PagerGet' function" {
-	label="CFG for 'sqlite3PagerGet' function";
-
-	Node0x55c0f6f60a20 [shape=record,label="{sqlite3.c:59521:}"];
-}

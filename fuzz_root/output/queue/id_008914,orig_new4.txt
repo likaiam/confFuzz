@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; INSERT INTO v0 ( v3 ) VALUES ( 0 ) ,( 3 ) ; DELETE FROM v0 WHERE v2 MATCH ( SELECT v3 , sum ( v1 ) OVER( ORDER BY v3 ) AS m FROM v0 WHERE v2 OR 10 ) OR v1 = 'v0' ; 

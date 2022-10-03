@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3AggInfoPersistWalkerInit' function" {
-	label="CFG for 'sqlite3AggInfoPersistWalkerInit' function";
-
-	Node0x55c0f678ce80 [shape=record,label="{sqlite3.c:109688:}"];
-}

@@ -1,1 +1,0 @@
-SELECT ieee754 ( random () % 4294967296 ) IS NULL ; SELECT * FROM v0 , v1 WHERE v2 = v3 AND v4 = 1 ; SELECT * FROM v5 INDEXED BY v6 , v7 , v8 WHERE v10 = v11 AND v9 = 10 ; 

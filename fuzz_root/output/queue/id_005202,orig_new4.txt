@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'MED P' ) ,( 'x' ) ,( 'v0' ) ,( 'x' ) ,( 'CANADA' ) ; UPDATE v0 SET v1 = randomblob ( 10 ) ; SELECT * FROM v0 WHERE v1 GLOB abs ( v1 MATCH 'LG PKG' ) IS NULL ORDER BY v1 DESC , 1 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( '23' ) ,( 'v1' ) ,( 'x' ) ,( '1994-01-01' ) ,( 'v0' ) ; UPDATE v0 SET v1 = randomblob ( 'v0' + v1 + julianday ( v1 ) ) ; SELECT sum ( v1 ) , total ( v1 ) FROM v0 GROUP BY v1 ; SELECT v1 FROM v0 ORDER BY sum ( datetime () IS NOT NULL ) OVER( ORDER BY v1 NOT LIKE printf () ) DESC ; 

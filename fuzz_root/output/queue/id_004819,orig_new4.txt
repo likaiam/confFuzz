@@ -1,1 +1,0 @@
-SELECT zeroblob ( 2000 ) UNION ALL SELECT zeroblob ( 10 * 10 * 9 ) ; SELECT * FROM v0 AS REVENUE INDEXED BY v1 , v2 WHERE v5 = v4 AND v3 = 1 ; 

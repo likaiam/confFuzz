@@ -1,1 +1,0 @@
-CREATE VIEW v0 ( v8 , v10 , v5 , v3 , v9 , v1 , v11 , v6 , v7 , v4 , v2 ) AS SELECT * FROM v0 , temp . v0 ; CREATE VIEW v12 AS SELECT v4 AS f1 FROM v0 ; SELECT v9 FROM v0 WHERE v7 = v11 AND v11 = v5 ; 

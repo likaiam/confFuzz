@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 INT ) ; INSERT INTO v0 ( v2 , v1 ) VALUES ( 10 , 1 ) ; INSERT INTO v0 ( v1 , v2 , v1 ) VALUES ( 1 , 1 , 9223372036854775807 ) ,( 0 , 2000 , 10 ) ; SELECT CAST ( ( SELECT v1 FROM v0 WHERE 0 = v1 ) AS INT ) , v1 / 2 FROM v0 ; 

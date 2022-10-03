@@ -1,5 +1,0 @@
-digraph "CFG for 'explainTempTable' function" {
-	label="CFG for 'explainTempTable' function";
-
-	Node0x55c0f9c2e350 [shape=record,label="{sqlite3.c:137059:}"];
-}

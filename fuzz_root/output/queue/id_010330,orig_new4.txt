@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; BEGIN EXCLUSIVE ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 2000 ) ; UPDATE v0 SET v1 = ( SELECT DISTINCT max ( NULL , v2 ) ) ; 

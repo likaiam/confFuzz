@@ -1,5 +1,0 @@
-digraph "CFG for 'fts3GetDeltaVarint' function" {
-	label="CFG for 'fts3GetDeltaVarint' function";
-
-	Node0x55c0faf069e0 [shape=record,label="{sqlite3.c:176905:}"];
-}

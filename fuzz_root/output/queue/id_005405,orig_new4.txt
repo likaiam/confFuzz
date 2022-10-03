@@ -1,1 +1,0 @@
-PRAGMA soft_heap_limit=10; ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v1' ) ,( 'v1' ) ; CREATE TABLE v1 ( v2 , v3 ) ; CREATE INDEX v4 ON v1 ( v3 , v2 ) WHERE - ( v3 BETWEEN 10 AND 1 ) ; SELECT * , 2 , 0 , 10 , 10 FROM v1 RIGHT OUTER JOIN v1 ON v3 = v3 WHERE v2 >= 10 ; 

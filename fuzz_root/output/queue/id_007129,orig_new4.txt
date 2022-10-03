@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; CREATE VIEW v4 AS SELECT count ( * ) OVER( ) FROM v0 ; UPDATE v0 SET v3 = ( SELECT 10 FROM v4 , v0 , v4 , v4 , v4 ) ; 

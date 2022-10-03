@@ -1,5 +1,0 @@
-digraph "CFG for 'apndDlOpen' function" {
-	label="CFG for 'apndDlOpen' function";
-
-	Node0x560276928f00 [shape=record,label="{shell.c:4245:}"];
-}

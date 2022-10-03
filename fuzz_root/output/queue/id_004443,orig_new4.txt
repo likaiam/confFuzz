@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 DOUBLE PRIMARY KEY , v1 UNIQUE AS( v2 ) ) ; INSERT INTO v0 VALUES ( 9 ) ,( 3 ) ,( 10 ) ; DELETE FROM v0 WHERE v2 / 10 AND 'v1' == substr ( 'v1' , 1 ) ; INSERT INTO v0 SELECT DISTINCT quote ( v2 ) FROM v0 ; RELEASE x ; 

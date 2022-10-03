@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v2 , v3 ) ; INSERT INTO v0 ( v2 ) VALUES ( 'PROMO%%' ) ,( 'UTF-16le' ) ,( 0 ) ,( 'v0' ) ,( 0 ) ,( 1 ) ,( 0 ) ; UPDATE v0 SET v3 = v1 + 10 WHERE v2 MATCH - 'v1' ; DELETE FROM v0 WHERE v3 MATCH - 2000.100000 ; 

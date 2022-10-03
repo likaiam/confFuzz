@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v3 ) VALUES ( 1 ) ,( 10 ) ; INSERT INTO v0 ( v3 ) VALUES ( 1.100000 ) ,( 10 ) ,( 1 ) ; DELETE FROM v0 WHERE v3 != lower ( ( SELECT typeof ( v3 ) AS xyz FROM v0 ) ) OR v2 = 'LG PKG' ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHAR(25) ) ; SELECT '' + 3 ; CREATE TABLE v2 ( v4 INTEGER PRIMARY KEY , v3 INT ) ; SELECT sqlite_compileoption_used ( NULL ) ; SELECT * FROM v2 , v0 WHERE v1 = v2 . v3 OR v1 = v2 . v3 ; 

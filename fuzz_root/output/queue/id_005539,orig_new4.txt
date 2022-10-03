@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHECK( v1 NOT LIKE printf () ) ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'DELIVER IN PERSON' ) ,( 'x' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v0 SELECT upper ( v3 ) FROM v0 LEFT JOIN v2 ON v4 GLOB v4 + changes () ; SELECT v1 , SUM ( v1 ) FROM v0 ; 

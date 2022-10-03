@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_snprintf' function" {
-	label="CFG for 'sqlite3_snprintf' function";
-
-	Node0x55c0f5495410 [shape=record,label="{sqlite3.c:30898:}"];
-}

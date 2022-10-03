@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE typeof ( 'x' ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 10 ) ,( 10 ) ; CREATE TABLE v2 ( v3 INTEGER PRIMARY KEY , v4 INT ) ; INSERT INTO v0 ( v1 ) VALUES ( 3 ) ,( 8 ) ; SELECT v1 , sum ( v1 ) AS m FROM v0 WHERE v1 = v1 AND v1 = 3 ; 

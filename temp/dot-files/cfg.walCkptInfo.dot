@@ -1,5 +1,0 @@
-digraph "CFG for 'walCkptInfo' function" {
-	label="CFG for 'walCkptInfo' function";
-
-	Node0x55c0f591b9e0 [shape=record,label="{sqlite3.c:62284:}"];
-}

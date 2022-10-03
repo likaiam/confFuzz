@@ -1,5 +1,0 @@
-digraph "CFG for 'memtraceRoundup' function" {
-	label="CFG for 'memtraceRoundup' function";
-
-	Node0x56027693d1b0 [shape=record,label="{shell.c:4385:}"];
-}

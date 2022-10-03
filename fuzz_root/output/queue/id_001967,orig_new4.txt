@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '%%green%%' ) ,( 'testtest' ) ,( 'x' ) ; SELECT length ( v1 ) FROM v0 ORDER BY length ( typeof ( v1 ) ) DESC ; INSERT INTO v0 VALUES ( 'v1' , 9223372036854775807 ) ,( 'x' , 0 ) ,( 'Felix Fürstenberg' , 1 ) ,( 'v1' , 3 ) ; SELECT MIN ( v1 ) AS REVENUE , v1 AS alias FROM v0 ; 

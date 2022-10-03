@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( '199419' ) ,( 'SM CASE' ) ,( 'v0' ) ,( 'v1' ) ,( 'AIR REG' ) ; UPDATE v0 SET v1 = randomblob ( ( SELECT v1 FROM v0 WHERE v0 . v1 = v0 . v1 GROUP BY v0 . v1 , v1 ) + v1 ) ; SELECT instr ( v1 , v1 + TYPEOF ( v1 ) ) FROM v0 ; 

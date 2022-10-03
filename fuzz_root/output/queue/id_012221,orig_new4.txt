@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v3 , v1 , v2 ) ; SELECT CASE WHEN v2 NOT IN ( 12.100000 * AVG ( v1 ) , 0 ) OR v1 = 2000 THEN 'x' ELSE 'v0' END FROM v0 ; CREATE UNIQUE INDEX v4 ON v0 ( v1 , v1 , v1 , v2 , v2 ) ; INSERT INTO v0 ( v3 ) VALUES ( 'v0' ) ,( 'x' ) ,( 10 ) ,( 'x' ) ,( 3 ) ,( 1 ) ,( 2 ) ON CONFLICT DO NOTHING ; ANALYZE v4 ; 

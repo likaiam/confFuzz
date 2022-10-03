@@ -1,5 +1,0 @@
-digraph "CFG for 'deleteconfig' function" {
-	label="CFG for 'deleteconfig' function";
-
-	Node0x562565256540 [shape=record,label="{lemon.c:1318:}"];
-}

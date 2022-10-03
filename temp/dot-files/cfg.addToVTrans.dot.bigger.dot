@@ -1,5 +1,0 @@
-digraph "CFG for 'addToVTrans' function" {
-	label="CFG for 'addToVTrans' function";
-
-	Node0x55c0f8508aa0 [shape=record,label="{sqlite3.c:147747:}"];
-}

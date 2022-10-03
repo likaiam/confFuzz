@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 AS( v2 + julianday ( 'x' ) ) , v1 ) ; INSERT INTO v0 ( v2 ) VALUES ( 2000 ) ,( 3 ) ,( 10 ) ; CREATE TABLE v4 ( v5 INTEGER , v6 INT ) ; INSERT INTO v0 ( v3 ) VALUES ( 1 ) ,( 9 ) ; SELECT * FROM v0 , v4 WHERE v6 = v6 AND v6 = 10 ; 

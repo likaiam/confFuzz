@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'MED BOX' ) ,( 'v0' ) ,( 'Max Mustermann' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'x' , 0 ) ,( 'Max Mustermann' , 10 ) ,( 'x' , 10 ) ; SELECT MIN ( min ( v1 ) , count ( v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(10) ) ; INSERT INTO v0 ( v1 , v1 , v1 , v1 , v1 ) VALUES ( 10 , 9 , 10 , 10 , NULL ) ; UPDATE v0 SET v1 = ( SELECT zipfile ( v0 . v1 , 10 , random () % 0 , v1 ) IS NOT NULL FROM v0 AS PROMO_REVENUE ) ; 

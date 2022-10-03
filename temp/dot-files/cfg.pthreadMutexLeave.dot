@@ -1,5 +1,0 @@
-digraph "CFG for 'pthreadMutexLeave' function" {
-	label="CFG for 'pthreadMutexLeave' function";
-
-	Node0x55c0f6f9e420 [shape=record,label="{sqlite3.c:28212:}"];
-}

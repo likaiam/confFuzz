@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v2 , v3 , v1 ) ; DELETE FROM v0 WHERE v2 = 'Max Mustermann' ; UPDATE v0 SET v3 = NULL , v2 = NULL WHERE v2 = 'SM BOX' ; 

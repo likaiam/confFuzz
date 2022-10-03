@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '23' ) ,( 'v1' ) ,( 'LG CASEaaaaaaaaaaaa' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE VIEW v5 AS SELECT DISTINCT ( SELECT DISTINCT sum ( random () % 10 ) OVER( ORDER BY v6 ) AS m ) LIMIT 1 ; SELECT * FROM v0 UNION SELECT * FROM v5 ; 

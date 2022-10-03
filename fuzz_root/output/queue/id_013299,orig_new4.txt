@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v1 ) VALUES ( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ; UPDATE v0 SET v2 = ( SELECT printf ( 'v1' , 1 , '%%green%%' ) WHERE 3 GLOB v3 ) ; SELECT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v2 WHERE v0 . v1 IN ( v0 . v2 , 10 , 1.100000 ) ; 

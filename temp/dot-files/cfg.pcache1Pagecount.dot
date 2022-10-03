@@ -1,5 +1,0 @@
-digraph "CFG for 'pcache1Pagecount' function" {
-	label="CFG for 'pcache1Pagecount' function";
-
-	Node0x55c0fa956460 [shape=record,label="{sqlite3.c:52761:}"];
-}

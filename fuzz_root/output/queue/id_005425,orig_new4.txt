@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'Brand#34' ) ,( 'Felix Fürstenberg' ) ; CREATE TABLE v2 ( v3 , v4 CHAR(25) ) ; INSERT INTO v2 VALUES ( 'X' , 3 ) ,( 'SM PACK' , 10 ) ,( '13' , 1 ) ,( 'x' , 10 ) ; SELECT * , 'Felix Fürstenberg' FROM v2 WHERE v4 NOT LIKE randomblob ( 3 ) AND v3 = 42 AND v4 = 1 ; 

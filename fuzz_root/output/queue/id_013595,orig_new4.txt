@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER UNIQUE ON CONFLICT REPLACE CHECK( datetime ( datetime ( - v1 ) , v1 ) IS NOT NULL < v1 NOT LIKE randomblob ( randomblob ( DISTINCT 10 ) ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 127 ) ,( 10.100000 ) ,( 'x' ) ,( 'x' ) ,( 'x' ) ; ANALYZE ; DELETE FROM v0 WHERE v1 = 10 OR v1 = 2 ; 

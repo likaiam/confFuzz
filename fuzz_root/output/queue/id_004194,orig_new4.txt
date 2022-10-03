@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v1' ) ,( 'v1' ) ; CREATE TABLE f1 ( v4 , v3 ) ; INSERT OR REPLACE INTO v0 SELECT DISTINCT CAST ( round ( v1 / 10 ) AS INTEGER ) FROM v0 LIMIT 1 ; SELECT 'Brand#12' , substr ( v1 , 9223372036854775807 ) AS m FROM v0 ORDER BY lower ( v1 ) ; 

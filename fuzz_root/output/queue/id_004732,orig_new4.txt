@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(10) ) ; REPLACE INTO v0 ( v1 ) VALUES ( NULL ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 10 ) ; VACUUM ; UPDATE v0 SET v1 = ( SELECT nth_value ( v1 , 10 ) OVER( ORDER BY v1 ) + nth_value ( v1 , 0 ) OVER( ) ) ; 

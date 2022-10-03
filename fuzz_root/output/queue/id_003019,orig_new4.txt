@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHAR(200) PRIMARY KEY UNIQUE ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'LG CASEaaaaaaaaaaaa' ) ,( 'Al' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'AIR REG' , 3 ) ,( 'forest%%' , 10 ) ,( 'v0' , 0 ) ,( 'SM PACK' , 1 ) ; SELECT v3 , rank () OVER( ORDER BY v4 DESC ) FROM v2 ; 

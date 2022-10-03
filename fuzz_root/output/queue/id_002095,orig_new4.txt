@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 AS( * ) CHECK( v2 ) , v1 AS( 1 >= v3 ) , v3 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 0 ) ; UPDATE v0 SET v1 = ( SELECT 1 FROM v0 WHERE 10 < v3 AND 10 >= v1 ) ; 

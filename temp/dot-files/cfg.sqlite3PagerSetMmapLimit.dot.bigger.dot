@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3PagerSetMmapLimit' function" {
-	label="CFG for 'sqlite3PagerSetMmapLimit' function";
-
-	Node0x55c0f58afa60 [shape=record,label="{sqlite3.c:57347:}"];
-}

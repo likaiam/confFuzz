@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; SELECT * FROM v0 WHERE v2 GLOB 'v0' ; DELETE FROM v0 WHERE v2 != lower ( 'LG CASEaaaaaaaaaaaa' ) OR v2 = 'c' ; 

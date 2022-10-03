@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(10) UNIQUE ON CONFLICT REPLACE ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 12 ) ; UPDATE v0 SET v1 = ( SELECT datetime ( v1 , v1 ) IS NOT NULL ) WHERE v1 = zeroblob ( 10 ) ; 

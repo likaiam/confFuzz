@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3BtreeCursorHintFlags' function" {
-	label="CFG for 'sqlite3BtreeCursorHintFlags' function";
-
-	Node0x55c0f7fd5150 [shape=record,label="{sqlite3.c:67749:}"];
-}

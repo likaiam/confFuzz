@@ -1,5 +1,0 @@
-digraph "CFG for 'jrnlBufferSize' function" {
-	label="CFG for 'jrnlBufferSize' function";
-
-	Node0x55c0f723e9d0 [shape=record,label="{sqlite3.c:55048:}"];
-}

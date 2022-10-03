@@ -1,1 +1,0 @@
-PRAGMA cache_spill=false; ; CREATE TABLE v0 ( v2 INTEGER PRIMARY KEY ON CONFLICT IGNORE , v3 AS( v2 + v1 ) , v1 AS( v2 ) CHECK( v2 ) ) ; UPDATE v0 SET v1 = NULL ; 

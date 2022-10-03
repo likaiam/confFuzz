@@ -1,1 +1,0 @@
-SELECT quote ( zeroblob ( 9 * 10 * 10 ) ) ; REPLACE INTO v0 ( v1 ) VALUES ( NULL ) WITH HINT ( NO_CACHE ) ; 

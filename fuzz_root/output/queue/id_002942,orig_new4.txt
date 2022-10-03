@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v0' ) ,( 'a' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE UNIQUE INDEX v5 ON v2 ( v3 , v4 ) WHERE CASE v4 WHEN 'SM PACK' THEN 1 ELSE 1 END ; SELECT SUM ( v1 * ( 10 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

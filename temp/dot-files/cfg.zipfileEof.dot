@@ -1,5 +1,0 @@
-digraph "CFG for 'zipfileEof' function" {
-	label="CFG for 'zipfileEof' function";
-
-	Node0x560276b06010 [shape=record,label="{shell.c:7822:}"];
-}

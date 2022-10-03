@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v2 ) VALUES ( 1 ) ,( 127 ) ; SELECT count ( * ) FROM v0 AS prep JOIN v0 AS b ON v0 . v1 = v0 . v2 LEFT JOIN v0 ; 

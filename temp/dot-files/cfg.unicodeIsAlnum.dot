@@ -1,5 +1,0 @@
-digraph "CFG for 'unicodeIsAlnum' function" {
-	label="CFG for 'unicodeIsAlnum' function";
-
-	Node0x55c0f88a98c0 [shape=record,label="{sqlite3.c:194432:}"];
-}

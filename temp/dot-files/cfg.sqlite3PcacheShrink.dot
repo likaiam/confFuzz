@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3PcacheShrink' function" {
-	label="CFG for 'sqlite3PcacheShrink' function";
-
-	Node0x55c0f57eaa40 [shape=record,label="{sqlite3.c:51854:}"];
-}

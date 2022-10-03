@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'LG BOX' ) ,( 'x' ) ,( 'v1' ) ,( 'v0' ) ,( 'Y' ) ; UPDATE v0 SET v1 = zeroblob ( 10 ) ; SELECT v1 FROM v0 WHERE v1 IN ( 9223372036854775807 , v1 > v1 NOT LIKE last_insert_rowid () , 9223372036854775807 ) ORDER BY v1 DESC ; 

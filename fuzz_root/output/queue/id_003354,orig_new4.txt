@@ -1,1 +1,0 @@
-SELECT quote ( zeroblob ( 3 * 1 * 10 ) ) ; REPLACE INTO v0 ( prep ) VALUES ( NULL ) ; 

@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 AS( * ) CHECK( v2 ) , v1 , v3 ) ; INSERT INTO v0 ( v2 ) VALUES ( 0 ) ,( 2 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10.100000 ) ,( 3 ) ,( 10 ) ; UPDATE v0 SET v1 = ( SELECT count ( * ) FROM v0 , v0 LEFT JOIN v0 , v0 ) ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 VARCHAR(100) AS( typeof ( v2 ) ) , v3 UNIQUE GENERATED ALWAYS AS( 10 ) , v1 AS( NOT v2 <= 'v0' + v1 ) ) ; INSERT INTO v0 VALUES ( NULL ) ; 

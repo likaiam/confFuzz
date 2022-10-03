@@ -1,1 +1,0 @@
-PRAGMA foreign_keys=true; ; CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( 'SM PACK' ) ,( 'x' ) ,( 'x' ) ,( 'v0' ) ,( 'v1' ) ; UPDATE v0 SET v1 = randomblob ( ( SELECT v1 FROM v0 WHERE v0 . v1 = v0 . v1 GROUP BY v0 . v1 , v1 ) + v1 ) ; SELECT v1 , sum ( v1 ) AS m FROM v0 ; 

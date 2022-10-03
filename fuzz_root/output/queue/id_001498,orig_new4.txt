@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 DOUBLE CHECK( v2 > v2 ) , v1 INTEGER AS( 'x' ) CHECK( 1 ) CHECK( v1 NOT LIKE 'x' ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 10 ) ; SELECT v0 . v2 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v1 IN ( v0 . v2 , 1 , v0 . v1 ) ; 

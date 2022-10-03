@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 INTEGER , v1 INTEGER AS( 'Felix Fürstenberg' ) CHECK( 10 ) CHECK( v2 NOT LIKE 'x' ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 3 ) ; SELECT v0 . v2 FROM v0 AS a JOIN v0 ON NULL = v0 . v2 WHERE v0 . v1 IN ( v0 . v1 , 2000 , v0 . v2 ) ; 

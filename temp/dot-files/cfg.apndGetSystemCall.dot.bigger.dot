@@ -1,5 +1,0 @@
-digraph "CFG for 'apndGetSystemCall' function" {
-	label="CFG for 'apndGetSystemCall' function";
-
-	Node0x560276935be0 [shape=record,label="{shell.c:4280:}"];
-}

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 's%' ) ,( '17' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v0' , 0 ) ,( 'v1' , 3 ) ,( 'x' , 9223372036854775807 ) ,( 'forest%%' , 10 ) ; SELECT quote ( zeroblob ( 10 ) ) ; 

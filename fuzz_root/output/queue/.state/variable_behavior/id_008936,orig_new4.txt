@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v1 ) VALUES ( '17' ) ,( 'v1' ) ,( 'test' ) ,( 'SM PACK' ) ,( 'v1' ) ,( '%%BRASS' ) ; UPDATE v0 SET v2 = randomblob ( v3 + v3 ) ; SELECT DISTINCT * FROM v0 AS AVG_YEARLY JOIN v0 NATURAL JOIN v0 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v3 ) ) DESC ; 

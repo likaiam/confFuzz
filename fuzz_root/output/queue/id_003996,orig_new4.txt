@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v4 INTEGER AS( v3 + julianday ( * ) ) , v1 , v3 , v2 ) ; SELECT * FROM v0 AS AVG_YEARLY JOIN v0 AS b ON v0 . v3 = v0 . v1 NATURAL JOIN v0 ; 

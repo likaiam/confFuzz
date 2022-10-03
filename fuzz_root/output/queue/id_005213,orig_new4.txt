@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE randomblob ( 1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'X' ) ,( 'LG BOX' ) ,( 'v1' ) ,( 'v0' ) ,( 'x' ) ; SELECT v1 + v1 , v1 + v1 FROM v0 ORDER BY v1 + v1 , v1 + v1 ; SELECT * FROM v0 UNION SELECT DISTINCT v1 = zeroblob ( 10 ) FROM v0 ORDER BY v1 ; 

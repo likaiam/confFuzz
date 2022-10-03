@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'MED P' ) ,( '%%green%%' ) ,( 'x' ) ; CREATE TABLE v2 ( v3 VARCHAR(200) , v4 ) ; INSERT INTO v2 VALUES ( '' , 0 ) ,( 'v1' , 0 ) ,( '199419' , 1 ) ,( '23' , 1 ) ; SELECT SUM ( DISTINCT v3 * ( 10 - v4 ) ) AS REVENUE , v4 AS alias FROM v2 ; 

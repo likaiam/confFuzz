@@ -1,5 +1,0 @@
-digraph "CFG for 'fts3auxEofMethod' function" {
-	label="CFG for 'fts3auxEofMethod' function";
-
-	Node0x55c0fabcb510 [shape=record,label="{sqlite3.c:182990:}"];
-}

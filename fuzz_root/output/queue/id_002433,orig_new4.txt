@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 , v1 INTEGER AS( 'v0' ) CHECK( 9 ) CHECK( v1 MATCH NOT ( 'v1' = 'v1' AND v2 < 2000 = v1 ) ) NOT NULL UNIQUE ) ; REPLACE INTO v0 ( v2 ) VALUES ( NULL ) ; 

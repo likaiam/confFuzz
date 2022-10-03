@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3BtreeSetPagerFlags' function" {
-	label="CFG for 'sqlite3BtreeSetPagerFlags' function";
-
-	Node0x55c0f57ea9f0 [shape=record,label="{sqlite3.c:69734:}"];
-}

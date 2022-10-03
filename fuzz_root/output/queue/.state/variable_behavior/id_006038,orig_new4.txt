@@ -1,1 +1,0 @@
-PRAGMA writable_schema = 1;CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v1' ) ,( 'v0' ) ,( '199419' ) ,( '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' ) ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT * FROM v0 ON v1 = 0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

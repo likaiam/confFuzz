@@ -1,1 +1,0 @@
-PRAGMA locking_mode=EXCLUSIVE; ; VACUUM ; SELECT NULL ; 

@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; PRAGMA hard_heap_limit=1; ; CREATE TABLE v4 ( v6 INTEGER PRIMARY KEY , v5 INT ) ; INSERT INTO v4 ( v6 ) VALUES ( 8 ) ,( 10 ) ; SELECT * FROM v4 , v0 WHERE v2 = v2 AND v1 = 0 ; 

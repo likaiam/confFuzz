@@ -1,5 +1,0 @@
-digraph "CFG for 'stats_line' function" {
-	label="CFG for 'stats_line' function";
-
-	Node0x562565737ba0 [shape=record,label="{lemon.c:1618:}"];
-}

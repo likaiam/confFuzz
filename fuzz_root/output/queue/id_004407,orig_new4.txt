@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 INT ) ; SELECT v1 , v2 , sum ( v1 ) FROM v0 GROUP BY v2 , v2 ORDER BY v1 DESC , v1 DESC ; SELECT * FROM v0 GROUP BY v2 ORDER BY length ( v2 ) DESC ; 

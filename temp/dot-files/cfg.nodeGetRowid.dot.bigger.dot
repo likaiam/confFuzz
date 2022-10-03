@@ -1,5 +1,0 @@
-digraph "CFG for 'nodeGetRowid' function" {
-	label="CFG for 'nodeGetRowid' function";
-
-	Node0x55c0f6e0a6f0 [shape=record,label="{sqlite3.c:198632:}"];
-}

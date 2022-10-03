@@ -1,1 +1,0 @@
-UPDATE v0 SET v1 = tx_exec ( 'x' ) ; INSERT INTO v2 SELECT tx_exec ( '1995-03-15' ) ; CREATE TABLE v3 ( v5 , v4 ) ; INSERT INTO v3 VALUES ( 'b' , 1 ) ,( 'v1' , 0 ) ,( 'x' , 2 ) ,( 'c' , 10 ) ; SELECT CASE WHEN v5 NOT IN ( 2000 , 10 , 10 ) THEN 'Y' ELSE 'x' END FROM v3 ; 

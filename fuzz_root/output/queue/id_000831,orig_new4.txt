@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; PRAGMA integrity_check=2; ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( '23' , 1 ) ,( 'v1' , 2 ) ,( 'v0' , 10 ) ,( 'v0' , 10 ) ; SELECT v1 , SUM ( v1 ) FROM v0 ; 

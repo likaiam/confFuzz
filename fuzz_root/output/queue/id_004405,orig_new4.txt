@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 CHAR(25) ) ; INSERT INTO v0 VALUES ( 9 , 'Brand#34' ) ,( 0 , '13' ) ,( 3 , 'test' ) ,( 0 , 'Y' ) ; SELECT instr ( v2 , v1 ) FROM v0 GROUP BY v1 ORDER BY v2 ASC ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER AS( '17' + julianday ( 'UTF-16le' ) ) ) ; ALTER TABLE sqlite1234 RENAME TO User ; SELECT v1 , v1 FROM v0 WHERE v1 IS NOT NULL ; 

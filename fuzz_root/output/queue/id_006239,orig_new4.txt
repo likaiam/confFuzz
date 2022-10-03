@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 DOUBLE AS( v2 + julianday ( v3 , 2 , v3 NOT LIKE v3 ) ) , v1 , v2 ) ; REINDEX v0 ; CREATE TABLE v4 ( v5 INTEGER PRIMARY KEY , v6 INT ) ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 1 ) ; SELECT min ( v5 ) , max ( v5 ) FROM v4 ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'unixTempFileInit' function" {
-	label="CFG for 'unixTempFileInit' function";
-
-	Node0x55c0f69ba050 [shape=record,label="{sqlite3.c:41239:}"];
-}

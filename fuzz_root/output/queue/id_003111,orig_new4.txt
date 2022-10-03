@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; CREATE VIEW v4 AS SELECT 3.100000 * SUM ( count ( ( NOT ( v6 IS NULL ) ) AND ( NOT ( v7 IS NULL ) ) ) ) FROM v4 ; UPDATE v4 SET v8 = ( SELECT 3 FROM v4 ) ; 

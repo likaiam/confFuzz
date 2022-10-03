@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHAR(100) CHECK( v1 != substr ( ( v1 * 9223372036854775807 ) > v1 , 0 ) NOT LIKE randomblob ( ( v1 ) ) ) ) ; INSERT INTO v0 VALUES ( '1995-03-15' ) ,( 'v1' ) ,( 'x' ) ; CREATE VIEW v2 AS SELECT * FROM v0 UNION ALL SELECT * FROM v0 ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'Brand#12' ) ,( 10 ) ; SELECT * FROM v2 UNION SELECT * FROM v2 ; 

@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; INSERT INTO v0 ( v1 ) VALUES ( 3 ) ,( 1 ) ; PRAGMA quick_check=1; ; UPDATE v0 SET v3 = ( SELECT 1 FROM v0 ORDER BY substr ( v2 , 10 , 0 ) + 10 = v2 DESC ) ; 

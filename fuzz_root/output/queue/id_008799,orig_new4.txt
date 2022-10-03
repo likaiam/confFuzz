@@ -1,1 +1,0 @@
-PRAGMA secure_delete=FAST; ; CREATE TABLE v0 ( v1 INT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'b' ) ,( '1994-01-01' ) ,( 'MED BOX' ) ,( 'x' ) ,( 'v0' ) ; UPDATE v0 SET v1 = randomblob ( ( SELECT v1 FROM v0 WHERE v0 . v1 = v0 . v1 GROUP BY v0 . v1 , v1 ) + v1 ) ; SELECT instr ( v1 , v1 + julianday ( * ) ) FROM v0 ; 

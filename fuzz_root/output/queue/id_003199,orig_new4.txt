@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; CREATE VIRTUAL TABLE v4 USING rtree ( v5 TEXT , v7 FLOAT , v8 , v6 ) ; INSERT INTO v0 ( v3 ) VALUES ( 2 ) ,( 127 ) ; UPDATE v4 SET v6 = ( SELECT 1 FROM v0 ORDER BY substr ( v3 , 1 , 1 ) + 2.100000 DESC ) ; 

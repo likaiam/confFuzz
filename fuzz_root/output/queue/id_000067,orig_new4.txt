@@ -1,1 +1,0 @@
-PRAGMA soft_heap_limit=18446744073709551488; ; CREATE TABLE v0 ( v1 , v2 VARCHAR(30) , v3 AS( v1 ) CHECK( v2 ) ) ; UPDATE v0 SET v3 = NULL ; 

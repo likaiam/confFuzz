@@ -1,5 +1,0 @@
-digraph "CFG for 'zipfileGetU16' function" {
-	label="CFG for 'zipfileGetU16' function";
-
-	Node0x56027672f6a0 [shape=record,label="{shell.c:7261:}"];
-}

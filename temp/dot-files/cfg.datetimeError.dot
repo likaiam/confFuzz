@@ -1,5 +1,0 @@
-digraph "CFG for 'datetimeError' function" {
-	label="CFG for 'datetimeError' function";
-
-	Node0x55c0fa786a80 [shape=record,label="{sqlite3.c:23462:}"];
-}

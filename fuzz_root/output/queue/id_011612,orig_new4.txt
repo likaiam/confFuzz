@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; INSERT INTO v0 VALUES ( 10 , 0.100000 , 1 ) ; UPDATE v0 SET v2 = ( SELECT sqlite_version ( * ) GROUP BY 1 ) ; 

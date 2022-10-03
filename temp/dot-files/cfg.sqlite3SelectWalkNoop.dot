@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3SelectWalkNoop' function" {
-	label="CFG for 'sqlite3SelectWalkNoop' function";
-
-	Node0x55c0f644a110 [shape=record,label="{sqlite3.c:101413:}"];
-}

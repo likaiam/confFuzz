@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 , v1 AS( v3 + v3 ) , v3 AS( NOT CASE ( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' = 'Brand#34' AND ( v2 IN ( 3 , 3 ) ) = 1 ) WHEN 'x' THEN 0 ELSE 3 END ) CHECK( v3 ) ) ; SELECT DISTINCT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v1 IN ( v0 . v3 , v0 . v1 , v0 . v2 ) ; SELECT v0 . v3 AS REVENUE FROM v0 ; 

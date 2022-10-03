@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE randomblob ( 1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 10.100000 ) ,( 12.100000 ) ; UPDATE v0 SET v1 = randomblob ( 10 ) ; SELECT * FROM v0 UNION SELECT DISTINCT lower ( v1 ) FROM v0 ORDER BY v1 ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'setPendingFd' function" {
-	label="CFG for 'setPendingFd' function";
-
-	Node0x55c0f706d5b0 [shape=record,label="{sqlite3.c:37301:}"];
-}

@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; CREATE VIEW v4 AS SELECT count ( * ) FROM v0 ; UPDATE v0 SET v3 = ( SELECT v3 FROM v4 JOIN v0 ON v3 = v1 WHERE v3 = v1 AND v3 = 10 ) ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'x' ) ,( 'MED P' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'v0' , 3 ) ,( 'SM CASE' , 127 ) ,( 'v0' , 0 ) ; SELECT CASE WHEN v3 NOT IN ( 0 , 2 , 2000 ) THEN 'DELIVER IN PERSON' ELSE 'Brand#23' END FROM v2 AS REVENUE ; 

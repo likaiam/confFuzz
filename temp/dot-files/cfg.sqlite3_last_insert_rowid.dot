@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_last_insert_rowid' function" {
-	label="CFG for 'sqlite3_last_insert_rowid' function";
-
-	Node0x55c0f69d5260 [shape=record,label="{sqlite3.c:171349:}"];
-}

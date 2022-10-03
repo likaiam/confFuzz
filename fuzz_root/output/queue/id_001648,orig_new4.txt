@@ -1,1 +1,0 @@
-SELECT unlikely ( 'v1' ) ; ROLLBACK TO SAVEPOINT x ; INSERT INTO v0 VALUES ( 2 ) ; SELECT v2 . v6 FROM v1 AS a JOIN v2 AS b ON v2 . v3 = v2 . v5 WHERE v2 . v4 IN ( 1 , 10 , 10 ) ; 

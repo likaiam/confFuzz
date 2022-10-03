@@ -1,1 +1,0 @@
-ATTACH 'y' AS myname ; CREATE TABLE main . v0 ( v3 , v2 , v1 ) ; CREATE TEMP TRIGGER tmp AFTER INSERT ON t1 BEGIN SELECT 'SM BOX' ; END ; DETACH temp ; DROP TRIGGER tmp ; 

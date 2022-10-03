@@ -1,5 +1,0 @@
-digraph "CFG for 'jsonQuoteFunc' function" {
-	label="CFG for 'jsonQuoteFunc' function";
-
-	Node0x55c0fa8d84a0 [shape=record,label="{sqlite3.c:196438:}"];
-}

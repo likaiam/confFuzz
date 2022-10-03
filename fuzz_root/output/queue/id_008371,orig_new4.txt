@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT CHECK( v1 NOT LIKE printf ( 'x' , min ( 0 , 127 , NULL , v1 ) ) ) PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 10 ) ; CREATE INDEX v2 ON v0 ( v1 ) WHERE v1 NOT IN ( 2 ) AND v1 NOT IN ( 10 ) ; VACUUM ; 

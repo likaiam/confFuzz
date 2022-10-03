@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'forest%%' ) ,( 'v0' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE INDEX v5 ON v2 ( v4 , v4 , v4 , v4 , v4 , v3 ) ; SELECT v4 AS x FROM v2 WHERE v4 IN ( 9223372036854775807 , 1 ) AND v3 IN ( 1 , 2 ) ORDER BY v4 ; 

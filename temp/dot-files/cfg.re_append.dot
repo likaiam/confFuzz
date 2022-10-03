@@ -1,5 +1,0 @@
-digraph "CFG for 're_append' function" {
-	label="CFG for 're_append' function";
-
-	Node0x560276a15490 [shape=record,label="{shell.c:6296:}"];
-}

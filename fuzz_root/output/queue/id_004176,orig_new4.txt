@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; SELECT coalesce ( instr ( 'v1' , 'Y' ) , 1 ) LIMIT 1 ; SELECT coalesce ( instr ( 3 , NULL ) , 10 ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 1 ) ; SELECT * FROM generate_series , v0 WHERE v1 = v1 AND v1 = 3 ; 

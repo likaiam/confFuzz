@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; SELECT v2 FROM v0 WHERE v1 = 'v0' OR v2 = 'x' OR v1 = 'v1' ; UPDATE v0 SET v3 = ( SELECT 10 FROM v0 ) ; 

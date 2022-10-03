@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3Fts3SegReaderStart' function" {
-	label="CFG for 'sqlite3Fts3SegReaderStart' function";
-
-	Node0x55c0fab83230 [shape=record,label="{sqlite3.c:189440:}"];
-}

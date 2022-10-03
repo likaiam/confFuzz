@@ -1,1 +1,0 @@
-PRAGMA encoding='UTF-16be' ; ; CREATE TABLE v0 ( v1 CHAR(15) UNIQUE , v2 CHAR(15) PRIMARY KEY ON CONFLICT IGNORE ) ; INSERT INTO v0 ( v1 ) VALUES ( 'PROMO%%' ) ,( 'Felix Fürstenberg' ) ,( '1994-01-01' ) ,( 'x' ) ,( 'v0' ) ; UPDATE v0 SET v2 = randomblob ( 1 ) ; SELECT v2 FROM v0 WHERE v1 IN ( 9223372036854775807 , 10 , 10 ) ORDER BY v1 DESC ; 

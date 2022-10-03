@@ -1,5 +1,0 @@
-digraph "CFG for 'completionEof' function" {
-	label="CFG for 'completionEof' function";
-
-	Node0x5602768d7030 [shape=record,label="{shell.c:3486:}"];
-}

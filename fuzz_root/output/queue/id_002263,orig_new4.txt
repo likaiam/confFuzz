@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; REPLACE INTO v0 ( v3 , v1 , v1 ) VALUES ( 10 , 2000 , 10 ) ; INSERT INTO v0 ( v3 ) VALUES ( 9 ) ,( 4294967295 ) ; UPDATE v0 SET v3 = ( SELECT 10 FROM v0 ORDER BY substr ( v3 , 0 , 1 ) + 10.100000 ) ; 

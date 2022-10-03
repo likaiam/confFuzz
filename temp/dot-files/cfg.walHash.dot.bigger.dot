@@ -1,5 +1,0 @@
-digraph "CFG for 'walHash' function" {
-	label="CFG for 'walHash' function";
-
-	Node0x55c0f696c450 [shape=record,label="{sqlite3.c:62561:}"];
-}

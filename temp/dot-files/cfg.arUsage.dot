@@ -1,5 +1,0 @@
-digraph "CFG for 'arUsage' function" {
-	label="CFG for 'arUsage' function";
-
-	Node0x560277495ca0 [shape=record,label="{shell.c:17526:}"];
-}

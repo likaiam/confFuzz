@@ -1,1 +1,0 @@
-SELECT nth_value ( v1 , 1 ) OVER( ORDER BY v3 ) ; CREATE TABLE v4 ( v5 INTEGER PRIMARY KEY ) ; INSERT INTO v4 VALUES ( 3 ) ; SELECT v4 . v5 FROM v4 AS a JOIN v4 AS b ON v4 . v5 = v4 . v5 WHERE v4 . v5 IN ( 10 , 10 , 10 ) ; 

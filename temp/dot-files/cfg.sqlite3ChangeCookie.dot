@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3ChangeCookie' function" {
-	label="CFG for 'sqlite3ChangeCookie' function";
-
-	Node0x55c0f90aacf0 [shape=record,label="{sqlite3.c:117116:}"];
-}

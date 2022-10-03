@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v3 , v2 ) ; SELECT max ( ( SELECT count ( v1 ) FROM v0 ) ) FROM v0 ; INSERT INTO v0 ( v2 ) VALUES ( 3.100000 ) ,( 1 ) ,( 0 ) ; SELECT v0 . v2 FROM v0 AS myname JOIN v0 ON NULL = v0 . v1 WHERE v0 . v3 IN ( v0 . v3 , 10 , v0 . v2 ) ; SELECT group_concat ( v2 , v2 ) FROM v0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v0' ) ,( 'CANADA' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v1' , 2 ) ,( 'UTF-16le' , 0 ) ,( 'GERMANY' , 10 ) ,( 'x' , 3 ) ; SELECT * , 'LG PKG' FROM v0 WHERE v1 = 0 AND v1 = 10 AND v1 = 2 ; 

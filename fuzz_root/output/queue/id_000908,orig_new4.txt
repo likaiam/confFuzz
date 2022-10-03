@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'X' ) ,( 'GERMANY' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 0 ) ,( 'Brand#12' , 10 ) ,( 'AIR' , 0 ) ,( 'LG PKG' , 10 ) ; SELECT CASE WHEN v3 NOT IN ( 0 , 10 , ( v4 < 1 AND v4 = 10 ) ) THEN 'v0' ELSE '29' END FROM v2 ; 

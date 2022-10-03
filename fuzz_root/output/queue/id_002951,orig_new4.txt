@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'UTF-16le' ) ,( 'x' ) ,( 'x' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX v5 ON v0 ( v1 , v1 ) WHERE - ( v1 BETWEEN - ( v1 BETWEEN 10 AND 10 ) AND 2 ) ; SELECT SUM ( v1 * ( 10 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

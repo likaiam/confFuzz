@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'Brand#12' ) ,( 'LG CASEaaaaaaaaaaaa' ) ,( '1995-03-15' ) ,( 'v1' ) ,( '17' ) ; UPDATE v0 SET v1 = randomblob ( ( 10 = 10 AND v1 = 1 ) + v1 + julianday ( * ) ) ; SELECT * FROM v0 AS a JOIN v0 ON NULL = v0 . v1 NATURAL JOIN v0 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ) DESC ; 

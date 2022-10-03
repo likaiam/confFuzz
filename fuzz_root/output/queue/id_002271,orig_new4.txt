@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; INSERT INTO v0 SELECT randomblob ( 1 ) , randomblob ( 10 ) , randomblob ( 3 ) FROM v0 ; UPDATE v0 SET v3 = ( SELECT 10 FROM v0 ORDER BY substr ( count ( * ) , v1 ) + 9.100000 DESC ) ; 

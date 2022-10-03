@@ -1,1 +1,0 @@
-PRAGMA auto_vacuum=FULL; ; CREATE TABLE v0 ( v1 , v2 AS( v2 + v3 ) , v3 AS( v3 ) CHECK( v1 = ( SELECT v3 FROM v0 WHERE v2 = v2 ) ) ) ; UPDATE v0 SET v2 = NULL ; 

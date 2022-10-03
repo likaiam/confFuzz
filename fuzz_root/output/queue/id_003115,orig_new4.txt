@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; CREATE VIEW v4 AS SELECT v2 AS f1 FROM zipfile WHERE v5 MATCH NOT ( 'x' = 'Brand#23' AND v2 = 9 ) ; UPDATE v0 SET v3 = ( SELECT 3 FROM v4 ) ; 

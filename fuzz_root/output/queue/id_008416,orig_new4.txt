@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 UNIQUE ON CONFLICT IGNORE GENERATED ALWAYS AS( 2000 ) , v1 , v2 ) ; REPLACE INTO v0 ( v2 , v2 , v3 ) VALUES ( 'x' , 'b' , 9 ) ; CREATE TABLE v4 ( v5 , v6 ) ; UPDATE v0 SET v3 = ( SELECT v6 = ( SELECT v6 FROM v4 WHERE v6 = v6 ) FROM v4 ) ; SELECT quote ( - 'v1' ) , quote ( v3 ) , quote ( - 'Brand#12' >= v3 ) FROM v0 ; 

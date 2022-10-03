@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER AS( v1 + zipfile ( 'v0' ) OVER( ) ) ) ; ALTER TABLE sqlite1234 RENAME TO User ; SELECT v1 , v1 FROM v0 WHERE v1 IS NOT NULL ; 

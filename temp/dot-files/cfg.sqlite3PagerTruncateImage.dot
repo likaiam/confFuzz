@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3PagerTruncateImage' function" {
-	label="CFG for 'sqlite3PagerTruncateImage' function";
-
-	Node0x55c0f787acd0 [shape=record,label="{sqlite3.c:57804:}"];
-}

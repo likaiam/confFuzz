@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER AS( NOT v3 <= '23' + CASE WHEN v4 != 'x' THEN NOT ( 'v1' = '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' AND v4 < 2 = v3 ) IS NOT NULL ELSE 10 END ) , v4 , v3 , v2 ) ; SELECT DISTINCT * FROM v0 AS a JOIN v0 ON NULL = v0 . v2 NATURAL JOIN v0 ; 

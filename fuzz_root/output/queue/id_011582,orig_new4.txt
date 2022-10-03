@@ -1,1 +1,0 @@
-PRAGMA cell_size_check=true; ; VACUUM ; SELECT julianday ( DISTINCT ( v5 * 9 ) > v6 ) FROM v4 ; 

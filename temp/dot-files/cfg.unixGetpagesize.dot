@@ -1,5 +1,0 @@
-digraph "CFG for 'unixGetpagesize' function" {
-	label="CFG for 'unixGetpagesize' function";
-
-	Node0x55c0f57069e0 [shape=record,label="{sqlite3.c:39658:}"];
-}

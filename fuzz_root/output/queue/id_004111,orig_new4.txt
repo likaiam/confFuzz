@@ -1,1 +1,0 @@
-PRAGMA integrity_check=127; ; CREATE TABLE v0 ( v2 , v1 INTEGER AS( 'v0' ) CHECK( v1 NOT LIKE printf ( 'forest%%' , changes () ) ) CHECK( v1 NOT LIKE 'y' ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 0 ) ; DELETE FROM v0 WHERE v1 BETWEEN 42 AND 10 ; VACUUM ; 

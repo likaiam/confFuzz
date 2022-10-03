@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'SM CASE' ) ,( 'v1' ) ,( 'Al' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'v1' , 10 ) ,( 'AIR' , 2 ) ,( 'MED PACK' , 10 ) ; SELECT SUM ( v1 * ( 127 - v1 ) ) OVER( ORDER BY v1 ) AS REVENUE , v1 AS alias FROM v0 ; 

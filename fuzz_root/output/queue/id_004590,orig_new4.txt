@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; CREATE VIEW v4 AS SELECT count ( * ) FROM v0 GROUP BY lower ( v1 ) ; UPDATE v0 SET v2 = ( SELECT 3 FROM v4 JOIN v4 ON NULL = NULL ) ; 

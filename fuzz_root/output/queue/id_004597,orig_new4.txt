@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; CREATE VIEW v4 AS SELECT nth_value ( v3 , 10 ) OVER( ORDER BY v3 ) FROM v0 ; UPDATE v0 SET v3 = ( SELECT 10 FROM v4 LEFT JOIN v0 ON v2 = v2 ) ; 

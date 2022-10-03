@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 INTEGER PRIMARY KEY ON CONFLICT ABORT , v2 ) ; SELECT typeof ( v2 ) , v1 , typeof ( v1 ) , v1 , 'v0' FROM v0 ORDER BY v1 ; SELECT v2 FROM v0 WHERE v3 IN ( SELECT 2 + v1 FROM v0 ) ; VACUUM ; 

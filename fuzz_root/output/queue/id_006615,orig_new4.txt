@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v3 INTEGER AS( NOT v4 <= 'Max Mustermann' + v1 ) , v4 AS( NOT v3 <= julianday ( v3 = v3 ) ) , v2 , v1 ) ; SELECT * FROM v0 NATURAL JOIN v0 ; 

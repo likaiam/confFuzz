@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 INT ) ; INSERT INTO v0 ( v1 , v2 ) VALUES ( 1 , 3 ) ; SELECT ( SELECT count ( ( NOT ( v1 IS NULL ) ) AND ( NOT ( v1 IS NULL ) ) ) ) , rank () OVER( ) FROM v0 ; 

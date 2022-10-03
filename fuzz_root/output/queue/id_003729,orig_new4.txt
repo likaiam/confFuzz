@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'LG PKG' ) ,( 'v0' ) ,( 'v1' ) ; CREATE TABLE v2 ( v4 VARCHAR(200) , v3 ) ; INSERT INTO v2 VALUES ( 0.100000 , 1 ) ,( 'v0' , 10 ) ,( 'v0' , 3 ) ,( 'LG BOX' , 0 ) ; SELECT SUM ( DISTINCT v3 * ( 10 - v4 ) ) AS REVENUE , v3 AS alias FROM v2 GROUP BY v4 HAVING v3 > '%%green%%' ; 

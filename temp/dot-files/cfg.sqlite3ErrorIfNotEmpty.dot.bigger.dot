@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3ErrorIfNotEmpty' function" {
-	label="CFG for 'sqlite3ErrorIfNotEmpty' function";
-
-	Node0x55c0fa389f30 [shape=record,label="{sqlite3.c:110281:}"];
-}

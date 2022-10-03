@@ -1,1 +1,0 @@
-SELECT 1.100000 * AVG ( v1 ) ORDER BY ( SELECT v3 ORDER BY 1 ) ; CREATE TABLE v4 ( v6 , v5 AS( v7 + v5 ) , v7 AS( v5 ) CHECK( v5 ) ) ; UPDATE v4 SET v7 = NULL ; 

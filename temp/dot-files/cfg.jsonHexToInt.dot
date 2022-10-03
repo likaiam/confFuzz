@@ -1,5 +1,0 @@
-digraph "CFG for 'jsonHexToInt' function" {
-	label="CFG for 'jsonHexToInt' function";
-
-	Node0x55c0fa894540 [shape=record,label="{sqlite3.c:195508:}"];
-}

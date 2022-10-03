@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v3 , v2 ) ; DELETE FROM v0 WHERE v2 = 10 OR v1 = ( SELECT v2 FROM v0 WHERE v3 = 2147483647 OR v3 < 1 ) ; DELETE FROM v0 WHERE v2 = 'v0' ; UPDATE v0 SET v3 = ( SELECT v2 FROM v0 WHERE v1 > 127 OR 'Brand#23' + julianday ( '30' ) AND v1 NOT LIKE 'v1' LIMIT 10 ) ; 

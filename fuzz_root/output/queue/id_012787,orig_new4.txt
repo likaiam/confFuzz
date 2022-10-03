@@ -1,1 +1,0 @@
-PRAGMA encoding='UTF-16'; ; CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( 'testtest' ) ,( 'v0' ) ,( 'v0' ) ,( 'v1' ) ,( 'Al' ) ; UPDATE v0 SET v1 = randomblob ( sum ( v1 ) OVER( ORDER BY v1 ) AS m ) ; SELECT * FROM v0 ON v1 = 10 ORDER BY length ( typeof ( v1 ) ) DESC ; 

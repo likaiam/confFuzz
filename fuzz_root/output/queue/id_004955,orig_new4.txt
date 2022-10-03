@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER UNIQUE ON CONFLICT REPLACE CHECK( v1 = v1 IS NOT NULL + julianday ( '31' ) ) CHECK( ( v1 ) <= 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) NOT NULL UNIQUE ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 10 ) ; UPDATE v0 SET v1 = randomblob ( 10 ) ; SELECT * FROM v0 UNION SELECT DISTINCT * FROM v0 ORDER BY v1 ; 

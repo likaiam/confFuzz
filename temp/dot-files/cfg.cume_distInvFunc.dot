@@ -1,5 +1,0 @@
-digraph "CFG for 'cume_distInvFunc' function" {
-	label="CFG for 'cume_distInvFunc' function";
-
-	Node0x55c0fa6ea150 [shape=record,label="{sqlite3.c:160435:}"];
-}

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(1) PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 'Felix Fürstenberg' ) ,( 'v0' ) ,( 'x' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'BUILDING' , 9223372036854775807 ) ,( 'LG CASEaaaaaaaaaaaa' , 9223372036854775807 ) ,( 'v1' , 3 ) ; SELECT COUNT ( * ) FROM v2 LEFT JOIN v0 ON v1 GLOB 'LG PACK' ; 

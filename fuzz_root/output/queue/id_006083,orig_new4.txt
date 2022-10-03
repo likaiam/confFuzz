@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( '1995-09-01' ) ,( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) ,( 'x' ) ,( 'Y' ) ,( '199419' ) ON CONFLICT DO NOTHING ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT v1 , min FROM v0 GROUP BY v1 ORDER BY v1 , v1 , v1 LIMIT 2 ; 

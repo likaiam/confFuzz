@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'SM PACK' ) ,( 'v0' ) ; UPDATE v0 SET v1 = NULL , v1 = v1 , v1 = v1 ; INSERT INTO v0 VALUES ( 'v0' , 127 ) ,( 'v1' , 10 ) ,( '199419' , 10 ) ,( 'x' , 3 ) ; SELECT SUM ( v1 * ( 1 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

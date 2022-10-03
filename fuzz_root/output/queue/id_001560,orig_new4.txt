@@ -1,1 +1,0 @@
-SELECT 10 AS x ORDER BY ( SELECT SUM ( v1 * ( v3 = 'LG PACK' OR v5 = 'v0' ) ) ORDER BY 10 ) ; CREATE TABLE v6 ( v8 , v9 AS( v9 + v9 ) , v7 AS( v7 ) CHECK( v7 ) ) ; UPDATE v6 SET v7 = NULL ; 

@@ -1,1 +1,0 @@
-SELECT sqlite_compileoption_used () WHERE v1 IN ( SELECT v6 FROM v4 WHERE v5 IN ( 10 , 1 ) ) ; ALTER TABLE sqlite1234 RENAME TO User ; SELECT v13 , v12 FROM v11 WHERE v14 IS NOT NULL ; 

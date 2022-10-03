@@ -1,5 +1,0 @@
-digraph "CFG for 'rtreeReference' function" {
-	label="CFG for 'rtreeReference' function";
-
-	Node0x55c0f6e93090 [shape=record,label="{sqlite3.c:198714:}"];
-}

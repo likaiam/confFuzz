@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER UNIQUE ON CONFLICT REPLACE CHECK( datetime ( v1 ) IS NOT NULL < v1 NOT LIKE datetime ( v1 , v1 , v1 , v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'v1' ) ,( 'v0' ) ,( '29' ) ,( 'x' ) ; UPDATE v0 SET v1 = randomblob ( 'v0' == substr ( 'v1' , 10 ) ) ; DELETE FROM v0 WHERE v1 >= 10 ; 

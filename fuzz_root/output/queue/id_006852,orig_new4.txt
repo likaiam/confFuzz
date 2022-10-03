@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 , v3 AS( v2 + v3 ) , v2 AS( NOT CASE ( 'v0' = 'x' AND v3 < 0 = v2 ) WHEN 'v1' THEN 9223372036854775807 ELSE 9223372036854775807 END ) CHECK( v2 ) ) ; SELECT DISTINCT v0 . v3 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v1 IN ( v0 . v1 , v0 . v3 , v0 . v2 ) ; SELECT sum ( v1 ) , sum ( abs ( v2 ) ) FROM v0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 3 ) ,( 'v0' ) ,( 'x' ) ,( '18' ) ,( 'v1' ) ; UPDATE v0 SET v1 = CASE WHEN v1 = 2 THEN v1 ELSE v1 + 2000 END ; SELECT DISTINCT * FROM v0 AS a , v0 AS b , v0 AS c JOIN v0 NATURAL JOIN v0 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 != substr ( v1 , 3 , 2 ) NOT LIKE max ( v1 , v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'MED BOX' ) ,( '199419' ) ,( 'Brand#23' ) ,( 'x' ) ,( 'SM CASE' ) ; UPDATE v0 SET v1 = zeroblob ( v1 ) ; SELECT typeof ( 10 ) , v1 , typeof ( v1 ) , v1 , '%%BRASS' FROM v0 ; 

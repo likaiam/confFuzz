@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; SELECT * FROM v0 WHERE v3 GLOB abs ( v3 MATCH 'v0' ) IS NULL ; DELETE FROM v0 WHERE v3 = 'x' OR v3 = 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ; 

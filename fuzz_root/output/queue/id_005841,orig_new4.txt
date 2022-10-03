@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v3 , v2 ) ; INSERT INTO v0 ( v1 ) VALUES ( 3 ) ,( 0 ) ; UPDATE v0 SET v2 = ( SELECT 0 , 'SM CASE' WHERE v1 = 10 AND v1 = v2 AND v3 = v1 ) WHERE v2 <= 'v0' AND v1 < 10 ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3DeleteReturning' function" {
-	label="CFG for 'sqlite3DeleteReturning' function";
-
-	Node0x55c0f9e6a570 [shape=record,label="{sqlite3.c:116495:}"];
-}

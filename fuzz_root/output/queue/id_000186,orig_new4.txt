@@ -1,1 +1,0 @@
-PRAGMA cache_spill=true; ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 0 ) ; SELECT v0 . v1 FROM v0 AS a JOIN v0 AS b ON v0 . v1 = v0 . v1 WHERE v0 . v1 IN ( 1 , 10 , 2.100000 ) ; 

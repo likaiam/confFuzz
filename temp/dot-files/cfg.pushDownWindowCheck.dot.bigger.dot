@@ -1,5 +1,0 @@
-digraph "CFG for 'pushDownWindowCheck' function" {
-	label="CFG for 'pushDownWindowCheck' function";
-
-	Node0x55c0f94c4c70 [shape=record,label="{sqlite3.c:140355:}"];
-}

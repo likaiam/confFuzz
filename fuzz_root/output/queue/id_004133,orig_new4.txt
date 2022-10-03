@@ -1,1 +1,0 @@
-SELECT - 'v1' GROUP BY printf ( 'v0' , changes () ) ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; INSERT INTO v0 SELECT v1 FROM v0 WHERE v1 LIKE 's%' OR v1 = 'x' ; SELECT quote ( v1 ) FROM v0 WHERE v1 LIKE 'x' ORDER BY v1 ; 

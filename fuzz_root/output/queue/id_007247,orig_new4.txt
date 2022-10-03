@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'a' ) ,( 'x' ) ,( 'v1' ) ,( 'test' ) ; UPDATE v0 SET v1 = ifnull ( v1 , 1 ) ; SELECT DISTINCT * FROM v0 AS a JOIN v0 AS AVG_YEARLY ON 9223372036854775808.000000 + 10.100000 JOIN v0 JOIN v0 AS y ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY typeof ( 'v0' ) OVER( ) DESC ; 

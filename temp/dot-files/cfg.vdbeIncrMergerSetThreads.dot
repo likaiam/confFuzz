@@ -1,5 +1,0 @@
-digraph "CFG for 'vdbeIncrMergerSetThreads' function" {
-	label="CFG for 'vdbeIncrMergerSetThreads' function";
-
-	Node0x55c0f782d4b0 [shape=record,label="{sqlite3.c:99541:}"];
-}

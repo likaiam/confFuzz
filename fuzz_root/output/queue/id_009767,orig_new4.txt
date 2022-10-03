@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'x' ) ,( '31' ) ; CREATE TRIGGER x AFTER INSERT ON v0 BEGIN SELECT min ( v1 ) , v1 FROM v0 ; END ; INSERT OR FAIL INTO v0 SELECT 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' != julianday ( v1 , 10 , v1 NOT LIKE v1 ) FROM v0 ; INSERT INTO v0 SELECT NTILE ( 10 ) OVER( ORDER BY v1 ) - 0 AS nt FROM v0 ; 

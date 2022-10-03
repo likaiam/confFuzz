@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 , v1 ) ; DELETE FROM v0 WHERE v1 IS NOT NULL OR abs ( v2 ) < 10 ; CREATE VIEW v3 ( v19 , v6 , v13 , v20 , v18 , v9 , v5 , v17 , v12 , v7 , v4 , v15 , v11 , v10 , v16 , v8 , v14 ) AS SELECT v0 . v1 , v1 MATCH 'x' , v0 . v2 FROM v0 ; ALTER TABLE v0 RENAME TO v2 ; SELECT v15 , v6 FROM v3 WHERE v12 IS NOT NULL ; 

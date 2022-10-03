@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER AS( v1 + SUM ( v1 * ( 3 - v1 ) ) OVER( ORDER BY v1 ) ) ) ; ALTER TABLE sqlite1234 RENAME TO User ; SELECT v1 , v1 FROM v0 WHERE v1 IS NOT NULL ; 

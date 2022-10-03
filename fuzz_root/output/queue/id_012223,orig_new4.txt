@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 AS( * ) CHECK( v2 ) , v2 , v3 ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 0 ) ; SELECT v3 , rank () OVER( ORDER BY v1 ) FROM v0 ( v1 ) WHERE v1 BETWEEN 10 AND 10 ; 

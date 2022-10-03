@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; CREATE VIEW v4 ( v5 ) AS SELECT nth_value ( v1 , 10 ) OVER( ORDER BY v3 ) FROM v0 ; UPDATE v0 SET v2 = ( SELECT v5 FROM v4 WHERE v5 MATCH 'v0' GROUP BY nth_value ( v5 , 2 ) OVER( ORDER BY v5 ) ) ; 

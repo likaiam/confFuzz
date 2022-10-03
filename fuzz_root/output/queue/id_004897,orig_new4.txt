@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; DELETE FROM v0 WHERE v3 = 'x' OR v1 = 'EUROPE' ; INSERT INTO v0 ( v3 ) VALUES ( 10 ) ,( 0 ) ; INSERT INTO v0 ( v2 ) VALUES ( 3.100000 ) ,( 0 ) ,( 10 ) ; DELETE FROM v0 WHERE v1 != lower ( ( SELECT min ( v3 ) FROM v0 ) ) OR v1 = '%%BRASS' ; 

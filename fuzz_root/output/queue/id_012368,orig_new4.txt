@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 CHAR(25) CHECK( 'v0' != julianday ( v3 , 10 , v2 NOT LIKE v1 ) NOT LIKE randomblob ( v1 NOT LIKE v2 ) ) ) ; CREATE VIEW v4 AS SELECT v1 FROM v0 UNION ALL SELECT v3 FROM v0 ; UPDATE v0 SET v3 = ( SELECT 10 FROM v0 , v0 AS PROMO_REVENUE , v4 ) ; 

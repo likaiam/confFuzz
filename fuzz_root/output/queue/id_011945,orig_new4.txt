@@ -1,1 +1,0 @@
-PRAGMA application_id=3; ; CREATE TABLE v0 ( x1 INTEGER PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 1 ) ,( 0 ) ; VACUUM ; VACUUM ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'lockBtreeMutex' function" {
-	label="CFG for 'lockBtreeMutex' function";
-
-	Node0x55c0f76dc660 [shape=record,label="{sqlite3.c:66510:}"];
-}

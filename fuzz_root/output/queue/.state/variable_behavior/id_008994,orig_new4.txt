@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v2 , v3 ) ; INSERT INTO v0 ( v2 ) VALUES ( 0 ) ,( 4294967295 ) ,( 3 ) ,( 10 ) ,( 1 ) ,( 1 ) ,( 2000 ) ,( 1 ) ,( 10 ) ,( 1 ) ,( 2000 ) ; UPDATE v0 SET v3 = ( SELECT nth_value ( v3 , 1 ) OVER( ORDER BY v2 ) ) ; UPDATE v0 SET v1 = randomblob ( 2 ) ; SELECT printf ( 'x' ) UNION SELECT DISTINCT v1 = zeroblob ( 10 ) FROM v0 ORDER BY v2 ; 

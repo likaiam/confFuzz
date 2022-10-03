@@ -1,5 +1,0 @@
-digraph "CFG for 'jsonValidFunc' function" {
-	label="CFG for 'jsonValidFunc' function";
-
-	Node0x55c0f6dde730 [shape=record,label="{sqlite3.c:196949:}"];
-}

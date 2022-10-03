@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'SM BOX' ) ,( 'x' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'Brand#34' , 10 ) ,( 'v0' , 2 ) ,( 'Brand#12' , 1 ) ,( 'v1' , 2 ) ; SELECT v1 , SUM ( v1 ) FROM v0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER UNIQUE ON CONFLICT REPLACE CHECK( datetime ( v1 ) IS NOT NULL < v1 NOT LIKE datetime ( v1 , v1 , v1 , v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v1' ) ,( 'v0' ) ,( 'LG CASEaaaaaaaaaaaa' ) ,( 'SM BOX' ) ; UPDATE v0 SET v1 = randomblob ( 'v1' == substr ( 'v1' , 0 ) ) ; SELECT * FROM v0 LEFT JOIN v0 ON v1 = 3 OR v1 = 3 WHERE v1 IS NULL ; 

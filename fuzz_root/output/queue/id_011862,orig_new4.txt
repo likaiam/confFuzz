@@ -1,1 +1,0 @@
-PRAGMA cache_spill = 0;VACUUM ; CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; VACUUM ; VACUUM ; SELECT * FROM v0 LEFT JOIN v0 ON v2 GLOB 'Brand#12' WHERE v1 = '29' OR v1 = v0 . v2 ; 

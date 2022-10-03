@@ -1,5 +1,0 @@
-digraph "CFG for 'sqliteAuthBadReturnCode' function" {
-	label="CFG for 'sqliteAuthBadReturnCode' function";
-
-	Node0x55c0f60b3fb0 [shape=record,label="{sqlite3.c:114886:}"];
-}

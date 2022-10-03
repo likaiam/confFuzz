@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3OsCheckReservedLock' function" {
-	label="CFG for 'sqlite3OsCheckReservedLock' function";
-
-	Node0x55c0f7704ce0 [shape=record,label="{sqlite3.c:24696:}"];
-}

@@ -1,1 +1,0 @@
-PRAGMA recursive_triggers=false; ; CREATE TABLE zipfile ( c0 , c1 AS( v1 + v3 ) , c2 AS( v5 ) CHECK( v7 ) ) ; UPDATE v8 SET v9 = NULL ; 

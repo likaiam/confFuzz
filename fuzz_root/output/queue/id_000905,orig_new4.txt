@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v0' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'DELIVER IN PERSON' , 1 ) ,( 'v1' , 10 ) ,( 'x' , 10 ) ; SELECT CASE WHEN v4 NOT IN ( 1.100000 , 10 , 0 , 10 ) THEN 'v1' ELSE 'v1' END FROM v2 ; 

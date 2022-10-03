@@ -1,1 +1,0 @@
-ATTACH 'Felix Fürstenberg' AS main ; INSERT INTO v0 SELECT 10 , 10 ; CREATE TEMP TRIGGER tmp AFTER INSERT ON t1 BEGIN SELECT 'forest%%' ; END ; DETACH main ; DROP TRIGGER tmp ; 

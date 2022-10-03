@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'testtest' ) ,( 'LG PACK' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; SELECT CASE WHEN v1 NOT IN ( 3 , MIN ( v1 ) , 10 ) THEN 'v1' ELSE '13' END FROM v0 ; SELECT MIN ( v3 ) AS REVENUE , v4 AS alias FROM v2 ; 

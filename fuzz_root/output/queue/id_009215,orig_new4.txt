@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v4 INT , v2 DOUBLE , v1 INT , v3 VARCHAR(10) ) ; CREATE INDEX v5 ON v0 ( v1 , v2 , v2 , v4 , v1 , v3 , v2 , v2 ) WITH HINT ( NO_CACHE ) ; SELECT v4 , v4 , v2 FROM v0 NATURAL JOIN v5 WHERE v2 = zeroblob ( 2 ) ; 

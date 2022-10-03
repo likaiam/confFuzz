@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v1 INTEGER AS( v3 + julianday ( v2 , 1 , v2 NOT LIKE v2 ) ) , v2 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 8 ) ; INSERT INTO v0 ( v2 ) VALUES ( 0.100000 ) ,( 1 ) ,( 0 ) ; SELECT group_concat ( v1 , v2 ) OVER( ORDER BY v3 , NULL , v2 ) FROM v0 ; 

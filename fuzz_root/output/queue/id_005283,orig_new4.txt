@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v2 AS( v1 ) , v1 , v3 ) ; INSERT INTO v0 ( v2 , v1 , v1 ) VALUES ( 'b' , 3 , 0 ) ,( '30' , 0 , 0 ) ,( 'v0' , 0 , 10 ) ,( 'y' , 2 , 1 ) ; SELECT v2 FROM v0 WHERE v2 = 2 AND v2 > 1 ORDER BY v1 ; DELETE FROM v0 WHERE v3 MATCH ( SELECT DISTINCT * FROM v0 AS one , v0 AS two JOIN v0 ON NULL = v0 . v1 NATURAL JOIN v0 ) ; 

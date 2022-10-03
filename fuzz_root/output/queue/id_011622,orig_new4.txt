@@ -1,1 +1,0 @@
-CREATE VIEW v0 ( v1 ) AS SELECT length ( zeroblob ( 1 ) ) GROUP BY ( 1 ) ; SELECT DISTINCT * FROM v0 WHERE v1 < 2 OR v1 < 0 ; SELECT DISTINCT * FROM v0 NATURAL JOIN v0 JOIN v0 AS b ON v0 . v1 = NULL NATURAL JOIN v0 ; SELECT v0 . v1 FROM v0 JOIN v0 AS b ON v0 . v1 = v0 . v1 WHERE v0 . v1 IN ( 10 , 10 , 10 ) ; 

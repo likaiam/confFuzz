@@ -1,1 +1,0 @@
-SELECT 0 AS x ORDER BY ( SELECT echo_v2 ORDER BY 0 ) ; CREATE TABLE v0 ( v3 , v1 AS( v2 + v2 ) , v2 AS( v3 ) CHECK( v1 ) ) ; UPDATE v0 SET v3 = NULL ; 

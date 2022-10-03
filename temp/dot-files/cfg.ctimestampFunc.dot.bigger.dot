@@ -1,5 +1,0 @@
-digraph "CFG for 'ctimestampFunc' function" {
-	label="CFG for 'ctimestampFunc' function";
-
-	Node0x55c0fa7c2d60 [shape=record,label="{sqlite3.c:24501:}"];
-}

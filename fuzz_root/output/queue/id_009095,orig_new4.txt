@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 DOUBLE CHECK( v1 != substr ( v1 , 0 , 10 ) NOT LIKE max ( v1 , v1 ) ) PRIMARY KEY CHECK( v1 NOT LIKE last_insert_rowid () ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'Brand#34' ) ,( 's%' ) ,( 'v1' ) ,( 'v0' ) ,( 'x' ) ; UPDATE v0 SET v1 = zeroblob ( 1 ) ; SELECT typeof ( 10 ) , v1 , typeof ( v1 ) , v1 , 'v1' FROM v0 ORDER BY v1 ; 

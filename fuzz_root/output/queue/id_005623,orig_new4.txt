@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 's%' ) ,( 'x' ) ,( 'forest%%' ) ; CREATE TABLE v2 ( v4 , v3 INTEGER ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( '' , 10 ) ,( 'v1' , 1 ) ,( 'v0' , 10 ) ; SELECT SUM ( DISTINCT v3 * ( 9223372036854775807 - v4 ) ) AS REVENUE , v4 AS alias FROM v0 AS a JOIN v2 ON v3 ; 

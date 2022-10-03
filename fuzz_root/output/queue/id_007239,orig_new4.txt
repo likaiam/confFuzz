@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v7 , v3 , v5 , v9 INT , v4 , v8 , v2 , v6 INTEGER UNIQUE ON CONFLICT ROLLBACK ) ; INSERT INTO v0 ( v4 ) VALUES ( 0 ) ,( 3 ) ; VACUUM ; UPDATE v0 SET v3 = ( SELECT zipfile ( 2 , 1 , 2 , 10 , 10 ) IS NOT NULL FROM v0 ) ; 

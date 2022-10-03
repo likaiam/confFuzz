@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'GERMANY' ) ,( 'v1' ) ,( 'Brand#23' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v1' , 0 ) ,( 'v1' , 3 ) ,( 'v0' , 2000 ) ,( '30' , 0 ) ; SELECT CASE WHEN v4 NOT IN ( max ( v4 ) , 10 , 10 ) THEN '17' ELSE '29' END FROM v2 ; 

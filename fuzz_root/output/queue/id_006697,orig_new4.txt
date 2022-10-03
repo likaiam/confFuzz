@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'MED PACK' ) ,( 'v0' ) ,( 'SM CASE' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( '13' , 10 ) ,( 'v0' , 0 ) ,( 'v0' , 10 ) ,( 'v1' , 2 ) ; SELECT instr ( v1 , v1 + julianday ( 'x' ) ) FROM v0 ; 

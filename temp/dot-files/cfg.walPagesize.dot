@@ -1,5 +1,0 @@
-digraph "CFG for 'walPagesize' function" {
-	label="CFG for 'walPagesize' function";
-
-	Node0x55c0f7678830 [shape=record,label="{sqlite3.c:63557:}"];
-}

@@ -1,5 +1,0 @@
-digraph "CFG for 'seekAndWrite' function" {
-	label="CFG for 'seekAndWrite' function";
-
-	Node0x55c0f708f080 [shape=record,label="{sqlite3.c:38874:}"];
-}

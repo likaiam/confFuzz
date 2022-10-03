@@ -1,1 +1,0 @@
-SELECT zeroblob ( 1 ) INTERSECT SELECT DISTINCT printf ( 'x' , 10 , 'v1' , 10 ) ; SELECT * FROM v0 AS REVENUE INDEXED BY v1 , v2 WHERE v4 = v5 AND v3 = 0 ; 

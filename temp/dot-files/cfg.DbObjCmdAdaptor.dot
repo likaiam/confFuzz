@@ -1,5 +1,0 @@
-digraph "CFG for 'DbObjCmdAdaptor' function" {
-	label="CFG for 'DbObjCmdAdaptor' function";
-
-	Node0x55a7358f8ae0 [shape=record,label="{tclsqlite.c:3687:}"];
-}

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( randomblob ( v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) NOT LIKE printf ( '13' , lower ( 'Brand#12' ) ) ) ) ; INSERT INTO v0 VALUES ( 1 ) ,( 0 ) ; VACUUM ; VACUUM ; 

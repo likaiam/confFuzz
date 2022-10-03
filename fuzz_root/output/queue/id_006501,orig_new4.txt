@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER NOT NULL ON CONFLICT FAIL ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v0' ) ,( 'v1' ) ; UPDATE v0 SET v1 = ( SELECT sqlite_version ( * ) ) ; SELECT NULL FROM v0 AS x WHERE v1 = 0 AND v1 = 10 GROUP BY v1 ; SELECT * FROM v0 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ) DESC ; 

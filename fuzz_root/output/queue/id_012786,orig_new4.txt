@@ -1,1 +1,0 @@
-PRAGMA foreign_keys=true; ; CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; UPDATE v0 SET v1 = v1 + 1 WHERE v1 != 10 ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT * FROM v0 ON v1 = 2 ORDER BY length ( typeof ( v1 ) ) DESC ; 

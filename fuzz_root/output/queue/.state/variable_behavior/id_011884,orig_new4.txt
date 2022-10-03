@@ -1,1 +1,0 @@
-WITH tmp AS ( SELECT 0 AS d FROM v0 ) SELECT ieee754 ( 1 , random () % 9223372036854775807 ) IS NULL ; SELECT * FROM v1 , v2 WHERE v4 = v5 AND v3 = 0 ; SELECT * FROM v6 , v7 WHERE v10 = v9 AND v8 = 2 ; 

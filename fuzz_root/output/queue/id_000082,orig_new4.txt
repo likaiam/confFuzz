@@ -1,1 +1,0 @@
-PRAGMA wal_autocheckpoint = 107374182;PRAGMA wal_autocheckpoint=10; ; CREATE TABLE v0 ( v2 UNIQUE , v3 , v1 AS( v2 ) CHECK( v1 ) ) ; UPDATE v0 SET v1 = NULL ; 

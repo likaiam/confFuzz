@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 PRIMARY KEY ON CONFLICT REPLACE ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( '1994-01-01' ) ,( 'x' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v1' , 10 ) ,( 'x' , 0 ) ,( 'v0' , 2147483647 ) ,( '**%s**' , 2 ) ; SELECT SUM ( DISTINCT v1 * ( 0 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; SELECT v1 FROM v0 WHERE v1 >= 3.100000 ORDER BY v1 , v1 , v1 LIMIT 3 ; REPLACE INTO v0 ( v1 , v1 , v1 ) VALUES ( 2 , 127 , 0 ) ; CREATE VIRTUAL TABLE v2 USING rtree ( v5 AS( typeof ( 'v1' ) ) , v3 , v4 ) ; SELECT * FROM v0 LEFT JOIN v2 ON v3 = v3 WHERE v3 = v3 AND v5 = 2000.100000 + 1.100000 ; 

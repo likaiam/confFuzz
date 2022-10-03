@@ -1,1 +1,0 @@
-SELECT printf () ; SELECT - 'Max Mustermann' ; 

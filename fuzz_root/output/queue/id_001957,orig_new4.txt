@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'y' ) ,( 'y' ) ,( 'Brand#12' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( '31' , 10 ) ,( 'b' , 10 ) ,( 'X' , 1 ) ,( 's%' , 10 ) ; SELECT SUM ( DISTINCT v3 * ( 10 - v3 ) ) AS REVENUE , max ( v3 ) AS alias FROM v2 ; 

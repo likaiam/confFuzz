@@ -1,5 +1,0 @@
-digraph "CFG for 'confighash' function" {
-	label="CFG for 'confighash' function";
-
-	Node0x5625656ef130 [shape=record,label="{lemon.c:5760:}"];
-}

@@ -1,1 +1,0 @@
-PRAGMA query_only=false; ; CREATE TABLE v0 ( v1 , v2 AS( v3 + v3 ) , v3 INT PRIMARY KEY NOT NULL AS( v3 ) CHECK( v2 ) ) ; UPDATE v0 SET v2 = NULL ; 

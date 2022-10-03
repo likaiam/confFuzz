@@ -1,1 +1,0 @@
-SELECT zeroblob ( random () != random () ) INTERSECT SELECT zeroblob ( 2000 * 10 * 127 ) ; SELECT DISTINCT random () , total_changes () ; 

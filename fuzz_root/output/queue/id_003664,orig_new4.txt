@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( OMW VARCHAR(10) , v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 2 ) ,( 2 ) ,( 10 ) ; CREATE TABLE v2 ( v4 INTEGER PRIMARY KEY , v3 INT ) ; INSERT INTO v2 SELECT nullif ( v1 * 1 + 1 , 1 ) , v1 + 2 FROM v0 ; SELECT v1 , sum ( v1 ) AS m FROM v0 AS v WHERE v1 = v1 AND v1 = 0 ; 

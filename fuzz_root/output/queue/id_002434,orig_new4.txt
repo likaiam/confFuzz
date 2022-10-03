@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 , v1 INTEGER AS( 'x' ) CHECK( 3 ) CHECK( v2 MATCH NOT ( 'PROMO%%' = 'v1' AND v1 = 10 ) ) NOT NULL UNIQUE ) ; UPDATE v0 SET v2 = ( SELECT 8 FROM v0 ) WHERE ( v1 ) <= 'v1' ; 

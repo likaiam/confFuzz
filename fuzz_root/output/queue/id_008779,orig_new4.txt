@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; CREATE TABLE v4 ( v6 , v5 ) ; INSERT INTO v0 ( v2 , v3 ) SELECT count ( v2 ) , v2 FROM v0 ; UPDATE v4 SET v5 = ( SELECT 0 FROM v0 ) ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'nodeReaderRelease' function" {
-	label="CFG for 'nodeReaderRelease' function";
-
-	Node0x55c0fb1966a0 [shape=record,label="{sqlite3.c:190472:}"];
-}

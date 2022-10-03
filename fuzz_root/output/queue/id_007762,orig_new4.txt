@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v6 AS( 1 >= v10 ) UNIQUE , v7 , v1 , v9 , v8 , v5 , v4 , v10 , v11 , v3 , v2 ) ; INSERT INTO v0 ( v7 ) VALUES ( 'CANADA' ) ,( 'Brand#23' ) ,( 'v0' ) ,( 'x' ) ,( 'MED PACK' ) ; UPDATE v0 SET v9 = zeroblob ( 10 ) ; CREATE INDEX v12 ON v0 ( v1 ) WHERE v9 = v3 IS NOT NULL ; SELECT v8 , v5 , v6 FROM v0 NATURAL JOIN v0 WHERE 1 = v5 / 10 AND v11 = 12 ; 

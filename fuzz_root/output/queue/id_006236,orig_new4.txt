@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 AS( v2 + julianday ( v2 , 10 , v3 NOT LIKE v2 ) ) , v2 , v3 ) ; REINDEX ; CREATE TABLE v4 ( v5 INTEGER PRIMARY KEY , v6 INT ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 10 ) ; SELECT * FROM v4 WHERE v6 IS NULL < v5 AND v6 = 9 ; 

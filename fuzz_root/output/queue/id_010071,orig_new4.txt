@@ -1,1 +1,0 @@
-PRAGMA auto_vacuum=FULL; ; CREATE VIEW v0 AS SELECT v2 , 12 AS b FROM v0 ; UPDATE v0 SET v3 = NULL ; CREATE TABLE v4 ( v5 FLOAT CHECK( ( v6 % NOT NOT ( v5 >= v5 ) ) == 1 NOT LIKE LIKELY ( v5 ) ) ) ; UPDATE v4 SET v5 = ( SELECT 1 FROM v4 LEFT JOIN v0 , v4 , v4 ) ; 

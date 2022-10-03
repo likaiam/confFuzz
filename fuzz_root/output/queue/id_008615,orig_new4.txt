@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v3 , v2 ) ; INSERT INTO v0 VALUES ( 3.100000 , 10 , 1 ) ; UPDATE v0 SET v3 = randomblob ( ( 1 = 0 AND v2 < CASE WHEN LIKELY ( v1 ) != 'v0' THEN 2 ELSE 1 END ) + v2 + julianday ( * ) ) ; SELECT DISTINCT COUNT ( * ) FROM v0 ORDER BY v3 , v1 , v1 DESC ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY sum ( - - v3 IS NOT NULL ) OVER( ) DESC ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v0' ) ,( '23' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 0 , 'MED PACK' ) ,( 9223372036854775807 , '31' ) ,( 1 , 'X' ) ; SELECT v3 , count ( * ) OVER( ORDER BY v4 ) FROM v0 LEFT JOIN v0 JOIN v2 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'x' ) ,( 'AIR' ) ; CREATE TABLE v2 ( v3 , v4 INTEGER ) ; INSERT INTO v2 VALUES ( 'v1' , 10 ) ,( 'v0' , 3 ) ,( 'Max Mustermann' , 1 ) ,( 'SM BOX' , 10 ) ; SELECT SUM ( DISTINCT v3 * ( 2 - v4 ) ) AS REVENUE , v4 AS alias FROM v0 CROSS JOIN v2 ; 

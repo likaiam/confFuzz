@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; INSERT INTO v0 ( v2 ) VALUES ( 8 ) ,( 1 ) ; DELETE FROM v0 WHERE v3 = ( SELECT NTILE ( 1 ) OVER( ) - 3 AS nt FROM v0 ) OR v1 <= 1 + 1 ; 

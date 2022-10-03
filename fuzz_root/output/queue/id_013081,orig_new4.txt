@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'SM PACK' ) ,( 'x' ) ,( 'x' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX v5 ON v0 ( v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 ) ; DELETE FROM v0 WHERE ( v1 GLOB 'AIR' AND ( v1 = v1 OR v1 = 127 ) ) OR v1 = 'LG BOX' ; 

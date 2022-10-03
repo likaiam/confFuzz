@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3ExprAddCollateString' function" {
-	label="CFG for 'sqlite3ExprAddCollateString' function";
-
-	Node0x55c0f8eb7b00 [shape=record,label="{sqlite3.c:103684:}"];
-}

@@ -1,5 +1,0 @@
-digraph "CFG for 'stmtBestIndex' function" {
-	label="CFG for 'stmtBestIndex' function";
-
-	Node0x55c0fb7f8ab0 [shape=record,label="{sqlite3.c:241174:}"];
-}

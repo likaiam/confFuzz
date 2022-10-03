@@ -1,1 +1,0 @@
-PRAGMA auto_vacuum=2; ; CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'v0' ) ,( 'x' ) ,( 'v0' ) ,( 'b' ) ON CONFLICT DO NOTHING ; UPDATE v0 SET v1 = count ( * ) ; SELECT v1 , min ( v1 ) FROM v0 GROUP BY v1 ORDER BY v1 , v1 , v1 LIMIT 1 ; 

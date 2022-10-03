@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3BtreeGetPageSize' function" {
-	label="CFG for 'sqlite3BtreeGetPageSize' function";
-
-	Node0x55c0f729e770 [shape=record,label="{sqlite3.c:69798:}"];
-}

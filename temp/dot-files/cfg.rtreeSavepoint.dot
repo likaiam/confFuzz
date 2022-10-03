@@ -1,5 +1,0 @@
-digraph "CFG for 'rtreeSavepoint' function" {
-	label="CFG for 'rtreeSavepoint' function";
-
-	Node0x55c0fb69d560 [shape=record,label="{sqlite3.c:201130:}"];
-}

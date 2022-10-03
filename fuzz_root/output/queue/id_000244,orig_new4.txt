@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'b' ) ,( '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'v1' , 2 ) ,( 'Brand#34' , 10 ) ,( 'v0' , 10 ) ; SELECT v1 , v1 , v1 FROM v0 WHERE v1 MATCH 'MED BOX' ORDER BY v1 LIMIT 10 ; 

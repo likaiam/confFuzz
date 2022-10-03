@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v3 , v2 ) ; INSERT INTO v0 ( v3 ) VALUES ( NULL ) ; UPDATE v0 SET v3 = v2 + 10 ; 

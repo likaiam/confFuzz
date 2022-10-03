@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(1) PRIMARY KEY , v2 INTEGER NOT NULL ) ; SELECT quote ( substr ( v1 , 9 , 0 ) ) FROM v0 ORDER BY length ( v1 ) DESC ; SELECT min ( v2 ) , min ( v1 ) , max ( v2 ) , v1 AS p FROM v0 ; 

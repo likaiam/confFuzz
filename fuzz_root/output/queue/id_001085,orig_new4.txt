@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; INSERT INTO v0 ( v3 ) VALUES ( 1 ) ,( 10 ) ; DELETE FROM v0 WHERE v3 = 'UTF-16le' OR v1 = 'v0' WITH HINT ( NO_CACHE , NO_SAMPLING ) ; 

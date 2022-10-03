@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'BUILDING' ) ,( '31' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'MED PACK' , 10 ) ,( 'x' , 1 ) ,( 'v0' , 10 ) ,( 'abc' , 10 ) ; SELECT datetime ( v1 , v1 ) AS REVENUE , v1 AS alias FROM v0 ; 

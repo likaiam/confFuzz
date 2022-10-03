@@ -1,1 +1,0 @@
-PRAGMA cache_spill = 0;PRAGMA cache_spill=false; ; CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 10 ) ; CREATE UNIQUE INDEX v2 ON v0 ( v1 , v1 ) WHERE typeof ( v1 ) IS NOT NULL ; VACUUM ; 

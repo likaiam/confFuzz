@@ -1,1 +1,0 @@
-CREATE TABLE temp . v0 ( v1 INTEGER CHECK( datetime ( DISTINCT v1 ) IS NOT NULL < v1 NOT LIKE julianday ( ( v1 * ( ( v1 >= v1 ) = 3 OR v1 = 0 ) ) > v1 ) ) ) ; INSERT INTO v0 VALUES ( 1 ) ,( 10 ) ; VACUUM ; VACUUM ; SELECT * FROM v0 LEFT JOIN v0 ON v1 GLOB 'v0' WHERE v1 = 'v0' OR v1 = v0 . v1 ; 

@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v3 ) VALUES ( 2.100000 ) ,( 10 ) ,( 10 ) ; UPDATE v0 SET v2 = 2000 , v2 = '**%s**' ; 

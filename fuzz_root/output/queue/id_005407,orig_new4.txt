@@ -1,1 +1,0 @@
-SELECT zeroblob ( random () != random () ) INTERSECT SELECT zeroblob ( 9223372036854775807 * 9223372036854775807 * 0 ) ; SELECT DISTINCT min ( 2.100000 ) , total_changes () ; 

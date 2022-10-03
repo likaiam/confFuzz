@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(1) PRIMARY KEY , generate_series INTEGER NOT NULL ) ; SELECT length ( v1 ) FROM v0 ORDER BY length ( v1 ) DESC ; SELECT 1 FROM v0 WHERE 3 = v1 OR v1 BETWEEN v1 AND 0 ; 

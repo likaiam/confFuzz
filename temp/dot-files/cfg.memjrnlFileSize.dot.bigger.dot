@@ -1,5 +1,0 @@
-digraph "CFG for 'memjrnlFileSize' function" {
-	label="CFG for 'memjrnlFileSize' function";
-
-	Node0x55c0f736f880 [shape=record,label="{sqlite3.c:101028:}"];
-}

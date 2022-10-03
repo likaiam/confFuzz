@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'MED PACK' ) ,( 'v0' ) ,( 'v0' ) ,( 'v1' ) ,( '30' ) ; UPDATE v0 SET v1 = randomblob ( 1 ) ; SELECT * FROM v0 UNION SELECT CASE NULL WHEN '%%green%%' THEN '1995-09-01' WHEN 3.100000 = 9 THEN 'x' ELSE '30' END ORDER BY v1 ; 

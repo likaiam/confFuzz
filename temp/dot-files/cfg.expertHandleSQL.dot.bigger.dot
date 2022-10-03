@@ -1,5 +1,0 @@
-digraph "CFG for 'expertHandleSQL' function" {
-	label="CFG for 'expertHandleSQL' function";
-
-	Node0x560277374310 [shape=record,label="{shell.c:14736:}"];
-}

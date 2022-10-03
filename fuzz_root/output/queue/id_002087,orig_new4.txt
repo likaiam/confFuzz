@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 AS( * ) CHECK( v1 ) , v1 , v3 ) ; SELECT v3 , v3 FROM v0 LEFT JOIN v0 ON v1 = v3 LEFT JOIN v0 ON v1 = v1 ; UPDATE v0 SET v3 = ( SELECT 127 FROM v0 AS a JOIN v0 AS b ON v0 . v2 = v0 . v3 ) ; 

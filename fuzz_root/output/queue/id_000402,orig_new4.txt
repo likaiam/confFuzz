@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 , v3 , v2 UNIQUE ) ; CREATE UNIQUE INDEX v4 ON v0 ( v1 ) WHERE v1 ; CREATE VIRTUAL TABLE v5 USING echo ( v6 ) ; INSERT INTO v5 ( v6 , v6 , v6 ) VALUES ( 3 , 10 , 10 ) ,( 2 , 1 , 3 ) ; REPLACE INTO v4 ( v1 , v2 , v1 ) VALUES ( 10 , 1 , 3 ) ; 

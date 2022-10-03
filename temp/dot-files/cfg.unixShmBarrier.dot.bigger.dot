@@ -1,5 +1,0 @@
-digraph "CFG for 'unixShmBarrier' function" {
-	label="CFG for 'unixShmBarrier' function";
-
-	Node0x55c0f713eea0 [shape=record,label="{sqlite3.c:40461:}"];
-}

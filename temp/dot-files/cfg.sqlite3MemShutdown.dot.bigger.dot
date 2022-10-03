@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3MemShutdown' function" {
-	label="CFG for 'sqlite3MemShutdown' function";
-
-	Node0x55c0fa933c10 [shape=record,label="{sqlite3.c:25447:}"];
-}

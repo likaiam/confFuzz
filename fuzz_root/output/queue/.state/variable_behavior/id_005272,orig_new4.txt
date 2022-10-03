@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE randomblob ( 0 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( '**%s**' ) ,( 'v0' ) ,( 'SM BOX' ) ,( 'Brand#23' ) ,( 'v1' ) ; UPDATE v0 SET v1 = ( SELECT zipfile ( v1 , v1 , v1 , v1 , v1 ) IS NOT NULL ) ; SELECT * FROM v0 UNION SELECT DISTINCT v1 = zeroblob ( 9223372036854775807 ) FROM v0 ORDER BY v1 ; 

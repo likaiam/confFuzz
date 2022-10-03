@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3WhereIsSorted' function" {
-	label="CFG for 'sqlite3WhereIsSorted' function";
-
-	Node0x55c0f9c34ed0 [shape=record,label="{sqlite3.c:158282:}"];
-}

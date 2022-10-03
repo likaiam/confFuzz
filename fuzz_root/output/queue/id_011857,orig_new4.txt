@@ -1,1 +1,0 @@
-SELECT min ( 3.100000 ) , count () ; SELECT v1 WHERE v3 >= 'v0' ORDER BY 1 , v5 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v3 , v1 AS( v2 + v2 ) , v2 AS( NOT CASE ( 'LG BOX' = 'v0' AND v2 < 9223372036854775807 = v1 ) WHEN 'X' THEN 2147483647 ELSE 10 END ) CHECK( v3 ) ) ; SELECT DISTINCT v0 . v3 FROM v0 AS a JOIN v0 ON 'BUILDING' = v0 . v1 WHERE v0 . v1 IN ( v0 . v2 , v0 . v1 , v0 . v3 ) ; SELECT sum ( v1 ) , sum ( length ( v1 ) ) FROM v0 ; 

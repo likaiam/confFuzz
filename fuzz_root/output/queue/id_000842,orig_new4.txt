@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'SM BOX' ) ,( 'AIR REG' ) ,( 'v1' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'abc' , 10 ) ,( 'v0' , 10 ) ,( 'X' , 9223372036854775807 ) ,( 'Felix Fürstenberg' , 10 ) ; SELECT COUNT ( * ) FROM v0 ; 

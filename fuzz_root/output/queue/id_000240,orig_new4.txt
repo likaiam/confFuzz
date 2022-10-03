@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'y' ) ,( '' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v0' , 1 ) ,( 'Brand#23' , 10 ) ,( 'test' , 3 ) ,( 'MED BAG' , 10 ) ; SELECT * FROM v0 LEFT JOIN v0 ON v1 IN ( v1 , v1 ) ; 

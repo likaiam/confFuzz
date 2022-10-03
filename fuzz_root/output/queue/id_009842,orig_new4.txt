@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 NOT NULL AS( v1 ) ) ; REPLACE INTO v0 ( v1 , v1 , v1 ) VALUES ( 'v1' , 'v0' , 10 ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'PROMO%%' , 0 ) ,( '31' , 3 ) ,( '17' , 0 ) ,( '18' , 3 ) ; DELETE FROM v0 WHERE v1 >= 10 OR v1 < 4294967296 AND v1 = 10 AND v1 = 10 AND v1 = 10 AND v1 = 10 ; 

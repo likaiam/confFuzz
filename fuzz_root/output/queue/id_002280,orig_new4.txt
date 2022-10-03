@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; SELECT * FROM generate_series WHERE v2 GLOB 'x' ; DELETE FROM v0 WHERE v3 = 'SM PACK' OR v3 = 'Ar' ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 PRIMARY KEY NOT NULL ) ; INSERT INTO v0 ( v1 ) VALUES ( 'c' ) ,( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) ,( 'v1' ) ,( '%%green%%' ) ,( 'y' ) ; UPDATE v0 SET v1 = substr ( v1 , 3 , 9223372036854775807 ) ; SELECT * FROM v0 UNION SELECT DISTINCT v1 = randomblob ( 3 ) FROM v0 ORDER BY v1 ; 

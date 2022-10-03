@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT CHECK( datetime ( coalesce ( v1 , v1 ) , v1 ) IS NOT NULL < v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) ) ; INSERT INTO v0 VALUES ( 1 ) ; CREATE INDEX v2 ON v0 ( v1 ) WHERE datetime ( coalesce ( v1 , v1 ) , v1 ) IS NOT NULL ; VACUUM ; 

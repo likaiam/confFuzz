@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 'GERMANY' ) ,( 'b' ) ,( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) ,( 'x' ) ; SELECT min ( 10.100000 ) , total_changes () ; SELECT DISTINCT * FROM v0 AS a JOIN v0 AS AVG_YEARLY ON v0 . v1 = v0 . v1 JOIN v0 NATURAL JOIN v0 ; CREATE VIRTUAL TABLE v2 USING echo ( v3 , v4 ) ; 

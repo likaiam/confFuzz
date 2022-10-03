@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( '1994-01-01' ) ,( 'x' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'LG PKG' , 3 ) ,( 'v1' , 10 ) ,( 'v1' , 10 ) ; SELECT * FROM v2 , v0 WHERE ( v1 >= 9223372036854775808 OR v1 < 10 ) AND v1 IN ( 3 , v1 ) ORDER BY 3 ; 

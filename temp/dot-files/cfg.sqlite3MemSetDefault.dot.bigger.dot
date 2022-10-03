@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3MemSetDefault' function" {
-	label="CFG for 'sqlite3MemSetDefault' function";
-
-	Node0x55c0fa92d860 [shape=record,label="{sqlite3.c:25469:}"];
-}

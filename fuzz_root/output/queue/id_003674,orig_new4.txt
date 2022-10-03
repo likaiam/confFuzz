@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( '1994-01-01' ) ,( 'x' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT OR REPLACE INTO v0 SELECT DISTINCT CAST ( round ( v3 / 10 ) AS INTEGER ) FROM v2 LIMIT 1 ; SELECT 'v1' , substr ( v1 , 2 ) AS m FROM v0 ORDER BY lower ( v1 ) ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(1) PRIMARY KEY , v2 INTEGER NOT NULL ) ; SELECT coalesce ( max ( v2 ) , 2 ) FROM v0 WHERE v1 < 10 ; SELECT v1 , v2 FROM v0 WHERE min ( v2 , v1 ) ; 

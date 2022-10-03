@@ -1,5 +1,0 @@
-digraph "CFG for 'nolockUnlock' function" {
-	label="CFG for 'nolockUnlock' function";
-
-	Node0x55c0f71865a0 [shape=record,label="{sqlite3.c:37602:}"];
-}

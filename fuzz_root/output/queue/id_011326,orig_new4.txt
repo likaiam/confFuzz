@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; SELECT * FROM v0 WHERE v1 GLOB 'Max Mustermann' ; DELETE FROM v0 WHERE ( v1 = 9 AND ( v3 IS NOT NULL OR ( SELECT * FROM v0 WHERE ( v3 ) <= '30' GROUP BY v2 ) = '%%BRASS' ) ) OR v3 = 'v1' ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3BtreeMaxPageCount' function" {
-	label="CFG for 'sqlite3BtreeMaxPageCount' function";
-
-	Node0x55c0f852ed90 [shape=record,label="{sqlite3.c:69844:}"];
-}

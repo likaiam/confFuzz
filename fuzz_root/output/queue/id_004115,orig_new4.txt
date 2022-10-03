@@ -1,1 +1,0 @@
-PRAGMA quick_check=3; ; CREATE TABLE v0 ( v1 , v2 INTEGER AS( 'testtest' ) CHECK( 1 ) CHECK( v1 + julianday ( * ) ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 0 ) ; DELETE FROM v0 WHERE v1 BETWEEN 3 AND 3 ; VACUUM ; 

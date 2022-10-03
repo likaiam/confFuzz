@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v4 INTEGER AS( NOT v1 <= coalesce ( v3 , v4 ) + v3 ) , v1 , v3 , v2 AS( v4 + julianday ( v1 ) ) ) ; SELECT * FROM v0 AS myname JOIN v0 NATURAL JOIN v0 ; 

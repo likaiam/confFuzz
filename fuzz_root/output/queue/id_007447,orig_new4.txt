@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v4 TEXT PRIMARY KEY NOT NULL , v3 TEXT NOT NULL , v2 INTEGER , v1 UNIQUE ) ; DELETE FROM v0 WHERE v4 = 10 AND v1 = 2 AND v1 = 10 AND v1 = 0 AND v3 = 0 AND v1 = 3 ; UPDATE v0 SET v1 = ( SELECT v0 . v2 AS d FROM v0 ) ; UPDATE v0 SET v2 = randomblob ( ( 10 = 10 AND v4 = 10 ) + v2 + julianday ( * ) ) ; 

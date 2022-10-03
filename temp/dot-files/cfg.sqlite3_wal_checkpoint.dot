@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_wal_checkpoint' function" {
-	label="CFG for 'sqlite3_wal_checkpoint' function";
-
-	Node0x55c0f6a59a30 [shape=record,label="{sqlite3.c:172771:}"];
-}

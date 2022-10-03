@@ -1,9 +1,0 @@
-digraph "CFG for 'failIfSafeMode' function" {
-	label="CFG for 'failIfSafeMode' function";
-
-	Node0x560276e2e6d0 [shape=record,label="{shell.c:12390:}"];
-	Node0x560276e2e6d0 -> Node0x560276e34830;
-	Node0x560276e2e6d0 -> Node0x560276e34880;
-	Node0x560276e34830 [shape=record,label="{shell.c:12395:}"];
-	Node0x560276e34880 [shape=record,label="{shell.c:12404:}"];
-}

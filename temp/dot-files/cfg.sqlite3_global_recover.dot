@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_global_recover' function" {
-	label="CFG for 'sqlite3_global_recover' function";
-
-	Node0x55c0f6aaa1d0 [shape=record,label="{sqlite3.c:173956:}"];
-}

@@ -1,5 +1,0 @@
-digraph "CFG for 'apndSleep' function" {
-	label="CFG for 'apndSleep' function";
-
-	Node0x560276930360 [shape=record,label="{shell.c:4260:}"];
-}

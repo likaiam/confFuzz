@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'y' ) ,( '' ) ,( 'b' ) ; CREATE TABLE v2 ( v4 , v3 INTEGER ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'MED BOX' , 10 ) ,( 'v0' , 2 ) ,( 'MED PACK' , 1 ) ; SELECT SUM ( DISTINCT v4 * ( 1 - v3 ) ) AS REVENUE , v3 AS alias FROM v2 ; 

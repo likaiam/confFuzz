@@ -1,5 +1,0 @@
-digraph "CFG for 'columnNullValue' function" {
-	label="CFG for 'columnNullValue' function";
-
-	Node0x55c0f8559540 [shape=record,label="{sqlite3.c:87080:}"];
-}

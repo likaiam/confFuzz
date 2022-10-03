@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v14 , v7 , v3 , v8 , v2 , v10 , v4 , v12 , v6 , v5 , v11 , v15 , v1 , v13 , v9 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 10 ) ; INSERT INTO v0 ( v1 ) VALUES ( 0.100000 ) ,( 1 ) ,( 10 ) ; VACUUM ; REPLACE INTO v0 ( v10 ) VALUES ( NULL ) ; 

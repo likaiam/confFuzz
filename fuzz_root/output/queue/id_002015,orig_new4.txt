@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'MED BAG' ) ,( '' ) ,( 'abc' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( '1995-09-01' , 10 ) ,( 'x' , 10 ) ,( 'test' , 1 ) ,( 'v1' , 10 ) ; SELECT CASE WHEN v1 NOT IN ( 10 , 0 , v1 = 3.100000 ) THEN 'Y' ELSE 'v0' END FROM v2 LEFT JOIN v0 ON v1 GLOB 's%' ; 

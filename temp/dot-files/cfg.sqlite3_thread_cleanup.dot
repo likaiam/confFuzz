@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_thread_cleanup' function" {
-	label="CFG for 'sqlite3_thread_cleanup' function";
-
-	Node0x55c0f6aae5c0 [shape=record,label="{sqlite3.c:174032:}"];
-}

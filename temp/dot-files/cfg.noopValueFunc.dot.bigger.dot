@@ -1,5 +1,0 @@
-digraph "CFG for 'noopValueFunc' function" {
-	label="CFG for 'noopValueFunc' function";
-
-	Node0x55c0fa707860 [shape=record,label="{sqlite3.c:160627:}"];
-}

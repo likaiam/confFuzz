@@ -1,1 +1,0 @@
-SELECT zipfile ( printf ( 'SM CASE' , lower ( 'x' ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 10.100000 ) ,( 2000 ) ; UPDATE v2 SET v3 = ( SELECT 10 FROM v4 ) ; 

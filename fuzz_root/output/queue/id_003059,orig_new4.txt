@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10 ) ,( 0 ) ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v2 ) ) DESC ; 

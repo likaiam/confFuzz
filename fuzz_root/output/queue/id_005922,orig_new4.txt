@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v5 , v13 , v8 , v11 , v15 , v12 , v10 , v14 , v6 , v9 , v2 , v4 , v3 , v7 ) ; INSERT INTO v0 ( v14 ) VALUES ( 1 ) ,( 10 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10.100000 ) ,( 10 ) ,( 10 ) ; SELECT group_concat ( v3 , v4 ) FROM v0 ; 

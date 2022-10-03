@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'Y' ) ,( 'v1' ) ,( 'Max Mustermann' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'v1' , 10 ) ,( '**%s**' , 2 ) ,( 'x' , 2 ) ; SELECT * FROM v0 , v2 WHERE ( v3 >= 1 OR v4 < 0 ) AND v3 IN ( 10 , v3 ) ORDER BY v4 ; 

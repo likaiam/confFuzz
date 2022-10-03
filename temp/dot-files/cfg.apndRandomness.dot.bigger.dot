@@ -1,5 +1,0 @@
-digraph "CFG for 'apndRandomness' function" {
-	label="CFG for 'apndRandomness' function";
-
-	Node0x5602769301e0 [shape=record,label="{shell.c:4257:}"];
-}

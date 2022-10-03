@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; SELECT coalesce ( instr ( 'AIR REG' , 'x' ) , 3 ) LIMIT 9223372036854775807 ; SELECT coalesce ( instr ( 0 , NULL ) , 0 ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 1 ) ; SELECT * FROM v0 , zipfile WHERE v1 = v1 AND v1 = 127 ; 

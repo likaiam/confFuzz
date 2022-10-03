@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'v1' ) ,( 'X' ) ,( 'v0' ) ,( 'SM CASE' ) ; UPDATE v0 SET v1 = ( SELECT 2 FROM v0 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

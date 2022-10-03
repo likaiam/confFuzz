@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10 ) ,( 10 ) ; INSERT INTO v0 VALUES ( 0 , 'CANADA' , 'forest%%' ) ; SELECT group_concat ( v3 , v1 ) FROM v0 GROUP BY v2 HAVING v1 < 9223372036854775807 = v3 ; 

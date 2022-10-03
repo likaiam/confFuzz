@@ -1,1 +1,0 @@
-PRAGMA reverse_unordered_selects=_boolen_; ; CREATE TABLE v0 ( v3 , v2 AS( v1 + v3 ) , v1 AS( v2 ) CHECK( COUNT ( * ) ) ) ; UPDATE v0 SET v2 = NULL ; 

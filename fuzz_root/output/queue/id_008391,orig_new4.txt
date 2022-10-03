@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 UNIQUE ON CONFLICT IGNORE GENERATED ALWAYS AS( 10 ) , v2 , v1 ) ; REPLACE INTO v0 ( v3 , v2 , v2 ) VALUES ( 'x' , 'x' , 2 ) ; CREATE TABLE v4 ( v5 , v6 ) ; UPDATE v0 SET v1 = ( SELECT v1 = ( SELECT v1 FROM v0 WHERE v2 = v3 ) FROM v0 ) ; DELETE FROM v4 WHERE v5 >= 3 OR - v6 > ( SELECT count ( * ) FROM v4 ) = 3 OR v6 < 8 AND v5 = 0 ; 

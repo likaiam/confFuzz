@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v3 , v1 , v4 , v2 ) ; INSERT INTO v0 ( v3 ) VALUES ( 3 ) ,( 1 ) ; UPDATE v0 SET v4 = ( SELECT ( SELECT v1 FROM v0 AS x GROUP BY v2 < 'x' ) FROM v0 ) ; 

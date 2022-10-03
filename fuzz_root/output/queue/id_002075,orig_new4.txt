@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 UNIQUE ON CONFLICT IGNORE GENERATED ALWAYS AS( 1 ) , v3 , v5 , v4 , v2 ) ; INSERT INTO v0 ( v4 ) VALUES ( 10 ) ,( 10 ) ; SELECT sum ( v2 ) , sum ( length ( v1 ) ) FROM v0 ; 

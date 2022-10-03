@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; INSERT INTO v0 VALUES ( 0 , 1 , 1 , 0 , 10 ) ,( 1 , 1 , 1 , 10 , 10 ) ,( 0 , 10 , 9 , 9223372036854775808 , 10 ) ,( 1 , 10 , 10 , 10 , 3 ) ; UPDATE v0 SET v3 = ( SELECT 10 FROM v0 ) ; 

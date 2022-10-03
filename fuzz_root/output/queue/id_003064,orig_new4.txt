@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 10 ) ; SELECT v1 , quote ( v2 ) FROM v0 ; 

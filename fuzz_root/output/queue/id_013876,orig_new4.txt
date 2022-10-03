@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v3 , v2 ) ; CREATE TABLE v4 ( v6 , v5 ) ; INSERT INTO v4 ( v5 ) VALUES ( 10 ) ,( 3 ) ; UPDATE v0 SET v2 = ( SELECT 1 FROM v4 LEFT JOIN v0 ON v2 MATCH - '1995-09-01' OR v1 LIKE 'LG CASEaaaaaaaaaaaa' ) ; 

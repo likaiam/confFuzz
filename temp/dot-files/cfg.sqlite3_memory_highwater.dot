@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_memory_highwater' function" {
-	label="CFG for 'sqlite3_memory_highwater' function";
-
-	Node0x55c0f5352190 [shape=record,label="{sqlite3.c:28961:}"];
-}

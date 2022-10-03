@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 INT ) ; INSERT INTO v0 ( v1 , v1 ) VALUES ( 9 , 10 ) ; SELECT sum ( v1 ) , total ( v2 ) FROM v0 GROUP BY v1 HAVING v2 < v1 ; 

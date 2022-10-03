@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 INT NOT NULL ON CONFLICT ABORT , v1 INT ) ; INSERT INTO v0 VALUES ( 3 , 'v0' ) ,( 10 , 'x' ) ,( 3 , 'LG CASEaaaaaaaaaaaa' ) ,( 1 , 's%' ) ; SELECT NTILE ( 10 ) OVER( ORDER BY v1 NULLS LAST ) - 3 AS q FROM v0 GROUP BY v1 ORDER BY v2 ASC ; 

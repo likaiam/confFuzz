@@ -1,5 +1,0 @@
-digraph "CFG for 'incrblobWatch' function" {
-	label="CFG for 'incrblobWatch' function";
-
-	Node0x55a735b021d0 [shape=record,label="{tclsqlite.c:357:}"];
-}

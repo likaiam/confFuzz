@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v3 INTEGER AS( v2 + printf ( 'Al' , min ( 10 , 2 , NULL , v3 ) ) ) , v2 , v4 , v1 ) ; SELECT * FROM v0 AS AVG_YEARLY JOIN v0 AS b ON v0 . v1 = v0 . v1 NATURAL JOIN v0 ; 

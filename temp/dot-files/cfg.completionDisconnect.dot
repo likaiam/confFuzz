@@ -1,5 +1,0 @@
-digraph "CFG for 'completionDisconnect' function" {
-	label="CFG for 'completionDisconnect' function";
-
-	Node0x5602768a95a0 [shape=record,label="{shell.c:3286:}"];
-}

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 INT , v1 INT ) ; INSERT INTO v0 VALUES ( 0 , 0 ) ,( 10 , 9223372036854775807 ) ,( 0 , 4294967295 ) ,( 10 , 0 ) ,( NULL , 0 ) ,( NULL , 2 ) ; SELECT * FROM v0 GROUP BY v1 ORDER BY length ( v2 ) DESC ; 

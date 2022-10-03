@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 NOT NULL AS( - v2 ) , v2 ) ; REPLACE INTO v0 ( v2 ) VALUES ( 2.100000 ) ; 

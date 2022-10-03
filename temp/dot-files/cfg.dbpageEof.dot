@@ -1,5 +1,0 @@
-digraph "CFG for 'dbpageEof' function" {
-	label="CFG for 'dbpageEof' function";
-
-	Node0x55c0fb6be3c0 [shape=record,label="{sqlite3.c:211998:}"];
-}

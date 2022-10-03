@@ -1,5 +1,0 @@
-digraph "CFG for 'fts3tokDisconnectMethod' function" {
-	label="CFG for 'fts3tokDisconnectMethod' function";
-
-	Node0x55c0fb3dfd40 [shape=record,label="{sqlite3.c:186418:}"];
-}

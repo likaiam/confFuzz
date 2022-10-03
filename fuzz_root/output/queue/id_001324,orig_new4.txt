@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 FLOAT ) ; INSERT INTO v0 ( v1 , v2 ) VALUES ( 2 , 1 ) ; SELECT v1 , rank () OVER( ORDER BY v1 DESC ) FROM v0 ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'Sqlite_Init' function" {
-	label="CFG for 'Sqlite_Init' function";
-
-	Node0x55a7358aeef0 [shape=record,label="{tclsqlite.c:3945:}"];
-}

@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v2 , v1 , v3 ) ; CREATE VIRTUAL TABLE v4 USING rtree ( v7 , v6 INTEGER AS( 'v0' ) CHECK( 1 ) CHECK( v2 MATCH NOT ( 'SM CASE' = 's%' AND v5 < 10 = v6 ) ) NOT NULL UNIQUE , v5 ) ; VACUUM ; UPDATE v0 SET v1 = v3 NOT LIKE 'x' WHERE v2 > 3 OR v1 > 3 AND NOT v1 ; DELETE FROM v0 WHERE v3 MATCH randomblob ( 'Y' == substr ( '' , 10 ) ) ; 

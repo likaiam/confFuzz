@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'x' ) ,( '17' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'MED PACK' , 10 ) ,( 'x' , 0 ) ,( 'x' , 0 ) ,( 'MED P' , 3 ) ; SELECT CASE WHEN v3 NOT IN ( 10 , 0 , 1 ) THEN 'AIR REG' ELSE 'v1' END FROM v0 LEFT JOIN v2 ; 

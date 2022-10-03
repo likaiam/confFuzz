@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; CREATE VIEW v4 AS SELECT v1 AS f1 FROM v0 WHERE v1 MATCH NOT ( 'x' = 'x' AND random () % 0 = 1 ) ; UPDATE v0 SET v3 = ( SELECT 42 FROM v4 ) ; 

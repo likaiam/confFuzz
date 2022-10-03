@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v0' ) ,( 'SM CASE' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( '' , 0 ) ,( 'AIR' , 1 ) ,( 'x' , 10 ) ,( 'v1' , 1 ) ; SELECT abs ( max ( v4 ) OVER( ORDER BY v4 ) ) FROM v2 GROUP BY v4 ; 

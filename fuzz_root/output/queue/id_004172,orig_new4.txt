@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; SELECT coalesce ( DISTINCT instr ( '' , 'x' ) , 0 ) LIMIT 1 ; SELECT coalesce ( instr ( 10 , NULL ) , 10 ) ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 10 ) ; SELECT * FROM v0 , v0 WHERE v1 = v1 AND v1 = 0 ; 

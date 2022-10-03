@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v3 , v1 AS( v2 + v3 ) , v2 AS( NOT TYPEOF ( v1 ) ) CHECK( v1 ) ) ; SELECT DISTINCT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v3 WHERE v0 . v1 IN ( v0 . v3 , v0 . v1 , v0 . v2 ) ; UPDATE v0 SET v2 = ( SELECT 1 FROM v0 GROUP BY v1 , v2 , v2 ) ; 

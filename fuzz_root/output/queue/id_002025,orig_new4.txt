@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'UTF-16le' ) ,( '29' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'v0' , 1 ) ,( 'v1' , 1 ) ,( 'Felix Fürstenberg' , 1 ) ; SELECT abs ( max ( v4 ) OVER( ORDER BY v3 ) ) FROM v2 GROUP BY v3 ; 

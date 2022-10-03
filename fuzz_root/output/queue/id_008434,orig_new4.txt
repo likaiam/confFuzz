@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'UTF-16le' ) ,( 'v0' ) ,( 'Felix Fürstenberg' ) ; PRAGMA quick_check=0; ; CREATE INDEX v2 ON v0 ( v1 , v1 ) WHERE v1 != random () ; SELECT SUM ( v1 * ( 10 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

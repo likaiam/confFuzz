@@ -1,1 +1,0 @@
-BEGIN EXCLUSIVE ; CREATE VIRTUAL TABLE v0 USING rtree ( v1 AS( * ) CHECK( v2 ) , v2 AS( 3 >= v2 ) , v3 ) ; DROP TABLE IF EXISTS v0 ; 

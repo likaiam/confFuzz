@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3ExprCompareSkip' function" {
-	label="CFG for 'sqlite3ExprCompareSkip' function";
-
-	Node0x55c0f5f15ee0 [shape=record,label="{sqlite3.c:109191:}"];
-}

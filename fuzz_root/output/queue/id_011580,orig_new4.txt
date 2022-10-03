@@ -1,1 +1,0 @@
-PRAGMA busy_timeout=0; ; VACUUM ; SELECT v1 , x ( * ) ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v3 , v8 , v11 , v9 , v10 , v4 , v1 , v2 , v7 , v6 , v5 ) ; INSERT INTO v0 ( v6 ) VALUES ( '**%s**' ) ,( 'x' ) ,( 'MED PACK' ) ,( 'v1' ) ,( '**%s**' ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 NATURAL JOIN v0 WHERE v5 < 1 OR v3 < 9223372036854775807 ; SELECT min ( v7 ) , v1 FROM v0 NATURAL JOIN v0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '**%s**' ) ,( '%%green%%' ) ,( 'Brand#12' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v1' , 10 ) ,( 'x' , 10 ) ,( 'v1' , 10 ) ,( 'x' , 10 ) ; SELECT * FROM v2 , v0 WHERE ( v1 >= 10 OR v1 < 0 ) AND v1 IN ( 1 , v1 ) ORDER BY NULL ; 

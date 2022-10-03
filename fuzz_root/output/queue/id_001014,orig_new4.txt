@@ -1,1 +1,0 @@
-SELECT zeroblob ( 2 ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 10 ) ; UPDATE v2 SET v3 = ( SELECT 0 FROM v4 ) ; 

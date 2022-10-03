@@ -1,5 +1,0 @@
-digraph "CFG for 'jsonArrayFinal' function" {
-	label="CFG for 'jsonArrayFinal' function";
-
-	Node0x55c0fa8e8ec0 [shape=record,label="{sqlite3.c:197012:}"];
-}

@@ -1,5 +1,0 @@
-digraph "CFG for 'btreeCursorWithLock' function" {
-	label="CFG for 'btreeCursorWithLock' function";
-
-	Node0x55c0f7fc8cb0 [shape=record,label="{sqlite3.c:71380:}"];
-}

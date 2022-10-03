@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v3 ) VALUES ( 0 ) ,( 127 ) ; UPDATE v0 SET v1 = randomblob ( 0 ) WHERE ( SELECT v2 FROM v0 AS x GROUP BY v2 , v1 HAVING v1 <= v1 ) ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'MED BOX' ) ,( 'x' ) ,( 'forest%%' ) ,( 'SM BOX' ) ,( 'MED BOX' ) ; UPDATE v0 SET v1 = v1 + v1 NOT LIKE printf ( 'DELIVER IN PERSON' , v1 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY randomblob ( v1 + v1 ) DESC NULLS FIRST ; 

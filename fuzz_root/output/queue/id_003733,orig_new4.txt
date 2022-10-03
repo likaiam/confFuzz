@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'x' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; SELECT 10 IN ( CAST ( 'x' AS TEXT ) ) ; SELECT v1 , v1 , dense_rank () OVER( PARTITION BY v1 ORDER BY v1 ) FROM v0 ; 

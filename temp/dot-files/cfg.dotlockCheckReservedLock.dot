@@ -1,5 +1,0 @@
-digraph "CFG for 'dotlockCheckReservedLock' function" {
-	label="CFG for 'dotlockCheckReservedLock' function";
-
-	Node0x55c0f5b4aed0 [shape=record,label="{sqlite3.c:37655:}"];
-}

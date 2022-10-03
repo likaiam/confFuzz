@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 INT ) ; INSERT INTO v0 ( v2 , v2 ) VALUES ( 3 , 10 ) ; SELECT ( SELECT count ( ( NOT ( v1 IS NULL ) ) AND ( NOT ( 1.100000 + 0.100000 ) ) ) ) , rank () OVER( ) FROM v0 ; 

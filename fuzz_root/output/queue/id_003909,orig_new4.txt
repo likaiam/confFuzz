@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 AS( v2 ) CHECK( v2 ) , v3 ) ; SELECT * FROM v0 WHERE v1 GLOB 'x' ; DELETE FROM v0 WHERE ( v1 = 1 AND ( v2 = 9 OR v2 = 0 ) ) OR v2 = 'x' ; 

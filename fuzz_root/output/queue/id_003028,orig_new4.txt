@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v0' ) ,( '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 0.100000 , 0 ) ,( 'v1' , 3 ) ,( 'Brand#34' , 1 ) ,( 'Brand#12' , 10 ) ; SELECT count ( * ) FROM v2 GROUP BY v3 ; 

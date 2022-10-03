@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHAR(15) UNIQUE ON CONFLICT REPLACE CHECK( v1 NOT LIKE typeof ( random () % 2 ) ) ) ; DELETE FROM v0 WHERE v1 = 'SM BOX' ; UPDATE v0 SET v1 = ( SELECT datetime ( v1 , v1 ) IS NOT NULL ) WHERE v1 = zeroblob ( 10 ) ; UPDATE v0 SET v1 = v1 + 12 WHERE v1 = 9 ; 

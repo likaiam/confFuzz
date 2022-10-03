@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( CASE WHEN v1 <= 'v0' + CASE WHEN v1 != 'abc' THEN NOT v1 <= v1 IS NOT NULL + julianday ( 'v1' ) ELSE 10 END THEN 10 ELSE 3 END ) ) ; INSERT INTO v0 SELECT v0 . v1 AS y FROM v0 , v0 AS t WHERE v0 . v1 IN ( v0 . v1 , 10 , v0 . v1 ) ; VACUUM ; VACUUM ; SELECT * FROM v0 LEFT JOIN v0 ON v1 GLOB 'x' WHERE v1 = 'v1' OR v1 = v0 . v1 ; 

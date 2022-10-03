@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'SM BOX' ) ,( 'x' ) ,( 'v0' ) ; SELECT count ( * ) FROM v0 ORDER BY v1 DESC , v1 LIMIT 2 OFFSET 0 ; CREATE UNIQUE INDEX v2 ON v0 ( v1 , v1 ) ; SELECT DISTINCT v1 , v1 , v1 , v1 , '29' FROM v0 WHERE v1 != 1 AND v1 = 3 ; 

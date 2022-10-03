@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; SELECT * FROM v0 WHERE v2 GLOB 'Brand#12' ; DELETE FROM v0 WHERE v3 != lower ( ( SELECT sum ( v3 ) OVER( ) AS xyz FROM v0 ) ) OR v3 = 'v1' ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3CodeChangeCount' function" {
-	label="CFG for 'sqlite3CodeChangeCount' function";
-
-	Node0x55c0f9e605d0 [shape=record,label="{sqlite3.c:121334:}"];
-}

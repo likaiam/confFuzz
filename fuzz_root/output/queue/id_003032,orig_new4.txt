@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(10) ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 0 ) ; UPDATE v0 SET v1 = ( SELECT datetime ( ) IS NOT NULL FROM v0 ) ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v0' ) ,( 'UTF-16le' ) ,( '%%BRASS' ) ,( '1995-03-15' ) ; UPDATE v0 SET v1 = randomblob ( ( 9223372036854775807 = 10 AND v1 = 127 ) + v1 + julianday ( DISTINCT v1 ) ) ; SELECT NULL FROM v0 AS x WHERE v1 = 2 AND v1 = 10 GROUP BY v1 ; SELECT * FROM v0 ORDER BY lower ( ( SELECT min ( v1 ) FROM v0 ) ) DESC ; 

@@ -1,1 +1,0 @@
-SELECT printf ( 'Y' , changes () ) UNION SELECT DISTINCT printf ( '**%s**' , 10 , 's%' , 10 ) ; SELECT * FROM v0 AS REVENUE INDEXED BY v1 , v2 WHERE v4 = v5 AND v3 = 9 ; 

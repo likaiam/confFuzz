@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_libversion' function" {
-	label="CFG for 'sqlite3_libversion' function";
-
-	Node0x55c0f696f4b0 [shape=record,label="{sqlite3.c:170399:}"];
-}

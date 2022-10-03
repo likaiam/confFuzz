@@ -1,1 +1,0 @@
-SELECT zeroblob ( 2000 ) UNION SELECT NULL ; SELECT * FROM v0 AS a JOIN v1 ON NULL = v1 . v2 , v3 WHERE v4 = v5 AND v6 = 10 ; 

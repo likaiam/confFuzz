@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'AIR REG' ) ,( 'BUILDING' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( '30' , 2147483647 ) ,( 'v0' , 2000 ) ,( 'SM PACK' , 10 ) ,( 'x' , 1 ) ; SELECT v1 , count ( * ) OVER( ORDER BY v1 MATCH - 0 NULLS LAST ) FROM v0 ; 

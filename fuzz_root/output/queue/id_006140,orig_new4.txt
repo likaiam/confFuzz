@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER UNIQUE ON CONFLICT REPLACE CHECK( datetime ( v1 ) IS NOT NULL < v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'DELIVER IN PERSON' ) ,( 'a' ) ,( 'SM PACK' ) ,( '1995-09-01' ) ,( 'AIR' ) ; UPDATE v0 SET v1 = lower ( v1 ) ; SELECT * FROM v0 LEFT JOIN v0 ON v1 = 10 OR v1 = 12 WHERE v1 IS NULL ; 

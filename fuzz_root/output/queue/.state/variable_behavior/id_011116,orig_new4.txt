@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v3 ) VALUES ( '%%BRASS' ) ,( 10.100000 ) ,( 10 ) ,( 9223372036854775807 ) ,( 10 ) ,( 10 ) ,( 10 ) ; UPDATE v0 SET v1 = ( SELECT nth_value ( v2 , 10 ) OVER( ORDER BY v2 ) ) ; UPDATE v0 SET v2 = randomblob ( 0 ) ; UPDATE v0 SET v1 = ( SELECT count () FROM v0 , v0 , v0 , v0 , v0 ) ; 

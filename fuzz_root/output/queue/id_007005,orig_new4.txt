@@ -1,1 +1,0 @@
-ATTACH 'Max Mustermann' AS myname ; CREATE TABLE temp . v0 ( v1 , v2 , v3 ) ; CREATE TABLE v4 ( v5 INTEGER PRIMARY KEY ON CONFLICT ABORT , v6 ) ; DETACH main ; DROP TRIGGER tmp ; 

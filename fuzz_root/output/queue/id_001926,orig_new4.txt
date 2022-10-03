@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'AIR' ) ,( '17' ) ,( 'x' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'Max Mustermann' , 127 ) ,( 'v0' , 2000 ) ,( 'c' , 10 ) ,( 'c' , 12 ) ; SELECT quote ( v4 ) FROM v2 WHERE v4 LIKE 'forest%%' ORDER BY v4 ASC ; 

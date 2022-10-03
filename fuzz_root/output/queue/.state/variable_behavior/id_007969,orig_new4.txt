@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHAR(15) UNIQUE ON CONFLICT REPLACE , v2 INT PRIMARY KEY ON CONFLICT REPLACE ) ; INSERT INTO v0 ( v1 ) VALUES ( 'AIR REG' ) ,( 'x' ) ,( 'x' ) ,( 'x' ) ,( 'v0' ) ; UPDATE v0 SET v1 = randomblob ( 10 ) ; SELECT v2 FROM v0 WHERE v2 IN ( 10 , 3 , 10 ) ORDER BY v2 DESC ; UPDATE v0 SET v1 = zeroblob ( 10 ) ; 

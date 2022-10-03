@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 AS( * ) CHECK( v1 ) , v1 , v3 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 0 ) ; UPDATE v0 SET v2 = ( SELECT CASE WHEN v1 NOT IN ( 10 , 10 , 10 ) OR v2 = 10 THEN 'v1' ELSE 'v0' END FROM v0 ) ; 

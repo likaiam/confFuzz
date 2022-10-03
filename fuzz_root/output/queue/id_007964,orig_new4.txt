@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 INTEGER AS( v3 + printf ( 'x' , min ( 1 , 1 , NULL , v4 ) ) ) , v4 , v1 , v3 ) ; ALTER TABLE main . v0 ADD p INTEGER CHECK( v4 NOT LIKE datetime ( - v1 ) ) CHECK( v1 ) ; SELECT v3 , v2 FROM v0 WHERE v3 IS NOT NULL ; 

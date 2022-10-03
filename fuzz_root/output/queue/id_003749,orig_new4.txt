@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '18' ) ,( 'v0' ) ,( 'v0' ) ; CREATE TABLE v2 ( OMW , v3 ) ; INSERT INTO v2 VALUES ( 'Brand#34' , 1 ) ,( '%%green%%' , 127 ) ,( 'MED PACK' , 1 ) ,( 'SM CASE' , 1 ) ; SELECT v3 FROM v0 CROSS JOIN v2 ORDER BY v3 DESC , v3 , v3 , v3 , v3 ; 

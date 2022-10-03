@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 , v2 INTEGER AS( 'v1' ) CHECK( 10 ) CHECK( v2 NOT LIKE '1995-09-01' ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 10 ) ; SELECT * FROM v0 WHERE 'v0' >= 9223372036854775808 AND 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' <= v2 GROUP BY v2 < 'x' ; 

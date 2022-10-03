@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v2 , v1 ) ; DELETE FROM v0 WHERE v2 IS NOT NULL OR abs ( v1 ) < 1 ; CREATE VIEW v3 ( v4 ) AS SELECT typeof ( '%%green%%' ) AS p WHERE NULL AND random () % 10 != 3 GROUP BY fts4 ( randomblob ( DISTINCT 10 ) ) ; ALTER TABLE v0 RENAME TO v1 ; SELECT v4 , v4 FROM v3 WHERE v4 IS NOT NULL ; 

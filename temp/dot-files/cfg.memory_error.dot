@@ -1,5 +1,0 @@
-digraph "CFG for 'memory_error' function" {
-	label="CFG for 'memory_error' function";
-
-	Node0x562565375880 [shape=record,label="{lemon.c:1515:}"];
-}

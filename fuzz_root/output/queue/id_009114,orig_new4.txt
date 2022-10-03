@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v0' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( '13' , 3 ) ,( 'v1' , 0 ) ,( 'SM BOX' , 0 ) ,( 'v0' , 9223372036854775808 ) ; SELECT * , '23' FROM zipfile LEFT JOIN v2 ON v4 = 10 AND v4 = 12 ; 

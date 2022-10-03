@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 INT , v1 INT ) ; INSERT INTO v0 VALUES ( 'forest%%' , 10 ) ,( 'x' , 9223372036854775807 ) ,( 'LG CASEaaaaaaaaaaaa' , 10 ) ,( 'v0' , 1 ) ; INSERT INTO v0 VALUES ( 10 , 10 ) ,( 1 , 9 ) ,( 10 , 10 ) ,( 10 , 3 ) ,( NULL , 10 ) ,( NULL , 10 ) ; SELECT - 0.100000 FROM v0 GROUP BY v2 ORDER BY length ( v2 ) DESC ; 

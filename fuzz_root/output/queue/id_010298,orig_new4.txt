@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( tmp , v2 , v1 ) ; INSERT INTO v0 ( v2 ) VALUES ( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ; UPDATE v0 SET v2 = ( SELECT 10 FROM v0 ) WHERE v2 <= 'LG PKG' AND v1 < 10 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'Brand#23' ) ,( 'v0' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v1' , 2 ) ,( '1994-01-01' , 127 ) ,( 'v1' , 3 ) ,( 'x' , 10 ) ; SELECT COUNT ( * ) FROM v0 , v0 , v0 , v2 ; 

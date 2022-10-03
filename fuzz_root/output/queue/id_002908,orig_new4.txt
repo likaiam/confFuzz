@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT ) ; INSERT INTO v0 VALUES ( 'a' ) ,( 'AIR REG' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v1' , 2 ) ,( 'v0' , 0 ) ,( 'v1' , 10 ) ,( 'v0' , 1 ) ; SELECT v4 , count ( * ) OVER( ORDER BY v3 NULLS LAST ) FROM v2 ; 

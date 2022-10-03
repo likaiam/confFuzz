@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , VALUE , v1 ) ; INSERT INTO v0 ( v1 ) VALUES ( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ; SELECT count ( v2 ) FROM v0 WHERE v1 BETWEEN 0 AND 10 ; 

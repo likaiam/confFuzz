@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( '1994-01-01' ) ,( '199419' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'forest%%' , 2 ) ,( 'v0' , 1 ) ,( 'v0' , 1 ) ,( 'v0' , 10 ) ; SELECT v1 FROM v2 CROSS JOIN v0 ORDER BY v1 DESC , v1 , v1 , v1 , v1 ; 

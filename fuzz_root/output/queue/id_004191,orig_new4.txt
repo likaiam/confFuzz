@@ -1,1 +1,0 @@
-SELECT julianday ( DISTINCT 'x' ) , total_changes () ; SELECT v1 WHERE v3 >= 'LG BOX' ORDER BY 3 , v5 ; 

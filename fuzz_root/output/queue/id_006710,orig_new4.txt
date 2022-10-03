@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 , v1 AS( v2 + v2 ) , v3 AS( NOT TYPEOF ( v1 ) ) CHECK( v2 ) ) ; SELECT DISTINCT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v3 WHERE v0 . v2 IN ( v0 . v3 , v0 . v2 , v0 . v2 ) ; SELECT sum ( v1 ) , sum ( length ( v3 ) ) FROM v0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v0' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v0' , 0 ) ,( '' , 0 ) ,( '1995-03-15' , 10 ) ,( 'v1' , 2 ) ; SELECT v3 FROM v0 CROSS JOIN v2 ORDER BY v3 DESC , v4 , v4 , 'v0' , v3 ; 

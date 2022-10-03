@@ -1,5 +1,0 @@
-digraph "CFG for 'apndDlSym' function" {
-	label="CFG for 'apndDlSym' function";
-
-	Node0x56027692d900 [shape=record,label="{shell.c:4251:}"];
-}

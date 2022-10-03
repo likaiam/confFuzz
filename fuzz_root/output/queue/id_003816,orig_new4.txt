@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v3 , v2 ) ; INSERT INTO v0 ( v3 ) VALUES ( 1 ) ,( 10 ) ; UPDATE v0 SET v2 = v2 NOT LIKE printf ( v2 , v1 , v3 , v3 , v1 , v1 , v2 ) ; 

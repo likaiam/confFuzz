@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v3 ) VALUES ( 0 ) ,( 3 ) ; DELETE FROM v0 WHERE v3 NOT LIKE abs ( v3 MATCH 'x' ) IS NULL OR NOT min ( v1 , v2 ) ; 

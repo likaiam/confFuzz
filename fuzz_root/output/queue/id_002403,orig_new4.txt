@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v4 INTEGER PRIMARY KEY , v3 , v1 UNIQUE AS( unlikely ( v3 ) ) , v2 ) ; SELECT * FROM v0 JOIN v0 NATURAL JOIN v0 ; 

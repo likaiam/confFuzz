@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 CHAR(15) UNIQUE , v1 INT PRIMARY KEY ON CONFLICT REPLACE ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 's%' ) ,( 'LG BOX' ) ,( 'x' ) ,( 'Brand#23' ) ; UPDATE v0 SET v2 = randomblob ( 127 ) ; SELECT v2 FROM v0 WHERE v2 IN ( 10 , 10 , 2000 ) ORDER BY v2 DESC ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'degToRad' function" {
-	label="CFG for 'degToRad' function";
-
-	Node0x55c0fa60faa0 [shape=record,label="{sqlite3.c:124393:}"];
-}

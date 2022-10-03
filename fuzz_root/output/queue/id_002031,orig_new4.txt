@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v0' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 12.100000 , 10 ) ,( 'x' , 10 ) ,( '' , 1 ) ,( 'v1' , 10 ) ; SELECT abs ( max ( v4 ) OVER( ORDER BY v4 ) ) FROM v2 GROUP BY v3 ; 

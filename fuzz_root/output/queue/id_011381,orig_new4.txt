@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'LG PACK' ) ,( 'v0' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX v5 ON v2 ( v4 , v4 , v4 , v3 , v4 , v4 ) ; SELECT * FROM v2 WHERE v4 IN ( 10 , 10 ) AND v3 IN ( 10 , 0 ) ORDER BY v4 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 CHECK( v2 != 'v1' ) NOT NULL AS( v2 ) , v1 ) ; SELECT * FROM v0 ( 'v1' = 'a' AND v1 = 10 ) USING ( y ) NATURAL JOIN v0 ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3RegisterBuiltinFunctions' function" {
-	label="CFG for 'sqlite3RegisterBuiltinFunctions' function";
-
-	Node0x55c0fa42f080 [shape=record,label="{sqlite3.c:124637:}"];
-}

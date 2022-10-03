@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_wal_hook' function" {
-	label="CFG for 'sqlite3_wal_hook' function";
-
-	Node0x55c0f6a52f80 [shape=record,label="{sqlite3.c:172681:}"];
-}

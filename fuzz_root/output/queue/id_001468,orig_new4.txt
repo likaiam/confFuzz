@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 DOUBLE PRIMARY KEY , v1 UNIQUE AS( v2 ) ) ; INSERT INTO v0 VALUES ( 12 ) ,( 3 ) ,( 10 ) ; DELETE FROM v0 WHERE v2 < ( SELECT v2 FROM v0 WHERE v0 . v2 = v0 . v2 GROUP BY v0 . v2 , v1 ) IN ( 1.100000 , 1 , 10 ) ; INSERT INTO v0 ( v2 ) VALUES ( 0 ) ,( 2 ) ; SELECT DISTINCT ( SELECT DISTINCT 'v0' , 0 , 10 , 1.100000 ) LIMIT nth_value ( v1 , 10 ) OVER( ) ; 

@@ -1,1 +1,0 @@
-PRAGMA secure_delete=FAST; ; CREATE TABLE NO_SAMPLING ( id INTEGER PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 2 ) ; SELECT v4 . v5 FROM v1 AS a JOIN v4 AS b ON v1 . v2 = v4 . v6 WHERE v1 . v3 IN ( 1 , 10 , 1 ) ; 

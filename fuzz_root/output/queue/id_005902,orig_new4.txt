@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v3 , v2 ) ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 10 ) ; INSERT INTO v0 VALUES ( 10 , '%%BRASS' , 'v0' ) ; SELECT group_concat ( v2 , v1 ) FROM v0 ; 

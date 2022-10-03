@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE randomblob ( 10 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( '31' ) ,( 'v0' ) ,( 'v1' ) ,( 'v0' ) ,( 'X' ) ; UPDATE v0 SET v1 = randomblob ( lower ( 'x' ) ) ; SELECT * FROM v0 UNION SELECT DISTINCT random () % 9223372036854775808 FROM v0 ORDER BY v1 ; 

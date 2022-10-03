@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 , v2 ) ; DELETE FROM v0 WHERE v1 IS NOT NULL OR abs ( v2 ) < 3 ; CREATE VIEW v3 ( v2 , v1 , v1 , v2 , v4 , v4 , v5 , v6 ) AS SELECT v3 . v5 , v6 MATCH 'LG PKG' , v3 . v4 FROM v3 ; ALTER TABLE v0 RENAME TO v2 ; SELECT v1 , v1 FROM v0 WHERE v1 IS NOT NULL ; 

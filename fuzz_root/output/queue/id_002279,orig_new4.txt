@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; SELECT sum ( v1 + length ( v1 ) ) FROM v0 WHERE v3 GLOB 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ; DELETE FROM v0 WHERE v3 = 'v1' OR v3 = 'v1' ; 

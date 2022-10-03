@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3VdbeOneByteSerialTypeLen' function" {
-	label="CFG for 'sqlite3VdbeOneByteSerialTypeLen' function";
-
-	Node0x55c0f7f39b20 [shape=record,label="{sqlite3.c:84436:}"];
-}

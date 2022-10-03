@@ -1,5 +1,0 @@
-digraph "CFG for 'apndUnfetch' function" {
-	label="CFG for 'apndUnfetch' function";
-
-	Node0x560276915b40 [shape=record,label="{shell.c:4074:}"];
-}

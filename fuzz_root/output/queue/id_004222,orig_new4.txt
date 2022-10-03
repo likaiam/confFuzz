@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'AIR' ) ,( 'AIR' ) ,( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) ; SELECT v1 FROM v0 GROUP BY lower ( v1 ) ORDER BY v1 , v1 LIMIT 9223372036854775807 OFFSET 2 ; CREATE UNIQUE INDEX v2 ON v0 ( v1 , v1 ) WHERE v1 != random () ; SELECT SUM ( v1 * ( 9 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

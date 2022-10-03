@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 , v3 AS( NOT v2 <= v3 IS NOT NULL + julianday ( '30' ) ) , v2 AS( NOT CASE NULL WHEN 'v1' THEN 1 ELSE 0 END ) CHECK( v2 ) ) ; SELECT DISTINCT v0 . v3 FROM v0 AS a JOIN v0 ON NULL = v0 . v2 WHERE v0 . v3 IN ( v0 . v2 , v0 . v3 , v0 . v2 ) ; SELECT sum ( v3 ) , sum ( length ( v3 ) ) FROM v0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'Y' ) ,( 'v1' ) ,( 'EUROPE' ) ; CREATE TABLE v2 ( v4 , v3 ) ; SELECT max ( v4 ) FROM v2 ; SELECT 3.100000 * SUM ( CASE WHEN v3 LIKE 'MED PACK' THEN v4 * ( 10 - v4 ) ELSE 10 END ) FROM v2 ; 

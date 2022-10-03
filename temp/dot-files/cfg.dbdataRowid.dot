@@ -1,5 +1,0 @@
-digraph "CFG for 'dbdataRowid' function" {
-	label="CFG for 'dbdataRowid' function";
-
-	Node0x560276d8a320 [shape=record,label="{shell.c:12061:}"];
-}

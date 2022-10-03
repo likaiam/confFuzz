@@ -1,1 +1,0 @@
-VACUUM ; SELECT v6 , rank () OVER( ORDER BY v7 ) FROM v4 LEFT JOIN v5 ON v8 GLOB 'v1' 'v1' ; 

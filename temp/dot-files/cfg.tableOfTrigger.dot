@@ -1,5 +1,0 @@
-digraph "CFG for 'tableOfTrigger' function" {
-	label="CFG for 'tableOfTrigger' function";
-
-	Node0x55c0f83f8390 [shape=record,label="{sqlite3.c:144108:}"];
-}

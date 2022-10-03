@@ -1,1 +1,0 @@
-VACUUM ; CREATE VIEW v0 AS SELECT v3 , v1 , v2 , v3 FROM v0 , v0 ( v1 , v3 , v2 ) ; VACUUM ; VACUUM ; SELECT * FROM v0 LEFT JOIN v0 ON v3 GLOB 'x' WHERE v2 = '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' OR v1 = v0 . v1 ; 

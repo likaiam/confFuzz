@@ -1,1 +1,0 @@
-PRAGMA cache_size=_neg_int_; ; CREATE TABLE v0 ( v1 , v2 AS( v3 + v2 ) , v3 AS( ( SELECT MAX ( v1 ) FROM v0 ) ) CHECK( v1 ) ) ; UPDATE v0 SET v1 = NULL ; 

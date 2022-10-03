@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_vtab_on_conflict' function" {
-	label="CFG for 'sqlite3_vtab_on_conflict' function";
-
-	Node0x55c0f65ac910 [shape=record,label="{sqlite3.c:148281:}"];
-}

@@ -1,1 +1,0 @@
-CREATE VIEW v0 AS SELECT * FROM v0 AS a , v0 AS b , v0 AS c , main . v0 ; CREATE VIEW v1 AS SELECT v3 AS f1 FROM v0 ; UPDATE v0 SET v4 = ( SELECT 10 FROM v0 AS a JOIN v1 AS AVG_YEARLY ON v0 . v6 = v0 . v5 ) ; 

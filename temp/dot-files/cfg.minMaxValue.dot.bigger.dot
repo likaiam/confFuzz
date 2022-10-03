@@ -1,5 +1,0 @@
-digraph "CFG for 'minMaxValue' function" {
-	label="CFG for 'minMaxValue' function";
-
-	Node0x55c0f87811b0 [shape=record,label="{sqlite3.c:124003:}"];
-}

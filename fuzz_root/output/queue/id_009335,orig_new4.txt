@@ -1,1 +1,0 @@
-CREATE VIEW v0 ( v1 ) AS SELECT DISTINCT ( SELECT DISTINCT 'v1' , 10 , 10 AS myname , 0.100000 ) ; SELECT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v1 IN ( 1.100000 , v0 . v1 , v0 . v1 ) ; 

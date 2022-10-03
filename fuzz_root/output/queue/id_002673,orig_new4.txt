@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER UNIQUE , v2 TEXT ) ; SELECT count ( * ) FROM v0 , v0 , v0 , v0 , v0 ; 

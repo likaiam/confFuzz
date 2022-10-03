@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3CompletionVtabInit' function" {
-	label="CFG for 'sqlite3CompletionVtabInit' function";
-
-	Node0x56027629a810 [shape=record,label="{shell.c:3622:}"];
-}

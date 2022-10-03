@@ -1,1 +1,0 @@
-SELECT ( random () % 10 ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 1 ) ; UPDATE v2 SET v3 = ( SELECT 127 FROM v4 ) ; 

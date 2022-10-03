@@ -1,5 +1,0 @@
-digraph "CFG for 'fts3ExprPhraseCount' function" {
-	label="CFG for 'fts3ExprPhraseCount' function";
-
-	Node0x55c0fb330cb0 [shape=record,label="{sqlite3.c:192806:}"];
-}

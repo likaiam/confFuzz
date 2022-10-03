@@ -1,5 +1,0 @@
-digraph "CFG for 'zipfileTableErr' function" {
-	label="CFG for 'zipfileTableErr' function";
-
-	Node0x560276b4db00 [shape=record,label="{shell.c:7198:}"];
-}

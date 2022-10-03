@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3ExprCoveredByIndex' function" {
-	label="CFG for 'sqlite3ExprCoveredByIndex' function";
-
-	Node0x55c0f97aadb0 [shape=record,label="{sqlite3.c:109502:}"];
-}

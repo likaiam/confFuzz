@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( d ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'MED BAG' ) ,( 'v0' ) ; CREATE VIEW v1 AS SELECT * FROM v0 , temp . v0 ; INSERT INTO v1 VALUES ( 'v0' , 0 ) ,( 'LG PKG' , 9223372036854775807 ) ,( 'b' , 10 ) ,( 'LG BOX' , 2 ) ; SELECT SUM ( v6 * ( 9223372036854775807 - v5 ) ) AS REVENUE , v7 AS alias FROM v0 ; 

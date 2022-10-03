@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'Ar' ) ,( 'x' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'SM BOX' , 10 ) ,( 'x' , 10 ) ,( 'v0' , 10 ) ,( 'DELIVER IN PERSON' , 10 ) ; SELECT MIN ( v1 ) AS REVENUE , v1 AS alias FROM v0 WHERE typeof ( v1 ) IN ( 'y' , '13' ) ; 

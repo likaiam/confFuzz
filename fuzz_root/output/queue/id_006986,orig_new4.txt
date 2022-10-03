@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 ( v1 ) VALUES ( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) ,( 'v1' ) ,( 'testtest' ) ,( '**%s**' ) ,( 'v1' ) ; UPDATE v0 SET v1 = ( v1 + v1 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY lower ( v1 ) DESC ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( 'MED PACK' != substr ( v1 , 9 , 1 ) NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'GERMANY' ) ,( '' ) ,( 'LG PKG' ) ,( 'LG PACK' ) ,( 'x' ) ; UPDATE v0 SET v1 = 10.100000 ; SELECT * FROM v0 UNION SELECT CASE WHEN 10.100000 THEN 'v0' ELSE 'MED BOX' END ORDER BY v1 ; 

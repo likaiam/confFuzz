@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 != zeroblob ( 10 ) NOT LIKE max ( v1 , v1 ) ) UNIQUE ON CONFLICT REPLACE ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'x' ) ,( 'UTF-16le' ) ,( 'v0' ) ,( 'v0' ) ; UPDATE v0 SET v1 = zeroblob ( v1 ) ; SELECT typeof ( 9223372036854775807 ) , v1 , typeof ( v1 ) , v1 , 'testtest' FROM v0 ORDER BY v1 ; 

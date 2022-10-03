@@ -1,1 +1,0 @@
-CREATE VIEW v0 ( v1 ) AS SELECT NULL INTERSECT SELECT NULL GROUP BY zeroblob ( typeof ( 'Felix Fürstenberg' ) ) ; SELECT DISTINCT * FROM v0 AS a JOIN v0 ON 'X' >= 1 'x' JOIN v0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( t4 CHAR(15) UNIQUE ON CONFLICT ABORT , v1 INT PRIMARY KEY ON CONFLICT REPLACE ) ; INSERT INTO v0 ( v1 ) VALUES ( 'MED BOX' ) ,( 'v1' ) ,( 'v0' ) ,( 'x' ) ,( 'x' ) ; UPDATE v0 SET v1 = zeroblob ( 127 ) ; SELECT v1 FROM v0 WHERE v1 IN ( 3 , 1 , 0 ) ORDER BY v1 DESC ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'moveToParent' function" {
-	label="CFG for 'moveToParent' function";
-
-	Node0x55c0f7f75080 [shape=record,label="{sqlite3.c:72093:}"];
-}

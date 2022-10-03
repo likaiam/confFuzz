@@ -1,5 +1,0 @@
-digraph "CFG for 'parentWrite' function" {
-	label="CFG for 'parentWrite' function";
-
-	Node0x55c0fb693cf0 [shape=record,label="{sqlite3.c:200015:}"];
-}

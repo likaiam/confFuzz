@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_vtab_in_next' function" {
-	label="CFG for 'sqlite3_vtab_in_next' function";
-
-	Node0x55c0f5ca7030 [shape=record,label="{sqlite3.c:86867:}"];
-}

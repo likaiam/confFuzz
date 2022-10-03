@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; CREATE VIEW v4 AS SELECT likelihood ( 'LG PKG' , 0.100000 ) ; UPDATE v0 SET v2 = ( SELECT 2 FROM v4 ) ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHECK( v1 NOT LIKE printf ( 'PROMO%%' , 0 ) ) NOT NULL ) ; INSERT INTO v0 ( v1 ) VALUES ( '199419' ) ,( 'test' ) ,( 'v0' ) ,( 'x' ) ,( 'Max Mustermann' ) ; UPDATE v0 SET v1 = zeroblob ( v0 . v1 ) ; SELECT * FROM v0 UNION SELECT DISTINCT v1 = zeroblob ( 1 ) FROM v0 ORDER BY v1 ; 

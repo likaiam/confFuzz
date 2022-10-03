@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; PRAGMA integrity_check=10; ; UPDATE v0 SET v1 = ( SELECT 10 FROM v0 ) ; 

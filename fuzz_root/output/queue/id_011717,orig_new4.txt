@@ -1,1 +1,0 @@
-PRAGMA query_only=true; ; VACUUM ; SELECT - - v1 > ( SELECT v7 AS myname , v8 FROM v6 ) ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 NOT NULL AS( - v1 ) , v2 ) ; UPDATE v0 SET v2 = v1 ; 

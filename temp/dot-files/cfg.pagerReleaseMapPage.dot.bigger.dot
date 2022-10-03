@@ -1,5 +1,0 @@
-digraph "CFG for 'pagerReleaseMapPage' function" {
-	label="CFG for 'pagerReleaseMapPage' function";
-
-	Node0x55c0f57e9fb0 [shape=record,label="{sqlite3.c:57901:}"];
-}

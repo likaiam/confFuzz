@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 AS( * ) CHECK( v2 ) , v3 , v1 ) ; INSERT INTO v0 ( v2 ) VALUES ( 1 ) ,( 0 ) ; SELECT v2 , rank () OVER( ORDER BY v3 DESC ) FROM v0 ; UPDATE v0 SET v3 = ( SELECT DISTINCT 1 FROM v0 LEFT JOIN v0 , v0 , v0 ) ; 

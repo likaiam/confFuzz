@@ -1,1 +1,0 @@
-PRAGMA checkpoint_fullsync=false; ; CREATE TABLE v0 ( v2 INTEGER PRIMARY KEY , v1 VARCHAR(36) ) ; UPDATE v0 SET v1 = NULL ; 

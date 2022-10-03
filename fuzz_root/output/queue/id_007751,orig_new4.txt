@@ -1,1 +1,0 @@
-CREATE TABLE temp . v0 ( v1 INT PRIMARY KEY ) ; DELETE FROM v0 WHERE abs ( v1 ) IS NULL OR v1 = 'x' < abs ( v1 ) IS NULL ; SELECT MIN ( v1 ) , v1 FROM v0 WHERE v1 IN ( SELECT 1 + v1 FROM v0 ) ; VACUUM ; 

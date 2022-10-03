@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v2 ) ; DELETE FROM v0 WHERE v1 IS NOT NULL OR abs ( v1 ) < 1 ; CREATE VIEW v3 ( v4 ) AS SELECT typeof ( 'forest%%' ) AS p WHERE NULL AND random () % 3 != 1 GROUP BY zeroblob ( DISTINCT randomblob ( DISTINCT 10 ) ) ; ALTER TABLE v0 RENAME TO v1 ; SELECT v4 , v4 FROM v3 WHERE v4 IS NOT NULL ; 

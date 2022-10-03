@@ -1,1 +1,0 @@
-PRAGMA hard_heap_limit=9223372036854775807; ; VACUUM temp ; SELECT NULL ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'zipfileCtxErrorMsg' function" {
-	label="CFG for 'zipfileCtxErrorMsg' function";
-
-	Node0x5602763b4040 [shape=record,label="{shell.c:7008:}"];
-}

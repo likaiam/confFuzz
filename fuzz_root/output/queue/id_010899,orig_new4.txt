@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v3 , v2 ) ; INSERT INTO v0 ( v3 ) VALUES ( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ; UPDATE v0 SET v2 = 3.100000 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'x' ) ,( '17' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v1' , 12 ) ,( 'Brand#34' , 1 ) ,( 'x' , 1 ) ,( 'Al' , 10 ) ; SELECT * FROM v0 GROUP BY v1 HAVING v1 < 'x' ORDER BY 1 DESC , v1 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v0' ) ,( 'x' ) ; CREATE TABLE v2 ( v4 INTEGER , v3 ) ; INSERT INTO v2 VALUES ( 'MED BAG' , 3 ) ,( 'v1' , 10 ) ,( 'v1' , 10 ) ,( 'Felix Fürstenberg' , 10 ) ; SELECT CASE WHEN v4 NOT IN ( 1 , 10 , 1 ) THEN '13' ELSE 'x' END FROM v2 ; 

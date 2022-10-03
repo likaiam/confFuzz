@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v2 , v3 ) ; SELECT * FROM v0 WHERE v3 GLOB 'PROMO%%' ; DELETE FROM v0 WHERE ( 'x' = 1 AND ( v3 = 3 OR v3 = 2 ) ) OR v3 = 'x' ; 

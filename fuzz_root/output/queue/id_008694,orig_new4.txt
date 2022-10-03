@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHECK( v1 != '199419' ) NOT NULL ON CONFLICT REPLACE AS( v2 ) , v2 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 2 ) ,( 2 ) ; SELECT * FROM v0 JOIN v0 USING ( v2 , v1 , v1 , v1 ) NATURAL JOIN v0 ; 

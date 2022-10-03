@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3Pcache1Mutex' function" {
-	label="CFG for 'sqlite3Pcache1Mutex' function";
-
-	Node0x55c0f69c2e10 [shape=record,label="{sqlite3.c:53125:}"];
-}

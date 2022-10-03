@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 FLOAT ) ; INSERT INTO v0 ( v1 , v1 ) VALUES ( 10 , 4294967295 ) ; SELECT v1 , rank () OVER( ORDER BY 0 ) FROM v0 ; 

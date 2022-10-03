@@ -1,1 +1,0 @@
-SELECT tointeger ( 1 ) ; SELECT * FROM v0 , v1 WHERE v2 = v3 AND v4 = 2000 ; 

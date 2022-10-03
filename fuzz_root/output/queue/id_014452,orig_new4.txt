@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'x' ) ,( 'testtest' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX v5 ON v2 ( v3 , v4 ) WHERE v3 = v3 AND v4 = 2 ; SELECT * FROM v0 RIGHT OUTER JOIN v2 ON v4 = v3 WHERE v4 = v3 AND v4 = 10 ; 

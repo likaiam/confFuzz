@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v0' ) ,( 'x' ) ; CREATE TABLE v2 ( v4 PRIMARY KEY CHECK( 9 ) , v3 ) ; SELECT 10 IN ( CAST ( 'v1' AS TEXT ) ) ; SELECT MIN ( v4 ) AS REVENUE , v4 AS alias FROM v0 LEFT JOIN v2 ON v4 = v4 WHERE 10 BETWEEN 'v0' AND 'test' ; 

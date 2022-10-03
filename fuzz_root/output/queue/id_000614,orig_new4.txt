@@ -1,1 +1,0 @@
-SELECT 1 AS x ORDER BY ( SELECT v1 ORDER BY 1 ) ; CREATE TABLE v2 ( v3 , v4 AS( v4 + v3 ) , v5 AS( v3 ) CHECK( v5 ) ) ; UPDATE v2 SET v5 = CASE WHEN v5 = 12 THEN v5 ELSE v3 + 10 END ; 

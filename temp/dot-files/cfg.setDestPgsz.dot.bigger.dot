@@ -1,5 +1,0 @@
-digraph "CFG for 'setDestPgsz' function" {
-	label="CFG for 'setDestPgsz' function";
-
-	Node0x55c0f71e8b50 [shape=record,label="{sqlite3.c:78009:}"];
-}

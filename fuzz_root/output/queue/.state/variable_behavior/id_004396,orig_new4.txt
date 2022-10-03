@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( p INT , v1 INT ) ; INSERT INTO v0 ( v1 , v1 ) VALUES ( 2 , 2000 ) ; SELECT v1 , rank () OVER( ORDER BY v1 , v1 , v1 , v1 , v1 DESC ) FROM v0 ; 

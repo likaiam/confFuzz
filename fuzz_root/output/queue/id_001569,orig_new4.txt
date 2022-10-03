@@ -1,1 +1,0 @@
-SELECT v10 , v12 FROM v4 LEFT JOIN v5 ON ( v6 = v7 ) LEFT JOIN v8 ON ( v11 = v9 ) ; CREATE TABLE v13 ( v14 , v16 AS( v15 + v15 ) , v15 AS( v15 ) CHECK( v16 ) ) ; UPDATE v13 SET v15 = NULL ; 

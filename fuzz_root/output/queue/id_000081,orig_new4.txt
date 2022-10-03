@@ -1,1 +1,0 @@
-PRAGMA temp_store=1; ; CREATE TABLE v0 ( v1 , v2 AS( v1 + v1 ) , v3 TEXT ) ; UPDATE v0 SET v3 = NULL ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHAR(25) CHECK( v1 NOT LIKE printf ( v2 , v2 , v1 , v1 , v1 , v1 , typeof ( v2 ) ) ) , v2 INT ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 10 ) ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 10.100000 ) ; UPDATE v0 SET v1 = ( SELECT 3 FROM v0 ORDER BY substr ( v1 , 10 , 3 ) + 42.100000 DESC ) ; 

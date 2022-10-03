@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( datetime ( v1 ) IS NOT NULL < v1 NOT LIKE julianday ( ( v1 * 3 ) > v1 ) ) ) ; CREATE TABLE v2 ( v4 TEXT , v5 , v6 , v3 ) ; VACUUM ; VACUUM ; 

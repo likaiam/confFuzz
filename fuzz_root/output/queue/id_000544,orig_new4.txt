@@ -1,1 +1,0 @@
-PRAGMA cache_spill=true; ; CREATE TABLE v0 ( v1 , v2 AS( v3 + v2 ) , v3 AS( v2 ) CHECK( v1 ) ) ; INSERT INTO main . v0 VALUES ( 12 , 'LG PACK' ) ; 

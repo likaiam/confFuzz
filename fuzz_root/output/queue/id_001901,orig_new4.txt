@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'x' ) ,( 'UTF-16le' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 'v0' , 10 ) ,( '17' , 1 ) ,( 'v1' , 10 ) ; SELECT COUNT ( v1 GLOB v1 ) FROM v0 ; 

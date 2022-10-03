@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; DELETE FROM v0 WHERE v2 = 'X' ; UPDATE v0 SET v3 = v1 + 1 WHERE v1 > 1 OR v1 > 10 ; 

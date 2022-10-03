@@ -1,1 +1,0 @@
-SELECT - 'v0' ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 1 ) ; SELECT v0 . v1 FROM zipfile LEFT JOIN v0 ON v1 GLOB 'x' WHERE v0 . v1 IN ( 2 , 2 , 0 ) ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 CHECK( v2 != v2 ) AS( datetime ( ( v1 >= 1 IN ( 1.100000 , 1 , 10 ) ) , v2 ) ) , v1 ) ; SELECT * FROM v0 JOIN v0 USING ( v1 , v1 , v2 , v2 , v2 , v2 , v2 , v2 , v2 , v1 , v1 , v2 , v2 , v2 , v1 , v2 , v1 , v1 ) NATURAL JOIN v0 ; 

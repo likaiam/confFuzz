@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v0' ) ,( 's%' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE VIEW v5 AS SELECT v4 AS p , v3 AS q FROM v5 AS x1 , v2 AS x2 WHERE v4 = v3 ; CREATE TABLE v6 ( v7 INTEGER PRIMARY KEY , v14 , v15 , v13 , v12 , v10 , v11 , v9 , v8 ) ; 

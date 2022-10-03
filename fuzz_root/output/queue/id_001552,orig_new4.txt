@@ -1,1 +1,0 @@
-SELECT 2000 AS x GROUP BY v1 , v3 ORDER BY ( SELECT NULL ORDER BY 1 ) ; CREATE TABLE v4 ( v5 , v6 AS( v5 + v6 ) , v7 AS( v7 ) CHECK( v7 ) ) ; UPDATE v4 SET v6 = NULL ; 

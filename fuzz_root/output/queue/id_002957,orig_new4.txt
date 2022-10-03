@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'x' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX v5 ON v0 ( v1 , v1 , v1 , v1 , v1 , v1 ) ; SELECT SUM ( v1 * ( 10 - v1 ) ) AS REVENUE , v1 AS alias FROM v2 , v2 AS t , v0 ; 

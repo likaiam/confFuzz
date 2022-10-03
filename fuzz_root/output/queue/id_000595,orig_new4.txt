@@ -1,1 +1,0 @@
-SELECT count () ORDER BY ( SELECT v1 ORDER BY 0 ) ; CREATE TABLE v2 ( v4 , v5 AS( v4 + v5 ) , v3 AS( v5 ) CHECK( v3 ) ) ; UPDATE v2 SET v4 = NULL ; 

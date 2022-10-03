@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3BtreeSetMmapLimit' function" {
-	label="CFG for 'sqlite3BtreeSetMmapLimit' function";
-
-	Node0x55c0fa214440 [shape=record,label="{sqlite3.c:69714:}"];
-}

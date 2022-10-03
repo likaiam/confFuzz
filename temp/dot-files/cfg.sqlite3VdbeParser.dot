@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3VdbeParser' function" {
-	label="CFG for 'sqlite3VdbeParser' function";
-
-	Node0x55c0f651dfc0 [shape=record,label="{sqlite3.c:80693:}"];
-}

@@ -1,1 +1,0 @@
-PRAGMA application_id=10; ; CREATE TABLE v0 ( v1 , v3 AS( v1 + v1 ) , v2 AS( v2 ) CHECK( v2 ) ) WITH HINT ( NO_CACHE , SAMPLE_RATE ( 10.100000 ) , OMW ( 127.100000 , 'Brand#34' ) ) ; UPDATE v0 SET v1 = NULL ; INSERT INTO v0 ( v3 ) VALUES ( 2 ) ,( 10 ) ; DELETE FROM v0 WHERE v2 = ( SELECT NTILE ( 10 ) OVER( ) - 10 AS nt FROM v0 ) OR v3 <= 9 + 3 ; 

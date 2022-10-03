@@ -1,5 +1,0 @@
-digraph "CFG for 'vdbeIncrBgPopulate' function" {
-	label="CFG for 'vdbeIncrBgPopulate' function";
-
-	Node0x55c0f781f400 [shape=record,label="{sqlite3.c:99453:}"];
-}

@@ -1,1 +1,0 @@
-SELECT min ( 'x' , 'GERMANY' ) , total_changes () ; SELECT DISTINCT sqlite_compileoption_used ( sqlite_compileoption_get ( 10 ) ) ; 

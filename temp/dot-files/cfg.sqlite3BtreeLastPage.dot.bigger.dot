@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3BtreeLastPage' function" {
-	label="CFG for 'sqlite3BtreeLastPage' function";
-
-	Node0x55c0f71f2f80 [shape=record,label="{sqlite3.c:69039:}"];
-}

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( '18' ) ,( 'MED BOX' ) ; CREATE TABLE v2 ( v3 , v4 ) ; SELECT 3 IN ( CAST ( 'v1' AS TEXT ) ) ; SELECT MIN ( v1 ) AS REVENUE , v1 AS alias FROM v2 LEFT JOIN v0 ON v1 = v1 WHERE 10 BETWEEN 'v1' AND 'v1' ; 

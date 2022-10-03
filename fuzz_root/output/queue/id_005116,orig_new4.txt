@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( generate_series , v1 , v2 ) ; CREATE TABLE v3 ( v4 , v5 ) ; VACUUM ; UPDATE v3 SET v4 = v4 + 10 WHERE v5 > 10 OR v4 > 10 AND NOT v5 ; DELETE FROM v0 WHERE v1 MATCH - 10.100000 ; 

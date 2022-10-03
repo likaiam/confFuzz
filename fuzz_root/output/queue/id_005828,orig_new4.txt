@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 's%' ) ,( 'x' ) ,( '17' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'GERMANY' , 10 ) ,( 'x' , 1 ) ,( 'x' , 3 ) ,( 'v1' , 10 ) ; SELECT v4 , v3 + v3 , v4 , v3 + v3 FROM v0 , v2 ; 

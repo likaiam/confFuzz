@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; SELECT * FROM v0 WHERE v3 = 10 OR v1 LIKE 'x' ; DELETE FROM v0 WHERE v3 = 'x' OR v1 = 'LG CASEaaaaaaaaaaaa' ; 

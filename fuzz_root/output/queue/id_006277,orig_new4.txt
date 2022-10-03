@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) ,( 'v0' ) ,( '1994-01-01' ) ,( 'v1' ) ,( 'v0' ) ; UPDATE v0 SET v1 = CASE WHEN v1 = 9223372036854775808 THEN v1 ELSE v1 + 127 END ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

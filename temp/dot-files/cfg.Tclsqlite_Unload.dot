@@ -1,5 +1,0 @@
-digraph "CFG for 'Tclsqlite_Unload' function" {
-	label="CFG for 'Tclsqlite_Unload' function";
-
-	Node0x55a7358bad40 [shape=record,label="{tclsqlite.c:3948:}"];
-}

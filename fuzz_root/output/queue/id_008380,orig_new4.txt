@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 , v3 AS( v2 + v2 ) , v2 AS( NOT CASE ( v3 = 'v0' AND v2 < 0 = v1 ) WHEN v1 = 10 THEN v3 ELSE 10 END ) CHECK( v2 ) ) ; SELECT DISTINCT v0 . v3 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v3 IN ( v0 . v3 , v0 . v2 , v0 . v3 ) ; SELECT substr ( v2 , v1 , 0 ) , sum ( length ( v3 ) ) FROM v0 ; 

@@ -1,1 +1,0 @@
-PRAGMA encoding='UTF-16le'; ; CREATE TABLE v0 ( v2 CHAR(15) UNIQUE , v1 CHAR(15) PRIMARY KEY ON CONFLICT ABORT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'Al' ) ,( 'LG PACK' ) ,( 'v1' ) ,( 'x' ) ,( 'v1' ) ; UPDATE v0 SET v1 = randomblob ( 1 ) ; SELECT v2 FROM v0 WHERE v1 IN ( 10 , 10 , 10 ) ORDER BY v1 DESC ; 

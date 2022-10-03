@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '1994-01-01' ) ,( 'x' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( '1995-09-01' , 10 ) ,( 'x' , 3 ) ,( 'v1' , 0 ) ; SELECT * FROM v0 WHERE unlikely ( v1 ) <= 'b' ; 

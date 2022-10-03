@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 , v1 INTEGER AS( '31' ) CHECK( ( v1 < 2 AND v2 = 1 ) ) CHECK( v2 NOT LIKE 'x' ) NOT NULL UNIQUE ) ; SELECT * , 'v1' FROM v0 ORDER BY v1 ; SELECT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v2 WHERE v0 . v1 IN ( v0 . v1 , 1 , v0 . v1 ) ; 

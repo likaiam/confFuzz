@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v3 , v2 ) ; INSERT INTO v0 VALUES ( 1 , 2.100000 , 2000 ) ; UPDATE v0 SET v1 = ( SELECT nth_value ( v3 , 10 ) OVER( ORDER BY v3 ) ) ; SELECT * FROM v0 WHERE v3 = 10 AND v1 IN ( 9 , 3 ) LIMIT 9 ; 

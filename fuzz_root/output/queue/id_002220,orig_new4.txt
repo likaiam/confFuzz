@@ -1,1 +1,0 @@
-SELECT zeroblob ( 10 ) ; CREATE TABLE v0 ( v1 , v4 , v3 , v8 , v7 , v6 , v2 , v5 ) WITH HINT ( NO_CACHE , SAMPLE_RATE ( 3.100000 ) , OMW ( 9223372036854775808.000000 , 'v1' ) ) ; UPDATE v0 SET v7 = ( SELECT 2 FROM v0 ) ; 

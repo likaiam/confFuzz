@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'PROMO%%' ) ,( '18' ) ,( '**%s**' ) ,( 'v1' ) ,( 'x' ) ; UPDATE v0 SET v1 = 10 < v1 != ( v1 < 127 AND v1 = 0 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

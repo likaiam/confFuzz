@@ -1,5 +1,0 @@
-digraph "CFG for 'getPageReferenced' function" {
-	label="CFG for 'getPageReferenced' function";
-
-	Node0x55c0f845fac0 [shape=record,label="{sqlite3.c:76985:}"];
-}

@@ -1,5 +1,0 @@
-digraph "CFG for 'measureAllocationSize' function" {
-	label="CFG for 'measureAllocationSize' function";
-
-	Node0x55c0f6fcfc20 [shape=record,label="{sqlite3.c:29151:}"];
-}

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE randomblob ( DISTINCT 1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'forest%%' ) ,( 'EUROPE' ) ,( 'v0' ) ,( 'Max Mustermann' ) ; UPDATE v0 SET v1 = zeroblob ( 10 ) ; CREATE INDEX v2 ON v0 ( v1 ) WHERE v1 = v1 IS NOT NULL ; SELECT v1 FROM v0 WHERE v1 = 'x' ; 

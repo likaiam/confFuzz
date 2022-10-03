@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_column_blob' function" {
-	label="CFG for 'sqlite3_column_blob' function";
-
-	Node0x55c0f5cbfe20 [shape=record,label="{sqlite3.c:87144:}"];
-}

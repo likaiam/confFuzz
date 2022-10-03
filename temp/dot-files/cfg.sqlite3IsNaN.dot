@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3IsNaN' function" {
-	label="CFG for 'sqlite3IsNaN' function";
-
-	Node0x55c0f7006cc0 [shape=record,label="{sqlite3.c:33278:}"];
-}

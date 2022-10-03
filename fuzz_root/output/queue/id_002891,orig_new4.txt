@@ -1,1 +1,0 @@
-SELECT changes () , SAMPLE_RATE () ; SELECT v1 WHERE v3 >= 'MED BOX' ORDER BY 4294967295 , v5 ; 

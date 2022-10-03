@@ -1,5 +1,0 @@
-digraph "CFG for 'whereScanInitIndexExpr' function" {
-	label="CFG for 'whereScanInitIndexExpr' function";
-
-	Node0x55c0f9671af0 [shape=record,label="{sqlite3.c:154146:}"];
-}

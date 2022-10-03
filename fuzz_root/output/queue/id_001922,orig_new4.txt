@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v0' ) ,( 'Brand#23' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'Al' , 1 ) ,( 'v1' , 0 ) ,( 'test' , 10 ) ; SELECT v1 , count ( * ) OVER( ORDER BY v1 ) FROM v2 LEFT JOIN v2 JOIN v0 ; 

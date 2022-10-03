@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'AIR REG' ) ,( 'x' ) ,( 'v1' ) ,( 'x' ) ,( 'v1' ) ; CREATE VIEW v2 AS SELECT 1 AS PROMO_REVENUE FROM v0 ORDER BY v1 IS NULL < v1 NOT LIKE julianday ( 'v1' ) , v1 DESC , v1 DESC ; SELECT max ( ( SELECT * FROM v2 NATURAL JOIN v2 ) ) FROM v2 ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'releasePageOne' function" {
-	label="CFG for 'releasePageOne' function";
-
-	Node0x55c0f7759910 [shape=record,label="{sqlite3.c:69130:}"];
-}

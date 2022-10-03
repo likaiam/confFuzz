@@ -1,6 +1,0 @@
-sqlite3.c:71241,65.0
-sqlite3.c:71243,64.0
-sqlite3.c:71244,63.0
-sqlite3.c:71249,63.0
-sqlite3.c:71251,62.0
-sqlite3.c:71252,60.0

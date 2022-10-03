@@ -1,5 +1,0 @@
-digraph "CFG for 'memtraceSize' function" {
-	label="CFG for 'memtraceSize' function";
-
-	Node0x56027693d030 [shape=record,label="{shell.c:4382:}"];
-}

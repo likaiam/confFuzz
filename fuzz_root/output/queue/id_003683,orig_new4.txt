@@ -1,1 +1,0 @@
-PRAGMA busy_timeout = -1;PRAGMA busy_timeout=10; ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ON CONFLICT IGNORE ) ; INSERT INTO v0 VALUES ( 10 ) ; UPDATE temp . v0 SET v1 = 10.100000 ; SELECT SUM ( v1 * ( 0 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

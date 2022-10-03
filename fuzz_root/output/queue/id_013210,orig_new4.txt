@@ -1,1 +1,0 @@
-PRAGMA page_size=9223372036854775807; ; CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ON CONFLICT IGNORE ) ; CREATE INDEX v2 ON v0 ( v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 ) ; VACUUM ; VACUUM ; 

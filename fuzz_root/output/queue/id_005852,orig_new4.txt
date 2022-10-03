@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 CHAR(25) ) ; INSERT INTO v0 VALUES ( 0 , '13' ) ,( 0 , 'Felix Fürstenberg' ) ,( 10 , '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' ) ,( 0 , 'v0' ) ; SELECT lower ( v2 ) FROM v0 GROUP BY v2 ORDER BY v1 ASC ; 

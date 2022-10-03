@@ -1,1 +1,0 @@
-SELECT count () OVER( ORDER BY NOT ( 'abc' = 'v1' AND random () % 2 = 16 ) , 10 ) WITH HINT ( NO_CACHE ) ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 1 ) ; UPDATE v2 SET v3 = ( SELECT 2 FROM v4 ) ; 

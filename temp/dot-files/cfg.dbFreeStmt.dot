@@ -1,5 +1,0 @@
-digraph "CFG for 'dbFreeStmt' function" {
-	label="CFG for 'dbFreeStmt' function";
-
-	Node0x55a73579d0d0 [shape=record,label="{tclsqlite.c:495:}"];
-}

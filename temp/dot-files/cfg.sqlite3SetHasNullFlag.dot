@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3SetHasNullFlag' function" {
-	label="CFG for 'sqlite3SetHasNullFlag' function";
-
-	Node0x55c0f8c85380 [shape=record,label="{sqlite3.c:106188:}"];
-}

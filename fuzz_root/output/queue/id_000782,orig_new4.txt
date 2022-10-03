@@ -1,1 +1,0 @@
-CREATE VIEW v0 AS SELECT max ( v5 ) , min ( v3 ) FROM v0 GROUP BY v4 ; INSERT INTO v0 ( v6 ) VALUES ( 10 ) ,( 3 ) ,( 1 ) ; CREATE TABLE v7 ( v9 CHAR(25) PRIMARY KEY , v8 INT ) ; INSERT INTO v0 ( v10 ) VALUES ( 2000 ) ,( 10 ) ; SELECT * FROM v7 , v0 WHERE v12 = v13 AND v11 = 3 ; 

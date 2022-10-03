@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'v0' ) ,( 'v0' ) ,( 'v1' ) ,( 'v0' ) ; UPDATE v0 SET v1 = ( SELECT zipfile ( v0 . v1 , 1 , random () % 0 , v1 ) IS NOT NULL FROM v0 AS c ) ; SELECT v1 / v1 , v1 , rank () OVER( ORDER BY v1 DESC ) FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'Brand#34' ) ,( '13' ) ,( 'x' ) ,( 'v1' ) ,( 'MED BAG' ) ; UPDATE v0 SET v1 = randomblob ( ( 10 = 1 AND v1 = 10 ) + v1 + julianday ( * ) ) ; SELECT * FROM v0 AS a JOIN v0 ON NULL = v0 . v1 NATURAL JOIN v0 ; UPDATE v0 SET v1 = ( SELECT zipfile ( v0 . v1 , 0 , random () % NOT v1 <= 'v0' , v1 ) IS NOT NULL FROM v0 ) ; 

@@ -1,1 +1,0 @@
-PRAGMA foreign_keys=false; ; CREATE TABLE v0 ( v1 , v2 AS( v1 + v3 ) , v3 AS( v2 ) CHECK( v2 ) ) ; UPDATE v0 SET v2 = NULL WHERE v3 IN ( SELECT v3 FROM v0 WHERE v2 IN ( 3 , 10 ) ) ; 

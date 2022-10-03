@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '29' ) ,( 'v0' ) ,( 'Brand#34' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( '199419' , 10 ) ,( 'LG PKG' , 10 ) ,( '%%BRASS' , 10 ) ,( 'v1' , 3 ) ; SELECT * FROM v0 UNION SELECT v3 BETWEEN v4 AND v3 AS count FROM v2 ; 

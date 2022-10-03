@@ -1,5 +1,0 @@
-digraph "CFG for 'typeofFunc' function" {
-	label="CFG for 'typeofFunc' function";
-
-	Node0x55c0f87831a0 [shape=record,label="{sqlite3.c:122356:}"];
-}

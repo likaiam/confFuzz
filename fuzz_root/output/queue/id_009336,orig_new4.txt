@@ -1,1 +1,0 @@
-CREATE VIEW v0 ( v1 ) AS SELECT DISTINCT ( SELECT DISTINCT 'forest%%' , 3 , 10 AS myname , 3.100000 ) ; SELECT max ( DISTINCT 1 , NULL , 9223372036854775807 ) FROM v0 WHERE v0 . v1 IN ( v0 . v1 , v0 . v1 , v0 . v1 ) ; 

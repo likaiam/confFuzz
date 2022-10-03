@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 != substr ( v1 , 1 , 10 ) NOT LIKE randomblob ( v1 NOT LIKE v1 ) NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 0.100000 ) ,( 0 ) ; UPDATE v0 SET v1 = v1 + 0 ; DELETE FROM v0 WHERE v1 MATCH - 2.100000 ; 

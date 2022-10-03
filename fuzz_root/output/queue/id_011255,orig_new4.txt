@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v3 ) VALUES ( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ,( NULL ) ; SELECT v1 FROM v0 WHERE v2 IN ( 0 , 0 , 9 , 3 , 127 ) ORDER BY v2 DESC LIMIT 2 ; 

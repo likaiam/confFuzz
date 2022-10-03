@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 INTEGER CHECK( 'v1' != v3 NOT LIKE randomblob ( v3 NOT LIKE v2 ) ) ) ; CREATE VIEW v4 AS SELECT v2 FROM v0 UNION ALL SELECT v2 FROM v0 ; SELECT * FROM main . v0 NATURAL JOIN v0 ; UPDATE v0 SET v1 = ( SELECT 10 FROM v4 LEFT JOIN v0 ON typeof ( ( random () % 10 ) == 10 ) NOT LIKE 'c' ) ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'bind_table_init' function" {
-	label="CFG for 'bind_table_init' function";
-
-	Node0x560277330180 [shape=record,label="{shell.c:14154:}"];
-}

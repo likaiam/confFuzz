@@ -1,5 +1,0 @@
-digraph "CFG for 'pragmaVtabEof' function" {
-	label="CFG for 'pragmaVtabEof' function";
-
-	Node0x55c0f869c170 [shape=record,label="{sqlite3.c:134328:}"];
-}

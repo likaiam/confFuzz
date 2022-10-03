@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 AS( 10 >= v8 ) UNIQUE , v8 , v2 , v7 , v6 , v11 , v4 , v3 , v10 , v9 , v5 ) ; INSERT INTO v0 ( v3 , v6 ) VALUES ( 9223372036854775807 , 0 ) ; SELECT v11 , v8 , v2 FROM v0 NATURAL JOIN v0 ; 

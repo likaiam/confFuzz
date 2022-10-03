@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 INT ) ; UPDATE v0 SET v1 = ( SELECT v1 FROM v0 WHERE v1 > 10 OR v2 > 2 AND 'x' <= v1 LIMIT 10 ) ; SELECT * FROM v0 WHERE v1 BETWEEN '%%green%%' AND 'y' OR v2 = 'v0' GROUP BY v1 ORDER BY length ( v1 ) DESC ; 

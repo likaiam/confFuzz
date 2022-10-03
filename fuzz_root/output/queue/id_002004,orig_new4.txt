@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v0' ) ,( 'SM CASE' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( '23' , 0 ) ,( '**%s**' , 10 ) ,( 'BUILDING' , 0 ) ,( 'GERMANY' , 9223372036854775807 ) ; SELECT * FROM v2 , v0 WHERE ( v1 >= 10 OR v1 < 10 ) AND v1 IN ( 0 , v1 ) ORDER BY 1 

@@ -1,5 +1,0 @@
-digraph "CFG for 'posixIoFinderImpl' function" {
-	label="CFG for 'posixIoFinderImpl' function";
-
-	Node0x55c0f700b050 [shape=record,label="{sqlite3.c:40823:}"];
-}

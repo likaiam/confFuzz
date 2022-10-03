@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHECK( v1 NOT LIKE printf () ) ) ; INSERT OR IGNORE INTO v0 SELECT v1 + 0 FROM v0 ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v0 SELECT upper ( v3 ) FROM v2 ; UPDATE v0 SET v1 = ( SELECT v1 FROM v0 WHERE v1 > 1 OR 'LG BOX' + julianday ( 'x' ) AND v1 NOT LIKE 's%' LIMIT 10 ) ; 

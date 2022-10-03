@@ -1,1 +1,0 @@
-SELECT quote ( v1 ) , quote ( v3 ) , quote ( v5 ) , quote ( v7 ) , 'x' ; CREATE TABLE v8 ( v9 INTEGER PRIMARY KEY ) ; INSERT INTO v8 SELECT v9 , sum ( v9 ) OVER( PARTITION BY ( v9 % 1 ) ORDER BY v9 ) FROM v8 ; SELECT v8 . v9 FROM v8 AS a JOIN v8 AS b ON v8 . v9 = v8 . v9 WHERE v8 . v9 IN ( 1 , 9223372036854775807 , 0 ) ; 

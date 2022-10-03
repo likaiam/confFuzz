@@ -1,5 +1,0 @@
-digraph "CFG for 'apndSectorSize' function" {
-	label="CFG for 'apndSectorSize' function";
-
-	Node0x560276907d80 [shape=record,label="{shell.c:4015:}"];
-}

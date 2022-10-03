@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v3 , v2 AS( v3 + v1 ) , v1 AS( NOT CASE ( v2 = '29' AND v2 < 1 = v3 ) WHEN v2 = 10 THEN v2 ELSE 0 END ) CHECK( v3 ) ) ; SELECT DISTINCT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v1 IN ( v0 . v1 , v0 . v2 , v0 . v3 ) ; SELECT sum ( v3 ) , sum ( length ( v3 ) ) FROM v0 ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'jsonOom' function" {
-	label="CFG for 'jsonOom' function";
-
-	Node0x55c0fa8595b0 [shape=record,label="{sqlite3.c:195190:}"];
-}

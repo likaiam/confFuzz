@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 NOT NULL UNIQUE ) ; INSERT INTO v0 ( v1 ) VALUES ( 2000 ) ,( 1 ) ; UPDATE v0 SET v1 = randomblob ( 2000 ) ; 

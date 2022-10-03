@@ -1,1 +1,0 @@
-PRAGMA writable_schema = 1;CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v0' ) ,( '23' ) ,( 'v0' ) ,( 'SM PACK' ) ON CONFLICT DO NOTHING ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT v1 , min ( v1 ) FROM generate_series GROUP BY v1 ORDER BY v1 , v1 , v1 LIMIT 10 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(10) ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 2 ) ; UPDATE v0 SET v1 = ( SELECT zipfile ( v0 . v1 , 9 , random () % 1 , v1 ) IS NOT NULL FROM v0 ) ; 

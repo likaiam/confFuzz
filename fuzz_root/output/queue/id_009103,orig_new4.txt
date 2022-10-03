@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER AS( NOT v3 <= coalesce ( v2 , v5 ) + v4 ) , v5 , v2 , v3 PRIMARY KEY ON CONFLICT ROLLBACK , v4 UNIQUE ) ; DELETE FROM v0 WHERE v2 = 1 OR v3 = ( SELECT v1 FROM v0 ) ; CREATE INDEX v6 ON v0 ( v1 , v2 ) WHERE ( v3 GLOB 'Ar' AND v5 = 2000 ) AND v5 = 10 AND v5 = 3 AND v2 = 3 ; REPLACE INTO v0 ( v2 ) VALUES ( NULL ) ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v0' ) ,( 'MED PACK' ) ; CREATE TABLE v2 ( v3 , v4 ) ; SELECT 0 IN ( CAST ( 'LG CASEaaaaaaaaaaaa' AS TEXT ) ) ; SELECT MIN ( v1 ) AS REVENUE , v1 AS alias FROM v0 ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'readInt16' function" {
-	label="CFG for 'readInt16' function";
-
-	Node0x55c0fb402e80 [shape=record,label="{sqlite3.c:198210:}"];
-}

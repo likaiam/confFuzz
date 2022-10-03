@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( julianday ( DISTINCT 'testtest' ) % 2 < v1 NOT LIKE julianday ( v1 , 1 , random () % 3 ) ) ) ; INSERT INTO v0 VALUES ( 12 ) ,( 2 ) ; VACUUM ; VACUUM ; SELECT v1 = NULL FROM v0 WHERE NULL BETWEEN v1 > v1 AND 0 = v1 * 10 ; 

@@ -1,1 +1,0 @@
-PRAGMA busy_timeout=10; ; VACUUM temp ; SELECT NULL ; 

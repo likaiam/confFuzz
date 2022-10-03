@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_prepare_v2' function" {
-	label="CFG for 'sqlite3_prepare_v2' function";
-
-	Node0x55c0f635dad0 [shape=record,label="{sqlite3.c:135327:}"];
-}

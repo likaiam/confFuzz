@@ -1,1 +1,0 @@
-SELECT 10 AS x ORDER BY ( SELECT DISTINCT v1 ORDER BY v3 = ( SELECT - 0 AS f1 FROM v4 ) ) ; CREATE TABLE v5 ( v8 , v6 AS( v8 + v8 ) , v7 AS( v6 ) CHECK( v8 ) ) ; UPDATE v5 SET v8 = NULL ; 

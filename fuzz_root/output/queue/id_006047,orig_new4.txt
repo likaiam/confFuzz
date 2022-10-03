@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'c' ) ,( 'v0' ) ,( 'v1' ) ,( 'x' ) ,( 'x' ) ; UPDATE v0 SET v1 = ( SELECT lead ( v1 , 0 ) OVER( ORDER BY v1 ) AS x FROM v0 ) ; SELECT v1 / v1 , v1 , rank () OVER( ORDER BY v1 DESC ) FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

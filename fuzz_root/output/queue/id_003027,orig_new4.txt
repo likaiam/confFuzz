@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 NOT NULL PRIMARY KEY ON CONFLICT ROLLBACK ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'PROMO%%' ) ,( 'forest%%' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 1.100000 , 10 ) ,( 'x' , 9223372036854775807 ) ,( '1994-01-01' , 10 ) ,( 'v0' , 0 ) ; SELECT abs ( max ( v4 ) OVER( ORDER BY v3 ) ) FROM v2 GROUP BY v3 ; 

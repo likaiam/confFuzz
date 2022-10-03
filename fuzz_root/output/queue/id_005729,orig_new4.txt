@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; DELETE FROM v0 WHERE ( v2 = v3 AND v2 = v0 . v1 ) OR ( v1 GLOB 'v1' AND v2 = 2000 ) AND v2 = 10 AND v2 = 2 AND v1 = 1 AND v3 = 2 ; UPDATE v0 SET v1 = ( SELECT v0 . v3 AS d FROM v0 ) ; 

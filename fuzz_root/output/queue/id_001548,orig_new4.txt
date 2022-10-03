@@ -1,1 +1,0 @@
-WITH tmp AS ( SELECT 2 AS d FROM v0 ) SELECT 10 AS x ORDER BY ( SELECT v2 ORDER BY 2 ) ; CREATE TABLE v3 ( v4 , v6 AS( v4 + v5 ) , v5 AS( v6 ) CHECK( v5 ) ) ; UPDATE v3 SET v5 = NULL ; 

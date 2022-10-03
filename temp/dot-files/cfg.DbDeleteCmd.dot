@@ -1,5 +1,0 @@
-digraph "CFG for 'DbDeleteCmd' function" {
-	label="CFG for 'DbDeleteCmd' function";
-
-	Node0x55a73578c750 [shape=record,label="{tclsqlite.c:596:}"];
-}

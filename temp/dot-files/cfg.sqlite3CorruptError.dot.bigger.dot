@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3CorruptError' function" {
-	label="CFG for 'sqlite3CorruptError' function";
-
-	Node0x55c0f745b410 [shape=record,label="{sqlite3.c:173992:}"];
-}

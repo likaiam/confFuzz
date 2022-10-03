@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 INT , v2 ) ; SELECT * FROM v0 WHERE v2 GLOB 'UTF-16le' ; DELETE FROM v0 WHERE v2 = 'x' OR v2 = 'LG CASEaaaaaaaaaaaa' ; 

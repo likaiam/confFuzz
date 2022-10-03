@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( tmp , v1 , v2 ) ; SELECT * FROM v0 WHERE v1 GLOB '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' ; DELETE FROM v0 WHERE ( v2 = 3 AND ( v1 = 10 OR v1 = 42 ) ) OR ( SELECT * FROM v0 WHERE ( v1 ) <= '1994-01-01' GROUP BY v1 ) = v2 ; DELETE FROM v0 WHERE v2 = 'v0' OR v1 = '31' ; 

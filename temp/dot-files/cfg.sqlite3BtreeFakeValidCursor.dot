@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3BtreeFakeValidCursor' function" {
-	label="CFG for 'sqlite3BtreeFakeValidCursor' function";
-
-	Node0x55c0f8014300 [shape=record,label="{sqlite3.c:67701:}"];
-}

@@ -1,1 +1,0 @@
-SELECT NULL INTERSECT SELECT NULL ORDER BY likelihood ( likelihood ( v1 <= 'Ar' , 10.100000 ) , 10.100000 ) OVER x ; SELECT * FROM v2 , v3 WHERE v6 = v4 AND v5 = 2000 ; 

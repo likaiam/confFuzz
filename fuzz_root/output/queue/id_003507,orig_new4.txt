@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 , v1 FLOAT AS( '29' ) CHECK( 3 ) CHECK( v2 NOT LIKE 'x' ) NOT NULL UNIQUE ) ; SELECT * FROM v0 WHERE v1 >= 1 AND v2 < 10 ORDER BY v1 DESC ; SELECT v0 . v1 FROM v0 AS myname JOIN v0 ON 2 = v0 . v1 WHERE v0 . v2 IN ( v0 . v1 , 0 , v0 . v1 ) ; 

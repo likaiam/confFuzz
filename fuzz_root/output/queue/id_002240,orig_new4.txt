@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v2 ) VALUES ( 0 ) ,( 10 ) ; UPDATE v0 SET v1 = randomblob ( 3 ) WHERE ( v2 % ( SELECT v2 FROM v0 AS x GROUP BY v3 , v1 ) ) == 1 ; 

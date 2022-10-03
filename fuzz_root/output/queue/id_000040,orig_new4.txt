@@ -1,1 +1,0 @@
-PRAGMA analysis_limit=10; ; CREATE TABLE v0 ( OMW , v1 AS( v2 + v2 ) , v2 AS( v2 ) CHECK( v1 ) ) ; UPDATE v0 SET v1 = NULL ; 

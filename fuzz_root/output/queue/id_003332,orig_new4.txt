@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY , v3 , v4 , v2 ) ; SELECT * FROM v0 AS AVG_YEARLY JOIN v0 AS b ON v0 . v2 = v0 . v3 NATURAL JOIN zipfile ; 

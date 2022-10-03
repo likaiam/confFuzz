@@ -1,1 +1,0 @@
-PRAGMA integrity_check=10; ; CREATE TABLE v0 ( v1 TEXT UNIQUE AS( v1 + v1 ) AS( NOT CASE v1 WHEN '29' THEN 10 ELSE 10 END ) CHECK( v1 ) ) ; INSERT INTO v0 VALUES ( 3 ) ; SELECT v0 . v1 FROM v0 AS a JOIN v0 AS b ON v0 . v1 = v0 . v1 WHERE v0 . v1 IN ( 3 , 3 , 10 ) ; 

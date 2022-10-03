@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 AS( v1 ) , v2 , v3 ) ; INSERT INTO v0 ( v2 , v2 , v3 ) VALUES ( 'v1' , 2 , 2147483647 ) ,( 'UTF-16le' , 3 , 2 ) ,( 'v1' , 3 , 10 ) ,( 'x' , 10 , 1 ) ; SELECT v3 FROM v0 WHERE v1 = 10 AND v2 MATCH '**%s**' ORDER BY v2 ; DELETE FROM x1 WHERE v1 MATCH ( SELECT v1 AS VALUE , sum ( v1 ) OVER( ORDER BY v2 ) AS m FROM v0 WHERE v3 OR 3 ) ; 

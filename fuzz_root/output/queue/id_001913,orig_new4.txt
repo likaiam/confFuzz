@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'LG BOX' ) ,( 'v1' ) ; CREATE TABLE v2 ( x1 , v3 ) ; INSERT INTO v2 VALUES ( 'v1' , 2000 ) ,( '23' , 10 ) ,( 'PROMO%%' , 10 ) ,( 'v0' , 10 ) ; SELECT v3 , count ( * ) OVER( ORDER BY v3 ) FROM v2 ; 

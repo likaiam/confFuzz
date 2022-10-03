@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '13' ) ,( 'GERMANY' ) ,( 'Brand#12' ) ; CREATE TRIGGER x AFTER INSERT ON v0 BEGIN INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 0 ) ; END ; INSERT OR FAIL INTO v0 SELECT 'testtest' != julianday ( v1 , v1 , v1 NOT LIKE v1 ) FROM v0 ; INSERT INTO v0 SELECT v0 . v1 FROM v0 , v0 AS t WHERE v0 . v1 IN ( v0 . v1 , 1 , v0 . v1 ) ; 

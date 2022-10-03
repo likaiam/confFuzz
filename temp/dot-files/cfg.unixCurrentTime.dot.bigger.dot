@@ -1,5 +1,0 @@
-digraph "CFG for 'unixCurrentTime' function" {
-	label="CFG for 'unixCurrentTime' function";
-
-	Node0x55c0f69a6290 [shape=record,label="{sqlite3.c:42204:}"];
-}

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER UNIQUE ON CONFLICT REPLACE CHECK( v1 NOT LIKE randomblob ( v1 + v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( '1995-03-15' ) ,( '30' ) ,( '17' ) ,( 'v1' ) ; UPDATE v0 SET v1 = randomblob ( v1 ) ; SELECT v0 . v1 , v1 , rank () OVER( ORDER BY v1 DESC ) FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'unixGetLastError' function" {
-	label="CFG for 'unixGetLastError' function";
-
-	Node0x55c0f69abc00 [shape=record,label="{sqlite3.c:42222:}"];
-}

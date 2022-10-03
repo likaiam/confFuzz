@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(10) , v2 INTEGER ) ; REPLACE INTO v0 SELECT v1 , v2 FROM v0 ; CREATE TABLE v3 ( v4 INTEGER PRIMARY KEY , v5 INT ) ; INSERT INTO v0 SELECT nullif ( v5 * 1 + 10 , 0 ) , v4 + 0 FROM v3 ; SELECT v4 , substr ( v5 , 3 , 2 ) = 'Max Mustermann' AS m FROM v3 AS v WHERE v4 = v4 AND v5 = 3 ; 

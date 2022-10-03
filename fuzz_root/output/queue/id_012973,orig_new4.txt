@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY UNIQUE NOT NULL ) ; INSERT INTO v0 VALUES ( 1 ) ; CREATE INDEX v2 ON v0 ( v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 , v1 ) ; VACUUM ; REPLACE INTO v0 ( v1 ) VALUES ( NULL ) ; 

@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; DELETE FROM v0 WHERE NOT 'v1' <= 'v0' + v3 IN ( 1 , 0 ) AND v3 NOT IN ( 0 , 9223372036854775807 ) ; VACUUM ; UPDATE v0 SET v1 = v1 + 1 WHERE v2 > 10 OR v1 IS NOT NULL AND NOT v2 ; INSERT INTO v0 ( v1 , v1 , v1 , v2 , v2 ) VALUES ( 'v0' , 'MED BAG' , 2 , '30' , 3 ) ; 

@@ -1,1 +1,0 @@
-SELECT my_changes ( 'v1' ) LIMIT 2 ; ALTER TABLE sqlite1234 RENAME TO User ; SELECT v6 , v5 FROM v4 WHERE v7 IS NOT NULL ; 

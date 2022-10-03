@@ -1,5 +1,0 @@
-digraph "CFG for 'computeCellSize' function" {
-	label="CFG for 'computeCellSize' function";
-
-	Node0x55c0f5a3a810 [shape=record,label="{sqlite3.c:74056:}"];
-}

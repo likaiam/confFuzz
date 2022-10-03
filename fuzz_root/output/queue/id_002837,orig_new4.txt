@@ -1,1 +1,0 @@
-SELECT ieee754 ( 10 , 0 ) IS NULL ; SELECT * FROM v0 , v1 WHERE v3 = v2 AND v4 = 0 ; SELECT * FROM v5 , v6 WHERE v7 = v9 AND v8 = 1 ; 

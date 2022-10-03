@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 AS( v2 + julianday ( 'LG BOX' ) ) , v1 ) ; UPDATE v0 SET v2 = ( SELECT 10 FROM v0 ORDER BY ( SELECT v1 FROM v0 ORDER BY v3 * 2147483647 ) ) ; UPDATE v0 SET v3 = ( SELECT 3 FROM v0 ORDER BY - datetime ( v3 , v2 ) = 'v0' + julianday ( 'x' ) DESC ) ; 

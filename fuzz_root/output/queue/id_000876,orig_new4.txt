@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'Brand#34' ) ,( 'v1' ) ,( 'DELIVER IN PERSON' ) ; CREATE TABLE v2 ( v4 , v3 CHAR(25) ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'v0' , 9223372036854775807 ) ,( 'v1' , 3 ) ,( 'v1' , 10 ) ; SELECT * FROM v2 UNION SELECT * FROM v2 ; 

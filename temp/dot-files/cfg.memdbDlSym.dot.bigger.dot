@@ -1,5 +1,0 @@
-digraph "CFG for 'memdbDlSym' function" {
-	label="CFG for 'memdbDlSym' function";
-
-	Node0x55c0fa91ffe0 [shape=record,label="{sqlite3.c:50362:}"];
-}

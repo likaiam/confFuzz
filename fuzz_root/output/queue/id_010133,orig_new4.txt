@@ -1,1 +1,0 @@
-CREATE VIEW v0 ( v1 ) AS SELECT DISTINCT count ( * ) OVER( ORDER BY randomblob ( 0 ) ) ORDER BY julianday ( * ) DESC ; SELECT v1 FROM v0 WHERE v1 = 10 OR v1 > 10 ; SELECT DISTINCT v1 , rank () OVER( ORDER BY ( SELECT DISTINCT 10 FROM v0 ) ) FROM v0 ; SELECT v1 / v1 , v1 , rank () OVER( ORDER BY v1 DESC ) FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC NULLS LAST ; 

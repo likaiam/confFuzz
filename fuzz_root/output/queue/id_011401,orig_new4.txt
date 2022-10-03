@@ -1,1 +1,0 @@
-VACUUM main ; VACUUM ; SELECT v6 , rank () OVER( ORDER BY v5 ) FROM v4 ; 

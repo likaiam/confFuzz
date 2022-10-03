@@ -1,1 +1,0 @@
-SELECT min ( 'MED BOX' , 'v0' ) , total_changes () ; SELECT v1 WHERE v3 >= 'v1' ORDER BY 3 , v5 ; 

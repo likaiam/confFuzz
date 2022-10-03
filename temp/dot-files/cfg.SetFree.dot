@@ -1,5 +1,0 @@
-digraph "CFG for 'SetFree' function" {
-	label="CFG for 'SetFree' function";
-
-	Node0x562565659720 [shape=record,label="{lemon.c:5190:}"];
-}

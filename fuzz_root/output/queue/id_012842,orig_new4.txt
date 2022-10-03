@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'X' ) ,( 'Brand#23' ) ,( 'Ar' ) ; CREATE VIRTUAL TABLE temp . v2 USING fts4 ; DROP VIEW IF EXISTS v2 ; SELECT SUM ( v6 * ( 10 - v5 ) ) AS REVENUE , v7 AS alias FROM v2 ; 

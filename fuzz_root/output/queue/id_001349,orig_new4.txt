@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 INT ) ; INSERT INTO v0 VALUES ( 2000 , 'v0' ) ,( 10 , 'v0' ) ,( 10 , 'v0' ) ,( 3 , 'v1' ) ,( 10 , 'AIR' ) ; SELECT v2 / 10 , v2 / 1 FROM v0 ; 

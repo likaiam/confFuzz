@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v1' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX v5 ON v0 ( v1 , v1 , v1 , v1 , v1 , v1 ) ; SELECT * FROM v0 WHERE ( v1 + 3 AND ( v1 = 1 OR v1 = 3 ) ) OR v1 = 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ORDER BY v1 ; 

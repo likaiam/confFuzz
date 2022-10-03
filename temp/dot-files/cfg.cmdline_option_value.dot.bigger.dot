@@ -1,9 +1,0 @@
-digraph "CFG for 'cmdline_option_value' function" {
-	label="CFG for 'cmdline_option_value' function";
-
-	Node0x560276d9ff90 [shape=record,label="{shell.c:22931:}"];
-	Node0x560276d9ff90 -> Node0x560276da0f60;
-	Node0x560276d9ff90 -> Node0x560276da0fb0;
-	Node0x560276da0f60 [shape=record,label="{shell.c:22933:}"];
-	Node0x560276da0fb0 [shape=record,label="{shell.c:22937:}"];
-}

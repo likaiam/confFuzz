@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 VARCHAR(1) PRIMARY KEY , v1 INTEGER NOT NULL ) ; SELECT v1 , v2 , v1 , v1 , 'v1' FROM v0 WHERE v2 IN ( 2 , 10 ) ORDER BY 2 DESC , v1 ; SELECT v2 , v2 FROM v0 WHERE min ( v1 , v1 ) ; 

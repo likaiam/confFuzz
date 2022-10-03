@@ -1,1 +1,0 @@
-VACUUM ; SELECT count ( ( NOT ( v1 IS NULL ) ) AND ( NOT ( v3 IS NULL ) ) ) , rank () OVER( ORDER BY v5 ) ; 

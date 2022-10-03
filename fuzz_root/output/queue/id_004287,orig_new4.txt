@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v3 ) VALUES ( 0 ) ,( 1 ) ; INSERT INTO v0 ( v1 , v2 , v2 , v1 , v1 , v3 ) VALUES ( 'LG PACK' , 'v1' , 4294967295 , 0 , 'v0' , 9223372036854775807 ) ; 

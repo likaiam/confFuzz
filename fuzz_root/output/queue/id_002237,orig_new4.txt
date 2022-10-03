@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 UNIQUE ON CONFLICT IGNORE , v3 , v2 ) ; INSERT INTO v0 ( v2 ) VALUES ( 3 ) ,( 1 ) ; UPDATE v0 SET v3 = randomblob ( 0 ) WHERE ( v1 % 3 ) == 1 ; 

@@ -1,1 +1,0 @@
-SELECT zeroblob ( random () != random () ) UNION ALL SELECT zeroblob ( changes () ) ; SELECT * FROM v0 AS REVENUE INDEXED BY v1 , v2 WHERE v5 = v4 AND v3 = 3 ; 

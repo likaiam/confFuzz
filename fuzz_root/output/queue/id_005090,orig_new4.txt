@@ -1,1 +1,0 @@
-SELECT zeroblob ( random () != random () ) UNION SELECT zeroblob ( 127 * 10 * 1 ) ; SELECT * AS x FROM v0 AS REVENUE INDEXED BY v1 , v2 WHERE v3 = v4 AND v5 = 1 ; 

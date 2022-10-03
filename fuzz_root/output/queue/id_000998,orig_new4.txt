@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; DELETE FROM v0 ; UPDATE v0 SET v1 = ( SELECT 3 FROM v0 ) ; 

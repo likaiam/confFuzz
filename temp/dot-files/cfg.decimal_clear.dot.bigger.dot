@@ -1,5 +1,0 @@
-digraph "CFG for 'decimal_clear' function" {
-	label="CFG for 'decimal_clear' function";
-
-	Node0x5602762fa580 [shape=record,label="{shell.c:4575:}"];
-}

@@ -1,2 +1,0 @@
-PRAGMA wal_autocheckpoint = 107374182;PRAGMA wal_autocheckpoint=10; ; CREATE TABLE spellfix1 ( id INTEGER ) ; ALTER TABLE sqlite1234 RENAME TO User ; SELECT v6 , v7 FROM v4 WHERE v5 IS NOT NULL ;
-

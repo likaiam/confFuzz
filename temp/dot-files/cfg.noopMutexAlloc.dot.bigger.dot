@@ -1,5 +1,0 @@
-digraph "CFG for 'noopMutexAlloc' function" {
-	label="CFG for 'noopMutexAlloc' function";
-
-	Node0x55c0f5260400 [shape=record,label="{sqlite3.c:27684:}"];
-}

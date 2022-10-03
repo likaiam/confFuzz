@@ -1,1 +1,0 @@
-SELECT CASE 9223372036854775808.000000 WHEN 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' THEN 'y' ELSE '%%BRASS' END ; SELECT quote ( zeroblob ( 10 ) ) ; 

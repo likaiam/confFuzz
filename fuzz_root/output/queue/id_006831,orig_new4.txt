@@ -1,1 +1,0 @@
-PRAGMA foreign_keys=true; ; CREATE VIRTUAL TABLE v0 USING y ( v2 , v3 , v1 ) WITH HINT ( NO_CACHE , NO_SAMPLING ) ; INSERT INTO v0 ( v2 ) VALUES ( 'Felix Fürstenberg' ) ,( 'v0' ) ,( 'Al' ) ,( '1995-09-01' ) ,( 'x' ) ON CONFLICT DO NOTHING ; UPDATE v0 SET v3 = randomblob ( v3 + v3 ) ; SELECT v2 , min ( v2 ) FROM v0 GROUP BY v2 ORDER BY v2 , v2 , v3 LIMIT 10 ; 

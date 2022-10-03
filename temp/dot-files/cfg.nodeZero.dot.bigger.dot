@@ -1,5 +1,0 @@
-digraph "CFG for 'nodeZero' function" {
-	label="CFG for 'nodeZero' function";
-
-	Node0x55c0fb612010 [shape=record,label="{sqlite3.c:198324:}"];
-}

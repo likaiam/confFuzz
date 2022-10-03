@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; SELECT * FROM v0 WHERE v2 GLOB 'v0' ; DELETE FROM v0 WHERE ( v2 = 0 AND ( v1 = 2147483647 OR v1 = 0 ) ) OR ( SELECT * FROM v0 WHERE ( v2 ) <= 'x' GROUP BY v3 ) = v2 ; 

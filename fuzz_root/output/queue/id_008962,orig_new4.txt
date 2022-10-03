@@ -1,1 +1,0 @@
-CREATE VIEW v0 ( v5 , v2 , v2 , v10 , v10 , v6 , v3 , v8 , v3 , v9 , v4 , v1 , v10 , v2 , v5 , v7 , v6 ) AS SELECT NULL ; SELECT * FROM v0 UNION SELECT DISTINCT * FROM v0 ORDER BY v2 ; 

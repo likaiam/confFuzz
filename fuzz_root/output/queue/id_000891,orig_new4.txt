@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( tclvar ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( '23' ) ,( 'v0' ) ; CREATE TABLE v1 ( v2 , v3 ) ; INSERT INTO v1 VALUES ( 'y' , 10 ) ,( 'abc' , 10 ) ,( 'testtest' , 9 ) ,( 'v0' , 10 ) ; SELECT CASE WHEN v2 NOT IN ( 10 , 10 , 1 ) THEN 'x' ELSE 'v0' END FROM v1 ; 

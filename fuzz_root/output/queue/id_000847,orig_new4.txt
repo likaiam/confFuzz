@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHAR(25) ) ; INSERT INTO v0 VALUES ( 'forest%%' ) ,( '31' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( '17' , 3 ) ,( 'test' , 1 ) ,( 'SM BOX' , 3 ) ; SELECT SUM ( v3 * ( 3 - v3 ) ) AS REVENUE , v3 AS alias FROM v2 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 AS( v2 + julianday ( 'GERMANY' ) ) CHECK( v1 NOT LIKE abs ( v1 MATCH 'v0' ) IS NULL ) , v2 ) ; REPLACE INTO v0 ( v1 ) VALUES ( NULL ) ; 

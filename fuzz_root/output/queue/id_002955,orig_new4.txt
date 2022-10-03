@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) ,( 'v1' ) ; CREATE TABLE v2 ( v4 , v3 INTEGER PRIMARY KEY UNIQUE ON CONFLICT ROLLBACK ) ; CREATE INDEX v5 ON v2 ( v3 , v3 , v3 , v4 , v4 , v3 ) ; SELECT SUM ( v1 * ( 3 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

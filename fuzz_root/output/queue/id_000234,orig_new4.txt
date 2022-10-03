@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'SM CASE' ) ,( 'b' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( '1994-01-01' , 2 ) ,( 'v1' , 2 ) ,( 'SM CASE' , 10 ) ,( 'b' , 2 ) ; SELECT v4 , ( SELECT x ( 10 ) FROM v0 WHERE v1 < v1 ) FROM v2 ; 

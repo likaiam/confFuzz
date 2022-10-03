@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 INT , v2 , v1 ) ; INSERT INTO v0 VALUES ( 10.100000 , 1 , 10 ) ; UPDATE v0 SET v2 = randomblob ( ( 10 = 42 AND v3 < CASE WHEN LIKELY ( v2 ) != 'v0' THEN 2 ELSE 10 END ) + v3 + julianday ( * ) ) ; UPDATE v0 SET v1 = ( SELECT 0 FROM v0 AS y ) ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY min ( DISTINCT 10 , 10 , NULL , v3 ) DESC ; 

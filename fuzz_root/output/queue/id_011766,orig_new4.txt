@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 DOUBLE , v2 FLOAT ) ; INSERT INTO v0 VALUES ( 127 , 10 ) ,( 10 , 127 ) ,( 0 , 3 ) ,( 10 , 1 ) ,( 1 , 9223372036854775807 ) ,( 'x' , 127 ) ,( 'test' , 1 ) ,( 'v1' , 9 ) ,( 'v1' , 2 ) ,( 'x' , 10 ) ; SELECT v2 , v2 , dense_rank () OVER( ORDER BY v1 ) , dense_rank () OVER( PARTITION BY v2 ORDER BY v1 ) FROM v0 ; 

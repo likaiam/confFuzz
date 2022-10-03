@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v3 , v2 ) ; DELETE FROM v0 WHERE v1 = 'MED PACK' ; UPDATE v0 SET v2 = ( SELECT 9 FROM v0 ) WHERE v3 <= 'v1' AND v2 < 0 ; 

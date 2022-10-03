@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '29' ) ,( 'LG PACK' ) ,( 'LG PACK' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX v5 ON v2 ( v3 , v4 ) WHERE - ( v4 BETWEEN 0 AND 0 ) ; SELECT * , 9 , 3 , 2 , 3 FROM v0 RIGHT OUTER JOIN v2 ON v3 = v3 WHERE v3 >= 3 ; 

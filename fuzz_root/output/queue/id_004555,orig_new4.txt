@@ -1,1 +1,0 @@
-PRAGMA application_id=10; ; VACUUM ; WITH y AS ( SELECT Row_Number () OVER( x ) FROM v0 ) SELECT NULL ; 

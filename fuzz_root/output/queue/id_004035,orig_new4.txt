@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 DOUBLE , v3 INT , v4 INT NULL ) ; INSERT INTO v0 ( v2 , v3 ) VALUES ( 0.100000 , 'x' ) ; SELECT v3 , v4 , v1 FROM v0 NATURAL JOIN v0 ; 

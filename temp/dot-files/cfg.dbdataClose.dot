@@ -1,5 +1,0 @@
-digraph "CFG for 'dbdataClose' function" {
-	label="CFG for 'dbdataClose' function";
-
-	Node0x560276d1d6c0 [shape=record,label="{shell.c:11557:}"];
-}

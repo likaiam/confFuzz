@@ -1,1 +1,0 @@
-PRAGMA quick_check=0; ; CREATE TABLE v0 ( v2 , v1 AS( NOT NOT ( v3 >= v1 ) ) , v3 AS( v1 ) CHECK( v2 ) ) ; UPDATE v0 SET v1 = NULL ; 

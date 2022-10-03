@@ -1,5 +1,0 @@
-digraph "CFG for 'pcacheFetchFinishWithInit' function" {
-	label="CFG for 'pcacheFetchFinishWithInit' function";
-
-	Node0x55c0f57e9f10 [shape=record,label="{sqlite3.c:51477:}"];
-}

@@ -1,5 +1,0 @@
-digraph "CFG for 'Configlist_init' function" {
-	label="CFG for 'Configlist_init' function";
-
-	Node0x5625653414c0 [shape=record,label="{lemon.c:1326:}"];
-}

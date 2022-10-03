@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 1 ) ,( 's%' ) ,( '1994-01-01' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE INDEX v5 ON v0 ( v1 , v1 ) WHERE CASE v1 WHEN 'forest%%' THEN 1 ELSE 3 END ; SELECT SUM ( v1 * ( 10 - v1 ) ) AS REVENUE , v1 AS alias FROM v5 ; 

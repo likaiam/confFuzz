@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHAR(15) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'x' ) ,( 'EUROPE' ) ,( 'v1' ) ,( 'v0' ) ; UPDATE v0 SET v1 = julianday ( * ) ; SELECT v0 . v1 , v1 , NOT v1 AS AVG_YEARLY FROM v0 ORDER BY julianday ( v1 ) DESC ; 

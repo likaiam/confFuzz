@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3BtreeEnterCursor' function" {
-	label="CFG for 'sqlite3BtreeEnterCursor' function";
-
-	Node0x55c0f863e920 [shape=record,label="{sqlite3.c:66781:}"];
-}

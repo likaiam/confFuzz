@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'Brand#12' ) ,( 'SM CASE' ) ,( 'x' ) ,( 'v0' ) ,( 'testtest' ) ; UPDATE v0 SET v1 = ( ( v1 = v1 AND v1 = v1 AND 0 = v1 ) NOT LIKE max ( v1 , v1 ) ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY ( SELECT DISTINCT v1 ORDER BY 1 ) ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'v0' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 NOT NULL ) ; INSERT INTO v2 VALUES ( '' , 3 ) ,( 'test' , 10 ) ,( 'v0' , 10 ) ,( 'MED BOX' , 10 ) ; SELECT MIN ( v1 ) , v1 FROM v2 RIGHT OUTER JOIN v0 ON v1 = v1 WHERE v1 ISNULL ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v1' ) ,( 'LG PKG' ) ,( 'v0' ) ,( 'v1' ) ; UPDATE v0 SET v1 = zeroblob ( v1 ) ; SELECT * FROM v0 UNION SELECT DISTINCT v1 = zeroblob ( 10 ) FROM v0 ORDER BY v1 ; 

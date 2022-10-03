@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( randomblob ( v1 NOT LIKE abs ( v1 ) < 10 ) < v1 NOT LIKE julianday ( ( v1 * 10 ) > v1 ) ) ) ; VACUUM ; INSERT INTO v0 VALUES ( 2 ) ,( 0 ) ; VACUUM ; VACUUM ; 

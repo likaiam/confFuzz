@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'x' ) ,( 'SM CASE' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE INDEX v5 ON v0 ( v1 , v1 , v1 , v1 , v1 , v1 ) ; DELETE FROM v0 WHERE ( 'AIR' + v1 AND ( v1 = 1 OR v1 = 2 ) ) AND v1 IS NOT NULL AND v1 = v1 ; 

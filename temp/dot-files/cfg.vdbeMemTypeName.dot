@@ -1,5 +1,0 @@
-digraph "CFG for 'vdbeMemTypeName' function" {
-	label="CFG for 'vdbeMemTypeName' function";
-
-	Node0x55c0f7f52db0 [shape=record,label="{sqlite3.c:88991:}"];
-}

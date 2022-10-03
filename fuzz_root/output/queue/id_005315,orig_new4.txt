@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 PRIMARY KEY NOT NULL ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( '199419' ) ,( 'DELIVER IN PERSON' ) ,( 'x' ) ,( '18' ) ; UPDATE v0 SET v1 = zeroblob ( v0 . v1 ) ; SELECT * FROM v0 UNION SELECT DISTINCT v1 = randomblob ( 1 ) FROM v0 ORDER BY v1 ; 

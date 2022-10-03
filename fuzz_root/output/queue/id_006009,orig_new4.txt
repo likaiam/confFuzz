@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'x' ) ,( 'v0' ) ,( 'PROMO%%' ) ,( 'MED P' ) ; UPDATE v0 SET v1 = lower ( '30' ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

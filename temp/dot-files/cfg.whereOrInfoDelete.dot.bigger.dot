@@ -1,5 +1,0 @@
-digraph "CFG for 'whereOrInfoDelete' function" {
-	label="CFG for 'whereOrInfoDelete' function";
-
-	Node0x55c0f9a6c250 [shape=record,label="{sqlite3.c:151922:}"];
-}

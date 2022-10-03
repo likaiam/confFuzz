@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER AS( NOT v1 <= ( v1 IN ( 3 , 0 ) ) = v4 + v3 ) , v3 , v4 , v2 ) ; SELECT * FROM v0 AS myname JOIN v0 NATURAL JOIN v0 ; 

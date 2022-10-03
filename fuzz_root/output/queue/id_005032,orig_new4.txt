@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 NOT NULL UNIQUE , v1 , v3 ) ; DROP TABLE v0 ; CREATE TABLE v4 ( v5 , v6 ) ; INSERT INTO v4 SELECT randomblob ( 10 ) , randomblob ( 10 ) ; SELECT v6 , * FROM v4 ; 

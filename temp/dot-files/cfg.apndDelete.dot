@@ -1,5 +1,0 @@
-digraph "CFG for 'apndDelete' function" {
-	label="CFG for 'apndDelete' function";
-
-	Node0x5602768eb900 [shape=record,label="{shell.c:4222:}"];
-}

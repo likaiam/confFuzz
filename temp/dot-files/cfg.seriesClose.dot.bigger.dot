@@ -1,5 +1,0 @@
-digraph "CFG for 'seriesClose' function" {
-	label="CFG for 'seriesClose' function";
-
-	Node0x5602769d1720 [shape=record,label="{shell.c:5625:}"];
-}

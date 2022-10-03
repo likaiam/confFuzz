@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER AS( NOT v4 <= 'x' + v4 ) , v4 , v2 , v3 ) ; SELECT * FROM v0 JOIN v0 AS PROMO_REVENUE ON NULL = v0 . v2 NATURAL JOIN v0 ; 

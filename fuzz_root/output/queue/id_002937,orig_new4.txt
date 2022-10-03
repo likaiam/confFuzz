@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'BUILDING' ) ,( 'Brand#34' ) ,( 'SM BOX' ) ; SELECT v1 FROM v0 WHERE ( v1 = v1 AND v1 = v0 . v1 ) OR ( v1 = 2 AND v1 = 10 ) ; CREATE INDEX v2 ON v0 ( v1 , v1 ) WHERE v1 != random () ; SELECT SUM ( v1 * ( 10 - v1 ) ) AS REVENUE , v1 AS alias FROM v0 ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'ctxErrorMsg' function" {
-	label="CFG for 'ctxErrorMsg' function";
-
-	Node0x560276851340 [shape=record,label="{shell.c:2307:}"];
-}

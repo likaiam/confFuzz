@@ -1,1 +1,0 @@
-PRAGMA cell_size_check=true; ; CREATE TABLE v0 ( v1 , v2 AS( v2 + v1 ) , v3 AS( v2 ) CHECK( SAMPLE_RATE ) ) ; UPDATE v0 SET v2 = NULL ; 

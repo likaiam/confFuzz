@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3PagerTempSpace' function" {
-	label="CFG for 'sqlite3PagerTempSpace' function";
-
-	Node0x55c0f8170270 [shape=record,label="{sqlite3.c:57623:}"];
-}

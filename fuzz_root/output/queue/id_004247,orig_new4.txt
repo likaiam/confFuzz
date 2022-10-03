@@ -1,1 +1,0 @@
-SELECT CASE NULL WHEN 'x' THEN 'a' WHEN 's%' THEN 'SM PACK' ELSE 'v1' END ; SELECT quote ( zeroblob ( 10 ) ) ; 

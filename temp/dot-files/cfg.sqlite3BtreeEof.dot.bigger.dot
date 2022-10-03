@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3BtreeEof' function" {
-	label="CFG for 'sqlite3BtreeEof' function";
-
-	Node0x55c0f7f1f3a0 [shape=record,label="{sqlite3.c:72795:}"];
-}

@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3BtreeBeginStmt' function" {
-	label="CFG for 'sqlite3BtreeBeginStmt' function";
-
-	Node0x55c0f7f702c0 [shape=record,label="{sqlite3.c:71210:}"];
-}

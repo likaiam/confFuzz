@@ -1,1 +1,0 @@
-SELECT CASE NULL WHEN 'v0' THEN 'v1' WHEN 'x' THEN 'v1' ELSE 'v0' END ; SELECT count ( * ) OVER( ORDER BY typeof ( 'v1' ) DESC ) ; 

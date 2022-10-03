@@ -1,1 +1,0 @@
-SELECT zeroblob ( random () != random () ) INTERSECT SELECT zeroblob ( 2000 * 10 * 10 ) ; SELECT * FROM v0 AS REVENUE INDEXED BY v1 , v2 WHERE v3 = AVG_YEARLY AND v4 = 10 ; 

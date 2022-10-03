@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE printf ( '%%green%%' , 10 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 127 ) ,( 10 ) ,( 10 ) ; CREATE TABLE v2 ( v4 AS( v4 ) CHECK( v4 ) , v3 INT ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 10 ) ; SELECT v4 , sum ( v3 ) AS m FROM v2 WHERE v3 = v3 AND v3 = 0 ; 

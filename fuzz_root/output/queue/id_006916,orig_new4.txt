@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 VALUES ( 3 ) ; CREATE INDEX v2 ON v0 ( v1 ) WHERE datetime ( count ( * ) , min ( v1 ) , max ( v1 ) , 0 , 10 ) IS NOT NULL ; VACUUM ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(50) ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'Brand#34' ) ,( 'x' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'LG BOX' , 10 ) ,( 'x' , 10 ) ,( 'abc' , 9 ) ,( 'GERMANY' , 10 ) ; SELECT CASE WHEN v1 NOT IN ( 10 , 1 , v1 = 1.100000 ) THEN 'v0' ELSE 'x' END FROM v0 ; 

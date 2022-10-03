@@ -1,1 +1,0 @@
-SELECT NULL INTERSECT SELECT NULL ORDER BY v1 , v3 , random () , 1 ; SELECT printf ( 'v1' , 10 , 'v0' , 3 ) ; 

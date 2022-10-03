@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 PRIMARY KEY UNIQUE ON CONFLICT ROLLBACK ) ; INSERT INTO v0 ( v1 ) VALUES ( '199419' ) ,( 'b' ) ,( '**%s**' ) ,( 'LG BOX' ) ,( 'v1' ) ; UPDATE v0 SET v1 = zeroblob ( v0 . v1 ) ; SELECT * FROM v0 UNION SELECT DISTINCT v1 = randomblob ( 10 ) FROM v0 ORDER BY v1 ; 

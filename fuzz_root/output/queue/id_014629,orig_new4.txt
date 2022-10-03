@@ -1,1 +1,0 @@
-CREATE VIEW v0 ( v1 ) AS SELECT DISTINCT count ( * ) OVER( ) GROUP BY zeroblob ( randomblob ( DISTINCT 10 ) ) ORDER BY julianday ( * ) DESC ; SELECT max ( ( SELECT count () FROM v0 ) ) FROM v0 ; DROP VIEW v0 ; SELECT DISTINCT * FROM v0 AS a , v0 AS b , v0 AS c ON NULL = 1.100000 NATURAL JOIN v0 ; 

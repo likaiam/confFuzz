@@ -1,5 +1,0 @@
-digraph "CFG for 'seriesDisconnect' function" {
-	label="CFG for 'seriesDisconnect' function";
-
-	Node0x5602769c2990 [shape=record,label="{shell.c:5604:}"];
-}

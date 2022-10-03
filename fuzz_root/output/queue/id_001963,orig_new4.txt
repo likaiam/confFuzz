@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v1' ) ,( '31' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v1' , 9223372036854775807 ) ,( '31' , 9223372036854775807 ) ,( 'v1' , 9223372036854775807 ) ,( 'abc' , 10 ) ; SELECT SUM ( lower ( v4 ) * ( 10 - v4 ) ) AS REVENUE , v3 FROM v2 ; 

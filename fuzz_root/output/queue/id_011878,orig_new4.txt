@@ -1,1 +1,0 @@
-VACUUM ; CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; VACUUM ; VACUUM ; CREATE TABLE v4 ( v6 , v5 INTEGER AS( 'MED P' ) CHECK( 10 ) CHECK( v6 NOT LIKE printf ( 'testtest' , v5 ) ) NOT NULL UNIQUE ) ; 

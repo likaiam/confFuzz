@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'DELIVER IN PERSON' ) ,( '23' ) ,( 'CANADA' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 0 ) ,( 'LG PKG' , 10 ) ,( '1994-01-01' , 9223372036854775807 ) ,( 'x' , 10 ) ; SELECT COUNT ( * ) OVER( ) FROM v0 ; 

@@ -1,1 +1,0 @@
-WITH x1 AS ( SELECT * FROM v1 ) SELECT * FROM v0 ORDER BY 9 ; CREATE TABLE v2 ( v4 , v5 AS( v4 + v3 ) , v3 AS( v3 ) CHECK( v5 ) ) ; UPDATE v2 SET v3 = NULL ; 

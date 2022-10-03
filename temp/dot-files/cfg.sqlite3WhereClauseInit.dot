@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3WhereClauseInit' function" {
-	label="CFG for 'sqlite3WhereClauseInit' function";
-
-	Node0x55c0f94ff900 [shape=record,label="{sqlite3.c:153532:}"];
-}

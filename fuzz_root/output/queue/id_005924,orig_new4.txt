@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v1 , v2 , v1 , v3 ) VALUES ( 3 , 'b' , 2 , 2 ) ,( 3 , 'Max Mustermann' , 9 , 2 ) ,( 1 , 'x' , 10 , 10 ) ,( 2 , 'x' , 3 , 10 ) ,( 10 , 'v0' , 9223372036854775807 , 9223372036854775808 ) ,( 0 , 'x' , 10 , 3 ) ; INSERT INTO v0 ( v1 ) VALUES ( 0.100000 ) ,( 3 ) ,( 1 ) ; SELECT group_concat ( v3 , v2 ) FROM v0 ; 

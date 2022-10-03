@@ -1,1 +1,0 @@
-SELECT changes () , total_changes () AS VALUE GROUP BY v1 HAVING nth_value ( v3 , 9223372036854775807 ) OVER( ORDER BY v5 ) ; SELECT v9 FROM v8 WHERE v11 >= 'testtest' ORDER BY 2 , v10 ; 

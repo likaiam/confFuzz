@@ -1,5 +1,0 @@
-digraph "CFG for 'noopMutexEnter' function" {
-	label="CFG for 'noopMutexEnter' function";
-
-	Node0x55c0f6fa0b90 [shape=record,label="{sqlite3.c:27689:}"];
-}

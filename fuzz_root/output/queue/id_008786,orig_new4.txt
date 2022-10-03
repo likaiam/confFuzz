@@ -1,1 +1,0 @@
-SELECT 1 AS myname , 1 , 10 WITH HINT ( NO_CACHE , NO_SAMPLING ) ; CREATE TABLE v0 ( v3 , v2 AS( v3 + v2 ) , v1 AS( v2 ) CHECK( v3 ) ) ; UPDATE v0 SET v1 = NULL ; 

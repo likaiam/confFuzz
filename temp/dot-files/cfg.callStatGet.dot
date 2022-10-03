@@ -1,5 +1,0 @@
-digraph "CFG for 'callStatGet' function" {
-	label="CFG for 'callStatGet' function";
-
-	Node0x55c0fa357e40 [shape=record,label="{sqlite3.c:113180:}"];
-}

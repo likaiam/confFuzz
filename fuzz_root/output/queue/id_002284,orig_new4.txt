@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; SELECT * FROM v0 WHERE v1 GLOB '**%s**' ; DELETE FROM p WHERE v2 = 'x' OR v1 = 'v0' ; 

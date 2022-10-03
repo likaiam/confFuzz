@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 NOT NULL AS( v2 ) , v1 ) ; DELETE FROM v0 WHERE v2 = ( SELECT 10 ) OR v2 = 0 ; 

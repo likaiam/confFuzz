@@ -1,1 +1,0 @@
-CREATE VIEW v0 AS SELECT v2 FROM v0 ; DROP VIEW v0 WITH HINT ( NO_CACHE ) ; CREATE TABLE v3 ( v5 , v4 ) ; INSERT INTO v3 VALUES ( 'v0' , 2 ) ,( 'v0' , 10 ) ,( 'x' , 10 ) ,( 'MED BAG' , 10 ) ; SELECT v5 , rank () OVER( ORDER BY v4 DESC ) FROM v3 ; 

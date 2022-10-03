@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'UTF-16le' ) ,( 'v0' ) ,( 'v1' ) ,( 'MED PACK' ) ; UPDATE v0 SET v1 = ( SELECT sqlite_version ( * ) ) ; SELECT NULL FROM v0 AS x WHERE v1 = 10 AND v1 = 0 GROUP BY v1 ; SELECT v0 . v1 AS x FROM v0 NATURAL JOIN v0 ORDER BY sum ( v1 + v1 ) OVER( ) DESC ; 

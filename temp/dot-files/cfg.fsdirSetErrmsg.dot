@@ -1,5 +1,0 @@
-digraph "CFG for 'fsdirSetErrmsg' function" {
-	label="CFG for 'fsdirSetErrmsg' function";
-
-	Node0x5602762604b0 [shape=record,label="{shell.c:2788:}"];
-}

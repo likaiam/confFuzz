@@ -1,5 +1,0 @@
-digraph "CFG for 'unixLeaveMutex' function" {
-	label="CFG for 'unixLeaveMutex' function";
-
-	Node0x55c0f707ba80 [shape=record,label="{sqlite3.c:36160:}"];
-}

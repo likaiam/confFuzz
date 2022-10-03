@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , tmp , v1 ) ; CREATE VIEW v3 AS SELECT length ( v1 ) FROM v0 WHERE v2 = 2.100000 OR v1 = 'v0' ORDER BY v1 ; UPDATE v0 SET v1 = ( SELECT 10 FROM v3 LEFT JOIN v3 , v3 , v3 ) ; 

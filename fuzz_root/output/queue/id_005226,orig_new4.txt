@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 <= v1 IS NOT NULL + julianday ( '1995-03-15' ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'x' ) ,( 'v1' ) ,( 'v1' ) ,( 'SM PACK' ) ; UPDATE v0 SET v1 = randomblob ( 9 ) ; SELECT * AS PROMO_REVENUE FROM v0 UNION SELECT DISTINCT random () % 10 FROM v0 ORDER BY v1 ; 

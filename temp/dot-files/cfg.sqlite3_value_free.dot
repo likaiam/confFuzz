@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_value_free' function" {
-	label="CFG for 'sqlite3_value_free' function";
-
-	Node0x55c0f5c621c0 [shape=record,label="{sqlite3.c:86289:}"];
-}

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 NOT NULL AS( - v2 ) CHECK( 10 ) , v2 , v3 VARCHAR(100) AS( typeof ( v1 ) ) ) ; SELECT length ( v2 ) FROM v0 ORDER BY length ( v1 ) DESC ; SELECT count ( * ) , min ( v3 ) , max ( v1 ) , v3 AS p FROM v0 ; 

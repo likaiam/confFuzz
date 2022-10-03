@@ -1,5 +1,0 @@
-digraph "CFG for 'jsonInit' function" {
-	label="CFG for 'jsonInit' function";
-
-	Node0x55c0f6ddecf0 [shape=record,label="{sqlite3.c:195172:}"];
-}

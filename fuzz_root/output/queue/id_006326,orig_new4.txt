@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'Al' ) ,( 's%' ) ,( 'LG CASEaaaaaaaaaaaa' ) ,( 'v1' ) ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT DISTINCT 1 , 1 AS d , 2 , 3 FROM v0 AS a JOIN v0 AS AVG_YEARLY JOIN v0 NATURAL JOIN v0 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

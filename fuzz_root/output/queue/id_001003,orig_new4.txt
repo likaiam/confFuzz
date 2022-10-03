@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; DELETE FROM v0 WHERE v2 = '29' ; UPDATE v0 SET v3 = ( SELECT 0 FROM generate_series ) ; 

@@ -1,1 +1,0 @@
-PRAGMA cache_spill = 0;CREATE TABLE v0 ( v1 INTEGER CHECK( datetime ( v1 ) IS NOT NULL < v1 NOT LIKE randomblob ( quote ( substr ( v1 , 3 , 2 ) ) ) ) ) ; INSERT INTO v0 VALUES ( 3 ) ,( 3 ) ; VACUUM ; VACUUM ; SELECT * FROM v0 LEFT JOIN v0 ON v1 GLOB '1994-01-01' WHERE v1 = 'MED P' OR v1 = v0 . v1 ; 

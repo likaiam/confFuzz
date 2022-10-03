@@ -1,5 +1,0 @@
-digraph "CFG for 'ntileInvFunc' function" {
-	label="CFG for 'ntileInvFunc' function";
-
-	Node0x55c0f8688ab0 [shape=record,label="{sqlite3.c:160491:}"];
-}

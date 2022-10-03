@@ -1,1 +1,0 @@
-CREATE TABLE generate_series ( v1 VARCHAR(1) PRIMARY KEY ) ; ALTER TABLE generate_series RENAME TO User ; SELECT v6 , v5 FROM v4 WHERE v7 IS NOT NULL ; 

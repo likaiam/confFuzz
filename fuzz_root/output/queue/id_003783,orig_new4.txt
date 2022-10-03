@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v2 , v3 ) ; SELECT * FROM v0 , v0 WHERE v1 LIKE 'Ar' AND v1 = 0 ; SELECT sum ( v1 ) , sum ( length ( v1 ) ) FROM v0 ; 

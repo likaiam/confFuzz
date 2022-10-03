@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 INT ) ; SELECT v1 , v1 , sum ( v2 ) FROM v0 GROUP BY v2 , v2 ORDER BY v2 DESC , v2 DESC ; DROP TRIGGER tmp . x ; 

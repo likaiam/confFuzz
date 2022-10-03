@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHAR(25) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'SM CASE' ) ,( 'x' ) ,( '23' ) ,( 'v0' ) ; UPDATE v0 SET v1 = randomblob ( ( 10 = 1 AND v1 = 3 ) + v1 + julianday ( * ) ) ; SELECT DISTINCT COUNT ( * ) FROM v0 ORDER BY max ( v1 ) , v1 , v1 DESC ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ) DESC ; 

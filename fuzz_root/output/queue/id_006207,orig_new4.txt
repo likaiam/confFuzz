@@ -1,1 +1,0 @@
-SELECT CASE NULL WHEN 'x' THEN 'x' WHEN 'AIR' THEN 'v1' ELSE 'CANADA' END ; SELECT count ( * ) OVER( ) ; 

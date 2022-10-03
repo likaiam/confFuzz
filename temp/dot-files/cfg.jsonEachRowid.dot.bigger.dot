@@ -1,5 +1,0 @@
-digraph "CFG for 'jsonEachRowid' function" {
-	label="CFG for 'jsonEachRowid' function";
-
-	Node0x55c0fb7e42c0 [shape=record,label="{sqlite3.c:197442:}"];
-}

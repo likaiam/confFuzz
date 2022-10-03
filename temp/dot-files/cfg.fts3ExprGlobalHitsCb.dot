@@ -1,5 +1,0 @@
-digraph "CFG for 'fts3ExprGlobalHitsCb' function" {
-	label="CFG for 'fts3ExprGlobalHitsCb' function";
-
-	Node0x55c0fb38d170 [shape=record,label="{sqlite3.c:193415:}"];
-}

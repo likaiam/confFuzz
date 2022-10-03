@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v1' ) ,( 'x' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE VIEW v5 AS SELECT unlikely ( v1 ) <= 'forest%%' , unlikely ( v1 ) <= 'X' FROM v0 ; SELECT * FROM v5 UNION SELECT * FROM v2 ; 

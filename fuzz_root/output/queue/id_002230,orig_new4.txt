@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; SELECT * FROM v0 WHERE v1 IN ( 10 , 1 ) ; UPDATE v0 SET v2 = ( SELECT DISTINCT 3 FROM v0 , v0 , v0 , v0 , v0 ) ; 

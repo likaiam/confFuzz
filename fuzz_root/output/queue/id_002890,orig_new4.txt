@@ -1,1 +1,0 @@
-SELECT min ( 1.100000 ) , total_changes () ; SELECT v1 WHERE v3 >= 'v1' ORDER BY 1 , v5 ; 

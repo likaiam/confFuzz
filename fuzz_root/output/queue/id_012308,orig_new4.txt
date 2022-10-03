@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 , v4 , v7 , v6 , v3 , v1 , v5 , v8 VARCHAR(300) ) ; SELECT v5 MATCH AVG ( v8 ) FROM v0 JOIN v0 USING ( v2 , v1 , v1 , v1 ) NATURAL JOIN v0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v1' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; CREATE VIEW v5 AS SELECT ins () AS x FROM v5 UNION ALL SELECT ins () AS x FROM v5 ; SELECT * FROM v5 UNION SELECT * FROM v0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 , v2 AS( v3 + v3 ) , v3 AS( NOT CASE ( 'v0' = '**%s**' AND ( v3 IN ( 2 , 0 ) ) = 1 ) WHEN 'SM CASE' THEN 9223372036854775807 ELSE 10 END ) CHECK( v3 ) ) ; SELECT DISTINCT v0 . v3 FROM v0 AS x JOIN v0 ON NULL = v0 . v2 WHERE v0 . v3 IN ( v0 . v2 , v0 . v2 , v0 . v3 ) ; SELECT v0 . v1 AS REVENUE FROM v0 ; 

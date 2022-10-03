@@ -1,1 +1,0 @@
-PRAGMA synchronous=3; ; CREATE TABLE v0 ( v3 , v2 AS( x () + 1 + v2 ) , v1 AS( v1 ) CHECK( v2 ) ) ; UPDATE v0 SET v1 = NULL ; 

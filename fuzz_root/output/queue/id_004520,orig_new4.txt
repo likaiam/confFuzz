@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'v0' ) ,( 'y' ) ; CREATE TABLE v2 ( v3 CHECK( v3 = v3 % 10 ) ) ; INSERT OR IGNORE INTO v2 SELECT * FROM v0 ; SELECT coalesce ( max ( v1 ) , 1 ) FROM v0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v3 , v1 AS( v2 + v2 IS NULL < v2 NOT LIKE datetime ( v3 , v1 ) ) , v2 AS( NOT CASE v3 WHEN '%%green%%' THEN 10 ELSE 2 END ) CHECK( v3 ) ) ; SELECT DISTINCT v0 . v1 FROM v0 AS a JOIN v0 ON NULL = v0 . v2 WHERE v0 . v1 IN ( v0 . v3 , v0 . v1 , v0 . v1 ) ; SELECT sum ( v1 ) , sum ( length ( v1 ) ) FROM v0 ; 

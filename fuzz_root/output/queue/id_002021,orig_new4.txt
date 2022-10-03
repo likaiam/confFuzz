@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'v0' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( 's%' , 1 ) ,( 'LG PKG' , 10 ) ,( 'x' , 0 ) ; SELECT 10.100000 * SUM ( CASE WHEN ( v3 = 3 AND 1 ) LIKE 'v1' THEN v4 * ( 10 - v3 ) ELSE 10 END ) FROM v2 ; 

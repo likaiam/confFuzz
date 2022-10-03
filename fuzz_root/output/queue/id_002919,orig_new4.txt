@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'x' ) ,( '1995-03-15' ) ; CREATE TABLE v2 ( v4 , v3 INTEGER PRIMARY KEY ON CONFLICT IGNORE ) ; INSERT INTO v2 VALUES ( 'x' , 0 ) ,( 'Brand#23' , 1 ) ,( 'v1' , 10 ) ,( 'x' , 10 ) ; SELECT nth_value ( v1 , 10 ) OVER( ORDER BY v1 ) , v1 AS alias FROM v0 ; 

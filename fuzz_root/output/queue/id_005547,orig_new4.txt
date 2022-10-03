@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v3 INTEGER AS( NOT v1 <= 'v0' + v4 ) , v2 , v1 , v4 AS( v2 + julianday ( * ) ) ) ; SELECT * FROM v0 AS myname JOIN v0 NATURAL JOIN v0 ; 

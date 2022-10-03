@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v1 , v3 ) ; INSERT INTO v0 SELECT * FROM v0 WHERE v2 < 9 ; UPDATE v0 SET v2 = printf ( v3 , v1 ) WHERE v2 IS NULL ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'memdbFileSize' function" {
-	label="CFG for 'memdbFileSize' function";
-
-	Node0x55c0f7265000 [shape=record,label="{sqlite3.c:50074:}"];
-}

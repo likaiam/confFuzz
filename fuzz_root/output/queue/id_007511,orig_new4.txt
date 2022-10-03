@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( '29' ) ,( 'v0' ) ,( 'x' ) ,( 'v1' ) ,( 'Brand#12' ) ; UPDATE v0 SET v1 = randomblob ( CASE WHEN v1 != 'c' THEN 2000 ELSE v0 . v1 END ) ; SELECT v1 FROM v0 UNION SELECT v1 FROM v0 ORDER BY v1 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 's%' ) ,( 'testtest' ) ,( 'SM BOX' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v1' , 0 ) ,( 'v0' , 1 ) ,( 'c' , 10 ) ,( 'LG PACK' , 10 ) ; SELECT CASE WHEN v3 NOT IN ( 10 , 10 , 3 ) THEN 'v1' ELSE 'Ar' END FROM v2 ; 

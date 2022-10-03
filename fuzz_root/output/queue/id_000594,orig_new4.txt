@@ -1,1 +1,0 @@
-SELECT x ( * ) ORDER BY ( SELECT v1 ORDER BY 10 ) ; CREATE TABLE v2 ( v5 , v4 AS( v3 + v4 ) , v3 AS( v4 ) CHECK( v3 ) ) ; UPDATE v2 SET v5 = NULL ; 

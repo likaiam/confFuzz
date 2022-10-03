@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'LG PACK' ) ,( 'SM CASE' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'x' , 1 ) ,( 'v0' , 0 ) ,( 'v1' , 9223372036854775807 ) ; SELECT quote ( zeroblob ( 0 ) ) FROM v0 JOIN v2 ON v4 = v4 ; 

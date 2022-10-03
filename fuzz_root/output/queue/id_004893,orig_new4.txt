@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v1 ) VALUES ( 2.100000 ) ,( 2 ) ; SELECT max ( ( SELECT avg ( v0 . v3 ) FROM v0 ) ) FROM v0 ; DELETE FROM v0 WHERE v2 MATCH - 10.100000 ; 

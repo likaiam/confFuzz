@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; DELETE FROM v0 WHERE v2 = 'v0' ; UPDATE v0 SET v1 = ( SELECT 12 FROM v0 AS a JOIN v0 AS b ON v1 <= v1 ) ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_str_appendall' function" {
-	label="CFG for 'sqlite3_str_appendall' function";
-
-	Node0x55c0f5478e30 [shape=record,label="{sqlite3.c:30659:}"];
-}

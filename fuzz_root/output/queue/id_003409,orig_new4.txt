@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHECK( v1 != 10 ) ) ; INSERT INTO v0 ( v1 , v1 ) VALUES ( 0.100000 , 'SM CASE' ) ; SELECT v1 , v1 , v1 FROM v0 NATURAL JOIN v0 ; 

@@ -1,1 +1,0 @@
-PRAGMA encoding='UTF-16'; ; VACUUM ; VACUUM ; SELECT NULL ; 

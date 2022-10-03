@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 , v2 INTEGER AS( 'a' ) CHECK( 1 ) CHECK( v1 NOT LIKE 'x' ) NOT NULL UNIQUE ) ; CREATE INDEX v3 ON v0 ( v1 , v2 , v1 , v1 , v2 , v1 , v2 , v2 , v1 , v2 ) ; INSERT INTO v0 VALUES ( 1 ) ; SELECT DISTINCT * FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v2 IN ( v0 . v2 , 10 , v0 . v2 ) ; 

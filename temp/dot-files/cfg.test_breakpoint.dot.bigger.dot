@@ -1,5 +1,0 @@
-digraph "CFG for 'test_breakpoint' function" {
-	label="CFG for 'test_breakpoint' function";
-
-	Node0x5602770c8880 [shape=record,label="{shell.c:16428:}"];
-}

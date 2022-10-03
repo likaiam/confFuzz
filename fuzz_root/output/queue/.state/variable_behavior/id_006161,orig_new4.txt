@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v3 , v6 , v4 , v5 , v7 , v8 , v9 , v10 , v1 , v2 ) ; INSERT INTO v0 ( v10 ) VALUES ( 3 ) ,( 3 ) ; UPDATE v0 SET v9 = ( SELECT 0 FROM v0 ORDER BY printf ( random () , 10 ) + 10.100000 DESC ) ; 

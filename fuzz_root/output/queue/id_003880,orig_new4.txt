@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 , v1 ) ; INSERT INTO v0 ( v2 ) VALUES ( 10 ) ,( 10 ) ; INSERT INTO v0 ( v2 ) VALUES ( 0 ) ,( 10.100000 ) ; UPDATE v0 SET v1 = ( SELECT 1 FROM v0 ORDER BY printf ( v2 , v1 ) + 127.100000 DESC ) ; 

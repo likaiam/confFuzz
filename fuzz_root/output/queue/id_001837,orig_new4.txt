@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; SELECT 'x' + ( SELECT v1 FROM v0 AS x GROUP BY v1 ORDER BY v1 , v1 , v1 ) ; CREATE TABLE v2 ( v4 INTEGER PRIMARY KEY , v3 INT ) ; SELECT sqlite_compileoption_used ( NULL ) ; SELECT * FROM v2 , v2 WHERE v4 = v3 AND v4 = 10 ; 

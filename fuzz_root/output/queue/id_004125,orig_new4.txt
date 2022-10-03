@@ -1,1 +1,0 @@
-PRAGMA max_page_count=1; ; CREATE TABLE v0 ( v1 , v2 INTEGER AS( 'v1' ) CHECK( 0 ) CHECK( v1 NOT LIKE 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 3 ) ; DELETE FROM v0 WHERE ( v2 = 9223372036854775807 OR v2 = 2 ) WITH HINT ( NO_CACHE ) ; VACUUM ; 

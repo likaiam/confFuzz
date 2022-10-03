@@ -1,5 +1,0 @@
-digraph "CFG for 'xCeil' function" {
-	label="CFG for 'xCeil' function";
-
-	Node0x55c0fa602140 [shape=record,label="{sqlite3.c:124332:}"];
-}

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE randomblob ( 10 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'Al' ) ,( 'forest%%' ) ,( 'v0' ) ,( 'v1' ) ,( 'v1' ) ; UPDATE v0 SET v1 = randomblob ( 10 ) ; SELECT quote ( v1 ) , quote ( v1 ) FROM v0 ORDER BY v1 ; 

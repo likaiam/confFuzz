@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'a' ) ,( 'v0' ) ,( 'v1' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE VIEW v5 AS SELECT DISTINCT julianday ( count ( ( NOT ( v3 IS NULL ) ) AND ( NOT ( v1 IS NULL ) ) ) ) IS NULL AS AVG_YEARLY , v1 LIMIT 10 ; SELECT * FROM v5 UNION SELECT * FROM v5 LEFT JOIN v2 ON 3 = v3 ; 

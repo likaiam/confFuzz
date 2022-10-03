@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v0' ) ,( 'y' ) ,( 'v1' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'LG PACK' , 9223372036854775808 ) ,( 'v1' , 127 ) ,( 'x' , 10 ) ,( 'v1' , 0 ) ; SELECT SUM ( v1 * ( 10 - v1 ) ) OVER( ) AS REVENUE , v1 AS alias FROM v0 ; 

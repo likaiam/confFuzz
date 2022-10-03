@@ -1,5 +1,0 @@
-digraph "CFG for 'rtreeTokenLength' function" {
-	label="CFG for 'rtreeTokenLength' function";
-
-	Node0x55c0f6e09a50 [shape=record,label="{sqlite3.c:201423:}"];
-}

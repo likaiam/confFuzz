@@ -1,5 +1,0 @@
-digraph "CFG for 'apndShmMap' function" {
-	label="CFG for 'apndShmMap' function";
-
-	Node0x56027690cde0 [shape=record,label="{shell.c:4030:}"];
-}

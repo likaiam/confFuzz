@@ -1,1 +1,0 @@
-PRAGMA encoding='UTF-16'; ; CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'MED BOX' ) ,( 'v0' ) ,( '1994-01-01' ) ,( 'v0' ) ,( 'LG CASEaaaaaaaaaaaa' ) ; UPDATE v0 SET v1 = datetime ( - v1 ) ; SELECT v1 / v1 , v1 , rank () OVER( ORDER BY v1 DESC ) FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3Fts3SelectDocsize' function" {
-	label="CFG for 'sqlite3Fts3SelectDocsize' function";
-
-	Node0x55c0fb36aa00 [shape=record,label="{sqlite3.c:187135:}"];
-}

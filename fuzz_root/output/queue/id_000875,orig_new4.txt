@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 's%' ) ,( 'v0' ) ,( 'v1' ) ; CREATE TABLE v2 ( rtree , v3 ) ; INSERT INTO v2 VALUES ( 'v1' , 3 ) ,( 'x' , 10 ) ,( 'x' , 1 ) ,( 'v0' , 127 ) ; SELECT * FROM v2 UNION SELECT * FROM v2 ; 

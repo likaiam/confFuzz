@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 UNIQUE ON CONFLICT IGNORE GENERATED ALWAYS AS( 0 ) , v2 , v3 ) ; INSERT OR IGNORE INTO v0 SELECT * FROM v0 GROUP BY printf ( 'v1' , changes () ) ; INSERT OR IGNORE INTO v0 SELECT * FROM v0 ; INSERT INTO v0 SELECT randomblob ( 10 ) , randomblob ( 0 ) , randomblob ( 1 ) FROM v0 ; 

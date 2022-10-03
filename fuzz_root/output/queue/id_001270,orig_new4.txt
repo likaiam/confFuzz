@@ -1,1 +1,0 @@
-SELECT last_insert_rowid () ; REPLACE INTO v0 ( v1 ) VALUES ( NULL ) ; 

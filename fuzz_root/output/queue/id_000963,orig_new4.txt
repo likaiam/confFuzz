@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 AS( * ) CHECK( v2 ) , v1 , v2 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10 ) ,( 1 ) ; CREATE INDEX v4 ON v0 ( v1 ) WHERE v2 BETWEEN 10 AND 10 ; 

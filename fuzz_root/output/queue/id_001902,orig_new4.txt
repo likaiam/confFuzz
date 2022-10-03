@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( '%%BRASS' ) ,( 'v0' ) ,( 'Brand#23' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'x' , 10 ) ,( '1995-03-15' , 0 ) ,( 'MED BOX' , 1 ) ,( 'x' , 10 ) ; SELECT min ( 'v0' , typeof ( v1 ) , v1 ) FROM v0 ; 

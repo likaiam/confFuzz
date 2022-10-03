@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3Detach' function" {
-	label="CFG for 'sqlite3Detach' function";
-
-	Node0x55c0fa2e39c0 [shape=record,label="{sqlite3.c:114592:}"];
-}

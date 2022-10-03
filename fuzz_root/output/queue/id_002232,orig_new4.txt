@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v1 ) ; SELECT * FROM v0 WHERE v1 IN ( 10 , 3 ) ; UPDATE v0 SET v3 = ( SELECT NTILE ( 2 ) OVER( ORDER BY v3 ) - 10 AS nt FROM v0 ) ; 

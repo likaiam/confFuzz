@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 != randomblob ( v1 + v1 ) NOT LIKE randomblob ( ( v1 ) ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'v1' ) ,( 'v1' ) ,( 'AIR' ) ,( 'LG PACK' ) ; UPDATE v0 SET v1 = randomblob ( 3 ) ; SELECT * UNION SELECT DISTINCT v1 = zeroblob ( 10 ) FROM v0 ORDER BY v1 ; 

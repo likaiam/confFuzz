@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 UNIQUE AS( v3 + v2 ) AS( NOT CASE v2 WHEN 'v1' THEN 0 ELSE 10 END ) CHECK( v1 ) AS( v3 ) CHECK( v2 ) , v1 , v2 ) ; INSERT INTO v0 ( v2 ) VALUES ( 3 ) ,( 10 ) ; UPDATE v0 SET v1 = v2 + 10 ; 

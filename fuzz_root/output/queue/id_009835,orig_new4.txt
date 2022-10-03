@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 INTEGER AS( 'v0' ) CHECK( 10 ) CHECK( v3 MATCH NOT ( '18' = '%%green%%' AND v2 < 10 = v2 ) ) NOT NULL UNIQUE , v1 ) ; CREATE VIRTUAL TABLE v4 USING rtree ( v6 INT , v7 , v5 ) ; CREATE VIRTUAL TABLE v8 USING rtree ( v9 , v10 , v11 ) ; UPDATE v0 SET v2 = ( SELECT 1 FROM v4 LEFT JOIN v0 ON ( v1 == 'x' ) JOIN v8 ON NULL = NULL ) ; 

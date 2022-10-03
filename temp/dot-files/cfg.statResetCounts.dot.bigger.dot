@@ -1,5 +1,0 @@
-digraph "CFG for 'statResetCounts' function" {
-	label="CFG for 'statResetCounts' function";
-
-	Node0x55c0fb70b1b0 [shape=record,label="{sqlite3.c:211236:}"];
-}

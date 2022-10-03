@@ -1,5 +1,0 @@
-digraph "CFG for 'createMask' function" {
-	label="CFG for 'createMask' function";
-
-	Node0x55c0f954f280 [shape=record,label="{sqlite3.c:154022:}"];
-}

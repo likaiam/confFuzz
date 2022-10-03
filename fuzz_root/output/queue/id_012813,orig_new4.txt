@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'b' ) ,( 'v1' ) ,( 'EUROPE' ) ,( 'v0' ) ,( 'v0' ) ; UPDATE v0 SET v1 = CASE WHEN v1 % 10 != 0 THEN v1 END ; SELECT count ( CASE WHEN v1 = 'v0' THEN 0 END ) , count ( CASE WHEN v1 = 'EUROPE' THEN 10 END ) FROM v0 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY substr ( v1 , 3 , 9 ) DESC ; 

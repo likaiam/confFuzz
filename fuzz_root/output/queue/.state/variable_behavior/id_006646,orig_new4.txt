@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'v1' ) ,( 'Felix Fürstenberg' ) ,( '13' ) ,( 'X' ) ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT ( SELECT sum ( random () % 10 ) OVER( ORDER BY v1 ) AS nt ) FROM v0 AS x GROUP BY v1 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ORDER BY v1 DESC , v1 ) DESC ; 

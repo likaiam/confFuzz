@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 , v3 , v2 ) ; REPLACE INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'v1' ) ,( 0 ) ,( 'v0' ) ,( 0 ) ; UPDATE v0 SET v3 = julianday ( 'test' ) OVER( ) + 10 ; 

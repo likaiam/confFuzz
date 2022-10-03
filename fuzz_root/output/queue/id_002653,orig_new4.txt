@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( generate_series , v1 INTEGER AS( 'SM BOX' ) CHECK( 3 ) CHECK( v1 NOT LIKE 'Brand#34' ) NOT NULL UNIQUE ) ; INSERT INTO v0 VALUES ( 0 ) ; SELECT count ( CASE WHEN v1 = 'v0' THEN 10 END ) , count ( CASE WHEN v1 = 'x' THEN 1 END ) FROM v0 ; 

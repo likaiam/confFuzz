@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 UNIQUE ON CONFLICT ABORT CHECK( 'x' >= 10 != printf ( random () , v1 NOT LIKE printf ( v1 , 10 ) ) NOT LIKE LIKELY ( v1 ) ) ) ; CREATE TABLE v2 ( v4 INTEGER UNIQUE , v3 TEXT PRIMARY KEY UNIQUE CHECK( likelihood ( ( random () % 10 ) == 10 , 0.100000 ) ) ) ; VACUUM ; CREATE INDEX v5 ON v0 ( v1 ) WHERE datetime () IS NOT NULL ; VACUUM ; 

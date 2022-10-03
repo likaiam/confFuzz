@@ -1,5 +1,0 @@
-digraph "CFG for 'completionCursorReset' function" {
-	label="CFG for 'completionCursorReset' function";
-
-	Node0x5602768b6470 [shape=record,label="{shell.c:3307:}"];
-}

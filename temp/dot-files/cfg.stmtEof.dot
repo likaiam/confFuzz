@@ -1,5 +1,0 @@
-digraph "CFG for 'stmtEof' function" {
-	label="CFG for 'stmtEof' function";
-
-	Node0x55c0fb8015d0 [shape=record,label="{sqlite3.c:241145:}"];
-}

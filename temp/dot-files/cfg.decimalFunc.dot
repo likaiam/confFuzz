@@ -1,5 +1,0 @@
-digraph "CFG for 'decimalFunc' function" {
-	label="CFG for 'decimalFunc' function";
-
-	Node0x560276941510 [shape=record,label="{shell.c:4768:}"];
-}

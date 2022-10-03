@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'Brand#34' ) ,( 'v0' ) ,( 'x' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v0' , 3 ) ,( 'Ar' , 0 ) ,( 'v1' , 10 ) ,( 'v0' , 1 ) ; SELECT MIN ( v3 ) AS REVENUE , count ( v3 ) FROM v2 ; 

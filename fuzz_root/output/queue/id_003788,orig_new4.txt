@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; SELECT DISTINCT v0 . v3 FROM v0 AS a JOIN v0 ON NULL = v0 . v1 WHERE v0 . v3 IN ( v0 . v3 , v0 . v3 , v0 . v3 ) ; SELECT * FROM v0 WHERE ( v3 = 10 AND 1 ) OR v3 = 9 GROUP BY v0 . v2 , v3 ; 

@@ -1,1 +1,0 @@
-SELECT nth_value ( v1 , 10 ) OVER( ORDER BY v3 ) + nth_value ( v5 , 0 ) OVER( ) ; CREATE TABLE v6 ( v7 INTEGER PRIMARY KEY ) ; SELECT v7 FROM v6 WHERE v7 LIKE 'Al' OR v7 = 'v0' ; SELECT quote ( v7 ) FROM v6 WHERE v7 LIKE 'v0' ORDER BY v7 ; 

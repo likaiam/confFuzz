@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_os_end' function" {
-	label="CFG for 'sqlite3_os_end' function";
-
-	Node0x55c0f578b770 [shape=record,label="{sqlite3.c:43550:}"];
-}

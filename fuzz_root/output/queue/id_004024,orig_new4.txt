@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INT , v2 INT ) ; INSERT INTO v0 VALUES ( 0 , 0 ) ,( 10 , 9223372036854775807 ) ,( 10 , 0 ) ,( 1 , 0 ) ,( NULL , 10 ) ,( NULL , 9 ) ; SELECT * FROM v0 AS alias GROUP BY v2 ORDER BY length ( v1 ) DESC ; 

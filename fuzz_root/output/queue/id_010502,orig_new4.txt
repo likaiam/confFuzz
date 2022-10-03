@@ -1,1 +1,0 @@
-SELECT changes () , total_changes () ; 

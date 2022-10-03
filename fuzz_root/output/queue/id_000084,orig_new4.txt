@@ -1,1 +1,0 @@
-PRAGMA journal_size_limit=10; ; CREATE TABLE v0 ( v1 , v2 AS( v2 + v1 ) , v3 AS( v1 ) CHECK( v1 ) ) WITH HINT ( NO_CACHE , NO_SAMPLING ) ; UPDATE v0 SET v1 = NULL ; 

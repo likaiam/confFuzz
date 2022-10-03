@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( randomblob ( v1 NOT LIKE randomblob ( v1 NOT LIKE v1 ) ) NOT LIKE printf ( 'v0' , lower ( 'testtest' ) ) ) ) ; INSERT OR FAIL INTO v0 SELECT * FROM v0 WHERE v1 BETWEEN 'v1' AND 'x' OR v1 = 'x' GROUP BY v1 ORDER BY length ( v1 ) DESC ; VACUUM ; VACUUM ; 

@@ -1,1 +1,0 @@
-SELECT zeroblob ( random () != random () ) UNION ALL SELECT zeroblob ( changes () ) ; WITH tmp AS ( SELECT * FROM v0 ) SELECT NULL UNION ALL SELECT NULL ; 

@@ -1,1 +1,0 @@
-SELECT randomblob ( 127 ) UNION SELECT DISTINCT printf ( 'AIR REG' , 10 , '1994-01-01' , 0 ) ; SELECT * FROM v0 AS a JOIN v2 ON 3 = v0 . v1 WHERE v3 = v5 AND v4 = 10 ; 

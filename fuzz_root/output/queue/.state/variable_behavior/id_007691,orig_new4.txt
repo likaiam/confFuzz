@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( printf ( random () , v1 NOT LIKE printf ( 'GERMANY' , 10 ) ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 10 ) ; UPDATE v0 SET v1 = randomblob ( 10 ) ; SELECT * FROM v0 UNION SELECT DISTINCT * FROM v0 AS m ORDER BY v1 ; 

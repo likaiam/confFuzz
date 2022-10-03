@@ -1,5 +1,0 @@
-digraph "CFG for 'Plink_add' function" {
-	label="CFG for 'Plink_add' function";
-
-	Node0x562565229bc0 [shape=record,label="{lemon.c:3136:}"];
-}

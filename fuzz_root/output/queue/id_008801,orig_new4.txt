@@ -1,1 +1,0 @@
-PRAGMA secure_delete=true; ; CREATE TABLE v0 ( v1 INT PRIMARY KEY ) ; INSERT INTO v0 ( v1 ) VALUES ( 'MED P' ) ,( '199419' ) ,( 'LG CASEaaaaaaaaaaaa' ) ,( 'x' ) ,( 'v1' ) ; UPDATE v0 SET v1 = randomblob ( ( SELECT v1 FROM v0 WHERE v0 . v1 = v0 . v1 GROUP BY v0 . v1 , v1 ) + v1 ) ; SELECT v0 . v1 FROM v0 AS AVG_YEARLY JOIN v0 AS b ON v0 . v1 = v0 . v1 ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'dbpageDisconnect' function" {
-	label="CFG for 'dbpageDisconnect' function";
-
-	Node0x55c0fb6b5af0 [shape=record,label="{sqlite3.c:211893:}"];
-}

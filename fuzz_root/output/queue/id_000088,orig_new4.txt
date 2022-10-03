@@ -1,1 +1,0 @@
-PRAGMA vdbe_trace=false; ; UPDATE v0 SET v2 = v3 + 10 WHERE v1 < 10 ; UPDATE v4 SET v5 = NULL ; 

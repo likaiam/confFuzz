@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; SELECT * FROM v0 WHERE v2 GLOB 'AIR REG' ; DELETE FROM v0 WHERE ( v1 = 10 AND ( v3 = v2 OR v3 = 3 ) ) OR v3 = 'LG PACK' ; 

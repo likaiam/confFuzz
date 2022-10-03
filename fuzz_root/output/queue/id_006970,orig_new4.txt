@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( datetime ( v1 ) IS NOT NULL < v1 NOT LIKE julianday ( v1 + julianday ( 'x' ) ) ) ) ; INSERT INTO v0 VALUES ( 0 ) ,( 10 ) ; VACUUM ; VACUUM ; 

@@ -1,5 +1,0 @@
-digraph "CFG for 'btreeInvokeBusyHandler' function" {
-	label="CFG for 'btreeInvokeBusyHandler' function";
-
-	Node0x55c0f764f3d0 [shape=record,label="{sqlite3.c:69201:}"];
-}

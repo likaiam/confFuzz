@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER NOT NULL ) ; INSERT INTO v0 ( v1 ) VALUES ( 'testtest' ) ,( 'testtest' ) ,( 'v0' ) ,( 'AIR REG' ) ,( 'v1' ) ; UPDATE v0 SET v1 = zeroblob ( 1 ) ; SELECT * FROM v0 UNION SELECT DISTINCT v1 = zeroblob ( 8 ) FROM v0 ORDER BY v1 ; 

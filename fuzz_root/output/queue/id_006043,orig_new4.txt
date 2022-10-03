@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( '18' ) ,( 'BUILDING' ) ,( 'v0' ) ,( 'v1' ) ,( 'x' ) ; UPDATE v0 SET v1 = ( SELECT 1 FROM v0 WHERE v1 IN ( SELECT v1 FROM v0 ORDER BY v1 DESC NULLS FIRST LIMIT 3 ) ) ; SELECT v0 . v1 , v1 , typeof ( v1 ) FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 3 ) ; DELETE FROM v0 WHERE ( SELECT count ( * ) FROM v0 AS a , v0 AS b , v0 AS c ) = 'v0' OR v2 = 'AIR' ; 

@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v1 , v2 ) ; INSERT INTO v0 ( v1 ) VALUES ( 127 ) ,( 3 ) ; UPDATE v0 SET v2 = ( SELECT lead ( v3 , 0 ) OVER( ORDER BY v3 ) AS x FROM v0 ) WHERE v2 MATCH '!INSERT INTO test VALUES (1, 0, 0); !INSERT INTO test VALUES (0, 1, 0); !INSERT INTO test VALUES (0, 0, null);' ; 

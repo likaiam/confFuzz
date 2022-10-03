@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER UNIQUE GENERATED ALWAYS AS( v1 ) AS( v1 + v1 >= x ( x () , 'x' ) ) ) ; INSERT INTO v0 VALUES ( '23' ) ,( 'v1' ) ,( 'v1' ) ; CREATE TABLE v2 ( v4 , v3 ) ; INSERT INTO v0 VALUES ( 'v0' , 10 ) ,( 'Brand#34' , 2 ) ,( 'MED BAG' , 2 ) ,( 'v0' , 10 ) ; SELECT v1 , SUM ( v1 ) FROM v0 ; 

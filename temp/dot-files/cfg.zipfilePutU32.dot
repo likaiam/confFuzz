@@ -1,5 +1,0 @@
-digraph "CFG for 'zipfilePutU32' function" {
-	label="CFG for 'zipfilePutU32' function";
-
-	Node0x560276b7d730 [shape=record,label="{shell.c:7287:}"];
-}

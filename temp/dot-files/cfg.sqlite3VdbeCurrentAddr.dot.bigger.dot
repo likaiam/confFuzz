@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3VdbeCurrentAddr' function" {
-	label="CFG for 'sqlite3VdbeCurrentAddr' function";
-
-	Node0x55c0f8b36140 [shape=record,label="{sqlite3.c:81611:}"];
-}

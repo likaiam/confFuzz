@@ -1,5 +1,0 @@
-digraph "CFG for 'jsonPathSyntaxError' function" {
-	label="CFG for 'jsonPathSyntaxError' function";
-
-	Node0x55c0fa820340 [shape=record,label="{sqlite3.c:196284:}"];
-}

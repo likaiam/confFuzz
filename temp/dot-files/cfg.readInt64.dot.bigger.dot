@@ -1,5 +1,0 @@
-digraph "CFG for 'readInt64' function" {
-	label="CFG for 'readInt64' function";
-
-	Node0x55c0fb414f50 [shape=record,label="{sqlite3.c:198230:}"];
-}

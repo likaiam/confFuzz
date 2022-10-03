@@ -1,5 +1,0 @@
-digraph "CFG for 'fileStat' function" {
-	label="CFG for 'fileStat' function";
-
-	Node0x56027684fe10 [shape=record,label="{shell.c:2394:}"];
-}

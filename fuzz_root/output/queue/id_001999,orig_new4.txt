@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'x' ) ,( 'testtest' ) ,( 'v0' ) ; CREATE TABLE v2 ( v3 , v4 NOT NULL ) ; INSERT INTO v2 VALUES ( 'v1' , 0 ) ,( 'MED P' , 0 ) ,( 's%' , 10 ) ,( 'CANADA' , 10 ) ; SELECT MIN ( v1 ) , v1 FROM v2 AS a , v2 AS b , v0 AS c WHERE v1 ISNULL ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'PROMO%%' ) ,( 'MED P' ) ,( 'c' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'CANADA' , 1 ) ,( 'v0' , 10 ) ,( 'v0' , 1 ) ,( 'v0' , 1 ) ; SELECT CASE WHEN v3 NOT IN ( 10 , 10 , 10 ) THEN '1995-03-15' ELSE '**%s**' END FROM v2 ORDER BY CAST ( v4 AS TEXT ) ; 

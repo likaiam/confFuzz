@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 'v0' ) ,( 'x' ) ,( 'v1' ) ,( 'LG CASEaaaaaaaaaaaa' ) ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; SELECT count ( 'x' ) OVER( ) FROM v0 , v0 LEFT JOIN v0 , v0 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

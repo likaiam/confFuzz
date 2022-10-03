@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 INT , v1 INT ) ; INSERT INTO v0 ( v1 , v2 ) VALUES ( 10 , 2 ) ; SELECT v1 , quote ( substr ( v1 , 1 , 2 ) ) FROM v0 ; 

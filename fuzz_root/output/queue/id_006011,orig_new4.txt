@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v0' ) ,( 'SM BOX' ) ,( 'v1' ) ,( 'test' ) ,( 'v1' ) ; UPDATE v0 SET v1 = CASE WHEN v1 != 'testtest' THEN 9223372036854775808 ELSE 0 END + 9223372036854775807 ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

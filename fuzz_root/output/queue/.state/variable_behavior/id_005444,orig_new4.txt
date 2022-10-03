@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE randomblob ( DISTINCT 10 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'x' ) ,( 'v1' ) ,( 'SM PACK' ) ,( '1995-09-01' ) ; UPDATE v0 SET v1 = zeroblob ( 0 ) ; CREATE INDEX v2 ON v0 ( v1 ) WHERE v1 = v1 IS NOT NULL ; SELECT v1 , v1 , v1 FROM v0 NATURAL JOIN v0 WHERE 9223372036854775807 = v1 / 10 AND v1 = 2 ; 

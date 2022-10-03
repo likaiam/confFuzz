@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; SELECT DISTINCT * FROM v0 ORDER BY lead ( v1 ) OVER( ) DESC , v1 ; DELETE FROM v0 WHERE v3 = 'v1' OR v1 = '29' ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v2 UNIQUE PRIMARY KEY UNIQUE ON CONFLICT REPLACE , v1 INT ) ; INSERT INTO v0 ( v2 ) VALUES ( 'v1' ) ,( 'Felix Fürstenberg' ) ,( 'x' ) ,( 'BUILDING' ) ,( 'v0' ) ; UPDATE v0 SET v2 = randomblob ( v1 + v1 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

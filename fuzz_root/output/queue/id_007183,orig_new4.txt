@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(10) UNIQUE NOT NULL ) ; INSERT INTO v0 ( v1 ) VALUES ( 3 ) ,( 10 ) ; VACUUM ; UPDATE v0 SET v1 = ( SELECT zipfile ( 0 , 10 , 3 , 0 , 8 ) IS NOT NULL FROM v0 ) ; 

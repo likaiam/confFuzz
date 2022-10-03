@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( '18' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE INDEX v5 ON v0 ( v1 , v1 , v1 , v1 , v1 , v1 ) ; SELECT NTILE ( 10 ) OVER( ORDER BY v1 DESC NULLS FIRST , v1 ) - 127 AS nt FROM v0 ; 

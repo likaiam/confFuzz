@@ -1,1 +1,0 @@
-PRAGMA encoding='UTF-16le'; ; VACUUM ; SELECT zeroblob ( COUNT ( * ) NOT LIKE 'v1' ) ; 

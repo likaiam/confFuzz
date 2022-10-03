@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER PRIMARY KEY ) ; SELECT v1 FROM v0 WHERE v1 >= 10.100000 ORDER BY v1 , v1 , v1 LIMIT 10 ; CREATE TABLE v2 ( v4 INTEGER PRIMARY KEY , v3 INT ) ; CREATE VIRTUAL TABLE v5 USING rtree ( v8 AS( typeof ( 'v1' ) ) , v7 , v6 ) ; SELECT * FROM v2 LEFT JOIN v0 ON typeof ( 'Brand#34' ) NOT LIKE 'v0' WHERE v1 = v1 AND random () % 0 != 10 ; 

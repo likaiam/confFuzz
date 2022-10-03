@@ -1,1 +1,0 @@
-PRAGMA secure_delete=FAST; ; VACUUM temp ; SELECT NULL ; 

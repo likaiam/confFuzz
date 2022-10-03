@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER UNIQUE ON CONFLICT REPLACE CHECK( v1 NOT LIKE randomblob ( v1 + v1 IS NULL < v1 NOT LIKE datetime ( v1 , v1 ) ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'v0' ) ,( 'x' ) ,( 'v0' ) ,( 'x' ) ; UPDATE v0 SET v1 = randomblob ( v1 ) ; SELECT instr ( DISTINCT lower ( v1 ) , v1 ) FROM v0 ORDER BY sum ( v1 ) OVER( ) DESC ; 

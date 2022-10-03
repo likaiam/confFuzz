@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( '1995-03-15' ) ,( 'v0' ) ,( 'MED BOX' ) ,( 'GERMANY' ) ; UPDATE v0 SET v1 = randomblob ( ( 10 = 1 AND v1 = 3 ) + v1 + julianday ( DISTINCT v1 ) ) ; SELECT NULL FROM v0 AS x WHERE v1 = 10 AND v1 = 1 GROUP BY v1 ; SELECT * FROM v0 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ) DESC ; 

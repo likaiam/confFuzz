@@ -1,5 +1,0 @@
-digraph "CFG for 'statClose' function" {
-	label="CFG for 'statClose' function";
-
-	Node0x55c0fb6f20c0 [shape=record,label="{sqlite3.c:211248:}"];
-}

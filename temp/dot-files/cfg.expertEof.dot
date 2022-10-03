@@ -1,5 +1,0 @@
-digraph "CFG for 'expertEof' function" {
-	label="CFG for 'expertEof' function";
-
-	Node0x560276c25790 [shape=record,label="{shell.c:9778:}"];
-}

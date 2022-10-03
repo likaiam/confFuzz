@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER CHECK( v1 NOT LIKE printf ( 'v1' , 2000 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 0 ) ,( 10 ) ,( 1 ) ; CREATE TABLE v2 ( v3 INTEGER PRIMARY KEY , v4 INT ) ; INSERT INTO v0 ( v1 ) VALUES ( 9223372036854775807 ) ,( 3 ) ; SELECT v4 , sum ( v4 ) AS m FROM v2 WHERE v3 = v4 AND v3 = 0 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v1' ) ,( 'Felix Fürstenberg' ) ,( 'v0' ) ,( 'Ar' ) ; UPDATE v0 SET v1 = likelihood ( v1 , 0.100000 ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY length ( typeof ( v1 ) ) DESC ; 

@@ -1,1 +1,0 @@
-SELECT 9223372036854775807 AS x ORDER BY - 'v0' >= v1 'v1' ; CREATE TABLE v2 ( v4 , v5 AS( v5 + v4 ) , v3 AS( v5 ) CHECK( v4 ) ) ; UPDATE v2 SET v5 = NULL ; 

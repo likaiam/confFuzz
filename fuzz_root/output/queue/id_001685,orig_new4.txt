@@ -1,1 +1,0 @@
-SELECT tointeger ( 0 ) ORDER BY CAST ( v1 AS TEXT ) ; SELECT * FROM v2 , v3 WHERE v6 = v5 AND v4 = 3 ; 

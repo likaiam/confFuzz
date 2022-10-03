@@ -1,1 +1,0 @@
-PRAGMA cache_spill = 0;CREATE VIRTUAL TABLE v0 USING fts4 ( v3 , v2 , v1 ) ; CREATE VIRTUAL TABLE v4 USING fts4 ( v7 , v5 UNIQUE ON CONFLICT ABORT , v6 ) ; VACUUM ; SELECT printf ( 'v1' , 'x' , 'x' ) ; DELETE FROM v0 WHERE v2 MATCH - 127.100000 ; 

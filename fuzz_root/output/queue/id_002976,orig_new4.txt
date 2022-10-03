@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'SM CASE' ) ,( 'v1' ) ,( 'b' ) ; CREATE TABLE v2 ( v4 , v3 ) ; WITH t4 AS ( SELECT * FROM v0 ) SELECT * FROM v2 AS x INNER JOIN v2 AS y USING ( b , c ) ; SELECT MIN ( v1 ) AS REVENUE , v1 AS alias FROM v0 ; 

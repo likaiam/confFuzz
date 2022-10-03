@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 AS( v3 + v2 ) GENERATED ALWAYS AS( 9 ) , v2 , v1 ) ; CREATE VIRTUAL TABLE v4 USING rtree ( v7 INT , v5 , v6 ) ; INSERT INTO v4 ( v6 ) VALUES ( 9 ) ,( 1 ) ; UPDATE v4 SET v7 = ( SELECT 1 FROM v0 ORDER BY substr ( v1 , 2 , 10 ) + 0.100000 DESC ) ; 

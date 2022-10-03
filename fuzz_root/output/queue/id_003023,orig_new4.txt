@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'forest%%' ) ,( 'Brand#23' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'v1' , 0 ) ,( 'v1' , 0 ) ,( 'x' , 0 ) ; SELECT min ( v3 , v3 ) , rank () OVER( ORDER BY v4 DESC ) FROM v2 ; 

@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( '23' ) ,( 'v0' ) ,( '1994-01-01' ) ,( 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' ) ; UPDATE v0 SET v1 = randomblob ( v1 + v1 ) ; CREATE TABLE v2 ( v4 UNIQUE NOT NULL , v3 UNIQUE NOT NULL ) ; 

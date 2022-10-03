@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 FLOAT ) ; INSERT INTO v0 ( v1 ) VALUES ( 'testtest' ) ,( 'v0' ) ,( 'x' ) ,( 'testtest' ) ,( 'x' ) ; UPDATE v0 SET v1 = ( ( 2 = 10 AND v1 = 10 ) + v1 + julianday ( * ) ) ; SELECT * FROM v0 NATURAL JOIN v0 NATURAL JOIN v0 ORDER BY randomblob ( v1 + v1 ) DESC ; 

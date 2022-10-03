@@ -1,1 +1,0 @@
-SELECT zeroblob ( 3 ) UNION SELECT NULL ; SELECT * FROM zipfile AS REVENUE INDEXED BY v4 , v2 WHERE v6 = v5 AND v3 = 12 ; 

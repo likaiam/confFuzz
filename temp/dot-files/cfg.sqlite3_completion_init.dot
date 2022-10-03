@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_completion_init' function" {
-	label="CFG for 'sqlite3_completion_init' function";
-
-	Node0x5602761e8380 [shape=record,label="{shell.c:3634:}"];
-}

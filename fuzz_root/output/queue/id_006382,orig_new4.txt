@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 INTEGER ) ; INSERT INTO v0 ( v1 ) VALUES ( 'x' ) ,( 'v0' ) ,( 'x' ) ,( 'BUILDING' ) ,( 'v1' ) ; UPDATE v0 SET v1 = printf ( 'v1' , changes () ) ; SELECT DISTINCT * FROM v0 , v0 AS PROMO_REVENUE NATURAL JOIN v0 ; SELECT * FROM v0 NATURAL JOIN v0 ORDER BY sum ( - - v1 IS NOT NULL ) OVER( ORDER BY v1 DESC , v1 ) DESC ; 

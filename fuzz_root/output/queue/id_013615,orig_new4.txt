@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 AS( v3 + julianday ( v1 , 10 , v2 NOT LIKE v2 ) ) , v2 , v3 ) ; REINDEX v0 ; CREATE TABLE v4 ( v5 INTEGER PRIMARY KEY , v6 INT ) ; INSERT INTO v4 ( v5 ) VALUES ( 0 ) ,( 10 ) ; SELECT * FROM v4 RIGHT OUTER JOIN v0 ON v2 = v1 WHERE v3 IS NULL < v3 AND v3 = 1 ; 

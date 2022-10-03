@@ -1,5 +1,0 @@
-digraph "CFG for 'yy_find_reduce_action' function" {
-	label="CFG for 'yy_find_reduce_action' function";
-
-	Node0x55c0fa416e20 [shape=record,label="{sqlite3.c:165764:}"];
-}

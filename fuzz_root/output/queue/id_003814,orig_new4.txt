@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v3 , v2 ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 2 ) ; UPDATE v0 SET v1 = 3.100000 MATCH - datetime ( v2 , v3 ) ; 

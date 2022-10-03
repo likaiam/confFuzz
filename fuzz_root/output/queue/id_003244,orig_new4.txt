@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v1 , v2 ) ; INSERT INTO v0 ( v3 ) VALUES ( 1 ) ,( 0 ) ; DELETE FROM v0 WHERE v3 IN ( 10 , 2 ) AND v2 > 2 AND v2 < 'v0' AND v1 = 9223372036854775807 AND v3 = 10 AND v3 = 3 AND v2 = 1 ; 

@@ -1,1 +1,0 @@
-CREATE VIEW v0 ( v1 ) AS SELECT DISTINCT ( SELECT DISTINCT 'v1' , 1 , 10 AS myname , 3.100000 ) LIMIT 1 OFFSET 0 ; SELECT DISTINCT ( SELECT DISTINCT 'bbbbbbbbaaaaaaaaaaaaaaaaaaaabbbbbbbbaaaaaaaaaaaaaaaaaaaa' , 9223372036854775808 , - 2 , 1.100000 ) LIMIT 10 OFFSET 8 ; 

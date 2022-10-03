@@ -1,5 +1,0 @@
-digraph "CFG for 'btreeParseCell' function" {
-	label="CFG for 'btreeParseCell' function";
-
-	Node0x55c0f5986660 [shape=record,label="{sqlite3.c:68107:}"];
-}

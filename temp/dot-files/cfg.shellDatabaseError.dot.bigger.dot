@@ -1,5 +1,0 @@
-digraph "CFG for 'shellDatabaseError' function" {
-	label="CFG for 'shellDatabaseError' function";
-
-	Node0x560277364120 [shape=record,label="{shell.c:16982:}"];
-}

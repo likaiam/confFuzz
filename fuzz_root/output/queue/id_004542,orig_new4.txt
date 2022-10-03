@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 VARCHAR(200) ) ; INSERT INTO v0 VALUES ( '1995-03-15' ) ,( 'X' ) ,( 'v0' ) ; CREATE TABLE v2 ( v4 , v3 ) ; CREATE INDEX v5 ON v0 ( v1 , v1 ) WHERE ( v1 = 1 AND ( v1 = 2000 OR v1 = 3 ) ) OR v1 = 'v0' ; SELECT * FROM v2 AS a JOIN v0 ON abs ( v1 ) WHERE v1 = v1 AND v1 = 3 ; 

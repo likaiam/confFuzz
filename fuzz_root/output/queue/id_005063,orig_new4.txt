@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v1 , v3 , v2 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10.100000 ) ,( 12 ) ; VACUUM ; UPDATE v0 SET v3 = v2 + v3 NOT LIKE printf ( 'x' , v3 ) WHERE v3 > 9 OR v1 > 10 AND NOT v1 ; DELETE FROM v0 WHERE v2 MATCH - 0.100000 ; 

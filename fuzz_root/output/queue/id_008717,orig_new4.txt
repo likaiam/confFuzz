@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 DOUBLE UNIQUE ON CONFLICT REPLACE , v2 INT PRIMARY KEY ON CONFLICT REPLACE ) ; INSERT INTO v0 ( v2 ) VALUES ( 'v0' ) ,( 'PROMO%%' ) ,( 0 ) ,( '%%BRASS' ) ,( 3 ) ,( 'x' ) ,( 'LG PACK' ) ,( 'v1' ) ; UPDATE v0 SET v1 = randomblob ( 10 ) ; SELECT v2 FROM v0 WHERE v2 IN ( 10 , 0 , 3 ) ORDER BY v1 DESC ; UPDATE v0 SET v2 = zeroblob ( 2000 ) ; 

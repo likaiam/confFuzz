@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 AS( * ) CHECK( v1 ) , v3 , v1 ) ; INSERT INTO v0 SELECT randomblob ( 10 ) , randomblob ( 2 ) ; UPDATE v0 SET v1 = ( SELECT 0 FROM v0 ) ; 

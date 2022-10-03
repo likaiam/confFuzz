@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3_load_extension' function" {
-	label="CFG for 'sqlite3_load_extension' function";
-
-	Node0x55c0f62db740 [shape=record,label="{sqlite3.c:130813:}"];
-}

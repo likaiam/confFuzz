@@ -1,5 +1,0 @@
-digraph "CFG for 'DbProfileHandler' function" {
-	label="CFG for 'DbProfileHandler' function";
-
-	Node0x55a735b0b320 [shape=record,label="{tclsqlite.c:736:}"];
-}

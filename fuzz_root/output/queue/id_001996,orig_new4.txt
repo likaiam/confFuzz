@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 CHECK( v1 NOT LIKE printf ( 'AIR' , changes () ) ) ) ; INSERT INTO v0 VALUES ( 'a' ) ,( 'X' ) ,( 'x' ) ; CREATE TABLE v2 ( v3 , v4 NOT NULL ) ; INSERT INTO v2 VALUES ( 'v0' , 10 ) ,( 'v0' , 0 ) ,( 'EUROPE' , 9223372036854775807 ) ,( 'v1' , 2 ) ; SELECT MIN ( v3 ) , v3 FROM v2 WHERE v4 ISNULL ; 

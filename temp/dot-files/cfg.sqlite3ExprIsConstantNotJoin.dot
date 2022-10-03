@@ -1,5 +1,0 @@
-digraph "CFG for 'sqlite3ExprIsConstantNotJoin' function" {
-	label="CFG for 'sqlite3ExprIsConstantNotJoin' function";
-
-	Node0x55c0f8b35840 [shape=record,label="{sqlite3.c:105850:}"];
-}

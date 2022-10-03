@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v2 , v3 , v5 , v1 , v4 ) ; INSERT INTO v0 ( v5 ) VALUES ( 10 ) ,( 10 ) ; UPDATE v0 SET v5 = ( SELECT 3 FROM v0 GROUP BY v5 ) ; 

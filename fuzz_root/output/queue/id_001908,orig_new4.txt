@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 ) ; INSERT INTO v0 VALUES ( 'v1' ) ,( 'BUILDING' ) ,( '29' ) ; CREATE TABLE v2 ( v3 , v4 ) ; INSERT INTO v2 VALUES ( 'v1' , 10 ) ,( 'Felix Fürstenberg' , 2 ) ,( '1995-03-15' , 10 ) ,( '1995-03-15' , 10 ) ; SELECT COUNT ( * ) FROM v0 AS a JOIN v0 ON NULL = v2 . v4 , v2 ; 

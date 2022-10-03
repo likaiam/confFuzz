@@ -1,1 +1,0 @@
-CREATE TABLE v0 ( v1 DOUBLE CHECK( v1 != substr ( v1 , 0 , 9223372036854775808 ) NOT LIKE max ( v1 , v1 ) ) ) ; INSERT INTO v0 ( v1 ) VALUES ( 'v1' ) ,( 'x' ) ,( 'v1' ) ,( 'v1' ) ,( 'SM BOX' ) ; UPDATE v0 SET v1 = zeroblob ( 0 ) ; SELECT typeof ( 9223372036854775807 ) , v1 , typeof ( v1 ) , v1 , 'testtest' FROM v0 ORDER BY v1 ; 

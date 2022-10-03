@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v1 INTEGER AS( ( 'v0' >= 10 IN ( 0.100000 , 10 , 10 ) ) = 10 + julianday ( 'v0' ) ) , v2 INT , v3 ) ; DELETE FROM v0 WHERE v2 IS NOT NULL OR abs ( v3 ) < 3 ; CREATE VIEW v4 AS SELECT min ( v3 , x ( * ) ) , v2 FROM v0 AS PROMO_REVENUE WHERE v1 < 10 ; ALTER TABLE v0 RENAME TO v14 ; SELECT v9 , v8 FROM v4 WHERE v10 IS NOT NULL ; 

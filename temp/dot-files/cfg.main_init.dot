@@ -1,5 +1,0 @@
-digraph "CFG for 'main_init' function" {
-	label="CFG for 'main_init' function";
-
-	Node0x560276d972c0 [shape=record,label="{shell.c:22886:}"];
-}

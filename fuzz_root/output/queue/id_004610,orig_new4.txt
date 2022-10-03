@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING fts4 ( v2 , v1 , v3 ) ; INSERT INTO v0 ( v1 ) VALUES ( 10 ) ,( 10 ) ; INSERT INTO v0 ( v3 ) VALUES ( 10.100000 ) ,( 127 ) ,( 2 ) ; DELETE FROM v0 WHERE v2 != lower ( ( SELECT sum ( v1 ) OVER( ORDER BY v3 ) AS xyz FROM v0 ) ) OR v2 = 'x' ; 

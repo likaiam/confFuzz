@@ -1,5 +1,0 @@
-digraph "CFG for 'statClearPage' function" {
-	label="CFG for 'statClearPage' function";
-
-	Node0x55c0f6f3a0c0 [shape=record,label="{sqlite3.c:211209:}"];
-}

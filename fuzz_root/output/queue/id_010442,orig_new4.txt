@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE v0 USING rtree ( v3 , v2 , v1 ) ; UPDATE v0 SET v2 = ( SELECT DISTINCT 1 FROM v0 , v0 , v0 , v0 , v0 ) ; UPDATE v0 SET v1 = ( SELECT DISTINCT 10 FROM v0 LEFT JOIN v0 , v0 , v0 ) ; 
