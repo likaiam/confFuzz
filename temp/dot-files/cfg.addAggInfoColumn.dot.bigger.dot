@@ -1,5 +1,0 @@
-digraph "CFG for 'addAggInfoColumn' function" {
-	label="CFG for 'addAggInfoColumn' function";
-
-	Node0x55c0f9c10550 [shape=record,label="{sqlite3.c:109699:}"];
-}

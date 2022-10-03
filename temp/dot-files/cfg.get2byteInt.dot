@@ -1,5 +1,0 @@
-digraph "CFG for 'get2byteInt' function" {
-	label="CFG for 'get2byteInt' function";
-
-	Node0x5602764ac7f0 [shape=record,label="{shell.c:16875:}"];
-}

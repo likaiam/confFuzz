@@ -1,5 +1,0 @@
-digraph "CFG for 'fsdirRowid' function" {
-	label="CFG for 'fsdirRowid' function";
-
-	Node0x56027689e6c0 [shape=record,label="{shell.c:2928:}"];
-}

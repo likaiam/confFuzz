@@ -1,5 +1,0 @@
-digraph "CFG for 'Action_sort' function" {
-	label="CFG for 'Action_sort' function";
-
-	Node0x562565717580 [shape=record,label="{lemon.c:534:}"];
-}

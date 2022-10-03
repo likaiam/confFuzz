@@ -1,5 +1,0 @@
-digraph "CFG for 'fts3auxRowidMethod' function" {
-	label="CFG for 'fts3auxRowidMethod' function";
-
-	Node0x55c0fac40750 [shape=record,label="{sqlite3.c:183040:}"];
-}

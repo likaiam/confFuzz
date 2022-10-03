@@ -1,5 +1,0 @@
-digraph "CFG for 'fsdirEof' function" {
-	label="CFG for 'fsdirEof' function";
-
-	Node0x56027688cf10 [shape=record,label="{shell.c:2938:}"];
-}

@@ -1,5 +1,0 @@
-digraph "CFG for 'fts3tokCloseMethod' function" {
-	label="CFG for 'fts3tokCloseMethod' function";
-
-	Node0x55c0fb3e5610 [shape=record,label="{sqlite3.c:186495:}"];
-}
