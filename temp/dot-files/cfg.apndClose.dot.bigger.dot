@@ -1,0 +1,5 @@
+digraph "CFG for 'apndClose' function" {
+	label="CFG for 'apndClose' function";
+
+	Node0x5602762c4ca0 [shape=record,label="{shell.c:3875:}"];
+}

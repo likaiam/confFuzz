@@ -1,0 +1,20 @@
+digraph "CFG for 'sqlite3_fileio_init' function" {
+	label="CFG for 'sqlite3_fileio_init' function";
+
+	Node0x5602762935e0 [shape=record,label="{shell.c:3110:}"];
+	Node0x5602762935e0 -> Node0x560276017620;
+	Node0x5602762935e0 -> Node0x56027629bbc0;
+	Node0x560276017620 [shape=record,label="{shell.c:3121:}"];
+	Node0x560276017620 -> Node0x56027629bbc0;
+	Node0x56027629bbc0 [shape=record,label="{shell.c:3125:}"];
+	Node0x56027629bbc0 -> Node0x560275ed0ce0;
+	Node0x56027629bbc0 -> Node0x56027629c3b0;
+	Node0x560275ed0ce0 [shape=record,label="{shell.c:3126:}"];
+	Node0x560275ed0ce0 -> Node0x56027629c3b0;
+	Node0x56027629c3b0 [shape=record,label="{shell.c:3129:}"];
+	Node0x56027629c3b0 -> Node0x560275ed0d30;
+	Node0x56027629c3b0 -> Node0x56027629ba70;
+	Node0x560275ed0d30 [shape=record,label="{shell.c:3130:}"];
+	Node0x560275ed0d30 -> Node0x56027629ba70;
+	Node0x56027629ba70 [shape=record,label="{shell.c:3132:}"];
+}

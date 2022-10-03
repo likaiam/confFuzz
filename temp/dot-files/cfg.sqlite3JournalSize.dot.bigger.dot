@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3JournalSize' function" {
+	label="CFG for 'sqlite3JournalSize' function";
+
+	Node0x55c0f7315ba0 [shape=record,label="{sqlite3.c:101154:}"];
+	Node0x55c0f7315ba0 -> Node0x55c0f7315f40;
+	Node0x55c0f7315ba0 -> Node0x55c0f73162b0;
+	Node0x55c0f7315f40 [shape=record,label="{sqlite3.c:101155:}"];
+	Node0x55c0f7315f40 -> Node0x55c0f72ec7d0;
+	Node0x55c0f73162b0 [shape=record,label="{sqlite3.c:101155:}"];
+	Node0x55c0f73162b0 -> Node0x55c0f72ec7d0;
+	Node0x55c0f72ec7d0 [shape=record,label="{sqlite3.c:101155:}"];
+}

@@ -1,0 +1,12 @@
+digraph "CFG for 'zipfileGetU32' function" {
+	label="CFG for 'zipfileGetU32' function";
+
+	Node0x56027672f820 [shape=record,label="{shell.c:7268:}"];
+	Node0x56027672f820 -> Node0x560276ae54f0;
+	Node0x56027672f820 -> Node0x560276ae6690;
+	Node0x560276ae54f0 [shape=record,label="{shell.c:7269:}"];
+	Node0x560276ae54f0 -> Node0x560276ae5b40;
+	Node0x560276ae6690 [shape=record,label="{shell.c:7270:}"];
+	Node0x560276ae6690 -> Node0x560276ae5b40;
+	Node0x560276ae5b40 [shape=record,label="{shell.c:7274:}"];
+}

@@ -1,0 +1,12 @@
+digraph "CFG for 'pager_write_changecounter' function" {
+	label="CFG for 'pager_write_changecounter' function";
+
+	Node0x55c0f737d5c0 [shape=record,label="{sqlite3.c:56882:}"];
+	Node0x55c0f737d5c0 -> Node0x55c0f738d0c0;
+	Node0x55c0f737d5c0 -> Node0x55c0f738d110;
+	Node0x55c0f738d0c0 [shape=record,label="{sqlite3.c:56884:}"];
+	Node0x55c0f738d0c0 -> Node0x55c0f5443fd0;
+	Node0x55c0f738d110 [shape=record,label="{sqlite3.c:56887:}"];
+	Node0x55c0f738d110 -> Node0x55c0f5443fd0;
+	Node0x55c0f5443fd0 [shape=record,label="{sqlite3.c:56895:}"];
+}

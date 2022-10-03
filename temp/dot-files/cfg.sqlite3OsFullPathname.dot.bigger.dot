@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3OsFullPathname' function" {
+	label="CFG for 'sqlite3OsFullPathname' function";
+
+	Node0x55c0f72b97e0 [shape=record,label="{sqlite3.c:24827:}"];
+}

@@ -1,0 +1,12 @@
+digraph "CFG for 'indexWhereClauseMightChange' function" {
+	label="CFG for 'indexWhereClauseMightChange' function";
+
+	Node0x55c0f9e83810 [shape=record,label="{sqlite3.c:145045:}"];
+	Node0x55c0f9e83810 -> Node0x55c0f9efa220;
+	Node0x55c0f9e83810 -> Node0x55c0f9efa270;
+	Node0x55c0f9efa220 [shape=record,label="{sqlite3.c:145049:}"];
+	Node0x55c0f9efa220 -> Node0x55c0f9ef6e30;
+	Node0x55c0f9efa270 [shape=record,label="{sqlite3.c:145050:}"];
+	Node0x55c0f9efa270 -> Node0x55c0f9ef6e30;
+	Node0x55c0f9ef6e30 [shape=record,label="{sqlite3.c:145052:}"];
+}

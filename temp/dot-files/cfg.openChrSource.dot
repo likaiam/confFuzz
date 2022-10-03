@@ -1,0 +1,23 @@
+digraph "CFG for 'openChrSource' function" {
+	label="CFG for 'openChrSource' function";
+
+	Node0x560277337bd0 [shape=record,label="{shell.c:615:}"];
+	Node0x560277337bd0 -> Node0x56027733c9e0;
+	Node0x560277337bd0 -> Node0x56027733ca30;
+	Node0x56027733c9e0 [shape=record,label="{shell.c:634:}"];
+	Node0x56027733c9e0 -> Node0x560277337de0;
+	Node0x56027733ca30 [shape=record,label="{shell.c:635:}"];
+	Node0x56027733ca30 -> Node0x56027733cef0;
+	Node0x56027733ca30 -> Node0x56027733d060;
+	Node0x56027733d060 [shape=record,label="{shell.c:635:}"];
+	Node0x56027733d060 -> Node0x56027733cef0;
+	Node0x56027733d060 -> Node0x56027733cfe0;
+	Node0x56027733cfe0 [shape=record,label="{shell.c:635:}"];
+	Node0x56027733cfe0 -> Node0x56027733cef0;
+	Node0x56027733cfe0 -> Node0x56027733cf90;
+	Node0x56027733cef0 [shape=record,label="{shell.c:636:}"];
+	Node0x56027733cef0 -> Node0x560277337de0;
+	Node0x56027733cf90 [shape=record,label="{shell.c:638:}"];
+	Node0x56027733cf90 -> Node0x560277337de0;
+	Node0x560277337de0 [shape=record,label="{shell.c:642:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3BitvecCreate' function" {
+	label="CFG for 'sqlite3BitvecCreate' function";
+
+	Node0x55c0f73875f0 [shape=record,label="{sqlite3.c:50714:}"];
+	Node0x55c0f73875f0 -> Node0x55c0f738baa0;
+	Node0x55c0f73875f0 -> Node0x55c0f738bdb0;
+	Node0x55c0f738baa0 [shape=record,label="{sqlite3.c:50719:}"];
+	Node0x55c0f738baa0 -> Node0x55c0f738bdb0;
+	Node0x55c0f738bdb0 [shape=record,label="{sqlite3.c:50721:}"];
+}

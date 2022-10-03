@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3DeleteIndexSamples' function" {
+	label="CFG for 'sqlite3DeleteIndexSamples' function";
+
+	Node0x55c0f83f5470 [shape=record,label="{sqlite3.c:113850:}"];
+}

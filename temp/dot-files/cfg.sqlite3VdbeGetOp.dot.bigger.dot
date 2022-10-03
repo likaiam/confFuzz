@@ -1,0 +1,17 @@
+digraph "CFG for 'sqlite3VdbeGetOp' function" {
+	label="CFG for 'sqlite3VdbeGetOp' function";
+
+	Node0x55c0f5ba5e10 [shape=record,label="{sqlite3.c:82147:}"];
+	Node0x55c0f5ba5e10 -> Node0x55c0f8a2ed80;
+	Node0x55c0f5ba5e10 -> Node0x55c0f8a2edd0;
+	Node0x55c0f8a2ed80 [shape=record,label="{sqlite3.c:82153:}"];
+	Node0x55c0f8a2ed80 -> Node0x55c0f8a2edd0;
+	Node0x55c0f8a2edd0 [shape=record,label="{sqlite3.c:82156:}"];
+	Node0x55c0f8a2edd0 -> Node0x55c0f8a30b00;
+	Node0x55c0f8a2edd0 -> Node0x55c0f8a30ba0;
+	Node0x55c0f8a30b00 [shape=record,label="{sqlite3.c:82157:}"];
+	Node0x55c0f8a30b00 -> Node0x55c0f8a2f7c0;
+	Node0x55c0f8a30ba0 [shape=record,label="{sqlite3.c:82159:}"];
+	Node0x55c0f8a30ba0 -> Node0x55c0f8a2f7c0;
+	Node0x55c0f8a2f7c0 [shape=record,label="{sqlite3.c:82161:}"];
+}

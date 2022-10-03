@@ -1,0 +1,17 @@
+digraph "CFG for 'fts3auxGrowStatArray' function" {
+	label="CFG for 'fts3auxGrowStatArray' function";
+
+	Node0x55c0fac36570 [shape=record,label="{sqlite3.c:182777:}"];
+	Node0x55c0fac36570 -> Node0x55c0fac3c6c0;
+	Node0x55c0fac36570 -> Node0x55c0fac39be0;
+	Node0x55c0fac3c6c0 [shape=record,label="{sqlite3.c:182779:}"];
+	Node0x55c0fac3c6c0 -> Node0x55c0fac3dbc0;
+	Node0x55c0fac3c6c0 -> Node0x55c0fac3dc10;
+	Node0x55c0fac3dbc0 [shape=record,label="{sqlite3.c:182783:}"];
+	Node0x55c0fac3dbc0 -> Node0x55c0fac3a0d0;
+	Node0x55c0fac3dc10 [shape=record,label="{sqlite3.c:182784:}"];
+	Node0x55c0fac3dc10 -> Node0x55c0fac39be0;
+	Node0x55c0fac39be0 [shape=record,label="{sqlite3.c:182790:}"];
+	Node0x55c0fac39be0 -> Node0x55c0fac3a0d0;
+	Node0x55c0fac3a0d0 [shape=record,label="{sqlite3.c:182791:}"];
+}

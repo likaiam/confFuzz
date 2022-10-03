@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3_zipfile_init' function" {
+	label="CFG for 'sqlite3_zipfile_init' function";
+
+	Node0x5602763efa60 [shape=record,label="{shell.c:8907:}"];
+}

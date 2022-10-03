@@ -1,0 +1,17 @@
+digraph "CFG for 'allocSpace' function" {
+	label="CFG for 'allocSpace' function";
+
+	Node0x55c0f862c140 [shape=record,label="{sqlite3.c:83011:}"];
+	Node0x55c0f862c140 -> Node0x55c0f862d5c0;
+	Node0x55c0f862c140 -> Node0x55c0f862d610;
+	Node0x55c0f862d5c0 [shape=record,label="{sqlite3.c:83017:}"];
+	Node0x55c0f862d5c0 -> Node0x55c0f862dad0;
+	Node0x55c0f862d5c0 -> Node0x55c0f862db70;
+	Node0x55c0f862dad0 [shape=record,label="{sqlite3.c:83019:}"];
+	Node0x55c0f862dad0 -> Node0x55c0f862db20;
+	Node0x55c0f862db70 [shape=record,label="{sqlite3.c:83022:}"];
+	Node0x55c0f862db70 -> Node0x55c0f862db20;
+	Node0x55c0f862db20 [shape=record,label="{sqlite3.c:83024:}"];
+	Node0x55c0f862db20 -> Node0x55c0f862d610;
+	Node0x55c0f862d610 [shape=record,label="{sqlite3.c:83026:}"];
+}

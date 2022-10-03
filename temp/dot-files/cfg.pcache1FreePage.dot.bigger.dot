@@ -1,0 +1,12 @@
+digraph "CFG for 'pcache1FreePage' function" {
+	label="CFG for 'pcache1FreePage' function";
+
+	Node0x55c0f57ec740 [shape=record,label="{sqlite3.c:52374:}"];
+	Node0x55c0f57ec740 -> Node0x55c0fa955cb0;
+	Node0x55c0f57ec740 -> Node0x55c0fa956b50;
+	Node0x55c0fa955cb0 [shape=record,label="{sqlite3.c:52380:}"];
+	Node0x55c0fa955cb0 -> Node0x55c0fa956b00;
+	Node0x55c0fa956b50 [shape=record,label="{sqlite3.c:52383:}"];
+	Node0x55c0fa956b50 -> Node0x55c0fa956b00;
+	Node0x55c0fa956b00 [shape=record,label="{sqlite3.c:52388:}"];
+}

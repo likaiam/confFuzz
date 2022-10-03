@@ -1,0 +1,17 @@
+digraph "CFG for 'sqlite3VtabUnlockList' function" {
+	label="CFG for 'sqlite3VtabUnlockList' function";
+
+	Node0x55c0f838f6f0 [shape=record,label="{sqlite3.c:147306:}"];
+	Node0x55c0f838f6f0 -> Node0x55c0f83a3920;
+	Node0x55c0f838f6f0 -> Node0x55c0f83a4230;
+	Node0x55c0f83a3920 [shape=record,label="{sqlite3.c:147313:}"];
+	Node0x55c0f83a3920 -> Node0x55c0f83a5040;
+	Node0x55c0f83a5040 [shape=record,label="{sqlite3.c:147316:}"];
+	Node0x55c0f83a5040 -> Node0x55c0f83a4ff0;
+	Node0x55c0f83a4ff0 [shape=record,label="{sqlite3.c:147319:}"];
+	Node0x55c0f83a4ff0 -> Node0x55c0f83a5040;
+	Node0x55c0f83a4ff0 -> Node0x55c0f83a4fa0;
+	Node0x55c0f83a4fa0 [shape=record,label="{sqlite3.c:147320:}"];
+	Node0x55c0f83a4fa0 -> Node0x55c0f83a4230;
+	Node0x55c0f83a4230 [shape=record,label="{sqlite3.c:147321:}"];
+}

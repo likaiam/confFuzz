@@ -1,0 +1,26 @@
+digraph "CFG for 'apndIsAppendvfsDatabase' function" {
+	label="CFG for 'apndIsAppendvfsDatabase' function";
+
+	Node0x56027691b1d0 [shape=record,label="{shell.c:4114:}"];
+	Node0x56027691b1d0 -> Node0x56027691e220;
+	Node0x56027691b1d0 -> Node0x56027691e270;
+	Node0x56027691e220 [shape=record,label="{shell.c:4123:}"];
+	Node0x56027691e220 -> Node0x56027691ef60;
+	Node0x56027691e220 -> Node0x56027691ee10;
+	Node0x56027691ef60 [shape=record,label="{shell.c:4125:}"];
+	Node0x56027691ef60 -> Node0x56027691eee0;
+	Node0x56027691ef60 -> Node0x56027691ee10;
+	Node0x56027691eee0 [shape=record,label="{shell.c:4126:}"];
+	Node0x56027691eee0 -> Node0x56027691ee60;
+	Node0x56027691eee0 -> Node0x56027691ee10;
+	Node0x56027691ee60 [shape=record,label="{shell.c:4127:}"];
+	Node0x56027691ee60 -> Node0x56027691edc0;
+	Node0x56027691ee60 -> Node0x56027691ee10;
+	Node0x56027691edc0 [shape=record,label="{shell.c:4129:}"];
+	Node0x56027691edc0 -> Node0x560276287cb0;
+	Node0x56027691ee10 [shape=record,label="{shell.c:4131:}"];
+	Node0x56027691ee10 -> Node0x56027691e270;
+	Node0x56027691e270 [shape=record,label="{shell.c:4132:}"];
+	Node0x56027691e270 -> Node0x560276287cb0;
+	Node0x560276287cb0 [shape=record,label="{shell.c:4133:}"];
+}

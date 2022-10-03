@@ -1,0 +1,41 @@
+digraph "CFG for 'termIsEquivalence' function" {
+	label="CFG for 'termIsEquivalence' function";
+
+	Node0x55c0f95d0010 [shape=record,label="{sqlite3.c:152809:}"];
+	Node0x55c0f95d0010 -> Node0x55c0f95d2f70;
+	Node0x55c0f95d0010 -> Node0x55c0f95d2f20;
+	Node0x55c0f95d2f20 [shape=record,label="{sqlite3.c:152812:}"];
+	Node0x55c0f95d2f20 -> Node0x55c0f95d0190;
+	Node0x55c0f95d2f70 [shape=record,label="{sqlite3.c:152813:}"];
+	Node0x55c0f95d2f70 -> Node0x55c0f95d3760;
+	Node0x55c0f95d2f70 -> Node0x55c0f95d3710;
+	Node0x55c0f95d3760 [shape=record,label="{sqlite3.c:152813:}"];
+	Node0x55c0f95d3760 -> Node0x55c0f95d36c0;
+	Node0x55c0f95d3760 -> Node0x55c0f95d3710;
+	Node0x55c0f95d36c0 [shape=record,label="{sqlite3.c:152813:}"];
+	Node0x55c0f95d36c0 -> Node0x55c0f95d0190;
+	Node0x55c0f95d3710 [shape=record,label="{sqlite3.c:152814:}"];
+	Node0x55c0f95d3710 -> Node0x55c0f95d4230;
+	Node0x55c0f95d3710 -> Node0x55c0f95d4280;
+	Node0x55c0f95d4230 [shape=record,label="{sqlite3.c:152814:}"];
+	Node0x55c0f95d4230 -> Node0x55c0f95d0190;
+	Node0x55c0f95d4280 [shape=record,label="{sqlite3.c:152815:}"];
+	Node0x55c0f95d4280 -> Node0x55c0f95d5090;
+	Node0x55c0f95d4280 -> Node0x55c0f95d5040;
+	Node0x55c0f95d5090 [shape=record,label="{sqlite3.c:152818:}"];
+	Node0x55c0f95d5090 -> Node0x55c0f95d5510;
+	Node0x55c0f95d5090 -> Node0x55c0f95d4ff0;
+	Node0x55c0f95d5510 [shape=record,label="{sqlite3.c:152818:}"];
+	Node0x55c0f95d5510 -> Node0x55c0f95d5040;
+	Node0x55c0f95d5510 -> Node0x55c0f95d4ff0;
+	Node0x55c0f95d4ff0 [shape=record,label="{sqlite3.c:152820:}"];
+	Node0x55c0f95d4ff0 -> Node0x55c0f95d0190;
+	Node0x55c0f95d5040 [shape=record,label="{sqlite3.c:152822:}"];
+	Node0x55c0f95d5040 -> Node0x55c0f95d6010;
+	Node0x55c0f95d5040 -> Node0x55c0f95d6060;
+	Node0x55c0f95d6010 [shape=record,label="{sqlite3.c:152823:}"];
+	Node0x55c0f95d6010 -> Node0x55c0f95d0190;
+	Node0x55c0f95d6060 [shape=record,label="{sqlite3.c:152824:}"];
+	Node0x55c0f95d6060 -> Node0x55c0f95d0190;
+	Node0x55c0f95d0190 [shape=record,label="{sqlite3.c:152825:}"];
+}

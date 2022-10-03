@@ -1,0 +1,5 @@
+digraph "CFG for 'simpleDestroy' function" {
+	label="CFG for 'simpleDestroy' function";
+
+	Node0x55c0fac4d090 [shape=record,label="{sqlite3.c:186060:}"];
+}

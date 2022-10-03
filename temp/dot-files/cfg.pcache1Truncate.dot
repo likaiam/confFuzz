@@ -1,0 +1,10 @@
+digraph "CFG for 'pcache1Truncate' function" {
+	label="CFG for 'pcache1Truncate' function";
+
+	Node0x55c0fa97ef90 [shape=record,label="{sqlite3.c:53058:}"];
+	Node0x55c0fa97ef90 -> Node0x55c0fa985180;
+	Node0x55c0fa97ef90 -> Node0x55c0fa9851d0;
+	Node0x55c0fa985180 [shape=record,label="{sqlite3.c:53062:}"];
+	Node0x55c0fa985180 -> Node0x55c0fa9851d0;
+	Node0x55c0fa9851d0 [shape=record,label="{sqlite3.c:53066:}"];
+}

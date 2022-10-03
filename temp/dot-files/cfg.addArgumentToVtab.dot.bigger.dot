@@ -1,0 +1,13 @@
+digraph "CFG for 'addArgumentToVtab' function" {
+	label="CFG for 'addArgumentToVtab' function";
+
+	Node0x55c0fa3cf100 [shape=record,label="{sqlite3.c:147430:}"];
+	Node0x55c0fa3cf100 -> Node0x55c0fa3e28a0;
+	Node0x55c0fa3cf100 -> Node0x55c0fa3e2590;
+	Node0x55c0fa3e28a0 [shape=record,label="{sqlite3.c:147431:}"];
+	Node0x55c0fa3e28a0 -> Node0x55c0fa3e2bc0;
+	Node0x55c0fa3e28a0 -> Node0x55c0fa3e2590;
+	Node0x55c0fa3e2bc0 [shape=record,label="{sqlite3.c:147432:}"];
+	Node0x55c0fa3e2bc0 -> Node0x55c0fa3e2590;
+	Node0x55c0fa3e2590 [shape=record,label="{sqlite3.c:147437:}"];
+}

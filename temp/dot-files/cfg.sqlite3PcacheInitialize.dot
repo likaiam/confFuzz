@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3PcacheInitialize' function" {
+	label="CFG for 'sqlite3PcacheInitialize' function";
+
+	Node0x55c0fa9090f0 [shape=record,label="{sqlite3.c:51276:}"];
+	Node0x55c0fa9090f0 -> Node0x55c0fa909300;
+	Node0x55c0fa9090f0 -> Node0x55c0fa909350;
+	Node0x55c0fa909300 [shape=record,label="{sqlite3.c:51280:}"];
+	Node0x55c0fa909300 -> Node0x55c0fa909350;
+	Node0x55c0fa909350 [shape=record,label="{sqlite3.c:51283:}"];
+}

@@ -1,0 +1,19 @@
+digraph "CFG for 'print_box_row_separator' function" {
+	label="CFG for 'print_box_row_separator' function";
+
+	Node0x5602774265a0 [shape=record,label="{shell.c:14262:}"];
+	Node0x5602774265a0 -> Node0x56027742b1d0;
+	Node0x5602774265a0 -> Node0x56027742b220;
+	Node0x56027742b1d0 [shape=record,label="{shell.c:14270:}"];
+	Node0x56027742b1d0 -> Node0x56027742c090;
+	Node0x56027742c090 [shape=record,label="{shell.c:14272:}"];
+	Node0x56027742c090 -> Node0x56027742c800;
+	Node0x56027742c090 -> Node0x5602764ba230;
+	Node0x56027742c800 [shape=record,label="{shell.c:14273:}"];
+	Node0x56027742c800 -> Node0x56027742c770;
+	Node0x56027742c770 [shape=record,label="{shell.c:14272:}"];
+	Node0x56027742c770 -> Node0x56027742c090;
+	Node0x5602764ba230 [shape=record,label="{shell.c:14276:}"];
+	Node0x5602764ba230 -> Node0x56027742b220;
+	Node0x56027742b220 [shape=record,label="{shell.c:14278:}"];
+}

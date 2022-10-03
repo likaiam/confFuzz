@@ -1,0 +1,26 @@
+digraph "CFG for 'sqlite3BitvecDestroy' function" {
+	label="CFG for 'sqlite3BitvecDestroy' function";
+
+	Node0x55c0f7515cf0 [shape=record,label="{sqlite3.c:50876:}"];
+	Node0x55c0f7515cf0 -> Node0x55c0f75167a0;
+	Node0x55c0f7515cf0 -> Node0x55c0f75167f0;
+	Node0x55c0f75167a0 [shape=record,label="{sqlite3.c:50877:}"];
+	Node0x55c0f75167a0 -> Node0x55c0f56f5c80;
+	Node0x55c0f75167f0 [shape=record,label="{sqlite3.c:50878:}"];
+	Node0x55c0f75167f0 -> Node0x55c0f7516b10;
+	Node0x55c0f75167f0 -> Node0x55c0f751ee30;
+	Node0x55c0f7516b10 [shape=record,label="{sqlite3.c:50879:}"];
+	Node0x55c0f7516b10 -> Node0x55c0f7520330;
+	Node0x55c0f7520330 [shape=record,label="{sqlite3.c:50880:}"];
+	Node0x55c0f7520330 -> Node0x55c0f7520550;
+	Node0x55c0f7520330 -> Node0x55c0f7520180;
+	Node0x55c0f7520550 [shape=record,label="{sqlite3.c:50881:}"];
+	Node0x55c0f7520550 -> Node0x55c0f75204c0;
+	Node0x55c0f75204c0 [shape=record,label="{sqlite3.c:50880:}"];
+	Node0x55c0f75204c0 -> Node0x55c0f7520330;
+	Node0x55c0f7520180 [shape=record,label="{sqlite3.c:50883:}"];
+	Node0x55c0f7520180 -> Node0x55c0f751ee30;
+	Node0x55c0f751ee30 [shape=record,label="{sqlite3.c:50884:}"];
+	Node0x55c0f751ee30 -> Node0x55c0f56f5c80;
+	Node0x55c0f56f5c80 [shape=record,label="{sqlite3.c:50885:}"];
+}

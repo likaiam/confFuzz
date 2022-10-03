@@ -1,0 +1,22 @@
+digraph "CFG for 'recomputeColumnsUsedExpr' function" {
+	label="CFG for 'recomputeColumnsUsedExpr' function";
+
+	Node0x55c0f93e9ea0 [shape=record,label="{sqlite3.c:139364:}"];
+	Node0x55c0f93e9ea0 -> Node0x55c0f93eb210;
+	Node0x55c0f93e9ea0 -> Node0x55c0f93eb260;
+	Node0x55c0f93eb210 [shape=record,label="{sqlite3.c:139366:}"];
+	Node0x55c0f93eb210 -> Node0x55c0f93e8b50;
+	Node0x55c0f93eb260 [shape=record,label="{sqlite3.c:139367:}"];
+	Node0x55c0f93eb260 -> Node0x55c0f93ebba0;
+	Node0x55c0f93eb260 -> Node0x55c0f93ebbf0;
+	Node0x55c0f93ebba0 [shape=record,label="{sqlite3.c:139368:}"];
+	Node0x55c0f93ebba0 -> Node0x55c0f93e8b50;
+	Node0x55c0f93ebbf0 [shape=record,label="{sqlite3.c:139369:}"];
+	Node0x55c0f93ebbf0 -> Node0x55c0f93ec3e0;
+	Node0x55c0f93ebbf0 -> Node0x55c0f93ec430;
+	Node0x55c0f93ec3e0 [shape=record,label="{sqlite3.c:139369:}"];
+	Node0x55c0f93ec3e0 -> Node0x55c0f93e8b50;
+	Node0x55c0f93ec430 [shape=record,label="{sqlite3.c:139370:}"];
+	Node0x55c0f93ec430 -> Node0x55c0f93e8b50;
+	Node0x55c0f93e8b50 [shape=record,label="{sqlite3.c:139372:}"];
+}

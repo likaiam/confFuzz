@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3_wal_autocheckpoint' function" {
+	label="CFG for 'sqlite3_wal_autocheckpoint' function";
+
+	Node0x55c0f6a55450 [shape=record,label="{sqlite3.c:172659:}"];
+	Node0x55c0f6a55450 -> Node0x55c0f6a533b0;
+	Node0x55c0f6a55450 -> Node0x55c0f6a53450;
+	Node0x55c0f6a533b0 [shape=record,label="{sqlite3.c:172668:}"];
+	Node0x55c0f6a533b0 -> Node0x55c0f6a53400;
+	Node0x55c0f6a53450 [shape=record,label="{sqlite3.c:172670:}"];
+	Node0x55c0f6a53450 -> Node0x55c0f6a53400;
+	Node0x55c0f6a53400 [shape=record,label="{sqlite3.c:172673:}"];
+}

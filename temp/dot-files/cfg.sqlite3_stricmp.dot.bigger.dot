@@ -1,0 +1,19 @@
+digraph "CFG for 'sqlite3_stricmp' function" {
+	label="CFG for 'sqlite3_stricmp' function";
+
+	Node0x55c0f52e02e0 [shape=record,label="{sqlite3.c:33537:}"];
+	Node0x55c0f52e02e0 -> Node0x55c0f52df120;
+	Node0x55c0f52e02e0 -> Node0x55c0f52df1c0;
+	Node0x55c0f52df120 [shape=record,label="{sqlite3.c:33539:}"];
+	Node0x55c0f52df120 -> Node0x55c0f52e0510;
+	Node0x55c0f52df1c0 [shape=record,label="{sqlite3.c:33540:}"];
+	Node0x55c0f52df1c0 -> Node0x55c0f52df630;
+	Node0x55c0f52df1c0 -> Node0x55c0f52df680;
+	Node0x55c0f52df630 [shape=record,label="{sqlite3.c:33541:}"];
+	Node0x55c0f52df630 -> Node0x55c0f52e0510;
+	Node0x55c0f52df680 [shape=record,label="{%13}"];
+	Node0x55c0f52df680 -> Node0x55c0f52df170;
+	Node0x55c0f52df170 [shape=record,label="{sqlite3.c:33543:}"];
+	Node0x55c0f52df170 -> Node0x55c0f52e0510;
+	Node0x55c0f52e0510 [shape=record,label="{sqlite3.c:33544:}"];
+}

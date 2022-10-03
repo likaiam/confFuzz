@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3BtreeConnectionCount' function" {
+	label="CFG for 'sqlite3BtreeConnectionCount' function";
+
+	Node0x55c0f72a09b0 [shape=record,label="{sqlite3.c:77890:}"];
+}

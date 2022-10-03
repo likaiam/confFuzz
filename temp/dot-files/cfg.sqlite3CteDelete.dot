@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3CteDelete' function" {
+	label="CFG for 'sqlite3CteDelete' function";
+
+	Node0x55c0f61910c0 [shape=record,label="{sqlite3.c:120673:}"];
+}

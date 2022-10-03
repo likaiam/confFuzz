@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3_collation_needed16' function" {
+	label="CFG for 'sqlite3_collation_needed16' function";
+
+	Node0x55c0f6aa8e20 [shape=record,label="{sqlite3.c:173934:}"];
+}

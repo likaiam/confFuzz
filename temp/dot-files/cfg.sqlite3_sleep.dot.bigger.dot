@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3_sleep' function" {
+	label="CFG for 'sqlite3_sleep' function";
+
+	Node0x55c0f6aae7f0 [shape=record,label="{sqlite3.c:174157:}"];
+	Node0x55c0f6aae7f0 -> Node0x55c0f6ac0fe0;
+	Node0x55c0f6aae7f0 -> Node0x55c0f6aaf030;
+	Node0x55c0f6ac0fe0 [shape=record,label="{sqlite3.c:174161:}"];
+	Node0x55c0f6ac0fe0 -> Node0x55c0f6ac1050;
+	Node0x55c0f6aaf030 [shape=record,label="{sqlite3.c:174166:}"];
+	Node0x55c0f6aaf030 -> Node0x55c0f6ac1050;
+	Node0x55c0f6ac1050 [shape=record,label="{sqlite3.c:174168:}"];
+}

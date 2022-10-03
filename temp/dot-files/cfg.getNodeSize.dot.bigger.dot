@@ -1,0 +1,36 @@
+digraph "CFG for 'getNodeSize' function" {
+	label="CFG for 'getNodeSize' function";
+
+	Node0x55c0fb480090 [shape=record,label="{sqlite3.c:201381:}"];
+	Node0x55c0fb480090 -> Node0x55c0f8864810;
+	Node0x55c0fb480090 -> Node0x55c0f88648b0;
+	Node0x55c0f8864810 [shape=record,label="{sqlite3.c:201389:}"];
+	Node0x55c0f8864810 -> Node0x55c0f6e963d0;
+	Node0x55c0f8864810 -> Node0x55c0f8865c90;
+	Node0x55c0f6e963d0 [shape=record,label="{sqlite3.c:201393:}"];
+	Node0x55c0f6e963d0 -> Node0x55c0f88662c0;
+	Node0x55c0f6e963d0 -> Node0x55c0f8866310;
+	Node0x55c0f88662c0 [shape=record,label="{sqlite3.c:201395:}"];
+	Node0x55c0f88662c0 -> Node0x55c0f8866310;
+	Node0x55c0f8866310 [shape=record,label="{sqlite3.c:201397:}"];
+	Node0x55c0f8866310 -> Node0x55c0f8865990;
+	Node0x55c0f8865c90 [shape=record,label="{sqlite3.c:201398:}"];
+	Node0x55c0f8865c90 -> Node0x55c0f8865990;
+	Node0x55c0f8865990 [shape=record,label="{sqlite3.c:201400:}"];
+	Node0x55c0f8865990 -> Node0x55c0f8864860;
+	Node0x55c0f88648b0 [shape=record,label="{sqlite3.c:201403:}"];
+	Node0x55c0f88648b0 -> Node0x55c0f8868520;
+	Node0x55c0f88648b0 -> Node0x55c0f88685c0;
+	Node0x55c0f8868520 [shape=record,label="{sqlite3.c:201407:}"];
+	Node0x55c0f8868520 -> Node0x55c0f8868570;
+	Node0x55c0f88685c0 [shape=record,label="{sqlite3.c:201408:}"];
+	Node0x55c0f88685c0 -> Node0x55c0f8868e50;
+	Node0x55c0f88685c0 -> Node0x55c0f8868ea0;
+	Node0x55c0f8868e50 [shape=record,label="{sqlite3.c:201409:}"];
+	Node0x55c0f8868e50 -> Node0x55c0f8868ea0;
+	Node0x55c0f8868ea0 [shape=record,label="{%75}"];
+	Node0x55c0f8868ea0 -> Node0x55c0f8868570;
+	Node0x55c0f8868570 [shape=record,label="{%76}"];
+	Node0x55c0f8868570 -> Node0x55c0f8864860;
+	Node0x55c0f8864860 [shape=record,label="{sqlite3.c:201416:}"];
+}

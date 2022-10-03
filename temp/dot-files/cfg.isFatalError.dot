@@ -1,0 +1,13 @@
+digraph "CFG for 'isFatalError' function" {
+	label="CFG for 'isFatalError' function";
+
+	Node0x55c0f76dd920 [shape=record,label="{sqlite3.c:78114:}"];
+	Node0x55c0f76dd920 -> Node0x55c0f76dd8b0;
+	Node0x55c0f76dd920 -> Node0x55c0f76deb30;
+	Node0x55c0f76dd8b0 [shape=record,label="{sqlite3.c:78115:}"];
+	Node0x55c0f76dd8b0 -> Node0x55c0f76de670;
+	Node0x55c0f76dd8b0 -> Node0x55c0f76deb30;
+	Node0x55c0f76de670 [shape=record,label="{sqlite3.c:78115:}"];
+	Node0x55c0f76de670 -> Node0x55c0f76deb30;
+	Node0x55c0f76deb30 [shape=record,label="{sqlite3.c:78115:}"];
+}

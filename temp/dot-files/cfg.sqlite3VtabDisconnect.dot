@@ -1,0 +1,19 @@
+digraph "CFG for 'sqlite3VtabDisconnect' function" {
+	label="CFG for 'sqlite3VtabDisconnect' function";
+
+	Node0x55c0fa9acfd0 [shape=record,label="{sqlite3.c:147268:}"];
+	Node0x55c0fa9acfd0 -> Node0x55c0fa9b3b80;
+	Node0x55c0fa9b3b80 [shape=record,label="{sqlite3.c:147275:}"];
+	Node0x55c0fa9b3b80 -> Node0x55c0fa9b3d30;
+	Node0x55c0fa9b3b80 -> Node0x55c0fa9b3790;
+	Node0x55c0fa9b3d30 [shape=record,label="{sqlite3.c:147276:}"];
+	Node0x55c0fa9b3d30 -> Node0x55c0fa9b4110;
+	Node0x55c0fa9b3d30 -> Node0x55c0fa9b4160;
+	Node0x55c0fa9b4110 [shape=record,label="{sqlite3.c:147277:}"];
+	Node0x55c0fa9b4110 -> Node0x55c0fa9b3790;
+	Node0x55c0fa9b4160 [shape=record,label="{sqlite3.c:147282:}"];
+	Node0x55c0fa9b4160 -> Node0x55c0fa9b3ca0;
+	Node0x55c0fa9b3ca0 [shape=record,label="{sqlite3.c:147275:}"];
+	Node0x55c0fa9b3ca0 -> Node0x55c0fa9b3b80;
+	Node0x55c0fa9b3790 [shape=record,label="{sqlite3.c:147283:}"];
+}

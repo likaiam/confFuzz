@@ -1,0 +1,15 @@
+digraph "CFG for 'ceilingFunc' function" {
+	label="CFG for 'ceilingFunc' function";
+
+	Node0x55c0fa6022c0 [shape=record,label="{sqlite3.c:124306:}"];
+	Node0x55c0fa6022c0 -> Node0x55c0fa603e80;
+	Node0x55c0fa6022c0 -> Node0x55c0fa604260;
+	Node0x55c0fa6022c0 -> Node0x55c0fa6047f0;
+	Node0x55c0fa604260 [shape=record,label="{sqlite3.c:124313:}"];
+	Node0x55c0fa604260 -> Node0x55c0fa6020d0;
+	Node0x55c0fa6047f0 [shape=record,label="{sqlite3.c:124317:}"];
+	Node0x55c0fa6047f0 -> Node0x55c0fa6020d0;
+	Node0x55c0fa603e80 [shape=record,label="{sqlite3.c:124322:}"];
+	Node0x55c0fa603e80 -> Node0x55c0fa6020d0;
+	Node0x55c0fa6020d0 [shape=record,label="{sqlite3.c:124325:}"];
+}

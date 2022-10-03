@@ -1,0 +1,27 @@
+digraph "CFG for 'walIndexClose' function" {
+	label="CFG for 'walIndexClose' function";
+
+	Node0x55c0f7410d30 [shape=record,label="{sqlite3.c:63035:}"];
+	Node0x55c0f7410d30 -> Node0x55c0f742b660;
+	Node0x55c0f7410d30 -> Node0x55c0f742b860;
+	Node0x55c0f742b860 [shape=record,label="{sqlite3.c:63036:}"];
+	Node0x55c0f742b860 -> Node0x55c0f742b660;
+	Node0x55c0f742b860 -> Node0x55c0f742b810;
+	Node0x55c0f742b660 [shape=record,label="{sqlite3.c:63037:}"];
+	Node0x55c0f742b660 -> Node0x55c0f742d140;
+	Node0x55c0f742d140 [shape=record,label="{sqlite3.c:63038:}"];
+	Node0x55c0f742d140 -> Node0x55c0f742d360;
+	Node0x55c0f742d140 -> Node0x55c0f742cf90;
+	Node0x55c0f742d360 [shape=record,label="{sqlite3.c:63039:}"];
+	Node0x55c0f742d360 -> Node0x55c0f742d2d0;
+	Node0x55c0f742d2d0 [shape=record,label="{sqlite3.c:63038:}"];
+	Node0x55c0f742d2d0 -> Node0x55c0f742d140;
+	Node0x55c0f742cf90 [shape=record,label="{sqlite3.c:63042:}"];
+	Node0x55c0f742cf90 -> Node0x55c0f742b810;
+	Node0x55c0f742b810 [shape=record,label="{sqlite3.c:63043:}"];
+	Node0x55c0f742b810 -> Node0x55c0f742e830;
+	Node0x55c0f742b810 -> Node0x55c0f742e880;
+	Node0x55c0f742e830 [shape=record,label="{sqlite3.c:63044:}"];
+	Node0x55c0f742e830 -> Node0x55c0f742e880;
+	Node0x55c0f742e880 [shape=record,label="{sqlite3.c:63046:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'nm_test_func' function" {
+	label="CFG for 'nm_test_func' function";
+
+	Node0x55900a991c10 [shape=record,label="{conftest.c:6:}"];
+}

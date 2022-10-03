@@ -1,0 +1,24 @@
+digraph "CFG for 'sqlite3IndexHasDuplicateRootPage' function" {
+	label="CFG for 'sqlite3IndexHasDuplicateRootPage' function";
+
+	Node0x55c0f83b29b0 [shape=record,label="{sqlite3.c:134469:}"];
+	Node0x55c0f83b29b0 -> Node0x55c0f83b8cf0;
+	Node0x55c0f83b8cf0 [shape=record,label="{sqlite3.c:134471:}"];
+	Node0x55c0f83b8cf0 -> Node0x55c0f83b9890;
+	Node0x55c0f83b8cf0 -> Node0x55c0f83b73e0;
+	Node0x55c0f83b9890 [shape=record,label="{sqlite3.c:134472:}"];
+	Node0x55c0f83b9890 -> Node0x55c0f83b9c70;
+	Node0x55c0f83b9890 -> Node0x55c0f83b9c20;
+	Node0x55c0f83b9c70 [shape=record,label="{sqlite3.c:134472:}"];
+	Node0x55c0f83b9c70 -> Node0x55c0f83b9bd0;
+	Node0x55c0f83b9c70 -> Node0x55c0f83b9c20;
+	Node0x55c0f83b9bd0 [shape=record,label="{sqlite3.c:134472:}"];
+	Node0x55c0f83b9bd0 -> Node0x55c0f83b6f80;
+	Node0x55c0f83b9c20 [shape=record,label="{sqlite3.c:134473:}"];
+	Node0x55c0f83b9c20 -> Node0x55c0f83b9800;
+	Node0x55c0f83b9800 [shape=record,label="{sqlite3.c:134471:}"];
+	Node0x55c0f83b9800 -> Node0x55c0f83b8cf0;
+	Node0x55c0f83b73e0 [shape=record,label="{sqlite3.c:134474:}"];
+	Node0x55c0f83b73e0 -> Node0x55c0f83b6f80;
+	Node0x55c0f83b6f80 [shape=record,label="{sqlite3.c:134475:}"];
+}

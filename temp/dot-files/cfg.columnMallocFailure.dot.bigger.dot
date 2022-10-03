@@ -1,0 +1,10 @@
+digraph "CFG for 'columnMallocFailure' function" {
+	label="CFG for 'columnMallocFailure' function";
+
+	Node0x55c0f85596c0 [shape=record,label="{sqlite3.c:87124:}"];
+	Node0x55c0f85596c0 -> Node0x55c0f855d3e0;
+	Node0x55c0f85596c0 -> Node0x55c0f855d430;
+	Node0x55c0f855d3e0 [shape=record,label="{sqlite3.c:87135:}"];
+	Node0x55c0f855d3e0 -> Node0x55c0f855d430;
+	Node0x55c0f855d430 [shape=record,label="{sqlite3.c:87138:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'rankValueFunc' function" {
+	label="CFG for 'rankValueFunc' function";
+
+	Node0x55c0fa6dec10 [shape=record,label="{sqlite3.c:160361:}"];
+	Node0x55c0fa6dec10 -> Node0x55c0fa6e0f50;
+	Node0x55c0fa6dec10 -> Node0x55c0fa6e1830;
+	Node0x55c0fa6e0f50 [shape=record,label="{sqlite3.c:160365:}"];
+	Node0x55c0fa6e0f50 -> Node0x55c0fa6e1830;
+	Node0x55c0fa6e1830 [shape=record,label="{sqlite3.c:160368:}"];
+}

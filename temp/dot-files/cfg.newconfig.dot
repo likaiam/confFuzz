@@ -1,0 +1,5 @@
+digraph "CFG for 'newconfig' function" {
+	label="CFG for 'newconfig' function";
+
+	Node0x562565256310 [shape=record,label="{lemon.c:1314:}"];
+}

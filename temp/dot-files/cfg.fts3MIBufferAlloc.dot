@@ -1,0 +1,29 @@
+digraph "CFG for 'fts3MIBufferAlloc' function" {
+	label="CFG for 'fts3MIBufferAlloc' function";
+
+	Node0x55c0fb345940 [shape=record,label="{sqlite3.c:192640:}"];
+	Node0x55c0fb345940 -> Node0x55c0fb34e300;
+	Node0x55c0fb345940 -> Node0x55c0fb34e3a0;
+	Node0x55c0fb34e300 [shape=record,label="{sqlite3.c:192645:}"];
+	Node0x55c0fb34e300 -> Node0x55c0fb34e350;
+	Node0x55c0fb34e3a0 [shape=record,label="{sqlite3.c:192649:}"];
+	Node0x55c0fb34e3a0 -> Node0x55c0f6d0f070;
+	Node0x55c0fb34e3a0 -> Node0x55c0fb34f950;
+	Node0x55c0f6d0f070 [shape=record,label="{sqlite3.c:192650:}"];
+	Node0x55c0f6d0f070 -> Node0x55c0fb34f790;
+	Node0x55c0fb34f950 [shape=record,label="{sqlite3.c:192654:}"];
+	Node0x55c0fb34f950 -> Node0x55c0fb350cd0;
+	Node0x55c0fb34f950 -> Node0x55c0fb350d20;
+	Node0x55c0fb350cd0 [shape=record,label="{sqlite3.c:192656:}"];
+	Node0x55c0fb350cd0 -> Node0x55c0fb351180;
+	Node0x55c0fb350cd0 -> Node0x55c0fb3511d0;
+	Node0x55c0fb351180 [shape=record,label="{sqlite3.c:192657:}"];
+	Node0x55c0fb351180 -> Node0x55c0fb3511d0;
+	Node0x55c0fb3511d0 [shape=record,label="{sqlite3.c:192658:}"];
+	Node0x55c0fb3511d0 -> Node0x55c0fb350d20;
+	Node0x55c0fb350d20 [shape=record,label="{%59}"];
+	Node0x55c0fb350d20 -> Node0x55c0fb34f790;
+	Node0x55c0fb34f790 [shape=record,label="{%60}"];
+	Node0x55c0fb34f790 -> Node0x55c0fb34e350;
+	Node0x55c0fb34e350 [shape=record,label="{sqlite3.c:192661:}"];
+}

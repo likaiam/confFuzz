@@ -1,0 +1,5 @@
+digraph "CFG for 'yy_accept' function" {
+	label="CFG for 'yy_accept' function";
+
+	Node0x55c0fa420c60 [shape=record,label="{sqlite3.c:168295:}"];
+}

@@ -1,0 +1,15 @@
+digraph "CFG for 'fts3DeleteSegment' function" {
+	label="CFG for 'fts3DeleteSegment' function";
+
+	Node0x55c0fb0ae300 [shape=record,label="{sqlite3.c:189188:}"];
+	Node0x55c0fb0ae300 -> Node0x55c0fb0b52b0;
+	Node0x55c0fb0ae300 -> Node0x55c0fb0b5d20;
+	Node0x55c0fb0b52b0 [shape=record,label="{sqlite3.c:189193:}"];
+	Node0x55c0fb0b52b0 -> Node0x55c0fb0b6750;
+	Node0x55c0fb0b52b0 -> Node0x55c0fb0b67a0;
+	Node0x55c0fb0b6750 [shape=record,label="{sqlite3.c:189196:}"];
+	Node0x55c0fb0b6750 -> Node0x55c0fb0b67a0;
+	Node0x55c0fb0b67a0 [shape=record,label="{sqlite3.c:189201:}"];
+	Node0x55c0fb0b67a0 -> Node0x55c0fb0b5d20;
+	Node0x55c0fb0b5d20 [shape=record,label="{sqlite3.c:189202:}"];
+}

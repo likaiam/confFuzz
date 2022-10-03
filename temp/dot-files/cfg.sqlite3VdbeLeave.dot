@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3VdbeLeave' function" {
+	label="CFG for 'sqlite3VdbeLeave' function";
+
+	Node0x55c0f7a60470 [shape=record,label="{sqlite3.c:82543:}"];
+	Node0x55c0f7a60470 -> Node0x55c0f7a621c0;
+	Node0x55c0f7a60470 -> Node0x55c0f7a61d40;
+	Node0x55c0f7a621c0 [shape=record,label="{sqlite3.c:82544:}"];
+	Node0x55c0f7a621c0 -> Node0x55c0f7a605f0;
+	Node0x55c0f7a61d40 [shape=record,label="{sqlite3.c:82545:}"];
+	Node0x55c0f7a61d40 -> Node0x55c0f7a605f0;
+	Node0x55c0f7a605f0 [shape=record,label="{sqlite3.c:82546:}"];
+}

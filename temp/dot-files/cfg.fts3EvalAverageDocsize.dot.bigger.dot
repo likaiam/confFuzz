@@ -1,0 +1,37 @@
+digraph "CFG for 'fts3EvalAverageDocsize' function" {
+	label="CFG for 'fts3EvalAverageDocsize' function";
+
+	Node0x55c0faebba30 [shape=record,label="{sqlite3.c:181344:}"];
+	Node0x55c0faebba30 -> Node0x55c0faecda40;
+	Node0x55c0faebba30 -> Node0x55c0faecda90;
+	Node0x55c0faecda40 [shape=record,label="{sqlite3.c:181358:}"];
+	Node0x55c0faecda40 -> Node0x55c0f6c7ddf0;
+	Node0x55c0faecda40 -> Node0x55c0faecfce0;
+	Node0x55c0f6c7ddf0 [shape=record,label="{sqlite3.c:181366:}"];
+	Node0x55c0f6c7ddf0 -> Node0x55c0faebbbb0;
+	Node0x55c0faecfce0 [shape=record,label="{sqlite3.c:181367:}"];
+	Node0x55c0faecfce0 -> Node0x55c0faed0560;
+	Node0x55c0faecfce0 -> Node0x55c0faed05b0;
+	Node0x55c0faed0560 [shape=record,label="{sqlite3.c:181370:}"];
+	Node0x55c0faed0560 -> Node0x55c0f6b1a390;
+	Node0x55c0f6b1a390 [shape=record,label="{sqlite3.c:181372:}"];
+	Node0x55c0f6b1a390 -> Node0x55c0faed15f0;
+	Node0x55c0f6b1a390 -> Node0x55c0faed1140;
+	Node0x55c0faed15f0 [shape=record,label="{sqlite3.c:181373:}"];
+	Node0x55c0faed15f0 -> Node0x55c0f6b1a390;
+	Node0x55c0faed1140 [shape=record,label="{sqlite3.c:181375:}"];
+	Node0x55c0faed1140 -> Node0x55c0faed05b0;
+	Node0x55c0faed05b0 [shape=record,label="{sqlite3.c:181376:}"];
+	Node0x55c0faed05b0 -> Node0x55c0faed1d30;
+	Node0x55c0faed05b0 -> Node0x55c0faed1dd0;
+	Node0x55c0faed1dd0 [shape=record,label="{sqlite3.c:181376:}"];
+	Node0x55c0faed1dd0 -> Node0x55c0faed1d30;
+	Node0x55c0faed1dd0 -> Node0x55c0faed1d80;
+	Node0x55c0faed1d30 [shape=record,label="{sqlite3.c:181377:}"];
+	Node0x55c0faed1d30 -> Node0x55c0faebbbb0;
+	Node0x55c0faed1d80 [shape=record,label="{sqlite3.c:181381:}"];
+	Node0x55c0faed1d80 -> Node0x55c0faecda90;
+	Node0x55c0faecda90 [shape=record,label="{sqlite3.c:181387:}"];
+	Node0x55c0faecda90 -> Node0x55c0faebbbb0;
+	Node0x55c0faebbbb0 [shape=record,label="{sqlite3.c:181389:}"];
+}

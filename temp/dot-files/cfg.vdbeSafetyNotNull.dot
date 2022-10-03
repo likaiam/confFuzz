@@ -1,0 +1,12 @@
+digraph "CFG for 'vdbeSafetyNotNull' function" {
+	label="CFG for 'vdbeSafetyNotNull' function";
+
+	Node0x55c0f7b868a0 [shape=record,label="{sqlite3.c:85978:}"];
+	Node0x55c0f7b868a0 -> Node0x55c0f7b8b350;
+	Node0x55c0f7b868a0 -> Node0x55c0f7b886c0;
+	Node0x55c0f7b8b350 [shape=record,label="{sqlite3.c:85980:}"];
+	Node0x55c0f7b8b350 -> Node0x55c0f7b883f0;
+	Node0x55c0f7b886c0 [shape=record,label="{sqlite3.c:85983:}"];
+	Node0x55c0f7b886c0 -> Node0x55c0f7b883f0;
+	Node0x55c0f7b883f0 [shape=record,label="{sqlite3.c:85985:}"];
+}

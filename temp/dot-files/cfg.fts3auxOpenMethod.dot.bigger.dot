@@ -1,0 +1,12 @@
+digraph "CFG for 'fts3auxOpenMethod' function" {
+	label="CFG for 'fts3auxOpenMethod' function";
+
+	Node0x55c0faadde90 [shape=record,label="{sqlite3.c:182748:}"];
+	Node0x55c0faadde90 -> Node0x55c0faaf1d60;
+	Node0x55c0faadde90 -> Node0x55c0faaed750;
+	Node0x55c0faaed750 [shape=record,label="{sqlite3.c:182754:}"];
+	Node0x55c0faaed750 -> Node0x55c0faaeb5e0;
+	Node0x55c0faaf1d60 [shape=record,label="{sqlite3.c:182755:}"];
+	Node0x55c0faaf1d60 -> Node0x55c0faaeb5e0;
+	Node0x55c0faaeb5e0 [shape=record,label="{sqlite3.c:182759:}"];
+}

@@ -1,0 +1,17 @@
+digraph "CFG for 'resizeIndexObject' function" {
+	label="CFG for 'resizeIndexObject' function";
+
+	Node0x55c0f8df4960 [shape=record,label="{sqlite3.c:117249:}"];
+	Node0x55c0f8df4960 -> Node0x55c0f8df5e20;
+	Node0x55c0f8df4960 -> Node0x55c0f8df5e70;
+	Node0x55c0f8df5e20 [shape=record,label="{sqlite3.c:117252:}"];
+	Node0x55c0f8df5e20 -> Node0x55c0f8df4160;
+	Node0x55c0f8df5e70 [shape=record,label="{sqlite3.c:117254:}"];
+	Node0x55c0f8df5e70 -> Node0x55c0f8df6de0;
+	Node0x55c0f8df5e70 -> Node0x55c0f8df6e30;
+	Node0x55c0f8df6de0 [shape=record,label="{sqlite3.c:117256:}"];
+	Node0x55c0f8df6de0 -> Node0x55c0f8df4160;
+	Node0x55c0f8df6e30 [shape=record,label="{sqlite3.c:117257:}"];
+	Node0x55c0f8df6e30 -> Node0x55c0f8df4160;
+	Node0x55c0f8df4160 [shape=record,label="{sqlite3.c:117271:}"];
+}

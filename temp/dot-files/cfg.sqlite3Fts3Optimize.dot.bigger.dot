@@ -1,0 +1,25 @@
+digraph "CFG for 'sqlite3Fts3Optimize' function" {
+	label="CFG for 'sqlite3Fts3Optimize' function";
+
+	Node0x55c0fb324580 [shape=record,label="{sqlite3.c:192448:}"];
+	Node0x55c0fb324580 -> Node0x55c0fb328300;
+	Node0x55c0fb324580 -> Node0x55c0fb328480;
+	Node0x55c0fb328300 [shape=record,label="{sqlite3.c:192452:}"];
+	Node0x55c0fb328300 -> Node0x55c0fb328a60;
+	Node0x55c0fb328300 -> Node0x55c0fb328b50;
+	Node0x55c0fb328b50 [shape=record,label="{sqlite3.c:192453:}"];
+	Node0x55c0fb328b50 -> Node0x55c0fb328a60;
+	Node0x55c0fb328b50 -> Node0x55c0fb328b00;
+	Node0x55c0fb328a60 [shape=record,label="{sqlite3.c:192454:}"];
+	Node0x55c0fb328a60 -> Node0x55c0fb329840;
+	Node0x55c0fb328a60 -> Node0x55c0fb3299c0;
+	Node0x55c0fb329840 [shape=record,label="{sqlite3.c:192455:}"];
+	Node0x55c0fb329840 -> Node0x55c0fb3299c0;
+	Node0x55c0fb3299c0 [shape=record,label="{sqlite3.c:192456:}"];
+	Node0x55c0fb3299c0 -> Node0x55c0fb328ab0;
+	Node0x55c0fb328b00 [shape=record,label="{sqlite3.c:192457:}"];
+	Node0x55c0fb328b00 -> Node0x55c0fb328ab0;
+	Node0x55c0fb328ab0 [shape=record,label="{sqlite3.c:192460:}"];
+	Node0x55c0fb328ab0 -> Node0x55c0fb328480;
+	Node0x55c0fb328480 [shape=record,label="{sqlite3.c:192461:}"];
+}

@@ -1,0 +1,19 @@
+digraph "CFG for 'vdbeMergeEngineFree' function" {
+	label="CFG for 'vdbeMergeEngineFree' function";
+
+	Node0x55c0f7a2aa70 [shape=record,label="{sqlite3.c:98722:}"];
+	Node0x55c0f7a2aa70 -> Node0x55c0f7a2af50;
+	Node0x55c0f7a2aa70 -> Node0x55c0f7a2afa0;
+	Node0x55c0f7a2af50 [shape=record,label="{sqlite3.c:98725:}"];
+	Node0x55c0f7a2af50 -> Node0x55c0f7a2bd90;
+	Node0x55c0f7a2bd90 [shape=record,label="{sqlite3.c:98725:}"];
+	Node0x55c0f7a2bd90 -> Node0x55c0f7a2bed0;
+	Node0x55c0f7a2bd90 -> Node0x55c0f7a2a8c0;
+	Node0x55c0f7a2bed0 [shape=record,label="{sqlite3.c:98726:}"];
+	Node0x55c0f7a2bed0 -> Node0x55c0f7a2be40;
+	Node0x55c0f7a2be40 [shape=record,label="{sqlite3.c:98725:}"];
+	Node0x55c0f7a2be40 -> Node0x55c0f7a2bd90;
+	Node0x55c0f7a2a8c0 [shape=record,label="{sqlite3.c:98728:}"];
+	Node0x55c0f7a2a8c0 -> Node0x55c0f7a2afa0;
+	Node0x55c0f7a2afa0 [shape=record,label="{sqlite3.c:98729:}"];
+}

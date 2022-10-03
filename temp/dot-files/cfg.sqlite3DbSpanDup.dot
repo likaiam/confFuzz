@@ -1,0 +1,24 @@
+digraph "CFG for 'sqlite3DbSpanDup' function" {
+	label="CFG for 'sqlite3DbSpanDup' function";
+
+	Node0x55c0f90e3b90 [shape=record,label="{sqlite3.c:29494:}"];
+	Node0x55c0f90e3b90 -> Node0x55c0f90ed0f0;
+	Node0x55c0f90ed0f0 [shape=record,label="{sqlite3.c:29496:}"];
+	Node0x55c0f90ed0f0 -> Node0x55c0f90ed710;
+	Node0x55c0f90ed0f0 -> Node0x55c0f90ed1e0;
+	Node0x55c0f90ed710 [shape=record,label="{sqlite3.c:29496:}"];
+	Node0x55c0f90ed710 -> Node0x55c0f90ed0f0;
+	Node0x55c0f90ed1e0 [shape=record,label="{sqlite3.c:29497:}"];
+	Node0x55c0f90ed1e0 -> Node0x55c0f90edff0;
+	Node0x55c0f90edff0 [shape=record,label="{sqlite3.c:29498:}"];
+	Node0x55c0f90edff0 -> Node0x55c0f90ee220;
+	Node0x55c0f90edff0 -> Node0x55c0f90ee1d0;
+	Node0x55c0f90ee220 [shape=record,label="{sqlite3.c:29498:}"];
+	Node0x55c0f90ee220 -> Node0x55c0f90ee1d0;
+	Node0x55c0f90ee1d0 [shape=record,label="{sqlite3.c:29498:}"];
+	Node0x55c0f90ee1d0 -> Node0x55c0f90eec60;
+	Node0x55c0f90ee1d0 -> Node0x55c0f90ee150;
+	Node0x55c0f90eec60 [shape=record,label="{sqlite3.c:29498:}"];
+	Node0x55c0f90eec60 -> Node0x55c0f90edff0;
+	Node0x55c0f90ee150 [shape=record,label="{sqlite3.c:29499:}"];
+}

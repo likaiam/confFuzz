@@ -1,0 +1,31 @@
+digraph "CFG for 'Symbol_init' function" {
+	label="CFG for 'Symbol_init' function";
+
+	Node0x562565693320 [shape=record,label="{lemon.c:5454:}"];
+	Node0x562565693320 -> Node0x562565697c00;
+	Node0x562565693320 -> Node0x56256568d380;
+	Node0x562565697c00 [shape=record,label="{lemon.c:5454:}"];
+	Node0x562565697c00 -> Node0x562565697a00;
+	Node0x56256568d380 [shape=record,label="{lemon.c:5455:}"];
+	Node0x56256568d380 -> Node0x562565697cc0;
+	Node0x56256568d380 -> Node0x562565697a00;
+	Node0x562565697cc0 [shape=record,label="{lemon.c:5457:}"];
+	Node0x562565697cc0 -> Node0x56256569db60;
+	Node0x562565697cc0 -> Node0x56256569dc00;
+	Node0x56256569db60 [shape=record,label="{lemon.c:5461:}"];
+	Node0x56256569db60 -> Node0x56256569dbb0;
+	Node0x56256569dc00 [shape=record,label="{lemon.c:5464:}"];
+	Node0x56256569dc00 -> Node0x56256569f5e0;
+	Node0x56256569f5e0 [shape=record,label="{lemon.c:5466:}"];
+	Node0x56256569f5e0 -> Node0x56256569f800;
+	Node0x56256569f5e0 -> Node0x56256569f430;
+	Node0x56256569f800 [shape=record,label="{lemon.c:5466:}"];
+	Node0x56256569f800 -> Node0x56256569f770;
+	Node0x56256569f770 [shape=record,label="{lemon.c:5466:}"];
+	Node0x56256569f770 -> Node0x56256569f5e0;
+	Node0x56256569f430 [shape=record,label="{%38}"];
+	Node0x56256569f430 -> Node0x56256569dbb0;
+	Node0x56256569dbb0 [shape=record,label="{lemon.c:5468:}"];
+	Node0x56256569dbb0 -> Node0x562565697a00;
+	Node0x562565697a00 [shape=record,label="{lemon.c:5469:}"];
+}

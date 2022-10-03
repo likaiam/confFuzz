@@ -1,0 +1,41 @@
+digraph "CFG for 'pagerOpenSavepoint' function" {
+	label="CFG for 'pagerOpenSavepoint' function";
+
+	Node0x55c0f71e4970 [shape=record,label="{sqlite3.c:60690:}"];
+	Node0x55c0f71e4970 -> Node0x55c0f71ea060;
+	Node0x55c0f71e4970 -> Node0x55c0f71ea010;
+	Node0x55c0f71ea010 [shape=record,label="{sqlite3.c:60708:}"];
+	Node0x55c0f71ea010 -> Node0x55c0f58afb00;
+	Node0x55c0f71ea060 [shape=record,label="{sqlite3.c:60710:}"];
+	Node0x55c0f71ea060 -> Node0x55c0f71eb1e0;
+	Node0x55c0f71eb1e0 [shape=record,label="{sqlite3.c:60714:}"];
+	Node0x55c0f71eb1e0 -> Node0x55c0f71eb400;
+	Node0x55c0f71eb1e0 -> Node0x55c0f71eafc0;
+	Node0x55c0f71eb400 [shape=record,label="{sqlite3.c:60715:}"];
+	Node0x55c0f71eb400 -> Node0x55c0f71ebf00;
+	Node0x55c0f71eb400 -> Node0x55c0f71ebeb0;
+	Node0x55c0f71ebf00 [shape=record,label="{sqlite3.c:60716:}"];
+	Node0x55c0f71ebf00 -> Node0x55c0f71ebe10;
+	Node0x55c0f71ebf00 -> Node0x55c0f71ebeb0;
+	Node0x55c0f71ebe10 [shape=record,label="{sqlite3.c:60717:}"];
+	Node0x55c0f71ebe10 -> Node0x55c0f71ebe60;
+	Node0x55c0f71ebeb0 [shape=record,label="{sqlite3.c:60719:}"];
+	Node0x55c0f71ebeb0 -> Node0x55c0f71ebe60;
+	Node0x55c0f71ebe60 [shape=record,label="{sqlite3.c:60721:}"];
+	Node0x55c0f71ebe60 -> Node0x55c0f71ee840;
+	Node0x55c0f71ebe60 -> Node0x55c0f71ee7f0;
+	Node0x55c0f71ee7f0 [shape=record,label="{sqlite3.c:60725:}"];
+	Node0x55c0f71ee7f0 -> Node0x55c0f58afb00;
+	Node0x55c0f71ee840 [shape=record,label="{sqlite3.c:60727:}"];
+	Node0x55c0f71ee840 -> Node0x55c0f71ef080;
+	Node0x55c0f71ee840 -> Node0x55c0f71ef0d0;
+	Node0x55c0f71ef080 [shape=record,label="{sqlite3.c:60728:}"];
+	Node0x55c0f71ef080 -> Node0x55c0f71ef0d0;
+	Node0x55c0f71ef0d0 [shape=record,label="{sqlite3.c:60730:}"];
+	Node0x55c0f71ef0d0 -> Node0x55c0f71eb370;
+	Node0x55c0f71eb370 [shape=record,label="{sqlite3.c:60714:}"];
+	Node0x55c0f71eb370 -> Node0x55c0f71eb1e0;
+	Node0x55c0f71eafc0 [shape=record,label="{sqlite3.c:60734:}"];
+	Node0x55c0f71eafc0 -> Node0x55c0f58afb00;
+	Node0x55c0f58afb00 [shape=record,label="{sqlite3.c:60735:}"];
+}

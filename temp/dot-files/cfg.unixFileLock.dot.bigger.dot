@@ -1,0 +1,26 @@
+digraph "CFG for 'unixFileLock' function" {
+	label="CFG for 'unixFileLock' function";
+
+	Node0x55c0f70abc50 [shape=record,label="{sqlite3.c:37024:}"];
+	Node0x55c0f70abc50 -> Node0x55c0f70be0c0;
+	Node0x55c0f70abc50 -> Node0x55c0f70be160;
+	Node0x55c0f70be0c0 [shape=record,label="{sqlite3.c:37030:}"];
+	Node0x55c0f70be0c0 -> Node0x55c0f70be8f0;
+	Node0x55c0f70be0c0 -> Node0x55c0f70be990;
+	Node0x55c0f70be8f0 [shape=record,label="{sqlite3.c:37031:}"];
+	Node0x55c0f70be8f0 -> Node0x55c0f70c02e0;
+	Node0x55c0f70be8f0 -> Node0x55c0f70c0330;
+	Node0x55c0f70c02e0 [shape=record,label="{sqlite3.c:37038:}"];
+	Node0x55c0f70c02e0 -> Node0x55c0f70abdd0;
+	Node0x55c0f70c0330 [shape=record,label="{sqlite3.c:37039:}"];
+	Node0x55c0f70c0330 -> Node0x55c0f70be940;
+	Node0x55c0f70be990 [shape=record,label="{sqlite3.c:37042:}"];
+	Node0x55c0f70be990 -> Node0x55c0f70be940;
+	Node0x55c0f70be940 [shape=record,label="{sqlite3.c:37044:}"];
+	Node0x55c0f70be940 -> Node0x55c0f70be110;
+	Node0x55c0f70be160 [shape=record,label="{sqlite3.c:37045:}"];
+	Node0x55c0f70be160 -> Node0x55c0f70be110;
+	Node0x55c0f70be110 [shape=record,label="{sqlite3.c:37047:}"];
+	Node0x55c0f70be110 -> Node0x55c0f70abdd0;
+	Node0x55c0f70abdd0 [shape=record,label="{sqlite3.c:37048:}"];
+}

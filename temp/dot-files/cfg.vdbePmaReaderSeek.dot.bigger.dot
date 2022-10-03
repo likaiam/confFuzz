@@ -1,0 +1,48 @@
+digraph "CFG for 'vdbePmaReaderSeek' function" {
+	label="CFG for 'vdbePmaReaderSeek' function";
+
+	Node0x55c0f77f4f00 [shape=record,label="{sqlite3.c:98153:}"];
+	Node0x55c0f77f4f00 -> Node0x55c0f77ff7f0;
+	Node0x55c0f77f4f00 -> Node0x55c0f77ff840;
+	Node0x55c0f77ff7f0 [shape=record,label="{sqlite3.c:98162:}"];
+	Node0x55c0f77ff7f0 -> Node0x55c0f5e5f8b0;
+	Node0x55c0f77ff840 [shape=record,label="{sqlite3.c:98163:}"];
+	Node0x55c0f77ff840 -> Node0x55c0f77ffcf0;
+	Node0x55c0f77ff840 -> Node0x55c0f77ffd40;
+	Node0x55c0f77ffcf0 [shape=record,label="{sqlite3.c:98164:}"];
+	Node0x55c0f77ffcf0 -> Node0x55c0f77ffd40;
+	Node0x55c0f77ffd40 [shape=record,label="{sqlite3.c:98167:}"];
+	Node0x55c0f77ffd40 -> Node0x55c0f7802070;
+	Node0x55c0f77ffd40 -> Node0x55c0f7801c80;
+	Node0x55c0f7802070 [shape=record,label="{sqlite3.c:98172:}"];
+	Node0x55c0f7802070 -> Node0x55c0f5233a50;
+	Node0x55c0f7802070 -> Node0x55c0f7801c80;
+	Node0x55c0f5233a50 [shape=record,label="{sqlite3.c:98173:}"];
+	Node0x55c0f5233a50 -> Node0x55c0f7803220;
+	Node0x55c0f5233a50 -> Node0x55c0f7803270;
+	Node0x55c0f7803220 [shape=record,label="{sqlite3.c:98176:}"];
+	Node0x55c0f7803220 -> Node0x55c0f7803bd0;
+	Node0x55c0f7803220 -> Node0x55c0f7803c20;
+	Node0x55c0f7803bd0 [shape=record,label="{sqlite3.c:98177:}"];
+	Node0x55c0f7803bd0 -> Node0x55c0f7803c20;
+	Node0x55c0f7803c20 [shape=record,label="{sqlite3.c:98178:}"];
+	Node0x55c0f7803c20 -> Node0x55c0f7803270;
+	Node0x55c0f7803270 [shape=record,label="{sqlite3.c:98180:}"];
+	Node0x55c0f7803270 -> Node0x55c0f7804700;
+	Node0x55c0f7803270 -> Node0x55c0f78046b0;
+	Node0x55c0f7804700 [shape=record,label="{sqlite3.c:98180:}"];
+	Node0x55c0f7804700 -> Node0x55c0f7804660;
+	Node0x55c0f7804700 -> Node0x55c0f78046b0;
+	Node0x55c0f7804660 [shape=record,label="{sqlite3.c:98181:}"];
+	Node0x55c0f7804660 -> Node0x55c0f7805230;
+	Node0x55c0f7804660 -> Node0x55c0f7805280;
+	Node0x55c0f7805230 [shape=record,label="{sqlite3.c:98183:}"];
+	Node0x55c0f7805230 -> Node0x55c0f7805280;
+	Node0x55c0f7805280 [shape=record,label="{sqlite3.c:98186:}"];
+	Node0x55c0f7805280 -> Node0x55c0f78046b0;
+	Node0x55c0f78046b0 [shape=record,label="{sqlite3.c:98190:}"];
+	Node0x55c0f78046b0 -> Node0x55c0f7801c80;
+	Node0x55c0f7801c80 [shape=record,label="{sqlite3.c:98192:}"];
+	Node0x55c0f7801c80 -> Node0x55c0f5e5f8b0;
+	Node0x55c0f5e5f8b0 [shape=record,label="{sqlite3.c:98193:}"];
+}

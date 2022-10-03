@@ -1,0 +1,13 @@
+digraph "CFG for 'backupTruncateFile' function" {
+	label="CFG for 'backupTruncateFile' function";
+
+	Node0x55c0f7255930 [shape=record,label="{sqlite3.c:78192:}"];
+	Node0x55c0f7255930 -> Node0x55c0f787b850;
+	Node0x55c0f7255930 -> Node0x55c0f787b800;
+	Node0x55c0f787b850 [shape=record,label="{sqlite3.c:78195:}"];
+	Node0x55c0f787b850 -> Node0x55c0f787b7b0;
+	Node0x55c0f787b850 -> Node0x55c0f787b800;
+	Node0x55c0f787b7b0 [shape=record,label="{sqlite3.c:78196:}"];
+	Node0x55c0f787b7b0 -> Node0x55c0f787b800;
+	Node0x55c0f787b800 [shape=record,label="{sqlite3.c:78198:}"];
+}

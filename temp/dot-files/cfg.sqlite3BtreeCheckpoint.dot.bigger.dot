@@ -1,0 +1,17 @@
+digraph "CFG for 'sqlite3BtreeCheckpoint' function" {
+	label="CFG for 'sqlite3BtreeCheckpoint' function";
+
+	Node0x55c0faa04750 [shape=record,label="{sqlite3.c:77659:}"];
+	Node0x55c0faa04750 -> Node0x55c0faa0c460;
+	Node0x55c0faa04750 -> Node0x55c0faa0c4b0;
+	Node0x55c0faa0c460 [shape=record,label="{sqlite3.c:77662:}"];
+	Node0x55c0faa0c460 -> Node0x55c0faa0cf60;
+	Node0x55c0faa0c460 -> Node0x55c0faa0d000;
+	Node0x55c0faa0cf60 [shape=record,label="{sqlite3.c:77665:}"];
+	Node0x55c0faa0cf60 -> Node0x55c0faa0cfb0;
+	Node0x55c0faa0d000 [shape=record,label="{sqlite3.c:77667:}"];
+	Node0x55c0faa0d000 -> Node0x55c0faa0cfb0;
+	Node0x55c0faa0cfb0 [shape=record,label="{sqlite3.c:77669:}"];
+	Node0x55c0faa0cfb0 -> Node0x55c0faa0c4b0;
+	Node0x55c0faa0c4b0 [shape=record,label="{sqlite3.c:77671:}"];
+}

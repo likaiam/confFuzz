@@ -1,0 +1,25 @@
+digraph "CFG for 'rtreeCheckCount' function" {
+	label="CFG for 'rtreeCheckCount' function";
+
+	Node0x55c0fb441b20 [shape=record,label="{sqlite3.c:201950:}"];
+	Node0x55c0fb441b20 -> Node0x55c0fb4634d0;
+	Node0x55c0fb441b20 -> Node0x55c0fb463520;
+	Node0x55c0fb4634d0 [shape=record,label="{sqlite3.c:201952:}"];
+	Node0x55c0fb4634d0 -> Node0x55c0fb464440;
+	Node0x55c0fb4634d0 -> Node0x55c0fb4645c0;
+	Node0x55c0fb464440 [shape=record,label="{sqlite3.c:201957:}"];
+	Node0x55c0fb464440 -> Node0x55c0fb464900;
+	Node0x55c0fb464440 -> Node0x55c0fb464950;
+	Node0x55c0fb464900 [shape=record,label="{sqlite3.c:201958:}"];
+	Node0x55c0fb464900 -> Node0x55c0fb465300;
+	Node0x55c0fb464900 -> Node0x55c0fb465350;
+	Node0x55c0fb465300 [shape=record,label="{sqlite3.c:201960:}"];
+	Node0x55c0fb465300 -> Node0x55c0fb465350;
+	Node0x55c0fb465350 [shape=record,label="{sqlite3.c:201964:}"];
+	Node0x55c0fb465350 -> Node0x55c0fb464950;
+	Node0x55c0fb464950 [shape=record,label="{sqlite3.c:201965:}"];
+	Node0x55c0fb464950 -> Node0x55c0fb4645c0;
+	Node0x55c0fb4645c0 [shape=record,label="{sqlite3.c:201967:}"];
+	Node0x55c0fb4645c0 -> Node0x55c0fb463520;
+	Node0x55c0fb463520 [shape=record,label="{sqlite3.c:201968:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3VdbeFreeCursor' function" {
+	label="CFG for 'sqlite3VdbeFreeCursor' function";
+
+	Node0x55c0f80226a0 [shape=record,label="{sqlite3.c:83212:}"];
+	Node0x55c0f80226a0 -> Node0x55c0f8034a40;
+	Node0x55c0f80226a0 -> Node0x55c0f8034a90;
+	Node0x55c0f8034a40 [shape=record,label="{sqlite3.c:83213:}"];
+	Node0x55c0f8034a40 -> Node0x55c0f8034a90;
+	Node0x55c0f8034a90 [shape=record,label="{sqlite3.c:83214:}"];
+}

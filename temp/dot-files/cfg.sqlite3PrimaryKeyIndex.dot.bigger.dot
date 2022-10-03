@@ -1,0 +1,19 @@
+digraph "CFG for 'sqlite3PrimaryKeyIndex' function" {
+	label="CFG for 'sqlite3PrimaryKeyIndex' function";
+
+	Node0x55c0f794a650 [shape=record,label="{sqlite3.c:116153:}"];
+	Node0x55c0f794a650 -> Node0x55c0f794d580;
+	Node0x55c0f794d580 [shape=record,label="{sqlite3.c:116155:}"];
+	Node0x55c0f794d580 -> Node0x55c0f794d790;
+	Node0x55c0f794d580 -> Node0x55c0f794d740;
+	Node0x55c0f794d790 [shape=record,label="{sqlite3.c:116155:}"];
+	Node0x55c0f794d790 -> Node0x55c0f794d740;
+	Node0x55c0f794d740 [shape=record,label="{sqlite3.c:116155:}"];
+	Node0x55c0f794d740 -> Node0x55c0f794d6c0;
+	Node0x55c0f794d740 -> Node0x55c0f794aa80;
+	Node0x55c0f794d6c0 [shape=record,label="{sqlite3.c:116155:}"];
+	Node0x55c0f794d6c0 -> Node0x55c0f794d630;
+	Node0x55c0f794d630 [shape=record,label="{sqlite3.c:116155:}"];
+	Node0x55c0f794d630 -> Node0x55c0f794d580;
+	Node0x55c0f794aa80 [shape=record,label="{sqlite3.c:116156:}"];
+}

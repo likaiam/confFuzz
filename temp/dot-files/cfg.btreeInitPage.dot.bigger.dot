@@ -1,0 +1,22 @@
+digraph "CFG for 'btreeInitPage' function" {
+	label="CFG for 'btreeInitPage' function";
+
+	Node0x55c0f75f3890 [shape=record,label="{sqlite3.c:68886:}"];
+	Node0x55c0f75f3890 -> Node0x55c0f75f5910;
+	Node0x55c0f75f3890 -> Node0x55c0f75f5960;
+	Node0x55c0f75f5910 [shape=record,label="{sqlite3.c:68903:}"];
+	Node0x55c0f75f5910 -> Node0x55c0f75f4090;
+	Node0x55c0f75f5960 [shape=record,label="{sqlite3.c:68906:}"];
+	Node0x55c0f75f5960 -> Node0x55c0f59869d0;
+	Node0x55c0f75f5960 -> Node0x55c0f75f6100;
+	Node0x55c0f59869d0 [shape=record,label="{sqlite3.c:68917:}"];
+	Node0x55c0f59869d0 -> Node0x55c0f75f4090;
+	Node0x55c0f75f6100 [shape=record,label="{sqlite3.c:68927:}"];
+	Node0x55c0f75f6100 -> Node0x55c0f75fa6e0;
+	Node0x55c0f75f6100 -> Node0x55c0f75fa730;
+	Node0x55c0f75fa6e0 [shape=record,label="{sqlite3.c:68930:}"];
+	Node0x55c0f75fa6e0 -> Node0x55c0f75f4090;
+	Node0x55c0f75fa730 [shape=record,label="{sqlite3.c:68932:}"];
+	Node0x55c0f75fa730 -> Node0x55c0f75f4090;
+	Node0x55c0f75f4090 [shape=record,label="{sqlite3.c:68933:}"];
+}

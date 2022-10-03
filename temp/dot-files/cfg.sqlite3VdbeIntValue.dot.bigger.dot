@@ -1,0 +1,25 @@
+digraph "CFG for 'sqlite3VdbeIntValue' function" {
+	label="CFG for 'sqlite3VdbeIntValue' function";
+
+	Node0x55c0f7b10000 [shape=record,label="{sqlite3.c:79290:}"];
+	Node0x55c0f7b10000 -> Node0x55c0f7b13830;
+	Node0x55c0f7b10000 -> Node0x55c0f7b138d0;
+	Node0x55c0f7b13830 [shape=record,label="{sqlite3.c:79298:}"];
+	Node0x55c0f7b13830 -> Node0x55c0f7af04c0;
+	Node0x55c0f7b138d0 [shape=record,label="{sqlite3.c:79299:}"];
+	Node0x55c0f7b138d0 -> Node0x55c0f7b14150;
+	Node0x55c0f7b138d0 -> Node0x55c0f7b141f0;
+	Node0x55c0f7b14150 [shape=record,label="{sqlite3.c:79300:}"];
+	Node0x55c0f7b14150 -> Node0x55c0f7af04c0;
+	Node0x55c0f7b141f0 [shape=record,label="{sqlite3.c:79301:}"];
+	Node0x55c0f7b141f0 -> Node0x55c0f7b150e0;
+	Node0x55c0f7b141f0 -> Node0x55c0f7b15090;
+	Node0x55c0f7b150e0 [shape=record,label="{sqlite3.c:79301:}"];
+	Node0x55c0f7b150e0 -> Node0x55c0f5444f10;
+	Node0x55c0f7b150e0 -> Node0x55c0f7b15090;
+	Node0x55c0f5444f10 [shape=record,label="{sqlite3.c:79302:}"];
+	Node0x55c0f5444f10 -> Node0x55c0f7af04c0;
+	Node0x55c0f7b15090 [shape=record,label="{sqlite3.c:79304:}"];
+	Node0x55c0f7b15090 -> Node0x55c0f7af04c0;
+	Node0x55c0f7af04c0 [shape=record,label="{sqlite3.c:79306:}"];
+}

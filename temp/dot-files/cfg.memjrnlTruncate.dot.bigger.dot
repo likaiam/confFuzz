@@ -1,0 +1,36 @@
+digraph "CFG for 'memjrnlTruncate' function" {
+	label="CFG for 'memjrnlTruncate' function";
+
+	Node0x55c0f735d970 [shape=record,label="{sqlite3.c:100978:}"];
+	Node0x55c0f735d970 -> Node0x55c0f7370100;
+	Node0x55c0f735d970 -> Node0x55c0f7370150;
+	Node0x55c0f7370100 [shape=record,label="{sqlite3.c:100982:}"];
+	Node0x55c0f7370100 -> Node0x55c0f7370b60;
+	Node0x55c0f7370100 -> Node0x55c0f7370c00;
+	Node0x55c0f7370b60 [shape=record,label="{sqlite3.c:100984:}"];
+	Node0x55c0f7370b60 -> Node0x55c0f7370bb0;
+	Node0x55c0f7370c00 [shape=record,label="{sqlite3.c:100987:}"];
+	Node0x55c0f7370c00 -> Node0x55c0f7371f30;
+	Node0x55c0f7371f30 [shape=record,label="{sqlite3.c:100988:}"];
+	Node0x55c0f7371f30 -> Node0x55c0f7372220;
+	Node0x55c0f7371f30 -> Node0x55c0f73721d0;
+	Node0x55c0f7372220 [shape=record,label="{sqlite3.c:100988:}"];
+	Node0x55c0f7372220 -> Node0x55c0f73721d0;
+	Node0x55c0f73721d0 [shape=record,label="{sqlite3.c:100988:}"];
+	Node0x55c0f73721d0 -> Node0x55c0f7372150;
+	Node0x55c0f73721d0 -> Node0x55c0f7371bb0;
+	Node0x55c0f7372150 [shape=record,label="{sqlite3.c:100989:}"];
+	Node0x55c0f7372150 -> Node0x55c0f73720c0;
+	Node0x55c0f73720c0 [shape=record,label="{sqlite3.c:100988:}"];
+	Node0x55c0f73720c0 -> Node0x55c0f7371f30;
+	Node0x55c0f7371bb0 [shape=record,label="{sqlite3.c:100991:}"];
+	Node0x55c0f7371bb0 -> Node0x55c0f73732e0;
+	Node0x55c0f7371bb0 -> Node0x55c0f7373330;
+	Node0x55c0f73732e0 [shape=record,label="{sqlite3.c:100992:}"];
+	Node0x55c0f73732e0 -> Node0x55c0f7373330;
+	Node0x55c0f7373330 [shape=record,label="{%51}"];
+	Node0x55c0f7373330 -> Node0x55c0f7370bb0;
+	Node0x55c0f7370bb0 [shape=record,label="{sqlite3.c:100997:}"];
+	Node0x55c0f7370bb0 -> Node0x55c0f7370150;
+	Node0x55c0f7370150 [shape=record,label="{sqlite3.c:101002:}"];
+}

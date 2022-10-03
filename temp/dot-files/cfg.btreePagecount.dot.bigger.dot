@@ -1,0 +1,5 @@
+digraph "CFG for 'btreePagecount' function" {
+	label="CFG for 'btreePagecount' function";
+
+	Node0x55c0f5986c50 [shape=record,label="{sqlite3.c:69036:}"];
+}

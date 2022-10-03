@@ -1,0 +1,19 @@
+digraph "CFG for 'unixModeBit' function" {
+	label="CFG for 'unixModeBit' function";
+
+	Node0x55c0f70e0970 [shape=record,label="{sqlite3.c:39358:}"];
+	Node0x55c0f70e0970 -> Node0x55c0f70e9fa0;
+	Node0x55c0f70e0970 -> Node0x55c0f70ea040;
+	Node0x55c0f70e9fa0 [shape=record,label="{sqlite3.c:39360:}"];
+	Node0x55c0f70e9fa0 -> Node0x55c0f70e9ff0;
+	Node0x55c0f70ea040 [shape=record,label="{sqlite3.c:39361:}"];
+	Node0x55c0f70ea040 -> Node0x55c0f70eab60;
+	Node0x55c0f70ea040 -> Node0x55c0f70eac00;
+	Node0x55c0f70eab60 [shape=record,label="{sqlite3.c:39362:}"];
+	Node0x55c0f70eab60 -> Node0x55c0f70eabb0;
+	Node0x55c0f70eac00 [shape=record,label="{sqlite3.c:39364:}"];
+	Node0x55c0f70eac00 -> Node0x55c0f70eabb0;
+	Node0x55c0f70eabb0 [shape=record,label="{%39}"];
+	Node0x55c0f70eabb0 -> Node0x55c0f70e9ff0;
+	Node0x55c0f70e9ff0 [shape=record,label="{sqlite3.c:39366:}"];
+}

@@ -1,0 +1,12 @@
+digraph "CFG for 'seriesEof' function" {
+	label="CFG for 'seriesEof' function";
+
+	Node0x560276732790 [shape=record,label="{shell.c:5681:}"];
+	Node0x560276732790 -> Node0x5602769e3cf0;
+	Node0x560276732790 -> Node0x5602769e3e00;
+	Node0x5602769e3cf0 [shape=record,label="{shell.c:5684:}"];
+	Node0x5602769e3cf0 -> Node0x5602769e1ee0;
+	Node0x5602769e3e00 [shape=record,label="{shell.c:5686:}"];
+	Node0x5602769e3e00 -> Node0x5602769e1ee0;
+	Node0x5602769e1ee0 [shape=record,label="{shell.c:5688:}"];
+}

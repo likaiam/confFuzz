@@ -1,0 +1,31 @@
+digraph "CFG for 'jsonArrayCompute' function" {
+	label="CFG for 'jsonArrayCompute' function";
+
+	Node0x55c0f6e073b0 [shape=record,label="{sqlite3.c:196987:}"];
+	Node0x55c0f6e073b0 -> Node0x55c0fa8ecf90;
+	Node0x55c0f6e073b0 -> Node0x55c0fa8ed030;
+	Node0x55c0fa8ecf90 [shape=record,label="{sqlite3.c:196991:}"];
+	Node0x55c0fa8ecf90 -> Node0x55c0fa8ed7b0;
+	Node0x55c0fa8ecf90 -> Node0x55c0fa8ed850;
+	Node0x55c0fa8ed7b0 [shape=record,label="{sqlite3.c:196994:}"];
+	Node0x55c0fa8ed7b0 -> Node0x55c0fa8edcf0;
+	Node0x55c0fa8ed7b0 -> Node0x55c0fa8edd40;
+	Node0x55c0fa8edcf0 [shape=record,label="{sqlite3.c:196994:}"];
+	Node0x55c0fa8edcf0 -> Node0x55c0fa8edd40;
+	Node0x55c0fa8edd40 [shape=record,label="{sqlite3.c:196996:}"];
+	Node0x55c0fa8edd40 -> Node0x55c0fa8ed800;
+	Node0x55c0fa8ed850 [shape=record,label="{sqlite3.c:196996:}"];
+	Node0x55c0fa8ed850 -> Node0x55c0fa8ee550;
+	Node0x55c0fa8ed850 -> Node0x55c0fa8ee5f0;
+	Node0x55c0fa8ee550 [shape=record,label="{sqlite3.c:196997:}"];
+	Node0x55c0fa8ee550 -> Node0x55c0fa8ee5a0;
+	Node0x55c0fa8ee5f0 [shape=record,label="{sqlite3.c:197001:}"];
+	Node0x55c0fa8ee5f0 -> Node0x55c0fa8ee5a0;
+	Node0x55c0fa8ee5a0 [shape=record,label="{%55}"];
+	Node0x55c0fa8ee5a0 -> Node0x55c0fa8ed800;
+	Node0x55c0fa8ed800 [shape=record,label="{sqlite3.c:197004:}"];
+	Node0x55c0fa8ed800 -> Node0x55c0fa8ecfe0;
+	Node0x55c0fa8ed030 [shape=record,label="{sqlite3.c:197005:}"];
+	Node0x55c0fa8ed030 -> Node0x55c0fa8ecfe0;
+	Node0x55c0fa8ecfe0 [shape=record,label="{sqlite3.c:197007:}"];
+}

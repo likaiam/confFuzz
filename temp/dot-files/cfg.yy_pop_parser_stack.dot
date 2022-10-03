@@ -1,0 +1,5 @@
+digraph "CFG for 'yy_pop_parser_stack' function" {
+	label="CFG for 'yy_pop_parser_stack' function";
+
+	Node0x55c0f67f7920 [shape=record,label="{sqlite3.c:165600:}"];
+}

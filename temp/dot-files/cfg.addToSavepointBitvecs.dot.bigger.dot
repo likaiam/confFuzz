@@ -1,0 +1,19 @@
+digraph "CFG for 'addToSavepointBitvecs' function" {
+	label="CFG for 'addToSavepointBitvecs' function";
+
+	Node0x55c0f7378630 [shape=record,label="{sqlite3.c:55640:}"];
+	Node0x55c0f7378630 -> Node0x55c0f737ada0;
+	Node0x55c0f737ada0 [shape=record,label="{sqlite3.c:55644:}"];
+	Node0x55c0f737ada0 -> Node0x55c0f737af50;
+	Node0x55c0f737ada0 -> Node0x55c0f737abf0;
+	Node0x55c0f737af50 [shape=record,label="{sqlite3.c:55645:}"];
+	Node0x55c0f737af50 -> Node0x55c0f737bc20;
+	Node0x55c0f737af50 -> Node0x55c0f737bc70;
+	Node0x55c0f737bc20 [shape=record,label="{sqlite3.c:55647:}"];
+	Node0x55c0f737bc20 -> Node0x55c0f737bc70;
+	Node0x55c0f737bc70 [shape=record,label="{sqlite3.c:55651:}"];
+	Node0x55c0f737bc70 -> Node0x55c0f737aec0;
+	Node0x55c0f737aec0 [shape=record,label="{sqlite3.c:55644:}"];
+	Node0x55c0f737aec0 -> Node0x55c0f737ada0;
+	Node0x55c0f737abf0 [shape=record,label="{sqlite3.c:55652:}"];
+}

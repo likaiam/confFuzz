@@ -1,0 +1,14 @@
+digraph "CFG for 'zipfileClose' function" {
+	label="CFG for 'zipfileClose' function";
+
+	Node0x560276aad450 [shape=record,label="{shell.c:7180:}"];
+	Node0x560276aad450 -> Node0x560276ab1910;
+	Node0x560276ab1910 [shape=record,label="{shell.c:7187:}"];
+	Node0x560276ab1910 -> Node0x560276ab1db0;
+	Node0x560276ab1910 -> Node0x5602763a7440;
+	Node0x560276ab1db0 [shape=record,label="{shell.c:7187:}"];
+	Node0x560276ab1db0 -> Node0x560276ab1d20;
+	Node0x560276ab1d20 [shape=record,label="{shell.c:7187:}"];
+	Node0x560276ab1d20 -> Node0x560276ab1910;
+	Node0x5602763a7440 [shape=record,label="{shell.c:7188:}"];
+}

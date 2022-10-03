@@ -1,0 +1,19 @@
+digraph "CFG for 'downgradeAllSharedCacheTableLocks' function" {
+	label="CFG for 'downgradeAllSharedCacheTableLocks' function";
+
+	Node0x55c0f7887fe0 [shape=record,label="{sqlite3.c:67262:}"];
+	Node0x55c0f7887fe0 -> Node0x55c0f788bba0;
+	Node0x55c0f7887fe0 -> Node0x55c0f788c480;
+	Node0x55c0f788bba0 [shape=record,label="{sqlite3.c:67265:}"];
+	Node0x55c0f788bba0 -> Node0x55c0f788d6b0;
+	Node0x55c0f788d6b0 [shape=record,label="{sqlite3.c:67268:}"];
+	Node0x55c0f788d6b0 -> Node0x55c0f788d8d0;
+	Node0x55c0f788d6b0 -> Node0x55c0f788d330;
+	Node0x55c0f788d8d0 [shape=record,label="{sqlite3.c:67270:}"];
+	Node0x55c0f788d8d0 -> Node0x55c0f788d840;
+	Node0x55c0f788d840 [shape=record,label="{sqlite3.c:67268:}"];
+	Node0x55c0f788d840 -> Node0x55c0f788d6b0;
+	Node0x55c0f788d330 [shape=record,label="{sqlite3.c:67272:}"];
+	Node0x55c0f788d330 -> Node0x55c0f788c480;
+	Node0x55c0f788c480 [shape=record,label="{sqlite3.c:67273:}"];
+}

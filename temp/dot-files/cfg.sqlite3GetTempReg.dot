@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3GetTempReg' function" {
+	label="CFG for 'sqlite3GetTempReg' function";
+
+	Node0x55c0f8b1fd20 [shape=record,label="{sqlite3.c:109901:}"];
+	Node0x55c0f8b1fd20 -> Node0x55c0f8b23fd0;
+	Node0x55c0f8b1fd20 -> Node0x55c0f8b24020;
+	Node0x55c0f8b23fd0 [shape=record,label="{sqlite3.c:109903:}"];
+	Node0x55c0f8b23fd0 -> Node0x55c0f8b23dd0;
+	Node0x55c0f8b24020 [shape=record,label="{sqlite3.c:109905:}"];
+	Node0x55c0f8b24020 -> Node0x55c0f8b23dd0;
+	Node0x55c0f8b23dd0 [shape=record,label="{sqlite3.c:109906:}"];
+}

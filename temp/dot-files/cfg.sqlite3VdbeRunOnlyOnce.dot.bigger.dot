@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3VdbeRunOnlyOnce' function" {
+	label="CFG for 'sqlite3VdbeRunOnlyOnce' function";
+
+	Node0x55c0fa108a60 [shape=record,label="{sqlite3.c:81231:}"];
+}

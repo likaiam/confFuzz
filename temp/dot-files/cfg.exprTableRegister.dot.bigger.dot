@@ -1,0 +1,25 @@
+digraph "CFG for 'exprTableRegister' function" {
+	label="CFG for 'exprTableRegister' function";
+
+	Node0x55c0f9e13d70 [shape=record,label="{sqlite3.c:125135:}"];
+	Node0x55c0f9e13d70 -> Node0x55c0f7ab98e0;
+	Node0x55c0f9e13d70 -> Node0x55c0f7ab9930;
+	Node0x55c0f7ab98e0 [shape=record,label="{sqlite3.c:125147:}"];
+	Node0x55c0f7ab98e0 -> Node0x55c0f7ab9d60;
+	Node0x55c0f7ab98e0 -> Node0x55c0f7ab9d10;
+	Node0x55c0f7ab9d60 [shape=record,label="{sqlite3.c:125147:}"];
+	Node0x55c0f7ab9d60 -> Node0x55c0f7ab9c70;
+	Node0x55c0f7ab9d60 -> Node0x55c0f7ab9d10;
+	Node0x55c0f7ab9c70 [shape=record,label="{sqlite3.c:125148:}"];
+	Node0x55c0f7ab9c70 -> Node0x55c0f7abb950;
+	Node0x55c0f7ab9c70 -> Node0x55c0f7abb9a0;
+	Node0x55c0f7abb950 [shape=record,label="{sqlite3.c:125152:}"];
+	Node0x55c0f7abb950 -> Node0x55c0f7abb9a0;
+	Node0x55c0f7abb9a0 [shape=record,label="{sqlite3.c:125153:}"];
+	Node0x55c0f7abb9a0 -> Node0x55c0f7ab9cc0;
+	Node0x55c0f7ab9d10 [shape=record,label="{sqlite3.c:125155:}"];
+	Node0x55c0f7ab9d10 -> Node0x55c0f7ab9cc0;
+	Node0x55c0f7ab9cc0 [shape=record,label="{sqlite3.c:125158:}"];
+	Node0x55c0f7ab9cc0 -> Node0x55c0f7ab9930;
+	Node0x55c0f7ab9930 [shape=record,label="{sqlite3.c:125159:}"];
+}

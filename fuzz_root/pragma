@@ -1,0 +1,111 @@
+application_id = _int_
+auto_vacuum = 0
+auto_vacuum = NONE
+auto_vacuum = 1
+auto_vacuum = FULL
+auto_vacuum = 2
+auto_vacuum = INCREMENTAL
+
+automatic_index = _boolean_
+
+busy_timeout = _int_
+
+cache_size = _int_
+cache_size = _neg_int_
+
+cache_spill = _boolean_
+
+case_sensitive_like = _boolean_
+
+cell_size_check = _boolean_
+
+checkpoint_fullsync = _boolean_
+
+defer_foreign_keys = _boolean_
+
+encoding = 'UTF-8'
+encoding = 'UTF-16'
+encoding = 'UTF-16le'
+encoding = 'UTF-16be' 
+
+foreign_keys = _boolean_
+
+fullfsync = _boolean_
+
+integrity_check = _int_
+
+journal_mode = DELETE
+journal_mode = TRUNCATE
+journal_mode = PERSIST
+journal_mode = MEMORY
+journal_mode = WAL
+journal_mode = OFF
+
+journal_size_limit = _int_
+
+legacy_alter_table = _boolean_
+
+locking_mode = NORMAL
+locking_mode = EXCLUSIVE
+
+max_page_count = _int_
+
+mmap_size = _int_
+
+page_size = _int_
+
+hard_heap_limit = _int_
+soft_heap_limit = _int_
+
+wal_autocheckpoint = _int_
+
+analysis_limit = _int_
+
+query_only = _boolean_
+
+quick_check = _int_
+
+read_uncommitted = _boolean_
+
+recursive_triggers = _boolean_
+
+reverse_unordered_selects = _boolen_
+
+secure_delete = _boolean_
+secure_delete = FAST
+
+synchronous = 0
+synchronous = OFF
+synchronous = 1
+synchronous = NORMAL
+synchronous = 2
+synchronous = FULL
+synchronous = 3
+synchronous = EXTRA
+
+temp_store = 0
+temp_store = DEFAULT
+temp_store = 1
+temp_store = FILE
+temp_store = 2
+temp_store = MEMORY
+
+vdbe_addoptrace = _boolean_
+
+vdbe_debug = _boolean_
+
+vdbe_listing = _boolean_
+
+vdbe_trace = _boolean_
+
+
+
+
+
+
+
+
+
+
+
+

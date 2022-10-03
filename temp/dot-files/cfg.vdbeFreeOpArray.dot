@@ -1,0 +1,24 @@
+digraph "CFG for 'vdbeFreeOpArray' function" {
+	label="CFG for 'vdbeFreeOpArray' function";
+
+	Node0x55c0f79c6510 [shape=record,label="{sqlite3.c:81887:}"];
+	Node0x55c0f79c6510 -> Node0x55c0f79cc310;
+	Node0x55c0f79c6510 -> Node0x55c0f79cc360;
+	Node0x55c0f79cc310 [shape=record,label="{sqlite3.c:81890:}"];
+	Node0x55c0f79cc310 -> Node0x55c0f79ccdb0;
+	Node0x55c0f79ccdb0 [shape=record,label="{sqlite3.c:81892:}"];
+	Node0x55c0f79ccdb0 -> Node0x55c0f79ccf80;
+	Node0x55c0f79ccdb0 -> Node0x55c0f79ccfd0;
+	Node0x55c0f79ccf80 [shape=record,label="{sqlite3.c:81892:}"];
+	Node0x55c0f79ccf80 -> Node0x55c0f79ccfd0;
+	Node0x55c0f79ccfd0 [shape=record,label="{sqlite3.c:81894:}"];
+	Node0x55c0f79ccfd0 -> Node0x55c0f5ba59a0;
+	Node0x55c0f79ccfd0 -> Node0x55c0f79cdba0;
+	Node0x55c0f5ba59a0 [shape=record,label="{sqlite3.c:81896:}"];
+	Node0x55c0f5ba59a0 -> Node0x55c0f79ccd30;
+	Node0x55c0f79cdba0 [shape=record,label="{sqlite3.c:81897:}"];
+	Node0x55c0f79cdba0 -> Node0x55c0f79ccdb0;
+	Node0x55c0f79ccd30 [shape=record,label="{sqlite3.c:81899:}"];
+	Node0x55c0f79ccd30 -> Node0x55c0f79cc360;
+	Node0x55c0f79cc360 [shape=record,label="{sqlite3.c:81901:}"];
+}

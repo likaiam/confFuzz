@@ -1,0 +1,5 @@
+digraph "CFG for 'fsdirClose' function" {
+	label="CFG for 'fsdirClose' function";
+
+	Node0x560276878e40 [shape=record,label="{shell.c:2776:}"];
+}

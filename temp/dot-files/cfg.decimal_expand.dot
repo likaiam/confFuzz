@@ -1,0 +1,33 @@
+digraph "CFG for 'decimal_expand' function" {
+	label="CFG for 'decimal_expand' function";
+
+	Node0x560276988380 [shape=record,label="{shell.c:4845:}"];
+	Node0x560276988380 -> Node0x56027699c320;
+	Node0x560276988380 -> Node0x56027699c370;
+	Node0x56027699c320 [shape=record,label="{shell.c:4848:}"];
+	Node0x56027699c320 -> Node0x56027699ff10;
+	Node0x56027699c370 [shape=record,label="{shell.c:4849:}"];
+	Node0x56027699c370 -> Node0x56027699d1d0;
+	Node0x56027699c370 -> Node0x56027699d180;
+	Node0x56027699d1d0 [shape=record,label="{shell.c:4851:}"];
+	Node0x56027699d1d0 -> Node0x56027699d130;
+	Node0x56027699d1d0 -> Node0x56027699d180;
+	Node0x56027699d130 [shape=record,label="{shell.c:4851:}"];
+	Node0x56027699d130 -> Node0x56027699ff10;
+	Node0x56027699d180 [shape=record,label="{shell.c:4852:}"];
+	Node0x56027699d180 -> Node0x56027699df80;
+	Node0x56027699d180 -> Node0x56027699dfd0;
+	Node0x56027699df80 [shape=record,label="{shell.c:4854:}"];
+	Node0x56027699df80 -> Node0x56027699ff10;
+	Node0x56027699dfd0 [shape=record,label="{shell.c:4857:}"];
+	Node0x56027699dfd0 -> Node0x56027699e880;
+	Node0x56027699dfd0 -> Node0x56027699e8d0;
+	Node0x56027699e880 [shape=record,label="{shell.c:4858:}"];
+	Node0x56027699e880 -> Node0x56027699e8d0;
+	Node0x56027699e8d0 [shape=record,label="{shell.c:4862:}"];
+	Node0x56027699e8d0 -> Node0x56027699fec0;
+	Node0x56027699e8d0 -> Node0x56027699ff10;
+	Node0x56027699fec0 [shape=record,label="{shell.c:4863:}"];
+	Node0x56027699fec0 -> Node0x56027699ff10;
+	Node0x56027699ff10 [shape=record,label="{shell.c:4867:}"];
+}

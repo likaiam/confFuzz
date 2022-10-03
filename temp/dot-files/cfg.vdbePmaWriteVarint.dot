@@ -1,0 +1,5 @@
+digraph "CFG for 'vdbePmaWriteVarint' function" {
+	label="CFG for 'vdbePmaWriteVarint' function";
+
+	Node0x55c0f77beb90 [shape=record,label="{sqlite3.c:99049:}"];
+}

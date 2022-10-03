@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3Fts3PorterTokenizerModule' function" {
+	label="CFG for 'sqlite3Fts3PorterTokenizerModule' function";
+
+	Node0x55c0fac562e0 [shape=record,label="{sqlite3.c:185427:}"];
+}

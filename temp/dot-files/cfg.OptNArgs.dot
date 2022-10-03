@@ -1,0 +1,41 @@
+digraph "CFG for 'OptNArgs' function" {
+	label="CFG for 'OptNArgs' function";
+
+	Node0x5625651f6ef0 [shape=record,label="{lemon.c:2125:}"];
+	Node0x5625651f6ef0 -> Node0x5625651f6200;
+	Node0x5625651f6ef0 -> Node0x5625653d0cf0;
+	Node0x5625651f6200 [shape=record,label="{lemon.c:2128:}"];
+	Node0x5625651f6200 -> Node0x5625653d0ee0;
+	Node0x5625651f6200 -> Node0x5625653d0cf0;
+	Node0x5625653d0ee0 [shape=record,label="{lemon.c:2129:}"];
+	Node0x5625653d0ee0 -> Node0x5625653d4570;
+	Node0x5625653d4570 [shape=record,label="{lemon.c:2129:}"];
+	Node0x5625653d4570 -> Node0x5625653d4720;
+	Node0x5625653d4570 -> Node0x5625653d43c0;
+	Node0x5625653d4720 [shape=record,label="{lemon.c:2130:}"];
+	Node0x5625653d4720 -> Node0x5625653d4c80;
+	Node0x5625653d4720 -> Node0x5625653d4d20;
+	Node0x5625653d4d20 [shape=record,label="{lemon.c:2130:}"];
+	Node0x5625653d4d20 -> Node0x5625653d4cd0;
+	Node0x5625653d4d20 -> Node0x5625653d5000;
+	Node0x5625653d5000 [shape=record,label="{lemon.c:2130:}"];
+	Node0x5625653d5000 -> Node0x5625653d4cd0;
+	Node0x5625653d5000 -> Node0x5625653d4f80;
+	Node0x5625653d4f80 [shape=record,label="{lemon.c:2130:}"];
+	Node0x5625653d4f80 -> Node0x5625653d4cd0;
+	Node0x5625653d4f80 -> Node0x5625653d4c80;
+	Node0x5625653d4c80 [shape=record,label="{lemon.c:2130:}"];
+	Node0x5625653d4c80 -> Node0x5625653d4cd0;
+	Node0x5625653d4cd0 [shape=record,label="{lemon.c:2131:}"];
+	Node0x5625653d4cd0 -> Node0x5625653d6220;
+	Node0x5625653d4cd0 -> Node0x5625653d6270;
+	Node0x5625653d6220 [shape=record,label="{lemon.c:2131:}"];
+	Node0x5625653d6220 -> Node0x5625653d6270;
+	Node0x5625653d6270 [shape=record,label="{lemon.c:2132:}"];
+	Node0x5625653d6270 -> Node0x5625653d4690;
+	Node0x5625653d4690 [shape=record,label="{lemon.c:2129:}"];
+	Node0x5625653d4690 -> Node0x5625653d4570;
+	Node0x5625653d43c0 [shape=record,label="{lemon.c:2133:}"];
+	Node0x5625653d43c0 -> Node0x5625653d0cf0;
+	Node0x5625653d0cf0 [shape=record,label="{lemon.c:2134:}"];
+}

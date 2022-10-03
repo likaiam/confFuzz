@@ -1,0 +1,25 @@
+digraph "CFG for 'whereSortingCost' function" {
+	label="CFG for 'whereSortingCost' function";
+
+	Node0x55c0f98935d0 [shape=record,label="{sqlite3.c:158306:}"];
+	Node0x55c0f98935d0 -> Node0x55c0f9895c60;
+	Node0x55c0f98935d0 -> Node0x55c0f9895c10;
+	Node0x55c0f9895c60 [shape=record,label="{sqlite3.c:158335:}"];
+	Node0x55c0f9895c60 -> Node0x55c0f9895b70;
+	Node0x55c0f9895c60 -> Node0x55c0f9895c10;
+	Node0x55c0f9895b70 [shape=record,label="{sqlite3.c:158336:}"];
+	Node0x55c0f9895b70 -> Node0x55c0f9895bc0;
+	Node0x55c0f9895c10 [shape=record,label="{sqlite3.c:158337:}"];
+	Node0x55c0f9895c10 -> Node0x55c0f9896bd0;
+	Node0x55c0f9895c10 -> Node0x55c0f9896c20;
+	Node0x55c0f9896bd0 [shape=record,label="{sqlite3.c:158340:}"];
+	Node0x55c0f9896bd0 -> Node0x55c0f9897220;
+	Node0x55c0f9896bd0 -> Node0x55c0f9897270;
+	Node0x55c0f9897220 [shape=record,label="{sqlite3.c:158340:}"];
+	Node0x55c0f9897220 -> Node0x55c0f9897270;
+	Node0x55c0f9897270 [shape=record,label="{sqlite3.c:158341:}"];
+	Node0x55c0f9897270 -> Node0x55c0f9896c20;
+	Node0x55c0f9896c20 [shape=record,label="{%57}"];
+	Node0x55c0f9896c20 -> Node0x55c0f9895bc0;
+	Node0x55c0f9895bc0 [shape=record,label="{sqlite3.c:158342:}"];
+}

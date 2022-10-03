@@ -1,0 +1,18 @@
+digraph "CFG for 'fts3EvalNearTrim' function" {
+	label="CFG for 'fts3EvalNearTrim' function";
+
+	Node0x55c0faff63f0 [shape=record,label="{sqlite3.c:181619:}"];
+	Node0x55c0faff63f0 -> Node0x55c0f6b79ec0;
+	Node0x55c0faff63f0 -> Node0x55c0fb013ed0;
+	Node0x55c0f6b79ec0 [shape=record,label="{sqlite3.c:181639:}"];
+	Node0x55c0f6b79ec0 -> Node0x55c0fb014b80;
+	Node0x55c0f6b79ec0 -> Node0x55c0fb014b30;
+	Node0x55c0fb014b80 [shape=record,label="{sqlite3.c:181641:}"];
+	Node0x55c0fb014b80 -> Node0x55c0fb014ae0;
+	Node0x55c0fb014b80 -> Node0x55c0fb014b30;
+	Node0x55c0fb014ae0 [shape=record,label="{sqlite3.c:181643:}"];
+	Node0x55c0fb014ae0 -> Node0x55c0fb014b30;
+	Node0x55c0fb014b30 [shape=record,label="{sqlite3.c:181646:}"];
+	Node0x55c0fb014b30 -> Node0x55c0fb013ed0;
+	Node0x55c0fb013ed0 [shape=record,label="{sqlite3.c:181650:}"];
+}

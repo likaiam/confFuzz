@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3BtreeCreateTable' function" {
+	label="CFG for 'sqlite3BtreeCreateTable' function";
+
+	Node0x55c0f800ff50 [shape=record,label="{sqlite3.c:76573:}"];
+}

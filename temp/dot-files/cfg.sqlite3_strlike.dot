@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3_strlike' function" {
+	label="CFG for 'sqlite3_strlike' function";
+
+	Node0x55c0f5d86390 [shape=record,label="{sqlite3.c:123109:}"];
+}

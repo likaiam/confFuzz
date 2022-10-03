@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3Fts3DeferToken' function" {
+	label="CFG for 'sqlite3Fts3DeferToken' function";
+
+	Node0x55c0faed47e0 [shape=record,label="{sqlite3.c:192228:}"];
+	Node0x55c0faed47e0 -> Node0x55c0faedcdc0;
+	Node0x55c0faed47e0 -> Node0x55c0faedcd70;
+	Node0x55c0faedcd70 [shape=record,label="{sqlite3.c:192235:}"];
+	Node0x55c0faedcd70 -> Node0x55c0faed7900;
+	Node0x55c0faedcdc0 [shape=record,label="{sqlite3.c:192237:}"];
+	Node0x55c0faedcdc0 -> Node0x55c0faed7900;
+	Node0x55c0faed7900 [shape=record,label="{sqlite3.c:192247:}"];
+}

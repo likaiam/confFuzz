@@ -1,0 +1,34 @@
+digraph "CFG for 'sqlite3ExprIsTableConstraint' function" {
+	label="CFG for 'sqlite3ExprIsTableConstraint' function";
+
+	Node0x55c0f94b5270 [shape=record,label="{sqlite3.c:105887:}"];
+	Node0x55c0f94b5270 -> Node0x55c0f94c1760;
+	Node0x55c0f94b5270 -> Node0x55c0f94c1f20;
+	Node0x55c0f94c1760 [shape=record,label="{sqlite3.c:105889:}"];
+	Node0x55c0f94c1760 -> Node0x55c0f94b53f0;
+	Node0x55c0f94c1f20 [shape=record,label="{sqlite3.c:105891:}"];
+	Node0x55c0f94c1f20 -> Node0x55c0f94c26b0;
+	Node0x55c0f94c1f20 -> Node0x55c0f94c2750;
+	Node0x55c0f94c26b0 [shape=record,label="{sqlite3.c:105892:}"];
+	Node0x55c0f94c26b0 -> Node0x55c0f94c2e90;
+	Node0x55c0f94c26b0 -> Node0x55c0f94c2e40;
+	Node0x55c0f94c2e40 [shape=record,label="{sqlite3.c:105892:}"];
+	Node0x55c0f94c2e40 -> Node0x55c0f94b53f0;
+	Node0x55c0f94c2e90 [shape=record,label="{sqlite3.c:105893:}"];
+	Node0x55c0f94c2e90 -> Node0x55c0f94c34b0;
+	Node0x55c0f94c2e90 -> Node0x55c0f94c3500;
+	Node0x55c0f94c34b0 [shape=record,label="{sqlite3.c:105893:}"];
+	Node0x55c0f94c34b0 -> Node0x55c0f94b53f0;
+	Node0x55c0f94c3500 [shape=record,label="{sqlite3.c:105894:}"];
+	Node0x55c0f94c3500 -> Node0x55c0f94c2700;
+	Node0x55c0f94c2750 [shape=record,label="{sqlite3.c:105895:}"];
+	Node0x55c0f94c2750 -> Node0x55c0f94c3ed0;
+	Node0x55c0f94c2750 -> Node0x55c0f94c3f20;
+	Node0x55c0f94c3ed0 [shape=record,label="{sqlite3.c:105895:}"];
+	Node0x55c0f94c3ed0 -> Node0x55c0f94b53f0;
+	Node0x55c0f94c3f20 [shape=record,label="{%37}"];
+	Node0x55c0f94c3f20 -> Node0x55c0f94c2700;
+	Node0x55c0f94c2700 [shape=record,label="{sqlite3.c:105897:}"];
+	Node0x55c0f94c2700 -> Node0x55c0f94b53f0;
+	Node0x55c0f94b53f0 [shape=record,label="{sqlite3.c:105898:}"];
+}

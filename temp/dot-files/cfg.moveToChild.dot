@@ -1,0 +1,12 @@
+digraph "CFG for 'moveToChild' function" {
+	label="CFG for 'moveToChild' function";
+
+	Node0x55c0f7f80210 [shape=record,label="{sqlite3.c:72044:}"];
+	Node0x55c0f7f80210 -> Node0x55c0f7f88cb0;
+	Node0x55c0f7f80210 -> Node0x55c0f7f88d00;
+	Node0x55c0f7f88cb0 [shape=record,label="{sqlite3.c:72052:}"];
+	Node0x55c0f7f88cb0 -> Node0x55c0f7f80390;
+	Node0x55c0f7f88d00 [shape=record,label="{sqlite3.c:72054:}"];
+	Node0x55c0f7f88d00 -> Node0x55c0f7f80390;
+	Node0x55c0f7f80390 [shape=record,label="{sqlite3.c:72061:}"];
+}

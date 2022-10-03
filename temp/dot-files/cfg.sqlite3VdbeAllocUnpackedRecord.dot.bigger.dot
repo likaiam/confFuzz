@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3VdbeAllocUnpackedRecord' function" {
+	label="CFG for 'sqlite3VdbeAllocUnpackedRecord' function";
+
+	Node0x55c0f80be4e0 [shape=record,label="{sqlite3.c:84652:}"];
+	Node0x55c0f80be4e0 -> Node0x55c0f80c3c80;
+	Node0x55c0f80be4e0 -> Node0x55c0f80c3c30;
+	Node0x55c0f80c3c30 [shape=record,label="{sqlite3.c:84658:}"];
+	Node0x55c0f80c3c30 -> Node0x55c0f80be660;
+	Node0x55c0f80c3c80 [shape=record,label="{sqlite3.c:84659:}"];
+	Node0x55c0f80c3c80 -> Node0x55c0f80be660;
+	Node0x55c0f80be660 [shape=record,label="{sqlite3.c:84664:}"];
+}

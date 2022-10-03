@@ -1,0 +1,15 @@
+digraph "CFG for 'DbTransPostCmd' function" {
+	label="CFG for 'DbTransPostCmd' function";
+
+	Node0x55a735b263f0 [shape=record,label="{tclsqlite.c:1233:}"];
+	Node0x55a735b263f0 -> Node0x55a735b29740;
+	Node0x55a735b263f0 -> Node0x55a735b29790;
+	Node0x55a735b29740 [shape=record,label="{tclsqlite.c:1262:}"];
+	Node0x55a735b29740 -> Node0x55a735b29b40;
+	Node0x55a735b29740 -> Node0x55a735b29de0;
+	Node0x55a735b29b40 [shape=record,label="{tclsqlite.c:1263:}"];
+	Node0x55a735b29b40 -> Node0x55a735b29de0;
+	Node0x55a735b29de0 [shape=record,label="{tclsqlite.c:1266:}"];
+	Node0x55a735b29de0 -> Node0x55a735b29790;
+	Node0x55a735b29790 [shape=record,label="{tclsqlite.c:1268:}"];
+}

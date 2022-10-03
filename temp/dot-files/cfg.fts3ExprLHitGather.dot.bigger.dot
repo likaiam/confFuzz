@@ -1,0 +1,25 @@
+digraph "CFG for 'fts3ExprLHitGather' function" {
+	label="CFG for 'fts3ExprLHitGather' function";
+
+	Node0x55c0fb386920 [shape=record,label="{sqlite3.c:193371:}"];
+	Node0x55c0fb386920 -> Node0x55c0fb38a420;
+	Node0x55c0fb386920 -> Node0x55c0fb38a3d0;
+	Node0x55c0fb38a420 [shape=record,label="{sqlite3.c:193376:}"];
+	Node0x55c0fb38a420 -> Node0x55c0fb38a380;
+	Node0x55c0fb38a420 -> Node0x55c0fb38a3d0;
+	Node0x55c0fb38a380 [shape=record,label="{sqlite3.c:193377:}"];
+	Node0x55c0fb38a380 -> Node0x55c0fb38b020;
+	Node0x55c0fb38a380 -> Node0x55c0fb38b0c0;
+	Node0x55c0fb38b020 [shape=record,label="{sqlite3.c:193378:}"];
+	Node0x55c0fb38b020 -> Node0x55c0fb38b970;
+	Node0x55c0fb38b020 -> Node0x55c0fb38b9c0;
+	Node0x55c0fb38b970 [shape=record,label="{sqlite3.c:193379:}"];
+	Node0x55c0fb38b970 -> Node0x55c0fb38b9c0;
+	Node0x55c0fb38b9c0 [shape=record,label="{sqlite3.c:193380:}"];
+	Node0x55c0fb38b9c0 -> Node0x55c0fb38b070;
+	Node0x55c0fb38b0c0 [shape=record,label="{sqlite3.c:193381:}"];
+	Node0x55c0fb38b0c0 -> Node0x55c0fb38b070;
+	Node0x55c0fb38b070 [shape=record,label="{sqlite3.c:193383:}"];
+	Node0x55c0fb38b070 -> Node0x55c0fb38a3d0;
+	Node0x55c0fb38a3d0 [shape=record,label="{sqlite3.c:193384:}"];
+}

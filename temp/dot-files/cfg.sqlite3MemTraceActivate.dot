@@ -1,0 +1,15 @@
+digraph "CFG for 'sqlite3MemTraceActivate' function" {
+	label="CFG for 'sqlite3MemTraceActivate' function";
+
+	Node0x5602762e9930 [shape=record,label="{shell.c:4408:}"];
+	Node0x5602762e9930 -> Node0x5602762f6870;
+	Node0x5602762e9930 -> Node0x5602762f68c0;
+	Node0x5602762f6870 [shape=record,label="{shell.c:4411:}"];
+	Node0x5602762f6870 -> Node0x5602762f6af0;
+	Node0x5602762f6870 -> Node0x5602762f7c80;
+	Node0x5602762f6af0 [shape=record,label="{shell.c:4413:}"];
+	Node0x5602762f6af0 -> Node0x5602762f7c80;
+	Node0x5602762f7c80 [shape=record,label="{shell.c:4415:}"];
+	Node0x5602762f7c80 -> Node0x5602762f68c0;
+	Node0x5602762f68c0 [shape=record,label="{shell.c:4416:}"];
+}

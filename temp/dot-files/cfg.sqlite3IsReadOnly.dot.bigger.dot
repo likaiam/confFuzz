@@ -1,0 +1,20 @@
+digraph "CFG for 'sqlite3IsReadOnly' function" {
+	label="CFG for 'sqlite3IsReadOnly' function";
+
+	Node0x55c0f9d317f0 [shape=record,label="{sqlite3.c:121375:}"];
+	Node0x55c0f9d317f0 -> Node0x55c0f9d31d40;
+	Node0x55c0f9d317f0 -> Node0x55c0f9d31d90;
+	Node0x55c0f9d31d40 [shape=record,label="{sqlite3.c:121377:}"];
+	Node0x55c0f9d31d40 -> Node0x55c0f9d31970;
+	Node0x55c0f9d31d90 [shape=record,label="{sqlite3.c:121381:}"];
+	Node0x55c0f9d31d90 -> Node0x55c0f9d38a90;
+	Node0x55c0f9d31d90 -> Node0x55c0f9d39420;
+	Node0x55c0f9d39420 [shape=record,label="{sqlite3.c:121381:}"];
+	Node0x55c0f9d39420 -> Node0x55c0f61a16b0;
+	Node0x55c0f9d39420 -> Node0x55c0f9d38a90;
+	Node0x55c0f61a16b0 [shape=record,label="{sqlite3.c:121382:}"];
+	Node0x55c0f61a16b0 -> Node0x55c0f9d31970;
+	Node0x55c0f9d38a90 [shape=record,label="{sqlite3.c:121386:}"];
+	Node0x55c0f9d38a90 -> Node0x55c0f9d31970;
+	Node0x55c0f9d31970 [shape=record,label="{sqlite3.c:121387:}"];
+}

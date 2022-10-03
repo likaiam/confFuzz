@@ -1,0 +1,19 @@
+digraph "CFG for 'vdbeSorterRowkey' function" {
+	label="CFG for 'vdbeSorterRowkey' function";
+
+	Node0x55c0f82affb0 [shape=record,label="{sqlite3.c:100195:}"];
+	Node0x55c0f82affb0 -> Node0x55c0f82b7ee0;
+	Node0x55c0f82affb0 -> Node0x55c0f82b7f80;
+	Node0x55c0f82b7ee0 [shape=record,label="{sqlite3.c:100200:}"];
+	Node0x55c0f82b7ee0 -> Node0x55c0f82b8790;
+	Node0x55c0f82b7ee0 -> Node0x55c0f82b8830;
+	Node0x55c0f82b8790 [shape=record,label="{sqlite3.c:100203:}"];
+	Node0x55c0f82b8790 -> Node0x55c0f82b87e0;
+	Node0x55c0f82b8830 [shape=record,label="{sqlite3.c:100207:}"];
+	Node0x55c0f82b8830 -> Node0x55c0f82b87e0;
+	Node0x55c0f82b87e0 [shape=record,label="{sqlite3.c:100209:}"];
+	Node0x55c0f82b87e0 -> Node0x55c0f82b7f30;
+	Node0x55c0f82b7f80 [shape=record,label="{sqlite3.c:100212:}"];
+	Node0x55c0f82b7f80 -> Node0x55c0f82b7f30;
+	Node0x55c0f82b7f30 [shape=record,label="{sqlite3.c:100215:}"];
+}

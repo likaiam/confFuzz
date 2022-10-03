@@ -1,0 +1,27 @@
+digraph "CFG for 'sqlite3BinaryCompareCollSeq' function" {
+	label="CFG for 'sqlite3BinaryCompareCollSeq' function";
+
+	Node0x55c0f794d400 [shape=record,label="{sqlite3.c:103916:}"];
+	Node0x55c0f794d400 -> Node0x55c0f7951740;
+	Node0x55c0f794d400 -> Node0x55c0f79517e0;
+	Node0x55c0f7951740 [shape=record,label="{sqlite3.c:103923:}"];
+	Node0x55c0f7951740 -> Node0x55c0f7951790;
+	Node0x55c0f79517e0 [shape=record,label="{sqlite3.c:103924:}"];
+	Node0x55c0f79517e0 -> Node0x55c0f79524f0;
+	Node0x55c0f79517e0 -> Node0x55c0f79524a0;
+	Node0x55c0f79524f0 [shape=record,label="{sqlite3.c:103924:}"];
+	Node0x55c0f79524f0 -> Node0x55c0f5984bf0;
+	Node0x55c0f79524f0 -> Node0x55c0f79524a0;
+	Node0x55c0f5984bf0 [shape=record,label="{sqlite3.c:103925:}"];
+	Node0x55c0f5984bf0 -> Node0x55c0f79521c0;
+	Node0x55c0f79524a0 [shape=record,label="{sqlite3.c:103927:}"];
+	Node0x55c0f79524a0 -> Node0x55c0f7953170;
+	Node0x55c0f79524a0 -> Node0x55c0f7953120;
+	Node0x55c0f7953120 [shape=record,label="{sqlite3.c:103929:}"];
+	Node0x55c0f7953120 -> Node0x55c0f7953170;
+	Node0x55c0f7953170 [shape=record,label="{%33}"];
+	Node0x55c0f7953170 -> Node0x55c0f79521c0;
+	Node0x55c0f79521c0 [shape=record,label="{%34}"];
+	Node0x55c0f79521c0 -> Node0x55c0f7951790;
+	Node0x55c0f7951790 [shape=record,label="{sqlite3.c:103932:}"];
+}

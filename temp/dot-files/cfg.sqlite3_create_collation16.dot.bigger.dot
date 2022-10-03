@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3_create_collation16' function" {
+	label="CFG for 'sqlite3_create_collation16' function";
+
+	Node0x55c0f6aa2b80 [shape=record,label="{sqlite3.c:173883:}"];
+	Node0x55c0f6aa2b80 -> Node0x55c0f6aa86b0;
+	Node0x55c0f6aa2b80 -> Node0x55c0f6aa8700;
+	Node0x55c0f6aa86b0 [shape=record,label="{sqlite3.c:173899:}"];
+	Node0x55c0f6aa86b0 -> Node0x55c0f6aa8700;
+	Node0x55c0f6aa8700 [shape=record,label="{sqlite3.c:173902:}"];
+}

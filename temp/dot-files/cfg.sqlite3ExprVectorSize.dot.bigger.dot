@@ -1,0 +1,22 @@
+digraph "CFG for 'sqlite3ExprVectorSize' function" {
+	label="CFG for 'sqlite3ExprVectorSize' function";
+
+	Node0x55c0f8c01c10 [shape=record,label="{sqlite3.c:104000:}"];
+	Node0x55c0f8c01c10 -> Node0x55c0f8c08a80;
+	Node0x55c0f8c01c10 -> Node0x55c0f8c08ad0;
+	Node0x55c0f8c08a80 [shape=record,label="{sqlite3.c:104002:}"];
+	Node0x55c0f8c08a80 -> Node0x55c0f8c08ad0;
+	Node0x55c0f8c08ad0 [shape=record,label="{sqlite3.c:104003:}"];
+	Node0x55c0f8c08ad0 -> Node0x55c0f8c09ba0;
+	Node0x55c0f8c08ad0 -> Node0x55c0f8c09c40;
+	Node0x55c0f8c09ba0 [shape=record,label="{sqlite3.c:104005:}"];
+	Node0x55c0f8c09ba0 -> Node0x55c0f8c085b0;
+	Node0x55c0f8c09c40 [shape=record,label="{sqlite3.c:104006:}"];
+	Node0x55c0f8c09c40 -> Node0x55c0f8c0a610;
+	Node0x55c0f8c09c40 -> Node0x55c0f8c0a6b0;
+	Node0x55c0f8c0a610 [shape=record,label="{sqlite3.c:104008:}"];
+	Node0x55c0f8c0a610 -> Node0x55c0f8c085b0;
+	Node0x55c0f8c0a6b0 [shape=record,label="{sqlite3.c:104010:}"];
+	Node0x55c0f8c0a6b0 -> Node0x55c0f8c085b0;
+	Node0x55c0f8c085b0 [shape=record,label="{sqlite3.c:104012:}"];
+}

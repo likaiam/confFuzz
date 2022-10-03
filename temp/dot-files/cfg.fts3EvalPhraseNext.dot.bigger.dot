@@ -1,0 +1,22 @@
+digraph "CFG for 'fts3EvalPhraseNext' function" {
+	label="CFG for 'fts3EvalPhraseNext' function";
+
+	Node0x55c0f5d0bde0 [shape=record,label="{sqlite3.c:181199:}"];
+	Node0x55c0f5d0bde0 -> Node0x55c0faf99200;
+	Node0x55c0f5d0bde0 -> Node0x55c0faf992a0;
+	Node0x55c0faf99200 [shape=record,label="{sqlite3.c:181208:}"];
+	Node0x55c0faf99200 -> Node0x55c0faf99250;
+	Node0x55c0faf992a0 [shape=record,label="{sqlite3.c:181209:}"];
+	Node0x55c0faf992a0 -> Node0x55c0faf9a140;
+	Node0x55c0faf992a0 -> Node0x55c0faf9a0f0;
+	Node0x55c0faf9a140 [shape=record,label="{sqlite3.c:181209:}"];
+	Node0x55c0faf9a140 -> Node0x55c0f5d0bd90;
+	Node0x55c0faf9a140 -> Node0x55c0faf9a0f0;
+	Node0x55c0f5d0bd90 [shape=record,label="{sqlite3.c:181210:}"];
+	Node0x55c0f5d0bd90 -> Node0x55c0faf99dc0;
+	Node0x55c0faf9a0f0 [shape=record,label="{sqlite3.c:181215:}"];
+	Node0x55c0faf9a0f0 -> Node0x55c0faf99dc0;
+	Node0x55c0faf99dc0 [shape=record,label="{%62}"];
+	Node0x55c0faf99dc0 -> Node0x55c0faf99250;
+	Node0x55c0faf99250 [shape=record,label="{sqlite3.c:181218:}"];
+}

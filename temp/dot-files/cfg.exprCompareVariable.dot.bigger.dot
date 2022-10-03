@@ -1,0 +1,20 @@
+digraph "CFG for 'exprCompareVariable' function" {
+	label="CFG for 'exprCompareVariable' function";
+
+	Node0x55c0f8b78e70 [shape=record,label="{sqlite3.c:109021:}"];
+	Node0x55c0f8b78e70 -> Node0x55c0f8b90790;
+	Node0x55c0f8b78e70 -> Node0x55c0f8b90880;
+	Node0x55c0f8b90790 [shape=record,label="{sqlite3.c:109031:}"];
+	Node0x55c0f8b90790 -> Node0x55c0f5c20de0;
+	Node0x55c0f8b90790 -> Node0x55c0f5c20e30;
+	Node0x55c0f5c20de0 [shape=record,label="{sqlite3.c:109035:}"];
+	Node0x55c0f5c20de0 -> Node0x55c0f8b91540;
+	Node0x55c0f5c20de0 -> Node0x55c0f8b92120;
+	Node0x55c0f8b91540 [shape=record,label="{sqlite3.c:109036:}"];
+	Node0x55c0f8b91540 -> Node0x55c0f8b92120;
+	Node0x55c0f8b92120 [shape=record,label="{sqlite3.c:109038:}"];
+	Node0x55c0f8b92120 -> Node0x55c0f5c20e30;
+	Node0x55c0f5c20e30 [shape=record,label="{sqlite3.c:109040:}"];
+	Node0x55c0f5c20e30 -> Node0x55c0f8b90880;
+	Node0x55c0f8b90880 [shape=record,label="{sqlite3.c:109044:}"];
+}

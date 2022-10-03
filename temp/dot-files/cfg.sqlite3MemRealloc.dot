@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3MemRealloc' function" {
+	label="CFG for 'sqlite3MemRealloc' function";
+
+	Node0x55c0fa9301a0 [shape=record,label="{sqlite3.c:25381:}"];
+	Node0x55c0fa9301a0 -> Node0x55c0fa932370;
+	Node0x55c0fa9301a0 -> Node0x55c0fa9325c0;
+	Node0x55c0fa932370 [shape=record,label="{sqlite3.c:25388:}"];
+	Node0x55c0fa932370 -> Node0x55c0fa9325c0;
+	Node0x55c0fa9325c0 [shape=record,label="{sqlite3.c:25390:}"];
+}

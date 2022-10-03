@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3WindowListDelete' function" {
+	label="CFG for 'sqlite3WindowListDelete' function";
+
+	Node0x55c0f7fbaaa0 [shape=record,label="{sqlite3.c:161198:}"];
+	Node0x55c0f7fbaaa0 -> Node0x55c0f7fba990;
+	Node0x55c0f7fba990 [shape=record,label="{sqlite3.c:161199:}"];
+	Node0x55c0f7fba990 -> Node0x55c0f7fbc4f0;
+	Node0x55c0f7fba990 -> Node0x55c0f7fbb990;
+	Node0x55c0f7fbc4f0 [shape=record,label="{sqlite3.c:161200:}"];
+	Node0x55c0f7fbc4f0 -> Node0x55c0f7fba990;
+	Node0x55c0f7fbb990 [shape=record,label="{sqlite3.c:161204:}"];
+}

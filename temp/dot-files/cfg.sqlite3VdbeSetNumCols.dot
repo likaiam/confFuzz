@@ -1,0 +1,17 @@
+digraph "CFG for 'sqlite3VdbeSetNumCols' function" {
+	label="CFG for 'sqlite3VdbeSetNumCols' function";
+
+	Node0x55c0f861cdf0 [shape=record,label="{sqlite3.c:83315:}"];
+	Node0x55c0f861cdf0 -> Node0x55c0f8626b80;
+	Node0x55c0f861cdf0 -> Node0x55c0f8626bd0;
+	Node0x55c0f8626b80 [shape=record,label="{sqlite3.c:83320:}"];
+	Node0x55c0f8626b80 -> Node0x55c0f8626bd0;
+	Node0x55c0f8626bd0 [shape=record,label="{sqlite3.c:83323:}"];
+	Node0x55c0f8626bd0 -> Node0x55c0f8628850;
+	Node0x55c0f8626bd0 -> Node0x55c0f86288a0;
+	Node0x55c0f8628850 [shape=record,label="{sqlite3.c:83326:}"];
+	Node0x55c0f8628850 -> Node0x55c0f861cf70;
+	Node0x55c0f86288a0 [shape=record,label="{sqlite3.c:83327:}"];
+	Node0x55c0f86288a0 -> Node0x55c0f861cf70;
+	Node0x55c0f861cf70 [shape=record,label="{sqlite3.c:83328:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'porterClose' function" {
+	label="CFG for 'porterClose' function";
+
+	Node0x55c0fac686b0 [shape=record,label="{sqlite3.c:184892:}"];
+}

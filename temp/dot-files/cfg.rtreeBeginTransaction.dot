@@ -1,0 +1,5 @@
+digraph "CFG for 'rtreeBeginTransaction' function" {
+	label="CFG for 'rtreeBeginTransaction' function";
+
+	Node0x55c0fb699570 [shape=record,label="{sqlite3.c:201076:}"];
+}

@@ -1,0 +1,29 @@
+digraph "CFG for 'whereRangeScanEst' function" {
+	label="CFG for 'whereRangeScanEst' function";
+
+	Node0x55c0f97b0100 [shape=record,label="{sqlite3.c:155506:}"];
+	Node0x55c0f97b0100 -> Node0x55c0f97f9790;
+	Node0x55c0f97b0100 -> Node0x55c0f97f91d0;
+	Node0x55c0f97f9790 [shape=record,label="{sqlite3.c:155651:}"];
+	Node0x55c0f97f9790 -> Node0x55c0f97f9710;
+	Node0x55c0f97f9790 -> Node0x55c0f97f91d0;
+	Node0x55c0f97f9710 [shape=record,label="{sqlite3.c:155651:}"];
+	Node0x55c0f97f9710 -> Node0x55c0f97f9690;
+	Node0x55c0f97f9710 -> Node0x55c0f97f91d0;
+	Node0x55c0f97f9690 [shape=record,label="{sqlite3.c:155651:}"];
+	Node0x55c0f97f9690 -> Node0x55c0f6646520;
+	Node0x55c0f97f9690 -> Node0x55c0f97f91d0;
+	Node0x55c0f6646520 [shape=record,label="{sqlite3.c:155652:}"];
+	Node0x55c0f6646520 -> Node0x55c0f97f91d0;
+	Node0x55c0f97f91d0 [shape=record,label="{sqlite3.c:155655:}"];
+	Node0x55c0f97f91d0 -> Node0x55c0f97fac90;
+	Node0x55c0f97f91d0 -> Node0x55c0f97face0;
+	Node0x55c0f97fac90 [shape=record,label="{sqlite3.c:155656:}"];
+	Node0x55c0f97fac90 -> Node0x55c0f97face0;
+	Node0x55c0f97face0 [shape=record,label="{sqlite3.c:155657:}"];
+	Node0x55c0f97face0 -> Node0x55c0f97fb240;
+	Node0x55c0f97face0 -> Node0x55c0f97fb290;
+	Node0x55c0f97fb240 [shape=record,label="{sqlite3.c:155657:}"];
+	Node0x55c0f97fb240 -> Node0x55c0f97fb290;
+	Node0x55c0f97fb290 [shape=record,label="{sqlite3.c:155664:}"];
+}

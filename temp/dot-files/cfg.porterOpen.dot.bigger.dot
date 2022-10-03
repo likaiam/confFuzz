@@ -1,0 +1,26 @@
+digraph "CFG for 'porterOpen' function" {
+	label="CFG for 'porterOpen' function";
+
+	Node0x55c0fac654f0 [shape=record,label="{sqlite3.c:184860:}"];
+	Node0x55c0fac654f0 -> Node0x55c0fac6aed0;
+	Node0x55c0fac654f0 -> Node0x55c0fac6af20;
+	Node0x55c0fac6aed0 [shape=record,label="{sqlite3.c:184869:}"];
+	Node0x55c0fac6aed0 -> Node0x55c0fac67dd0;
+	Node0x55c0fac6af20 [shape=record,label="{sqlite3.c:184871:}"];
+	Node0x55c0fac6af20 -> Node0x55c0fac6b720;
+	Node0x55c0fac6af20 -> Node0x55c0fac6b7c0;
+	Node0x55c0fac6b720 [shape=record,label="{sqlite3.c:184873:}"];
+	Node0x55c0fac6b720 -> Node0x55c0fac6b770;
+	Node0x55c0fac6b7c0 [shape=record,label="{sqlite3.c:184874:}"];
+	Node0x55c0fac6b7c0 -> Node0x55c0fac6beb0;
+	Node0x55c0fac6b7c0 -> Node0x55c0fac6bf50;
+	Node0x55c0fac6beb0 [shape=record,label="{sqlite3.c:184875:}"];
+	Node0x55c0fac6beb0 -> Node0x55c0fac6bf00;
+	Node0x55c0fac6bf50 [shape=record,label="{sqlite3.c:184877:}"];
+	Node0x55c0fac6bf50 -> Node0x55c0fac6bf00;
+	Node0x55c0fac6bf00 [shape=record,label="{%32}"];
+	Node0x55c0fac6bf00 -> Node0x55c0fac6b770;
+	Node0x55c0fac6b770 [shape=record,label="{sqlite3.c:184879:}"];
+	Node0x55c0fac6b770 -> Node0x55c0fac67dd0;
+	Node0x55c0fac67dd0 [shape=record,label="{sqlite3.c:184886:}"];
+}

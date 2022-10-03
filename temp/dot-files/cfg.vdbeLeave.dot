@@ -1,0 +1,25 @@
+digraph "CFG for 'vdbeLeave' function" {
+	label="CFG for 'vdbeLeave' function";
+
+	Node0x55c0f7a62c00 [shape=record,label="{sqlite3.c:82529:}"];
+	Node0x55c0f7a62c00 -> Node0x55c0f7a643a0;
+	Node0x55c0f7a643a0 [shape=record,label="{sqlite3.c:82537:}"];
+	Node0x55c0f7a643a0 -> Node0x55c0f7a645c0;
+	Node0x55c0f7a643a0 -> Node0x55c0f7a641f0;
+	Node0x55c0f7a645c0 [shape=record,label="{sqlite3.c:82538:}"];
+	Node0x55c0f7a645c0 -> Node0x55c0f7a64b60;
+	Node0x55c0f7a645c0 -> Node0x55c0f7a64a90;
+	Node0x55c0f7a64b60 [shape=record,label="{sqlite3.c:82538:}"];
+	Node0x55c0f7a64b60 -> Node0x55c0f7a64ae0;
+	Node0x55c0f7a64b60 -> Node0x55c0f7a64a90;
+	Node0x55c0f7a64ae0 [shape=record,label="{sqlite3.c:82538:}"];
+	Node0x55c0f7a64ae0 -> Node0x55c0f7a64a40;
+	Node0x55c0f7a64ae0 -> Node0x55c0f7a64a90;
+	Node0x55c0f7a64a40 [shape=record,label="{sqlite3.c:82539:}"];
+	Node0x55c0f7a64a40 -> Node0x55c0f7a64a90;
+	Node0x55c0f7a64a90 [shape=record,label="{sqlite3.c:82541:}"];
+	Node0x55c0f7a64a90 -> Node0x55c0f7a64530;
+	Node0x55c0f7a64530 [shape=record,label="{sqlite3.c:82537:}"];
+	Node0x55c0f7a64530 -> Node0x55c0f7a643a0;
+	Node0x55c0f7a641f0 [shape=record,label="{sqlite3.c:82542:}"];
+}

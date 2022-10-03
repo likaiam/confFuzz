@@ -1,0 +1,17 @@
+digraph "CFG for 'memdbRead' function" {
+	label="CFG for 'memdbRead' function";
+
+	Node0x55c0f578c420 [shape=record,label="{sqlite3.c:49970:}"];
+	Node0x55c0f578c420 -> Node0x55c0f69cbbc0;
+	Node0x55c0f578c420 -> Node0x55c0f69cbc10;
+	Node0x55c0f69cbbc0 [shape=record,label="{sqlite3.c:49978:}"];
+	Node0x55c0f69cbbc0 -> Node0x55c0f69cc660;
+	Node0x55c0f69cbbc0 -> Node0x55c0f69cc6b0;
+	Node0x55c0f69cc660 [shape=record,label="{sqlite3.c:49979:}"];
+	Node0x55c0f69cc660 -> Node0x55c0f69cc6b0;
+	Node0x55c0f69cc6b0 [shape=record,label="{sqlite3.c:49980:}"];
+	Node0x55c0f69cc6b0 -> Node0x55c0f69c3a80;
+	Node0x55c0f69cbc10 [shape=record,label="{sqlite3.c:49983:}"];
+	Node0x55c0f69cbc10 -> Node0x55c0f69c3a80;
+	Node0x55c0f69c3a80 [shape=record,label="{sqlite3.c:49986:}"];
+}

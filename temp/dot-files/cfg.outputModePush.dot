@@ -1,0 +1,5 @@
+digraph "CFG for 'outputModePush' function" {
+	label="CFG for 'outputModePush' function";
+
+	Node0x560277328f80 [shape=record,label="{shell.c:12552:}"];
+}

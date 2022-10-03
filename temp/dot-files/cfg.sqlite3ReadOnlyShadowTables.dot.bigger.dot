@@ -1,0 +1,24 @@
+digraph "CFG for 'sqlite3ReadOnlyShadowTables' function" {
+	label="CFG for 'sqlite3ReadOnlyShadowTables' function";
+
+	Node0x55c0f60cb840 [shape=record,label="{sqlite3.c:118489:}"];
+	Node0x55c0f60cb840 -> Node0x55c0f8d88d40;
+	Node0x55c0f60cb840 -> Node0x55c0f8d8de50;
+	Node0x55c0f8d88d40 [shape=record,label="{sqlite3.c:118492:}"];
+	Node0x55c0f8d88d40 -> Node0x55c0f8d88cc0;
+	Node0x55c0f8d88d40 -> Node0x55c0f8d8de50;
+	Node0x55c0f8d88cc0 [shape=record,label="{sqlite3.c:118493:}"];
+	Node0x55c0f8d88cc0 -> Node0x55c0f8d8efe0;
+	Node0x55c0f8d88cc0 -> Node0x55c0f8d8de50;
+	Node0x55c0f8d8efe0 [shape=record,label="{sqlite3.c:118494:}"];
+	Node0x55c0f8d8efe0 -> Node0x55c0f8d901d0;
+	Node0x55c0f8d8efe0 -> Node0x55c0f8d8f300;
+	Node0x55c0f8d901d0 [shape=record,label="{sqlite3.c:118494:}"];
+	Node0x55c0f8d901d0 -> Node0x55c0f8d8de50;
+	Node0x55c0f8d901d0 -> Node0x55c0f8d8f300;
+	Node0x55c0f8d8f300 [shape=record,label="{sqlite3.c:118496:}"];
+	Node0x55c0f8d8f300 -> Node0x55c0f8d8e0e0;
+	Node0x55c0f8d8de50 [shape=record,label="{sqlite3.c:118499:}"];
+	Node0x55c0f8d8de50 -> Node0x55c0f8d8e0e0;
+	Node0x55c0f8d8e0e0 [shape=record,label="{sqlite3.c:118500:}"];
+}

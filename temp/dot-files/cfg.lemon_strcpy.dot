@@ -1,0 +1,12 @@
+digraph "CFG for 'lemon_strcpy' function" {
+	label="CFG for 'lemon_strcpy' function";
+
+	Node0x56256578a460 [shape=record,label="{lemon.c:154:}"];
+	Node0x56256578a460 -> Node0x562565823340;
+	Node0x562565823340 [shape=record,label="{lemon.c:155:}"];
+	Node0x562565823340 -> Node0x5625658243f0;
+	Node0x562565823340 -> Node0x5625658235a0;
+	Node0x5625658243f0 [shape=record,label="{lemon.c:155:}"];
+	Node0x5625658243f0 -> Node0x562565823340;
+	Node0x5625658235a0 [shape=record,label="{lemon.c:156:}"];
+}

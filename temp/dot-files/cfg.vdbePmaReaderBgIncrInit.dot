@@ -1,0 +1,5 @@
+digraph "CFG for 'vdbePmaReaderBgIncrInit' function" {
+	label="CFG for 'vdbePmaReaderBgIncrInit' function";
+
+	Node0x55c0f784e490 [shape=record,label="{sqlite3.c:99779:}"];
+}

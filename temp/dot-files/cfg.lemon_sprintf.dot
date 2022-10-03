@@ -1,0 +1,5 @@
+digraph "CFG for 'lemon_sprintf' function" {
+	label="CFG for 'lemon_sprintf' function";
+
+	Node0x562565824ed0 [shape=record,label="{lemon.c:146:}"];
+}

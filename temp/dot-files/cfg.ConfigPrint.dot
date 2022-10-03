@@ -1,0 +1,5 @@
+digraph "CFG for 'ConfigPrint' function" {
+	label="CFG for 'ConfigPrint' function";
+
+	Node0x562565464c20 [shape=record,label="{lemon.c:3310:}"];
+}

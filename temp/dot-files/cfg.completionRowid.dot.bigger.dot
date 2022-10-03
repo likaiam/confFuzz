@@ -1,0 +1,5 @@
+digraph "CFG for 'completionRowid' function" {
+	label="CFG for 'completionRowid' function";
+
+	Node0x5602768d8110 [shape=record,label="{shell.c:3476:}"];
+}

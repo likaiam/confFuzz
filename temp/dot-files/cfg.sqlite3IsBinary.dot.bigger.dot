@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3IsBinary' function" {
+	label="CFG for 'sqlite3IsBinary' function";
+
+	Node0x55c0f9495d60 [shape=record,label="{sqlite3.c:171318:}"];
+	Node0x55c0f9495d60 -> Node0x55c0f9496130;
+	Node0x55c0f9495d60 -> Node0x55c0f9496180;
+	Node0x55c0f9496180 [shape=record,label="{sqlite3.c:171320:}"];
+	Node0x55c0f9496180 -> Node0x55c0f9496130;
+	Node0x55c0f9496130 [shape=record,label="{sqlite3.c:171320:}"];
+}

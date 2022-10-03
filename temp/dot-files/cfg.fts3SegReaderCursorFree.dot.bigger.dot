@@ -1,0 +1,5 @@
+digraph "CFG for 'fts3SegReaderCursorFree' function" {
+	label="CFG for 'fts3SegReaderCursorFree' function";
+
+	Node0x55c0f90bf310 [shape=record,label="{sqlite3.c:179566:}"];
+}

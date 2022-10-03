@@ -1,0 +1,22 @@
+digraph "CFG for 'releaseAllSavepoints' function" {
+	label="CFG for 'releaseAllSavepoints' function";
+
+	Node0x55c0f75c0670 [shape=record,label="{sqlite3.c:55621:}"];
+	Node0x55c0f75c0670 -> Node0x55c0f75c0c00;
+	Node0x55c0f75c0c00 [shape=record,label="{sqlite3.c:55623:}"];
+	Node0x55c0f75c0c00 -> Node0x55c0f75d0ff0;
+	Node0x55c0f75c0c00 -> Node0x55c0f75bff50;
+	Node0x55c0f75d0ff0 [shape=record,label="{sqlite3.c:55624:}"];
+	Node0x55c0f75d0ff0 -> Node0x55c0f75d0f60;
+	Node0x55c0f75d0f60 [shape=record,label="{sqlite3.c:55623:}"];
+	Node0x55c0f75d0f60 -> Node0x55c0f75c0c00;
+	Node0x55c0f75bff50 [shape=record,label="{sqlite3.c:55626:}"];
+	Node0x55c0f75bff50 -> Node0x55c0f75d1fa0;
+	Node0x55c0f75bff50 -> Node0x55c0f75d1f00;
+	Node0x55c0f75d1fa0 [shape=record,label="{sqlite3.c:55626:}"];
+	Node0x55c0f75d1fa0 -> Node0x55c0f75d1f00;
+	Node0x55c0f75d1fa0 -> Node0x55c0f75d1f50;
+	Node0x55c0f75d1f00 [shape=record,label="{sqlite3.c:55627:}"];
+	Node0x55c0f75d1f00 -> Node0x55c0f75d1f50;
+	Node0x55c0f75d1f50 [shape=record,label="{sqlite3.c:55629:}"];
+}

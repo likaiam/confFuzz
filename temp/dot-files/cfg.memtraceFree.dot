@@ -1,0 +1,17 @@
+digraph "CFG for 'memtraceFree' function" {
+	label="CFG for 'memtraceFree' function";
+
+	Node0x5602762dcea0 [shape=record,label="{shell.c:4363:}"];
+	Node0x5602762dcea0 -> Node0x56027693b540;
+	Node0x5602762dcea0 -> Node0x56027693a6d0;
+	Node0x56027693b540 [shape=record,label="{shell.c:4364:}"];
+	Node0x56027693b540 -> Node0x5602762dc940;
+	Node0x56027693a6d0 [shape=record,label="{shell.c:4365:}"];
+	Node0x56027693a6d0 -> Node0x56027693b6e0;
+	Node0x56027693a6d0 -> Node0x56027693b7f0;
+	Node0x56027693b6e0 [shape=record,label="{shell.c:4366:}"];
+	Node0x56027693b6e0 -> Node0x56027693b7f0;
+	Node0x56027693b7f0 [shape=record,label="{shell.c:4368:}"];
+	Node0x56027693b7f0 -> Node0x5602762dc940;
+	Node0x5602762dc940 [shape=record,label="{shell.c:4369:}"];
+}

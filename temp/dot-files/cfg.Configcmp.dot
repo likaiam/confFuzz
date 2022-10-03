@@ -1,0 +1,10 @@
+digraph "CFG for 'Configcmp' function" {
+	label="CFG for 'Configcmp' function";
+
+	Node0x5625656c1720 [shape=record,label="{lemon.c:5581:}"];
+	Node0x5625656c1720 -> Node0x5625656c64c0;
+	Node0x5625656c1720 -> Node0x5625656c6510;
+	Node0x5625656c64c0 [shape=record,label="{lemon.c:5587:}"];
+	Node0x5625656c64c0 -> Node0x5625656c6510;
+	Node0x5625656c6510 [shape=record,label="{lemon.c:5588:}"];
+}

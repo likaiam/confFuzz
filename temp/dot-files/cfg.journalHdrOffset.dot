@@ -1,0 +1,10 @@
+digraph "CFG for 'journalHdrOffset' function" {
+	label="CFG for 'journalHdrOffset' function";
+
+	Node0x55c0f74a26f0 [shape=record,label="{sqlite3.c:55209:}"];
+	Node0x55c0f74a26f0 -> Node0x55c0f74a85c0;
+	Node0x55c0f74a26f0 -> Node0x55c0f74a8610;
+	Node0x55c0f74a85c0 [shape=record,label="{sqlite3.c:55213:}"];
+	Node0x55c0f74a85c0 -> Node0x55c0f74a8610;
+	Node0x55c0f74a8610 [shape=record,label="{sqlite3.c:55218:}"];
+}

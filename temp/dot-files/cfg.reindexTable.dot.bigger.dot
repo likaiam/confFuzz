@@ -1,0 +1,27 @@
+digraph "CFG for 'reindexTable' function" {
+	label="CFG for 'reindexTable' function";
+
+	Node0x55c0fa3033e0 [shape=record,label="{sqlite3.c:120477:}"];
+	Node0x55c0fa3033e0 -> Node0x55c0fa307df0;
+	Node0x55c0fa3033e0 -> Node0x55c0fa307da0;
+	Node0x55c0fa307da0 [shape=record,label="{sqlite3.c:120479:}"];
+	Node0x55c0fa307da0 -> Node0x55c0fa308780;
+	Node0x55c0fa308780 [shape=record,label="{sqlite3.c:120481:}"];
+	Node0x55c0fa308780 -> Node0x55c0fa3089a0;
+	Node0x55c0fa308780 -> Node0x55c0fa308400;
+	Node0x55c0fa3089a0 [shape=record,label="{sqlite3.c:120482:}"];
+	Node0x55c0fa3089a0 -> Node0x55c0fa308ce0;
+	Node0x55c0fa3089a0 -> Node0x55c0fa308d80;
+	Node0x55c0fa308d80 [shape=record,label="{sqlite3.c:120482:}"];
+	Node0x55c0fa308d80 -> Node0x55c0fa308ce0;
+	Node0x55c0fa308d80 -> Node0x55c0fa308d30;
+	Node0x55c0fa308ce0 [shape=record,label="{sqlite3.c:120483:}"];
+	Node0x55c0fa308ce0 -> Node0x55c0fa308d30;
+	Node0x55c0fa308d30 [shape=record,label="{sqlite3.c:120487:}"];
+	Node0x55c0fa308d30 -> Node0x55c0fa308910;
+	Node0x55c0fa308910 [shape=record,label="{sqlite3.c:120481:}"];
+	Node0x55c0fa308910 -> Node0x55c0fa308780;
+	Node0x55c0fa308400 [shape=record,label="{sqlite3.c:120488:}"];
+	Node0x55c0fa308400 -> Node0x55c0fa307df0;
+	Node0x55c0fa307df0 [shape=record,label="{sqlite3.c:120489:}"];
+}

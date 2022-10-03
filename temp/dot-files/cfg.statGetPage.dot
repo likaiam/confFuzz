@@ -1,0 +1,22 @@
+digraph "CFG for 'statGetPage' function" {
+	label="CFG for 'statGetPage' function";
+
+	Node0x55c0fb70db40 [shape=record,label="{sqlite3.c:211429:}"];
+	Node0x55c0fb70db40 -> Node0x55c0fb72e160;
+	Node0x55c0fb70db40 -> Node0x55c0fb72e1b0;
+	Node0x55c0fb72e160 [shape=record,label="{sqlite3.c:211438:}"];
+	Node0x55c0fb72e160 -> Node0x55c0fb72eb90;
+	Node0x55c0fb72e160 -> Node0x55c0fb72ebe0;
+	Node0x55c0fb72eb90 [shape=record,label="{sqlite3.c:211440:}"];
+	Node0x55c0fb72eb90 -> Node0x55c0fb70dcc0;
+	Node0x55c0fb72ebe0 [shape=record,label="{sqlite3.c:211442:}"];
+	Node0x55c0fb72ebe0 -> Node0x55c0fb72e1b0;
+	Node0x55c0fb72e1b0 [shape=record,label="{sqlite3.c:211445:}"];
+	Node0x55c0fb72e1b0 -> Node0x55c0fb72fdd0;
+	Node0x55c0fb72e1b0 -> Node0x55c0fb72fe20;
+	Node0x55c0fb72fdd0 [shape=record,label="{sqlite3.c:211447:}"];
+	Node0x55c0fb72fdd0 -> Node0x55c0fb72fe20;
+	Node0x55c0fb72fe20 [shape=record,label="{sqlite3.c:211452:}"];
+	Node0x55c0fb72fe20 -> Node0x55c0fb70dcc0;
+	Node0x55c0fb70dcc0 [shape=record,label="{sqlite3.c:211453:}"];
+}

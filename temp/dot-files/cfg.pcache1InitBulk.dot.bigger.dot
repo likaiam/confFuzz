@@ -1,0 +1,41 @@
+digraph "CFG for 'pcache1InitBulk' function" {
+	label="CFG for 'pcache1InitBulk' function";
+
+	Node0x55c0fa96ce80 [shape=record,label="{sqlite3.c:52191:}"];
+	Node0x55c0fa96ce80 -> Node0x55c0fa972e40;
+	Node0x55c0fa96ce80 -> Node0x55c0fa972e90;
+	Node0x55c0fa972e40 [shape=record,label="{sqlite3.c:52194:}"];
+	Node0x55c0fa972e40 -> Node0x55c0fa96d000;
+	Node0x55c0fa972e90 [shape=record,label="{sqlite3.c:52196:}"];
+	Node0x55c0fa972e90 -> Node0x55c0fa9732a0;
+	Node0x55c0fa972e90 -> Node0x55c0fa9732f0;
+	Node0x55c0fa9732a0 [shape=record,label="{sqlite3.c:52196:}"];
+	Node0x55c0fa9732a0 -> Node0x55c0fa96d000;
+	Node0x55c0fa9732f0 [shape=record,label="{sqlite3.c:52197:}"];
+	Node0x55c0fa9732f0 -> Node0x55c0fa9739c0;
+	Node0x55c0fa9732f0 -> Node0x55c0fa973a60;
+	Node0x55c0fa9739c0 [shape=record,label="{sqlite3.c:52199:}"];
+	Node0x55c0fa9739c0 -> Node0x55c0fa973a10;
+	Node0x55c0fa973a60 [shape=record,label="{sqlite3.c:52201:}"];
+	Node0x55c0fa973a60 -> Node0x55c0fa973a10;
+	Node0x55c0fa973a10 [shape=record,label="{sqlite3.c:52203:}"];
+	Node0x55c0fa973a10 -> Node0x55c0fa974980;
+	Node0x55c0fa973a10 -> Node0x55c0fa9749d0;
+	Node0x55c0fa974980 [shape=record,label="{sqlite3.c:52204:}"];
+	Node0x55c0fa974980 -> Node0x55c0fa9749d0;
+	Node0x55c0fa9749d0 [shape=record,label="{sqlite3.c:52206:}"];
+	Node0x55c0fa9749d0 -> Node0x55c0fa976030;
+	Node0x55c0fa9749d0 -> Node0x55c0fa976080;
+	Node0x55c0fa976030 [shape=record,label="{sqlite3.c:52209:}"];
+	Node0x55c0fa976030 -> Node0x55c0fa976ba0;
+	Node0x55c0fa976ba0 [shape=record,label="{sqlite3.c:52211:}"];
+	Node0x55c0fa976ba0 -> Node0x55c0fa976b50;
+	Node0x55c0fa976b50 [shape=record,label="{sqlite3.c:52220:}"];
+	Node0x55c0fa976b50 -> Node0x55c0fa976ba0;
+	Node0x55c0fa976b50 -> Node0x55c0fa976b00;
+	Node0x55c0fa976b00 [shape=record,label="{sqlite3.c:52221:}"];
+	Node0x55c0fa976b00 -> Node0x55c0fa976080;
+	Node0x55c0fa976080 [shape=record,label="{sqlite3.c:52222:}"];
+	Node0x55c0fa976080 -> Node0x55c0fa96d000;
+	Node0x55c0fa96d000 [shape=record,label="{sqlite3.c:52223:}"];
+}

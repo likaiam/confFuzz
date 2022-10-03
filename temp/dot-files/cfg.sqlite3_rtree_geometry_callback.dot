@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3_rtree_geometry_callback' function" {
+	label="CFG for 'sqlite3_rtree_geometry_callback' function";
+
+	Node0x55c0f6e96a10 [shape=record,label="{sqlite3.c:204049:}"];
+	Node0x55c0f6e96a10 -> Node0x55c0f5511860;
+	Node0x55c0f6e96a10 -> Node0x55c0f5511810;
+	Node0x55c0f5511810 [shape=record,label="{sqlite3.c:204058:}"];
+	Node0x55c0f5511810 -> Node0x55c0f6e96aa0;
+	Node0x55c0f5511860 [shape=record,label="{sqlite3.c:204059:}"];
+	Node0x55c0f5511860 -> Node0x55c0f6e96aa0;
+	Node0x55c0f6e96aa0 [shape=record,label="{sqlite3.c:204066:}"];
+}

@@ -1,0 +1,12 @@
+digraph "CFG for 'Plink_delete' function" {
+	label="CFG for 'Plink_delete' function";
+
+	Node0x562565317d90 [shape=record,label="{lemon.c:3158:}"];
+	Node0x562565317d90 -> Node0x562565441400;
+	Node0x562565441400 [shape=record,label="{lemon.c:3162:}"];
+	Node0x562565441400 -> Node0x562565441e80;
+	Node0x562565441400 -> Node0x5625654411d0;
+	Node0x562565441e80 [shape=record,label="{lemon.c:3163:}"];
+	Node0x562565441e80 -> Node0x562565441400;
+	Node0x5625654411d0 [shape=record,label="{lemon.c:3168:}"];
+}

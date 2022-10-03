@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3Fts3MallocZero' function" {
+	label="CFG for 'sqlite3Fts3MallocZero' function";
+
+	Node0x55c0fae42cb0 [shape=record,label="{sqlite3.c:183213:}"];
+	Node0x55c0fae42cb0 -> Node0x55c0fae6d190;
+	Node0x55c0fae42cb0 -> Node0x55c0fae5e4b0;
+	Node0x55c0fae6d190 [shape=record,label="{sqlite3.c:183215:}"];
+	Node0x55c0fae6d190 -> Node0x55c0fae5e4b0;
+	Node0x55c0fae5e4b0 [shape=record,label="{sqlite3.c:183216:}"];
+}

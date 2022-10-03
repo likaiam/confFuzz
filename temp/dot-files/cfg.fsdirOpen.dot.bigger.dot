@@ -1,0 +1,12 @@
+digraph "CFG for 'fsdirOpen' function" {
+	label="CFG for 'fsdirOpen' function";
+
+	Node0x56027686de70 [shape=record,label="{shell.c:2740:}"];
+	Node0x56027686de70 -> Node0x56027686e250;
+	Node0x56027686de70 -> Node0x56027687c4a0;
+	Node0x56027686e250 [shape=record,label="{shell.c:2744:}"];
+	Node0x56027686e250 -> Node0x560276878850;
+	Node0x56027687c4a0 [shape=record,label="{shell.c:2745:}"];
+	Node0x56027687c4a0 -> Node0x560276878850;
+	Node0x560276878850 [shape=record,label="{shell.c:2749:}"];
+}

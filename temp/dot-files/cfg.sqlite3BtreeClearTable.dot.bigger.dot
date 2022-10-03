@@ -1,0 +1,15 @@
+digraph "CFG for 'sqlite3BtreeClearTable' function" {
+	label="CFG for 'sqlite3BtreeClearTable' function";
+
+	Node0x55c0f7fd7960 [shape=record,label="{sqlite3.c:76652:}"];
+	Node0x55c0f7fd7960 -> Node0x55c0f7fd9e20;
+	Node0x55c0f7fd7960 -> Node0x55c0f7fd9e70;
+	Node0x55c0f7fd9e20 [shape=record,label="{sqlite3.c:76664:}"];
+	Node0x55c0f7fd9e20 -> Node0x55c0f7fda280;
+	Node0x55c0f7fd9e20 -> Node0x55c0f7fda2d0;
+	Node0x55c0f7fda280 [shape=record,label="{sqlite3.c:76665:}"];
+	Node0x55c0f7fda280 -> Node0x55c0f7fda2d0;
+	Node0x55c0f7fda2d0 [shape=record,label="{sqlite3.c:76667:}"];
+	Node0x55c0f7fda2d0 -> Node0x55c0f7fd9e70;
+	Node0x55c0f7fd9e70 [shape=record,label="{sqlite3.c:76669:}"];
+}

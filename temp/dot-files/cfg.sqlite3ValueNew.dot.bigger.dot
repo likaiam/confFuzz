@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3ValueNew' function" {
+	label="CFG for 'sqlite3ValueNew' function";
+
+	Node0x55c0fa42c2b0 [shape=record,label="{sqlite3.c:80022:}"];
+	Node0x55c0fa42c2b0 -> Node0x55c0fa42d300;
+	Node0x55c0fa42c2b0 -> Node0x55c0fa42c240;
+	Node0x55c0fa42d300 [shape=record,label="{sqlite3.c:80025:}"];
+	Node0x55c0fa42d300 -> Node0x55c0fa42c240;
+	Node0x55c0fa42c240 [shape=record,label="{sqlite3.c:80028:}"];
+}

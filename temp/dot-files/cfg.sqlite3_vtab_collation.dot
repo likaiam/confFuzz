@@ -1,0 +1,25 @@
+digraph "CFG for 'sqlite3_vtab_collation' function" {
+	label="CFG for 'sqlite3_vtab_collation' function";
+
+	Node0x55c0f6704380 [shape=record,label="{sqlite3.c:157466:}"];
+	Node0x55c0f6704380 -> Node0x55c0f523b900;
+	Node0x55c0f6704380 -> Node0x55c0f523b8b0;
+	Node0x55c0f523b900 [shape=record,label="{sqlite3.c:157469:}"];
+	Node0x55c0f523b900 -> Node0x55c0f523b860;
+	Node0x55c0f523b900 -> Node0x55c0f523b8b0;
+	Node0x55c0f523b860 [shape=record,label="{sqlite3.c:157470:}"];
+	Node0x55c0f523b860 -> Node0x55c0f5244110;
+	Node0x55c0f523b860 -> Node0x55c0f5244160;
+	Node0x55c0f5244110 [shape=record,label="{sqlite3.c:157474:}"];
+	Node0x55c0f5244110 -> Node0x55c0f5244160;
+	Node0x55c0f5244160 [shape=record,label="{sqlite3.c:157476:}"];
+	Node0x55c0f5244160 -> Node0x55c0f59853c0;
+	Node0x55c0f5244160 -> Node0x55c0f5244d20;
+	Node0x55c0f59853c0 [shape=record,label="{sqlite3.c:157476:}"];
+	Node0x55c0f59853c0 -> Node0x55c0f5245140;
+	Node0x55c0f5244d20 [shape=record,label="{sqlite3.c:157476:}"];
+	Node0x55c0f5244d20 -> Node0x55c0f5245140;
+	Node0x55c0f5245140 [shape=record,label="{sqlite3.c:157476:}"];
+	Node0x55c0f5245140 -> Node0x55c0f523b8b0;
+	Node0x55c0f523b8b0 [shape=record,label="{sqlite3.c:157478:}"];
+}

@@ -1,0 +1,17 @@
+digraph "CFG for 'sqlite3SectorSize' function" {
+	label="CFG for 'sqlite3SectorSize' function";
+
+	Node0x55c0f56f5910 [shape=record,label="{sqlite3.c:56492:}"];
+	Node0x55c0f56f5910 -> Node0x55c0f52a5130;
+	Node0x55c0f56f5910 -> Node0x55c0f731c860;
+	Node0x55c0f52a5130 [shape=record,label="{sqlite3.c:56495:}"];
+	Node0x55c0f52a5130 -> Node0x55c0f731c640;
+	Node0x55c0f731c860 [shape=record,label="{sqlite3.c:56496:}"];
+	Node0x55c0f731c860 -> Node0x55c0f731cd10;
+	Node0x55c0f731c860 -> Node0x55c0f731cd60;
+	Node0x55c0f731cd10 [shape=record,label="{sqlite3.c:56498:}"];
+	Node0x55c0f731cd10 -> Node0x55c0f731cd60;
+	Node0x55c0f731cd60 [shape=record,label="{%9}"];
+	Node0x55c0f731cd60 -> Node0x55c0f731c640;
+	Node0x55c0f731c640 [shape=record,label="{sqlite3.c:56500:}"];
+}

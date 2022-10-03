@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3PagerMaxPageCount' function" {
+	label="CFG for 'sqlite3PagerMaxPageCount' function";
+
+	Node0x55c0f8535cf0 [shape=record,label="{sqlite3.c:57634:}"];
+	Node0x55c0f8535cf0 -> Node0x55c0f853b6c0;
+	Node0x55c0f8535cf0 -> Node0x55c0f853b7d0;
+	Node0x55c0f853b6c0 [shape=record,label="{sqlite3.c:57636:}"];
+	Node0x55c0f853b6c0 -> Node0x55c0f853b7d0;
+	Node0x55c0f853b7d0 [shape=record,label="{sqlite3.c:57643:}"];
+}

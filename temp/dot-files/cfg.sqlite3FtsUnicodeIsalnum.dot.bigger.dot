@@ -1,0 +1,33 @@
+digraph "CFG for 'sqlite3FtsUnicodeIsalnum' function" {
+	label="CFG for 'sqlite3FtsUnicodeIsalnum' function";
+
+	Node0x55c0faa59410 [shape=record,label="{sqlite3.c:194652:}"];
+	Node0x55c0faa59410 -> Node0x55c0f889b280;
+	Node0x55c0faa59410 -> Node0x55c0f889b320;
+	Node0x55c0f889b280 [shape=record,label="{sqlite3.c:194753:}"];
+	Node0x55c0f889b280 -> Node0x55c0faa59590;
+	Node0x55c0f889b320 [shape=record,label="{sqlite3.c:194754:}"];
+	Node0x55c0f889b320 -> Node0x55c0faa680f0;
+	Node0x55c0f889b320 -> Node0x55c0faa68140;
+	Node0x55c0faa680f0 [shape=record,label="{sqlite3.c:194755:}"];
+	Node0x55c0faa680f0 -> Node0x55c0f889d1a0;
+	Node0x55c0f889d1a0 [shape=record,label="{sqlite3.c:194759:}"];
+	Node0x55c0f889d1a0 -> Node0x55c0f889d5c0;
+	Node0x55c0f889d1a0 -> Node0x55c0f889d300;
+	Node0x55c0f889d5c0 [shape=record,label="{sqlite3.c:194760:}"];
+	Node0x55c0f889d5c0 -> Node0x55c0f889de00;
+	Node0x55c0f889d5c0 -> Node0x55c0f889dea0;
+	Node0x55c0f889de00 [shape=record,label="{sqlite3.c:194762:}"];
+	Node0x55c0f889de00 -> Node0x55c0f889de50;
+	Node0x55c0f889dea0 [shape=record,label="{sqlite3.c:194765:}"];
+	Node0x55c0f889dea0 -> Node0x55c0f889de50;
+	Node0x55c0f889de50 [shape=record,label="{sqlite3.c:194759:}"];
+	Node0x55c0f889de50 -> Node0x55c0f889d1a0;
+	Node0x55c0f889d300 [shape=record,label="{sqlite3.c:194770:}"];
+	Node0x55c0f889d300 -> Node0x55c0faa59590;
+	Node0x55c0faa68140 [shape=record,label="{%58}"];
+	Node0x55c0faa68140 -> Node0x55c0f889b2d0;
+	Node0x55c0f889b2d0 [shape=record,label="{sqlite3.c:194772:}"];
+	Node0x55c0f889b2d0 -> Node0x55c0faa59590;
+	Node0x55c0faa59590 [shape=record,label="{sqlite3.c:194773:}"];
+}

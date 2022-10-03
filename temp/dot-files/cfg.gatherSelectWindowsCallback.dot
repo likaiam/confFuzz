@@ -1,0 +1,13 @@
+digraph "CFG for 'gatherSelectWindowsCallback' function" {
+	label="CFG for 'gatherSelectWindowsCallback' function";
+
+	Node0x55c0f5f0b670 [shape=record,label="{sqlite3.c:105116:}"];
+	Node0x55c0f5f0b670 -> Node0x55c0f8ce6690;
+	Node0x55c0f5f0b670 -> Node0x55c0f8ce6640;
+	Node0x55c0f8ce6690 [shape=record,label="{sqlite3.c:105117:}"];
+	Node0x55c0f8ce6690 -> Node0x55c0f8ce65f0;
+	Node0x55c0f8ce6690 -> Node0x55c0f8ce6640;
+	Node0x55c0f8ce65f0 [shape=record,label="{sqlite3.c:105118:}"];
+	Node0x55c0f8ce65f0 -> Node0x55c0f8ce6640;
+	Node0x55c0f8ce6640 [shape=record,label="{sqlite3.c:105125:}"];
+}

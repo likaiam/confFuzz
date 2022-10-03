@@ -1,0 +1,15 @@
+digraph "CFG for 'sqlite3DeleteTrigger' function" {
+	label="CFG for 'sqlite3DeleteTrigger' function";
+
+	Node0x55c0f790fea0 [shape=record,label="{sqlite3.c:144048:}"];
+	Node0x55c0f790fea0 -> Node0x55c0f791da00;
+	Node0x55c0f790fea0 -> Node0x55c0f79100d0;
+	Node0x55c0f79100d0 [shape=record,label="{sqlite3.c:144049:}"];
+	Node0x55c0f79100d0 -> Node0x55c0f791da00;
+	Node0x55c0f79100d0 -> Node0x55c0f791dc70;
+	Node0x55c0f791da00 [shape=record,label="{sqlite3.c:144049:}"];
+	Node0x55c0f791da00 -> Node0x55c0f7910020;
+	Node0x55c0f791dc70 [shape=record,label="{sqlite3.c:144050:}"];
+	Node0x55c0f791dc70 -> Node0x55c0f7910020;
+	Node0x55c0f7910020 [shape=record,label="{sqlite3.c:144056:}"];
+}

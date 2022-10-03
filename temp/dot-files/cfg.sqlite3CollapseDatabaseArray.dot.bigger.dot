@@ -1,0 +1,32 @@
+digraph "CFG for 'sqlite3CollapseDatabaseArray' function" {
+	label="CFG for 'sqlite3CollapseDatabaseArray' function";
+
+	Node0x55c0f60c6df0 [shape=record,label="{sqlite3.c:115689:}"];
+	Node0x55c0f60c6df0 -> Node0x55c0f86bfc60;
+	Node0x55c0f86bfc60 [shape=record,label="{sqlite3.c:115691:}"];
+	Node0x55c0f86bfc60 -> Node0x55c0f86bfd70;
+	Node0x55c0f86bfc60 -> Node0x55c0f86bec10;
+	Node0x55c0f86bfd70 [shape=record,label="{sqlite3.c:115692:}"];
+	Node0x55c0f86bfd70 -> Node0x55c0f86c0a40;
+	Node0x55c0f86bfd70 -> Node0x55c0f86c0a90;
+	Node0x55c0f86c0a40 [shape=record,label="{sqlite3.c:115694:}"];
+	Node0x55c0f86c0a40 -> Node0x55c0f86bfce0;
+	Node0x55c0f86c0a90 [shape=record,label="{sqlite3.c:115698:}"];
+	Node0x55c0f86c0a90 -> Node0x55c0f86c16d0;
+	Node0x55c0f86c0a90 -> Node0x55c0f86c1720;
+	Node0x55c0f86c16d0 [shape=record,label="{sqlite3.c:115699:}"];
+	Node0x55c0f86c16d0 -> Node0x55c0f86c1720;
+	Node0x55c0f86c1720 [shape=record,label="{sqlite3.c:115701:}"];
+	Node0x55c0f86c1720 -> Node0x55c0f86bfce0;
+	Node0x55c0f86bfce0 [shape=record,label="{sqlite3.c:115691:}"];
+	Node0x55c0f86bfce0 -> Node0x55c0f86bfc60;
+	Node0x55c0f86bec10 [shape=record,label="{sqlite3.c:115703:}"];
+	Node0x55c0f86bec10 -> Node0x55c0f86c2ed0;
+	Node0x55c0f86bec10 -> Node0x55c0f86c2e80;
+	Node0x55c0f86c2ed0 [shape=record,label="{sqlite3.c:115704:}"];
+	Node0x55c0f86c2ed0 -> Node0x55c0f86c2e30;
+	Node0x55c0f86c2ed0 -> Node0x55c0f86c2e80;
+	Node0x55c0f86c2e30 [shape=record,label="{sqlite3.c:115705:}"];
+	Node0x55c0f86c2e30 -> Node0x55c0f86c2e80;
+	Node0x55c0f86c2e80 [shape=record,label="{sqlite3.c:115709:}"];
+}

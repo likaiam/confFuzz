@@ -1,0 +1,10 @@
+digraph "CFG for 'fts3SegWriterFree' function" {
+	label="CFG for 'fts3SegWriterFree' function";
+
+	Node0x55c0fb0d95a0 [shape=record,label="{sqlite3.c:189077:}"];
+	Node0x55c0fb0d95a0 -> Node0x55c0fb0e0a80;
+	Node0x55c0fb0d95a0 -> Node0x55c0fb0d9490;
+	Node0x55c0fb0e0a80 [shape=record,label="{sqlite3.c:189079:}"];
+	Node0x55c0fb0e0a80 -> Node0x55c0fb0d9490;
+	Node0x55c0fb0d9490 [shape=record,label="{sqlite3.c:189084:}"];
+}

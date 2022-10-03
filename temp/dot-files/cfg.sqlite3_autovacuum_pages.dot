@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3_autovacuum_pages' function" {
+	label="CFG for 'sqlite3_autovacuum_pages' function";
+
+	Node0x55c0f6a2fab0 [shape=record,label="{sqlite3.c:172603:}"];
+	Node0x55c0f6a2fab0 -> Node0x55c0f6a53d00;
+	Node0x55c0f6a2fab0 -> Node0x55c0f6a53d50;
+	Node0x55c0f6a53d00 [shape=record,label="{sqlite3.c:172616:}"];
+	Node0x55c0f6a53d00 -> Node0x55c0f6a53d50;
+	Node0x55c0f6a53d50 [shape=record,label="{sqlite3.c:172618:}"];
+}

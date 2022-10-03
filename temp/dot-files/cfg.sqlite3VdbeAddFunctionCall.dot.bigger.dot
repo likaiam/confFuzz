@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3VdbeAddFunctionCall' function" {
+	label="CFG for 'sqlite3VdbeAddFunctionCall' function";
+
+	Node0x55c0f8bdec80 [shape=record,label="{sqlite3.c:80996:}"];
+	Node0x55c0f8bdec80 -> Node0x55c0f8beb800;
+	Node0x55c0f8bdec80 -> Node0x55c0f8beb850;
+	Node0x55c0f8beb800 [shape=record,label="{sqlite3.c:81013:}"];
+	Node0x55c0f8beb800 -> Node0x55c0f8bdee00;
+	Node0x55c0f8beb850 [shape=record,label="{sqlite3.c:81016:}"];
+	Node0x55c0f8beb850 -> Node0x55c0f8bdee00;
+	Node0x55c0f8bdee00 [shape=record,label="{sqlite3.c:81026:}"];
+}

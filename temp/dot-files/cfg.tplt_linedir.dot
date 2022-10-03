@@ -1,0 +1,17 @@
+digraph "CFG for 'tplt_linedir' function" {
+	label="CFG for 'tplt_linedir' function";
+
+	Node0x5625654beef0 [shape=record,label="{lemon.c:3695:}"];
+	Node0x5625654beef0 -> Node0x5625653aad60;
+	Node0x5625653aad60 [shape=record,label="{lemon.c:3698:}"];
+	Node0x5625653aad60 -> Node0x5625653aaf20;
+	Node0x5625653aad60 -> Node0x5625653aade0;
+	Node0x5625653aaf20 [shape=record,label="{lemon.c:3699:}"];
+	Node0x5625653aaf20 -> Node0x5625653ab130;
+	Node0x5625653aaf20 -> Node0x5625653ab180;
+	Node0x5625653ab130 [shape=record,label="{lemon.c:3699:}"];
+	Node0x5625653ab130 -> Node0x5625653ab180;
+	Node0x5625653ab180 [shape=record,label="{lemon.c:3700:}"];
+	Node0x5625653ab180 -> Node0x5625653aad60;
+	Node0x5625653aade0 [shape=record,label="{lemon.c:3703:}"];
+}

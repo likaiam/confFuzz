@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3StatusUp' function" {
+	label="CFG for 'sqlite3StatusUp' function";
+
+	Node0x55c0f6fae5f0 [shape=record,label="{sqlite3.c:22916:}"];
+	Node0x55c0f6fae5f0 -> Node0x55c0f6fafcc0;
+	Node0x55c0f6fae5f0 -> Node0x55c0f6fafd10;
+	Node0x55c0f6fafcc0 [shape=record,label="{sqlite3.c:22924:}"];
+	Node0x55c0f6fafcc0 -> Node0x55c0f6fafd10;
+	Node0x55c0f6fafd10 [shape=record,label="{sqlite3.c:22926:}"];
+}

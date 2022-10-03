@@ -1,0 +1,37 @@
+digraph "CFG for 're_hex' function" {
+	label="CFG for 're_hex' function";
+
+	Node0x560276a46440 [shape=record,label="{shell.c:6314:}"];
+	Node0x560276a46440 -> Node0x560276a56470;
+	Node0x560276a46440 -> Node0x560276a56420;
+	Node0x560276a56470 [shape=record,label="{shell.c:6315:}"];
+	Node0x560276a56470 -> Node0x560276a55c10;
+	Node0x560276a56470 -> Node0x560276a56420;
+	Node0x560276a55c10 [shape=record,label="{shell.c:6316:}"];
+	Node0x560276a55c10 -> Node0x560276a563d0;
+	Node0x560276a56420 [shape=record,label="{shell.c:6317:}"];
+	Node0x560276a56420 -> Node0x560276a56ce0;
+	Node0x560276a56420 -> Node0x560276a56c90;
+	Node0x560276a56ce0 [shape=record,label="{shell.c:6317:}"];
+	Node0x560276a56ce0 -> Node0x560276a56bf0;
+	Node0x560276a56ce0 -> Node0x560276a56c90;
+	Node0x560276a56bf0 [shape=record,label="{shell.c:6318:}"];
+	Node0x560276a56bf0 -> Node0x560276a56c40;
+	Node0x560276a56c90 [shape=record,label="{shell.c:6319:}"];
+	Node0x560276a56c90 -> Node0x560276a57760;
+	Node0x560276a56c90 -> Node0x560276a57710;
+	Node0x560276a57760 [shape=record,label="{shell.c:6319:}"];
+	Node0x560276a57760 -> Node0x560276a57670;
+	Node0x560276a57760 -> Node0x560276a57710;
+	Node0x560276a57670 [shape=record,label="{shell.c:6320:}"];
+	Node0x560276a57670 -> Node0x560276a576c0;
+	Node0x560276a57710 [shape=record,label="{shell.c:6322:}"];
+	Node0x560276a57710 -> Node0x560276a465c0;
+	Node0x560276a576c0 [shape=record,label="{%23}"];
+	Node0x560276a576c0 -> Node0x560276a56c40;
+	Node0x560276a56c40 [shape=record,label="{%24}"];
+	Node0x560276a56c40 -> Node0x560276a563d0;
+	Node0x560276a563d0 [shape=record,label="{shell.c:6324:}"];
+	Node0x560276a563d0 -> Node0x560276a465c0;
+	Node0x560276a465c0 [shape=record,label="{shell.c:6326:}"];
+}

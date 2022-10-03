@@ -1,0 +1,38 @@
+digraph "CFG for 'zipfileConnect' function" {
+	label="CFG for 'zipfileConnect' function";
+
+	Node0x560276a79920 [shape=record,label="{shell.c:7046:}"];
+	Node0x560276a79920 -> Node0x560276a98190;
+	Node0x560276a79920 -> Node0x560276a98110;
+	Node0x560276a98190 [shape=record,label="{shell.c:7068:}"];
+	Node0x560276a98190 -> Node0x560276a98070;
+	Node0x560276a98190 -> Node0x560276a98110;
+	Node0x560276a98110 [shape=record,label="{shell.c:7068:}"];
+	Node0x560276a98110 -> Node0x560276a98070;
+	Node0x560276a98110 -> Node0x560276a980c0;
+	Node0x560276a98070 [shape=record,label="{shell.c:7069:}"];
+	Node0x560276a98070 -> Node0x5602763ef790;
+	Node0x560276a980c0 [shape=record,label="{shell.c:7073:}"];
+	Node0x560276a980c0 -> Node0x560276a99650;
+	Node0x560276a980c0 -> Node0x560276a996a0;
+	Node0x560276a99650 [shape=record,label="{shell.c:7074:}"];
+	Node0x560276a99650 -> Node0x560276a996a0;
+	Node0x560276a996a0 [shape=record,label="{shell.c:7078:}"];
+	Node0x560276a996a0 -> Node0x560276379880;
+	Node0x560276a996a0 -> Node0x560276a9a2e0;
+	Node0x560276379880 [shape=record,label="{shell.c:7080:}"];
+	Node0x560276379880 -> Node0x560276a9abf0;
+	Node0x560276379880 -> Node0x560276a9ac40;
+	Node0x560276a9abf0 [shape=record,label="{shell.c:7081:}"];
+	Node0x560276a9abf0 -> Node0x5602763ef790;
+	Node0x560276a9ac40 [shape=record,label="{shell.c:7082:}"];
+	Node0x560276a9ac40 -> Node0x560276a9bdd0;
+	Node0x560276a9ac40 -> Node0x560276a9be20;
+	Node0x560276a9bdd0 [shape=record,label="{shell.c:7086:}"];
+	Node0x560276a9bdd0 -> Node0x560276a9be20;
+	Node0x560276a9be20 [shape=record,label="{shell.c:7090:}"];
+	Node0x560276a9be20 -> Node0x560276a9a2e0;
+	Node0x560276a9a2e0 [shape=record,label="{shell.c:7091:}"];
+	Node0x560276a9a2e0 -> Node0x5602763ef790;
+	Node0x5602763ef790 [shape=record,label="{shell.c:7094:}"];
+}

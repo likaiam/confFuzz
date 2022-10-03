@@ -1,0 +1,29 @@
+digraph "CFG for 'connectionIsBusy' function" {
+	label="CFG for 'connectionIsBusy' function";
+
+	Node0x55c0fa9b2fb0 [shape=record,label="{sqlite3.c:171476:}"];
+	Node0x55c0fa9b2fb0 -> Node0x55c0fa9b5970;
+	Node0x55c0fa9b2fb0 -> Node0x55c0fa9b3420;
+	Node0x55c0fa9b5970 [shape=record,label="{sqlite3.c:171479:}"];
+	Node0x55c0fa9b5970 -> Node0x55c0fa9b3130;
+	Node0x55c0fa9b3420 [shape=record,label="{sqlite3.c:171480:}"];
+	Node0x55c0fa9b3420 -> Node0x55c0fa9b6780;
+	Node0x55c0fa9b6780 [shape=record,label="{sqlite3.c:171480:}"];
+	Node0x55c0fa9b6780 -> Node0x55c0fa9b69a0;
+	Node0x55c0fa9b6780 -> Node0x55c0fa9b5bb0;
+	Node0x55c0fa9b69a0 [shape=record,label="{sqlite3.c:171481:}"];
+	Node0x55c0fa9b69a0 -> Node0x55c0fa9b7840;
+	Node0x55c0fa9b69a0 -> Node0x55c0fa9b77f0;
+	Node0x55c0fa9b7840 [shape=record,label="{sqlite3.c:171482:}"];
+	Node0x55c0fa9b7840 -> Node0x55c0fa9b77a0;
+	Node0x55c0fa9b7840 -> Node0x55c0fa9b77f0;
+	Node0x55c0fa9b77a0 [shape=record,label="{sqlite3.c:171482:}"];
+	Node0x55c0fa9b77a0 -> Node0x55c0fa9b3130;
+	Node0x55c0fa9b77f0 [shape=record,label="{sqlite3.c:171483:}"];
+	Node0x55c0fa9b77f0 -> Node0x55c0fa9b6910;
+	Node0x55c0fa9b6910 [shape=record,label="{sqlite3.c:171480:}"];
+	Node0x55c0fa9b6910 -> Node0x55c0fa9b6780;
+	Node0x55c0fa9b5bb0 [shape=record,label="{sqlite3.c:171484:}"];
+	Node0x55c0fa9b5bb0 -> Node0x55c0fa9b3130;
+	Node0x55c0fa9b3130 [shape=record,label="{sqlite3.c:171485:}"];
+}

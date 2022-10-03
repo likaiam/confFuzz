@@ -1,0 +1,21 @@
+digraph "CFG for 'isAlterableTable' function" {
+	label="CFG for 'isAlterableTable' function";
+
+	Node0x55c0f5f153a0 [shape=record,label="{sqlite3.c:110018:}"];
+	Node0x55c0f5f153a0 -> Node0x55c0fa3823f0;
+	Node0x55c0f5f153a0 -> Node0x55c0fa370a10;
+	Node0x55c0fa370a10 [shape=record,label="{sqlite3.c:110021:}"];
+	Node0x55c0fa370a10 -> Node0x55c0fa3823f0;
+	Node0x55c0fa370a10 -> Node0x55c0fa370990;
+	Node0x55c0fa370990 [shape=record,label="{sqlite3.c:110022:}"];
+	Node0x55c0fa370990 -> Node0x55c0fa382e80;
+	Node0x55c0fa370990 -> Node0x55c0fa382500;
+	Node0x55c0fa382e80 [shape=record,label="{sqlite3.c:110023:}"];
+	Node0x55c0fa382e80 -> Node0x55c0fa3823f0;
+	Node0x55c0fa382e80 -> Node0x55c0fa382500;
+	Node0x55c0fa3823f0 [shape=record,label="{sqlite3.c:110027:}"];
+	Node0x55c0fa3823f0 -> Node0x55c0fa37fc20;
+	Node0x55c0fa382500 [shape=record,label="{sqlite3.c:110030:}"];
+	Node0x55c0fa382500 -> Node0x55c0fa37fc20;
+	Node0x55c0fa37fc20 [shape=record,label="{sqlite3.c:110031:}"];
+}

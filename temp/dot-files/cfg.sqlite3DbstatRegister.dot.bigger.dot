@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3DbstatRegister' function" {
+	label="CFG for 'sqlite3DbstatRegister' function";
+
+	Node0x55c0fb6cf670 [shape=record,label="{sqlite3.c:211762:}"];
+}

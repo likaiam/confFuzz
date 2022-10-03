@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3BtreeGetJournalname' function" {
+	label="CFG for 'sqlite3BtreeGetJournalname' function";
+
+	Node0x55c0f7a8d060 [shape=record,label="{sqlite3.c:77636:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'seriesRowid' function" {
+	label="CFG for 'seriesRowid' function";
+
+	Node0x5602769e40b0 [shape=record,label="{shell.c:5671:}"];
+}

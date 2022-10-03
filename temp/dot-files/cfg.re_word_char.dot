@@ -1,0 +1,25 @@
+digraph "CFG for 're_word_char' function" {
+	label="CFG for 're_word_char' function";
+
+	Node0x560276a7ee70 [shape=record,label="{shell.c:6104:}"];
+	Node0x560276a7ee70 -> Node0x560276a7f040;
+	Node0x560276a7ee70 -> Node0x560276a8aae0;
+	Node0x560276a7f040 [shape=record,label="{shell.c:6105:}"];
+	Node0x560276a7f040 -> Node0x560276a8af50;
+	Node0x560276a7f040 -> Node0x560276a8aae0;
+	Node0x560276a8aae0 [shape=record,label="{shell.c:6105:}"];
+	Node0x560276a8aae0 -> Node0x560276a8b620;
+	Node0x560276a8aae0 -> Node0x560276a88bc0;
+	Node0x560276a8b620 [shape=record,label="{shell.c:6105:}"];
+	Node0x560276a8b620 -> Node0x560276a8af50;
+	Node0x560276a8b620 -> Node0x560276a88bc0;
+	Node0x560276a88bc0 [shape=record,label="{shell.c:6106:}"];
+	Node0x560276a88bc0 -> Node0x560276a8bae0;
+	Node0x560276a88bc0 -> Node0x560276a8aa90;
+	Node0x560276a8bae0 [shape=record,label="{shell.c:6106:}"];
+	Node0x560276a8bae0 -> Node0x560276a8af50;
+	Node0x560276a8bae0 -> Node0x560276a8aa90;
+	Node0x560276a8aa90 [shape=record,label="{shell.c:6106:}"];
+	Node0x560276a8aa90 -> Node0x560276a8af50;
+	Node0x560276a8af50 [shape=record,label="{shell.c:6106:}"];
+}

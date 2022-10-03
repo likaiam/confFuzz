@@ -1,0 +1,30 @@
+digraph "CFG for 'sqlite3PagerWrite' function" {
+	label="CFG for 'sqlite3PagerWrite' function";
+
+	Node0x55c0f721e030 [shape=record,label="{sqlite3.c:60012:}"];
+	Node0x55c0f721e030 -> Node0x55c0f721f710;
+	Node0x55c0f721e030 -> Node0x55c0f721f6c0;
+	Node0x55c0f721f710 [shape=record,label="{sqlite3.c:60017:}"];
+	Node0x55c0f721f710 -> Node0x55c0f721e9e0;
+	Node0x55c0f721f710 -> Node0x55c0f721f6c0;
+	Node0x55c0f721e9e0 [shape=record,label="{sqlite3.c:60018:}"];
+	Node0x55c0f721e9e0 -> Node0x55c0f72201f0;
+	Node0x55c0f721e9e0 -> Node0x55c0f7220240;
+	Node0x55c0f72201f0 [shape=record,label="{sqlite3.c:60018:}"];
+	Node0x55c0f72201f0 -> Node0x55c0f721e1b0;
+	Node0x55c0f7220240 [shape=record,label="{sqlite3.c:60019:}"];
+	Node0x55c0f7220240 -> Node0x55c0f721e1b0;
+	Node0x55c0f721f6c0 [shape=record,label="{sqlite3.c:60020:}"];
+	Node0x55c0f721f6c0 -> Node0x55c0f7220a90;
+	Node0x55c0f721f6c0 -> Node0x55c0f7220b30;
+	Node0x55c0f7220a90 [shape=record,label="{sqlite3.c:60021:}"];
+	Node0x55c0f7220a90 -> Node0x55c0f721e1b0;
+	Node0x55c0f7220b30 [shape=record,label="{sqlite3.c:60022:}"];
+	Node0x55c0f7220b30 -> Node0x55c0f7221360;
+	Node0x55c0f7220b30 -> Node0x55c0f7221400;
+	Node0x55c0f7221360 [shape=record,label="{sqlite3.c:60024:}"];
+	Node0x55c0f7221360 -> Node0x55c0f721e1b0;
+	Node0x55c0f7221400 [shape=record,label="{sqlite3.c:60026:}"];
+	Node0x55c0f7221400 -> Node0x55c0f721e1b0;
+	Node0x55c0f721e1b0 [shape=record,label="{sqlite3.c:60028:}"];
+}

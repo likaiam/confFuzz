@@ -1,0 +1,21 @@
+digraph "CFG for 'sqlite3PCachePercentDirty' function" {
+	label="CFG for 'sqlite3PCachePercentDirty' function";
+
+	Node0x55c0f57eaae0 [shape=record,label="{sqlite3.c:51869:}"];
+	Node0x55c0f57eaae0 -> Node0x55c0f75dc8e0;
+	Node0x55c0f75dc8e0 [shape=record,label="{sqlite3.c:51873:}"];
+	Node0x55c0f75dc8e0 -> Node0x55c0f75dcb00;
+	Node0x55c0f75dc8e0 -> Node0x55c0f75dc560;
+	Node0x55c0f75dcb00 [shape=record,label="{sqlite3.c:51873:}"];
+	Node0x55c0f75dcb00 -> Node0x55c0f75dca70;
+	Node0x55c0f75dca70 [shape=record,label="{sqlite3.c:51873:}"];
+	Node0x55c0f75dca70 -> Node0x55c0f75dc8e0;
+	Node0x55c0f75dc560 [shape=record,label="{sqlite3.c:51874:}"];
+	Node0x55c0f75dc560 -> Node0x55c0f75dd4c0;
+	Node0x55c0f75dc560 -> Node0x55c0f75dd510;
+	Node0x55c0f75dd4c0 [shape=record,label="{sqlite3.c:51874:}"];
+	Node0x55c0f75dd4c0 -> Node0x55c0f75dd560;
+	Node0x55c0f75dd510 [shape=record,label="{sqlite3.c:51874:}"];
+	Node0x55c0f75dd510 -> Node0x55c0f75dd560;
+	Node0x55c0f75dd560 [shape=record,label="{sqlite3.c:51874:}"];
+}

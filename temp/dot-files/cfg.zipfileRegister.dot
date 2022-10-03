@@ -1,0 +1,15 @@
+digraph "CFG for 'zipfileRegister' function" {
+	label="CFG for 'zipfileRegister' function";
+
+	Node0x5602769f41e0 [shape=record,label="{shell.c:8858:}"];
+	Node0x5602769f41e0 -> Node0x5602763a7490;
+	Node0x5602769f41e0 -> Node0x5602763b2b70;
+	Node0x5602763a7490 [shape=record,label="{shell.c:8887:}"];
+	Node0x5602763a7490 -> Node0x5602763b2b70;
+	Node0x5602763b2b70 [shape=record,label="{shell.c:8888:}"];
+	Node0x5602763b2b70 -> Node0x5602763a73f0;
+	Node0x5602763b2b70 -> Node0x5602763a6f30;
+	Node0x5602763a73f0 [shape=record,label="{shell.c:8889:}"];
+	Node0x5602763a73f0 -> Node0x5602763a6f30;
+	Node0x5602763a6f30 [shape=record,label="{shell.c:8897:}"];
+}

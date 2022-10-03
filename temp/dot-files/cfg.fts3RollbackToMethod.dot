@@ -1,0 +1,5 @@
+digraph "CFG for 'fts3RollbackToMethod' function" {
+	label="CFG for 'fts3RollbackToMethod' function";
+
+	Node0x55c0fb3c2db0 [shape=record,label="{sqlite3.c:180371:}"];
+}

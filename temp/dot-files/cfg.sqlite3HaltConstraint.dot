@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3HaltConstraint' function" {
+	label="CFG for 'sqlite3HaltConstraint' function";
+
+	Node0x55c0f8d50ba0 [shape=record,label="{sqlite3.c:120377:}"];
+	Node0x55c0f8d50ba0 -> Node0x55c0f8d54520;
+	Node0x55c0f8d50ba0 -> Node0x55c0f8d54570;
+	Node0x55c0f8d54520 [shape=record,label="{sqlite3.c:120389:}"];
+	Node0x55c0f8d54520 -> Node0x55c0f8d54570;
+	Node0x55c0f8d54570 [shape=record,label="{sqlite3.c:120391:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'juliandayFunc' function" {
+	label="CFG for 'juliandayFunc' function";
+
+	Node0x55c0f506ea30 [shape=record,label="{sqlite3.c:24204:}"];
+	Node0x55c0f506ea30 -> Node0x55c0fa715c30;
+	Node0x55c0f506ea30 -> Node0x55c0fa715c80;
+	Node0x55c0fa715c30 [shape=record,label="{sqlite3.c:24210:}"];
+	Node0x55c0fa715c30 -> Node0x55c0fa715c80;
+	Node0x55c0fa715c80 [shape=record,label="{sqlite3.c:24213:}"];
+}

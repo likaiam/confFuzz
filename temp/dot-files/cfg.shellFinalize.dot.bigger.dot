@@ -1,0 +1,20 @@
+digraph "CFG for 'shellFinalize' function" {
+	label="CFG for 'shellFinalize' function";
+
+	Node0x56027658f970 [shape=record,label="{shell.c:17462:}"];
+	Node0x56027658f970 -> Node0x5602765cec70;
+	Node0x56027658f970 -> Node0x5602765cecc0;
+	Node0x5602765cec70 [shape=record,label="{shell.c:17466:}"];
+	Node0x5602765cec70 -> Node0x5602765cfe30;
+	Node0x5602765cec70 -> Node0x5602765cfe80;
+	Node0x5602765cfe30 [shape=record,label="{shell.c:17469:}"];
+	Node0x5602765cfe30 -> Node0x5602765d01e0;
+	Node0x5602765cfe30 -> Node0x5602765d0230;
+	Node0x5602765d01e0 [shape=record,label="{shell.c:17470:}"];
+	Node0x5602765d01e0 -> Node0x5602765d0230;
+	Node0x5602765d0230 [shape=record,label="{shell.c:17472:}"];
+	Node0x5602765d0230 -> Node0x5602765cfe80;
+	Node0x5602765cfe80 [shape=record,label="{shell.c:17474:}"];
+	Node0x5602765cfe80 -> Node0x5602765cecc0;
+	Node0x5602765cecc0 [shape=record,label="{shell.c:17475:}"];
+}

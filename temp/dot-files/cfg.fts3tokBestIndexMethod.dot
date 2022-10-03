@@ -1,0 +1,27 @@
+digraph "CFG for 'fts3tokBestIndexMethod' function" {
+	label="CFG for 'fts3tokBestIndexMethod' function";
+
+	Node0x55c0fb3dd250 [shape=record,label="{sqlite3.c:186430:}"];
+	Node0x55c0fb3dd250 -> Node0x55c0fb3e0470;
+	Node0x55c0fb3e0470 [shape=record,label="{sqlite3.c:186436:}"];
+	Node0x55c0fb3e0470 -> Node0x55c0fb3e0620;
+	Node0x55c0fb3e0470 -> Node0x55c0fb3dfa70;
+	Node0x55c0fb3e0620 [shape=record,label="{sqlite3.c:186437:}"];
+	Node0x55c0fb3e0620 -> Node0x55c0fb3e0d20;
+	Node0x55c0fb3e0620 -> Node0x55c0fb3e0c50;
+	Node0x55c0fb3e0d20 [shape=record,label="{sqlite3.c:186438:}"];
+	Node0x55c0fb3e0d20 -> Node0x55c0fb3e0ca0;
+	Node0x55c0fb3e0d20 -> Node0x55c0fb3e0c50;
+	Node0x55c0fb3e0ca0 [shape=record,label="{sqlite3.c:186439:}"];
+	Node0x55c0fb3e0ca0 -> Node0x55c0fb3e0c00;
+	Node0x55c0fb3e0ca0 -> Node0x55c0fb3e0c50;
+	Node0x55c0fb3e0c00 [shape=record,label="{sqlite3.c:186441:}"];
+	Node0x55c0fb3e0c00 -> Node0x55c0fb3dd3d0;
+	Node0x55c0fb3e0c50 [shape=record,label="{sqlite3.c:186447:}"];
+	Node0x55c0fb3e0c50 -> Node0x55c0fb3e0590;
+	Node0x55c0fb3e0590 [shape=record,label="{sqlite3.c:186436:}"];
+	Node0x55c0fb3e0590 -> Node0x55c0fb3e0470;
+	Node0x55c0fb3dfa70 [shape=record,label="{sqlite3.c:186449:}"];
+	Node0x55c0fb3dfa70 -> Node0x55c0fb3dd3d0;
+	Node0x55c0fb3dd3d0 [shape=record,label="{sqlite3.c:186453:}"];
+}

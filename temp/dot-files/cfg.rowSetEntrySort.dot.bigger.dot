@@ -1,0 +1,42 @@
+digraph "CFG for 'rowSetEntrySort' function" {
+	label="CFG for 'rowSetEntrySort' function";
+
+	Node0x55c0f8477ee0 [shape=record,label="{sqlite3.c:53464:}"];
+	Node0x55c0f8477ee0 -> Node0x55c0f847b3f0;
+	Node0x55c0f847b3f0 [shape=record,label="{sqlite3.c:53469:}"];
+	Node0x55c0f847b3f0 -> Node0x55c0f847b6d0;
+	Node0x55c0f847b3f0 -> Node0x55c0f847b550;
+	Node0x55c0f847b6d0 [shape=record,label="{sqlite3.c:53470:}"];
+	Node0x55c0f847b6d0 -> Node0x55c0f847bf90;
+	Node0x55c0f847bf90 [shape=record,label="{sqlite3.c:53472:}"];
+	Node0x55c0f847bf90 -> Node0x55c0f847c1b0;
+	Node0x55c0f847bf90 -> Node0x55c0f847bde0;
+	Node0x55c0f847c1b0 [shape=record,label="{sqlite3.c:53473:}"];
+	Node0x55c0f847c1b0 -> Node0x55c0f847c120;
+	Node0x55c0f847c120 [shape=record,label="{sqlite3.c:53472:}"];
+	Node0x55c0f847c120 -> Node0x55c0f847bf90;
+	Node0x55c0f847bde0 [shape=record,label="{sqlite3.c:53476:}"];
+	Node0x55c0f847bde0 -> Node0x55c0f847b3f0;
+	Node0x55c0f847b550 [shape=record,label="{sqlite3.c:53479:}"];
+	Node0x55c0f847b550 -> Node0x55c0f847cdd0;
+	Node0x55c0f847cdd0 [shape=record,label="{sqlite3.c:53480:}"];
+	Node0x55c0f847cdd0 -> Node0x55c0f847df10;
+	Node0x55c0f847cdd0 -> Node0x55c0f5810cc0;
+	Node0x55c0f847df10 [shape=record,label="{sqlite3.c:53481:}"];
+	Node0x55c0f847df10 -> Node0x55c0f847e3f0;
+	Node0x55c0f847df10 -> Node0x55c0f847e440;
+	Node0x55c0f847e3f0 [shape=record,label="{sqlite3.c:53481:}"];
+	Node0x55c0f847e3f0 -> Node0x55c0f847de80;
+	Node0x55c0f847e440 [shape=record,label="{sqlite3.c:53482:}"];
+	Node0x55c0f847e440 -> Node0x55c0f847e990;
+	Node0x55c0f847e440 -> Node0x55c0f847e9e0;
+	Node0x55c0f847e990 [shape=record,label="{sqlite3.c:53482:}"];
+	Node0x55c0f847e990 -> Node0x55c0f847ea30;
+	Node0x55c0f847e9e0 [shape=record,label="{sqlite3.c:53482:}"];
+	Node0x55c0f847e9e0 -> Node0x55c0f847ea30;
+	Node0x55c0f847ea30 [shape=record,label="{sqlite3.c:53482:}"];
+	Node0x55c0f847ea30 -> Node0x55c0f847de80;
+	Node0x55c0f847de80 [shape=record,label="{sqlite3.c:53480:}"];
+	Node0x55c0f847de80 -> Node0x55c0f847cdd0;
+	Node0x55c0f5810cc0 [shape=record,label="{sqlite3.c:53484:}"];
+}

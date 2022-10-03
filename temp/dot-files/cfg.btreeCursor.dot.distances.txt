@@ -1,0 +1,13 @@
+sqlite3.c:71313,36.0
+sqlite3.c:71343,39.0
+sqlite3.c:71345,38.0
+sqlite3.c:71347,38.0
+sqlite3.c:71349,36.0
+sqlite3.c:71353,35.0
+sqlite3.c:71361,34.0
+sqlite3.c:71362,37.0
+sqlite3.c:71363,37.0
+sqlite3.c:71366,36.0
+sqlite3.c:71367,33.0
+sqlite3.c:71371,32.0
+sqlite3.c:71373,30.0

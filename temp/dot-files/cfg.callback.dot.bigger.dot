@@ -1,0 +1,5 @@
+digraph "CFG for 'callback' function" {
+	label="CFG for 'callback' function";
+
+	Node0x5602771f5f80 [shape=record,label="{shell.c:13531:}"];
+}

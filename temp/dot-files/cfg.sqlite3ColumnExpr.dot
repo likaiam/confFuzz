@@ -1,0 +1,27 @@
+digraph "CFG for 'sqlite3ColumnExpr' function" {
+	label="CFG for 'sqlite3ColumnExpr' function";
+
+	Node0x55c0f8adca80 [shape=record,label="{sqlite3.c:115799:}"];
+	Node0x55c0f8adca80 -> Node0x55c0f8add030;
+	Node0x55c0f8adca80 -> Node0x55c0f8ade310;
+	Node0x55c0f8add030 [shape=record,label="{sqlite3.c:115800:}"];
+	Node0x55c0f8add030 -> Node0x55c0f8adcc00;
+	Node0x55c0f8ade310 [shape=record,label="{sqlite3.c:115801:}"];
+	Node0x55c0f8ade310 -> Node0x55c0f8adf540;
+	Node0x55c0f8ade310 -> Node0x55c0f8adf4f0;
+	Node0x55c0f8adf4f0 [shape=record,label="{sqlite3.c:115801:}"];
+	Node0x55c0f8adf4f0 -> Node0x55c0f8adcc00;
+	Node0x55c0f8adf540 [shape=record,label="{sqlite3.c:115802:}"];
+	Node0x55c0f8adf540 -> Node0x55c0f8adfb10;
+	Node0x55c0f8adf540 -> Node0x55c0f8adfb60;
+	Node0x55c0f8adfb10 [shape=record,label="{sqlite3.c:115802:}"];
+	Node0x55c0f8adfb10 -> Node0x55c0f8adcc00;
+	Node0x55c0f8adfb60 [shape=record,label="{sqlite3.c:115803:}"];
+	Node0x55c0f8adfb60 -> Node0x55c0f8ae01f0;
+	Node0x55c0f8adfb60 -> Node0x55c0f8ae0240;
+	Node0x55c0f8ae01f0 [shape=record,label="{sqlite3.c:115803:}"];
+	Node0x55c0f8ae01f0 -> Node0x55c0f8adcc00;
+	Node0x55c0f8ae0240 [shape=record,label="{sqlite3.c:115804:}"];
+	Node0x55c0f8ae0240 -> Node0x55c0f8adcc00;
+	Node0x55c0f8adcc00 [shape=record,label="{sqlite3.c:115805:}"];
+}

@@ -1,0 +1,36 @@
+digraph "CFG for 'translateColumnToCopy' function" {
+	label="CFG for 'translateColumnToCopy' function";
+
+	Node0x55c0f52d66d0 [shape=record,label="{sqlite3.c:154402:}"];
+	Node0x55c0f52d66d0 -> Node0x55c0f98d9ba0;
+	Node0x55c0f52d66d0 -> Node0x55c0f98d9bf0;
+	Node0x55c0f98d9ba0 [shape=record,label="{sqlite3.c:154411:}"];
+	Node0x55c0f98d9ba0 -> Node0x55c0f98da1e0;
+	Node0x55c0f98d9bf0 [shape=record,label="{sqlite3.c:154412:}"];
+	Node0x55c0f98d9bf0 -> Node0x55c0f98da270;
+	Node0x55c0f98da270 [shape=record,label="{sqlite3.c:154412:}"];
+	Node0x55c0f98da270 -> Node0x55c0f98da490;
+	Node0x55c0f98da270 -> Node0x55c0f98da1e0;
+	Node0x55c0f98da490 [shape=record,label="{sqlite3.c:154413:}"];
+	Node0x55c0f98da490 -> Node0x55c0f98da910;
+	Node0x55c0f98da490 -> Node0x55c0f98da960;
+	Node0x55c0f98da910 [shape=record,label="{sqlite3.c:154413:}"];
+	Node0x55c0f98da910 -> Node0x55c0f98da400;
+	Node0x55c0f98da960 [shape=record,label="{sqlite3.c:154414:}"];
+	Node0x55c0f98da960 -> Node0x55c0f98daec0;
+	Node0x55c0f98da960 -> Node0x55c0f98daf60;
+	Node0x55c0f98daec0 [shape=record,label="{sqlite3.c:154415:}"];
+	Node0x55c0f98daec0 -> Node0x55c0f98daf10;
+	Node0x55c0f98daf60 [shape=record,label="{sqlite3.c:154419:}"];
+	Node0x55c0f98daf60 -> Node0x55c0f98dc4a0;
+	Node0x55c0f98daf60 -> Node0x55c0f98dc4f0;
+	Node0x55c0f98dc4a0 [shape=record,label="{sqlite3.c:154420:}"];
+	Node0x55c0f98dc4a0 -> Node0x55c0f98dc4f0;
+	Node0x55c0f98dc4f0 [shape=record,label="{%66}"];
+	Node0x55c0f98dc4f0 -> Node0x55c0f98daf10;
+	Node0x55c0f98daf10 [shape=record,label="{sqlite3.c:154429:}"];
+	Node0x55c0f98daf10 -> Node0x55c0f98da400;
+	Node0x55c0f98da400 [shape=record,label="{sqlite3.c:154412:}"];
+	Node0x55c0f98da400 -> Node0x55c0f98da270;
+	Node0x55c0f98da1e0 [shape=record,label="{sqlite3.c:154430:}"];
+}

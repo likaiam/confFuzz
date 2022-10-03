@@ -1,0 +1,15 @@
+digraph "CFG for 'zipfileNewEntry' function" {
+	label="CFG for 'zipfileNewEntry' function";
+
+	Node0x560276b6cd60 [shape=record,label="{shell.c:8040:}"];
+	Node0x560276b6cd60 -> Node0x560276b709b0;
+	Node0x560276b6cd60 -> Node0x560276b70a00;
+	Node0x560276b709b0 [shape=record,label="{shell.c:8044:}"];
+	Node0x560276b709b0 -> Node0x560276b71400;
+	Node0x560276b709b0 -> Node0x560276b71450;
+	Node0x560276b71400 [shape=record,label="{shell.c:8047:}"];
+	Node0x560276b71400 -> Node0x560276b71450;
+	Node0x560276b71450 [shape=record,label="{shell.c:8050:}"];
+	Node0x560276b71450 -> Node0x560276b70a00;
+	Node0x560276b70a00 [shape=record,label="{shell.c:8051:}"];
+}

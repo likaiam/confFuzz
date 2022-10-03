@@ -1,0 +1,10 @@
+digraph "CFG for 'isLimitTerm' function" {
+	label="CFG for 'isLimitTerm' function";
+
+	Node0x55c0f971a7d0 [shape=record,label="{sqlite3.c:157248:}"];
+	Node0x55c0f971a7d0 -> Node0x55c0f96fb1a0;
+	Node0x55c0f971a7d0 -> Node0x55c0f96fb150;
+	Node0x55c0f96fb1a0 [shape=record,label="{sqlite3.c:157251:}"];
+	Node0x55c0f96fb1a0 -> Node0x55c0f96fb150;
+	Node0x55c0f96fb150 [shape=record,label="{sqlite3.c:157251:}"];
+}

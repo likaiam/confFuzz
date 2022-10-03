@@ -1,0 +1,17 @@
+digraph "CFG for 'propagateConstants' function" {
+	label="CFG for 'propagateConstants' function";
+
+	Node0x55c0f9489ff0 [shape=record,label="{sqlite3.c:140305:}"];
+	Node0x55c0f9489ff0 -> Node0x55c0f948ce00;
+	Node0x55c0f948ce00 [shape=record,label="{sqlite3.c:140314:}"];
+	Node0x55c0f948ce00 -> Node0x55c0f64474f0;
+	Node0x55c0f948ce00 -> Node0x55c0f948dec0;
+	Node0x55c0f64474f0 [shape=record,label="{sqlite3.c:140320:}"];
+	Node0x55c0f64474f0 -> Node0x55c0f948dec0;
+	Node0x55c0f948dec0 [shape=record,label="{sqlite3.c:140331:}"];
+	Node0x55c0f948dec0 -> Node0x55c0f948cdb0;
+	Node0x55c0f948cdb0 [shape=record,label="{sqlite3.c:140331:}"];
+	Node0x55c0f948cdb0 -> Node0x55c0f948ce00;
+	Node0x55c0f948cdb0 -> Node0x55c0f948cd60;
+	Node0x55c0f948cd60 [shape=record,label="{sqlite3.c:140332:}"];
+}

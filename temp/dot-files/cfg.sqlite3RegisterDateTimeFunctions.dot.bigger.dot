@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3RegisterDateTimeFunctions' function" {
+	label="CFG for 'sqlite3RegisterDateTimeFunctions' function";
+
+	Node0x55c0fa70f220 [shape=record,label="{sqlite3.c:24578:}"];
+}

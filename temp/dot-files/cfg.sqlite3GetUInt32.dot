@@ -1,0 +1,29 @@
+digraph "CFG for 'sqlite3GetUInt32' function" {
+	label="CFG for 'sqlite3GetUInt32' function";
+
+	Node0x55c0f8383840 [shape=record,label="{sqlite3.c:34130:}"];
+	Node0x55c0f8383840 -> Node0x55c0f838c040;
+	Node0x55c0f838c040 [shape=record,label="{sqlite3.c:34133:}"];
+	Node0x55c0f838c040 -> Node0x55c0f838c1f0;
+	Node0x55c0f838c040 -> Node0x55c0f838be90;
+	Node0x55c0f838c1f0 [shape=record,label="{sqlite3.c:34134:}"];
+	Node0x55c0f838c1f0 -> Node0x55c0f838d120;
+	Node0x55c0f838c1f0 -> Node0x55c0f838d170;
+	Node0x55c0f838d120 [shape=record,label="{sqlite3.c:34135:}"];
+	Node0x55c0f838d120 -> Node0x55c0f8383ad0;
+	Node0x55c0f838d170 [shape=record,label="{sqlite3.c:34136:}"];
+	Node0x55c0f838d170 -> Node0x55c0f838c160;
+	Node0x55c0f838c160 [shape=record,label="{sqlite3.c:34133:}"];
+	Node0x55c0f838c160 -> Node0x55c0f838c040;
+	Node0x55c0f838be90 [shape=record,label="{sqlite3.c:34137:}"];
+	Node0x55c0f838be90 -> Node0x55c0f838dd60;
+	Node0x55c0f838be90 -> Node0x55c0f838de00;
+	Node0x55c0f838de00 [shape=record,label="{sqlite3.c:34137:}"];
+	Node0x55c0f838de00 -> Node0x55c0f838dd60;
+	Node0x55c0f838de00 -> Node0x55c0f838ddb0;
+	Node0x55c0f838dd60 [shape=record,label="{sqlite3.c:34137:}"];
+	Node0x55c0f838dd60 -> Node0x55c0f8383ad0;
+	Node0x55c0f838ddb0 [shape=record,label="{sqlite3.c:34138:}"];
+	Node0x55c0f838ddb0 -> Node0x55c0f8383ad0;
+	Node0x55c0f8383ad0 [shape=record,label="{sqlite3.c:34140:}"];
+}

@@ -1,0 +1,27 @@
+digraph "CFG for 'sqlite3UpsertNextIsIPK' function" {
+	label="CFG for 'sqlite3UpsertNextIsIPK' function";
+
+	Node0x55c0f9facd30 [shape=record,label="{sqlite3.c:146485:}"];
+	Node0x55c0f9facd30 -> Node0x55c0f9fb9330;
+	Node0x55c0f9facd30 -> Node0x55c0f9fb9380;
+	Node0x55c0f9fb9330 [shape=record,label="{sqlite3.c:146487:}"];
+	Node0x55c0f9fb9330 -> Node0x55c0f9fb8f90;
+	Node0x55c0f9fb9380 [shape=record,label="{sqlite3.c:146488:}"];
+	Node0x55c0f9fb9380 -> Node0x55c0f9fbbff0;
+	Node0x55c0f9fb9380 -> Node0x55c0f9fbc040;
+	Node0x55c0f9fbbff0 [shape=record,label="{sqlite3.c:146489:}"];
+	Node0x55c0f9fbbff0 -> Node0x55c0f9fb8f90;
+	Node0x55c0f9fbc040 [shape=record,label="{sqlite3.c:146490:}"];
+	Node0x55c0f9fbc040 -> Node0x55c0f9fbc500;
+	Node0x55c0f9fbc040 -> Node0x55c0f9fbc550;
+	Node0x55c0f9fbc500 [shape=record,label="{sqlite3.c:146490:}"];
+	Node0x55c0f9fbc500 -> Node0x55c0f9fb8f90;
+	Node0x55c0f9fbc550 [shape=record,label="{sqlite3.c:146491:}"];
+	Node0x55c0f9fbc550 -> Node0x55c0f9fbcb70;
+	Node0x55c0f9fbc550 -> Node0x55c0f9fbcbc0;
+	Node0x55c0f9fbcb70 [shape=record,label="{sqlite3.c:146491:}"];
+	Node0x55c0f9fbcb70 -> Node0x55c0f9fb8f90;
+	Node0x55c0f9fbcbc0 [shape=record,label="{sqlite3.c:146492:}"];
+	Node0x55c0f9fbcbc0 -> Node0x55c0f9fb8f90;
+	Node0x55c0f9fb8f90 [shape=record,label="{sqlite3.c:146493:}"];
+}

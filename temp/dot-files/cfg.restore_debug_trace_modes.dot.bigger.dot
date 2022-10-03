@@ -1,0 +1,5 @@
+digraph "CFG for 'restore_debug_trace_modes' function" {
+	label="CFG for 'restore_debug_trace_modes' function";
+
+	Node0x560277430be0 [shape=record,label="{shell.c:14149:}"];
+}

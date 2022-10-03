@@ -1,0 +1,21 @@
+digraph "CFG for 'jsonIs4Hex' function" {
+	label="CFG for 'jsonIs4Hex' function";
+
+	Node0x55c0fa8071c0 [shape=record,label="{sqlite3.c:195759:}"];
+	Node0x55c0fa8071c0 -> Node0x55c0fa807690;
+	Node0x55c0fa807690 [shape=record,label="{sqlite3.c:195761:}"];
+	Node0x55c0fa807690 -> Node0x55c0fa80ac20;
+	Node0x55c0fa807690 -> Node0x55c0fa807520;
+	Node0x55c0fa80ac20 [shape=record,label="{sqlite3.c:195761:}"];
+	Node0x55c0fa80ac20 -> Node0x55c0fa80b830;
+	Node0x55c0fa80ac20 -> Node0x55c0fa80b7e0;
+	Node0x55c0fa80b7e0 [shape=record,label="{sqlite3.c:195761:}"];
+	Node0x55c0fa80b7e0 -> Node0x55c0fa807340;
+	Node0x55c0fa80b830 [shape=record,label="{sqlite3.c:195761:}"];
+	Node0x55c0fa80b830 -> Node0x55c0fa807740;
+	Node0x55c0fa807740 [shape=record,label="{sqlite3.c:195761:}"];
+	Node0x55c0fa807740 -> Node0x55c0fa807690;
+	Node0x55c0fa807520 [shape=record,label="{sqlite3.c:195762:}"];
+	Node0x55c0fa807520 -> Node0x55c0fa807340;
+	Node0x55c0fa807340 [shape=record,label="{sqlite3.c:195763:}"];
+}

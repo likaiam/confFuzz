@@ -1,0 +1,21 @@
+digraph "CFG for 'dbdataGetVarint' function" {
+	label="CFG for 'dbdataGetVarint' function";
+
+	Node0x560276d5da10 [shape=record,label="{shell.c:11625:}"];
+	Node0x560276d5da10 -> Node0x560276a6cea0;
+	Node0x560276a6cea0 [shape=record,label="{shell.c:11628:}"];
+	Node0x560276a6cea0 -> Node0x560276a6cfe0;
+	Node0x560276a6cea0 -> Node0x560276a6ccf0;
+	Node0x560276a6cfe0 [shape=record,label="{shell.c:11629:}"];
+	Node0x560276a6cfe0 -> Node0x560276a6dad0;
+	Node0x560276a6cfe0 -> Node0x560276a6db20;
+	Node0x560276a6dad0 [shape=record,label="{shell.c:11630:}"];
+	Node0x560276a6dad0 -> Node0x5602768f7980;
+	Node0x560276a6db20 [shape=record,label="{shell.c:11631:}"];
+	Node0x560276a6db20 -> Node0x560276a6cf50;
+	Node0x560276a6cf50 [shape=record,label="{shell.c:11628:}"];
+	Node0x560276a6cf50 -> Node0x560276a6cea0;
+	Node0x560276a6ccf0 [shape=record,label="{shell.c:11632:}"];
+	Node0x560276a6ccf0 -> Node0x5602768f7980;
+	Node0x5602768f7980 [shape=record,label="{shell.c:11635:}"];
+}

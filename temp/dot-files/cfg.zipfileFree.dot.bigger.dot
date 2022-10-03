@@ -1,0 +1,5 @@
+digraph "CFG for 'zipfileFree' function" {
+	label="CFG for 'zipfileFree' function";
+
+	Node0x560276b323f0 [shape=record,label="{shell.c:7633:}"];
+}

@@ -1,0 +1,24 @@
+digraph "CFG for 'sqlite3VdbeSorterReset' function" {
+	label="CFG for 'sqlite3VdbeSorterReset' function";
+
+	Node0x55c0f5e602f0 [shape=record,label="{sqlite3.c:98753:}"];
+	Node0x55c0f5e602f0 -> Node0x55c0f5e60150;
+	Node0x55c0f5e602f0 -> Node0x55c0f7a183f0;
+	Node0x55c0f5e60150 [shape=record,label="{sqlite3.c:98759:}"];
+	Node0x55c0f5e60150 -> Node0x55c0f7a183f0;
+	Node0x55c0f7a183f0 [shape=record,label="{sqlite3.c:98764:}"];
+	Node0x55c0f7a183f0 -> Node0x55c0f7a18bb0;
+	Node0x55c0f7a18bb0 [shape=record,label="{sqlite3.c:98766:}"];
+	Node0x55c0f7a18bb0 -> Node0x55c0f7a19db0;
+	Node0x55c0f7a18bb0 -> Node0x55c0f5e60250;
+	Node0x55c0f7a19db0 [shape=record,label="{sqlite3.c:98767:}"];
+	Node0x55c0f7a19db0 -> Node0x55c0f7a19d20;
+	Node0x55c0f7a19d20 [shape=record,label="{sqlite3.c:98766:}"];
+	Node0x55c0f7a19d20 -> Node0x55c0f7a18bb0;
+	Node0x55c0f5e60250 [shape=record,label="{sqlite3.c:98771:}"];
+	Node0x55c0f5e60250 -> Node0x55c0f5e60060;
+	Node0x55c0f5e60250 -> Node0x55c0f7a1add0;
+	Node0x55c0f5e60060 [shape=record,label="{sqlite3.c:98772:}"];
+	Node0x55c0f5e60060 -> Node0x55c0f7a1add0;
+	Node0x55c0f7a1add0 [shape=record,label="{sqlite3.c:98774:}"];
+}

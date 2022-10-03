@@ -1,0 +1,22 @@
+digraph "CFG for 'rtreedepth' function" {
+	label="CFG for 'rtreedepth' function";
+
+	Node0x55c0fb41a580 [shape=record,label="{sqlite3.c:201626:}"];
+	Node0x55c0fb41a580 -> Node0x55c0fb41ab40;
+	Node0x55c0fb41a580 -> Node0x55c0fb41ca80;
+	Node0x55c0fb41ca80 [shape=record,label="{sqlite3.c:201629:}"];
+	Node0x55c0fb41ca80 -> Node0x55c0fb41ab40;
+	Node0x55c0fb41ca80 -> Node0x55c0fb41ca30;
+	Node0x55c0fb41ab40 [shape=record,label="{sqlite3.c:201632:}"];
+	Node0x55c0fb41ab40 -> Node0x55c0fb41c9e0;
+	Node0x55c0fb41ca30 [shape=record,label="{sqlite3.c:201634:}"];
+	Node0x55c0fb41ca30 -> Node0x55c0fb41df60;
+	Node0x55c0fb41ca30 -> Node0x55c0fb41e000;
+	Node0x55c0fb41df60 [shape=record,label="{sqlite3.c:201636:}"];
+	Node0x55c0fb41df60 -> Node0x55c0fb41dfb0;
+	Node0x55c0fb41e000 [shape=record,label="{sqlite3.c:201638:}"];
+	Node0x55c0fb41e000 -> Node0x55c0fb41dfb0;
+	Node0x55c0fb41dfb0 [shape=record,label="{%29}"];
+	Node0x55c0fb41dfb0 -> Node0x55c0fb41c9e0;
+	Node0x55c0fb41c9e0 [shape=record,label="{sqlite3.c:201641:}"];
+}

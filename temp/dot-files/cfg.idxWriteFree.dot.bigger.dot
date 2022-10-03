@@ -1,0 +1,14 @@
+digraph "CFG for 'idxWriteFree' function" {
+	label="CFG for 'idxWriteFree' function";
+
+	Node0x560276d01e90 [shape=record,label="{shell.c:10382:}"];
+	Node0x560276d01e90 -> Node0x560276d04270;
+	Node0x560276d04270 [shape=record,label="{shell.c:10385:}"];
+	Node0x560276d04270 -> Node0x560276d04380;
+	Node0x560276d04270 -> Node0x560276d03660;
+	Node0x560276d04380 [shape=record,label="{shell.c:10386:}"];
+	Node0x560276d04380 -> Node0x560276d042f0;
+	Node0x560276d042f0 [shape=record,label="{shell.c:10385:}"];
+	Node0x560276d042f0 -> Node0x560276d04270;
+	Node0x560276d03660 [shape=record,label="{shell.c:10389:}"];
+}

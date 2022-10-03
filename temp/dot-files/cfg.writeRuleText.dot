@@ -1,0 +1,30 @@
+digraph "CFG for 'writeRuleText' function" {
+	label="CFG for 'writeRuleText' function";
+
+	Node0x562565839910 [shape=record,label="{lemon.c:4269:}"];
+	Node0x562565839910 -> Node0x56256583f750;
+	Node0x56256583f750 [shape=record,label="{lemon.c:4272:}"];
+	Node0x56256583f750 -> Node0x56256583f970;
+	Node0x56256583f750 -> Node0x56256583f5a0;
+	Node0x56256583f970 [shape=record,label="{lemon.c:4273:}"];
+	Node0x56256583f970 -> Node0x562565840680;
+	Node0x56256583f970 -> Node0x562565840720;
+	Node0x562565840680 [shape=record,label="{lemon.c:4275:}"];
+	Node0x562565840680 -> Node0x5625658406d0;
+	Node0x562565840720 [shape=record,label="{lemon.c:4277:}"];
+	Node0x562565840720 -> Node0x562565841bf0;
+	Node0x562565841bf0 [shape=record,label="{lemon.c:4279:}"];
+	Node0x562565841bf0 -> Node0x562565841e10;
+	Node0x562565841bf0 -> Node0x562565841a40;
+	Node0x562565841e10 [shape=record,label="{lemon.c:4280:}"];
+	Node0x562565841e10 -> Node0x562565841d80;
+	Node0x562565841d80 [shape=record,label="{lemon.c:4279:}"];
+	Node0x562565841d80 -> Node0x562565841bf0;
+	Node0x562565841a40 [shape=record,label="{%62}"];
+	Node0x562565841a40 -> Node0x5625658406d0;
+	Node0x5625658406d0 [shape=record,label="{lemon.c:4283:}"];
+	Node0x5625658406d0 -> Node0x56256583f8e0;
+	Node0x56256583f8e0 [shape=record,label="{lemon.c:4272:}"];
+	Node0x56256583f8e0 -> Node0x56256583f750;
+	Node0x56256583f5a0 [shape=record,label="{lemon.c:4284:}"];
+}

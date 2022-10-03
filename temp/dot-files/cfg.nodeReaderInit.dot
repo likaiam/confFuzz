@@ -1,0 +1,22 @@
+digraph "CFG for 'nodeReaderInit' function" {
+	label="CFG for 'nodeReaderInit' function";
+
+	Node0x55c0fb172cb0 [shape=record,label="{sqlite3.c:190483:}"];
+	Node0x55c0fb172cb0 -> Node0x55c0fb194420;
+	Node0x55c0fb172cb0 -> Node0x55c0fb1943d0;
+	Node0x55c0fb194420 [shape=record,label="{sqlite3.c:190489:}"];
+	Node0x55c0fb194420 -> Node0x55c0fb194330;
+	Node0x55c0fb194420 -> Node0x55c0fb1943d0;
+	Node0x55c0fb194330 [shape=record,label="{sqlite3.c:190491:}"];
+	Node0x55c0fb194330 -> Node0x55c0fb194380;
+	Node0x55c0fb1943d0 [shape=record,label="{sqlite3.c:190493:}"];
+	Node0x55c0fb1943d0 -> Node0x55c0fb194380;
+	Node0x55c0fb194380 [shape=record,label="{sqlite3.c:190496:}"];
+	Node0x55c0fb194380 -> Node0x55c0fb1958c0;
+	Node0x55c0fb194380 -> Node0x55c0fb195910;
+	Node0x55c0fb1958c0 [shape=record,label="{sqlite3.c:190496:}"];
+	Node0x55c0fb1958c0 -> Node0x55c0fb195960;
+	Node0x55c0fb195910 [shape=record,label="{sqlite3.c:190496:}"];
+	Node0x55c0fb195910 -> Node0x55c0fb195960;
+	Node0x55c0fb195960 [shape=record,label="{sqlite3.c:190496:}"];
+}

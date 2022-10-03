@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3PagerCacheStat' function" {
+	label="CFG for 'sqlite3PagerCacheStat' function";
+
+	Node0x55c0f57ea950 [shape=record,label="{sqlite3.c:60653:}"];
+	Node0x55c0f57ea950 -> Node0x55c0f72985a0;
+	Node0x55c0f57ea950 -> Node0x55c0f72985f0;
+	Node0x55c0f72985a0 [shape=record,label="{sqlite3.c:60669:}"];
+	Node0x55c0f72985a0 -> Node0x55c0f72985f0;
+	Node0x55c0f72985f0 [shape=record,label="{sqlite3.c:60671:}"];
+}

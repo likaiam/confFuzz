@@ -1,0 +1,17 @@
+digraph "CFG for 'robust_ftruncate' function" {
+	label="CFG for 'robust_ftruncate' function";
+
+	Node0x55c0f695a180 [shape=record,label="{sqlite3.c:36254:}"];
+	Node0x55c0f695a180 -> Node0x55c0f70a0fb0;
+	Node0x55c0f70a0fb0 [shape=record,label="{sqlite3.c:36265:}"];
+	Node0x55c0f70a0fb0 -> Node0x55c0f70a0f60;
+	Node0x55c0f70a0f60 [shape=record,label="{sqlite3.c:36265:}"];
+	Node0x55c0f70a0f60 -> Node0x55c0f70a18b0;
+	Node0x55c0f70a0f60 -> Node0x55c0f70a1860;
+	Node0x55c0f70a18b0 [shape=record,label="{sqlite3.c:36265:}"];
+	Node0x55c0f70a18b0 -> Node0x55c0f70a1860;
+	Node0x55c0f70a1860 [shape=record,label="{sqlite3.c:36265:}"];
+	Node0x55c0f70a1860 -> Node0x55c0f70a0fb0;
+	Node0x55c0f70a1860 -> Node0x55c0f70a0f10;
+	Node0x55c0f70a0f10 [shape=record,label="{sqlite3.c:36266:}"];
+}

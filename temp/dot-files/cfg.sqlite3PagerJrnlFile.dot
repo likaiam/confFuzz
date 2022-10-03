@@ -1,0 +1,12 @@
+digraph "CFG for 'sqlite3PagerJrnlFile' function" {
+	label="CFG for 'sqlite3PagerJrnlFile' function";
+
+	Node0x55c0fb86c010 [shape=record,label="{sqlite3.c:60884:}"];
+	Node0x55c0fb86c010 -> Node0x55c0fb86cd10;
+	Node0x55c0fb86c010 -> Node0x55c0fb86cd60;
+	Node0x55c0fb86cd10 [shape=record,label="{sqlite3.c:60888:}"];
+	Node0x55c0fb86cd10 -> Node0x55c0fb86cdb0;
+	Node0x55c0fb86cd60 [shape=record,label="{sqlite3.c:60888:}"];
+	Node0x55c0fb86cd60 -> Node0x55c0fb86cdb0;
+	Node0x55c0fb86cdb0 [shape=record,label="{sqlite3.c:60888:}"];
+}

@@ -1,0 +1,17 @@
+digraph "CFG for 'sqlite3IsTrueOrFalse' function" {
+	label="CFG for 'sqlite3IsTrueOrFalse' function";
+
+	Node0x55c0f8f79a40 [shape=record,label="{sqlite3.c:105648:}"];
+	Node0x55c0f8f79a40 -> Node0x55c0f8f8fbb0;
+	Node0x55c0f8f79a40 -> Node0x55c0f8f8fec0;
+	Node0x55c0f8f8fbb0 [shape=record,label="{sqlite3.c:105649:}"];
+	Node0x55c0f8f8fbb0 -> Node0x55c0f8f79bc0;
+	Node0x55c0f8f8fec0 [shape=record,label="{sqlite3.c:105650:}"];
+	Node0x55c0f8f8fec0 -> Node0x55c0f8f909d0;
+	Node0x55c0f8f8fec0 -> Node0x55c0f8f90a20;
+	Node0x55c0f8f909d0 [shape=record,label="{sqlite3.c:105650:}"];
+	Node0x55c0f8f909d0 -> Node0x55c0f8f79bc0;
+	Node0x55c0f8f90a20 [shape=record,label="{sqlite3.c:105651:}"];
+	Node0x55c0f8f90a20 -> Node0x55c0f8f79bc0;
+	Node0x55c0f8f79bc0 [shape=record,label="{sqlite3.c:105652:}"];
+}

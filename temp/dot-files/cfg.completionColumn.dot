@@ -1,0 +1,19 @@
+digraph "CFG for 'completionColumn' function" {
+	label="CFG for 'completionColumn' function";
+
+	Node0x5602768c77b0 [shape=record,label="{shell.c:3446:}"];
+	Node0x5602768c77b0 -> Node0x5602768d9850;
+	Node0x5602768c77b0 -> Node0x5602768d9d20;
+	Node0x5602768c77b0 -> Node0x5602768da4e0;
+	Node0x5602768c77b0 -> Node0x5602768dab00;
+	Node0x5602768c77b0 -> Node0x5602768db120;
+	Node0x5602768d9d20 [shape=record,label="{shell.c:3453:}"];
+	Node0x5602768d9d20 -> Node0x5602768d9850;
+	Node0x5602768da4e0 [shape=record,label="{shell.c:3457:}"];
+	Node0x5602768da4e0 -> Node0x5602768d9850;
+	Node0x5602768dab00 [shape=record,label="{shell.c:3461:}"];
+	Node0x5602768dab00 -> Node0x5602768d9850;
+	Node0x5602768db120 [shape=record,label="{shell.c:3465:}"];
+	Node0x5602768db120 -> Node0x5602768d9850;
+	Node0x5602768d9850 [shape=record,label="{shell.c:3469:}"];
+}

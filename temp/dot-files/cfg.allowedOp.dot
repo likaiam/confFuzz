@@ -1,0 +1,19 @@
+digraph "CFG for 'allowedOp' function" {
+	label="CFG for 'allowedOp' function";
+
+	Node0x55c0f95bb950 [shape=record,label="{sqlite3.c:151993:}"];
+	Node0x55c0f95bb950 -> Node0x55c0f95be950;
+	Node0x55c0f95bb950 -> Node0x55c0f95bbb50;
+	Node0x55c0f95bbb50 [shape=record,label="{sqlite3.c:151998:}"];
+	Node0x55c0f95bbb50 -> Node0x55c0f95bbda0;
+	Node0x55c0f95bbb50 -> Node0x55c0f95be740;
+	Node0x55c0f95bbda0 [shape=record,label="{sqlite3.c:151998:}"];
+	Node0x55c0f95bbda0 -> Node0x55c0f95be950;
+	Node0x55c0f95bbda0 -> Node0x55c0f95be740;
+	Node0x55c0f95be740 [shape=record,label="{sqlite3.c:151998:}"];
+	Node0x55c0f95be740 -> Node0x55c0f95be950;
+	Node0x55c0f95be740 -> Node0x55c0f95bb840;
+	Node0x55c0f95bb840 [shape=record,label="{sqlite3.c:151998:}"];
+	Node0x55c0f95bb840 -> Node0x55c0f95be950;
+	Node0x55c0f95be950 [shape=record,label="{sqlite3.c:151998:}"];
+}

@@ -1,0 +1,9 @@
+sqlite3.c:99219,25.0
+sqlite3.c:99241,24.0
+sqlite3.c:99242,26.0
+sqlite3.c:99245,26.0
+sqlite3.c:99247,24.0
+sqlite3.c:99248,26.0
+sqlite3.c:99250,23.0
+sqlite3.c:99251,22.0
+sqlite3.c:99253,20.0

@@ -1,0 +1,10 @@
+digraph "CFG for 'sqlite3re_free' function" {
+	label="CFG for 'sqlite3re_free' function";
+
+	Node0x560276a55f40 [shape=record,label="{shell.c:6541:}"];
+	Node0x560276a55f40 -> Node0x560276a5aa90;
+	Node0x560276a55f40 -> Node0x560276a59520;
+	Node0x560276a5aa90 [shape=record,label="{shell.c:6543:}"];
+	Node0x560276a5aa90 -> Node0x560276a59520;
+	Node0x560276a59520 [shape=record,label="{shell.c:6547:}"];
+}

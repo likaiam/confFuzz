@@ -1,0 +1,19 @@
+digraph "CFG for 'fsdirResetCursor' function" {
+	label="CFG for 'fsdirResetCursor' function";
+
+	Node0x560276878fc0 [shape=record,label="{shell.c:2755:}"];
+	Node0x560276878fc0 -> Node0x56027687df40;
+	Node0x56027687df40 [shape=record,label="{shell.c:2757:}"];
+	Node0x56027687df40 -> Node0x56027687e990;
+	Node0x56027687df40 -> Node0x56027687de60;
+	Node0x56027687e990 [shape=record,label="{shell.c:2758:}"];
+	Node0x56027687e990 -> Node0x56027687fc40;
+	Node0x56027687e990 -> Node0x56027687fc90;
+	Node0x56027687fc40 [shape=record,label="{shell.c:2759:}"];
+	Node0x56027687fc40 -> Node0x56027687fc90;
+	Node0x56027687fc90 [shape=record,label="{shell.c:2760:}"];
+	Node0x56027687fc90 -> Node0x56027687e190;
+	Node0x56027687e190 [shape=record,label="{shell.c:2757:}"];
+	Node0x56027687e190 -> Node0x56027687df40;
+	Node0x56027687de60 [shape=record,label="{shell.c:2762:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'closeUnixFile' function" {
+	label="CFG for 'closeUnixFile' function";
+
+	Node0x55c0f7077dd0 [shape=record,label="{sqlite3.c:37506:}"];
+	Node0x55c0f7077dd0 -> Node0x55c0f57547b0;
+	Node0x55c0f7077dd0 -> Node0x55c0f707a560;
+	Node0x55c0f57547b0 [shape=record,label="{sqlite3.c:37512:}"];
+	Node0x55c0f57547b0 -> Node0x55c0f707a560;
+	Node0x55c0f707a560 [shape=record,label="{sqlite3.c:37533:}"];
+}

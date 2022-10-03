@@ -1,0 +1,25 @@
+digraph "CFG for 'sqlite3Fts3EvalTestDeferred' function" {
+	label="CFG for 'sqlite3Fts3EvalTestDeferred' function";
+
+	Node0x55c0fafc3da0 [shape=record,label="{sqlite3.c:182033:}"];
+	Node0x55c0fafc3da0 -> Node0x55c0fafcb620;
+	Node0x55c0fafc3da0 -> Node0x55c0fafcb670;
+	Node0x55c0fafcb620 [shape=record,label="{sqlite3.c:182044:}"];
+	Node0x55c0fafcb620 -> Node0x55c0fafcba80;
+	Node0x55c0fafcb620 -> Node0x55c0fafcbad0;
+	Node0x55c0fafcba80 [shape=record,label="{sqlite3.c:182045:}"];
+	Node0x55c0fafcba80 -> Node0x55c0f6b7b110;
+	Node0x55c0fafcba80 -> Node0x55c0fafcc610;
+	Node0x55c0f6b7b110 [shape=record,label="{sqlite3.c:182047:}"];
+	Node0x55c0f6b7b110 -> Node0x55c0fafcc610;
+	Node0x55c0fafcc610 [shape=record,label="{sqlite3.c:182049:}"];
+	Node0x55c0fafcc610 -> Node0x55c0fafcbad0;
+	Node0x55c0fafcbad0 [shape=record,label="{sqlite3.c:182050:}"];
+	Node0x55c0fafcbad0 -> Node0x55c0fafcb670;
+	Node0x55c0fafcb670 [shape=record,label="{sqlite3.c:182056:}"];
+	Node0x55c0fafcb670 -> Node0x55c0f5d08d90;
+	Node0x55c0fafcb670 -> Node0x55c0f6d0e8b0;
+	Node0x55c0f5d08d90 [shape=record,label="{sqlite3.c:182056:}"];
+	Node0x55c0f5d08d90 -> Node0x55c0f6d0e8b0;
+	Node0x55c0f6d0e8b0 [shape=record,label="{sqlite3.c:182056:}"];
+}

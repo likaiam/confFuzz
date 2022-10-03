@@ -1,0 +1,15 @@
+digraph "CFG for 'fts3Writelock' function" {
+	label="CFG for 'fts3Writelock' function";
+
+	Node0x55c0fb2142b0 [shape=record,label="{sqlite3.c:187182:}"];
+	Node0x55c0fb2142b0 -> Node0x55c0fb214670;
+	Node0x55c0fb2142b0 -> Node0x55c0fb2146c0;
+	Node0x55c0fb214670 [shape=record,label="{sqlite3.c:187186:}"];
+	Node0x55c0fb214670 -> Node0x55c0fb219530;
+	Node0x55c0fb214670 -> Node0x55c0fb219580;
+	Node0x55c0fb219530 [shape=record,label="{sqlite3.c:187189:}"];
+	Node0x55c0fb219530 -> Node0x55c0fb219580;
+	Node0x55c0fb219580 [shape=record,label="{sqlite3.c:187193:}"];
+	Node0x55c0fb219580 -> Node0x55c0fb2146c0;
+	Node0x55c0fb2146c0 [shape=record,label="{sqlite3.c:187195:}"];
+}

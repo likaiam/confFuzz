@@ -1,0 +1,27 @@
+digraph "CFG for 'vdbePmaWriteBlob' function" {
+	label="CFG for 'vdbePmaWriteBlob' function";
+
+	Node0x55c0f77c20f0 [shape=record,label="{sqlite3.c:98997:}"];
+	Node0x55c0f77c20f0 -> Node0x55c0f77c42c0;
+	Node0x55c0f77c42c0 [shape=record,label="{sqlite3.c:98999:}"];
+	Node0x55c0f77c42c0 -> Node0x55c0f77c4410;
+	Node0x55c0f77c42c0 -> Node0x55c0f77c43c0;
+	Node0x55c0f77c4410 [shape=record,label="{sqlite3.c:98999:}"];
+	Node0x55c0f77c4410 -> Node0x55c0f77c43c0;
+	Node0x55c0f77c43c0 [shape=record,label="{sqlite3.c:98999:}"];
+	Node0x55c0f77c43c0 -> Node0x55c0f77c4a70;
+	Node0x55c0f77c43c0 -> Node0x55c0f77c4340;
+	Node0x55c0f77c4a70 [shape=record,label="{sqlite3.c:99000:}"];
+	Node0x55c0f77c4a70 -> Node0x55c0f77c5030;
+	Node0x55c0f77c4a70 -> Node0x55c0f77c5080;
+	Node0x55c0f77c5030 [shape=record,label="{sqlite3.c:99002:}"];
+	Node0x55c0f77c5030 -> Node0x55c0f77c5080;
+	Node0x55c0f77c5080 [shape=record,label="{sqlite3.c:99005:}"];
+	Node0x55c0f77c5080 -> Node0x55c0f77c6eb0;
+	Node0x55c0f77c5080 -> Node0x55c0f77c6f00;
+	Node0x55c0f77c6eb0 [shape=record,label="{sqlite3.c:99008:}"];
+	Node0x55c0f77c6eb0 -> Node0x55c0f77c6f00;
+	Node0x55c0f77c6f00 [shape=record,label="{sqlite3.c:99017:}"];
+	Node0x55c0f77c6f00 -> Node0x55c0f77c42c0;
+	Node0x55c0f77c4340 [shape=record,label="{sqlite3.c:99019:}"];
+}

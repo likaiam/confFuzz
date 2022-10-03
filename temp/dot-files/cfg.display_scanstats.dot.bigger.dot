@@ -1,0 +1,5 @@
+digraph "CFG for 'display_scanstats' function" {
+	label="CFG for 'display_scanstats' function";
+
+	Node0x560277431dc0 [shape=record,label="{shell.c:13966:}"];
+}

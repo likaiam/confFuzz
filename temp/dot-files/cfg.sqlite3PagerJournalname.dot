@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3PagerJournalname' function" {
+	label="CFG for 'sqlite3PagerJournalname' function";
+
+	Node0x55c0f7a8d9b0 [shape=record,label="{sqlite3.c:60895:}"];
+}

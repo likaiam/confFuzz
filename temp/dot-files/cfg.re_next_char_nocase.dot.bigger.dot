@@ -1,0 +1,13 @@
+digraph "CFG for 're_next_char_nocase' function" {
+	label="CFG for 're_next_char_nocase' function";
+
+	Node0x5602769f5030 [shape=record,label="{shell.c:6097:}"];
+	Node0x5602769f5030 -> Node0x560276a05f50;
+	Node0x5602769f5030 -> Node0x560276a05f00;
+	Node0x560276a05f50 [shape=record,label="{shell.c:6099:}"];
+	Node0x560276a05f50 -> Node0x560276a057c0;
+	Node0x560276a05f50 -> Node0x560276a05f00;
+	Node0x560276a057c0 [shape=record,label="{shell.c:6099:}"];
+	Node0x560276a057c0 -> Node0x560276a05f00;
+	Node0x560276a05f00 [shape=record,label="{shell.c:6100:}"];
+}

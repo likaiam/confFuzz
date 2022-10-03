@@ -1,0 +1,13 @@
+digraph "CFG for 'nth_valueFinalizeFunc' function" {
+	label="CFG for 'nth_valueFinalizeFunc' function";
+
+	Node0x55c0fa704490 [shape=record,label="{sqlite3.c:160299:}"];
+	Node0x55c0fa704490 -> Node0x55c0fa7048c0;
+	Node0x55c0fa704490 -> Node0x55c0fa704870;
+	Node0x55c0fa7048c0 [shape=record,label="{sqlite3.c:160302:}"];
+	Node0x55c0fa7048c0 -> Node0x55c0fa704820;
+	Node0x55c0fa7048c0 -> Node0x55c0fa704870;
+	Node0x55c0fa704820 [shape=record,label="{sqlite3.c:160303:}"];
+	Node0x55c0fa704820 -> Node0x55c0fa704870;
+	Node0x55c0fa704870 [shape=record,label="{sqlite3.c:160307:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'cdateFunc' function" {
+	label="CFG for 'cdateFunc' function";
+
+	Node0x55c0fa7c3bd0 [shape=record,label="{sqlite3.c:24487:}"];
+}

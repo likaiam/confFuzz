@@ -1,0 +1,24 @@
+digraph "CFG for 'collationMatch' function" {
+	label="CFG for 'collationMatch' function";
+
+	Node0x55c0fa309790 [shape=record,label="{sqlite3.c:120458:}"];
+	Node0x55c0fa309790 -> Node0x55c0fa30b990;
+	Node0x55c0fa30b990 [shape=record,label="{sqlite3.c:120461:}"];
+	Node0x55c0fa30b990 -> Node0x55c0fa30bad0;
+	Node0x55c0fa30b990 -> Node0x55c0fa30b7e0;
+	Node0x55c0fa30bad0 [shape=record,label="{sqlite3.c:120462:}"];
+	Node0x55c0fa30bad0 -> Node0x55c0fa30c920;
+	Node0x55c0fa30bad0 -> Node0x55c0fa30c8d0;
+	Node0x55c0fa30c920 [shape=record,label="{sqlite3.c:120464:}"];
+	Node0x55c0fa30c920 -> Node0x55c0fa30c880;
+	Node0x55c0fa30c920 -> Node0x55c0fa30c8d0;
+	Node0x55c0fa30c880 [shape=record,label="{sqlite3.c:120465:}"];
+	Node0x55c0fa30c880 -> Node0x55c0fa307680;
+	Node0x55c0fa30c8d0 [shape=record,label="{sqlite3.c:120467:}"];
+	Node0x55c0fa30c8d0 -> Node0x55c0fa30ba40;
+	Node0x55c0fa30ba40 [shape=record,label="{sqlite3.c:120461:}"];
+	Node0x55c0fa30ba40 -> Node0x55c0fa30b990;
+	Node0x55c0fa30b7e0 [shape=record,label="{sqlite3.c:120468:}"];
+	Node0x55c0fa30b7e0 -> Node0x55c0fa307680;
+	Node0x55c0fa307680 [shape=record,label="{sqlite3.c:120469:}"];
+}

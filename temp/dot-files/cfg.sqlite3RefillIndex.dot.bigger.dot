@@ -1,0 +1,41 @@
+digraph "CFG for 'sqlite3RefillIndex' function" {
+	label="CFG for 'sqlite3RefillIndex' function";
+
+	Node0x55c0f91a46b0 [shape=record,label="{sqlite3.c:118799:}"];
+	Node0x55c0f91a46b0 -> Node0x55c0f91b0f60;
+	Node0x55c0f91a46b0 -> Node0x55c0f91b0fb0;
+	Node0x55c0f91b0f60 [shape=record,label="{sqlite3.c:118817:}"];
+	Node0x55c0f91b0f60 -> Node0x55c0f91a6430;
+	Node0x55c0f91b0fb0 [shape=record,label="{sqlite3.c:118822:}"];
+	Node0x55c0f91b0fb0 -> Node0x55c0f91b1840;
+	Node0x55c0f91b0fb0 -> Node0x55c0f91b2440;
+	Node0x55c0f91b1840 [shape=record,label="{sqlite3.c:118825:}"];
+	Node0x55c0f91b1840 -> Node0x55c0f91a6430;
+	Node0x55c0f91b2440 [shape=record,label="{sqlite3.c:118826:}"];
+	Node0x55c0f91b2440 -> Node0x55c0f91b2840;
+	Node0x55c0f91b2440 -> Node0x55c0f91b28e0;
+	Node0x55c0f91b2840 [shape=record,label="{sqlite3.c:118827:}"];
+	Node0x55c0f91b2840 -> Node0x55c0f91b2890;
+	Node0x55c0f91b28e0 [shape=record,label="{sqlite3.c:118829:}"];
+	Node0x55c0f91b28e0 -> Node0x55c0f91b2890;
+	Node0x55c0f91b2890 [shape=record,label="{sqlite3.c:118831:}"];
+	Node0x55c0f91b2890 -> Node0x55c0f61a5990;
+	Node0x55c0f91b2890 -> Node0x55c0f61a5940;
+	Node0x55c0f61a5990 [shape=record,label="{sqlite3.c:118851:}"];
+	Node0x55c0f61a5990 -> Node0x55c0f61a5940;
+	Node0x55c0f61a5940 [shape=record,label="{sqlite3.c:118852:}"];
+	Node0x55c0f61a5940 -> Node0x55c0f63a65e0;
+	Node0x55c0f61a5940 -> Node0x55c0f91b7a20;
+	Node0x55c0f63a65e0 [shape=record,label="{sqlite3.c:118858:}"];
+	Node0x55c0f63a65e0 -> Node0x55c0f91b4600;
+	Node0x55c0f91b7a20 [shape=record,label="{sqlite3.c:118873:}"];
+	Node0x55c0f91b7a20 -> Node0x55c0f91b4600;
+	Node0x55c0f91b4600 [shape=record,label="{sqlite3.c:118876:}"];
+	Node0x55c0f91b4600 -> Node0x55c0f60cad50;
+	Node0x55c0f91b4600 -> Node0x55c0f6180de0;
+	Node0x55c0f6180de0 [shape=record,label="{sqlite3.c:118885:}"];
+	Node0x55c0f6180de0 -> Node0x55c0f60cad50;
+	Node0x55c0f60cad50 [shape=record,label="{sqlite3.c:118887:}"];
+	Node0x55c0f60cad50 -> Node0x55c0f91a6430;
+	Node0x55c0f91a6430 [shape=record,label="{sqlite3.c:118896:}"];
+}

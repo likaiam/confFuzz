@@ -1,0 +1,42 @@
+digraph "CFG for 'statecmp' function" {
+	label="CFG for 'statecmp' function";
+
+	Node0x5625656c1830 [shape=record,label="{lemon.c:5592:}"];
+	Node0x5625656c1830 -> Node0x5625656c7ed0;
+	Node0x5625656c7ed0 [shape=record,label="{lemon.c:5595:}"];
+	Node0x5625656c7ed0 -> Node0x5625656c8130;
+	Node0x5625656c7ed0 -> Node0x5625656c8090;
+	Node0x5625656c8130 [shape=record,label="{lemon.c:5595:}"];
+	Node0x5625656c8130 -> Node0x5625656c80e0;
+	Node0x5625656c8130 -> Node0x5625656c8090;
+	Node0x5625656c80e0 [shape=record,label="{lemon.c:5595:}"];
+	Node0x5625656c80e0 -> Node0x5625656c8090;
+	Node0x5625656c8090 [shape=record,label="{lemon.c:5595:}"];
+	Node0x5625656c8090 -> Node0x5625656c8010;
+	Node0x5625656c8090 -> Node0x5625656c4c20;
+	Node0x5625656c8010 [shape=record,label="{lemon.c:5596:}"];
+	Node0x5625656c8010 -> Node0x5625656c9300;
+	Node0x5625656c8010 -> Node0x5625656c9350;
+	Node0x5625656c9300 [shape=record,label="{lemon.c:5597:}"];
+	Node0x5625656c9300 -> Node0x5625656c9350;
+	Node0x5625656c9350 [shape=record,label="{lemon.c:5598:}"];
+	Node0x5625656c9350 -> Node0x5625656c7f80;
+	Node0x5625656c7f80 [shape=record,label="{lemon.c:5595:}"];
+	Node0x5625656c7f80 -> Node0x5625656c7ed0;
+	Node0x5625656c4c20 [shape=record,label="{lemon.c:5599:}"];
+	Node0x5625656c4c20 -> Node0x5625656ca590;
+	Node0x5625656c4c20 -> Node0x5625656ca5e0;
+	Node0x5625656ca590 [shape=record,label="{lemon.c:5600:}"];
+	Node0x5625656ca590 -> Node0x5625656ca980;
+	Node0x5625656ca590 -> Node0x5625656ca9d0;
+	Node0x5625656ca980 [shape=record,label="{lemon.c:5600:}"];
+	Node0x5625656ca980 -> Node0x5625656ca9d0;
+	Node0x5625656ca9d0 [shape=record,label="{lemon.c:5601:}"];
+	Node0x5625656ca9d0 -> Node0x5625656cadc0;
+	Node0x5625656ca9d0 -> Node0x5625656cae10;
+	Node0x5625656cadc0 [shape=record,label="{lemon.c:5601:}"];
+	Node0x5625656cadc0 -> Node0x5625656cae10;
+	Node0x5625656cae10 [shape=record,label="{lemon.c:5602:}"];
+	Node0x5625656cae10 -> Node0x5625656ca5e0;
+	Node0x5625656ca5e0 [shape=record,label="{lemon.c:5603:}"];
+}

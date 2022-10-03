@@ -1,0 +1,19 @@
+digraph "CFG for 'sqlite3VdbeReusable' function" {
+	label="CFG for 'sqlite3VdbeReusable' function";
+
+	Node0x55c0fa23a410 [shape=record,label="{sqlite3.c:81238:}"];
+	Node0x55c0fa23a410 -> Node0x55c0fa243510;
+	Node0x55c0fa243510 [shape=record,label="{sqlite3.c:81240:}"];
+	Node0x55c0fa243510 -> Node0x55c0fa2448e0;
+	Node0x55c0fa243510 -> Node0x55c0fa243360;
+	Node0x55c0fa2448e0 [shape=record,label="{sqlite3.c:81241:}"];
+	Node0x55c0fa2448e0 -> Node0x55c0fa244d50;
+	Node0x55c0fa2448e0 -> Node0x55c0fa244da0;
+	Node0x55c0fa244d50 [shape=record,label="{sqlite3.c:81242:}"];
+	Node0x55c0fa244d50 -> Node0x55c0fa243360;
+	Node0x55c0fa244da0 [shape=record,label="{sqlite3.c:81245:}"];
+	Node0x55c0fa244da0 -> Node0x55c0fa244850;
+	Node0x55c0fa244850 [shape=record,label="{sqlite3.c:81240:}"];
+	Node0x55c0fa244850 -> Node0x55c0fa243510;
+	Node0x55c0fa243360 [shape=record,label="{sqlite3.c:81246:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'apndShmBarrier' function" {
+	label="CFG for 'apndShmBarrier' function";
+
+	Node0x56027690fdf0 [shape=record,label="{shell.c:4047:}"];
+}

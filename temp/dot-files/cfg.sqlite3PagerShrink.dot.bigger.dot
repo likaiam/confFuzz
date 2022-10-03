@@ -1,0 +1,5 @@
+digraph "CFG for 'sqlite3PagerShrink' function" {
+	label="CFG for 'sqlite3PagerShrink' function";
+
+	Node0x55c0fa9904b0 [shape=record,label="{sqlite3.c:57355:}"];
+}
