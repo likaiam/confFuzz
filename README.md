@@ -59,6 +59,7 @@ pushd $SUBJECT/bld
   make clean
   make 
 popd
+```
 # How to fuzz the instrumented binary
 * We set the exponential annealing-based power schedule (-z exp).
 * We set the time-to-exploitation to 45min (-c 45m), assuming the fuzzer is run for about an hour.
