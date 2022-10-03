@@ -1,8 +1,9 @@
 # confFuzz
-面向数据库配置的定向灰盒模糊测试
-How to instrument a Binary
-1.Install LLVM 11.0.0 with Gold-plugin. 
-2.Install other prerequisite
+## 面向数据库配置的定向灰盒模糊测试
+# How to instrument a Binary
+1) Install LLVM 11.0.0 with Gold-plugin. 
+2) Install other prerequisite
+```bash
 sudo apt-get update
 sudo apt-get install python3
 sudo apt-get install python3-dev
@@ -12,7 +13,10 @@ sudo pip3 install --upgrade pip
 sudo pip3 install networkx
 sudo pip3 install pydot
 sudo pip3 install pydotplus
-3.Compile confFuzz fuzzer, LLVM-instrumentation pass and the distance calculator
+```
+3) Compile confFuzz fuzzer, LLVM-instrumentation pass and the distance calculator
+
+```bash
 # Checkout source code
 git clone https://github.com/likaiam/confFuzz.git
 export ConfFuzz=$PWD/conffuzz
@@ -27,4 +31,10 @@ cd distance_calculator/
 cmake -G Ninja ./
 cmake --build ./
 popd
-4.Download subject (e.g., sqlite3)
+```
+4) Download subject (e.g., sqlite3)
+```bash
+# Clone subject repository
+git clone https://github.com/sqlite/sqlite.git
+export SUBJECT=$PWD/bld/sqlite3
+```
