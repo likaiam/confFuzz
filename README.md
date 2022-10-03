@@ -38,3 +38,14 @@ popd
 git clone https://github.com/sqlite/sqlite.git
 export SUBJECT=$PWD/bld/sqlite3
 ```
+# How to fuzz the instrumented binary
+* We set the exponential annealing-based power schedule (-z exp).
+* We set the time-to-exploitation to 45min (-c 45m), assuming the fuzzer is run for about an hour.
+```bash
+# Construct seed corpus
+cd fuzz_root
+mkdir input
+
+$AFLGO/afl-fuzz -S ef709ce2 -z exp -c 45m -i in -o out $SUBJECT/sqlite3 --bail
+```
+
